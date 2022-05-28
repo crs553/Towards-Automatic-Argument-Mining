@@ -1,0 +1,61 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>type of temper and advantages of individual work are the most persuasive arguments in favor of studying alone</text>
+    <TextPosition start="1432" end="1541"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>my productivity boosts when style of work is appropriate with my type of temper</text>
+    <TextPosition start="794" end="873"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Being by nature introvert, I have to spend much time and efforts on adjusting to surroundings and especially new people</text>
+    <TextPosition start="481" end="600"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Once, when I was working on presentation with strangers, I sat aside and so prepared more than half of work myself instead of making attempts to get acquainted with unknown people</text>
+    <TextPosition start="602" end="781"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>I must not divide tasks and duties between team members, share responsibility and benefits, and spend time on teambuilding</text>
+    <TextPosition start="1026" end="1148"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>These advantages are especially important in situations of shortage of time</text>
+    <TextPosition start="1150" end="1225"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>About a year ago I was lucky to become a participant of student brainstorming game</text>
+    <TextPosition start="1227" end="1309"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>To my rivals' surprise, being the only member of my own "team" I gained a victory</text>
+    <TextPosition start="1311" end="1392"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>working alone allows me to avoid spending time and efforts on many things that are an integral part of teamwork</text>
+    <TextPosition start="897" end="1008"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Type of temper and advantages of individual work as best arguments in favor of studying alone
+
+Study achievements depend on a range of various factors, one of which is pattern of work you tend to choose while studying. In particular, we may prefer to work either within a team of other students or alone. As for me, I favor the latter because of the following reasons.
+To begin with, type of temper is one of the reasons that make me to choose individual work instead of team one. Being by nature introvert, I have to spend much time and efforts on adjusting to surroundings and especially new people. Once, when I was working on presentation with strangers, I sat aside and so prepared more than half of work myself instead of making attempts to get acquainted with unknown people. Therefore, my productivity boosts when style of work is appropriate with my type of temper.
+Furthermore/moreover, working alone allows me to avoid spending time and efforts on many things that are an integral part of teamwork. In other words, I must not divide tasks and duties between team members, share responsibility and benefits, and spend time on teambuilding. These advantages are especially important in situations of shortage of time. About a year ago I was lucky to become a participant of student brainstorming game. To my rivals' surprise, being the only member of my own "team" I gained a victory.
+In conclusion, from my point of view, type of temper and advantages of individual work are the most persuasive arguments in favor of studying alone.</OriginalText>
+</Annotation>

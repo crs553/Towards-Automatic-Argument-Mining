@@ -1,0 +1,134 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is no evidence about the reduction of crime rates due to the death penalty</text>
+    <TextPosition start="607" end="684"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>death penalty neither controls the violent in society nor creates a violent culture</text>
+    <TextPosition start="1063" end="1146"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one</text>
+    <TextPosition start="790" end="933"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>the criminal is repeated second time</text>
+    <TextPosition start="950" end="986"/>
+    <Relation relationID="T22Default Inference" type="Default Inference" typeBinary="0" partnerID="T22"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>capital punishment is a form of revenge which creates violent culture</text>
+    <TextPosition start="719" end="788"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the rights of life are the basic and vital rights of a human being</text>
+    <TextPosition start="1229" end="1295"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>No one has the right to take the life of a human; even if he committed murder</text>
+    <TextPosition start="1297" end="1374"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>If you kill a criminal, you become a criminal</text>
+    <TextPosition start="1376" end="1421"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>nobody has the right to take another human life</text>
+    <TextPosition start="1158" end="1205"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>crimes seem to increase due to the capital punishment</text>
+    <TextPosition start="1543" end="1596"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>if we think that killing is the best way to solve the problem, it is neither unethical nor immoral</text>
+    <TextPosition start="1433" end="1531"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>If they kill someone and end their life by dead without paying for their sins, it is so easy for them</text>
+    <TextPosition start="1727" end="1828"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>They do not undergo any pain or misery</text>
+    <TextPosition start="1830" end="1868"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Criminals should be punished for their misdeeds</text>
+    <TextPosition start="1678" end="1725"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>with some of serious criminals, capital punishment is an easy way out</text>
+    <TextPosition start="1607" end="1676"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life</text>
+    <TextPosition start="2228" end="2358"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>it neither demines crimes of violence nor be essential to control violence in society</text>
+    <TextPosition start="2366" end="2451"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>rehabilitation and education is also a better way in order to prevent or minimize offensive acts</text>
+    <TextPosition start="2116" end="2212"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>Why do not punish them by doing something meaningful for the country- it is better</text>
+    <TextPosition start="2022" end="2104"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors</text>
+    <TextPosition start="1929" end="2020"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>it is regarded as the "legalized revenge" to victims' family</text>
+    <TextPosition start="994" end="1054"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>Capital punishment; 51% countries have polished death penalty
+
+"Capital punishment or the death penalty is a legal process whereby a person is put to death by the state as a punishment for a crime." In recently years, many countries have polished the law of the death penalty. In the whole world, 51% countries have polished death penalty; even, it is at 98% in Europe. Some people claim that without this punishment our lives would be less secure and crimes of violence would increase. However, others argue that it is not essential to control violence in society by the death penalty. Personally, I think it is no evidence about the reduction of crime rates due to the death penalty because of many reasons.
+Firstly, capital punishment is a form of revenge which creates violent culture. Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one. As a fact that the criminal is repeated second time; also, it is regarded as the "legalized revenge" to victims' family. Hence, death penalty neither controls the violent in society nor creates a violent culture.
+Secondly, nobody has the right to take another human life. It is undeniable that the rights of life are the basic and vital rights of a human being. No one has the right to take the life of a human; even if he committed murder. If you kill a criminal, you become a criminal. Moreover, if we think that killing is the best way to solve the problem, it is neither unethical nor immoral. In short, crimes seem to increase due to the capital punishment.
+Finally, with some of serious criminals, capital punishment is an easy way out. Criminals should be punished for their misdeeds. If they kill someone and end their life by dead without paying for their sins, it is so easy for them. They do not undergo any pain or misery. Why do not we have other wisely punishments? As we can see some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors. Why do not punish them by doing something meaningful for the country- it is better. Moreover, rehabilitation and education is also a better way in order to prevent or minimize offensive acts. 
+To conclude, capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life; thus, it neither demines crimes of violence nor be essential to control violence in society. The world should consider clearly about polishing the law of the dead penalty.</OriginalText>
+</Annotation>

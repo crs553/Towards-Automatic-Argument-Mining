@@ -1,0 +1,111 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>a break of one year is good for young people after finishing their high school</text>
+    <TextPosition start="267" end="345"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>the sole purpose of education is to nurture a young mind and not thrust studies on them</text>
+    <TextPosition start="2009" end="2096"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>a break will give students some time to refresh their systems, by traveling or following their hobbies</text>
+    <TextPosition start="648" end="750"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>when students start their university studies after a break, they will feel fresh and full of energy to take the new challenge</text>
+    <TextPosition start="765" end="890"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>A relaxation of one year to young minds will give them a quintessential change</text>
+    <TextPosition start="443" end="521"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>A continuous study pressure for over 10 years makes the mind saturated and like a robot, to follow instructions</text>
+    <TextPosition start="523" end="634"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>Working or traveling for some time, after high school, can help them to find their field of interest</text>
+    <TextPosition start="1000" end="1100"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>It will also help them to learn professional setup by working</text>
+    <TextPosition start="1102" end="1163"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Financially, students can save a little money to support their university education by doing a job</text>
+    <TextPosition start="1165" end="1263"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Some students even utilize this time for preparation of their desired university course</text>
+    <TextPosition start="1265" end="1352"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>A break can disturb the focus of students and prove detrimental</text>
+    <TextPosition start="1393" end="1456"/>
+    <Relation relationID="RT12T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Students can also indulge in smoking or drinking during this time</text>
+    <TextPosition start="1765" end="1830"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>When students work during these breaks, the feel of money gives them an illusion that such salary is enough for them and they go in a utopia</text>
+    <TextPosition start="1458" end="1598"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>my cousin started working in a customer care centre after high school and got distracted</text>
+    <TextPosition start="1614" end="1702"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>When he started his university studies, he failed miserably</text>
+    <TextPosition start="1704" end="1763"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>A break gives students more benefits than harms</text>
+    <TextPosition start="1947" end="1994"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>It varies from individual to individual, how they utilize that period</text>
+    <TextPosition start="1876" end="1945"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Is a break good or bad after high school for students
+
+Studies are an essential part of life. Some countries permit students to take a break from studies between high school and university studies, while in some countries, it is considered as waste of time. However, a break of one year is good for young people after finishing their high school.
+In most education systems, a child studies continuously from the age of 5 till 16 years of age. A relaxation of one year to young minds will give them a quintessential change. A continuous study pressure for over 10 years makes the mind saturated and like a robot, to follow instructions. Personally, a break will give students some time to refresh their systems, by traveling or following their hobbies. Importantly, when students start their university studies after a break, they will feel fresh and full of energy to take the new challenge.
+Nevertheless, during high school, many students face a dilemma to decide which stream should they major in. Working or traveling for some time, after high school, can help them to find their field of interest. It will also help them to learn professional setup by working. Financially, students can save a little money to support their university education by doing a job. Some students even utilize this time for preparation of their desired university course.
+However, there are also disadvantages. A break can disturb the focus of students and prove detrimental. When students work during these breaks, the feel of money gives them an illusion that such salary is enough for them and they go in a utopia. For instance, my cousin started working in a customer care centre after high school and got distracted. When he started his university studies, he failed miserably. Students can also indulge in smoking or drinking during this time. But, the break should be an optional thing. It varies from individual to individual, how they utilize that period. A break gives students more benefits than harms.
+Importantly, the sole purpose of education is to nurture a young mind and not thrust studies on them. Thus, a break should be necessarily allowed to young minds between their high school and university studies. Countries, like India, where such a break is considered a blot, should understand that young minds are delicate and they face a cut-throat competition. One year break can help young people to prepare for the challenges of life.
+</OriginalText>
+</Annotation>

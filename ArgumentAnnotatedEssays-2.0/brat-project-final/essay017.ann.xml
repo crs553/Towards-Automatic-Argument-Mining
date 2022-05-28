@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>television devastate families ties</text>
+    <TextPosition start="359" end="393"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>most of people do not have a plan for make a limitation or schedule for watching television</text>
+    <TextPosition start="238" end="329"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>killing our time, making us lazy, and advertising negative behaviors are just only few reasons to show how television is destructive</text>
+    <TextPosition start="1550" end="1682"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>In spite of enjoying watching television shows, it is really time consuming task</text>
+    <TextPosition start="395" end="475"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Emergence of new television channels or shows are not surprising</text>
+    <TextPosition start="477" end="541"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>We kill time by tracking these channels so at the end of the day we understand it is late for doing any other activities</text>
+    <TextPosition start="543" end="663"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>This is a problem that suffers all of us everyday</text>
+    <TextPosition start="665" end="714"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>there is no time for call to our parents or friends</text>
+    <TextPosition start="728" end="779"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>watching television programs makes us lazy</text>
+    <TextPosition start="797" end="839"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>We usually spend our times in front of television for at least three ours a day when we come back home after eight-hour working in the office</text>
+    <TextPosition start="841" end="982"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>we do not have time to spend for healthy activity such as going to a gym or doing other sports</text>
+    <TextPosition start="991" end="1085"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>This makes us a lazy person who prefers to do sedentary activities like watching television shows rather than be active and sociable</text>
+    <TextPosition start="1087" end="1219"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>some television programs have a negative effect on viewers</text>
+    <TextPosition start="1241" end="1299"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Some thriller or action movies advertise negative activities such as doing criminal activity</text>
+    <TextPosition start="1301" end="1393"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>These genre of programs has more negative effects on our teenagers</text>
+    <TextPosition start="1395" end="1461"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>They usually try to mimic what they see on movies in their daily behaviors</text>
+    <TextPosition start="1463" end="1537"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Television is the culprit for destroying communication between friends &amp; family
+
+It is very hard to find a home that does not have a television. Nowadays, number of television channels and programs are increasing everyday. Unfortunately, most of people do not have a plan for make a limitation or schedule for watching television. I agree with that idea that television devastate families ties.
+In spite of enjoying watching television shows, it is really time consuming task. Emergence of new television channels or shows are not surprising. We kill time by tracking these channels so at the end of the day we understand it is late for doing any other activities. This is a problem that suffers all of us everyday. At the end, there is no time for call to our parents or friends.
+Second, I think watching television programs makes us lazy. We usually spend our times in front of television for at least three ours a day when we come back home after eight-hour working in the office. Hence, we do not have time to spend for healthy activity such as going to a gym or doing other sports. This makes us a lazy person who prefers to do sedentary activities like watching television shows rather than be active and sociable.
+Last but not least, some television programs have a negative effect on viewers. Some thriller or action movies advertise negative activities such as doing criminal activity. These genre of programs has more negative effects on our teenagers. They usually try to mimic what they see on movies in their daily behaviors.
+To sum up, killing our time, making us lazy, and advertising negative behaviors are just only few reasons to show how television is destructive. I think it is a global problem to solve this problem and it is need global contribution to find a solution.</OriginalText>
+</Annotation>

@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T3">
+    <ADU type="conclusion"/>
+    <text>in the current world living standards stand in a much higher level and people are in better conditions socially and physically</text>
+    <TextPosition start="2269" end="2395"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>the people from older generation may claim they had better life</text>
+    <TextPosition start="1980" end="2043"/>
+    <Relation relationID="RT1T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>there were stronger bonds between family members and friends</text>
+    <TextPosition start="2047" end="2107"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>they judge the contemporary age through a personal prejudice</text>
+    <TextPosition start="2139" end="2199"/>
+    <Relation relationID="T1Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>We live in an era that technology is developing in the speed of light, steering the world toward a much more convenient place</text>
+    <TextPosition start="460" end="585"/>
+    <Relation relationID="RT5-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>A clear-cut example that supports this idea is the invention of smart phones</text>
+    <TextPosition start="587" end="663"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>The strong navigation system installed on the phones has been rescued lives of many who left alone in remote areas like forests or deserts</text>
+    <TextPosition start="665" end="803"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>social networks such as Facebook could foster the ties between friends and family members who are obligatorily far away from each other by keeping them in touch, the thing that was impossible less than 20 years ago</text>
+    <TextPosition start="976" end="1190"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>some people criticize social networks as tools that have ruined true relationships and friendships by reducing face-to-face communication</text>
+    <TextPosition start="815" end="952"/>
+    <Relation relationID="T6Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>The phenomenal progress in medical science in the last decade was a huge achievement for human being to make the world a healthier and, thus, a happier place to live in</text>
+    <TextPosition start="1193" end="1361"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>even some disabled people with serious vertebral injuries can start doing physical activities like walking again thanks to the continuingly efforts of biomechanical engineers and neurologists</text>
+    <TextPosition start="1370" end="1561"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>The advancement in drug delivery systems is another example that could save lives</text>
+    <TextPosition start="1563" end="1644"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>scientists could invent ways to lead drugs directly to the damaged organs of the body, which is a miraculous breakthrough</text>
+    <TextPosition start="1662" end="1783"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>the increase in the average age of human from 50 to around 75 years through last decades is a strong evidence to show how successful human was in medicine</text>
+    <TextPosition start="1797" end="1951"/>
+    <Relation relationID="RT14-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <OriginalText>Do you believe that elderly people used to live in a better world?
+
+Changes are inseparable parts of this world which normally humans are responsible for by manipulating the environment they live in. Sometimes these changes adversely affect our lives that make elderly people think they used to live in a better world than the modern world the younger generation are experiencing. I utterly disagree with this opinion due to technological and medical reasons.
+We live in an era that technology is developing in the speed of light, steering the world toward a much more convenient place. A clear-cut example that supports this idea is the invention of smart phones. The strong navigation system installed on the phones has been rescued lives of many who left alone in remote areas like forests or deserts. Moreover, some people criticize social networks as tools that have ruined true relationships and friendships by reducing face-to-face communication. In my opinion though, social networks such as Facebook could foster the ties between friends and family members who are obligatorily far away from each other by keeping them in touch, the thing that was impossible less than 20 years ago. 
+The phenomenal progress in medical science in the last decade was a huge achievement for human being to make the world a healthier and, thus, a happier place to live in. Today, even some disabled people with serious vertebral injuries can start doing physical activities like walking again thanks to the continuingly efforts of biomechanical engineers and neurologists. The advancement in drug delivery systems is another example that could save lives. To be specific, scientists could invent ways to lead drugs directly to the damaged organs of the body, which is a miraculous breakthrough. In general, the increase in the average age of human from 50 to around 75 years through last decades is a strong evidence to show how successful human was in medicine.
+In conclusion, even though the people from older generation may claim they had better life as there were stronger bonds between family members and friends, I think they are wrong, since they judge the contemporary age through a personal prejudice. In light of the above-mentioned facts, one can easily conclude that in the current world living standards stand in a much higher level and people are in better conditions socially and physically. </OriginalText>
+</Annotation>

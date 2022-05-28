@@ -1,0 +1,121 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>computers have an important and inevitable role in economic, business, and other part of societies</text>
+    <TextPosition start="333" end="431"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>they make the way of living easier by doing our routine duties</text>
+    <TextPosition start="446" end="508"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>People benefit more from coming computers into their lives</text>
+    <TextPosition start="1907" end="1965"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>computers can do most difficult tasks which leads to make life easier</text>
+    <TextPosition start="1980" end="2049"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>by using computers in many industries human's role has been reduced</text>
+    <TextPosition start="523" end="590"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Nowadays, computer can control and perform some routine activities in industries, which were early done by human</text>
+    <TextPosition start="592" end="704"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Many industries use computers to command to robots in order to do many regular tasks, which were carried out by human early</text>
+    <TextPosition start="706" end="829"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>many processes of production of cars are carrying out by robots, which are controlled by computers</text>
+    <TextPosition start="844" end="942"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>car companies use computers to simulate and analyze car accident by computers</text>
+    <TextPosition start="957" end="1034"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Despite many advantages, by coming computers many jobs has been vanished</text>
+    <TextPosition start="1036" end="1108"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>A large number of industries fire many forces because of doing their works by new technologies and computers</text>
+    <TextPosition start="1110" end="1218"/>
+    <Relation relationID="RT12T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Computers have opened up a network connection among people</text>
+    <TextPosition start="1283" end="1341"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>This technology makes easier for people to send and receive personal message</text>
+    <TextPosition start="1343" end="1419"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Teenagers and adolescents spend free time in front of computers</text>
+    <TextPosition start="1421" end="1484"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>People can use computers to extract their essential information easily</text>
+    <TextPosition start="1496" end="1566"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>excessive use of computers has brought many difficulties</text>
+    <TextPosition start="1581" end="1637"/>
+    <Relation relationID="RT17T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>The results show that teenagers who are addicted to computer games show more violent and stressful behaviors</text>
+    <TextPosition start="1639" end="1747"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>People who have type by computers may suffer from such disease related to knees</text>
+    <TextPosition start="1749" end="1828"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>Computers have an important role in social and personal life</text>
+    <TextPosition start="1221" end="1281"/>
+    <Relation relationID="RT20-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>People benefit more from coming computers into their lives
+
+Computers have revolutionized our lifestyle during last century. However, some people especially young ones use computers extremely and this excessive usage lead to increase stress among them, but computers have brought many advantages to our lives. From my point of view, computers have an important and inevitable role in economic, business, and other part of societies. In addition, they make the way of living easier by doing our routine duties. 
+Admittedly, by using computers in many industries human's role has been reduced. Nowadays, computer can control and perform some routine activities in industries, which were early done by human. Many industries use computers to command to robots in order to do many regular tasks, which were carried out by human early. For example, many processes of production of cars are carrying out by robots, which are controlled by computers. In addition, car companies use computers to simulate and analyze car accident by computers. Despite many advantages, by coming computers many jobs has been vanished. A large number of industries fire many forces because of doing their works by new technologies and computers. 
+Computers have an important role in social and personal life. Computers have opened up a network connection among people. This technology makes easier for people to send and receive personal message. Teenagers and adolescents spend free time in front of computers. Moreover, People can use computers to extract their essential information easily. By contrast, excessive use of computers has brought many difficulties. The results show that teenagers who are addicted to computer games show more violent and stressful behaviors. People who have type by computers may suffer from such disease related to knees. 
+By considering all reasons, advantages of computers outweigh disadvantages. People benefit more from coming computers into their lives. In addition, computers can do most difficult tasks which leads to make life easier.</OriginalText>
+</Annotation>

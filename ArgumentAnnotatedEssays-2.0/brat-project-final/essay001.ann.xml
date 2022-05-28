@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>we should attach more importance to cooperation during primary education</text>
+    <TextPosition start="503" end="575"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>through cooperation, children can learn about interpersonal skills which are significant in the future life of all students</text>
+    <TextPosition start="591" end="714"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others</text>
+    <TextPosition start="716" end="851"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred</text>
+    <TextPosition start="853" end="1086"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>All of these skills help them to get on well with other people and will benefit them for the whole life</text>
+    <TextPosition start="1088" end="1191"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>competition makes the society more effective</text>
+    <TextPosition start="1332" end="1376"/>
+    <Relation relationID="RT7T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>the significance of competition is that how to become more excellence to gain the victory</text>
+    <TextPosition start="1212" end="1301"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>when we consider about the question that how to win the game, we always find that we need the cooperation</text>
+    <TextPosition start="1387" end="1492"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Take Olympic games which is a form of competition for instance, it is hard to imagine how an athlete could win the game without the training of his or her coach, and the help of other professional staffs such as the people who take care of his diet, and those who are in charge of the medical care</text>
+    <TextPosition start="1549" end="1846"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>without the cooperation, there would be no victory of competition</text>
+    <TextPosition start="1927" end="1992"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Should students be taught to compete or to cooperate?
+
+It is always said that competition can effectively promote the development of economy. In order to survive in the competition, companies continue to improve their products and service, and as a result, the whole society prospers. However, when we discuss the issue of competition or cooperation, what we are concerned about is not the whole society, but the development of an individual's whole life. From this point of view, I firmly believe that we should attach more importance to cooperation during primary education.
+First of all, through cooperation, children can learn about interpersonal skills which are significant in the future life of all students. What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others. During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred. All of these skills help them to get on well with other people and will benefit them for the whole life.
+On the other hand, the significance of competition is that how to become more excellence to gain the victory. Hence it is always said that competition makes the society more effective. However, when we consider about the question that how to win the game, we always find that we need the cooperation. The greater our goal is, the more competition we need. Take Olympic games which is a form of competition for instance, it is hard to imagine how an athlete could win the game without the training of his or her coach, and the help of other professional staffs such as the people who take care of his diet, and those who are in charge of the medical care. The winner is the athlete but the success belongs to the whole team. Therefore without the cooperation, there would be no victory of competition.
+Consequently, no matter from the view of individual development or the relationship between competition and cooperation we can receive the same conclusion that a more cooperative attitudes towards life is more profitable in one's success.</OriginalText>
+</Annotation>

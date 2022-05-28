@@ -1,0 +1,87 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>learning facts has more subsequent advantages for students' future lives</text>
+    <TextPosition start="336" end="408"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>when students learn facts more in school, they would be ready for facing problems in their own life after their graduations</text>
+    <TextPosition start="476" end="599"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>more information about facts would make students more familiar with the real life other that only their concepts</text>
+    <TextPosition start="621" end="733"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>they would prepare to encounter their life out of school to solve their problems better</text>
+    <TextPosition start="748" end="835"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>if they deal more with facts, they can realize social situations effectively and so improve their social communication in everyday life</text>
+    <TextPosition start="1099" end="1234"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>it would improve students' social behavior</text>
+    <TextPosition start="846" end="888"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>If students only rely on concepts and ideas theorically, they would not realize human's mind very well</text>
+    <TextPosition start="890" end="992"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>They should understand objects more that concepts to obtain the ability of analyzing matters well</text>
+    <TextPosition start="994" end="1091"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>It can prevent person to progress and thrive in every position</text>
+    <TextPosition start="1535" end="1597"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>when a student understands a fact and its consequences, he or she can encounter it more confidently</text>
+    <TextPosition start="1352" end="1451"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>concerns and anxieties are very destructive in everybody's life</text>
+    <TextPosition start="1470" end="1533"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>these way students are teached to control their fears and concerns in facing facts</text>
+    <TextPosition start="1247" end="1329"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>Students would improve their social positions and encounter their problems in positive ways and also intend in the more confidence manner and etc</text>
+    <TextPosition start="1758" end="1903"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Learning facts has more subsequent advantages for students' future lives
+
+There are many debates regarding whether understanding ideas and concepts is more essential than learning facts for students or not. Although multitudes of people think that knowledge of ideas and concepts is more vital for students, I am in the conviction that learning facts has more subsequent advantages for students' future lives. In the following, I will state my reasons for this choice.
+First, when students learn facts more in school, they would be ready for facing problems in their own life after their graduations. As a case in point, more information about facts would make students more familiar with the real life other that only their concepts. As a result, they would prepare to encounter their life out of school to solve their problems better. 
+Second, it would improve students' social behavior. If students only rely on concepts and ideas theorically, they would not realize human's mind very well. They should understand objects more that concepts to obtain the ability of analyzing matters well. Thus, if they deal more with facts, they can realize social situations effectively and so improve their social communication in everyday life. 
+Moreover, these way students are teached to control their fears and concerns in facing facts. As a matter of fact, when a student understands a fact and its consequences, he or she can encounter it more confidently. In my viewpoint, concerns and anxieties are very destructive in everybody's life. It can prevent person to progress and thrive in every position. 
+All in all, I am in the belief that learning facts is more beneficial for students in both social and individual life in the view of above-mentioned reasons. Students would improve their social positions and encounter their problems in positive ways and also intend in the more confidence manner and etc.
+</OriginalText>
+</Annotation>

@@ -1,0 +1,103 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>in this occasion the government is not granted to hand in</text>
+    <TextPosition start="403" end="460"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>art price is about taste</text>
+    <TextPosition start="1972" end="1996"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>the modern artists who implement their creative thinking onto high value creation are paid with immense sum by the art collector</text>
+    <TextPosition start="532" end="660"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the high sum which modern artists receive is related to the quality instead of the quantity and their rare talent</text>
+    <TextPosition start="668" end="781"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>a 15 centimeter Buddha temple made by hand is granted times in comparison with factory production</text>
+    <TextPosition start="796" end="893"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>modern artists also devote themselves find a unique concept in which ordinary people cannot do, such making impossible become possible</text>
+    <TextPosition start="914" end="1048"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Pieter Padang, Minion creator, has brilliant idea to alter part of song lyric "I swear" become "underwear" when the Minion sing in Despicable Me</text>
+    <TextPosition start="1050" end="1194"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>He granted huge sums for such idea</text>
+    <TextPosition start="1196" end="1230"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>Proficiency brings perfectness in terms of art work</text>
+    <TextPosition start="462" end="513"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the musician re-plays the song without any creation</text>
+    <TextPosition start="1479" end="1530"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>a musician playing "I swear" several times receives different earnings that Padang got</text>
+    <TextPosition start="1384" end="1470"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>government cannot equalize the price of creation of modern artist</text>
+    <TextPosition start="1542" end="1607"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>there is no certain parameter to value it</text>
+    <TextPosition start="1616" end="1657"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>art value is about taste</text>
+    <TextPosition start="1659" end="1683"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>labor working in the merchandise factory receive coin of dollar even they make a hundred of 15 cm Buddha temples a day</text>
+    <TextPosition start="1251" end="1369"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>the huge sums of modern artists receives related to their struggle in the field of art, while the term of struggle might different with other field of job</text>
+    <TextPosition start="1702" end="1856"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>High sum of money of modern artist
+
+The amount of money people earning sometimes is unfair. In a field of art, modern artist may receive high salary for their masterpiece creation while labors should be break their bone for years to get similar amount of money. Although some people view that government should be take a responsibility for this unfair situation, critics against such view. I agree that in this occasion the government is not granted to hand in.
+Proficiency brings perfectness in terms of art work. It is true while the modern artists who implement their creative thinking onto high value creation are paid with immense sum by the art collector. Also, the high sum which modern artists receive is related to the quality instead of the quantity and their rare talent. For example, a 15 centimeter Buddha temple made by hand is granted times in comparison with factory production. On the other hand, modern artists also devote themselves find a unique concept in which ordinary people cannot do, such making impossible become possible. Pieter Padang, Minion creator, has brilliant idea to alter part of song lyric "I swear" become "underwear" when the Minion sing in Despicable Me. He granted huge sums for such idea.
+Striking contrast, labor working in the merchandise factory receive coin of dollar even they make a hundred of 15 cm Buddha temples a day. In any case, a musician playing "I swear" several times receives different earnings that Padang got because the musician re-plays the song without any creation. Moreover, government cannot equalize the price of creation of modern artist because there is no certain parameter to value it, art value is about taste.
+Having said that the huge sums of modern artists receives related to their struggle in the field of art, while the term of struggle might different with other field of job. I agree that government cannot take steps to make the salary between modern artists and other job similar because art price is about taste.</OriginalText>
+</Annotation>

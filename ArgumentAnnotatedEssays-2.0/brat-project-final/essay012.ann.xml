@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>technology has helped us to have more comfortable life</text>
+    <TextPosition start="1845" end="1899"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>email can be count as one of the most beneficial results of modern technology</text>
+    <TextPosition start="390" end="467"/>
+    <Relation relationID="RT3-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Many years ago, peoples had to pay a great deal of money to post their letters, and their payements were related to the weight of their letters or boxes, and many accidents may cause problem that the post could not be delivered</text>
+    <TextPosition start="469" end="696"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>nowadays, all people can take advantage of internet to have their own email free, and send their emails to everyone in no time, besides they can be sure if their emails have been delivered or not</text>
+    <TextPosition start="702" end="897"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Another important aspect on technology is transferring money</text>
+    <TextPosition start="899" end="959"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Today, students can apply for foreign universities much easier than before</text>
+    <TextPosition start="961" end="1035"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>with the advent of internet and online paying systems, you can do many thing at your home easily</text>
+    <TextPosition start="1151" end="1247"/>
+    <Relation relationID="RT1-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>You can see its effects on transportation, communication, medicine and so forth</text>
+    <TextPosition start="1901" end="1980"/>
+    <Relation relationID="RT8-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Not only with the help of sending email, but also using credit cards to pay all necessary fees online</text>
+    <TextPosition start="1037" end="1138"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>But now, biomedical engineers can make artificial heart valves which works well and doctors can implant them easily</text>
+    <TextPosition start="1716" end="1831"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>In the past time doctors used pig heart's valve to implant, but the patient could not be alive more than 3 years after the replacement</text>
+    <TextPosition start="1580" end="1714"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>one of their inventions was related to artificial heart valves which can be count as a turning point in heart surgeries</text>
+    <TextPosition start="1459" end="1578"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Biomedical engineers could make a significant effect on increasing life expectancy the world</text>
+    <TextPosition start="1352" end="1444"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>Another technological innovations which help people around the world is related to medical equipments</text>
+    <TextPosition start="1249" end="1350"/>
+    <Relation relationID="RT14-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>Advance in transportation and communication like the airplane and the phone
+
+Nowadays, everyone can see the effect of technology on their life, especially on the way of transportations and communications such as the airplane and the telephone. There are lots of other effects of growing technology on transportations and communications, which are mentioned as follows. 
+First and foremost, email can be count as one of the most beneficial results of modern technology. Many years ago, peoples had to pay a great deal of money to post their letters, and their payements were related to the weight of their letters or boxes, and many accidents may cause problem that the post could not be delivered. But nowadays, all people can take advantage of internet to have their own email free, and send their emails to everyone in no time, besides they can be sure if their emails have been delivered or not.
+Another important aspect on technology is transferring money. Today, students can apply for foreign universities much easier than before. Not only with the help of sending email, but also using credit cards to pay all necessary fees online. Therefore, with the advent of internet and online paying systems, you can do many thing at your home easily.
+Another technological innovations which help people around the world is related to medical equipments. Biomedical engineers could make a significant effect on increasing life expectancy the world. For example, one of their inventions was related to artificial heart valves which can be count as a turning point in heart surgeries. In the past time doctors used pig heart's valve to implant, but the patient could not be alive more than 3 years after the replacement. But now, biomedical engineers can make artificial heart valves which works well and doctors can implant them easily. 
+To sum up, technology has helped us to have more comfortable life. You can see its effects on transportation, communication, medicine and so forth.</OriginalText>
+</Annotation>

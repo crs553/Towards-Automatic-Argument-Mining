@@ -1,0 +1,61 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the classmates should be regarded as the most important influence on individual achievements</text>
+    <TextPosition start="324" end="416"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>they provide tremendous incentive and horizon expansion, two crucial commodities leading to a successful presentation at school</text>
+    <TextPosition start="1629" end="1756"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>In high school, for instance, an individual cannot resist studying painstakingly through day and night when the others who are astoundingly ambitious and set sights on prestigious universities around the globe are doing the same</text>
+    <TextPosition start="518" end="746"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>From a psychological perspective, the feeling of being subordinate to their peers exert enormous pressure on the children, which subsequently transforms into some sort of stimulants and boosts the children's academic performances</text>
+    <TextPosition start="748" end="977"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>the classmates themselves creat a competitive atmoshphere which incent the children</text>
+    <TextPosition start="433" end="516"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>students share even more time together than with their parents, explaining a great deal of wisdom they absorb from each others</text>
+    <TextPosition start="1105" end="1231"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>it can be, for example, lessons on the class, social skills or general etiquettes that are sometimes overlooked by parents</text>
+    <TextPosition start="1233" end="1355"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Sharing the same age, children are at their most comfort to exchange ideas, to query and interpret abstract concepts without fear of parental punishments, resulting in deeper comprehension</text>
+    <TextPosition start="1357" end="1545"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>when it comes to knowledge and the acquisition of such, classmates are second to none</text>
+    <TextPosition start="990" end="1075"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Classmates' impacts on children's performance at school
+
+It goes without saying that no pupil can succeed at school unassisted. Their success should be attributed to many different external factors. It is argued that parents who are the closet to children mainly contribute to their accomplishments. However, in my opinion, the classmates should be regarded as the most important influence on individual achievements.
+To begin with, the classmates themselves creat a competitive atmoshphere which incent the children. In high school, for instance, an individual cannot resist studying painstakingly through day and night when the others who are astoundingly ambitious and set sights on prestigious universities around the globe are doing the same. From a psychological perspective, the feeling of being subordinate to their peers exert enormous pressure on the children, which subsequently transforms into some sort of stimulants and boosts the children's academic performances.
+To add up, when it comes to knowledge and the acquisition of such, classmates are second to none. It is a matter of fact that students share even more time together than with their parents, explaining a great deal of wisdom they absorb from each others; it can be, for example, lessons on the class, social skills or general etiquettes that are sometimes overlooked by parents. Sharing the same age, children are at their most comfort to exchange ideas, to query and interpret abstract concepts without fear of parental punishments, resulting in deeper comprehension.
+All advantages considered, classmates are unrivalled by the children's parents as they provide tremendous incentive and horizon expansion, two crucial commodities leading to a successful presentation at school.</OriginalText>
+</Annotation>

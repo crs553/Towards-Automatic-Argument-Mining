@@ -1,0 +1,87 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school</text>
+    <TextPosition start="2298" end="2415"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Relating well to people can bring plenty of merits to future job</text>
+    <TextPosition start="465" end="529"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>friends is a treasure with respect to either our daylife or our career</text>
+    <TextPosition start="393" end="463"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Having a good ability of relate to people means you have a number of friends in a variety of fields, imagine when you are in trouble, you have a lot of people who have good relationship with you, so you can ask for your friends to help you solve this problem as soon as possible, even an esy phone call, instend of a series of complex solutions</text>
+    <TextPosition start="531" end="875"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>If top-level managers want to make a project successful, have a good relationship with their subordinaries is the prerequisit for the managers' work complete successfully, managers should listen to their employees needs and complaints about this job, pay much patiant and care to them</text>
+    <TextPosition start="1037" end="1321"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>no matter who you are a top-level managers of a company or a low-level employee of that company, relating well to people is also a importent issue</text>
+    <TextPosition start="889" end="1035"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>make a good relationship with them</text>
+    <TextPosition start="1337" end="1371"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>if a low-level employee desire to enhance his position, it's fairly important to have a good relationship with their boss</text>
+    <TextPosition start="1392" end="1513"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>only if the employee is considered excellent in his boss's eyes, he will be more possible to enhance position</text>
+    <TextPosition start="1515" end="1624"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>good specify knowledge is more crucial for future job</text>
+    <TextPosition start="1661" end="1714"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Studying harder in school, getting a good resume and absorbing lots of working knowledge, which can make these graduates more competitive than other applicants in one certain job</text>
+    <TextPosition start="1716" end="1894"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>majority of people would choose the former</text>
+    <TextPosition start="2146" end="2188"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>it has more chance than the latter in terms of getting good jobs in the future</text>
+    <TextPosition start="2197" end="2275"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Ability to Relate Well to people Vs Studying Hard
+
+To agree or disagree the statement that as far as getting a successful job in the future concerned, good ability of relating to people is more crucial than studying hard in the univeirsity is a matter of balancing its pros and cons. However, if one coniders the issue carefully, he or she may agree the title statement as I do.
+First of all, friends is a treasure with respect to either our daylife or our career. Relating well to people can bring plenty of merits to future job. Having a good ability of relate to people means you have a number of friends in a variety of fields, imagine when you are in trouble, you have a lot of people who have good relationship with you, so you can ask for your friends to help you solve this problem as soon as possible, even an esy phone call, instend of a series of complex solutions.
+Futuermore, no matter who you are a top-level managers of a company or a low-level employee of that company, relating well to people is also a importent issue. If top-level managers want to make a project successful, have a good relationship with their subordinaries is the prerequisit for the managers' work complete successfully, managers should listen to their employees needs and complaints about this job, pay much patiant and care to them. Consequently, make a good relationship with them.
+On the other side, if a low-level employee desire to enhance his position, it's fairly important to have a good relationship with their boss, only if the employee is considered excellent in his boss's eyes, he will be more possible to enhance position.
+However, someone may maintain that good specify knowledge is more crucial for future job. Studying harder in school, getting a good resume and absorbing lots of working knowledge, which can make these graduates more competitive than other applicants in one certain job. But imagine it, a person who is good at working knowledge but has an poorly relate to people, and a person who has a good ability of relating to people but his working knowledge is less better than the former, which person do you want to be? I think majority of people would choose the former because it has more chance than the latter in terms of getting good jobs in the future.
+In my point of view, I do really prefer to improve my ability of relating people and make more friends rather than studying hard in school.</OriginalText>
+</Annotation>

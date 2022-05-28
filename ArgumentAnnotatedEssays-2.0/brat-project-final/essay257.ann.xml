@@ -1,0 +1,146 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>any great success need great work not great luck</text>
+    <TextPosition start="2023" end="2071"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>luck is one factor in reaching goal</text>
+    <TextPosition start="2085" end="2120"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>its impact is extraneous and we must not reckon on luck in our plans</text>
+    <TextPosition start="2125" end="2193"/>
+    <Relation relationID="T2Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>He do a lot of exercise in football field every day</text>
+    <TextPosition start="1012" end="1063"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>it is not for which he is luckier than me</text>
+    <TextPosition start="1068" end="1109"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>famous people are usually diligent people not lucky people</text>
+    <TextPosition start="449" end="507"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Hard work make you a professional man/woman which are powerful in his or her job</text>
+    <TextPosition start="509" end="589"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>when you work hard you decrease portion of chance in your success</text>
+    <TextPosition start="599" end="664"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>in football game it is said that penalty-kick need good chance to be goal</text>
+    <TextPosition start="678" end="751"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Statically the chance of being goal is fifty-fifty</text>
+    <TextPosition start="753" end="803"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>But I think Ronaldo make a goal from a penalty-kick with more possibility than me</text>
+    <TextPosition start="805" end="886"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>It is not for which Ronaldo is more fortune than me</text>
+    <TextPosition start="888" end="939"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Definitely it is for which he have more practice and exercise than me</text>
+    <TextPosition start="941" end="1010"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>it is wise advice which you have hard study to success on exam</text>
+    <TextPosition start="1554" end="1616"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>If you pick up any choice by chance you would fail the exam</text>
+    <TextPosition start="1481" end="1540"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>You cannot prepare for it without any study and Rely on your luck, even if you be a very lucky</text>
+    <TextPosition start="1385" end="1479"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>you prepare for TOEFL or other multiple-choice test which has four option to choose in every question</text>
+    <TextPosition start="1282" end="1383"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>we cannot always lean on our luck to be successful</text>
+    <TextPosition start="1121" end="1171"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>I don't want to disavow the role of luck in success, but as you know it hardly accompany us</text>
+    <TextPosition start="1173" end="1264"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>The most fortunate people in the word cannot manufacture an automobile or build a high tower just by her or his chance</text>
+    <TextPosition start="1726" end="1844"/>
+    <Relation relationID="RT20-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>you have to work hard to learn and to get a lot of information before doing a project in good way</text>
+    <TextPosition start="1627" end="1724"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>These plans is done by someone who is mastered in his/her work</text>
+    <TextPosition start="1846" end="1908"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>such people do work hard and have great experiences because of their hard works</text>
+    <TextPosition start="1922" end="2001"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <OriginalText>What's more important: hard work or luck?
+
+What do you think when you see a beautiful building? And also when you see an airport? Do you think they have built by chance? Of course don't. Also it is ridiculous if you think world wide webs such as Google, Yahoo etc. created by chance. Howbeit some people think that luck is cause of a lot of success, but to be frank I cannot agree with them. I would explore my primary reasons here. 
+To begin with, famous people are usually diligent people not lucky people. Hard work make you a professional man/woman which are powerful in his or her job. I mean, when you work hard you decrease portion of chance in your success. For example in football game it is said that penalty-kick need good chance to be goal. Statically the chance of being goal is fifty-fifty. But I think Ronaldo make a goal from a penalty-kick with more possibility than me. It is not for which Ronaldo is more fortune than me. Definitely it is for which he have more practice and exercise than me. He do a lot of exercise in football field every day, so it is not for which he is luckier than me.
+Moreover, we cannot always lean on our luck to be successful. I don't want to disavow the role of luck in success, but as you know it hardly accompany us. So, for example you prepare for TOEFL or other multiple-choice test which has four option to choose in every question. You cannot prepare for it without any study and Rely on your luck, even if you be a very lucky. If you pick up any choice by chance you would fail the exam. Undoubtedly it is wise advice which you have hard study to success on exam.
+Finally, you have to work hard to learn and to get a lot of information before doing a project in good way. The most fortunate people in the word cannot manufacture an automobile or build a high tower just by her or his chance. These plans is done by someone who is mastered in his/her work. Undoubtedly such people do work hard and have great experiences because of their hard works.
+In the end, I think any great success need great work not great luck, even though luck is one factor in reaching goal but its impact is extraneous and we must not reckon on luck in our plans.</OriginalText>
+</Annotation>

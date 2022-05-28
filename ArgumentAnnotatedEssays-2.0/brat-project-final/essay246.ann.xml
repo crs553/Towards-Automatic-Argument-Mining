@@ -1,0 +1,68 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>every fast and not well thought decision is a wasted one</text>
+    <TextPosition start="47" end="103"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>making quick decisions leads to probable bad results</text>
+    <TextPosition start="323" end="375"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>making a quick decision means that it's not very thought out, and that it hasn't been checked from all its aspects</text>
+    <TextPosition start="193" end="307"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>if someone decided to quit his job without really thinking about the alternative, or a plan B, he could end up being unemployed, because of his speedy decision</text>
+    <TextPosition start="390" end="549"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>making a rushed decision could also mean that the person is missing out on a potential opportunity</text>
+    <TextPosition start="564" end="662"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>if this person had waited and thought his decision through he wouldn't have missed out on the job opening in the same firm, but at a different position</text>
+    <TextPosition start="681" end="832"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>he wouldn't have been unemployed</text>
+    <TextPosition start="841" end="873"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>hasty decisions, not only goes to waste, but also, could affect the entire life of the person</text>
+    <TextPosition start="896" end="989"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>To put it differently, is that after this person has quit his job and became unemployed, he can no longer pay his bills nor buy what he needs for his everyday needs</text>
+    <TextPosition start="991" end="1155"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>his life had taken a turn to the worst</text>
+    <TextPosition start="1163" end="1201"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Haste makes waste
+
+This saying is stating that every fast and not well thought decision is a wasted one. In my opinion, this statement is completely true, for these few reasons:
+For one thing, making a quick decision means that it's not very thought out, and that it hasn't been checked from all its aspects. Consequently, making quick decisions leads to probable bad results. For example: if someone decided to quit his job without really thinking about the alternative, or a plan B, he could end up being unemployed, because of his speedy decision.
+In addition, making a rushed decision could also mean that the person is missing out on a potential opportunity. In another word, if this person had waited and thought his decision through he wouldn't have missed out on the job opening in the same firm, but at a different position. Hence, he wouldn't have been unemployed.
+Not to mention, that hasty decisions, not only goes to waste, but also, could affect the entire life of the person. To put it differently, is that after this person has quit his job and became unemployed, he can no longer pay his bills nor buy what he needs for his everyday needs, thus, his life had taken a turn to the worst.
+As can be seen from this, is that a hurried decision is almost never a good one. That's why one should always study his decision carefully and slowly, to ensure that the decision that the person is making is the best for him.</OriginalText>
+</Annotation>

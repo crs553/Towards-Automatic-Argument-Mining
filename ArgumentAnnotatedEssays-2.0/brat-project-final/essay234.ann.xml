@@ -1,0 +1,116 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>standardized tests are valuable option for educational system as long as it would help teachers to know if the students are really getting knowledge</text>
+    <TextPosition start="255" end="403"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>these schools can qualitatively check if they are giving an appropriate education to their students</text>
+    <TextPosition start="1934" end="2033"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>exams could be the only way for teachers to see the real abilities of those students</text>
+    <TextPosition start="637" end="721"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>standardized tests are preferable</text>
+    <TextPosition start="414" end="447"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>some students are not so active on the lessons, cause they are already familiar with the issue</text>
+    <TextPosition start="530" end="624"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>many teachers rely only on the exam results while grading the class</text>
+    <TextPosition start="736" end="803"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>the usage of standardized tests is the superior option for them</text>
+    <TextPosition start="808" end="871"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>some students may get used to simply rewriting solved problems from the blackboard</text>
+    <TextPosition start="983" end="1065"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>they will never try to solve problems on their own</text>
+    <TextPosition start="1070" end="1120"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>standardized tests offer them such chance</text>
+    <TextPosition start="1131" end="1172"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>schools should require students to take standardized tests, as long as this option helps to both sides</text>
+    <TextPosition start="1197" end="1299"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>standardized tests can be good chance for students to apply their knowledge on practice</text>
+    <TextPosition start="887" end="974"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>requirement to take standardized tests is the right choice</text>
+    <TextPosition start="1323" end="1381"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>in this case teachers can compare the level of knowledge of different students</text>
+    <TextPosition start="1389" end="1467"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>In any class there will be students who will show low academic performance, so teachers could work with them more intensively</text>
+    <TextPosition start="1469" end="1594"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>standardized tests are required over those who don&#8217;t</text>
+    <TextPosition start="1639" end="1691"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>if the teacher would know the level of each student he would fairly share his time to all of them</text>
+    <TextPosition start="1700" end="1797"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>they help teachers to fairly grade the students</text>
+    <TextPosition start="469" end="516"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <OriginalText>Students should be required to take regular standardized tests
+
+The issue at hand is if the schools should require students to take regular standardized exams. This issue is important because nowadays many people cast doubt on it. However, I believe that standardized tests are valuable option for educational system as long as it would help teachers to know if the students are really getting knowledge.
+Firstly, standardized tests are preferable due to the fact that they help teachers to fairly grade the students. For example some students are not so active on the lessons, cause they are already familiar with the issue. Therefore, exams could be the only way for teachers to see the real abilities of those students. In addition, many teachers rely only on the exam results while grading the class, so the usage of standardized tests is the superior option for them.
+Additionally, standardized tests can be good chance for students to apply their knowledge on practice. Since, some students may get used to simply rewriting solved problems from the blackboard, so they will never try to solve problems on their own. However, standardized tests offer them such chance. Thus, it is clear that schools should require students to take standardized tests, as long as this option helps to both sides.
+Finally, I think that requirement to take standardized tests is the right choice, since in this case teachers can compare the level of knowledge of different students. In any class there will be students who will show low academic performance, so teachers could work with them more intensively. I support the points of those who say that standardized tests are required over those who don&#8217;t because if the teacher would know the level of each student he would fairly share his time to all of them.
+Ultimately I feel that schools which obligate their students to take standardized tests are right. I belive this, due to the fact that these schools can qualitatively check if they are giving an appropriate education to their students.</OriginalText>
+</Annotation>

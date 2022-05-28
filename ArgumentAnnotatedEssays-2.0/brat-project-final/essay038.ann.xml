@@ -1,0 +1,99 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the good technology bringing to us is undeniable</text>
+    <TextPosition start="2182" end="2230"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Under proper use of technology, the human being can be benefit a lot and perpetually from the advancement of it</text>
+    <TextPosition start="2232" end="2343"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>most members of our society can benefit from the consequences of technical advancements, especially the poor people</text>
+    <TextPosition start="953" end="1068"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>the progress of material technology leads to the sharp fall of price of a great number of products</text>
+    <TextPosition start="568" end="666"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>About ten years ago, mobile phones ware very expensive for most members of my country, only a few of rich individuals have enough money to buy one</text>
+    <TextPosition start="668" end="814"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Today, mobile phones become a common one of household items, which due to the cheaper materials and better producing technologies</text>
+    <TextPosition start="816" end="945"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the Internet gives everyone access to the same information</text>
+    <TextPosition start="1612" end="1670"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>this therefore leads to greater equality between individuals</text>
+    <TextPosition start="1672" end="1732"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>With the development of Internet, we can enjoy the pleasure and conveniences which it brings about for us every day</text>
+    <TextPosition start="1251" end="1366"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>technical developments improve productivity, which help people to escape from daily chores, and invest more time and energy in studying and living a more meaningful life</text>
+    <TextPosition start="1080" end="1249"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>we had to spend a lot of time searching information and waiting for letters of our friends who lived far away from us</text>
+    <TextPosition start="1386" end="1503"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>we can talk with our friends online, no matter where we are and how far between us</text>
+    <TextPosition start="1515" end="1597"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>the gap between rich people and poor is widen by technology</text>
+    <TextPosition start="1824" end="1883"/>
+    <Relation relationID="RT13T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>only the rich people have ability to afford the expensive high-tech products, and these products can help them to earn more in return</text>
+    <TextPosition start="1893" end="2026"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>it is a limp opposition to the remarkable advantages of technology, and technology is not the root cause of the gap</text>
+    <TextPosition start="2050" end="2165"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Technology that widen the gap between rich and poor?
+
+Technology, in the past two hundred years, has taken a dramatic progress in many fields of our society, such as telecommunications, manufacturing and buildings, etc. Certainly, technologies have also contributed to the great change of our daily lives. However, today some people consider that the range of technology regarding of public has a negative effect on increasing the gap between rich and poor. Personally, I find it hard for me to agree with this opinion by the following reasons.
+In the first instance, the progress of material technology leads to the sharp fall of price of a great number of products. About ten years ago, mobile phones ware very expensive for most members of my country, only a few of rich individuals have enough money to buy one. Today, mobile phones become a common one of household items, which due to the cheaper materials and better producing technologies. Thus, most members of our society can benefit from the consequences of technical advancements, especially the poor people.
+Secondly, technical developments improve productivity, which help people to escape from daily chores, and invest more time and energy in studying and living a more meaningful life. With the development of Internet, we can enjoy the pleasure and conveniences which it brings about for us every day. In the past time, we had to spend a lot of time searching information and waiting for letters of our friends who lived far away from us. Nowadays, we can talk with our friends online, no matter where we are and how far between us. In addition, the Internet gives everyone access to the same information, this therefore leads to greater equality between individuals.
+Undoubtedly, everything has two sides and technology is not an exception. To some extent, the gap between rich people and poor is widen by technology, because only the rich people have ability to afford the expensive high-tech products, and these products can help them to earn more in return. Nevertheless, I think it is a limp opposition to the remarkable advantages of technology, and technology is not the root cause of the gap.
+In conclusion, the good technology bringing to us is undeniable. Under proper use of technology, the human being can be benefit a lot and perpetually from the advancement of it.
+</OriginalText>
+</Annotation>

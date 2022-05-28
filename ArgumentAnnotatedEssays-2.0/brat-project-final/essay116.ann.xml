@@ -1,0 +1,88 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>governments should help and encourage artists to continue their work</text>
+    <TextPosition start="1747" end="1815"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>art is a very valuable object for every country and the talent in this area cannot be discovered everywhere</text>
+    <TextPosition start="1627" end="1734"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>art helps to improve the quality of our lives as well as attracting tourists</text>
+    <TextPosition start="517" end="593"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>monuments that represent each city do not only illustrate the city's history and culture, but also make the city more beautiful and an attractive place for tourists</text>
+    <TextPosition start="608" end="772"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>some countries depend on tourism as their main source of revenue</text>
+    <TextPosition start="783" end="847"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>the governments should help arts</text>
+    <TextPosition start="855" end="887"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>their work crafts are very necessary to boost the tourist industry</text>
+    <TextPosition start="896" end="962"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>culture and history of a country can be reserved and assured by art</text>
+    <TextPosition start="1114" end="1181"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>sculptures and paintings in the museums and art galleries generally reflect the culture and civilization of every generation</text>
+    <TextPosition start="977" end="1101"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Young people are also able to get more knowledge about their country's history and culture by observing various work crafts</text>
+    <TextPosition start="1183" end="1306"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>talent in art is extremely precious and should not be wasted</text>
+    <TextPosition start="1363" end="1423"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>not many people are blessed in the talent of paintings and work crafts</text>
+    <TextPosition start="1433" end="1503"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>this type of talent has to be valued as other types of talents such as talent in science or literature</text>
+    <TextPosition start="1512" end="1614"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Funding artists
+
+Nowadays, in order to save as much budget as possible and improve the economy of the country, every government around the world is seeking for some ways to spend wisely. Therefore, there is a suggestion that governments should not continue to fund the artists, but they ought to spend money on other necessary subjects such as medical research and space. In my view, I firmly disagree with this recommendation due to several reasons.
+The main reason why I believe artists should be funded is because art helps to improve the quality of our lives as well as attracting tourists. For example, monuments that represent each city do not only illustrate the city's history and culture, but also make the city more beautiful and an attractive place for tourists. In fact, some countries depend on tourism as their main source of revenue, thus, the governments should help arts because their work crafts are very necessary to boost the tourist industry.
+In addition, sculptures and paintings in the museums and art galleries generally reflect the culture and civilization of every generation. Therefore, culture and history of a country can be reserved and assured by art. Young people are also able to get more knowledge about their country's history and culture by observing various work crafts.
+Another reason why artists should be helped is because talent in art is extremely precious and should not be wasted. Indeed, not many people are blessed in the talent of paintings and work crafts. Hence, this type of talent has to be valued as other types of talents such as talent in science or literature.
+To sum up, art is a very valuable object for every country and the talent in this area cannot be discovered everywhere, so I think governments should help and encourage artists to continue their work.
+
+</OriginalText>
+</Annotation>

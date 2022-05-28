@@ -1,0 +1,116 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the advantages of upgrading the roads which I mentioned above are totally convincing and indispensable</text>
+    <TextPosition start="1961" end="2063"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>we all know that upgrading public transportation will surely aggravate the pollution and accidents</text>
+    <TextPosition start="381" end="479"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>investing in roads and highways can broaden the area and allow more public transportation to work</text>
+    <TextPosition start="987" end="1084"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>The buses, cars and trains regularly emit a noxious gas which causes lots of fatal diseases such as lung cancer and pneumonia</text>
+    <TextPosition start="481" end="606"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the sound emanates from the engines can worsen our hearing</text>
+    <TextPosition start="618" end="676"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>there are many accidents happening on the roads</text>
+    <TextPosition start="696" end="743"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>in my country, buses are attributed to the cause of skyrocketing of accidents</text>
+    <TextPosition start="758" end="835"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Vietnam has approximately twelve thousand people die of accidents which is equivalent to the death toll of the tsunami in Japan</text>
+    <TextPosition start="848" end="975"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Not only buses but also other personal vehicles can move easily on the roads</text>
+    <TextPosition start="1086" end="1162"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>I always leave school at the time that everybody rushes into the roads and hastily goes home</text>
+    <TextPosition start="1178" end="1270"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>It is extremely troublesome for me to escape from the crowd on the roads in only one hour</text>
+    <TextPosition start="1272" end="1361"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>if the roads are enlarged, everyone can go home in short time and there are hardly any collisions</text>
+    <TextPosition start="1376" end="1473"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>spending on renovating the highways and roads can improve the quality</text>
+    <TextPosition start="1496" end="1565"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>All of us are afraid of moving on the rough roads with lots of portholes</text>
+    <TextPosition start="1567" end="1639"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Those bad conditions result in many terrible accidents and make several people feel worried</text>
+    <TextPosition start="1641" end="1732"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>We should not accuse the drivers of causing accidents</text>
+    <TextPosition start="1734" end="1787"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>a part of the responsibility belongs to the authorities</text>
+    <TextPosition start="1796" end="1851"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>What's more, a smooth surface makes the transportation and movement become safer and easier</text>
+    <TextPosition start="1853" end="1944"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Government should regard investing in building roads as the most important
+
+The population explosion results in the high demands of transportation. Many countries have suffered from pollution, noisy and casualty for a long time. From my perspective, the most possible solution to these problems is improving roads and highways because of three crucial reasons.
+First and foremost, we all know that upgrading public transportation will surely aggravate the pollution and accidents. The buses, cars and trains regularly emit a noxious gas which causes lots of fatal diseases such as lung cancer and pneumonia. Moreover, the sound emanates from the engines can worsen our hearing. Most importantly, there are many accidents happening on the roads. For example, in my country, buses are attributed to the cause of skyrocketing of accidents. Each year, Vietnam has approximately twelve thousand people die of accidents which is equivalent to the death toll of the tsunami in Japan.
+Secondly, investing in roads and highways can broaden the area and allow more public transportation to work. Not only buses but also other personal vehicles can move easily on the roads. For instance, I always leave school at the time that everybody rushes into the roads and hastily goes home. It is extremely troublesome for me to escape from the crowd on the roads in only one hour. In contrast, if the roads are enlarged, everyone can go home in short time and there are hardly any collisions. 
+Last but not least, spending on renovating the highways and roads can improve the quality. All of us are afraid of moving on the rough roads with lots of portholes. Those bad conditions result in many terrible accidents and make several people feel worried. We should not accuse the drivers of causing accidents because a part of the responsibility belongs to the authorities. What's more, a smooth surface makes the transportation and movement become safer and easier.
+In a nutshell, the advantages of upgrading the roads which I mentioned above are totally convincing and indispensable. I am usually inclined to this idea and I hope that the government will regard the investment in building roads as the most important thing.</OriginalText>
+</Annotation>

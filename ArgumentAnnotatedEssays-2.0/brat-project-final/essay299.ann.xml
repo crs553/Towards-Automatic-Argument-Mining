@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>its better that people learn foreign language in their own country</text>
+    <TextPosition start="354" end="420"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>It is cost effective and there is a pool of opportunities available now to accomplish the same</text>
+    <TextPosition start="1722" end="1816"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>In the earlier periods, it was not easy to find a teacher to learn a foreign languge</text>
+    <TextPosition start="666" end="750"/>
+    <Relation relationID="T5Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>with the advent of globalization, one can easily find a teacher in their own country</text>
+    <TextPosition start="756" end="840"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>in Indian sub-continent there are large number of centers opened for getting trained in variety of languages like french, german etc</text>
+    <TextPosition start="855" end="987"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>it is not possible for everyone to visit a foreign country to learn a foreign language</text>
+    <TextPosition start="519" end="605"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>it requires large amount of money and legal formalities</text>
+    <TextPosition start="609" end="664"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>it is very easy to learn a foreign in our own country</text>
+    <TextPosition start="1184" end="1237"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Students can choose any language from the set of languages available at a university</text>
+    <TextPosition start="1094" end="1178"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>colleges and universities have introduced foreign language course as a part of their curriculum</text>
+    <TextPosition start="997" end="1092"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>highly qualified foreign language teachers are easily accessible in various schools and colleges</text>
+    <TextPosition start="1245" end="1341"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>A large number of foreign language courses are available online and there are various forums where people can discuss their problems on different foreign languages</text>
+    <TextPosition start="1472" end="1635"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>technology has also played a great role in reducing the separation between learning a foreign languge in our own country</text>
+    <TextPosition start="1350" end="1470"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Which is better- Learning foreign language in home or host country?
+
+Our World has varied cultures and each culture has its own language. It has become essential for a person to learn at least one foreign language as one do interacts with foreigners once in a lifetime and learning a foreign langauge adds on to a person skill-set as well. Also, I think its better that people learn foreign language in their own country. The reasons for holding that opinion are illustrated in the subsequent paragraphs.
+First of all, it is not possible for everyone to visit a foreign country to learn a foreign language as it requires large amount of money and legal formalities. In the earlier periods, it was not easy to find a teacher to learn a foreign languge. But with the advent of globalization, one can easily find a teacher in their own country. For example, in Indian sub-continent there are large number of centers opened for getting trained in variety of languages like french, german etc.
+Second, colleges and universities have introduced foreign language course as a part of their curriculum. Students can choose any language from the set of languages available at a university. So, it is very easy to learn a foreign in our own country. Also, highly qualified foreign language teachers are easily accessible in various schools and colleges.
+Third, technology has also played a great role in reducing the separation between learning a foreign languge in our own country. A large number of foreign language courses are available online and there are various forums where people can discuss their problems on different foreign languages.
+To sum up, it is better for people to learn a foreign language in their own country. It is cost effective and there is a pool of opportunities available now to accomplish the same.</OriginalText>
+</Annotation>

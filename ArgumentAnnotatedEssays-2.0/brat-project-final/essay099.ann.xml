@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I would agree to idea of taking a break before starting higher education</text>
+    <TextPosition start="1557" end="1629"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Students who take break, gain lot of benefits by traveling around the places or by working</text>
+    <TextPosition start="1631" end="1721"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>They tend to contribute more due to their real world experiences which makes them more mature</text>
+    <TextPosition start="1723" end="1816"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Experience gained through traveling to different places, meeting different people and even at job goes long way</text>
+    <TextPosition start="375" end="486"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>It not only enhances the confidence of a student but also makes them independent</text>
+    <TextPosition start="488" end="568"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Student's who works tend to gather better financial resources which they can rely on during their university studies</text>
+    <TextPosition start="570" end="686"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>This experience also makes them aware of what they would like to make of their life</text>
+    <TextPosition start="688" end="771"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>They develop broader view and can make a better choice of their future studies or courses</text>
+    <TextPosition start="773" end="862"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>They might even find it difficult to adapt to education environment</text>
+    <TextPosition start="1072" end="1139"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>There is also a risk of student never going back to university or higher education</text>
+    <TextPosition start="1141" end="1223"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Probably some might take some short term courses instead of proper and complete university education, which will help them to get a better job and salaries</text>
+    <TextPosition start="1225" end="1380"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>This might only help them in a short run as it is a known fact that to make a reasonable career in longer runs, one needs a proper and higher qualification</text>
+    <TextPosition start="1382" end="1537"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Once student's starts earning, they might not like to go back to studies where they would lose their financial independence</text>
+    <TextPosition start="947" end="1070"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>Taking a break not just has benefits but it also comes with some negative impacts</text>
+    <TextPosition start="864" end="945"/>
+    <Relation relationID="RT14T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Taking a break before starting higher education is a good idea
+
+Nowadays, it is an increasingly common trend to take a break before starting university studies. It is not just becoming common among rich students but also in the poor students. Students take a break of year or two, some students travel all around the world during this time, and some choose to take up a job.
+Experience gained through traveling to different places, meeting different people and even at job goes long way. It not only enhances the confidence of a student but also makes them independent. Student's who works tend to gather better financial resources which they can rely on during their university studies. This experience also makes them aware of what they would like to make of their life. They develop broader view and can make a better choice of their future studies or courses.
+Taking a break not just has benefits but it also comes with some negative impacts. Once student's starts earning, they might not like to go back to studies where they would lose their financial independence. They might even find it difficult to adapt to education environment. There is also a risk of student never going back to university or higher education. Probably some might take some short term courses instead of proper and complete university education, which will help them to get a better job and salaries. This might only help them in a short run as it is a known fact that to make a reasonable career in longer runs, one needs a proper and higher qualification.
+In my view point, I would agree to idea of taking a break before starting higher education. Students who take break, gain lot of benefits by traveling around the places or by working. They tend to contribute more due to their real world experiences which makes them more mature.
+</OriginalText>
+</Annotation>

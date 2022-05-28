@@ -1,0 +1,128 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>wok in person is preferred</text>
+    <TextPosition start="218" end="244"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>this means help to achieve a good communication</text>
+    <TextPosition start="253" end="300"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>discussion face to face in a meeting is much better than by emails</text>
+    <TextPosition start="413" end="479"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>team members may have different views and they need to reach a union opinion efficiently</text>
+    <TextPosition start="312" end="400"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>An experiment conducted by the Beijing University asked two groups of people to discuss the budget of an activity</text>
+    <TextPosition start="481" end="594"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>The first group was asked to discuss in person, while the second group was asked to discuss by email</text>
+    <TextPosition start="596" end="696"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the 1st group used 30 minutes to reach the agreement on the budget, while it takes 30 hours for the later one</text>
+    <TextPosition start="720" end="829"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>The similar experiment done by other scientist show the same result that people can reach an agreement quickly if they could talk to each other</text>
+    <TextPosition start="831" end="974"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>there will be less conflicts or fight amongst the team members</text>
+    <TextPosition start="1079" end="1141"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Writing an email for an informal matter will make that matter looks official</text>
+    <TextPosition start="1143" end="1219"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>people who receives the email may feel nervous or maybe feel offended by the words in writing</text>
+    <TextPosition start="1231" end="1324"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>less misunderstanding leads to less conflicts and fights, and enhance the communication amongst the team members</text>
+    <TextPosition start="1547" end="1659"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>their response will not be recorded and they will not misunderstand the informal discussion to an official claim</text>
+    <TextPosition start="1422" end="1534"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>if the same words are expressed in talking, the counterparty will feel more relaxed</text>
+    <TextPosition start="1332" end="1415"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>work in person can indirectly improve the quality and the efficiency of the project</text>
+    <TextPosition start="987" end="1070"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>emails are not convenient for the work but it is better than none</text>
+    <TextPosition start="1770" end="1835"/>
+    <Relation relationID="RT16T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>sometimes we have to use emails if the team members are not located in the same place</text>
+    <TextPosition start="1674" end="1759"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>it is a classroom or campus projects, there is few possibility that the project members are located in different areas</text>
+    <TextPosition start="1843" end="1961"/>
+    <Relation relationID="T16Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>work in person will be more efficient</text>
+    <TextPosition start="2289" end="2326"/>
+    <Relation relationID="RT20-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="claim"/>
+    <text>we should realize that in a project, there are numerous coordination works are required, if each opinion is communicated via email, there will be hundreds or thousands of emails there that we know this is not a good experience</text>
+    <TextPosition start="1970" end="2196"/>
+    <Relation relationID="RT21-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Do you think classmates or colleagues should work on projects in person or by e-mail
+
+When it comes to the question whether classmates or colleagues should work on projects in person or by email, I am of the view that wok in person is preferred because this means help to achieve a good communication. 
+Firstly, team members may have different views and they need to reach a union opinion efficiently. Obviously, discussion face to face in a meeting is much better than by emails. An experiment conducted by the Beijing University asked two groups of people to discuss the budget of an activity. The first group was asked to discuss in person, while the second group was asked to discuss by email. The result shows that the 1st group used 30 minutes to reach the agreement on the budget, while it takes 30 hours for the later one. The similar experiment done by other scientist show the same result that people can reach an agreement quickly if they could talk to each other. 
+Secondly, work in person can indirectly improve the quality and the efficiency of the project because there will be less conflicts or fight amongst the team members. Writing an email for an informal matter will make that matter looks official, therefore people who receives the email may feel nervous or maybe feel offended by the words in writing. While if the same words are expressed in talking, the counterparty will feel more relaxed since their response will not be recorded and they will not misunderstand the informal discussion to an official claim. Therefore, less misunderstanding leads to less conflicts and fights, and enhance the communication amongst the team members. 
+Admittedly, sometimes we have to use emails if the team members are not located in the same place. Although emails are not convenient for the work but it is better than none. Since it is a classroom or campus projects, there is few possibility that the project members are located in different areas. 
+While we should realize that in a project, there are numerous coordination works are required, if each opinion is communicated via email, there will be hundreds or thousands of emails there that we know this is not a good experience. In conclusion, I prefer the project members to work in person rather them by email because work in person will be more efficient.</OriginalText>
+</Annotation>

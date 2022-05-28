@@ -1,0 +1,74 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it would be a better implication by the government to promote other sources of energy</text>
+    <TextPosition start="1340" end="1425"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>This can make use of the available natural resources which in turn would reduce the global warming</text>
+    <TextPosition start="1427" end="1525"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it would be a good implication by the government to generate electricity from other available sources</text>
+    <TextPosition start="834" end="935"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>the major source of energy today is water</text>
+    <TextPosition start="346" end="387"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>there is a lot of water shortage to generate electricity many countries still rely only on this source</text>
+    <TextPosition start="398" end="500"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>To generate such a vast energy the fundamental resources are falling short</text>
+    <TextPosition start="502" end="576"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>during summer there will be a lot of power cut in the developing countries such as India</text>
+    <TextPosition start="584" end="672"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>If the government encourage the use of nuclear, solar or wind energy there might not be any problem in distributing the required amount electricity</text>
+    <TextPosition start="674" end="821"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>the sources most widely used currently to generate power releases extensive amount of gases into the atmosphere which increases global warming</text>
+    <TextPosition start="947" end="1089"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the use of a solar cooker instead of an electric cooker would certainly reduce the global warming</text>
+    <TextPosition start="1104" end="1201"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the use of nuclear energy as an alternative to the hydro-kinetic energy causes less atmospheric pollution</text>
+    <TextPosition start="1220" end="1325"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Government should make more effort to promote alternative sources of energy
+
+The increasing population and the technological advancements demand more energy than in the past. It is believed that there are various other resources such as the nuclear and solar which are abundant and eco-friendly. I will analyze these areas in the essay.
+Firstly, the major source of energy today is water. Although there is a lot of water shortage to generate electricity many countries still rely only on this source. To generate such a vast energy the fundamental resources are falling short. Thus, during summer there will be a lot of power cut in the developing countries such as India. If the government encourage the use of nuclear, solar or wind energy there might not be any problem in distributing the required amount electricity. Therefore, it would be a good implication by the government to generate electricity from other available sources.
+Secondly, the sources most widely used currently to generate power releases extensive amount of gases into the atmosphere which increases global warming. For example, the use of a solar cooker instead of an electric cooker would certainly reduce the global warming. In the same way, the use of nuclear energy as an alternative to the hydro-kinetic energy causes less atmospheric pollution.
+To conclude, it would be a better implication by the government to promote other sources of energy. This can make use of the available natural resources which in turn would reduce the global warming. Further, government should motivate and encourage the people to use alternative sources such as the solar and the nuclear energy.
+</OriginalText>
+</Annotation>

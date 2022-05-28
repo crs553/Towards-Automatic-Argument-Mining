@@ -1,0 +1,146 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>if the good people always get an happy ending, I don&#8217;t think it&#8217;s proper</text>
+    <TextPosition start="315" end="387"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>if all the story end up in the same way, it will be boring</text>
+    <TextPosition start="396" end="454"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>If good people always win, we can guess the ending of the movies or dramas</text>
+    <TextPosition start="456" end="530"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>we can&#8217;t always let good people be rewarded in movies or TV programs</text>
+    <TextPosition start="924" end="992"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Then we will feel less interested in them</text>
+    <TextPosition start="532" end="573"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>But if the good people are not always rewarded, we will try to finish the movie or dramas to find out the end of the story</text>
+    <TextPosition start="575" end="697"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Hollywood stories usually have a happy ending like a hero beats a crime and get a girl</text>
+    <TextPosition start="712" end="798"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>But now many people, including me, have been tired with it</text>
+    <TextPosition start="800" end="858"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>I don&#8217;t want to see the same kind of ending again and again</text>
+    <TextPosition start="860" end="919"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>if children always watch the TV programs that good people get rewarded, they may think it will be true in the real world</text>
+    <TextPosition start="1138" end="1258"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>They will be misleading by those movies</text>
+    <TextPosition start="1260" end="1299"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>they may act like good people in order to get reward</text>
+    <TextPosition start="1305" end="1357"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Once they find the good people are not always get rewarded, they may feel upset and not to be a good person</text>
+    <TextPosition start="1359" end="1466"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>the good people do good things no matter the ending is good or not</text>
+    <TextPosition start="1481" end="1547"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>we should tell this to the young children to avoid the misunderstanding</text>
+    <TextPosition start="1552" end="1623"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Even in the real world, good people can get a bad ending sometimes</text>
+    <TextPosition start="994" end="1060"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>it happen more often in the real world than in those movies</text>
+    <TextPosition start="1074" end="1133"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>those good endings sometimes are helpful</text>
+    <TextPosition start="1634" end="1674"/>
+    <Relation relationID="T22Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T22"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>Some people may be encouraged to do good things</text>
+    <TextPosition start="1676" end="1723"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>this kind of behavior won&#8217;t last long</text>
+    <TextPosition start="1742" end="1779"/>
+    <Relation relationID="T18Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>someday they will realize the truth</text>
+    <TextPosition start="1789" end="1824"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="claim"/>
+    <text>we should show people the truth in the stories</text>
+    <TextPosition start="1839" end="1885"/>
+    <Relation relationID="RT22-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>if they can, they will be good people no matter how the story ends</text>
+    <TextPosition start="1891" end="1957"/>
+    <Relation relationID="T22Default Inference" type="Default Inference" typeBinary="0" partnerID="T22"/>
+  </Proposition>
+  <OriginalText>Should good people are rewarded and bad people are punished in movies or dramas?
+
+When we watch movies or dramas, some of us like to see good people have a good ending and bad people are punished. While there are also some people who do not like this. Personally, I prefer to see good people get rewarded. However, if the good people always get an happy ending, I don&#8217;t think it&#8217;s proper.
+First, if all the story end up in the same way, it will be boring. If good people always win, we can guess the ending of the movies or dramas. Then we will feel less interested in them. But if the good people are not always rewarded, we will try to finish the movie or dramas to find out the end of the story. For example, Hollywood stories usually have a happy ending like a hero beats a crime and get a girl. But now many people, including me, have been tired with it. I don&#8217;t want to see the same kind of ending again and again. So we can&#8217;t always let good people be rewarded in movies or TV programs.
+Even in the real world, good people can get a bad ending sometimes. And I think it happen more often in the real world than in those movies. So if children always watch the TV programs that good people get rewarded, they may think it will be true in the real world. They will be misleading by those movies. And they may act like good people in order to get reward. Once they find the good people are not always get rewarded, they may feel upset and not to be a good person. But in fact, the good people do good things no matter the ending is good or not. So we should tell this to the young children to avoid the misunderstanding.
+In fact, those good endings sometimes are helpful. Some people may be encouraged to do good things. But like I said, this kind of behavior won&#8217;t last long, because someday they will realize the truth. So I suggest we should show people the truth in the stories. And if they can, they will be good people no matter how the story ends.
+Based on my arguments above, I think movies and TV programs should present different stories in which good people get reward or get nothing.</OriginalText>
+</Annotation>

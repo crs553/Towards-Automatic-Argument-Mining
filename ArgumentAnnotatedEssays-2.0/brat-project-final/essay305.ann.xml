@@ -1,0 +1,139 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>going to classes should be optional for the students</text>
+    <TextPosition start="418" end="470"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>it is university level of education, students have enough maturity to choose their choice</text>
+    <TextPosition start="294" end="383"/>
+    <Relation relationID="RT1-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>some lecturers in our university read the same text in the reference books for that particular course module</text>
+    <TextPosition start="551" end="659"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>they didn't explain the contents in order to understand by the students</text>
+    <TextPosition start="670" end="741"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>they have enough ability to read and understand the text book</text>
+    <TextPosition start="816" end="877"/>
+    <Relation relationID="RT5-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the university students have grown up</text>
+    <TextPosition start="777" end="814"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>with the modern technology, students can collect more information from different sources</text>
+    <TextPosition start="889" end="977"/>
+    <Relation relationID="RT7-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>from the Internet, students can read many articles and e-books and can watch video tutorials which provide the information more apparently</text>
+    <TextPosition start="992" end="1130"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>some lecturers deliver lectures very informative and interesting way</text>
+    <TextPosition start="1141" end="1209"/>
+    <Relation relationID="RT9T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>When the students attend that lectures, they can obviously feel that it was very useful and they did not waste their time</text>
+    <TextPosition start="1211" end="1332"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>going to classes are sometimes waste of the time</text>
+    <TextPosition start="487" end="535"/>
+    <Relation relationID="RT11-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>It was waste of the time</text>
+    <TextPosition start="743" end="767"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>rather than attending any boring lecturers, students can participate to other activities such as debate competition, swimming meet, Basketball and so forth</text>
+    <TextPosition start="1665" end="1820"/>
+    <Relation relationID="RT13-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>most of the university students are working students in order to manage the expenses during the education time</text>
+    <TextPosition start="1413" end="1523"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Students need to work as part time basis</text>
+    <TextPosition start="1525" end="1565"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>they have to schedule the lectures time, studying time and working time</text>
+    <TextPosition start="1574" end="1645"/>
+    <Relation relationID="RT16-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>they can meet other university students and build up the relationships with them</text>
+    <TextPosition start="1832" end="1912"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>mostly university has taken whole day for the lectures</text>
+    <TextPosition start="1348" end="1402"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>few brilliant lecturers deliver more informative lectures</text>
+    <TextPosition start="1939" end="1996"/>
+    <Relation relationID="RT20T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>some are boring the students in the class and wasting the students' time</text>
+    <TextPosition start="1998" end="2070"/>
+    <Relation relationID="T20Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="claim"/>
+    <text>When the students go to university, they have matured mentally and physically</text>
+    <TextPosition start="2072" end="2149"/>
+    <Relation relationID="RT22-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="claim"/>
+    <text>They have enough knowledge to choose what they need to do</text>
+    <TextPosition start="2151" end="2208"/>
+    <Relation relationID="RT23-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>Going to classes should be optional for the students
+
+University students have different opinion about their attendance to class. Some students believe that they should be required to attend classes while others believe that it is an optional for the students. According to my opinion, because it is university level of education, students have enough maturity to choose their choice. Therefore, I strongly agree that going to classes should be optional for the students.
+To begin with, going to classes are sometimes waste of the time. For instance, some lecturers in our university read the same text in the reference books for that particular course module. Further, they didn't explain the contents in order to understand by the students. It was waste of the time. Because the university students have grown up, they have enough ability to read and understand the text book. Moreover, with the modern technology, students can collect more information from different sources. For example, from the Internet, students can read many articles and e-books and can watch video tutorials which provide the information more apparently. However, some lecturers deliver lectures very informative and interesting way. When the students attend that lectures, they can obviously feel that it was very useful and they did not waste their time.
+Additionally, mostly university has taken whole day for the lectures. Besides, most of the university students are working students in order to manage the expenses during the education time. Students need to work as part time basis. Hence, they have to schedule the lectures time, studying time and working time. At the same time, rather than attending any boring lecturers, students can participate to other activities such as debate competition, swimming meet, Basketball and so forth. From that they can meet other university students and build up the relationships with them. 
+In a nutshell, although few brilliant lecturers deliver more informative lectures, some are boring the students in the class and wasting the students' time. When the students go to university, they have matured mentally and physically. They have enough knowledge to choose what they need to do. Therefore, to make use of time, if the students choose the classes as optional, it would provide more benefits than drawbacks.</OriginalText>
+</Annotation>

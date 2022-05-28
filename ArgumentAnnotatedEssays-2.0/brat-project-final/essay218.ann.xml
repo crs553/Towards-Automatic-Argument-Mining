@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>childhood is the happiest time of a person's life</text>
+    <TextPosition start="147" end="196"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>in childhood most people are happier than in adulthood</text>
+    <TextPosition start="205" end="259"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>They do not have to worry about bills, jobs, how would their life be in the future</text>
+    <TextPosition start="261" end="343"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>They just worry about two things: to have fun, learn and be happy</text>
+    <TextPosition start="345" end="410"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>A child's daily life is school, playing and sleeping</text>
+    <TextPosition start="412" end="464"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>when I was young I just came home from school and then I would took my bike or soccer ball and go out and play with my friends in my neighborhood</text>
+    <TextPosition start="479" end="624"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>I did not have to worry about costs and other things, I just had fun and learned</text>
+    <TextPosition start="636" end="716"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>people are most creative when they were children</text>
+    <TextPosition start="724" end="772"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>children imagine new things and games just to have fun and be happy</text>
+    <TextPosition start="774" end="841"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>childhood is the period where people go to school and learn</text>
+    <TextPosition start="851" end="910"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>school memories are one of the best memories in a person's life</text>
+    <TextPosition start="923" end="986"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>There you learn, to find your first love, to make new long-lasting friendships and of-course you will have a lot of fun</text>
+    <TextPosition start="988" end="1107"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>my father's best moments in his life are in his school years</text>
+    <TextPosition start="1122" end="1182"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>he is still in-touch with some of his classmates and sometimes they get together and share their childhood memories</text>
+    <TextPosition start="1194" end="1309"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>School memories
+
+Everyone has happy moments during their life. These happy moments are both in their childhood and their adulthood. In my opinion, childhood is the happiest time of a person's life.
+First, in childhood most people are happier than in adulthood. They do not have to worry about bills, jobs, how would their life be in the future. They just worry about two things: to have fun, learn and be happy. A child's daily life is school, playing and sleeping. For example, when I was young I just came home from school and then I would took my bike or soccer ball and go out and play with my friends in my neighborhood. Moreover, I did not have to worry about costs and other things, I just had fun and learned. Also, people are most creative when they were children, children imagine new things and games just to have fun and be happy.
+Second, childhood is the period where people go to school and learn. Therefore, school memories are one of the best memories in a person's life. There you learn, to find your first love, to make new long-lasting friendships and of-course you will have a lot of fun. For example, my father's best moments in his life are in his school years. Moreover, he is still in-touch with some of his classmates and sometimes they get together and share their childhood memories.
+In other words, childhood is, indeed, the most happiest moments in a person's life. There is only one life and one childhood and people should live their childhood thoroughly.</OriginalText>
+</Annotation>

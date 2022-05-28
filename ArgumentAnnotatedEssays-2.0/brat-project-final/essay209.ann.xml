@@ -1,0 +1,62 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it will yield more negative results than positive ones</text>
+    <TextPosition start="1406" end="1460"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it should be up for grabs for a majority of young people, who wish to pursue their passion as well as develop comprehensively</text>
+    <TextPosition start="916" end="1041"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>university is not just about academic studies but also a place to nurture artistic talent and develop soft skills</text>
+    <TextPosition start="790" end="903"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>there is a tendency for social vices to rise if university is to be restricted to only the best people</text>
+    <TextPosition start="1058" end="1160"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Apart from the disheartened ones, many devoiding of neccessary preparations are likely to be recipes for failure when applying for jobs, mostly the white-collar ones</text>
+    <TextPosition start="1162" end="1327"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>outstanding academic students are eligible for university due to their intellectual advantage</text>
+    <TextPosition start="375" end="468"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>such abstract or complicated informatin, easily absorbed by those students, may prove as a matter of pressure for those who lack equivalent skills</text>
+    <TextPosition start="485" end="631"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>it is undeniable that one deserves what he has done</text>
+    <TextPosition start="642" end="693"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>University is like a gift presented to those who have gone to great length to attain</text>
+    <TextPosition start="695" end="779"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <OriginalText>University education restriction
+
+Universtiy is an entrance to life. It equips us with a package of wisdom and virtue to succeed. It is the importance of university that raises a question whether students with best scholastic performance deserve university study or just any young wishful people. Both sides are to be discussed before a conclusion is reached.
+To begin with, outstanding academic students are eligible for university due to their intellectual advantage. To be precise, such abstract or complicated informatin, easily absorbed by those students, may prove as a matter of pressure for those who lack equivalent skills. Besides, it is undeniable that one deserves what he has done. University is like a gift presented to those who have gone to great length to attain.
+However, university is not just about academic studies but also a place to nurture artistic talent and develop soft skills. Therefore, it should be up for grabs for a majority of young people, who wish to pursue their passion as well as develop comprehensively. 
+What is more, there is a tendency for social vices to rise if university is to be restricted to only the best people. Apart from the disheartened ones, many devoiding of neccessary preparations are likely to be recipes for failure when applying for jobs, mostly the white-collar ones.
+In conclusion, university restriction has both pros and cons. In my opinion, it will yield more negative results than positive ones. That's why it should be made available for a wide range of learners.</OriginalText>
+</Annotation>

@@ -1,0 +1,69 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I find myself aligned with opponents of the usages of nuclear power</text>
+    <TextPosition start="347" end="414"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>pursuit of nuclear technology one way or the other leads towards atomic weapons</text>
+    <TextPosition start="532" end="611"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Last century has witnessed the horrors of such weapons</text>
+    <TextPosition start="613" end="667"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>If each country pursues the fusion and fission process some of them may try to mold it for military usage</text>
+    <TextPosition start="669" end="774"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>even civil usages of atomic power pose a dire threat of radio activity</text>
+    <TextPosition start="821" end="891"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>recently there has been an incident in which an atomic power house leaked tons of radio active material into air when an earthquake hit the surrounding area</text>
+    <TextPosition start="905" end="1061"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>This unfortunate event proves that no matter how much careful we are such accidents are inevitable</text>
+    <TextPosition start="1063" end="1161"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>Safely getting rid of nuclear waste is a daunting task and there has not been any permanent solution of it</text>
+    <TextPosition start="1316" end="1422"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>while generating energy from any source be it hydro power or oil there always is some wastage and so is the case with nuclear power</text>
+    <TextPosition start="1183" end="1314"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>This waste is many times more lethal to our environment than any of the other hazardous material</text>
+    <TextPosition start="1424" end="1520"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>The nuclear power provide clean and cheap energy
+
+The topic of nuclear technology frequently generates a heated debate with proponents maintaining that nuclear power provides a source of efficient and economical energy while opponents argue that atomic technology is uncontrollable and very dangerous to handle. As far as my opinion is concerned, I find myself aligned with opponents of the usages of nuclear power. I have several reasons to believe its disadvantages outnumber the few advantages.
+First and foremost reason is that pursuit of nuclear technology one way or the other leads towards atomic weapons. Last century has witnessed the horrors of such weapons. If each country pursues the fusion and fission process some of them may try to mold it for military usage.
+Another reason to fortify my opinion is that even civil usages of atomic power pose a dire threat of radio activity. For example recently there has been an incident in which an atomic power house leaked tons of radio active material into air when an earthquake hit the surrounding area. This unfortunate event proves that no matter how much careful we are such accidents are inevitable.
+Last but not least, while generating energy from any source be it hydro power or oil there always is some wastage and so is the case with nuclear power. Safely getting rid of nuclear waste is a daunting task and there has not been any permanent solution of it. This waste is many times more lethal to our environment than any of the other hazardous material.
+To sum it up, from above mentioned facts it can easily be deduced that nuclear power may appear silver bullet for energy crisis but its disadvantages far outweigh the advantages. Thus I suggest that use of nuclear technology should be discouraged even for civil purposes.
+</OriginalText>
+</Annotation>

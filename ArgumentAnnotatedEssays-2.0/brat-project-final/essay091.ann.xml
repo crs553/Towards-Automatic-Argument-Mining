@@ -1,0 +1,87 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>a universal language playing the dominant role in the international community is of vital significance to global people</text>
+    <TextPosition start="238" end="357"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>a single international language plays a pivotal role in global economic cooperation</text>
+    <TextPosition start="410" end="493"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>a single international language serves an economic purpose</text>
+    <TextPosition start="904" end="962"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>As businessmen from different countries have access to the same language, they can communicate with each other more efficiently and deeply on trade, which can intensify the transnational cooperation</text>
+    <TextPosition start="495" end="693"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>without the availability of the same language, there might be a chance that misunderstanding and conflicts would ensue over business negotiations, impeding collaborations between them</text>
+    <TextPosition start="708" end="891"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>a universal language is an integral part of cultural communication and interactions</text>
+    <TextPosition start="970" end="1053"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>If people are equipped with a single international language, they can tell each other smoothly about their countries' specific cultures such as the traditional customs or the modern lifestyles, which enables people to expand their outlooks, viewing the world in new angles</text>
+    <TextPosition start="1055" end="1327"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>when people travel to foreign countries, the local people can introduce the tourist attractions to such people with the command of the universal language, helping foreign visitors have an enjoyable exotic experience</text>
+    <TextPosition start="1342" end="1557"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>every country should by no means disregard the preservation of their own cultural heritage</text>
+    <TextPosition start="2348" end="2438"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>a single international language may, to some extent, erode the cultural identity of a nation</text>
+    <TextPosition start="1675" end="1767"/>
+    <Relation relationID="RT11T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>people may be impressed by the cultural values brought with the universal language, eroding a sense of national belong</text>
+    <TextPosition start="1785" end="1903"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>some Asians are seeking individualism, previously denied by many Asian countries</text>
+    <TextPosition start="1919" end="1999"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>they have gradually identified with such values expressed in American movies, which are imported by the governments as a result of the proliferation of English</text>
+    <TextPosition start="2022" end="2181"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>A single international language or not?
+
+The 21st century has witnessed the sweeping trends of globalization, which raises people's concerns about whether a single international language should be a necessity or not. From my perspective, a universal language playing the dominant role in the international community is of vital significance to global people.
+It is especially true if we consider the fact that a single international language plays a pivotal role in global economic cooperation. As businessmen from different countries have access to the same language, they can communicate with each other more efficiently and deeply on trade, which can intensify the transnational cooperation. In contrast, without the availability of the same language, there might be a chance that misunderstanding and conflicts would ensue over business negotiations, impeding collaborations between them. Therefore, a single international language serves an economic purpose.
+Also, a universal language is an integral part of cultural communication and interactions. If people are equipped with a single international language, they can tell each other smoothly about their countries' specific cultures such as the traditional customs or the modern lifestyles, which enables people to expand their outlooks, viewing the world in new angles. For example, when people travel to foreign countries, the local people can introduce the tourist attractions to such people with the command of the universal language, helping foreign visitors have an enjoyable exotic experience.
+In spite of this, the disadvantages of the promotion of a universal language cannot be denied. To be more specific, a single international language may, to some extent, erode the cultural identity of a nation. This is because people may be impressed by the cultural values brought with the universal language, eroding a sense of national belong. For instance, some Asians are seeking individualism, previously denied by many Asian countries, due to the fact that they have gradually identified with such values expressed in American movies, which are imported by the governments as a result of the proliferation of English.
+Therefore, I would conclude that a single international language contributes to global community in terms of economic and cultural communication. On the other hand, every country should by no means disregard the preservation of their own cultural heritage.
+</OriginalText>
+</Annotation>

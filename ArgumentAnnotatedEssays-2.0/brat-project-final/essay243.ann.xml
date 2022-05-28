@@ -1,0 +1,140 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I prefer e-mail due to 3 reasons: convenience, honest expression and fluency in communicating</text>
+    <TextPosition start="270" end="363"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>e-mail has been a great way of communication</text>
+    <TextPosition start="386" end="430"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>You can talk to others from thousands mile</text>
+    <TextPosition start="432" end="474"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>if you are in Vietnam and another person is in the US - half of the Earth, no matter how far it is, you can keep contact</text>
+    <TextPosition start="490" end="610"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>We will never have to worry if our mails will be sent to the right address</text>
+    <TextPosition start="612" end="686"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>If the address is wrong, then you will know right away</text>
+    <TextPosition start="688" end="742"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>e-mail doesn't take too much time: just a click</text>
+    <TextPosition start="754" end="801"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>e-mail will be a good tool to help me speak out</text>
+    <TextPosition start="1165" end="1212"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>writing e-mail helps people express honestly</text>
+    <TextPosition start="816" end="860"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the face-to-face conversations make them feel stupid</text>
+    <TextPosition start="885" end="937"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Sometimes, their ideas are not expressed as exactly as they expect</text>
+    <TextPosition start="939" end="1005"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>I want to talk to my friend about a ticklish problem like her behavior, it's hard for me to face her and explain what she should do</text>
+    <TextPosition start="1021" end="1152"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>She will just read my e-mail instead of listening to my voice which can make her annoyed</text>
+    <TextPosition start="1214" end="1302"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>I don't have to worry about any other thing can make my opinion become unpersuasive</text>
+    <TextPosition start="1304" end="1387"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>E-mail helps me arrange my idea perfectly and make it persuasive</text>
+    <TextPosition start="1855" end="1919"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>every communication needs fluency</text>
+    <TextPosition start="1409" end="1442"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>people can understand each other exactly and remember it for a long time</text>
+    <TextPosition start="1446" end="1518"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>Voice email or face-to-face conversations sometimes make reserve people feel not very confident</text>
+    <TextPosition start="1520" end="1615"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>when I face my parents, I can't speak out every idea and express consecutively</text>
+    <TextPosition start="1630" end="1708"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>They may stop me, speak something against it and that makes me forget what I want to say</text>
+    <TextPosition start="1710" end="1798"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>Anyone can meet this problem once in any conversation</text>
+    <TextPosition start="1800" end="1853"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="claim"/>
+    <text>Its convenience saves our time</text>
+    <TextPosition start="2049" end="2079"/>
+    <Relation relationID="RT23-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>E-mail or Voice mail Versus Telephone or face to face
+
+Technology has been developing so quickly and becoming more perfect every day. Communication nowadays depends on technology pretty much. Voice mail, e-mail, telephone or just traditional way: face-to-face. However, I prefer e-mail due to 3 reasons: convenience, honest expression and fluency in communicating.
+Everyone agrees that e-mail has been a great way of communication. You can talk to others from thousands mile. For instance, if you are in Vietnam and another person is in the US - half of the Earth, no matter how far it is, you can keep contact. We will never have to worry if our mails will be sent to the right address. If the address is wrong, then you will know right away. Moreover, e-mail doesn't take too much time: just a click.
+In addition, writing e-mail helps people express honestly. Some people think that the face-to-face conversations make them feel stupid. Sometimes, their ideas are not expressed as exactly as they expect. For instance, I want to talk to my friend about a ticklish problem like her behavior, it's hard for me to face her and explain what she should do. Therefore, e-mail will be a good tool to help me speak out. She will just read my e-mail instead of listening to my voice which can make her annoyed. I don't have to worry about any other thing can make my opinion become unpersuasive.
+Last but not least, every communication needs fluency so people can understand each other exactly and remember it for a long time. Voice email or face-to-face conversations sometimes make reserve people feel not very confident. For example, when I face my parents, I can't speak out every idea and express consecutively. They may stop me, speak something against it and that makes me forget what I want to say. Anyone can meet this problem once in any conversation. E-mail helps me arrange my idea perfectly and make it persuasive. 
+On the whole, to compare to all ways of communication, I really think that e-mail is the greatest way for major people to use. Its convenience saves our time. Additionally, honesty is necessary for every conversation and also fluency can't be missing for a persuasive expression.</OriginalText>
+</Annotation>

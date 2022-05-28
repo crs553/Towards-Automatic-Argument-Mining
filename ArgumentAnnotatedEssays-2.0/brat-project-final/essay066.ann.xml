@@ -1,0 +1,75 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>technology plays a key role in promoting traditional techniques and lifestyles</text>
+    <TextPosition start="523" end="601"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>In terms of time and space, technology makes it more efficient and effective to promote the traditional skills and ways of life</text>
+    <TextPosition start="603" end="730"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>with the access to the Internet, one of the greatest innovations in modern society, humankind can acquire the traditional techniques displayed online anytime, anywhere</text>
+    <TextPosition start="1044" end="1211"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>In the past, only when people went to the local place could they experience the specific traditional lifestyles</text>
+    <TextPosition start="732" end="843"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>This means individuals who were engaged in work and therefore could not spare time to travel or restricted by traffic conditions had to miss the chance to appreciate the traditional skills</text>
+    <TextPosition start="845" end="1033"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>technology enriches the way of displaying traditional cultural heritage, making it more vivid and appealing</text>
+    <TextPosition start="1227" end="1334"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>China has successfully promoted traditional techniques in the Shanghai World Expo, using a variety of state-of-the-art technological methods, such as robots and LED screens</text>
+    <TextPosition start="1349" end="1521"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>many tourists around the world marveled at the perfect synthesis of the modern technology and the traditional culture</text>
+    <TextPosition start="1532" end="1649"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>some people are concerned that technology may have a detrimental effect on the traditional lifestyles</text>
+    <TextPosition start="1670" end="1771"/>
+    <Relation relationID="RT9T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>especially youngsters, are crazier about fresh and advanced things, such as digital products, thus becoming indifferent to traditional techniques</text>
+    <TextPosition start="1797" end="1942"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>people tend to follow the trend back to the tradition in the recent years</text>
+    <TextPosition start="1988" end="2061"/>
+    <Relation relationID="T10Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Technology keeps traditional skills and ways of life alive or not?
+
+Living in the 21st century, people are firmly convinced that technology is the main driving force behind productivity. Thus, every country has been promoting technological advances in the recent years, regardless of any potential problems it may bring about. Some people are worried modern technological technology is probably a hurdle to the preservation of traditional techniques and lifestyles. However, I believe their concern is groundless. Instead, technology plays a key role in promoting traditional techniques and lifestyles.
+In terms of time and space, technology makes it more efficient and effective to promote the traditional skills and ways of life. In the past, only when people went to the local place could they experience the specific traditional lifestyles. This means individuals who were engaged in work and therefore could not spare time to travel or restricted by traffic conditions had to miss the chance to appreciate the traditional skills. However, with the access to the Internet, one of the greatest innovations in modern society, humankind can acquire the traditional techniques displayed online anytime, anywhere.
+Additionally, technology enriches the way of displaying traditional cultural heritage, making it more vivid and appealing. For example, China has successfully promoted traditional techniques in the Shanghai World Expo, using a variety of state-of-the-art technological methods, such as robots and LED screens. In fact, many tourists around the world marveled at the perfect synthesis of the modern technology and the traditional culture.
+On the other hand, some people are concerned that technology may have a detrimental effect on the traditional lifestyles. They argue that people, especially youngsters, are crazier about fresh and advanced things, such as digital products, thus becoming indifferent to traditional techniques. But I believe this is not the issue because people tend to follow the trend back to the tradition in the recent years.
+Therefore, I will conclude that technology indeed supports the preservation and promotion of traditional techniques and lifestyles. Only when traditional culture is integrated with the modern technology can it be developed in the long run.
+</OriginalText>
+</Annotation>

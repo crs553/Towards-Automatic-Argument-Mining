@@ -1,0 +1,110 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>studying many subjects is better that one</text>
+    <TextPosition start="328" end="369"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>students can study in subjects that they interested in, they can gain knowledge more than one field and they will have more chance to choose their future</text>
+    <TextPosition start="378" end="531"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it makes students have more chance to gain knowledge to use in their lives and opportunity to choose their own future</text>
+    <TextPosition start="1922" end="2039"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>when students finished their high schools, they are confused about subjects that they are going to choose to study in universities</text>
+    <TextPosition start="547" end="677"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they interested in many subjects and they want to try them all</text>
+    <TextPosition start="695" end="757"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>pupil who want to study science are also like to learn music</text>
+    <TextPosition start="772" end="832"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>requiring students to study in many subjects is good for them</text>
+    <TextPosition start="845" end="906"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>they all can share opinion and knowledge to one another</text>
+    <TextPosition start="1292" end="1347"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>people who know a wide range of is better than people who know just one</text>
+    <TextPosition start="921" end="992"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Students can gain more knowledge in every different subjects thy study</text>
+    <TextPosition start="994" end="1064"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>university students who study business are also know history of the world</text>
+    <TextPosition start="1080" end="1153"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>students not only gain knowledge but they also have more experience</text>
+    <TextPosition start="1168" end="1235"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>they will meet new friends and teachers</text>
+    <TextPosition start="1244" end="1283"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>students who graduated with a variety of courses during university and lots of experience are definitely have more opportunity to choose their future or career</text>
+    <TextPosition start="1358" end="1517"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>graduates can work in various kind of works which they can select a job they prefer</text>
+    <TextPosition start="1535" end="1618"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>students will choose a career that they want including the job with high salary include</text>
+    <TextPosition start="1633" end="1720"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>bachelors can earn lots of money by working in other fields due to their knowledge</text>
+    <TextPosition start="1732" end="1814"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <OriginalText>Universities require students to study many subjects or specialize in one subject
+
+University is the place that provides people knowledge and skills to use in their real life. Some universities require students to study in one subject. On the contrary, others require students to study in several subjects. In my point of view, studying many subjects is better that one because students can study in subjects that they interested in, they can gain knowledge more than one field and they will have more chance to choose their future.
+First of all, when students finished their high schools, they are confused about subjects that they are going to choose to study in universities. This is because they interested in many subjects and they want to try them all. For example, pupil who want to study science are also like to learn music. Therefore, requiring students to study in many subjects is good for them.
+In addition, people who know a wide range of is better than people who know just one. Students can gain more knowledge in every different subjects thy study. For instance, university students who study business are also know history of the world. Furthermore, students not only gain knowledge but they also have more experience because they will meet new friends and teachers. Hence, they all can share opinion and knowledge to one another.
+Finally, students who graduated with a variety of courses during university and lots of experience are definitely have more opportunity to choose their future or career. This is because graduates can work in various kind of works which they can select a job they prefer. For example, students will choose a career that they want including the job with high salary include. Moreover, bachelors can earn lots of money by working in other fields due to their knowledge.
+In concluding, learning several subjects in universities is better than specialize in one subject because it makes students have more chance to gain knowledge to use in their lives and opportunity to choose their own future. </OriginalText>
+</Annotation>

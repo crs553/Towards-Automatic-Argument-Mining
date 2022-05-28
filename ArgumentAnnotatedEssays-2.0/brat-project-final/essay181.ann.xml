@@ -1,0 +1,116 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I myself agree with the plan to build the university</text>
+    <TextPosition start="1593" end="1645"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>There are many advantages setting up the university such as more opportunities to people in the community to pursue their studies, creation of jobs</text>
+    <TextPosition start="147" end="294"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>This new university will allow a great number of people in my community to have a chance to study</text>
+    <TextPosition start="373" end="470"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>suppose you live in a faraway community where there is no single university and you might not want to leave your family</text>
+    <TextPosition start="485" end="604"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>If you would like to attend a business school, you have to travel across the country to get to a distant university</text>
+    <TextPosition start="606" end="721"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>He or she definitely can get in the business school in the proposed community's university</text>
+    <TextPosition start="723" end="813"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>a number vacant positions need to be filled</text>
+    <TextPosition start="898" end="941"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the university will have to hire professors, employees and etc</text>
+    <TextPosition start="828" end="890"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>there will be more opportunities to work in the community</text>
+    <TextPosition start="948" end="1005"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>This can also help stimulate the local economy</text>
+    <TextPosition start="1093" end="1139"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>when people have jobs, they will have money to spend on goods and services</text>
+    <TextPosition start="1017" end="1091"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>building the university may lead to some social problems</text>
+    <TextPosition start="1151" end="1207"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>A number of people then may come from any other communities in order to get in to or get the jobs at the university</text>
+    <TextPosition start="1209" end="1324"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>When many people congregate in one place, I think that some kinds of social problems will follow</text>
+    <TextPosition start="1326" end="1422"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>Traffic may worsen</text>
+    <TextPosition start="1424" end="1442"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>More wastes have to be managed</text>
+    <TextPosition start="1444" end="1474"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>Maybe crime rate will also increase</text>
+    <TextPosition start="1476" end="1511"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>These social problems may impair the quality of life in the community</text>
+    <TextPosition start="1513" end="1582"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Establishing a new university in your community
+
+I will be happy to hear that the government has a plan to build a new university in my community. There are many advantages setting up the university such as more opportunities to people in the community to pursue their studies, creation of jobs. However, they come together with some disadvantages such as social problems.
+This new university will allow a great number of people in my community to have a chance to study. For example, suppose you live in a faraway community where there is no single university and you might not want to leave your family. If you would like to attend a business school, you have to travel across the country to get to a distant university. He or she definitely can get in the business school in the proposed community's university.
+Undoubtedly, the university will have to hire professors, employees and etc. Thus, a number vacant positions need to be filled. Also there will be more opportunities to work in the community. Moreover, when people have jobs, they will have money to spend on goods and services. This can also help stimulate the local economy. 
+However, building the university may lead to some social problems. A number of people then may come from any other communities in order to get in to or get the jobs at the university. When many people congregate in one place, I think that some kinds of social problems will follow. Traffic may worsen. More wastes have to be managed. Maybe crime rate will also increase. These social problems may impair the quality of life in the community. 
+In sum, I myself agree with the plan to build the university. I believe the benefit from it will outweigh the cost. However, it would be indispensable that the government conduct a survey about the community opinion on the new university first.</OriginalText>
+</Annotation>

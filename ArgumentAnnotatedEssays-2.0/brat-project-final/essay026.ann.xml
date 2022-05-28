@@ -1,0 +1,81 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T3">
+    <ADU type="conclusion"/>
+    <text>it is obvious that prepared food can bring about some negative influence result from utilizing the artificial ingredients, ignoring the nutrition of food and modifying people's eating habits</text>
+    <TextPosition start="193" end="383"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it can effectively save time which is considered as money in our modern society</text>
+    <TextPosition start="104" end="183"/>
+    <Relation relationID="RT4T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>easy-to-cook foods sometimes could be dangerous for human's health</text>
+    <TextPosition start="911" end="977"/>
+    <Relation relationID="RT5-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>to make their food easier to prepare and taste delicious, almost every producer adds a wide range of artificial ingredients in to the food that is now purchased by most people</text>
+    <TextPosition start="501" end="676"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>ingredients being added have caused dire consequences</text>
+    <TextPosition start="683" end="736"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>there are usually some articles in newspapers and magazines which report the relationship between certain chemical components in some food and diseases</text>
+    <TextPosition start="752" end="903"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>Not cooking fresh food will also lead to the lack of nutrition</text>
+    <TextPosition start="979" end="1041"/>
+    <Relation relationID="RT9-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Whereas some research has apparently demonstrated that prepared food is unable to support enough nutrients we need, especially for children who are growing up</text>
+    <TextPosition start="1137" end="1295"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>the invention of prepared foods definitely satisfies the demand of some people who are busy in their work</text>
+    <TextPosition start="1745" end="1850"/>
+    <Relation relationID="RT1T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>The more prepared food we eat the more cooking skills we lose</text>
+    <TextPosition start="1348" end="1409"/>
+    <Relation relationID="RT11-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>At the increasing living pace, the majority of people tend to choose microwave as their unique cooker that help them prepare a dish in five minutes</text>
+    <TextPosition start="1411" end="1558"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>rare people have been aware that this has contributed to a modification of cooking habits, which may cause the loss of our custom and culture about cooking</text>
+    <TextPosition start="1564" end="1719"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Prepared Food
+
+Nowadays, more and more people begin to select prepared food as their daily meals, since it can effectively save time which is considered as money in our modern society. However it is obvious that prepared food can bring about some negative influence result from utilizing the artificial ingredients, ignoring the nutrition of food and modifying people's eating habits. In this essay, I would like to explain why this is not a good thing based on the three reasons above.
+First of all, to make their food easier to prepare and taste delicious, almost every producer adds a wide range of artificial ingredients in to the food that is now purchased by most people. Some ingredients being added have caused dire consequences. For instance, there are usually some articles in newspapers and magazines which report the relationship between certain chemical components in some food and diseases. Thus, easy-to-cook foods sometimes could be dangerous for human's health.
+Not cooking fresh food will also lead to the lack of nutrition. It is true that cooking prepared food needs much less time in comparison with the fresh food. Whereas some research has apparently demonstrated that prepared food is unable to support enough nutrients we need, especially for children who are growing up.
+In addition, cooking is one of arts humans create. The more prepared food we eat the more cooking skills we lose. At the increasing living pace, the majority of people tend to choose microwave as their unique cooker that help them prepare a dish in five minutes. But rare people have been aware that this has contributed to a modification of cooking habits, which may cause the loss of our custom and culture about cooking.
+In conclusion, although the invention of prepared foods definitely satisfies the demand of some people who are busy in their work, it is not a good thing. Cooking is not a waste of time, contrarily, it is crucial for our health and culture.
+</OriginalText>
+</Annotation>

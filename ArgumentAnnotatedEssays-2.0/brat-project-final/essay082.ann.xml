@@ -1,0 +1,68 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>the idea that advertising is a positive part of life can be more supported</text>
+    <TextPosition start="1894" end="1968"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>more good comes from advertising than bad</text>
+    <TextPosition start="1845" end="1886"/>
+    <Relation relationID="RT1-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Advertisements are, therefore, very important for many businesses to increase sales and hence profits</text>
+    <TextPosition start="673" end="774"/>
+    <Relation relationID="RT3-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>advertising is carried out with the main purpose of promoting different products and services or encouraging people to consume more</text>
+    <TextPosition start="540" end="671"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>to consumers, advertising can bring them many benefits</text>
+    <TextPosition start="782" end="836"/>
+    <Relation relationID="RT5-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>customers of telecommunication services will have an idea about the current offers of different companies</text>
+    <TextPosition start="851" end="956"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>they can compare them and then have a better decision in choosing their internet or mobile phone plans</text>
+    <TextPosition start="967" end="1069"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>a huge amount of different advertisements could be sent automatically by a system to personal phones or email addresses, this is generally known as spam, and causes discomfort or even annoyance to many people</text>
+    <TextPosition start="1304" end="1512"/>
+    <Relation relationID="RT8T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>advertising can be very expensive and not every advertising campaign can be done successfully and brings good results</text>
+    <TextPosition start="1524" end="1641"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>advertising is believed by many, a financial burden to businesses</text>
+    <TextPosition start="1654" end="1719"/>
+    <Relation relationID="RT10T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>Advertising - positive or negative part of our lives
+
+Nowadays, the use of advertisement through different forms of media such as newspapers, radio and television has become very prevalent, so it is thought to be a necessary part of today's society. Many believe that advertising has brought great benefits to lives therefore it should be considered a positive activity while others have held a complete different idea about this. Both views will be critiqued before a reasonable conclusion is drawn.
+First, it is generally understood that advertising is carried out with the main purpose of promoting different products and services or encouraging people to consume more. Advertisements are, therefore, very important for many businesses to increase sales and hence profits. Also, to consumers, advertising can bring them many benefits. For example, customers of telecommunication services will have an idea about the current offers of different companies and hence they can compare them and then have a better decision in choosing their internet or mobile phone plans. From all of these, it is easy to see why the idea that advertising is a positive part of life will garner strong support.
+However, it can be seen that some people have argued against advertising due to its negative impacts. Firstly, a huge amount of different advertisements could be sent automatically by a system to personal phones or email addresses, this is generally known as spam, and causes discomfort or even annoyance to many people. Secondly, advertising can be very expensive and not every advertising campaign can be done successfully and brings good results. Therefore, advertising is believed by many, a financial burden to businesses.
+In conclusion, after analyzing the pros and cons of advertising, both of the views have strong support, but it is felt that more good comes from advertising than bad. Thus, the idea that advertising is a positive part of life can be more supported.
+</OriginalText>
+</Annotation>

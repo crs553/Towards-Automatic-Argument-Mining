@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>games are no longer too important for them</text>
+    <TextPosition start="218" end="260"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Along with the high requirement for family and work, games are just some leisure activities for adults, not something necessary as they are meant to be for children</text>
+    <TextPosition start="1869" end="2033"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>games become unnecessary for people when their careers begin</text>
+    <TextPosition start="307" end="367"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Someone may argue that games help adults relax and become more balanced in life</text>
+    <TextPosition start="369" end="448"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>more often, the pressure of work and family commitment force them to abandon their lifelong hobbies</text>
+    <TextPosition start="455" end="554"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>they cannot spend enough time and effort to their favorite games as they did in 15 or 20 years ago</text>
+    <TextPosition start="573" end="671"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>in my country, except for a minor part of professional athletes, the majority of people stop playing games seriously as soon as they find a decent job</text>
+    <TextPosition start="686" end="836"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>They often feel that such games become more troublesome than enjoyable for their daily lives</text>
+    <TextPosition start="838" end="930"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>adults often do not pursue games as a competitive activity, while children are always keen on competition and winning</text>
+    <TextPosition start="975" end="1092"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>For youngsters, maintaining their desire to win often develops many outstanding characteristics whether they participate sport events or not</text>
+    <TextPosition start="1094" end="1234"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>my younger sister likes fencing, and thanks to her desire to win, she never gives up when facing a difficult situation, or even becoming hurt</text>
+    <TextPosition start="1249" end="1390"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>adults often consider such behaviors as childish and drop them immediately</text>
+    <TextPosition start="1411" end="1485"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>a competitive person usually finds it difficult to cooperate with friends and colleagues</text>
+    <TextPosition start="1496" end="1584"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>they no longer play games for any moderate achievements, and gradually lose their interest in such activities</text>
+    <TextPosition start="1603" end="1712"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>The importance of games for adults comparing to children
+
+As people grow up, the arguments about the importance of games arise. Some people think that, adults need playing games as children do. However, in my opinion, games are no longer too important for them for several reasons.
+The first reason is that games become unnecessary for people when their careers begin. Someone may argue that games help adults relax and become more balanced in life. But, more often, the pressure of work and family commitment force them to abandon their lifelong hobbies, and as a result, they cannot spend enough time and effort to their favorite games as they did in 15 or 20 years ago. For example, in my country, except for a minor part of professional athletes, the majority of people stop playing games seriously as soon as they find a decent job. They often feel that such games become more troublesome than enjoyable for their daily lives.
+Another reason should be mentioned is that adults often do not pursue games as a competitive activity, while children are always keen on competition and winning. For youngsters, maintaining their desire to win often develops many outstanding characteristics whether they participate sport events or not. For example, my younger sister likes fencing, and thanks to her desire to win, she never gives up when facing a difficult situation, or even becoming hurt. On the other hand, adults often consider such behaviors as childish and drop them immediately. In fact, a competitive person usually finds it difficult to cooperate with friends and colleagues. Because of that, they no longer play games for any moderate achievements, and gradually lose their interest in such activities.
+To sum up, I think adults do need to play games, but their styles are often distinct from children's, which are often less competitive and more enjoyable. Along with the high requirement for family and work, games are just some leisure activities for adults, not something necessary as they are meant to be for children.</OriginalText>
+</Annotation>

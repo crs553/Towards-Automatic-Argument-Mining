@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>people's health would therefore be affected negatively</text>
+    <TextPosition start="183" end="237"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>life in those cities is good in some ways</text>
+    <TextPosition start="116" end="157"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Exhaust from transportation, especially cars, and factories' tosix fumes can lead people to face with various respiratory deseases</text>
+    <TextPosition start="343" end="473"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>water pollution makes people's health become more critical</text>
+    <TextPosition start="484" end="542"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>dangerous bacterias and germs in polluted water can go indirectly into people's bodies and create severe problems, which may result in death if the patients are not treated in time</text>
+    <TextPosition start="561" end="741"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>Environment pollution one of the primary reasons why life in cities is becoming worse than ever before</text>
+    <TextPosition start="239" end="341"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Recent investigations reveal that toxic foods are sold pervasively in today's market</text>
+    <TextPosition start="838" end="922"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>overpopulation may make people suffer from infectious deseases, especially cough, sneezing and illness</text>
+    <TextPosition start="930" end="1032"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>living in such cities also means living in high crime rate areas</text>
+    <TextPosition start="1047" end="1111"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Unemployed workers or school dropouts can easily commit crime from petty offence to felony such as burglary, pickpocketing, trickery, vandalism, smuggling or even murder</text>
+    <TextPosition start="1113" end="1282"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>it is likely that many foods in big cities are not safe for people to eat or drink</text>
+    <TextPosition start="754" end="836"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>Earning money for living becomes more difficult, living healthy in such places is getting harder also</text>
+    <TextPosition start="1284" end="1385"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Life in Big Cities Vs People's health
+
+Today, more and more people are moving to big cities to live. However, while life in those cities is good in some ways, I completely argue that people's health would therefore be affected negatively.
+Environment pollution one of the primary reasons why life in cities is becoming worse than ever before. Exhaust from transportation, especially cars, and factories' tosix fumes can lead people to face with various respiratory deseases. Besides, water pollution makes people's health become more critical. The fact is that dangerous bacterias and germs in polluted water can go indirectly into people's bodies and create severe problems, which may result in death if the patients are not treated in time. 
+Moreover, it is likely that many foods in big cities are not safe for people to eat or drink. Recent investigations reveal that toxic foods are sold pervasively in today's market. Also, overpopulation may make people suffer from infectious deseases, especially cough, sneezing and illness. Furthermore, living in such cities also means living in high crime rate areas. Unemployed workers or school dropouts can easily commit crime from petty offence to felony such as burglary, pickpocketing, trickery, vandalism, smuggling or even murder. Earning money for living becomes more difficult, living healthy in such places is getting harder also.
+In conclusion, I believe that life in big cities can have negative effects on people's health. Thus, both government and individual should take steps to diminish the consequences involved.</OriginalText>
+</Annotation>

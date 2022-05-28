@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T7">
+    <ADU type="conclusion"/>
+    <text>students learn far more from their teachers than from other source</text>
+    <TextPosition start="1519" end="1585"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>students at schools and universities still learn much more from lessons with teachers</text>
+    <TextPosition start="419" end="504"/>
+    <Relation relationID="RT1-T7" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>teachers teach students how to write, read and calculate since they are in kindergarten</text>
+    <TextPosition start="522" end="609"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>And when they are in primary school, teachers teach them more further knowledge, like writing skills and using computers</text>
+    <TextPosition start="611" end="731"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>It is teachers that help them with obstacles in schooling</text>
+    <TextPosition start="733" end="790"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>students gain most of the knowledge through teachers and learn what is right and wrong with the assistance of teachers</text>
+    <TextPosition start="811" end="929"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>teachers teach us knowledge but also the skills to tell right from wrong</text>
+    <TextPosition start="1607" end="1679"/>
+    <Relation relationID="RT8-T7" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>They can only input some key words and google it, and then there are numberless articles and websites related to it</text>
+    <TextPosition start="1137" end="1252"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>students learn things easily</text>
+    <TextPosition start="1268" end="1296"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>they contend that good television programs do teach students</text>
+    <TextPosition start="1308" end="1368"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Discovery Channel has many instructive episodes</text>
+    <TextPosition start="1384" end="1431"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Students have knowledge of others cultures, outer space etc</text>
+    <TextPosition start="1433" end="1492"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>students learn far more from other sources, such as the Internet and television</text>
+    <TextPosition start="951" end="1030"/>
+    <Relation relationID="RT6T7" type="Default Conflict" typeBinary="1" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>within this sources students learn lots of things which they can't learn in classes</text>
+    <TextPosition start="1052" end="1135"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <OriginalText>Lessons with teachers versus others sources
+
+Over the last half century the change in the life of human beings has increased beyond our wildest expectations. There are countless new technological equipments flooding into our lives, such as the Internet, television and cell phone. They all enrich our daily lives. Now, many students learn from Internet after class and they find it quite helpful.
+Many people find that students at schools and universities still learn much more from lessons with teachers. They argue that teachers teach students how to write, read and calculate since they are in kindergarten. And when they are in primary school, teachers teach them more further knowledge, like writing skills and using computers. It is teachers that help them with obstacles in schooling. On the other hand, students gain most of the knowledge through teachers and learn what is right and wrong with the assistance of teachers.
+Those who feel that students learn far more from other sources, such as the Internet and television, firmly believe that within this sources students learn lots of things which they can't learn in classes. They can only input some key words and google it, and then there are numberless articles and websites related to it. In this case, students learn things easily. Moreover, they contend that good television programs do teach students. For instance, Discovery Channel has many instructive episodes. Students have knowledge of others cultures, outer space etc.
+Personally, I think that students learn far more from their teachers than from other source. Because not only do teachers teach us knowledge but also the skills to tell right from wrong. Just imagine: if a student can't even make out whether the source is reasonable or not, then how can he get the right information to help him to learn?</OriginalText>
+</Annotation>

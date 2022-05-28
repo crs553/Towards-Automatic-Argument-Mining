@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions</text>
+    <TextPosition start="309" end="483"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>many activities can let humans relax</text>
+    <TextPosition start="1524" end="1560"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>exercise play a crucial role in ameliorating physical health</text>
+    <TextPosition start="510" end="570"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system</text>
+    <TextPosition start="572" end="710"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>these sports can also strengthen muscles and lessen surplus adipose tissues in human body</text>
+    <TextPosition start="722" end="811"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>The latter one is of particular importance because nowadays more and more people are suffer from obesity</text>
+    <TextPosition start="813" end="917"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises</text>
+    <TextPosition start="919" end="1084"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>good exercises can often successfully alleviating one's heavy burdens</text>
+    <TextPosition start="1305" end="1374"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks</text>
+    <TextPosition start="1386" end="1507"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>This hormone can delight one's mind, creating positive feelings</text>
+    <TextPosition start="1235" end="1298"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>When people exercise, the neuron cells in the brain release a chemical compound named Dopamine</text>
+    <TextPosition start="1139" end="1233"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>Sports activities can improve mental health</text>
+    <TextPosition start="1086" end="1129"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>The best way to relax is by exercises
+
+In modern society, people often face many difficulties under great stress. Therefore, it is necessary for many to find ways to relax. Although miscellaneous people may apply diverse strategies, such as reading, watching movies, or working in their gardens, I argue that the most suitable method of reducing stress for modern people is by different kinds of exercise, which can not only improve health conditions but also bring positive emotions.
+It is not surprised that exercise play a crucial role in ameliorating physical health. Any kinds of sports, such as jogging, swimming, or playing basketball, can effectively facilitate human respiration and circulation system. Moreover, these sports can also strengthen muscles and lessen surplus adipose tissues in human body. The latter one is of particular importance because nowadays more and more people are suffer from obesity. Many studies has points out that numbers of overweight people have increased in developed countries in recent years, which mainly results from insufficient exercises.
+Sports activities can improve mental health as well. When people exercise, the neuron cells in the brain release a chemical compound named Dopamine. This hormone can delight one's mind, creating positive feelings. Thus good exercises can often successfully alleviating one's heavy burdens. Moreover, rigorous exercise can also hone one's will, which enable people to be able to tackle stringent problems and arduous tasks.
+In a nutshell, many activities can let humans relax. Nevertheless, I assert that the best way of diminishing stress is by exercises, which can benefit everyone not only physically but also mentally.</OriginalText>
+</Annotation>

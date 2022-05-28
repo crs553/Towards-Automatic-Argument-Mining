@@ -1,0 +1,87 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>the demerits of applying these new developments in the agriculture industry cannot be overlooked</text>
+    <TextPosition start="1881" end="1977"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>newly developed plant foods and machinery make significant financial success for the farmers</text>
+    <TextPosition start="1765" end="1857"/>
+    <Relation relationID="RT1T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>applying the advanced fertilizers in combine with the automatic reaping resources increase farmers' economic profit</text>
+    <TextPosition start="437" end="552"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>artificial fertilizers catalyze the capacity of each inch of farmland in order to churn out the crops, and automatic machinery enhances the work efficiency of the harvest</text>
+    <TextPosition start="570" end="740"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>the production and labour cost of each kilogram of the agriculture products dramatically decreased</text>
+    <TextPosition start="756" end="854"/>
+    <Relation relationID="RT5T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>high-tech fertilizers pose a potential threat to individuals' health well-being</text>
+    <TextPosition start="865" end="944"/>
+    <Relation relationID="RT6-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Unlike the organic plant foods, industrialized fertilizers are made of unusual chemicals, which are not only varying the gene of crops into those unknown substances but also remaining inside of plants permanently</text>
+    <TextPosition start="946" end="1158"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>consumers who intake those fertilized products on a regular base tend to suffer a series of disease in the future</text>
+    <TextPosition start="1174" end="1287"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>excessively relying on the electronic equipment for harvest causes several impacts to the society</text>
+    <TextPosition start="1299" end="1396"/>
+    <Relation relationID="RT9-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>One is that it worsens the air pollution by releasing the excessive exhaust emission</text>
+    <TextPosition start="1398" end="1482"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>manual harvest prevents severe environmental damages</text>
+    <TextPosition start="1497" end="1549"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>mechanical reaper causes the rise of the unemployment rate in the farming industry</text>
+    <TextPosition start="1564" end="1646"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>high-end reaping plants replace a large number of workers in the fields</text>
+    <TextPosition start="1665" end="1736"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Advanced fertilizers and machine for farmers, good or bad?
+
+In recent years, the discussion about the agriculture development has become a controversy. While some appear to believe that advanced plant foods incorporate with newly developed devices significantly reduce the cost of producing farm products, others argue that this collaboration exerts a series of negative effects to people's health condition and the society.
+Admittedly, applying the advanced fertilizers in combine with the automatic reaping resources increase farmers' economic profit. This is because artificial fertilizers catalyze the capacity of each inch of farmland in order to churn out the crops, and automatic machinery enhances the work efficiency of the harvest. Consequently, the production and labour cost of each kilogram of the agriculture products dramatically decreased.
+However, high-tech fertilizers pose a potential threat to individuals' health well-being. Unlike the organic plant foods, industrialized fertilizers are made of unusual chemicals, which are not only varying the gene of crops into those unknown substances but also remaining inside of plants permanently. In this case, consumers who intake those fertilized products on a regular base tend to suffer a series of disease in the future.
+Moreover, excessively relying on the electronic equipment for harvest causes several impacts to the society. One is that it worsens the air pollution by releasing the excessive exhaust emission. In contrast, manual harvest prevents severe environmental damages. For another, mechanical reaper causes the rise of the unemployment rate in the farming industry, possibly because high-end reaping plants replace a large number of workers in the fields.
+In conclusion, even though newly developed plant foods and machinery make significant financial success for the farmers, it is convincing that the demerits of applying these new developments in the agriculture industry cannot be overlooked.
+</OriginalText>
+</Annotation>

@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is a good idea to build a large shopping center in our community</text>
+    <TextPosition start="94" end="161"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>the establishment of a large shopping center will provide the residents a more convenient place to go shopping</text>
+    <TextPosition start="213" end="323"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Queens Center Mall, a shopping mall located in Queens borough of New York City, provides a wide vairtey of stores, products and services, from clothing to electronics and restaurants, that consumers can choose</text>
+    <TextPosition start="353" end="562"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>it is one of the most productive malls in New York</text>
+    <TextPosition start="590" end="640"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>I could find virtually every brand or store, including Macy's and JCPenney, when I visited there</text>
+    <TextPosition start="655" end="751"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>a large shopping mall provides a location for residents to pursue during their leisure time</text>
+    <TextPosition start="779" end="870"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>it not only provides a place to shop but also offer people jobs</text>
+    <TextPosition start="885" end="948"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>There may be a great number of job vacancies in the need of opening the new stores in the shopping mall</text>
+    <TextPosition start="950" end="1053"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>It could be an opportunity for people who are looking for a part-time job or a full time job</text>
+    <TextPosition start="1055" end="1147"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Some students and retirees may work there in order to whiling away their free time and earning money</text>
+    <TextPosition start="1149" end="1249"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it is more likely for us to buy goods in lower price in the shopping center, and save our time on the other hand</text>
+    <TextPosition start="1259" end="1371"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>There may be a competition between the new shopping center and other existing stores to attract the customers</text>
+    <TextPosition start="1373" end="1482"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>with sales promotion, it is easy for consumers to compare the price of the same merchandise before they buy</text>
+    <TextPosition start="1497" end="1604"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>the residents do not have a problem spending time on commute in the hope of setting up a shopping center near their homes</text>
+    <TextPosition start="1619" end="1740"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>I believe it is a good idea to build a large shopping center in our community
+
+I believe that it is a good idea to build a large shopping center in our community. The following are my reasons.
+In the first place, the establishment of a large shopping center will provide the residents a more convenient place to go shopping. Here is a positive example: Queens Center Mall, a shopping mall located in Queens borough of New York City, provides a wide vairtey of stores, products and services, from clothing to electronics and restaurants, that consumers can choose. It is widely thought that it is one of the most productive malls in New York. I found that I could find virtually every brand or store, including Macy's and JCPenney, when I visited there. As far as I am concerned, a large shopping mall provides a location for residents to pursue during their leisure time.
+Furthermore, it not only provides a place to shop but also offer people jobs. There may be a great number of job vacancies in the need of opening the new stores in the shopping mall. It could be an opportunity for people who are looking for a part-time job or a full time job. Some students and retirees may work there in order to whiling away their free time and earning money.
+Lastly, it is more likely for us to buy goods in lower price in the shopping center, and save our time on the other hand. There may be a competition between the new shopping center and other existing stores to attract the customers. Accordingly, with sales promotion, it is easy for consumers to compare the price of the same merchandise before they buy. In addition, the residents do not have a problem spending time on commute in the hope of setting up a shopping center near their homes.
+For the above-mentioned reasons, I advocate building a big shopping center in my neighborhood, which will be beneficial to our community.</OriginalText>
+</Annotation>

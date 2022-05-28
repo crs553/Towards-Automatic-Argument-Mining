@@ -1,0 +1,69 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T14">
+    <ADU type="conclusion"/>
+    <text>government should not pay for the university fees</text>
+    <TextPosition start="1342" end="1391"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>this will encourage all the parents to think of the way to help their children to achieve more in their lives</text>
+    <TextPosition start="1123" end="1232"/>
+    <Relation relationID="RT12-T14" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>they need to make some contribution too for their children future</text>
+    <TextPosition start="1236" end="1301"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>this will make both the parents and students in charge for their future themselves not just depend on the government to do all their responsibilities for them</text>
+    <TextPosition start="1400" end="1558"/>
+    <Relation relationID="RT15-T14" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Some parents might not have enough money to pay for their children university fees</text>
+    <TextPosition start="318" end="400"/>
+    <Relation relationID="RT2T14" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>I don't think it is also fair for the government as the government has been paying a lot of money for their students' primary and secondary education</text>
+    <TextPosition start="421" end="570"/>
+    <Relation relationID="RT3-T14" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education</text>
+    <TextPosition start="572" end="720"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>students that already have a basic knowledge and education can get a part-time job and they can pay for their own studies when their parent could not afford to pay it</text>
+    <TextPosition start="732" end="898"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>They will be more responsible with their studies when they pay the fees themselves</text>
+    <TextPosition start="900" end="982"/>
+    <Relation relationID="RT6-T14" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the students will become more independent and it will build their characters in the marketplace as well</text>
+    <TextPosition start="1005" end="1108"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <OriginalText>Government and education
+
+Primary and secondary education provide a basic knowledge and skills to the people in this world. I completely agree that government should provide those education to their people; however, for the more higher education like university, the students or their parents should pay for the fees.
+Some parents might not have enough money to pay for their children university fees. In the other hand, I don't think it is also fair for the government as the government has been paying a lot of money for their students' primary and secondary education. It is better for them to use the money to pay for the other students' education so that all people in their country could receive the same education.
+Moreover, students that already have a basic knowledge and education can get a part-time job and they can pay for their own studies when their parent could not afford to pay it. They will be more responsible with their studies when they pay the fees themselves. In addition to that, the students will become more independent and it will build their characters in the marketplace as well.
+Furthermore, this will encourage all the parents to think of the way to help their children to achieve more in their lives as they need to make some contribution too for their children future.
+In conclusion, I completely agree that government should not pay for the university fees because this will make both the parents and students in charge for their future themselves not just depend on the government to do all their responsibilities for them.
+</OriginalText>
+</Annotation>

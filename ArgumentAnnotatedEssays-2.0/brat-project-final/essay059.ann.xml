@@ -1,0 +1,112 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>strict laws, like capital punishment, are essential in a society</text>
+    <TextPosition start="252" end="316"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Capital punishment helps to safeguard human rights in a strict and effective manner</text>
+    <TextPosition start="1871" end="1954"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>capital punishment protects the society from hardcore criminals</text>
+    <TextPosition start="589" end="652"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>When a criminal becomes a threat to the society, such that they can commit heinous crimes, then they are given capital punishment</text>
+    <TextPosition start="452" end="581"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Capital punishment is given only in the "rarest of the rare" cases</text>
+    <TextPosition start="318" end="384"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Its first and foremost objective is safety of other human beings</text>
+    <TextPosition start="386" end="450"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>the rate of crime and violence is effectively decreased</text>
+    <TextPosition start="847" end="902"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>capital punishment curbs the inspiration and prospects of other hateful crimes</text>
+    <TextPosition start="664" end="742"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>When a criminal mind knows the quantum of punishment, they will fear and not commit such crimes</text>
+    <TextPosition start="744" end="839"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>capital punishment saves a lot of government funding which is wasted in maintenance of these hardcore criminals</text>
+    <TextPosition start="917" end="1028"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>Criminals who don't have any chance of improvement or who have a past record of such crimes are, therefore, given capital punishment</text>
+    <TextPosition start="1030" end="1162"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>They can make mistakes which can sometimes affect an innocent, circumstantially marred criminals</text>
+    <TextPosition start="1270" end="1366"/>
+    <Relation relationID="RT15T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>the jury giving the verdict are also humans</text>
+    <TextPosition start="1173" end="1216"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>They have the life of a person at their discretion</text>
+    <TextPosition start="1218" end="1268"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>The jury must therefore, take into account the circumstances of committing a crime</text>
+    <TextPosition start="1368" end="1450"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>if an individual murders someone for self-defense, then such a crime is not heinous</text>
+    <TextPosition start="1465" end="1548"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>Only deserving criminals, who commit such hateful crimes in their proper senses are subjected to capital punishment</text>
+    <TextPosition start="1550" end="1665"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <OriginalText>Capital punishment - necessary or not
+
+Crime is always punishable. Retribution is the method for countering criminals. Some countries have stringent rules, like capital punishment, while other have a lot of flexibility in the judicial system. However, strict laws, like capital punishment, are essential in a society.
+Capital punishment is given only in the "rarest of the rare" cases. Its first and foremost objective is safety of other human beings. When a criminal becomes a threat to the society, such that they can commit heinous crimes, then they are given capital punishment. Thus, capital punishment protects the society from hardcore criminals.
+Moreover, capital punishment curbs the inspiration and prospects of other hateful crimes. When a criminal mind knows the quantum of punishment, they will fear and not commit such crimes. Thus, the rate of crime and violence is effectively decreased.
+Importantly, capital punishment saves a lot of government funding which is wasted in maintenance of these hardcore criminals. Criminals who don't have any chance of improvement or who have a past record of such crimes are, therefore, given capital punishment.
+However, the jury giving the verdict are also humans. They have the life of a person at their discretion. They can make mistakes which can sometimes affect an innocent, circumstantially marred criminals. The jury must therefore, take into account the circumstances of committing a crime. For example, if an individual murders someone for self-defense, then such a crime is not heinous. Only deserving criminals, who commit such hateful crimes in their proper senses are subjected to capital punishment.
+Capital punishment is essential to control violence in the society. I firmly believe that psychopaths, terrorists or any other criminal who lacks empathy for other human lives deserve capital punishment. Capital punishment helps to safeguard human rights in a strict and effective manner. However, it should be considered as the last option by the jury and all circumstances must be taken into account before pronouncing the final verdict.
+</OriginalText>
+</Annotation>

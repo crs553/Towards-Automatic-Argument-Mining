@@ -1,0 +1,122 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>it is unwise to smoke in a restaurant as well as other public places, and relevant state laws should be codified to strictly prohibit it</text>
+    <TextPosition start="2516" end="2652"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="premise"/>
+    <text>It spoils the smoker's reputation and threats other people's health</text>
+    <TextPosition start="2436" end="2503"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>smoking in a restaurant is a harmful and disrespectable behavior</text>
+    <TextPosition start="2370" end="2434"/>
+    <Relation relationID="RT3-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>smoking not only damages the restaurant's environment, but also imposes a potential threat on others' health</text>
+    <TextPosition start="380" end="488"/>
+    <Relation relationID="RT5-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the second-hand smoke, which comes from the smoker's mouth, puts an even greater threat on surrounding people's health than the smoker himself</text>
+    <TextPosition start="730" end="872"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>smoking in restaurants should be strictly banned</text>
+    <TextPosition start="1154" end="1202"/>
+    <Relation relationID="RT8-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>it makes the restaurant a polluted place which threatens every customer's health</text>
+    <TextPosition start="1211" end="1291"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>if there is only one person smoking in a restaurant, all others will smoke unconsciously and their health is under attacked</text>
+    <TextPosition start="887" end="1010"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>some burned substance in a cigarette can easily deteriorate a person's respiratory system after he/she inhales it</text>
+    <TextPosition start="1028" end="1141"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>it is too strong to assert that smoking should be prohibited everywhere in the society, one smoking in a restaurant is considered to enjoy his time with the ignorance of others' health</text>
+    <TextPosition start="513" end="697"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>the disgusting smoke will severely affect their appetite, or, in other words, spoil their meals and make them an unpleasant experience</text>
+    <TextPosition start="1403" end="1537"/>
+    <Relation relationID="RT6-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>The smoke exhaled from the smoker often makes other people feel uncomfortable or disgusted, thus affecting their mood in having their meals</text>
+    <TextPosition start="1539" end="1678"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>This, on the other hand, can indirectly decrease the restaurants' popularity</text>
+    <TextPosition start="1680" end="1756"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>fewer people are willing to consume there due to their unpleasant experiences</text>
+    <TextPosition start="1765" end="1842"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Not only does it aggravate his health, making him more subject to respiratory diseases, but also it damages his public image and reputation</text>
+    <TextPosition start="1897" end="2036"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>most people see smoking in restaurants as an impolite human behavior</text>
+    <TextPosition start="2149" end="2217"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>This is especially true when the smoker is a popular political figure or an entertainmening celebrity</text>
+    <TextPosition start="2038" end="2139"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>the public are likely to believe that the smoker lacks basic civility and should not be encouraged to be a public leader</text>
+    <TextPosition start="2234" end="2354"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>smoking does no good to the smoker himself</text>
+    <TextPosition start="1853" end="1895"/>
+    <Relation relationID="RT20-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>Smoking should not be promitted in restaurants or other public places
+
+Smoking brings a person great enjoyment and relief. However, one should not be encouraged to smoke as the cost of other people's health. In this case, I advocate the idea that smoking should be prohibited in restaurants as well as other public places, and that we should support states laws to ban it because smoking not only damages the restaurant's environment, but also imposes a potential threat on others' health.
+First of all, although it is too strong to assert that smoking should be prohibited everywhere in the society, one smoking in a restaurant is considered to enjoy his time with the ignorance of others' health. It is generally believed that, the second-hand smoke, which comes from the smoker's mouth, puts an even greater threat on surrounding people's health than the smoker himself. For example, if there is only one person smoking in a restaurant, all others will smoke unconsciously and their health is under attacked. This is because some burned substance in a cigarette can easily deteriorate a person's respiratory system after he/she inhales it. Therefore, smoking in restaurants should be strictly banned because it makes the restaurant a polluted place which threatens every customer's health.
+Furthermore, even though some customers do not worry about the threat that second-hand smoke imposes on them, the disgusting smoke will severely affect their appetite, or, in other words, spoil their meals and make them an unpleasant experience. The smoke exhaled from the smoker often makes other people feel uncomfortable or disgusted, thus affecting their mood in having their meals. This, on the other hand, can indirectly decrease the restaurants' popularity because fewer people are willing to consume there due to their unpleasant experiences. 
+Lastly, smoking does no good to the smoker himself. Not only does it aggravate his health, making him more subject to respiratory diseases, but also it damages his public image and reputation. This is especially true when the smoker is a popular political figure or an entertainmening celebrity, because most people see smoking in restaurants as an impolite human behavior. At this point, the public are likely to believe that the smoker lacks basic civility and should not be encouraged to be a public leader. 
+To conclude, smoking in a restaurant is a harmful and disrespectable behavior. It spoils the smoker's reputation and threats other people's health. Therefore, it is unwise to smoke in a restaurant as well as other public places, and relevant state laws should be codified to strictly prohibit it. </OriginalText>
+</Annotation>

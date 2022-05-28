@@ -1,0 +1,74 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>both government and common people should have the responsibility for the environment</text>
+    <TextPosition start="314" end="398"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>air pollution and water quality has concerned many countries, and the government is able to implement some policies and invest money to reduce air pollution, while companies also can enhance their technologies to curb emission of contaminated water and substances</text>
+    <TextPosition start="639" end="902"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>solving some environmental problems needs large budgets and various technologies, and the government and corporations have the ability to deal with these problems</text>
+    <TextPosition start="462" end="624"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>individuals are unable to cope with these things</text>
+    <TextPosition start="913" end="961"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>we should convey corresponding policies and knowledge to the public and society</text>
+    <TextPosition start="1182" end="1261"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>It is necessary for every citizen to have the awareness and knowledge of environment protection</text>
+    <TextPosition start="1069" end="1164"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the government and firms could have significant influences on environmental awareness of people</text>
+    <TextPosition start="972" end="1067"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>the government controls many influential media, such as TV stations and newspapers, which can provide plenty of environmental knowledge and related policies to citizens</text>
+    <TextPosition start="1267" end="1435"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>many people driving private cars could cause air pollution, and overusing plastic packages would affect the environment</text>
+    <TextPosition start="1626" end="1745"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>it is possible for ordinary people to participate in some actions of environment protection, and they also can benefit from the improvement of environment</text>
+    <TextPosition start="1456" end="1610"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>If people can gradually change some lifestyles in these daily activities, this will have many significant impacts on environmental improvement</text>
+    <TextPosition start="1747" end="1889"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>The environment problems facing today's world are so great
+
+Nowadays, many countries are concerned with the environment problems. There is a viewpoint that the government and big firms should assume the responsibility to protect the environment and normal citizens have nothing to do for that. Personally, I think both government and common people should have the responsibility for the environment, but we need to analyze some specific situations.
+On one hand, solving some environmental problems needs large budgets and various technologies, and the government and corporations have the ability to deal with these problems. For example, air pollution and water quality has concerned many countries, and the government is able to implement some policies and invest money to reduce air pollution, while companies also can enhance their technologies to curb emission of contaminated water and substances. However, individuals are unable to cope with these things.
+Besides, the government and firms could have significant influences on environmental awareness of people. It is necessary for every citizen to have the awareness and knowledge of environment protection. This means that we should convey corresponding policies and knowledge to the public and society, and the government controls many influential media, such as TV stations and newspapers, which can provide plenty of environmental knowledge and related policies to citizens.
+On the other hand, it is possible for ordinary people to participate in some actions of environment protection, and they also can benefit from the improvement of environment. For instance, many people driving private cars could cause air pollution, and overusing plastic packages would affect the environment. If people can gradually change some lifestyles in these daily activities, this will have many significant impacts on environmental improvement.
+In conclusion, the government and corporations should take more responsibility for addressing environmental issues, but every citizen also can contribute to the environment.</OriginalText>
+</Annotation>

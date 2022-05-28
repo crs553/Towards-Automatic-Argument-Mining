@@ -1,0 +1,121 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>technology makes children even more creative</text>
+    <TextPosition start="564" end="608"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>technology may have some negative effects on children</text>
+    <TextPosition start="497" end="550"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>technology may have negative effects on children</text>
+    <TextPosition start="1828" end="1876"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Technology has made life too easy for most children</text>
+    <TextPosition start="1878" end="1929"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>In comfortable conditions, children may be satisfied with the world around them and refuse to make a change</text>
+    <TextPosition start="1931" end="2038"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>technology inspires children to create new things</text>
+    <TextPosition start="617" end="666"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>technology widen children's knowledge</text>
+    <TextPosition start="1290" end="1327"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>when they come across a high-tech product like a cellphone, they will be obsessed with its mysterious functions and eager to know how it works</text>
+    <TextPosition start="722" end="864"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Children are curious about everything around them</text>
+    <TextPosition start="668" end="717"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Bill Gates was attracted by the original huge computer, then he did everything he could to understand how it worked</text>
+    <TextPosition start="879" end="994"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>After he had figured out all the stuff, he then began to promote the computer</text>
+    <TextPosition start="996" end="1073"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>In the end, he successfully invented a computer that was easy to use and lightweight</text>
+    <TextPosition start="1075" end="1159"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>instead of interfering children's creativity, technology actually encourages children to learn and to create</text>
+    <TextPosition start="1172" end="1280"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>In the past, children were only able to see things from one perspective</text>
+    <TextPosition start="1329" end="1400"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>they will be able to learn about different cultures and different ways of thinking</text>
+    <TextPosition start="1558" end="1640"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>with highly advanced technology, children are able to get information from foreign countries and even communicate with foreign friends</text>
+    <TextPosition start="1411" end="1545"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>Knowledge is the base of creativity</text>
+    <TextPosition start="1642" end="1677"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>The diverse knowledge that children gained from different parts of the world, inspires children and encourage them to create new things</text>
+    <TextPosition start="1679" end="1814"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>with the development of technology, increasingly more young people become obsessed with high-tech products</text>
+    <TextPosition start="2053" end="2159"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <OriginalText>Technology inspires children's creativity instead of weakening it
+
+Technology accelerates human's evolving pace. With advanced technology, many things that seemed impossible in the past, have become realities. For example, people in the past never dreamed of talking to anyone whenever they wanted or see someone overseas on a computer screen, both of these can be achieved with cellphone and internet. However, some people point that technology has made children less creative. I don't deny that technology may have some negative effects on children, but I think technology makes children even more creative.
+First, technology inspires children to create new things. Children are curious about everything around them, so when they come across a high-tech product like a cellphone, they will be obsessed with its mysterious functions and eager to know how it works. For example, Bill Gates was attracted by the original huge computer, then he did everything he could to understand how it worked. After he had figured out all the stuff, he then began to promote the computer. In the end, he successfully invented a computer that was easy to use and lightweight. Therefore, instead of interfering children's creativity, technology actually encourages children to learn and to create.
+Second, technology widen children's knowledge. In the past, children were only able to see things from one perspective. However, with highly advanced technology, children are able to get information from foreign countries and even communicate with foreign friends. Therefore, they will be able to learn about different cultures and different ways of thinking. Knowledge is the base of creativity. The diverse knowledge that children gained from different parts of the world, inspires children and encourage them to create new things.
+Admittedly, technology may have negative effects on children. Technology has made life too easy for most children. In comfortable conditions, children may be satisfied with the world around them and refuse to make a change. Nonetheless, with the development of technology, increasingly more young people become obsessed with high-tech products. They kept researching new technology and became successful at a very young age. </OriginalText>
+</Annotation>

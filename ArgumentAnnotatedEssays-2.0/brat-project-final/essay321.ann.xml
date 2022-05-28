@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I would prefer to have my own job</text>
+    <TextPosition start="281" end="314"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>By having my own business, I can manage my own time</text>
+    <TextPosition start="418" end="469"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>could work whenever I want, or I do not need to give reasons to my boss for a delay</text>
+    <TextPosition start="473" end="556"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>I can arrange time to travel when I would like</text>
+    <TextPosition start="558" end="604"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>I can work long hours for earning more money</text>
+    <TextPosition start="619" end="663"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the most important reason for me to be self-employed is the sense of free</text>
+    <TextPosition start="674" end="747"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>time is the more valuable thing, which I have in my life</text>
+    <TextPosition start="360" end="416"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>I never have been rich in my life</text>
+    <TextPosition start="996" end="1029"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>If I work for other people, I have to give my ideas to employers cheaply</text>
+    <TextPosition start="911" end="983"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>my salary is not dramatically changed</text>
+    <TextPosition start="1039" end="1076"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>I can earn more money based on my creativity and personal ideas</text>
+    <TextPosition start="1128" end="1191"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>earning money is the fundamental reason that why people work</text>
+    <TextPosition start="760" end="820"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>The amount of money is always the most important criterion for everyone to choose a job</text>
+    <TextPosition start="822" end="909"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>many people are not eager to work for themselves</text>
+    <TextPosition start="1231" end="1279"/>
+    <Relation relationID="RT14T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Work for themselves vs work for employer
+
+Most people want to work for an employer, because they want to feel secure about their salary, or feel comfortable about other problems of having own job such as paying tax, worrying about selling, etc. Despite these problems, personally, I would prefer to have my own job. My arguments are listed as follows. 
+First, time is the more valuable thing, which I have in my life. By having my own business, I can manage my own time. I could work whenever I want, or I do not need to give reasons to my boss for a delay. I can arrange time to travel when I would like. In addition, I can work long hours for earning more money. Totally, the most important reason for me to be self-employed is the sense of free. 
+Moreover, earning money is the fundamental reason that why people work. The amount of money is always the most important criterion for everyone to choose a job. If I work for other people, I have to give my ideas to employers cheaply. Therefore, I never have been rich in my life, because my salary is not dramatically changed. In spite of many problems of having own business, I can earn more money based on my creativity and personal ideas. 
+To sum up, in spite of the fact that many people are not eager to work for themselves, I would like to run my own business to control my own time, and to earn more money based on my noble ideas.</OriginalText>
+</Annotation>

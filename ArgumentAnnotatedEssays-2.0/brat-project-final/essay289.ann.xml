@@ -1,0 +1,140 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>students should be asked to evaluate their teachers</text>
+    <TextPosition start="423" end="474"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>teachers could improve their performance</text>
+    <TextPosition start="2147" end="2187"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>schools are also improve their quality</text>
+    <TextPosition start="2199" end="2237"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they have high performance teachers</text>
+    <TextPosition start="2246" end="2281"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>students are easy to understand their subjects</text>
+    <TextPosition start="2296" end="2342"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>evaluating from students could improve teachers' performance</text>
+    <TextPosition start="976" end="1036"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Evaluating teachers made by students could improve teachers' performance</text>
+    <TextPosition start="491" end="563"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product</text>
+    <TextPosition start="578" end="710"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Students might complain about their teachers spoke too fast that students could not catch up on information</text>
+    <TextPosition start="712" end="819"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>teachers could improve themselves by speaking slower to make sure that students could get all information that they want to give</text>
+    <TextPosition start="835" end="963"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>school have teachers who are always improve their quality from evaluation made by students</text>
+    <TextPosition start="1462" end="1552"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>in many cooperation such as Microsoft that could produce many great products</text>
+    <TextPosition start="1272" end="1348"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>they have employees whose performance are very high</text>
+    <TextPosition start="1357" end="1408"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Schools could produce intellectual students</text>
+    <TextPosition start="1410" end="1453"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>Teachers could augment their quality</text>
+    <TextPosition start="1114" end="1150"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>When school gather teachers that have great performance, school are gaining higher quality</text>
+    <TextPosition start="1166" end="1256"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>this evaluation from students could improve schools' quality</text>
+    <TextPosition start="1052" end="1112"/>
+    <Relation relationID="RT20-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>teachers are always adapt the way they teach in order to make students easy to understand their subjects</text>
+    <TextPosition start="1729" end="1833"/>
+    <Relation relationID="T22Default Inference" type="Default Inference" typeBinary="0" partnerID="T22"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>students could comprehend their subject easily</text>
+    <TextPosition start="1835" end="1881"/>
+    <Relation relationID="T24Default Inference" type="Default Inference" typeBinary="0" partnerID="T24"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>students, who study from great schools which have great performance teacher, graduate with great knowledge to survive in next steps of life</text>
+    <TextPosition start="1896" end="2035"/>
+    <Relation relationID="T24Default Inference" type="Default Inference" typeBinary="0" partnerID="T24"/>
+  </Proposition>
+  <Proposition id="T24">
+    <ADU type="claim"/>
+    <text>people who get the most advantage from evaluation is students</text>
+    <TextPosition start="1563" end="1624"/>
+    <Relation relationID="RT24-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T25">
+    <ADU type="premise"/>
+    <text>Students could study in class that have teachers who have experienced and greater performance</text>
+    <TextPosition start="1626" end="1719"/>
+    <Relation relationID="T24Default Inference" type="Default Inference" typeBinary="0" partnerID="T24"/>
+  </Proposition>
+  <OriginalText>Getting opinions from many sources could augment people's performance.
+
+Getting opinions from many sources could augment people's performance. Thereby, evaluating from students is one of the ways to improve quality of educational system. Not only teachers could amplify their performance but the whole education system are also improve performance from evaluation made by students. Therefore, I agree with this notion that students should be asked to evaluate their teachers.
+To begin with, Evaluating teachers made by students could improve teachers' performance. For example, evaluation made by students is similar to feedback from customer that business owners need to know in order to improve their product. Students might complain about their teachers spoke too fast that students could not catch up on information. Consequently, teachers could improve themselves by speaking slower to make sure that students could get all information that they want to give. Therefore, evaluating from students could improve teachers' performance.
+Additionally, this evaluation from students could improve schools' quality. Teachers could augment their quality. Consequently, When school gather teachers that have great performance, school are gaining higher quality. For instance, in many cooperation such as Microsoft that could produce many great products because they have employees whose performance are very high. Schools could produce intellectual students because school have teachers who are always improve their quality from evaluation made by students.
+Finally, people who get the most advantage from evaluation is students. Students could study in class that have teachers who have experienced and greater performance. Because teachers are always adapt the way they teach in order to make students easy to understand their subjects, students could comprehend their subject easily. As a result, students, who study from great schools which have great performance teacher, graduate with great knowledge to survive in next steps of life.
+In conclusion, I agree with this statement that school should ask students to evaluate their teachers because teachers could improve their performance. Moreover, schools are also improve their quality because they have high performance teachers. Furthermore, students are easy to understand their subjects. Thus, I believe that there are benefits to ask students to evaluate their teachers.</OriginalText>
+</Annotation>

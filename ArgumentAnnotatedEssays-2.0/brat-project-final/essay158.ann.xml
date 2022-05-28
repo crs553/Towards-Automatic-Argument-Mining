@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>all of the old building which contribute to our sense of culture should be conserved</text>
+    <TextPosition start="222" end="306"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>old buildings process the most outstanding feature of areas which contain them</text>
+    <TextPosition start="1730" end="1808"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>governments can construct more accommodation instead of preserving old buildings</text>
+    <TextPosition start="620" end="700"/>
+    <Relation relationID="RT4T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the preservation is very expensive because all components of old buildings have historical values</text>
+    <TextPosition start="716" end="813"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>As a result of the rapid urbanization process, in which rural people must go to urban centers to look for job opportunities, the question of the preservation of old buildings has become more pressing</text>
+    <TextPosition start="397" end="596"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Old buildings are an essential part of history</text>
+    <TextPosition start="816" end="862"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Tourist often decide to discover the culture of a country when they visit through those old buildings</text>
+    <TextPosition start="864" end="965"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>managers of cities can earn more money from the attraction provided by old buildings and that amount can be spent on their conservation</text>
+    <TextPosition start="978" end="1113"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the preservation of old buildings is also a ways to conserve our culture and everyone can learn much from them</text>
+    <TextPosition start="1128" end="1238"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>Old buildings should be used as the culture museums and provide accommodation with more convenient for people who live there</text>
+    <TextPosition start="1240" end="1364"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>Many cities have development strategies as a city contains both unique and modern beauty, and that preservation help to finish half of work</text>
+    <TextPosition start="1368" end="1507"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Old buildings should be preserved
+
+The preservation of old buildings always is a large question for governments because conflict between the issues of housing for citizens and the protection of our culture. In my opinion, all of the old building which contribute to our sense of culture should be conserved.
+There are different reasons which persuade that people should not restore old buildings. As a result of the rapid urbanization process, in which rural people must go to urban centers to look for job opportunities, the question of the preservation of old buildings has become more pressing. Because of that need, governments can construct more accommodation instead of preserving old buildings. Besides that, the preservation is very expensive because all components of old buildings have historical values. 
+Old buildings are an essential part of history. Tourist often decide to discover the culture of a country when they visit through those old buildings. Therefore, managers of cities can earn more money from the attraction provided by old buildings and that amount can be spent on their conservation. Furthermore, the preservation of old buildings is also a ways to conserve our culture and everyone can learn much from them. Old buildings should be used as the culture museums and provide accommodation with more convenient for people who live there. . Many cities have development strategies as a city contains both unique and modern beauty, and that preservation help to finish half of work.	
+Overall, both of those view have strong arguments: the need for housing or the expense of restoration contrast with our desire to conserve culture and attract tourism. So I think we should restore those building because old buildings process the most outstanding feature of areas which contain them.</OriginalText>
+</Annotation>

@@ -1,0 +1,74 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>this investment in field of the arts would be in the best interest of a society</text>
+    <TextPosition start="350" end="429"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>not only could investing in art be considered as wasting money at any kind</text>
+    <TextPosition start="1596" end="1670"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>There is also a burden on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts</text>
+    <TextPosition start="796" end="959"/>
+    <Relation relationID="T10Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>the arts play a pivotal role in all-round development of a society</text>
+    <TextPosition start="977" end="1043"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>No developed country could be named that music, painting, literature and other fields of arts are out of its government consideration</text>
+    <TextPosition start="1045" end="1178"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Enriching people's life and enlightening their thoughts, the arts basically affect the enhancement of societies in many positive ways</text>
+    <TextPosition start="1180" end="1313"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>investing in art could bring employment opportunities and could end in return of capital occasionally</text>
+    <TextPosition start="1328" end="1429"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions</text>
+    <TextPosition start="1431" end="1582"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way</text>
+    <TextPosition start="468" end="591"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>no one should suffer from any sort of deficiency in field of health, education, transportation and communication</text>
+    <TextPosition start="605" end="717"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>these could only help individuals with their physical requirements</text>
+    <TextPosition start="728" end="794"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>The government should allocate more funds to public services instead of arts
+
+The issue of governmental financing provision to aesthetic features in the society has sparked a heated debate. While some argue that the budget allocation to the arts is waste of national resources and the money should instead be spent on public services, I contend that this investment in field of the arts would be in the best interest of a society.
+First of all, there is no doubt that governments are liable for providing societies with appropriate public services and adequate facilities in an efficient way. Admittedly, no one should suffer from any sort of deficiency in field of health, education, transportation and communication. However, these could only help individuals with their physical requirements. There is also a burden on the government to highly concern about the people mental health initiatives which would be unconsciously or sensibly provided by the arts.
+On top of this, the arts play a pivotal role in all-round development of a society. No developed country could be named that music, painting, literature and other fields of arts are out of its government consideration. Enriching people's life and enlightening their thoughts, the arts basically affect the enhancement of societies in many positive ways.
+Furthermore, investing in art could bring employment opportunities and could end in return of capital occasionally. The investment could be paid back through the values of the created works of art which as a matter of fact should be considered as national possessions. 
+To sum up, not only could investing in art be considered as wasting money at any kind, but also it would enriches the culture of the society and governments and individuals would benefit from it in multiple ways.</OriginalText>
+</Annotation>

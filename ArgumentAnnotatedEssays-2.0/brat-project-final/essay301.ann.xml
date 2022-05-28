@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>a person should keep trying for his goals</text>
+    <TextPosition start="483" end="524"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Anyone who wants to achieve the goal should acknowledge that his effort and experience from suffering helps him understand his true potential and increase his strength, and ultimately, it will prompt him to be ready for overcoming the greater challenge in his life</text>
+    <TextPosition start="1698" end="1962"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>I realized the true potential of my body and mind as I decided to train myself hard</text>
+    <TextPosition start="603" end="686"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Even if I were not to win this medal, I acknowledged the great amount of my endeavor as I could keep my tired legs running</text>
+    <TextPosition start="688" end="810"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>committing to our goal helps creating personal worth</text>
+    <TextPosition start="536" end="588"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>I remembered how I was suffered in the first round when I was last person who touched the line</text>
+    <TextPosition start="881" end="975"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>I did not give up, and believed that I would be better in the next round</text>
+    <TextPosition start="986" end="1058"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>I knew how to improve myself</text>
+    <TextPosition start="1067" end="1095"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>I had been a loser for a thousand time before the first winning, and suffering from losing in each competition makes me stronger</text>
+    <TextPosition start="1097" end="1225"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>one who learns the great difficulty will become stronger</text>
+    <TextPosition start="823" end="879"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>the responsibility is worthy of carrying</text>
+    <TextPosition start="1366" end="1406"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>When the distance is longer and harder to achieve, a runner who can go beyond his limit will proud of himself</text>
+    <TextPosition start="1408" end="1517"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>He can feel the sweetness of triumph</text>
+    <TextPosition start="1519" end="1555"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>he did not stop pursing his goal</text>
+    <TextPosition start="1564" end="1596"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>we, as an average people, might feel that the responsibility to our goal is too heavy to carry on</text>
+    <TextPosition start="1252" end="1349"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>the true reward is to have the dignity</text>
+    <TextPosition start="1658" end="1696"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Keep trying and never stop working for your goals
+
+"Keep running!," shouted from my heart but my legs can hardly move. During running for 20 Kilometers in a marathon running tournament 2014, I saw some people stopped running while the others fought until their last minute. At some moment, my body was telling me to stop but the choice that I made was on the contrary. I did not stop and won a medal goals in my life at the age of nearly thirty. From this experience, I believe that a person should keep trying for his goals. 
+Firstly, committing to our goal helps creating personal worth. For example, I realized the true potential of my body and mind as I decided to train myself hard. Even if I were not to win this medal, I acknowledged the great amount of my endeavor as I could keep my tired legs running. 
+Secondly, one who learns the great difficulty will become stronger. I remembered how I was suffered in the first round when I was last person who touched the line. However, I did not give up, and believed that I would be better in the next round because I knew how to improve myself. I had been a loser for a thousand time before the first winning, and suffering from losing in each competition makes me stronger. 
+Thirdly, at some point, we, as an average people, might feel that the responsibility to our goal is too heavy to carry on. I believe that the responsibility is worthy of carrying. When the distance is longer and harder to achieve, a runner who can go beyond his limit will proud of himself. He can feel the sweetness of triumph because he did not stop pursing his goal. 
+For these reasons, I agree that one should not give up, as the true reward is to have the dignity. Anyone who wants to achieve the goal should acknowledge that his effort and experience from suffering helps him understand his true potential and increase his strength, and ultimately, it will prompt him to be ready for overcoming the greater challenge in his life.</OriginalText>
+</Annotation>

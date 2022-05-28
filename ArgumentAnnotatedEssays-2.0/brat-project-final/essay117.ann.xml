@@ -1,0 +1,99 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>technology alone can solve the world's environmental problems</text>
+    <TextPosition start="1955" end="2016"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>if humans stop using technology and lead a simple way of life then only we can save the environment</text>
+    <TextPosition start="459" end="558"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>it is the luxuries people use which damages the environment</text>
+    <TextPosition start="576" end="635"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>If people don't use air conditioners, automobiles and other such things that technology has brought us, then naturally there would be less pollution and natural resources like fossil fuels would be saved and all this would save the environment</text>
+    <TextPosition start="637" end="880"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>technology alone could save the environment</text>
+    <TextPosition start="930" end="973"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>now we have come so far ahead in technology that there is no going back</text>
+    <TextPosition start="991" end="1062"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>We cannot ask the people of the jet age to go back to the age of the bullock cart</text>
+    <TextPosition start="1064" end="1145"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>There are a lot of advances going on technology which are helping the environment a lot</text>
+    <TextPosition start="1147" end="1234"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>One prime example is finding solutions to water problems in developing countries such as Africa</text>
+    <TextPosition start="1236" end="1331"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>By pressurising sea water to produce vapour jets and filtering them through carbon nano tubes, we can get clean drinking water from sea water - an almost inexhaustible resource</text>
+    <TextPosition start="1333" end="1509"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Japan is working to build a working space solar power system by 2030</text>
+    <TextPosition start="1524" end="1592"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>By drawing on the colossal energy of the sun, it could meet the entire world's electricity requirements indefinitely without nuclear or GHG emissions</text>
+    <TextPosition start="1594" end="1743"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>If successful, the impact on the world would be monumental</text>
+    <TextPosition start="1745" end="1803"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>It would mean energy for schools, hospitals, and homes</text>
+    <TextPosition start="1805" end="1859"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>It would mean another industrial revolution</text>
+    <TextPosition start="1861" end="1904"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Can technology alone solve the world's environmental problems?
+
+It is irrefutable that progress in technology leads to environmental problems. Some individuals are of the opinion that if people live a simple life and do not use the things that technology has brought us then these problems can be solved whereas others opine that only technology can solve these problems. In the following paragraphs, I intend to discuss both viewpoints.
+Some people say that if humans stop using technology and lead a simple way of life then only we can save the environment. They argue that it is the luxuries people use which damages the environment. If people don't use air conditioners, automobiles and other such things that technology has brought us, then naturally there would be less pollution and natural resources like fossil fuels would be saved and all this would save the environment.
+On the other hand there are people who say that technology alone could save the environment. They opine that now we have come so far ahead in technology that there is no going back. We cannot ask the people of the jet age to go back to the age of the bullock cart.
+There are a lot of advances going on technology which are helping the environment a lot. One prime example is finding solutions to water problems in developing countries such as Africa. By pressurising sea water to produce vapour jets and filtering them through carbon nano tubes, we can get clean drinking water from sea water - an almost inexhaustible resource. Furthermore, Japan is working to build a working space solar power system by 2030. By drawing on the colossal energy of the sun, it could meet the entire world's electricity requirements indefinitely without nuclear or GHG emissions. If successful, the impact on the world would be monumental. It would mean energy for schools, hospitals, and homes. It would mean another industrial revolution.
+To put it in a nutshell, I pen down saying that, technology alone can solve the world's environmental problems. We are finally entering an era where engineering and technology are making the world a better place. It would be highly unpractical to ask people to adopt a simpler way of life.
+</OriginalText>
+</Annotation>

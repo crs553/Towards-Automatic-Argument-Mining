@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>there are still many other aspects which should be seen as important as income when people choose a job</text>
+    <TextPosition start="234" end="337"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>income is still a vital determination impacting us on choices of careers</text>
+    <TextPosition start="1694" end="1766"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>people who are woking in art or painting industries, for example, will find it quite difficult to live comfortably and enjoyably</text>
+    <TextPosition start="757" end="885"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>they are doing what they love, their income however seems to be quite low compared to many other career paths</text>
+    <TextPosition start="903" end="1012"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>people tend to choose high salary jobs so as to not only help themselves but also support partially or wholly their family's living needs such as food , clothes, accommodation, education, medication</text>
+    <TextPosition start="538" end="736"/>
+    <Relation relationID="RT6T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>money is very essential in order to meet human' basic needs</text>
+    <TextPosition start="458" end="517"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>There are plenty of people, who are now really successful, have started working in challenging as well as competitive fields as singers, dancers and painters</text>
+    <TextPosition start="1151" end="1308"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>important factors in choosing a job such as level of happiness, satisfaction of jobs, personal relationships, professional skills, working environment, managers and colleagues should not be underestimated</text>
+    <TextPosition start="1319" end="1523"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>some people choose a career due to their desire to help others and contribute positively to their countries and societies</text>
+    <TextPosition start="1534" end="1655"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>if we are passionate about what we are working, we are likely to achieve success easily in that field</text>
+    <TextPosition start="1048" end="1149"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Salary is the most important consideration when choosing a job
+
+Along with the increasing physical demands of human life, salary has become the most influential consideration in defining careers of everyone. I personally suppose that there are still many other aspects which should be seen as important as income when people choose a job. In the following paragraphs, some of my viewpoints would be given and analyzed respectively.
+On one hand, i agree that money is very essential in order to meet human' basic needs. More specifically, people tend to choose high salary jobs so as to not only help themselves but also support partially or wholly their family's living needs such as food , clothes, accommodation, education, medication. It is obvious that people who are woking in art or painting industries, for example, will find it quite difficult to live comfortably and enjoyably. This is because they are doing what they love, their income however seems to be quite low compared to many other career paths.
+On the other hand, i believe that if we are passionate about what we are working, we are likely to achieve success easily in that field. There are plenty of people, who are now really successful, have started working in challenging as well as competitive fields as singers, dancers and painters. Besides, important factors in choosing a job such as level of happiness, satisfaction of jobs, personal relationships, professional skills, working environment, managers and colleagues should not be underestimated. Finally, some people choose a career due to their desire to help others and contribute positively to their countries and societies.
+In conclusion, it is undeniable that income is still a vital determination impacting us on choices of careers. Nonetheless, passion on jobs, in my opinion, can bring actual happiness and help us get promoted in working to earn even more money later on.</OriginalText>
+</Annotation>

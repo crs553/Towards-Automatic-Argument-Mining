@@ -1,0 +1,128 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is necessary for us to be extraordinarily cautious</text>
+    <TextPosition start="2388" end="2441"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>rough work is intolerable when we want to stay competitive</text>
+    <TextPosition start="2448" end="2506"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>we need to catch up with the pace of the world</text>
+    <TextPosition start="2340" end="2386"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>fast pace may be the wise move to correspond with today's world</text>
+    <TextPosition start="357" end="420"/>
+    <Relation relationID="RT5T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>even when the world operates in fast pace, it still requires accuracy</text>
+    <TextPosition start="499" end="568"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Even simple issues in our daily life like homework require accuracy</text>
+    <TextPosition start="570" end="637"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>If we rush through the work by taking risk of making mistakes, we are actually making zero effort going through our study roughly only for the purpose of fill in before the deadline</text>
+    <TextPosition start="639" end="820"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>it only fulfills the work itself which is rather worthless</text>
+    <TextPosition start="832" end="890"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>It is our capability of work that we should improve rather than holding the belief in completing it</text>
+    <TextPosition start="892" end="991"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it may take time to keep up with the others if w need to review our work multiple times</text>
+    <TextPosition start="1003" end="1090"/>
+    <Relation relationID="T6Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>with consistent work soon enough we'll be able to bring up our speed in completion of work</text>
+    <TextPosition start="1096" end="1186"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>We soon will be out of the picture even when we kept up with the pace</text>
+    <TextPosition start="1544" end="1613"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>when the problem reveals itself we'll have to go back and fix the mistakes we have made</text>
+    <TextPosition start="1620" end="1707"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>This might be even more costly and time consuming than a neat completion of work at the start</text>
+    <TextPosition start="1709" end="1802"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>Even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project, this will not be something satisfy for the company and clients</text>
+    <TextPosition start="1346" end="1542"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>other than the importance of accuracy, the world also seeks efficiency, which concludes both minimum time completion and also criterion of quality</text>
+    <TextPosition start="1198" end="1344"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>A miscalculation of the orbit in launching rocket may lead to a failure of the whole project which might worth trillions of dollars</text>
+    <TextPosition start="2013" end="2144"/>
+    <Relation relationID="T21Default Inference" type="Default Inference" typeBinary="0" partnerID="T21"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>even when the scientists want to finish off quickly, but they couldn't miss even a single part of the mission since it may trigger loads of problems</text>
+    <TextPosition start="2169" end="2317"/>
+    <Relation relationID="T21Default Inference" type="Default Inference" typeBinary="0" partnerID="T21"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>Some work cannot tolerate any mistakes at all</text>
+    <TextPosition start="1867" end="1912"/>
+    <Relation relationID="RT20-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>in official missions like the work done by NASA, a tiny mistake can be catastrophic</text>
+    <TextPosition start="1928" end="2011"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <OriginalText>Extraordinarily cautious is important since rough work is intolerable
+
+This current world we situate ourselves in is rather unpredictable, even one sudden invention could bring down all the notions we used bear in mind. Most of us has endeavored to keep up with the pace of the development of today's world in fast pace. I personally believe that even when fast pace may be the wise move to correspond with today's world. However, it might not be the most beneficial move to our society.
+Primarily, even when the world operates in fast pace, it still requires accuracy. Even simple issues in our daily life like homework require accuracy. If we rush through the work by taking risk of making mistakes, we are actually making zero effort going through our study roughly only for the purpose of fill in before the deadline. In short, it only fulfills the work itself which is rather worthless. It is our capability of work that we should improve rather than holding the belief in completing it. Certainly it may take time to keep up with the others if w need to review our work multiple times, but with consistent work soon enough we'll be able to bring up our speed in completion of work.
+Secondly, other than the importance of accuracy, the world also seeks efficiency, which concludes both minimum time completion and also criterion of quality. Even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project, this will not be something satisfy for the company and clients. We soon will be out of the picture even when we kept up with the pace since when the problem reveals itself we'll have to go back and fix the mistakes we have made. This might be even more costly and time consuming than a neat completion of work at the start. 
+Besides, when looking at this problem within a broader image. Some work cannot tolerate any mistakes at all, for instance, in official missions like the work done by NASA, a tiny mistake can be catastrophic. A miscalculation of the orbit in launching rocket may lead to a failure of the whole project which might worth trillions of dollars. In such circumstances, even when the scientists want to finish off quickly, but they couldn't miss even a single part of the mission since it may trigger loads of problems.
+To sum up, even when we need to catch up with the pace of the world, it is necessary for us to be extraordinarily cautious since rough work is intolerable when we want to stay competitive.</OriginalText>
+</Annotation>

@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I personally consider this fact as the harmful thing that television has brought upon us</text>
+    <TextPosition start="264" end="352"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>television has some good sides</text>
+    <TextPosition start="1608" end="1638"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>they can be isolated from others</text>
+    <TextPosition start="408" end="440"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>people watch television too much</text>
+    <TextPosition start="374" end="406"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Children, for example, pay more attention on movies, music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others</text>
+    <TextPosition start="442" end="654"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Gradually, their friends leave them behind either activities or studying</text>
+    <TextPosition start="656" end="728"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>children will learn behavior from what they see on TV not from their parents</text>
+    <TextPosition start="978" end="1054"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>with the rapid change of the standard of life, each family has three or four TV in each room is more common</text>
+    <TextPosition start="740" end="847"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Parents and even children do not want to communicate with each other instead of watching TV in their own room</text>
+    <TextPosition start="849" end="958"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>communication between family members is visibly destroyed</text>
+    <TextPosition start="1168" end="1225"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>parents are not able to function their parental care as the necessary thing to children</text>
+    <TextPosition start="1066" end="1153"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>watching too much television people will unconsciously learn bad behavior that sow division among human</text>
+    <TextPosition start="1247" end="1350"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>watching film about terrorist children will be able to consider terrorism as a right thing</text>
+    <TextPosition start="1365" end="1455"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Television versus Friends and family
+
+We all know that television provides us many benefits; it helps people relax, helps keep up with news, helps broad our mind. However, have you ever thought that television has destroyed communication among friends and family? I personally consider this fact as the harmful thing that television has brought upon us.
+First of all, since people watch television too much, they can be isolated from others. Children, for example, pay more attention on movies, music show provided by television and do not want to do anything else such as going to school or practicing exercise with friends will be taken apart by others. Gradually, their friends leave them behind either activities or studying.
+Secondly, with the rapid change of the standard of life, each family has three or four TV in each room is more common. Parents and even children do not want to communicate with each other instead of watching TV in their own room. As a consequence, children will learn behavior from what they see on TV not from their parents. Moreover, parents are not able to function their parental care as the necessary thing to children. In this way, communication between family members is visibly destroyed.
+Last but not least, watching too much television people will unconsciously learn bad behavior that sow division among human. For example, watching film about terrorist children will be able to consider terrorism as a right thing. What happens if they do act exactly the terrorist in Hollywood movies does? is this one of the reason cause division in society?
+In conclusion, though television has some good sides, it has destroyed communication among friends and family. We need to quickly find the way to address this problem as soon as possible and the first concern is to reducing violent behaviors that children learn from television.</OriginalText>
+</Annotation>

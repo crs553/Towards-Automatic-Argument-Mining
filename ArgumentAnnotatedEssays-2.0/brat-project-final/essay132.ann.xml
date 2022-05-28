@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>people are now more conscious to gain more educational qualification and also are more interested to work on various fields simultaneously to earn more and support themselves</text>
+    <TextPosition start="1716" end="1890"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>people are focusing on doing several jobs or gaining further qualification to secure their economic condition</text>
+    <TextPosition start="781" end="890"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>with the recent recession, almost all the countries all over the world are seeing significant economic downfall</text>
+    <TextPosition start="580" end="691"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>This overwhelming crisis is prompting delayering and reduction of workers</text>
+    <TextPosition start="693" end="766"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>A full time job with a steady income was enough for a potential employee to support himself and his family</text>
+    <TextPosition start="468" end="574"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>The best way to ensure a flexible earning is getting more jobs</text>
+    <TextPosition start="1467" end="1529"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors</text>
+    <TextPosition start="1551" end="1666"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>many people's jobs are now at high stake</text>
+    <TextPosition start="1425" end="1465"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>robots, automation and softwares are taking over manual human workers professions such as clerks, interpreters, security services, retails and specially in manufacturing companies</text>
+    <TextPosition start="1239" end="1418"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>North American economists have published reports after scrutinizing the recent American economic situation that, technology is eliminating more jobs than creating one</text>
+    <TextPosition start="1058" end="1224"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the arrival of technology has also been playing a major role promoting further unemployment</text>
+    <TextPosition start="902" end="993"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>People are now more conscious to gain more educational qualification
+
+The career itself became the motto of living since the beginning of industrialization in the late 19th century. People usually tend to have a single career as a means of living. However, a modern trend reveals that new generations are more interested to perform several jobs and also would like to gain multiple higher educational certificates in order to earn more and to gain financial security.
+A full time job with a steady income was enough for a potential employee to support himself and his family. But with the recent recession, almost all the countries all over the world are seeing significant economic downfall. This overwhelming crisis is prompting delayering and reduction of workers. As a result, people are focusing on doing several jobs or gaining further qualification to secure their economic condition.
+Moreover, the arrival of technology has also been playing a major role promoting further unemployment. The official term of it is named "Technological Unemployment". North American economists have published reports after scrutinizing the recent American economic situation that, technology is eliminating more jobs than creating one. For example, robots, automation and softwares are taking over manual human workers professions such as clerks, interpreters, security services, retails and specially in manufacturing companies. Thus many people's jobs are now at high stake. The best way to ensure a flexible earning is getting more jobs. Last but not least, corporational policy to to pay less to inferiors is another reason that drives labours to work on different sectors.
+For the reasons mentioned above, I believe that people are now more conscious to gain more educational qualification and also are more interested to work on various fields simultaneously to earn more and support themselves.</OriginalText>
+</Annotation>

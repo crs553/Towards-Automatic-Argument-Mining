@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is important for children to be taught with a secondary language as early as kindergarten</text>
+    <TextPosition start="456" end="548"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>teachers think that foreign language most likely leads to confusion for children who are yet to start learning</text>
+    <TextPosition start="810" end="920"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>the teacher should be well-trained in the use of this specific language, so quality education will be delivered</text>
+    <TextPosition start="966" end="1077"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Learning at school must be convenient for them if they speak in a way that they are used to</text>
+    <TextPosition start="707" end="798"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>children might not be really comfortable with the use of a language other than their native tongue when they are in their kindergarten years</text>
+    <TextPosition start="565" end="705"/>
+    <Relation relationID="RT6T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>kids are amazing learners, and the best time to hone them is in their younger years</text>
+    <TextPosition start="1116" end="1199"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>The introduction of foreign language will be new to them</text>
+    <TextPosition start="1201" end="1257"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>their curiosity will drive them to learn and comprehend</text>
+    <TextPosition start="1268" end="1323"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>grasping a new language will be natural to them</text>
+    <TextPosition start="1338" end="1385"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the positive impact of this strategy is beneficial to both learners and teachers</text>
+    <TextPosition start="1400" end="1480"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Teachers will not find it difficult to make students learn such new concept in their teenage years</text>
+    <TextPosition start="1482" end="1580"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>the advantages of early introduction of foreign language outweigh its disadvantages</text>
+    <TextPosition start="1609" end="1692"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Foreign language instruction should begin in kindergarten
+
+Educational institutions have different systems when it comes to introducing foreign languages to children. Some people believe that foreign language instruction should start in pre-school. However, those who disagree contend that this should be taught in later years. This issue has garnered some attention in the academe as it has an impact on the children's learning. I personally believe that it is important for children to be taught with a secondary language as early as kindergarten.
+To begin with, children might not be really comfortable with the use of a language other than their native tongue when they are in their kindergarten years. Learning at school must be convenient for them if they speak in a way that they are used to. Moreover, teachers think that foreign language most likely leads to confusion for children who are yet to start learning. Another important thing to consider is that the teacher should be well-trained in the use of this specific language, so quality education will be delivered. 
+Nevertheless, it is undeniable that kids are amazing learners, and the best time to hone them is in their younger years. The introduction of foreign language will be new to them; however, their curiosity will drive them to learn and comprehend. In this way, grasping a new language will be natural to them. In addition, the positive impact of this strategy is beneficial to both learners and teachers. Teachers will not find it difficult to make students learn such new concept in their teenage years. It is certainly clear that the advantages of early introduction of foreign language outweigh its disadvantages.
+In conclusion, the use of foreign language instruction as early as kindergarten is supported by some people; however, there are those who disagree. I am totally convinced that if this endeavour is properly implemented by schools, this will most likely lead to improvement of learning ability among children.</OriginalText>
+</Annotation>

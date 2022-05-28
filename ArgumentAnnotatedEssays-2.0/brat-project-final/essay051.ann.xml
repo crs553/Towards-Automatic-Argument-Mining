@@ -1,0 +1,134 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>universities should invest in libraries more than anywhere else</text>
+    <TextPosition start="232" end="295"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>They are critical part of universities and a good university has to have a modern library</text>
+    <TextPosition start="1793" end="1882"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>a library is vital and strategical part of a university</text>
+    <TextPosition start="312" end="367"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>All professors and students need to have a modern and well-equipped library</text>
+    <TextPosition start="369" end="444"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>after internet, library plays an important role in research</text>
+    <TextPosition start="454" end="513"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>sport is important</text>
+    <TextPosition start="524" end="542"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>it does not have the same priority of library has</text>
+    <TextPosition start="544" end="593"/>
+    <Relation relationID="RT8T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>only small part of students attend sport activities</text>
+    <TextPosition start="607" end="658"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>in my university number of students who use the library is much more than students do sports activities</text>
+    <TextPosition start="673" end="776"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>universities support is vital for libraries</text>
+    <TextPosition start="889" end="932"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Most libraries are free not for students also for public</text>
+    <TextPosition start="824" end="880"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>usually libraries do not have income</text>
+    <TextPosition start="786" end="822"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>there are good ways for sports activities to compensate their expenses, but it is very hard for libraries to find a good way for have an income</text>
+    <TextPosition start="1143" end="1286"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>sport activities have a good income</text>
+    <TextPosition start="938" end="973"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>every sport has different matches and for each match they have a lot sponsors</text>
+    <TextPosition start="982" end="1059"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>they have this chance to sell their important matches tickets</text>
+    <TextPosition start="1067" end="1128"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>investing in libraries has a long-time result</text>
+    <TextPosition start="1308" end="1353"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>a library can buy a lot of new books or they can buy more computers</text>
+    <TextPosition start="1368" end="1435"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>Most of the library facilities are stable and you can use them for a long time</text>
+    <TextPosition start="1437" end="1515"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>in the far future, they become more valuable</text>
+    <TextPosition start="1526" end="1570"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>most sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time</text>
+    <TextPosition start="1591" end="1712"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>Universities should give money to sport activities or libraries
+
+Libraries and sports activities play important roles in universities success. Most university rankings pay attention to quality of these two activities. In my opinion universities should invest in libraries more than anywhere else.
+First, I think a library is vital and strategical part of a university. All professors and students need to have a modern and well-equipped library because, after internet, library plays an important role in research. Although sport is important, it does not have the same priority of library has. In addition only small part of students attend sport activities. For example, in my university number of students who use the library is much more than students do sports activities.
+Second, usually libraries do not have income. Most libraries are free not for students also for public. Hence, universities support is vital for libraries. But sport activities have a good income because every sport has different matches and for each match they have a lot sponsors. Also, they have this chance to sell their important matches tickets. To conclude, there are good ways for sports activities to compensate their expenses, but it is very hard for libraries to find a good way for have an income.
+Last but not least, investing in libraries has a long-time result. For example, a library can buy a lot of new books or they can buy more computers. Most of the library facilities are stable and you can use them for a long time. Besides, in the far future, they become more valuable. On the other side, most sports facilities except buildings are usually can be used in short-time and they are not persistent for a long-time.
+In spite of the importance of sports activities, libraries are more important. They are critical part of universities and a good university has to have a modern library.</OriginalText>
+</Annotation>

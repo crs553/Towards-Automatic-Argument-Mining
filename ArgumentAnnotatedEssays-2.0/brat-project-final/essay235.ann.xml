@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>universities should provide free of cost education to the interested scholars</text>
+    <TextPosition start="156" end="233"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>now-a-days universities with good name charge high fees and this leads one to think about affordability</text>
+    <TextPosition start="242" end="345"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>many of the interested scholars failed to get the admission in good universities</text>
+    <TextPosition start="368" end="448"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>they have to think about work along with the studies, and this left them with only one choice, which is work</text>
+    <TextPosition start="457" end="565"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>the issue of affordability has become crucial to the students</text>
+    <TextPosition start="628" end="689"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>University is more likely to become a money making business</text>
+    <TextPosition start="567" end="626"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>In today&#8217;s world education is getting expensive, and people are tending to apply for self-finance education in order to get the admission</text>
+    <TextPosition start="691" end="828"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>the scholars are facing a lot of difficulties apart from their high requirements of previous education, they has a lot to face the other difficulties and burden while getting admission such as accommodation, food, traveling, clothing, etc</text>
+    <TextPosition start="839" end="1077"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it is hard to get manage two things at a time for instance, working and studying is not an easy job for the scholars, they need to concentrate on their studies</text>
+    <TextPosition start="1089" end="1248"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>MPhils and PhDs scholars are probably engage in the research work, which takes their full concentration and surveys</text>
+    <TextPosition start="1250" end="1365"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>The idea of free of charge education inspires those scholars who really want to put their efforts and get a degree from best universities</text>
+    <TextPosition start="1367" end="1504"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Should University education be free for everyone interested?
+
+A famous proverb &#8220;Knowledge is power&#8221; has demonstrated the value of education. I believe that universities should provide free of cost education to the interested scholars because now-a-days universities with good name charge high fees and this leads one to think about affordability. I have observed that many of the interested scholars failed to get the admission in good universities because they have to think about work along with the studies, and this left them with only one choice, which is work.
+University is more likely to become a money making business, the issue of affordability has become crucial to the students. In today&#8217;s world education is getting expensive, and people are tending to apply for self-finance education in order to get the admission. Whereas, the scholars are facing a lot of difficulties apart from their high requirements of previous education, they has a lot to face the other difficulties and burden while getting admission such as accommodation, food, traveling, clothing, etc.
+Moreover, it is hard to get manage two things at a time for instance, working and studying is not an easy job for the scholars, they need to concentrate on their studies. MPhils and PhDs scholars are probably engage in the research work, which takes their full concentration and surveys. The idea of free of charge education inspires those scholars who really want to put their efforts and get a degree from best universities.
+Therefore, universities have to look over the issues face by most of the scholars; their message should be spread education, not making money, and motivate those scholars who want to get education. Their notion should be inspirational in such a way which makes our society educative and increase our literacy rate.</OriginalText>
+</Annotation>

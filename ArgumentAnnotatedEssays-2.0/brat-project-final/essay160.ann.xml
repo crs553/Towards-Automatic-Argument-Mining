@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>Government should decide for punishment case by case basis</text>
+    <TextPosition start="1616" end="1674"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>if there will be a fixed punishment for each type of crime then it will lead to increase the crime</text>
+    <TextPosition start="494" end="592"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime</text>
+    <TextPosition start="601" end="720"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>laws and rules are there for people</text>
+    <TextPosition start="732" end="767"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>it is necessary to have a look behind crime</text>
+    <TextPosition start="778" end="821"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>The person who committed crime first time and the professional criminals should not be imprisoned at same place</text>
+    <TextPosition start="941" end="1052"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>fixed punishment will reduce the time taken by judges to give their judgement and it will be effective economically for the Government</text>
+    <TextPosition start="1071" end="1205"/>
+    <Relation relationID="RT8T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Everyone should be treated equally</text>
+    <TextPosition start="1207" end="1241"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal</text>
+    <TextPosition start="1250" end="1464"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other</text>
+    <TextPosition start="1476" end="1601"/>
+    <Relation relationID="RT11T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>a women steals feed for her child should be treated same as a women, who steals for her drug addiction</text>
+    <TextPosition start="836" end="938"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <OriginalText>Some people believe that there should be fixed punishment for each crime type
+
+Generally reason behind punishment is to reduce the crime from a nation and to build a fear in the mind of offenders. Some people think that it does not matter what is reason behind committing a crime therefore there should be fixed punishment for a specific crime. Alternatively I believe that it should taken into consideration the situation and conditions, that forces to a person to be a criminal.
+First of all if there will be a fixed punishment for each type of crime then it will lead to increase the crime because the punishment will be clear in the mind of professional criminals and they will not feel fear while committing a crime. Secondly, laws and rules are there for people therefore it is necessary to have a look behind crime for instance "a women steals feed for her child should be treated same as a women, who steals for her drug addiction". The person who committed crime first time and the professional criminals should not be imprisoned at same place.
+On the contrary, fixed punishment will reduce the time taken by judges to give their judgement and it will be effective economically for the Government. Everyone should be treated equally because sometimes we see that a poor person who do not have much money for hiring a good lawyer they get imprisoned even without committing a crime and when they come back to the society they become a professional criminal. Therefore fixed punishment will reduce the space between poor and rich people and everyone will understand the importance of each other.
+To conclude, Government should decide for punishment case by case basis. In doing so crime can be eliminated from a nation and it is a responsibility of every individual to be in the favor of truth and respect the laws of our constitution.</OriginalText>
+</Annotation>

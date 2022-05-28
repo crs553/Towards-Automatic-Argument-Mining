@@ -1,0 +1,55 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>smoking should be made prohibited in public places such as bus and railway stations</text>
+    <TextPosition start="363" end="446"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Prior to 1980's public places in Sri Lanka, illustrates unpleasant situation where people smoked freely</text>
+    <TextPosition start="654" end="757"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Even in public transportation they engaged in this intolerant bad habit, some instances that lead to belligerent incidents</text>
+    <TextPosition start="759" end="881"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>After enforcing restrictions the situation came to control and this act as benefit rendered to the public</text>
+    <TextPosition start="883" end="988"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>non-smoking public would be undoubtedly benefited by enforcing such restrain</text>
+    <TextPosition start="576" end="652"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>further enforcement banned smoking in capital in Sri Lanka has reduced this consumption related diseases and deaths, as per the ministry of health</text>
+    <TextPosition start="1129" end="1275"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>smoking restrictions has successfully daunted public from this bad puffing that put less strain on country's healthcare systems</text>
+    <TextPosition start="1292" end="1419"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>introducing smoking ban in public places would greatly discourage people from engaging tobacco puffing</text>
+    <TextPosition start="1011" end="1113"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Smoking should be made prohibited in public places
+
+People the world over have designated smoothing as a shameful practice and a lethal habit. Several millions of smokers die suffering from cancers such as lung and oral. This bad habit also responsible for causing health hazards to passive-smokers: who are around smoking is taken place. Thus, it is argued that smoking should be made prohibited in public places such as bus and railway stations. This position will be proven by looking at how this arrangement has benefited both general public as well as smokers.
+To start, non-smoking public would be undoubtedly benefited by enforcing such restrain. Prior to 1980's public places in Sri Lanka, illustrates unpleasant situation where people smoked freely. Even in public transportation they engaged in this intolerant bad habit, some instances that lead to belligerent incidents. After enforcing restrictions the situation came to control and this act as benefit rendered to the public.
+In addition to this, introducing smoking ban in public places would greatly discourage people from engaging tobacco puffing. For instance, further enforcement banned smoking in capital in Sri Lanka has reduced this consumption related diseases and deaths, as per the ministry of health. As this shows, smoking restrictions has successfully daunted public from this bad puffing that put less strain on country's healthcare systems.
+After analyzing smoke illegalization in public places in Sri Lanka, it has been proven benefits people enjoy this arrangement. It is thus hoped governments would consider smoke banning in public places following footsteps of Sri Lanka as well as many other countries.</OriginalText>
+</Annotation>

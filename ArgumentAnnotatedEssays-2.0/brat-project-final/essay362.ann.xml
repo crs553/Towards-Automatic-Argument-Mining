@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is still of great importance to remain the harmonious coexistence of both sides for the smooth sailing of the company</text>
+    <TextPosition start="1995" end="2115"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>workers over 50 have proven themselves subordinate to the following generation in all aspects</text>
+    <TextPosition start="1870" end="1963"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>The old were raised in poverty, probably caused by war, look at the world from a negative and pessimistic point of view</text>
+    <TextPosition start="475" end="594"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>The misery is so ingrained in their mind that they refuse to change, or more precisely, to accept the existence of such modernity</text>
+    <TextPosition start="596" end="725"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>most would rather choose to piece together parts of a machine than have it done by a robot for their disbelief of its efficiency and safety compared with human's capability</text>
+    <TextPosition start="740" end="912"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>old workers are not a patch on the younger ones for their unchanged paradigm</text>
+    <TextPosition start="397" end="473"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Who would the employer choose, an old man with old-fashioned education and a young man who is not only good at fundermentaly subject, but also knows how to program or how to speak foreign languages</text>
+    <TextPosition start="1483" end="1680"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Not to undermine old workers, but their lack of authority over such basically required fields in this day and age leads to their incompetence in every modern workplace</text>
+    <TextPosition start="1682" end="1849"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>knowledge is worth mentioning as a key factor to help young workers outrank the elderly</text>
+    <TextPosition start="1394" end="1481"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>their unresponsiveness can be attributed to their attitude towards life</text>
+    <TextPosition start="924" end="995"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>that they are aware of their deteriorating health and lack of enthusiasm comes with their taste for monotony and safe ideology</text>
+    <TextPosition start="1013" end="1139"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>This, by all means, is outweigh by youngsters' adventurousness and bravery</text>
+    <TextPosition start="1141" end="1215"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Blatantly seen, success of most companies stems from young people, whose enterprising ideas that catch up with the world is regarded as wind of refreshment</text>
+    <TextPosition start="1217" end="1372"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Old and young workers
+
+Throughout human history, the offspring has always proved its stronger adaptability and advancement than its predecessor. This is still true in the industrial society nowadays, where younger workers are preferably employed and promoted rather than over-50 workers. There are three reasons that can explain their unresponsiveness to the modern workplace.
+First and foremost, old workers are not a patch on the younger ones for their unchanged paradigm. The old were raised in poverty, probably caused by war, look at the world from a negative and pessimistic point of view. The misery is so ingrained in their mind that they refuse to change, or more precisely, to accept the existence of such modernity. For example, most would rather choose to piece together parts of a machine than have it done by a robot for their disbelief of its efficiency and safety compared with human's capability.
+Secondly, their unresponsiveness can be attributed to their attitude towards life. In other words, that they are aware of their deteriorating health and lack of enthusiasm comes with their taste for monotony and safe ideology. This, by all means, is outweigh by youngsters' adventurousness and bravery. Blatantly seen, success of most companies stems from young people, whose enterprising ideas that catch up with the world is regarded as wind of refreshment.
+Last but not least, knowledge is worth mentioning as a key factor to help young workers outrank the elderly. Who would the employer choose, an old man with old-fashioned education and a young man who is not only good at fundermentaly subject, but also knows how to program or how to speak foreign languages. Not to undermine old workers, but their lack of authority over such basically required fields in this day and age leads to their incompetence in every modern workplace.
+All in a nutshell, workers over 50 have proven themselves subordinate to the following generation in all aspects. However, in my point of view, it is still of great importance to remain the harmonious coexistence of both sides for the smooth sailing of the company.</OriginalText>
+</Annotation>

@@ -1,0 +1,87 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it still has its bad side, especially for children</text>
+    <TextPosition start="1480" end="1530"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it is undeniable that computer is a crucial part of human life</text>
+    <TextPosition start="1416" end="1478"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>using computer constantly has bad influence on children's eyes</text>
+    <TextPosition start="311" end="373"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>When they concentrate on computer for too long, their eyes will get tired, which is the main reason for some eyes problems, typically shortsighted</text>
+    <TextPosition start="375" end="521"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>children who play games too much on computer can seriously lack communicating skills</text>
+    <TextPosition start="533" end="617"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>people who are addicted to games, especially online games, can eventually bear dangerous consequences</text>
+    <TextPosition start="694" end="795"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>several teenagers play games without rest, which leads to health depression</text>
+    <TextPosition start="811" end="886"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>a typical example is the death of Korean gamer, who had a non-stop playing for 3 days</text>
+    <TextPosition start="888" end="973"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>even people who are not interested in online game can still be negatively affected by using computer too much</text>
+    <TextPosition start="984" end="1093"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Some social surveys have shown that a few children use computer for studying purpose, most of them are attracted by facebook, blog, etc. instead</text>
+    <TextPosition start="1095" end="1239"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>they will have a bad result in school</text>
+    <TextPosition start="1262" end="1299"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>when they can not live without internet, they will have no time for their studying</text>
+    <TextPosition start="1308" end="1390"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>they will know little about the outside life</text>
+    <TextPosition start="619" end="663"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <OriginalText>Computer has negative effects to children
+
+Nowadays, thanks to the development of technology, computer is now indispensable to life. Some people think that computer is good for children and it should be used daily by children but some others think differently. In my opinion, the latter opinion is true.
+First, using computer constantly has bad influence on children's eyes. When they concentrate on computer for too long, their eyes will get tired, which is the main reason for some eyes problems, typically shortsighted.
+Moreover, children who play games too much on computer can seriously lack communicating skills, they will know little about the outside life. It is a well-known fact that people who are addicted to games, especially online games, can eventually bear dangerous consequences. For instance, several teenagers play games without rest, which leads to health depression, a typical example is the death of Korean gamer, who had a non-stop playing for 3 days.
+Finally, even people who are not interested in online game can still be negatively affected by using computer too much. Some social surveys have shown that a few children use computer for studying purpose, most of them are attracted by facebook, blog, etc. instead. Due to this neglect, they will have a bad result in school because when they can not live without internet, they will have no time for their studying.
+In conclusion, although it is undeniable that computer is a crucial part of human life, it still has its bad side, especially for children. People should learn how to use it properly to make it an effective tool because computer should be used not only for entertaining but also for working and studying purpose.
+</OriginalText>
+</Annotation>

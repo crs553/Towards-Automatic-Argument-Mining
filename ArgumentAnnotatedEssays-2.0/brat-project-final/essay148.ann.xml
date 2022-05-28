@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>a single modern culture is being created by modern technology</text>
+    <TextPosition start="198" end="259"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>new technology has influences on educational system, jobs and foods in the world</text>
+    <TextPosition start="1837" end="1917"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>most of the countries have the same educational system based on technology</text>
+    <TextPosition start="296" end="370"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Teachers give topics to the students who should research on the internet to find data, and then students should type their research by using computer and even give a presentation by using PowerPoint</text>
+    <TextPosition start="372" end="570"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>students who are studying in Iran use the same software, Microsoft, to type their homework or have presentation compared to Canadian students</text>
+    <TextPosition start="585" end="726"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>many immigrants in Canada who have the degree in computer technology fields can easily go to Canadian universities and find jobs with good salaries</text>
+    <TextPosition start="939" end="1086"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>jobs that are related to technology are in demand in most of the countries</text>
+    <TextPosition start="1112" end="1186"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>new technology has created some similar jobs all around the world</text>
+    <TextPosition start="738" end="803"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Computer technology is a growing job in most of the countries, and students are being encouraged to study in this field</text>
+    <TextPosition start="805" end="924"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>there are some cultures such as making foods which are unicq in each culture, and technology cannot affect them</text>
+    <TextPosition start="1217" end="1328"/>
+    <Relation relationID="RT11T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>many countries such as Canada, the USA, and British have many restaurants which serve many foods form different countries and cultures</text>
+    <TextPosition start="1382" end="1516"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>cooks can find many new food recipes easily on the Internet</text>
+    <TextPosition start="1527" end="1586"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>two days ago, I went to a Canadian restaurant, and I ate noodle, sushi, which are Chinese foods, and Greek salad</text>
+    <TextPosition start="1601" end="1713"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Opinions regarding world culture
+
+There are many different opinions regarding world culture. Some people think that all the countries in the world cannot have a single culture. However, in my view, a single modern culture is being created by modern technology for the following reasons.
+Firstly, most of the countries have the same educational system based on technology. Teachers give topics to the students who should research on the internet to find data, and then students should type their research by using computer and even give a presentation by using PowerPoint. For example, students who are studying in Iran use the same software, Microsoft, to type their homework or have presentation compared to Canadian students.
+Secondly, new technology has created some similar jobs all around the world. Computer technology is a growing job in most of the countries, and students are being encouraged to study in this field. For example, many immigrants in Canada who have the degree in computer technology fields can easily go to Canadian universities and find jobs with good salaries. This example shows that jobs that are related to technology are in demand in most of the countries.
+Some people might argue that there are some cultures such as making foods which are unicq in each culture, and technology cannot affect them. This point has some merits on the surface; however, many countries such as Canada, the USA, and British have many restaurants which serve many foods form different countries and cultures. In fact, cooks can find many new food recipes easily on the Internet. For example, two days ago, I went to a Canadian restaurant, and I ate noodle, sushi, which are Chinese foods, and Greek salad.
+To sum up, new technology has affected cultures of the world, and we can see many similarities in many cultures. In fact, new technology has influences on educational system, jobs and foods in the world.</OriginalText>
+</Annotation>

@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I prefer to live in a higher pace condition</text>
+    <TextPosition start="426" end="469"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>the advantages of this are qualitatively greater than that of the opposite</text>
+    <TextPosition start="2073" end="2147"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>we need to save time for accomplishing some important tasks, and a fitting example of which can be found in my experience of missing exam</text>
+    <TextPosition start="535" end="672"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>we have to be eager in our lives</text>
+    <TextPosition start="938" end="970"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>I just failed to participate in the university entrance exam</text>
+    <TextPosition start="674" end="734"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>I thought I had enough time for eating breakfast and transporting to the testing place; while I was stocked in a traffic jam and then missed the first test</text>
+    <TextPosition start="743" end="898"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>keeping in high pace condition can prevent me from getting lazy</text>
+    <TextPosition start="1052" end="1115"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>If I can avoid being a sluggish person, I can have a higher probability of fulfilling my dream successfully</text>
+    <TextPosition start="1117" end="1224"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>I had spent more time on practicing playing piano so that I won a piano competition, defeating those spending less time on practicing</text>
+    <TextPosition start="1240" end="1373"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>keeping our pace higher is important</text>
+    <TextPosition start="1428" end="1464"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>with a slower pace can enjoy their lives more</text>
+    <TextPosition start="1542" end="1587"/>
+    <Relation relationID="RT13T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>it is not necessary for them to notice the time control or acquire the fame of succeed</text>
+    <TextPosition start="1596" end="1682"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>I do not think that those people with slower pace losing the piano competition can be really happy</text>
+    <TextPosition start="1769" end="1867"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>it is really joyful for me that I can immerse in the joy of the victory and accomplishment</text>
+    <TextPosition start="1882" end="1972"/>
+    <Relation relationID="T15Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T15"/>
+  </Proposition>
+  <OriginalText>Living in a higher pace is better
+
+There is a hotly debated issue over whether people have to live at a higher or lower pace, and this topic can also be approached from several different angles due to its complexity. Some people tend to be hurry to complete their tasks, while others seem to prefer the opposite position. After deeply pondering over this issue, I also develop my own perspective. I favor the former; that is, I prefer to live in a higher pace condition. 
+The first and foremost reason lies in the inevitable fact that we need to save time for accomplishing some important tasks, and a fitting example of which can be found in my experience of missing exam. I just failed to participate in the university entrance exam because I thought I had enough time for eating breakfast and transporting to the testing place; while I was stocked in a traffic jam and then missed the first test. Therefore, we can start to agree that we have to be eager in our lives. 
+Apart from the one I have mentioned above, another equally important aspect is keeping in high pace condition can prevent me from getting lazy. If I can avoid being a sluggish person, I can have a higher probability of fulfilling my dream successfully. For instance, I had spent more time on practicing playing piano so that I won a piano competition, defeating those spending less time on practicing. Hence, from this case we are capable of stating that keeping our pace higher is important. 
+Admittedly, on the other hand, there might be some people proclaiming that with a slower pace can enjoy their lives more because it is not necessary for them to notice the time control or acquire the fame of succeed. However, from my limited understanding, I just doubt the credibility of that saying. I do not think that those people with slower pace losing the piano competition can be really happy. In contrast, it is really joyful for me that I can immerse in the joy of the victory and accomplishment. 
+Based on the reasons demonstrated above, I believe that living in a higher pace is better because the advantages of this are qualitatively greater than that of the opposite. In other words, I prefer to live in high pace. It is not to say, of course that other points of view are totally without merit. Still, I am firmly convinced that the reasons I proposed in favor of my own sentiment are much more tenable and plausible.</OriginalText>
+</Annotation>

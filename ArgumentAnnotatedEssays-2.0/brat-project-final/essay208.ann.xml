@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>high school students should take a course on basic economics</text>
+    <TextPosition start="355" end="415"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>it will take some time on it</text>
+    <TextPosition start="325" end="353"/>
+    <Relation relationID="RT1T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it can provide students a sense of direction in academy</text>
+    <TextPosition start="471" end="526"/>
+    <Relation relationID="RT4-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Basic economic class can help the students touch the surface of this field, let them to know what this subject mainly discuss</text>
+    <TextPosition start="528" end="653"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>That will help the students cultivate their own interest and a sense of career orientation</text>
+    <TextPosition start="655" end="745"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>students may study harder for their economic dreams</text>
+    <TextPosition start="756" end="807"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>economy is always correlate with politics</text>
+    <TextPosition start="829" end="870"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>students can study specialized knowledge along with some Politian status, which may open their vision toward the nation and don't get limited in the textbooks</text>
+    <TextPosition start="872" end="1030"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>there is also an intimate connection between economy and enterprises</text>
+    <TextPosition start="1041" end="1109"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>students can also gain knowledge more practical and vivid</text>
+    <TextPosition start="1111" end="1168"/>
+    <Relation relationID="RT11-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>the basic economic course can also help with the students when they go to college</text>
+    <TextPosition start="1183" end="1264"/>
+    <Relation relationID="RT12-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>They may feel more readily to learn the knowledge in this field and save much time, with that they are able to study more efficiently and more deeply than other students</text>
+    <TextPosition start="1266" end="1435"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>That as well would provide the students with more confidence and let them become more compatible</text>
+    <TextPosition start="1437" end="1533"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Basic economic class can help the students touch the surface of this field
+
+In today's community, economy becomes the order of the day. Getting to know the theory in this area seems really important for our students. Then, the earlier we jump into this area, the more skillful we will be. Thus, in my point of view, although it will take some time on it, high school students should take a course on basic economics. Let me explain it in detail.
+For the primary concern, it can provide students a sense of direction in academy. Basic economic class can help the students touch the surface of this field, let them to know what this subject mainly discuss. That will help the students cultivate their own interest and a sense of career orientation. Finally, students may study harder for their economic dreams. 
+On the other hand, economy is always correlate with politics, students can study specialized knowledge along with some Politian status, which may open their vision toward the nation and don't get limited in the textbooks. Besides, there is also an intimate connection between economy and enterprises, students can also gain knowledge more practical and vivid.
+In addition, the basic economic course can also help with the students when they go to college. They may feel more readily to learn the knowledge in this field and save much time, with that they are able to study more efficiently and more deeply than other students. That as well would provide the students with more confidence and let them become more compatible.
+Considering all those factors above, I suggest the basic course of economic is necessary.</OriginalText>
+</Annotation>

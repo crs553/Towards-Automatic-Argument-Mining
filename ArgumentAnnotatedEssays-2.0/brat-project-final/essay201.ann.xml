@@ -1,0 +1,98 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>I still hold the environment protection for long-term interest</text>
+    <TextPosition start="2005" end="2067"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>supporting art will benefit the human beings and the company in short-term interest</text>
+    <TextPosition start="1920" end="2003"/>
+    <Relation relationID="RT1T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>conservation is more urgent now than at any time in history</text>
+    <TextPosition start="271" end="330"/>
+    <Relation relationID="RT3-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>supporting environment protection will benefit the company eventually</text>
+    <TextPosition start="1037" end="1106"/>
+    <Relation relationID="RT4-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>conservation leads us to a higher standard of living</text>
+    <TextPosition start="1492" end="1544"/>
+    <Relation relationID="RT5-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>an increasing amount of people pay more attention to conservation</text>
+    <TextPosition start="1118" end="1183"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>sponsoring conservation is a more efficient method of advertising</text>
+    <TextPosition start="1196" end="1261"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Just imagine if the project your company is sponsoring effectively improves the environment, then your company would be known as an environmentally-friendly company and benefit from it in this consumer-oriented society</text>
+    <TextPosition start="1263" end="1481"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>According to a statistic conducted by the International Animal Preserving Association, we have only ten percent of the animals that have ever existed, which means that the biodiversity of our home is grievously endangered</text>
+    <TextPosition start="332" end="553"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>rising sea levels, caused by global warming, have reached a level that is threatening human's life in many countries</text>
+    <TextPosition start="568" end="684"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>If we continue discharging carbon dioxide with non-environmentally friendly cars, nations like Japan will be submerged and weather patterns could change, causing flooding, drought, and an increasing amount of damaging storms</text>
+    <TextPosition start="686" end="910"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>the ecosystem is in its worst condition ever and if we didn't take harsh measures now, we never will</text>
+    <TextPosition start="922" end="1022"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>art is one of the best ways of entertaining human beings</text>
+    <TextPosition start="1561" end="1617"/>
+    <Relation relationID="T5Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>with exhaust fumes and acid rain, we do not have the energy and enthusiasm to appreciate the paintings or photographs</text>
+    <TextPosition start="1624" end="1741"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Biodiversity and a more beautiful nature are not only the results of abetter environment but also are the necessities of photography and other types of art</text>
+    <TextPosition start="1743" end="1898"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <OriginalText>Spending money on supporting art or protecting environment
+
+If I had the opportunity to help a company make a decision on spending money either on supporting the arts or helping the environment, I would choose the latter without hesitation for the reasons below. 
+First, conservation is more urgent now than at any time in history. According to a statistic conducted by the International Animal Preserving Association, we have only ten percent of the animals that have ever existed, which means that the biodiversity of our home is grievously endangered. What's more, rising sea levels, caused by global warming, have reached a level that is threatening human's life in many countries. If we continue discharging carbon dioxide with non-environmentally friendly cars, nations like Japan will be submerged and weather patterns could change, causing flooding, drought, and an increasing amount of damaging storms. In short, the ecosystem is in its worst condition ever and if we didn't take harsh measures now, we never will.
+Furthermore, supporting environment protection will benefit the company eventually. Nowadays, an increasing amount of people pay more attention to conservation; therefore, sponsoring conservation is a more efficient method of advertising. Just imagine if the project your company is sponsoring effectively improves the environment, then your company would be known as an environmentally-friendly company and benefit from it in this consumer-oriented society.
+Finally, conservation leads us to a higher standard of living. I confess that art is one of the best ways of entertaining human beings, but, with exhaust fumes and acid rain, we do not have the energy and enthusiasm to appreciate the paintings or photographs. Biodiversity and a more beautiful nature are not only the results of abetter environment but also are the necessities of photography and other types of art.
+To sum up, although supporting art will benefit the human beings and the company in short-term interest, I still hold the environment protection for long-term interest.</OriginalText>
+</Annotation>

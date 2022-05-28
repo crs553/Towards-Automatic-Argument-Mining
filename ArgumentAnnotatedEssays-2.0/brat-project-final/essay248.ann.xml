@@ -1,0 +1,140 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>choosing the job that is similar to parents' jobs could benefit to one's career</text>
+    <TextPosition start="283" end="362"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>one can get more support from his or her parents if they are in the same industry</text>
+    <TextPosition start="2188" end="2269"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>as parents are involved in the same environmen</text>
+    <TextPosition start="379" end="425"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>my father is a software programmer, and he indeed teaches me a lot in programming and some computer knowledge</text>
+    <TextPosition start="553" end="662"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Whenever I met a difficulty, I would reach him for consulting</text>
+    <TextPosition start="664" end="725"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>he has many experiences</text>
+    <TextPosition start="735" end="758"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>I could save enormous time in finding solution</text>
+    <TextPosition start="760" end="806"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>This truly makes me more competitive than my colleagues</text>
+    <TextPosition start="808" end="863"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>If I worked in the different field from my father, I would have faced much difficulty than I do now</text>
+    <TextPosition start="865" end="964"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>they could thus support much more to their children, such as domain knowledge and industry-related information</text>
+    <TextPosition start="428" end="538"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>they know which company has better welfare or provides better education</text>
+    <TextPosition start="1179" end="1250"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>their friends in the same industry can even help to write recommendation letters to some certain companies</text>
+    <TextPosition start="1262" end="1368"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>It is undoubted that a good recommendation letter is extraordinary important in this competitive society</text>
+    <TextPosition start="1370" end="1474"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>When others are still struggling in preparing their resume, one with a good recommendation letter has already passed the first stage in the interviewing process</text>
+    <TextPosition start="1476" end="1636"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>parents have worked in tens of years</text>
+    <TextPosition start="986" end="1022"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>they have accumulated a rich network in a certain industry</text>
+    <TextPosition start="1024" end="1082"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>They have a deep insight in it and could provide much support to their children</text>
+    <TextPosition start="1084" end="1163"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="claim"/>
+    <text>choosing a job similar to one's parents' is not always a correct decision</text>
+    <TextPosition start="1745" end="1818"/>
+    <Relation relationID="RT19T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>the condition of job market is completely different</text>
+    <TextPosition start="1681" end="1732"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>when it comes to the trend, no one can predict it correctly</text>
+    <TextPosition start="1866" end="1925"/>
+    <Relation relationID="T19Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>The condition of job market changes enormously fast like a flash</text>
+    <TextPosition start="1927" end="1991"/>
+    <Relation relationID="T23Default Inference" type="Default Inference" typeBinary="0" partnerID="T23"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>there is no way to predict any job can be popular for 30 years or more</text>
+    <TextPosition start="2001" end="2071"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <OriginalText>Choosing the job that is similar to parents' jobs could benefit to one's career
+
+When choosing a job, one need to consider it thoroughly. Whether to choose a job which is similar to parents' job or not, different people may hold different opinions. As far as I am concerned, I think choosing the job that is similar to parents' jobs could benefit to one's career. 
+First of all, as parents are involved in the same environment, they could thus support much more to their children, such as domain knowledge and industry-related information. For example, my father is a software programmer, and he indeed teaches me a lot in programming and some computer knowledge. Whenever I met a difficulty, I would reach him for consulting. Because he has many experiences, I could save enormous time in finding solution. This truly makes me more competitive than my colleagues. If I worked in the different field from my father, I would have faced much difficulty than I do now.
+Nevertheless, since parents have worked in tens of years, they have accumulated a rich network in a certain industry. They have a deep insight in it and could provide much support to their children. For instance, they know which company has better welfare or provides better education. Moreover, their friends in the same industry can even help to write recommendation letters to some certain companies. It is undoubted that a good recommendation letter is extraordinary important in this competitive society. When others are still struggling in preparing their resume, one with a good recommendation letter has already passed the first stage in the interviewing process. 
+Some may argue that as time is different, the condition of job market is completely different. Therefore, choosing a job similar to one's parents' is not always a correct decision. I agree with this opinion to some extent, but when it comes to the trend, no one can predict it correctly. The condition of job market changes enormously fast like a flash, so that there is no way to predict any job can be popular for 30 years or more.
+In considering whether one should choose a job similar to his or her parents', I have mentioned a few reasons that one can get more support from his or her parents if they are in the same industry. I believe parents can lead their children to a more smooth career path.</OriginalText>
+</Annotation>

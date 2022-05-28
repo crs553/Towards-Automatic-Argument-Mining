@@ -1,0 +1,110 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>popular sports events can help reduce international tensions remarkably and promote national prides safely</text>
+    <TextPosition start="252" end="358"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>they can improve their results, break records and bring victories to their own countries</text>
+    <TextPosition start="498" end="586"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>sport events with the spirit of healthiness, honesty and fairness can help strengthen understanding, friendship and solidarity among nations</text>
+    <TextPosition start="752" end="892"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>sport events help to wake up love and responsibilities strongly in each citizen</text>
+    <TextPosition start="2034" end="2113"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>sports events are good chances for excellent athletes to meet and learn valuable experiences from one another</text>
+    <TextPosition start="380" end="489"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>a large number of people will gather in the host city for sport events</text>
+    <TextPosition start="596" end="666"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>there are many good opportunities for discovering different cultures</text>
+    <TextPosition start="668" end="736"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>After sharing competitive but interesting moments in each competition, the competitors often shake hands friendly and congratulate the winners, which can lead to an improvement in the relationships among nations</text>
+    <TextPosition start="894" end="1105"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>sporting occasions play an essential role in raising patriotic emotions in both athletes and spectators</text>
+    <TextPosition start="1117" end="1220"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Seeing national flags be honored may be the most emotional moments to each athlete</text>
+    <TextPosition start="1222" end="1304"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>The athlete also seems to be more aware of his responsibilities and he wants to contribute more to his beloved country</text>
+    <TextPosition start="1306" end="1424"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>When witnessing our national flags flying proudly among others, many of us can stop hiding our pride and happiness</text>
+    <TextPosition start="1426" end="1540"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>when Vietnam became the champion of SEAGAMES for the first time in 2008, a festival atmosphere permeated into the streets</text>
+    <TextPosition start="1556" end="1677"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>People from all ages turned out to the streets with flags, banners and they sang aloud songs of Ho Chi Minh President</text>
+    <TextPosition start="1679" end="1796"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>The eager atmosphere lasted many next days</text>
+    <TextPosition start="1798" end="1840"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>some hooligans were so excited that they took part in motor racing or using fireworks illegally</text>
+    <TextPosition start="1851" end="1946"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>the hooligans only took a minority of people</text>
+    <TextPosition start="1957" end="2001"/>
+    <Relation relationID="T17Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T17"/>
+  </Proposition>
+  <OriginalText>Roles of international sports events
+
+Whenever an international sporting occasion like the football World Cup takes place, it attracts millions of people all over the world. As sport has become a common passion which passed over every national border, popular sports events can help reduce international tensions remarkably and promote national prides safely.
+First and foremost, sports events are good chances for excellent athletes to meet and learn valuable experiences from one another so that they can improve their results, break records and bring victories to their own countries. Because a large number of people will gather in the host city for sport events, there are many good opportunities for discovering different cultures. Consequently, sport events with the spirit of healthiness, honesty and fairness can help strengthen understanding, friendship and solidarity among nations. After sharing competitive but interesting moments in each competition, the competitors often shake hands friendly and congratulate the winners, which can lead to an improvement in the relationships among nations.
+Secondly, sporting occasions play an essential role in raising patriotic emotions in both athletes and spectators. Seeing national flags be honored may be the most emotional moments to each athlete. The athlete also seems to be more aware of his responsibilities and he wants to contribute more to his beloved country. When witnessing our national flags flying proudly among others, many of us can stop hiding our pride and happiness. For instance, when Vietnam became the champion of SEAGAMES for the first time in 2008, a festival atmosphere permeated into the streets. People from all ages turned out to the streets with flags, banners and they sang aloud songs of Ho Chi Minh President. The eager atmosphere lasted many next days. In fact, some hooligans were so excited that they took part in motor racing or using fireworks illegally. However, the hooligans only took a minority of people. Therefore, it can be said that sport events help to wake up love and responsibilities strongly in each citizen.
+In conclusion, international sporting occasions are not only one of the effective solutions to tensions among nations but also a stimulant for releasing patriotic emotions safely. Hence, I recommend that big sports events should be held more frequently in the future.
+</OriginalText>
+</Annotation>

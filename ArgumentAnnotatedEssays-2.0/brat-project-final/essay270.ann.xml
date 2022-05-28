@@ -1,0 +1,134 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>it is essential for people, especially young ones, to possess the ability to plan and organize</text>
+    <TextPosition start="183" end="277"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>it can improve the efficiency and reduce the crisis of our actions</text>
+    <TextPosition start="284" end="350"/>
+    <Relation relationID="RT1-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>great planning and organizing ability is able to cause our actions more efficient and productive</text>
+    <TextPosition start="410" end="506"/>
+    <Relation relationID="RT3-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Take myself as an example, I used to be overwhelmed by the burden of preparing for the final exam, submitting my paper, and finishing my internship work at the end of each term</text>
+    <TextPosition start="508" end="684"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Yet, in this year, following the suggestion of my roommate, John, I make a to-do list to plan and organize perfectly everything I should get done in the final and hence take every tasks and trivials into control</text>
+    <TextPosition start="686" end="897"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>This plan ability helps me a lot, making me climb to the top rank of the class while finishing everything else</text>
+    <TextPosition start="899" end="1009"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>the capacity to plan and organize also help young people to eliminate the crisis in their actions, which may ruin one's whole effort over a very long time</text>
+    <TextPosition start="1030" end="1184"/>
+    <Relation relationID="RT7-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>the employees in every company have to create profit as much as they can for their supervisors and complete their assignments perfectly</text>
+    <TextPosition start="1202" end="1337"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>If some employees lack the ability to plan and organize ahead, they may get the procrastination and therefore take into action until the deadline is imminent</text>
+    <TextPosition start="1339" end="1496"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>those employees who did not plan and finish their assignments ahead of time perhaps are unable to finish these tasks on time and therefore will be penalized or get fired</text>
+    <TextPosition start="1664" end="1833"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Every employee can not afford this kind of loss</text>
+    <TextPosition start="1835" end="1882"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>the deadline of task is shifted to an earlier date for the change of company's schedule</text>
+    <TextPosition start="1561" end="1648"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>it is not need for young people to possess this ability</text>
+    <TextPosition start="1987" end="2042"/>
+    <Relation relationID="RT13T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>the ability to plan and organize can be learned until obtaining a job</text>
+    <TextPosition start="1910" end="1979"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>this ability is also essential for young people</text>
+    <TextPosition start="2058" end="2105"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>young people can overcome their bad habits and fulfill their goals more quickly with this ability</text>
+    <TextPosition start="2112" end="2209"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>As searching information on the internet, young people are probably distracted by other attractions such as online games or social webs</text>
+    <TextPosition start="2211" end="2346"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>they would surf on the internet for hours and end up no where</text>
+    <TextPosition start="2371" end="2432"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>It is obviously a huge waste of time</text>
+    <TextPosition start="2434" end="2470"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>if they make their plan in the first place, and then stick to their plans, they could get their work done quickly beyond their imagination</text>
+    <TextPosition start="2476" end="2614"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="claim"/>
+    <text>In this complex society, we, young people, are encompassed with multiple tasks</text>
+    <TextPosition start="2616" end="2694"/>
+    <Relation relationID="RT22-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>It is essential to have ability to plan and organize
+
+With the fast rolling wheels of modern society, life becomes more complex and is not easy to handle than in the past. Therefore, it is essential for people, especially young ones, to possess the ability to plan and organize since it can improve the efficiency and reduce the crisis of our actions. Meanwhile, eliminating meaningless actions.
+First of all, great planning and organizing ability is able to cause our actions more efficient and productive. Take myself as an example, I used to be overwhelmed by the burden of preparing for the final exam, submitting my paper, and finishing my internship work at the end of each term. Yet, in this year, following the suggestion of my roommate, John, I make a to-do list to plan and organize perfectly everything I should get done in the final and hence take every tasks and trivials into control. This plan ability helps me a lot, making me climb to the top rank of the class while finishing everything else.
+Equally important, the capacity to plan and organize also help young people to eliminate the crisis in their actions, which may ruin one's whole effort over a very long time. As we all know, the employees in every company have to create profit as much as they can for their supervisors and complete their assignments perfectly. If some employees lack the ability to plan and organize ahead, they may get the procrastination and therefore take into action until the deadline is imminent. However, things have been changing all the time. For instance, the deadline of task is shifted to an earlier date for the change of company's schedule. In this case, those employees who did not plan and finish their assignments ahead of time perhaps are unable to finish these tasks on time and therefore will be penalized or get fired. Every employee can not afford this kind of loss.
+Finally, some assert that the ability to plan and organize can be learned until obtaining a job. Thus, it is not need for young people to possess this ability. Nevertheless, this ability is also essential for young people since young people can overcome their bad habits and fulfill their goals more quickly with this ability. As searching information on the internet, young people are probably distracted by other attractions such as online games or social webs. At this circumstances, they would surf on the internet for hours and end up no where. It is obviously a huge waste of time. But if they make their plan in the first place, and then stick to their plans, they could get their work done quickly beyond their imagination.
+In this complex society, we, young people, are encompassed with multiple tasks, so the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with.</OriginalText>
+</Annotation>

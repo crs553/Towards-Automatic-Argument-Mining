@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>childhood is the happiest period of one's life</text>
+    <TextPosition start="83" end="129"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>It's not only the lack of responsibilities and daily struggle that make childhood the happiest time of our lives, but also factors like learning lots of new things every day and freedom to imagine and say what you think</text>
+    <TextPosition start="131" end="350"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>during our childhood, though responsibilies exist, we are much more free to do what we would like to</text>
+    <TextPosition start="615" end="715"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Being late for school or laughing at a place where you aren't supposed to do not have consequences as serious as that would be if you were an adult</text>
+    <TextPosition start="717" end="864"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Starting with our adulthood, we are strictly bounded with our responsibilities in our daily lives</text>
+    <TextPosition start="352" end="449"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>We are told at what hour we shall wake up, how we shall dress up and how we shall behave</text>
+    <TextPosition start="451" end="539"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Every action we make are watched closely and judged by the community</text>
+    <TextPosition start="541" end="609"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>childhood is the period of time in which a person is surprised most</text>
+    <TextPosition start="1227" end="1294"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>There are lots of new facts you can learn, stories you can listen to and things you can see</text>
+    <TextPosition start="1123" end="1214"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Another great thing about being a child is possibility learning new and interesting things about the world you live in every single day</text>
+    <TextPosition start="867" end="1002"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Being a child means that you are new in this world and every single thing around you is there to be discovered by you</text>
+    <TextPosition start="1004" end="1121"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Children are not judged about the things they say as much as the adults, and freedom to express yourself is a very important for developing a colorful imagination</text>
+    <TextPosition start="1396" end="1558"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>In adulthood, people are forced to express themselves in boundaries</text>
+    <TextPosition start="1560" end="1627"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>they are in no way free to think or use their imagination</text>
+    <TextPosition start="1639" end="1696"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>Using your imagination and saying what you think freely is another great thing about being a child</text>
+    <TextPosition start="1296" end="1394"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>It's not only because of the nature of childhood and children, but also the way our lives are changed when we are adults</text>
+    <TextPosition start="1766" end="1886"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Childhood is the happiest time of a person's life
+
+I agree with the statement that childhood is the happiest period of one's life. It's not only the lack of responsibilities and daily struggle that make childhood the happiest time of our lives, but also factors like learning lots of new things every day and freedom to imagine and say what you think.
+Starting with our adulthood, we are strictly bounded with our responsibilities in our daily lives. We are told at what hour we shall wake up, how we shall dress up and how we shall behave. Every action we make are watched closely and judged by the community. But during our childhood, though responsibilies exist, we are much more free to do what we would like to. Being late for school or laughing at a place where you aren't supposed to do not have consequences as serious as that would be if you were an adult. 
+Another great thing about being a child is possibility learning new and interesting things about the world you live in every single day. Being a child means that you are new in this world and every single thing around you is there to be discovered by you. There are lots of new facts you can learn, stories you can listen to and things you can see. Therefore, childhood is the period of time in which a person is surprised most.
+Using your imagination and saying what you think freely is another great thing about being a child. Children are not judged about the things they say as much as the adults, and freedom to express yourself is a very important for developing a colorful imagination. In adulthood, people are forced to express themselves in boundaries, therefore they are in no way free to think or use their imagination.
+Childhood, in several aspects, is the happiest period of our lives. It's not only because of the nature of childhood and children, but also the way our lives are changed when we are adults. In an ideal world with less boundaries, social judgement and more freedom of thought, things could be different; but since this is not the case, it seems that we will always be missing our childhood days.</OriginalText>
+</Annotation>

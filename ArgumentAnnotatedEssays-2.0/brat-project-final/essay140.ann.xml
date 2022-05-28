@@ -1,0 +1,49 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>there should not be any room for partiality in terms of gender while allocating seats for students in every university courses</text>
+    <TextPosition start="238" end="364"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>judging student's skills and abilities should only be based on their academic qualifications and talents rather than gender in particular</text>
+    <TextPosition start="470" end="607"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>both male and female students are equally competitive to each other and deserve to produce impressive results in various field of education</text>
+    <TextPosition start="619" end="758"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>In India, for example, female students are more often likely to grab more number of top scorer positions in every year higher secondary school examinations</text>
+    <TextPosition start="760" end="915"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>female students are highly interested in learning courses such as mechanical engineering which demands physical activities in their lab workshops, unlike previous generation females</text>
+    <TextPosition start="931" end="1112"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>due to increasing exposure on current affairs and knowledge on cutting-edge technological developments, female graduates are more willing to take huge responsibilities in their workplace, despite its intensive stress and pressure</text>
+    <TextPosition start="1127" end="1356"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Chanda Kochhar, who is the CEO of India's second largest bank called ICICI bank and prominently awarded as the country's most powerful female head in business sector</text>
+    <TextPosition start="1371" end="1536"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <OriginalText>Every student either male or female should be given equal opportunity
+ 
+In today's context, education is the most significant factor which ultimately determines one's future. In my personal opinion, I am totally agreed with the view that there should not be any room for partiality in terms of gender while allocating seats for students in every university courses. There appear to be various reasons often strike in my mind in support of this position. 
+To begin with, judging student's skills and abilities should only be based on their academic qualifications and talents rather than gender in particular. Nowadays, both male and female students are equally competitive to each other and deserve to produce impressive results in various field of education. In India, for example, female students are more often likely to grab more number of top scorer positions in every year higher secondary school examinations. 
+Furthermore, female students are highly interested in learning courses such as mechanical engineering which demands physical activities in their lab workshops, unlike previous generation females. In addition, due to increasing exposure on current affairs and knowledge on cutting-edge technological developments, female graduates are more willing to take huge responsibilities in their workplace, despite its intensive stress and pressure. For example, Chanda Kochhar, who is the CEO of India's second largest bank called ICICI bank and prominently awarded as the country's most powerful female head in business sector. 
+In conclusion, I am firmly supporting the view, that every student either male or female should be given fairly equal opportunity to purse their education in all university subjects, provided they should meet the required qualifications rather than putting limitations based on their gender. Government should take interim measures, to regulate admission process for university courses which enables every student to get benefit.</OriginalText>
+</Annotation>

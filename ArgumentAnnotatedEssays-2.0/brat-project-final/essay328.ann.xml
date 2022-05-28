@@ -1,0 +1,109 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>boys and girls should study together</text>
+    <TextPosition start="343" end="379"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>they have a chance to know each other and learn how to behave with an opposite sex</text>
+    <TextPosition start="398" end="480"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>By attending to the same school, students can learn how to view the opposite gender in classes as a friend or a classmate</text>
+    <TextPosition start="564" end="685"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>a boy would know how to speak with a girl in every situation and vice versa</text>
+    <TextPosition start="700" end="775"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>They would know how to ask her in order to cooperate with his study, how communicate with girls in a group, etc</text>
+    <TextPosition start="777" end="888"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>when they study together and help each other, they exercise the the real life as they age</text>
+    <TextPosition start="902" end="991"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>attending both girls and boys in a same school cause many disadvantages for them</text>
+    <TextPosition start="1032" end="1112"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>their thoughts deviate from the studies</text>
+    <TextPosition start="1224" end="1263"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>outdoors relationships may expand and it may accompany with sexual relationship</text>
+    <TextPosition start="1129" end="1208"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>School is a small society for students, which prepares them for the future life</text>
+    <TextPosition start="483" end="562"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>they will study increasingly</text>
+    <TextPosition start="1486" end="1514"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Boys and girls will try to show their capabilities and abilities in the class</text>
+    <TextPosition start="1397" end="1474"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Boys do not like to seem weak in front of girls and vice versa</text>
+    <TextPosition start="1524" end="1586"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>the productivity of the class will be increased</text>
+    <TextPosition start="1601" end="1648"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>attending in the school having boys and girls might be beneficial for both to increase their motivation to study better</text>
+    <TextPosition start="1276" end="1395"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>Taking part in the study groups would increase student's motivation to study more</text>
+    <TextPosition start="1733" end="1814"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>they would be able to know the opposite gender, which help them to be prepared for the adult life where they almost will live or work together</text>
+    <TextPosition start="1829" end="1971"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Attending boys and girls in a same school would bring many advantages
+
+Women or men almost need each other in full of life even in school. Although some experts believe that common schools for both female and male lead to diminish their efficiency in education, others view it as a helpful way to recognize the opposite gender. In my opinion, boys and girls should study together in the sense that they have a chance to know each other and learn how to behave with an opposite sex. 
+School is a small society for students, which prepares them for the future life. By attending to the same school, students can learn how to view the opposite gender in classes as a friend or a classmate. In addition, a boy would know how to speak with a girl in every situation and vice versa. They would know how to ask her in order to cooperate with his study, how communicate with girls in a group, etc. Admittedly, when they study together and help each other, they exercise the the real life as they age. By contrast, some experts believe that attending both girls and boys in a same school cause many disadvantages for them. By doing this, outdoors relationships may expand and it may accompany with sexual relationship and as result, their thoughts deviate from the studies. 
+Moreover, attending in the school having boys and girls might be beneficial for both to increase their motivation to study better. Boys and girls will try to show their capabilities and abilities in the class, therefore they will study increasingly. Indeed, Boys do not like to seem weak in front of girls and vice versa. As a result, the productivity of the class will be increased. 
+In a word, attending boys and girls in a same school would bring many advantages. Taking part in the study groups would increase student's motivation to study more. In addition, they would be able to know the opposite gender, which help them to be prepared for the adult life where they almost will live or work together.</OriginalText>
+</Annotation>

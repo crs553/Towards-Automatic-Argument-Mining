@@ -1,0 +1,123 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>alternative means of transportation and international laws in controlling automobiles should be introduced</text>
+    <TextPosition start="358" end="464"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>some people claim the convenience of automobile</text>
+    <TextPosition start="2325" end="2372"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it is crucial to alter automobiles to the other means of transportation and to legislate to control automobiles</text>
+    <TextPosition start="822" end="933"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>an increase in the number of automobiles brings about environmental pollution</text>
+    <TextPosition start="561" end="638"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>automobile exhaust and carbon dioxides emission have bad impacts on the air</text>
+    <TextPosition start="646" end="721"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the air gets to be polluted and it causes respiratory disease of the local inhabitants</text>
+    <TextPosition start="723" end="809"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>the methods to reduce the number of automobiles and to control car ownership and use should be immediately planned and implemented</text>
+    <TextPosition start="1221" end="1351"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>an increase in the number of automobiles causes terrible traffic congestion</text>
+    <TextPosition start="945" end="1020"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Once we get into the traffic jam, it forces us to waste our time for a while</text>
+    <TextPosition start="1022" end="1098"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>traffic congestion irritates drivers and as a result, it leads to an increase of traffic accidents</text>
+    <TextPosition start="1115" end="1213"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>alternative forms which emit less carbon dioxides and gasses than automobiles are ideal</text>
+    <TextPosition start="1536" end="1623"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>rental bicycle system has been introduced in several European countries</text>
+    <TextPosition start="1638" end="1709"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>This system is that at the corner of each district, the rental bicycles are placed and the people can ride it to the other districts with a small fee</text>
+    <TextPosition start="1711" end="1860"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>bicycle expels neither carbon dioxides nor harmful gasses</text>
+    <TextPosition start="1868" end="1925"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>it is a better form to protect environment than automobile</text>
+    <TextPosition start="1927" end="1985"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>alternative forms of transportation and international laws to control automobiles ownership and use can work effectively</text>
+    <TextPosition start="1387" end="1507"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>these attempts to reduce automobiles can ease traffic congestion and environmental pollution</text>
+    <TextPosition start="2207" end="2299"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>the introduction of international laws can be also effective</text>
+    <TextPosition start="2012" end="2072"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>there are some regulations to limit the use of automobiles by time and to allow the people possess one car only</text>
+    <TextPosition start="2088" end="2199"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <OriginalText>Alternative forms of transport to alleviate traffic congestion
+
+Recently, a great deal of attention has been paid to means of transportation. Some state that automobile is the most convenient transportation, while others assert that alternative forms of transport should be considered in view of environmental pollution. In my opinion, I strongly agree that alternative means of transportation and international laws in controlling automobiles should be introduced. In this essay, several reasons will be described carefully in the following passages.
+Firstly, an increase in the number of automobiles brings about environmental pollution. Since automobile exhaust and carbon dioxides emission have bad impacts on the air, the air gets to be polluted and it causes respiratory disease of the local inhabitants. Therefore, it is crucial to alter automobiles to the other means of transportation and to legislate to control automobiles.
+Secondly, an increase in the number of automobiles causes terrible traffic congestion. Once we get into the traffic jam, it forces us to waste our time for a while. What is worse, traffic congestion irritates drivers and as a result, it leads to an increase of traffic accidents. Thus, the methods to reduce the number of automobiles and to control car ownership and use should be immediately planned and implemented.
+In order to solve these problems, alternative forms of transportation and international laws to control automobiles ownership and use can work effectively. With regard to the former, alternative forms which emit less carbon dioxides and gasses than automobiles are ideal. For example, rental bicycle system has been introduced in several European countries. This system is that at the corner of each district, the rental bicycles are placed and the people can ride it to the other districts with a small fee. Since bicycle expels neither carbon dioxides nor harmful gasses, it is a better form to protect environment than automobile. As for the latter point, the introduction of international laws can be also effective. For instance, there are some regulations to limit the use of automobiles by time and to allow the people possess one car only. Thus, these attempts to reduce automobiles can ease traffic congestion and environmental pollution.
+In summary, even though some people claim the convenience of automobile, I would state that alternative forms of transport and international laws on controlling automobiles are necessary due to the environmental protection and the alleviation of traffic congestion.
+</OriginalText>
+</Annotation>

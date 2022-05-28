@@ -1,0 +1,99 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I prefer to live in a big city</text>
+    <TextPosition start="295" end="325"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>I have always wanted to find a job in a big company which locates in a prosperous city area</text>
+    <TextPosition start="364" end="455"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>I will absolutely choose a place to live that is not too far from my workplace</text>
+    <TextPosition start="480" end="558"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>I can save plenty of money on transportation if I choose to live in the city</text>
+    <TextPosition start="572" end="648"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>life in a big city will not be so dull as in a small town</text>
+    <TextPosition start="669" end="726"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>You can enjoy modern life and have more access to the advanced facilities</text>
+    <TextPosition start="728" end="801"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>you can visit museums to learn history, and go to a more equipped library to enjoy reading, or you can go to a sports center for exercising</text>
+    <TextPosition start="817" end="956"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>a small town may be less developed to satisfy all these kinds of needs</text>
+    <TextPosition start="962" end="1032"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>living in big cities means more exposure to stimulation, like all kinds of information</text>
+    <TextPosition start="1046" end="1132"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>If one can efficiently acquire the information, then, there might come along more opportunities for him to achieve his goals</text>
+    <TextPosition start="1134" end="1258"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>there are various advertisements here an there, whether on the leaflets or on the big screen showing things of all sorts in commercial zones</text>
+    <TextPosition start="1273" end="1413"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>If one is seeking a job right in the city or planing somewhere to travel, or just wants to buy a product in a dependable store, he might refer to what he has seen or heard from the advertisements to make a relatively wise choice</text>
+    <TextPosition start="1415" end="1643"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>There is also another obvious advantage of living in a big city considering the chance of receiving better education of our offspring</text>
+    <TextPosition start="1646" end="1779"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Schools in big cities may receive more funds from whether the local comities or the government, which may make them more equipped with advanced teaching facilities and attract more excellent teachers</text>
+    <TextPosition start="1781" end="1980"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Our children thus will have a better chance of pursuing high-quality education which is very important for their future development</text>
+    <TextPosition start="1982" end="2113"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>A more convenient life in a city
+
+There are undeniable advantages to both life in a big city and in a small town. The former offers more excitement and convenience while the latter offers a cleaner, quieter and often friendlier place to live. However, despite the advantages of small town life, I prefer to live in a big city for several reasons.
+On the one hand, I have always wanted to find a job in a big company which locates in a prosperous city area. To make it convenient, I will absolutely choose a place to live that is not too far from my workplace. What's more I can save plenty of money on transportation if I choose to live in the city.
+On the other hand, life in a big city will not be so dull as in a small town. You can enjoy modern life and have more access to the advanced facilities. For instance, you can visit museums to learn history, and go to a more equipped library to enjoy reading, or you can go to a sports center for exercising. But a small town may be less developed to satisfy all these kinds of needs.
+Furthermore living in big cities means more exposure to stimulation, like all kinds of information. If one can efficiently acquire the information, then, there might come along more opportunities for him to achieve his goals. For example, there are various advertisements here an there, whether on the leaflets or on the big screen showing things of all sorts in commercial zones. If one is seeking a job right in the city or planing somewhere to travel, or just wants to buy a product in a dependable store, he might refer to what he has seen or heard from the advertisements to make a relatively wise choice. 
+There is also another obvious advantage of living in a big city considering the chance of receiving better education of our offspring. Schools in big cities may receive more funds from whether the local comities or the government, which may make them more equipped with advanced teaching facilities and attract more excellent teachers. Our children thus will have a better chance of pursuing high-quality education which is very important for their future development. 
+In conclusion, if I want to live a more convenient life with more access to modern facilities as well as with more exposure to various opportunities, and have my children receive a better education, a big city is the place to live in.</OriginalText>
+</Annotation>

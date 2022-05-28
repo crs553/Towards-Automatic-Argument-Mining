@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>childhood is definitely the happiest time of people life in two main areas</text>
+    <TextPosition start="295" end="369"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>They not only free to do whatever they want without any confine or punishment, but also they are free and have a lot of time in their hands to try and experience new things and enjoy them</text>
+    <TextPosition start="1172" end="1359"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>children are free whatever they want to do, they are not restricted and their limitation are really rare</text>
+    <TextPosition start="391" end="495"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>they are in the age of growth and they are allowed whatever they want to do to experience new stuffs</text>
+    <TextPosition start="505" end="605"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>there is no argument and punishment for them</text>
+    <TextPosition start="617" end="661"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>they do not have to educate and they do not have to work</text>
+    <TextPosition start="735" end="791"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>they have a lot of time in their hand to enjoy this stage of their life</text>
+    <TextPosition start="796" end="867"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>I made a large number of friends in this age, and I almost traveled to all cities of my county when I was in kindergarten</text>
+    <TextPosition start="890" end="1011"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>I got familiar with different kind of animals and plants in this age</text>
+    <TextPosition start="1018" end="1086"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>in this age they are not expected to be responsible</text>
+    <TextPosition start="676" end="727"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Children are free
+
+You hardly ever can find a person who says that he or she had unpleasant childhood. When individuals reminisce their memories they absolutely infer to some of their childhood events. As much as their events might were bitter, in their adulthood they are sweet. In my opinion, childhood is definitely the happiest time of people life in two main areas.
+In the first place, children are free whatever they want to do, they are not restricted and their limitation are really rare. Because they are in the age of growth and they are allowed whatever they want to do to experience new stuffs. Therefore there is no argument and punishment for them.
+In addition, in this age they are not expected to be responsible. Also, they do not have to educate and they do not have to work, so they have a lot of time in their hand to enjoy this stage of their life. As a matter of fact, I made a large number of friends in this age, and I almost traveled to all cities of my county when I was in kindergarten. Also I got familiar with different kind of animals and plants in this age.
+All in all, I would maintain that the best phase of people life is their childhood. They not only free to do whatever they want without any confine or punishment, but also they are free and have a lot of time in their hands to try and experience new things and enjoy them.</OriginalText>
+</Annotation>

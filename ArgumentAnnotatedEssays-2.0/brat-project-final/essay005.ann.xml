@@ -1,0 +1,75 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>one who studies overseas will gain many skills throughout this experience</text>
+    <TextPosition start="286" end="359"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>studying at an overseas university gives individuals the opportunity to improve social skills by interacting and communicating with students from different origins and cultures</text>
+    <TextPosition start="388" end="564"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>living and studying overseas is an irreplaceable experience when it comes to learn standing on your own feet</text>
+    <TextPosition start="775" end="883"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>one who has studied and lived overseas will become more eligible for the job than his/her peers</text>
+    <TextPosition start="1330" end="1425"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Compared to the peers studying in the home country, it will be more likely for the one who is living overseas to be successful in adapting himself/herself into new environments and situations in life</text>
+    <TextPosition start="566" end="765"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>One who is living overseas will of course struggle with loneliness, living away from family and friends</text>
+    <TextPosition start="885" end="988"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>those difficulties will turn into valuable experiences in the following steps of life</text>
+    <TextPosition start="993" end="1078"/>
+    <Relation relationID="T7Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>the one will learn living without depending on anyone else</text>
+    <TextPosition start="1090" end="1148"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>employers are mostly looking for people who have international and language skills</text>
+    <TextPosition start="1156" end="1238"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Becoming successful in this study will give the student an edge in job market</text>
+    <TextPosition start="1240" end="1317"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>there are many difficulties a student might face when studying and living overseas</text>
+    <TextPosition start="1442" end="1524"/>
+    <Relation relationID="RT12T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Living and studying overseas
+
+It is every student's desire to study at a good university and experience a new environment. While some students study and live overseas to achieve this, some prefer to study home because of the difficulties of living and studying overseas. In my opinion, one who studies overseas will gain many skills throughout this experience for several reasons.
+First, studying at an overseas university gives individuals the opportunity to improve social skills by interacting and communicating with students from different origins and cultures. Compared to the peers studying in the home country, it will be more likely for the one who is living overseas to be successful in adapting himself/herself into new environments and situations in life.
+Second, living and studying overseas is an irreplaceable experience when it comes to learn standing on your own feet. One who is living overseas will of course struggle with loneliness, living away from family and friends but those difficulties will turn into valuable experiences in the following steps of life. Moreover, the one will learn living without depending on anyone else.
+Also, employers are mostly looking for people who have international and language skills. Becoming successful in this study will give the student an edge in job market. Therefore, one who has studied and lived overseas will become more eligible for the job than his/her peers.
+In conclusion, there are many difficulties a student might face when studying and living overseas. However, living and studying overseas gives the individual a new perspective on the subject that is studied or in general life.
+</OriginalText>
+</Annotation>

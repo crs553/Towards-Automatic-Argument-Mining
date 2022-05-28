@@ -1,0 +1,103 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I would follow the new customs, if I migrated to another country</text>
+    <TextPosition start="386" end="450"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it will be easier for people to assimilate into a new country, if they follow the new customs</text>
+    <TextPosition start="465" end="558"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>When people migrate to a new country, they are likely to suffer the culture shock, because of the difference between two cultures</text>
+    <TextPosition start="560" end="689"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>The custom is just a form of the culture and following the custom is a good way to know more about this culture</text>
+    <TextPosition start="691" end="802"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>if one wore in white and went to common Viharas to observe a rather longer-than-usual, full-length Buddhist sutra in Buddha's Birthday in India, he or she would learn something about Indian religion and culture</text>
+    <TextPosition start="817" end="1027"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>people understand the culture, and then they adapt to the new country</text>
+    <TextPosition start="1042" end="1111"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>keeping own customs stably might cause discrimination</text>
+    <TextPosition start="1132" end="1185"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>When people insist to keep their own customs and refuse to accept the new one, they regard themselves as a special group in the new country</text>
+    <TextPosition start="1187" end="1326"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>The local people may also regard them as a special group as well and separate them from the main-stream society</text>
+    <TextPosition start="1328" end="1439"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>One example of this is that the Chinese immigrants in Indonesia in 1969</text>
+    <TextPosition start="1441" end="1512"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>They formed Chinatown and kept Chinese language and customs in it</text>
+    <TextPosition start="1514" end="1579"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>While the Indonesians stopped working at 4:00 pm and went home for rest, Chinese immigrants were still working</text>
+    <TextPosition start="1581" end="1691"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>being much richer than local people, they faced the discrimination</text>
+    <TextPosition start="1702" end="1768"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Their houses and private cars were buried by local people</text>
+    <TextPosition start="1770" end="1827"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>the locals were jealous of Chinese people, who had so much wealth, which should have been theirs</text>
+    <TextPosition start="1837" end="1933"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>If the Chinese immigrants had followed the local customs and assimilated into Indonesia, they would not have been regards as a group of Chinese and discrimination might have been alleviated</text>
+    <TextPosition start="1935" end="2124"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>Follow the New Customs of the New Country or Not?
+
+When people move to another country, most likely, they will face the choice between following the customs of the new country or keeping their original one. Some people choose the former one to assimilate themselves into the new culture, while some insist the latter one because the new customs are difficult to be accepted. As for me, I would follow the new customs, if I migrated to another country.
+On one hand, it will be easier for people to assimilate into a new country, if they follow the new customs. When people migrate to a new country, they are likely to suffer the culture shock, because of the difference between two cultures. The custom is just a form of the culture and following the custom is a good way to know more about this culture. For example, if one wore in white and went to common Viharas to observe a rather longer-than-usual, full-length Buddhist sutra in Buddha's Birthday in India, he or she would learn something about Indian religion and culture. As a result, people understand the culture, and then they adapt to the new country.
+On the other hand, keeping own customs stably might cause discrimination. When people insist to keep their own customs and refuse to accept the new one, they regard themselves as a special group in the new country. The local people may also regard them as a special group as well and separate them from the main-stream society. One example of this is that the Chinese immigrants in Indonesia in 1969. They formed Chinatown and kept Chinese language and customs in it. While the Indonesians stopped working at 4:00 pm and went home for rest, Chinese immigrants were still working. Although being much richer than local people, they faced the discrimination. Their houses and private cars were buried by local people, because the locals were jealous of Chinese people, who had so much wealth, which should have been theirs. If the Chinese immigrants had followed the local customs and assimilated into Indonesia, they would not have been regards as a group of Chinese and discrimination might have been alleviated.
+All in all, the immigrants should follow the customs in the new country, which can help them survive from the culture shock sooner, and assimilate to a new culture.</OriginalText>
+</Annotation>

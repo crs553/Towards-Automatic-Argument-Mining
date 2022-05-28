@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the importance of traditions should be valued and paid attention to</text>
+    <TextPosition start="338" end="405"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>technology takes convenience to humankind</text>
+    <TextPosition start="560" end="601"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>it also contributes to unhealthy behaviors of life, like sedentary lifestyle</text>
+    <TextPosition start="603" end="679"/>
+    <Relation relationID="T2Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Traditional skills and lifestyles play important role in modern society, in terms of healthcare, environmental protection and cultural inherit</text>
+    <TextPosition start="407" end="549"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>traditional ways of life is a great complimentary for modern life and highlight the importance of work life balance</text>
+    <TextPosition start="690" end="805"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>traditional skills rely little on fossil energy</text>
+    <TextPosition start="839" end="886"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>it is more environmentally-friendly, which should be promoted to reduce the threat of climate change</text>
+    <TextPosition start="888" end="988"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>those tradition-related things convey traditional culture and values</text>
+    <TextPosition start="1002" end="1070"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>These are important foundation of modern civilization</text>
+    <TextPosition start="1072" end="1125"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Protection of tradition can provide the possibility to better understand ancient culture and utilize them to tackle modern problems</text>
+    <TextPosition start="1127" end="1258"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>protecting traditions consume too much financial budget compared with the incoming it takes</text>
+    <TextPosition start="1320" end="1411"/>
+    <Relation relationID="RT11T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>this kind of business bring limited contribution to government finance</text>
+    <TextPosition start="1434" end="1504"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>the expense is trivial compared with the potential value of traditions</text>
+    <TextPosition start="1535" end="1605"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>the government authorities and education institutes should work closely together to promote the traditional skills and ways of life, so as to make people to realize the value of them</text>
+    <TextPosition start="1617" end="1799"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Do you agree that the traditional skills will die out?
+
+With the development of technology, whether or not it is still necessary to protect the traditional skills and lifestyles leads to a drastic controversy which is becoming a public concern, especially considering the significant impact taken by technology. As far as I am concerned, the importance of traditions should be valued and paid attention to.
+Traditional skills and lifestyles play important role in modern society, in terms of healthcare, environmental protection and cultural inherit. Although technology takes convenience to humankind, it also contributes to unhealthy behaviors of life, like sedentary lifestyle. Instead, traditional ways of life is a great complimentary for modern life and highlight the importance of work life balance. Meanwhile, due to the fact that traditional skills rely little on fossil energy, it is more environmentally-friendly, which should be promoted to reduce the threat of climate change. Furthermore those tradition-related things convey traditional culture and values. These are important foundation of modern civilization. Protection of tradition can provide the possibility to better understand ancient culture and utilize them to tackle modern problems.
+Some people who hold different viewpoints may advocate that protecting traditions consume too much financial budget compared with the incoming it takes. In spite of the fact this kind of business bring limited contribution to government finance, it should be emphasized that the expense is trivial compared with the potential value of traditions. Therefore the government authorities and education institutes should work closely together to promote the traditional skills and ways of life, so as to make people to realize the value of them.
+All in all, protection of tradition is not only important for the entire society currently, but also contributes to the next generation.</OriginalText>
+</Annotation>

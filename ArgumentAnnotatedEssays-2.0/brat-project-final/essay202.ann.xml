@@ -1,0 +1,133 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T5">
+    <ADU type="conclusion"/>
+    <text>a good co-worker needs to have three most important characteristics such as cooperation, trustworthiness, and fellowship</text>
+    <TextPosition start="446" end="566"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>the co-workers should believe in fellowship</text>
+    <TextPosition start="2103" end="2146"/>
+    <Relation relationID="RT1-T5" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>This helps them to enjoy their work life while building up very strong personal relationships</text>
+    <TextPosition start="2148" end="2241"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>you spend most of your day at office</text>
+    <TextPosition start="2254" end="2290"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>If you have a good company in office, it is certainly a blessing</text>
+    <TextPosition start="2292" end="2356"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>The co-workers should be cooperative with one another</text>
+    <TextPosition start="568" end="621"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>The co-workers need to trust each other</text>
+    <TextPosition start="1500" end="1539"/>
+    <Relation relationID="RT7-T5" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>If they do not cooperate, there will be lots of disputes</text>
+    <TextPosition start="623" end="679"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>They should not act on suspicion</text>
+    <TextPosition start="1541" end="1573"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>he always left office sharp on time without giving any consideration whether the work has been finished or not</text>
+    <TextPosition start="744" end="854"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>I once had a co-worker who was too family conscious</text>
+    <TextPosition start="681" end="732"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Most of the time, I had to do his work in order to protect him from getting caught to the supervisor who was a very authoritative person</text>
+    <TextPosition start="856" end="992"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>one day I wanted to be off early because I had to take my mother to the doctor</text>
+    <TextPosition start="1003" end="1081"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>When I requested my co-worker to give a helping hand to finish my work early, he turned down my request giving a silly excuse</text>
+    <TextPosition start="1083" end="1208"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>From that day onwards I did not offer him any support and finally he was transferred from our department to a distant location as a punishment for his irresponsibility</text>
+    <TextPosition start="1210" end="1377"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>if the co-workers do not corporate with each other that would be devastating in a work environment</text>
+    <TextPosition start="1400" end="1498"/>
+    <Relation relationID="RT16-T5" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>This is a very important aspect in the work environment</text>
+    <TextPosition start="1575" end="1630"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>I came across a situation once such that one of my subordinates used to suspect his co-worker for carrying tales to me</text>
+    <TextPosition start="1632" end="1750"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>To a certain extent his suspicion was valid as his co-worker made several attempts to highlight the drawbacks of him</text>
+    <TextPosition start="1752" end="1868"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>I never encourage tale carriers as a principle and therefore his co-worker gave up talking ill against him with me</text>
+    <TextPosition start="1878" end="1992"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>But this mistrust continued and created very unpleasant situations for everybody in my department</text>
+    <TextPosition start="1994" end="2091"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <OriginalText>Some important characteristics of a co-worker
+
+At work, you meet people with diverse backgrounds and you are required to maintain sound relationships with many of them in order to have a pleasant work environment. However, the relationship you need to maintain with your co-worker is the most important one since he or she is the person who works very closely with you, and in most instances you have to rely on him or her. Therefore in my view, a good co-worker needs to have three most important characteristics such as cooperation, trustworthiness, and fellowship.
+The co-workers should be cooperative with one another. If they do not cooperate, there will be lots of disputes. I once had a co-worker who was too family conscious. Therefore he always left office sharp on time without giving any consideration whether the work has been finished or not. Most of the time, I had to do his work in order to protect him from getting caught to the supervisor who was a very authoritative person. However, one day I wanted to be off early because I had to take my mother to the doctor. When I requested my co-worker to give a helping hand to finish my work early, he turned down my request giving a silly excuse. From that day onwards I did not offer him any support and finally he was transferred from our department to a distant location as a punishment for his irresponsibility. Therefore, I believe if the co-workers do not corporate with each other that would be devastating in a work environment.
+The co-workers need to trust each other. They should not act on suspicion. This is a very important aspect in the work environment. I came across a situation once such that one of my subordinates used to suspect his co-worker for carrying tales to me. To a certain extent his suspicion was valid as his co-worker made several attempts to highlight the drawbacks of him. However I never encourage tale carriers as a principle and therefore his co-worker gave up talking ill against him with me. But this mistrust continued and created very unpleasant situations for everybody in my department. 
+Finally, the co-workers should believe in fellowship. This helps them to enjoy their work life while building up very strong personal relationships. After all, you spend most of your day at office. If you have a good company in office, it is certainly a blessing.</OriginalText>
+</Annotation>

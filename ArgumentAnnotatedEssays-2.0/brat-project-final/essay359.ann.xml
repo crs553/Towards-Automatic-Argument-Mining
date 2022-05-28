@@ -1,0 +1,97 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>international tourism not only causes tension but also leads to understanding between people from different culture</text>
+    <TextPosition start="97" end="212"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>most people will be trying to understand each other after they have conflict or debates</text>
+    <TextPosition start="222" end="309"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>people are looking for the solution such as understanding each other while they encounter the conflicts caused by international tourism</text>
+    <TextPosition start="1348" end="1483"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>those local residents have to clean the place frequently</text>
+    <TextPosition start="482" end="538"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>some people leave the rubbish after visiting the attractions</text>
+    <TextPosition start="409" end="469"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>tourists may offend the local people due to their different culture background</text>
+    <TextPosition start="622" end="700"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Indians don't eat beef</text>
+    <TextPosition start="715" end="737"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>they worship cows</text>
+    <TextPosition start="744" end="761"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>if tourists want to respect the tradition, they will not order any beef in the local restaurant</text>
+    <TextPosition start="769" end="864"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>some behaviors of the tourists are not welcome in the local area</text>
+    <TextPosition start="334" end="398"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>tourists are given the brochures about the local traditions and customs before they visit the place</text>
+    <TextPosition start="1033" end="1132"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>the possibility of the conflicts is reduced because the understanding between both parties</text>
+    <TextPosition start="1245" end="1335"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>the tour guide are willing to help tourists to understand the culture from other countries</text>
+    <TextPosition start="1147" end="1237"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>in order to avoid the conflicts between foreigners and locals, people are trying to understand different culture and find solutions</text>
+    <TextPosition start="886" end="1017"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>the new batch of tourists will have a tidy and neat environment</text>
+    <TextPosition start="547" end="610"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>International tourism leads to both - tension and understanding
+
+I agree with both opinions that international tourism not only causes tension but also leads to understanding between people from different culture, because most people will be trying to understand each other after they have conflict or debates.
+There is no doubt that some behaviors of the tourists are not welcome in the local area. Firstly, some people leave the rubbish after visiting the attractions. Therefore, those local residents have to clean the place frequently so that the new batch of tourists will have a tidy and neat environment. Moreover, tourists may offend the local people due to their different culture background. For example, Indians don't eat beef since they worship cows. Thus, if tourists want to respect the tradition, they will not order any beef in the local restaurant. 
+On the other hand, in order to avoid the conflicts between foreigners and locals, people are trying to understand different culture and find solutions. For instance, tourists are given the brochures about the local traditions and customs before they visit the place. Furthermore, the tour guide are willing to help tourists to understand the culture from other countries. Thus, the possibility of the conflicts is reduced because the understanding between both parties.
+Obviously, people are looking for the solution such as understanding each other while they encounter the conflicts caused by international tourism. Hence, I think international tourism leads to both tension and understanding between people from different culture.</OriginalText>
+</Annotation>

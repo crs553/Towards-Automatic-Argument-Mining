@@ -1,0 +1,140 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>professors should be encouraged to mainly do research</text>
+    <TextPosition start="299" end="352"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>While extending the way of their own development, the outcomes of the researches will also benefit the whole society</text>
+    <TextPosition start="2108" end="2224"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>by doing research, professors could catch up with the latest development of modern technologies</text>
+    <TextPosition start="554" end="649"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>The research projects provide communication with the outside</text>
+    <TextPosition start="479" end="539"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>doing research is a method of self-improvement for professors</text>
+    <TextPosition start="368" end="429"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Universities are relatively fenced environment</text>
+    <TextPosition start="431" end="477"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>I still remembered that my professor took part in several research projects when I was in college</text>
+    <TextPosition start="651" end="748"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>He was often invited to do speech in other universities</text>
+    <TextPosition start="750" end="805"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>my university is not in the high-ranking list, he gained a reputation by those projects</text>
+    <TextPosition start="816" end="903"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>The research projects like windows opened to the wider world</text>
+    <TextPosition start="905" end="965"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>you could not find another place with so much talent people gathering together</text>
+    <TextPosition start="1141" end="1219"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>there is really no reason to discourage professors from using those advantages</text>
+    <TextPosition start="1235" end="1313"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>It is very common to see state-of-the-art laboratories in the campus</text>
+    <TextPosition start="1065" end="1133"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>We all know that Einstein developed the theory of general relativity when he was a professor in HU Berlin</text>
+    <TextPosition start="1315" end="1420"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Universities positively contribute the professors' success</text>
+    <TextPosition start="1422" end="1480"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>professors should fully use the research-friendly environment provided by universities</text>
+    <TextPosition start="977" end="1063"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>doing research could also improve the teaching quality</text>
+    <TextPosition start="1503" end="1557"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>With the help of research projects, professors could lead their students into the practical world from the classroom</text>
+    <TextPosition start="1559" end="1675"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>They can easily teach students how to imply the knowledge in practice</text>
+    <TextPosition start="1677" end="1746"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>I still remembered the experience of being an assistant in one of my professor's research project</text>
+    <TextPosition start="1748" end="1845"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>By participating in it, I had opportunities to use theories on textbooks in real life experiments</text>
+    <TextPosition start="1847" end="1944"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>The research project provides a more efficient way of teaching</text>
+    <TextPosition start="1946" end="2008"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>Professors should do more research or teach students?
+
+These days, more and more university professors are involved in scientific research. Some are afraid that this will lead to the decline of education quality and suggest them to spend more time on teaching. However, according to my experiences, professors should be encouraged to mainly do research.
+First of all, doing research is a method of self-improvement for professors. Universities are relatively fenced environment. The research projects provide communication with the outside. In addition, by doing research, professors could catch up with the latest development of modern technologies. I still remembered that my professor took part in several research projects when I was in college. He was often invited to do speech in other universities. Although my university is not in the high-ranking list, he gained a reputation by those projects. The research projects like windows opened to the wider world.
+Secondly, professors should fully use the research-friendly environment provided by universities. It is very common to see state-of-the-art laboratories in the campus. Also, you could not find another place with so much talent people gathering together. Consequently, there is really no reason to discourage professors from using those advantages. We all know that Einstein developed the theory of general relativity when he was a professor in HU Berlin. Universities positively contribute the professors' success. 
+Last but not least, doing research could also improve the teaching quality. With the help of research projects, professors could lead their students into the practical world from the classroom. They can easily teach students how to imply the knowledge in practice. I still remembered the experience of being an assistant in one of my professor's research project. By participating in it, I had opportunities to use theories on textbooks in real life experiments. The research project provides a more efficient way of teaching. 
+For those reasons, it is natural to support the professors spending more time on doing research. While extending the way of their own development, the outcomes of the researches will also benefit the whole society.</OriginalText>
+</Annotation>

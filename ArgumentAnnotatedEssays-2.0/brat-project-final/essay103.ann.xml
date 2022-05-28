@@ -1,0 +1,56 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T8">
+    <ADU type="conclusion"/>
+    <text>I strongly support the current laws of Great Britain and Australia, and would not change the regulations on keeping the jury unaware of past actions</text>
+    <TextPosition start="1454" end="1602"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>past behaviour determines the future actions</text>
+    <TextPosition start="358" end="402"/>
+    <Relation relationID="RT1T8" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>complete data concerning the history of a sued person creates more opportunity for jury members to build an overall picture of defendant's personality</text>
+    <TextPosition start="517" end="667"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>past record might be useful to decide whether a person was able to perform a certain type of crime when it concerns serious crimes, such as kidnapping or a murder</text>
+    <TextPosition start="682" end="844"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>in order for the jury to come up with an objective decision not depending on the past experience, the court should provide with details relevant to a particular case only</text>
+    <TextPosition start="860" end="1030"/>
+    <Relation relationID="RT4-T8" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>a defendant with number of past crimes has more chance to be found guilty compared to a person with no or lighter criminal record</text>
+    <TextPosition start="1046" end="1175"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Innocent suspects, eventually, can face unfair juridical decision and pay twice for their previous inadequate actions</text>
+    <TextPosition start="1177" end="1294"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>I am skeptical about disclosing the defendant's history to the jury, with intention to avoid subjective and probable inaccurate verdict</text>
+    <TextPosition start="1311" end="1446"/>
+    <Relation relationID="RT7-T8" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>Jury must have access to criminals' past records
+
+Courts of many countries provide a jury with the history of a defendant, except those of the UK and Australia. Common belief that a jury should obtain all information regarding a suspect has fostered some lawyers to protest against the current rules in those two countries.
+Many people hold the opinion that past behaviour determines the future actions, which could be the main reason to support the idea of revealing the record to the jury. We must acknowledge that complete data concerning the history of a sued person creates more opportunity for jury members to build an overall picture of defendant's personality. Furthermore, past record might be useful to decide whether a person was able to perform a certain type of crime when it concerns serious crimes, such as kidnapping or a murder.
+Nevertheless, in order for the jury to come up with an objective decision not depending on the past experience, the court should provide with details relevant to a particular case only. For instance, a defendant with number of past crimes has more chance to be found guilty compared to a person with no or lighter criminal record. Innocent suspects, eventually, can face unfair juridical decision and pay twice for their previous inadequate actions.
+In conclusion, I am skeptical about disclosing the defendant's history to the jury, with intention to avoid subjective and probable inaccurate verdict. Thus, I strongly support the current laws of Great Britain and Australia, and would not change the regulations on keeping the jury unaware of past actions.
+</OriginalText>
+</Annotation>

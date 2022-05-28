@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>wild animals should be set free from zoos</text>
+    <TextPosition start="1757" end="1798"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it is our responsibility to create a natural and safe environment for animals to live in</text>
+    <TextPosition start="643" end="731"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>it is the right of wild species to live in a environment away from human beings</text>
+    <TextPosition start="425" end="504"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Given the fact that human beings are responsible for the heavy pollution and severe damage to the natural habitats of many wild animals</text>
+    <TextPosition start="506" end="641"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>zoos are more likely to be a killer rather than a protector in protecting wild lives</text>
+    <TextPosition start="1107" end="1191"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the wild species would suffer from isolation and depression</text>
+    <TextPosition start="1032" end="1091"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>if rural animals are captured in the zoo for a long period, it would have negative influences on both the physical and psychological status of the creatures</text>
+    <TextPosition start="861" end="1017"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>the limited space and the artificial trees and lakes can not fully compensate the animals for their loss</text>
+    <TextPosition start="745" end="849"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>zoos, which are equipped with modern facilities and professionals, would provide better care for the animals inside</text>
+    <TextPosition start="1235" end="1350"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the endangered species preserved in zoos would never die of illegal hunting</text>
+    <TextPosition start="1380" end="1455"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>the strict laws prohibiting poaching would provide a shelter for various kinds of animals in natural habitat</text>
+    <TextPosition start="1487" end="1595"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>the growing number of natural habitat would be the ultimate solution of saving wild animals worldwide</text>
+    <TextPosition start="1611" end="1712"/>
+    <Relation relationID="T10Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>they have the right to enjoy freedom but they also escape from isolation and depression</text>
+    <TextPosition start="1816" end="1903"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Zoos should be built to protect rural animals
+
+Preserving wild animals in zoos is an issue which frequently generates a great deal of heated debate, with supporters maintaining that wild life would be taken good care from professionals, while opponents claim that the animals are deprived of freedom as a result of staying in zoos. From my perspective, animals should live in natural habitats instead of zoos.
+To begin with, it is the right of wild species to live in a environment away from human beings. Given the fact that human beings are responsible for the heavy pollution and severe damage to the natural habitats of many wild animals, it is our responsibility to create a natural and safe environment for animals to live in. Apparently, the limited space and the artificial trees and lakes can not fully compensate the animals for their loss. Moreover, if rural animals are captured in the zoo for a long period, it would have negative influences on both the physical and psychological status of the creatures. As a result, the wild species would suffer from isolation and depression. It seems that zoos are more likely to be a killer rather than a protector in protecting wild lives.
+Nevertheless, supporters would argue that zoos, which are equipped with modern facilities and professionals, would provide better care for the animals inside. They further point out that the endangered species preserved in zoos would never die of illegal hunting. However, I would contend that the strict laws prohibiting poaching would provide a shelter for various kinds of animals in natural habitat. It seems that the growing number of natural habitat would be the ultimate solution of saving wild animals worldwide.
+By way of conclusion, it is my belief that wild animals should be set free from zoos not only because they have the right to enjoy freedom but they also escape from isolation and depression.
+</OriginalText>
+</Annotation>

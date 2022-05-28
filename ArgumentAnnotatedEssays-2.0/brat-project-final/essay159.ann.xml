@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the popularity of mobile phones to the young generation is a bad development</text>
+    <TextPosition start="308" end="384"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>many young owners of cellular phones are struggling at school because they are distracted most of the time with their phones</text>
+    <TextPosition start="400" end="524"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Games and applications installed in phones have occupied much of their time, leaving them lesser time for their studies and other school activities</text>
+    <TextPosition start="526" end="673"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>internet capable phones help influence the young ones to become more interested in chatting and social sites rather than doing school works</text>
+    <TextPosition start="686" end="825"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>In my college days, I was once addicted to a certain game on my cellular phone</text>
+    <TextPosition start="827" end="905"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>I have spent most of my time trying to reach a higher level to show-off to my friends</text>
+    <TextPosition start="907" end="992"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>That goal has led me to my lost in interest on doing my homework and I ended up failing one subject in that semester</text>
+    <TextPosition start="994" end="1110"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>juveniles who possess mobile phones have great tendencies to become materialistic</text>
+    <TextPosition start="1122" end="1203"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>They would not only purchase a phone because of its functionality but also for its brand</text>
+    <TextPosition start="1205" end="1293"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>they would need their parents to support them financially for what they want</text>
+    <TextPosition start="1417" end="1493"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>most of these juveniles are students</text>
+    <TextPosition start="1377" end="1413"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>An illustration of this unfortunate trend can be seen almost everywhere these days, wherein most teens at an early age own phones which are worth twice the salary of their parents</text>
+    <TextPosition start="1495" end="1674"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>these do not come at a significant and inexpensive cost</text>
+    <TextPosition start="1307" end="1362"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Popularity of mobile phones to young people
+
+Nowadays, many young people consider mobile phone as the most important thing in their lives as it keeps them constantly organized and it provides much convenience for them to reach out their families and friends. Despite all these positive aspects, I think that the popularity of mobile phones to the young generation is a bad development.
+First of all, many young owners of cellular phones are struggling at school because they are distracted most of the time with their phones. Games and applications installed in phones have occupied much of their time, leaving them lesser time for their studies and other school activities. Similarly, internet capable phones help influence the young ones to become more interested in chatting and social sites rather than doing school works. In my college days, I was once addicted to a certain game on my cellular phone. I have spent most of my time trying to reach a higher level to show-off to my friends. That goal has led me to my lost in interest on doing my homework and I ended up failing one subject in that semester.
+Secondly, juveniles who possess mobile phones have great tendencies to become materialistic. They would not only purchase a phone because of its functionality but also for its brand. Relatively, these do not come at a significant and inexpensive cost. Furthermore, most of these juveniles are students so they would need their parents to support them financially for what they want. An illustration of this unfortunate trend can be seen almost everywhere these days, wherein most teens at an early age own phones which are worth twice the salary of their parents. 
+This clearly shows that the negative impacts brought about by mobile phones are harmful to a person&#8217;s education and character. Therefore, I highly discourage the young ones to be overly dependent on mobile phones.</OriginalText>
+</Annotation>

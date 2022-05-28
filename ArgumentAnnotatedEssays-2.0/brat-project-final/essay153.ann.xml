@@ -1,0 +1,55 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>higher school students should be made aware of the money management</text>
+    <TextPosition start="478" end="545"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>when secondary school students attain the age of undergoing graduation, students ought to stay in hostels or with friends and away from family, during such situations when money management is taught at an early age students will have increased sense of responsibility and confidence</text>
+    <TextPosition start="648" end="930"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>while I was a kid my father used to maintain expense log for the month, I was asked to do the same for my keep track of my pocket money expenses, during my future course of life this became a practice and helped me in planning my expenses</text>
+    <TextPosition start="945" end="1183"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>teenage students need to understand the money management basics</text>
+    <TextPosition start="570" end="633"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>if financial management is taught at an early age, students will have better sense of understanding of their family financial background and status, students coming up with unrealistic whims and fancies are minimized</text>
+    <TextPosition start="1198" end="1414"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>buying a gaming console may not be a big deal for a student from an affluent financial background</text>
+    <TextPosition start="1429" end="1526"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>for a student coming from middle class buying a gaming console may not be the need of the hour</text>
+    <TextPosition start="1537" end="1631"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>having exposed to money management at a high school level will help them in prioritizing the financial commitments efficiently</text>
+    <TextPosition start="1640" end="1766"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Higher school students should be taught how to manage money
+
+There is no doubt that money has become key ingredient in various walks of our life than before. Teaching financial management to juvenile students is always a topic of debate. Some people feel that teaching money management skill to teenage students will help them realise the importance of money, while few feel that exposing children to money math at this age may turn fatal. In my view, I agree to that fact that higher school students should be made aware of the money management.
+The reason why I think teenage students need to understand the money management basics is, primarily when secondary school students attain the age of undergoing graduation, students ought to stay in hostels or with friends and away from family, during such situations when money management is taught at an early age students will have increased sense of responsibility and confidence. For example, while I was a kid my father used to maintain expense log for the month, I was asked to do the same for my keep track of my pocket money expenses, during my future course of life this became a practice and helped me in planning my expenses.
+In addition, if financial management is taught at an early age, students will have better sense of understanding of their family financial background and status, students coming up with unrealistic whims and fancies are minimized. For example, buying a gaming console may not be a big deal for a student from an affluent financial background. However, for a student coming from middle class buying a gaming console may not be the need of the hour. Hence, having exposed to money management at a high school level will help them in prioritizing the financial commitments efficiently.
+In conclusion, I think students understanding the money management techniques will have more positive effects than negative impact. However, the teaching should be in a constructive manner and students should not feel that they are being bullied for every expense.</OriginalText>
+</Annotation>

@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>learning about life through personal experience seems more appropriate</text>
+    <TextPosition start="2037" end="2107"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>the way of learning life through listening to the advice of family and friends is more realistic than the latter</text>
+    <TextPosition start="447" end="559"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Family members such as your parents are experienced in life so they can give you proper and sincere guidance on every aspect of life</text>
+    <TextPosition start="561" end="693"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>And friends, people who are the same generation with you, they are understand your favorite and ability enough to tell you which is suitable for you, which is not</text>
+    <TextPosition start="695" end="857"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>By listening to your family and friends advice, you can definitely avoid many unexpected things</text>
+    <TextPosition start="859" end="954"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>finding out life through personal experience can help you become more independent and mature</text>
+    <TextPosition start="975" end="1067"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>there are so many grate things that you can missed if you don't experience it by yourself</text>
+    <TextPosition start="1084" end="1173"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>a friend told you not to try skydiving because it was so dangerous</text>
+    <TextPosition start="1188" end="1254"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>If you did as he told, you could fail to see how wonderful it is to be fall freely</text>
+    <TextPosition start="1256" end="1338"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>family and friends accidentally harm you by giving you advice all the time</text>
+    <TextPosition start="1353" end="1427"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>You will grow to be dependent and reliant</text>
+    <TextPosition start="1429" end="1470"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>free yourself and do what you desire without notice about consequences is the way that success people would like to choose</text>
+    <TextPosition start="1485" end="1607"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>growth is a long process that experience is indispensable</text>
+    <TextPosition start="1689" end="1746"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>experiencing the real life by myself, I could learn more than just obey the advice</text>
+    <TextPosition start="1763" end="1845"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>The best way of learning life
+
+Life is full of challenges, difficulties and unexpected obstacles. Therefore, learning about life, which is useful for foreseeing problems and be assertive enough to overcome them are needed. Two main ways of learning about life are listening to the advice of family and friends and learning through personal experience. Both ways are good to follow because they all have their own distinct advantages.
+On one hand, the way of learning life through listening to the advice of family and friends is more realistic than the latter. Family members such as your parents are experienced in life so they can give you proper and sincere guidance on every aspect of life. And friends, people who are the same generation with you, they are understand your favorite and ability enough to tell you which is suitable for you, which is not. By listening to your family and friends advice, you can definitely avoid many unexpected things.
+On the other hand, finding out life through personal experience can help you become more independent and mature. For one thing, there are so many grate things that you can missed if you don't experience it by yourself. For example, a friend told you not to try skydiving because it was so dangerous. If you did as he told, you could fail to see how wonderful it is to be fall freely. In addition, family and friends accidentally harm you by giving you advice all the time. You will grow to be dependent and reliant. In contrast, free yourself and do what you desire without notice about consequences is the way that success people would like to choose.
+According to myself, both ways are good, but I prefer the latter. It is because growth is a long process that experience is indispensable. I believe that experiencing the real life by myself, I could learn more than just obey the advice. Parents and other predecessors used to experience their own life by themselves, why don't the younger try to do the same?
+In summary, each way learning life has its own benefits. But to me, learning about life through personal experience seems more appropriate.</OriginalText>
+</Annotation>

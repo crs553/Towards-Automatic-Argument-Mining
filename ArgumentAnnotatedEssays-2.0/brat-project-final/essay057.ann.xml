@@ -1,0 +1,117 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>creative artists must be given the freedom to express their ideas without any restrictions</text>
+    <TextPosition start="225" end="315"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Creativity originates in a free mind</text>
+    <TextPosition start="180" end="216"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Creative works help to create social awareness by giving a social message</text>
+    <TextPosition start="619" end="692"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message</text>
+    <TextPosition start="317" end="464"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras</text>
+    <TextPosition start="466" end="617"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>innovative works makes people realize things in a peaceful way and peep into their own conscience</text>
+    <TextPosition start="707" end="804"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>It helps to raise issues and criticize the wrong doings of the governments</text>
+    <TextPosition start="806" end="880"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue</text>
+    <TextPosition start="896" end="1014"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>This type of approach is a hurdle in promoting creative minds</text>
+    <TextPosition start="1016" end="1077"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>creativity also gives aesthetic charm</text>
+    <TextPosition start="1092" end="1129"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>Like the media, artists should also be given the freedom to express their ideas freely</text>
+    <TextPosition start="1364" end="1450"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Frank Zappa once said, "Mind is like a parachute, it doesn't work if its not open&#8220;</text>
+    <TextPosition start="1185" end="1267"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Restrictions would just curb the innovative ideas of the artists and would limit their brains</text>
+    <TextPosition start="1269" end="1362"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>Mind can not work when it is chained in boundaries</text>
+    <TextPosition start="1837" end="1887"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws</text>
+    <TextPosition start="1889" end="2001"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose</text>
+    <TextPosition start="1650" end="1762"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>artists should also know not to hurt the sentiments of the people</text>
+    <TextPosition start="1461" end="1526"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people</text>
+    <TextPosition start="1528" end="1648"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <OriginalText>Creativity - should it be given freedom or restrictions
+
+Creativity is the ability to think beyond the obvious. Many governments restrict the artistic works of the creative minds. Creativity originates in a free mind. Hence, creative artists must be given the freedom to express their ideas without any restrictions.
+Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message. Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras. Creative works help to create social awareness by giving a social message.
+Nonetheless, innovative works makes people realize things in a peaceful way and peep into their own conscience. It helps to raise issues and criticize the wrong doings of the governments. For instance, Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue. This type of approach is a hurdle in promoting creative minds. In addition, creativity also gives aesthetic charm.
+Unfortunately, many governments restrict the artists. Frank Zappa once said, "Mind is like a parachute, it doesn't work if its not open&#8220;. Restrictions would just curb the innovative ideas of the artists and would limit their brains. Like the media, artists should also be given the freedom to express their ideas freely.
+However, artists should also know not to hurt the sentiments of the people. Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people. Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose. I firmly believe that artists should be given the freedom of expression. Mind can not work when it is chained in boundaries. Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws.
+</OriginalText>
+</Annotation>

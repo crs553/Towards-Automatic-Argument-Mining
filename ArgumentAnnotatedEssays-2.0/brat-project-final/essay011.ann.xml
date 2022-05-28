@@ -1,0 +1,116 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the physical education part should not be outweighed</text>
+    <TextPosition start="147" end="199"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Physical exercises help to create healthy nation, assist to learning through direct observation and finally aid to financial development of a country</text>
+    <TextPosition start="201" end="350"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>if the entire nation, from their school ages begin going for sports and try doing that everyday, eventually it may help to build healthy nation</text>
+    <TextPosition start="795" end="938"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>healthy body is basis for healthy soul</text>
+    <TextPosition start="446" end="484"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>There is a direct linkage between people's health and the frequency of doing physical exercises</text>
+    <TextPosition start="486" end="581"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>The more we practice, the better we feel</text>
+    <TextPosition start="583" end="623"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>there is a fact that one can improve health conditions with everyday physical activity: gradually, step by step we change physical condition to better</text>
+    <TextPosition start="639" end="789"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>when we practice outdoors and indoors sports, many aspects are getting clearer</text>
+    <TextPosition start="949" end="1027"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>when a person goes jogging everyday, eventually he can understand his own body through direct observation</text>
+    <TextPosition start="1042" end="1147"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the school basketball team gains more knowledge on how to succeed in some particular kind of throwing the ball into hoot practicing rather than learning theoretically</text>
+    <TextPosition start="1156" end="1322"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>almost all natural science discoveries were made by direct observation, which is a part of physical education</text>
+    <TextPosition start="1337" end="1446"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>financial sustainability of a region mostly depends on how healthy the population is</text>
+    <TextPosition start="1470" end="1554"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>the money invested into physical education program can save allocations into healthcare</text>
+    <TextPosition start="1570" end="1657"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>the nation is comparatively healthy</text>
+    <TextPosition start="1665" end="1700"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>physically healthy people can contribute more both into economical and social development</text>
+    <TextPosition start="1719" end="1808"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>the better a person feels, the better his brain works</text>
+    <TextPosition start="1831" end="1884"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>putting physical activities in early steps of human development would finally lead to mentally healthy society</text>
+    <TextPosition start="1897" end="2007"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>it ends up with financially competitive country</text>
+    <TextPosition start="2018" end="2065"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>Physical exercise
+
+Although some people think that the major part of school schedule should be entirely devoted to academics, I truly believe that the physical education part should not be outweighed. Physical exercises help to create healthy nation, assist to learning through direct observation and finally aid to financial development of a country. 
+First of all, the ancient Latin proverb says: "Anima sana in corpore sano", which means that healthy body is basis for healthy soul. There is a direct linkage between people's health and the frequency of doing physical exercises. The more we practice, the better we feel. Additionally, there is a fact that one can improve health conditions with everyday physical activity: gradually, step by step we change physical condition to better. So, if the entire nation, from their school ages begin going for sports and try doing that everyday, eventually it may help to build healthy nation.
+Besides, when we practice outdoors and indoors sports, many aspects are getting clearer. For example, when a person goes jogging everyday, eventually he can understand his own body through direct observation. Alike, the school basketball team gains more knowledge on how to succeed in some particular kind of throwing the ball into hoot practicing rather than learning theoretically. Furthermore, almost all natural science discoveries were made by direct observation, which is a part of physical education. 
+Last, but not least, financial sustainability of a region mostly depends on how healthy the population is. For instance, the money invested into physical education program can save allocations into healthcare, since the nation is comparatively healthy. Along with that, physically healthy people can contribute more both into economical and social development. As a matter of fact, the better a person feels, the better his brain works. Therefore, putting physical activities in early steps of human development would finally lead to mentally healthy society. As hence it ends up with financially competitive country.
+In the conclusion, I would like to say that the more attention is withdrawn to a problem of physical education, the more influence we can get on academic success of students.</OriginalText>
+</Annotation>

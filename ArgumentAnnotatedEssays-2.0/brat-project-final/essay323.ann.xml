@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>no one else is better than our parents in terms of teachers</text>
+    <TextPosition start="243" end="302"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>when we grow bigger, they teach us many fairy tales and several important ethic lessons that affect us till the end of our lives</text>
+    <TextPosition start="602" end="730"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>As we were born, parents taught us from the very little things such as how to smile, how to walk to the ordinary routines such as eating</text>
+    <TextPosition start="454" end="590"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>parents are our teachers from the very early time in our life</text>
+    <TextPosition start="391" end="452"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>we will never forget what our parents have taught us</text>
+    <TextPosition start="1087" end="1139"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>we use it every day</text>
+    <TextPosition start="1148" end="1167"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>I believe I will never forget what my parents told me about how to be grateful to other people who help me</text>
+    <TextPosition start="1182" end="1288"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>at school we study bigger things about sciences and languages, but after school we learn from our parents</text>
+    <TextPosition start="742" end="847"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>we spend most of our time at home with our families than it at school</text>
+    <TextPosition start="864" end="933"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>when we leave school, maybe we will forget parts of the lessons we learn at school if we do not experience them in life</text>
+    <TextPosition start="943" end="1062"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>even when we grow older, get married and then have our own families with spouses and children, parents always keep watching us and help us to realize which is right and which is wrong in life</text>
+    <TextPosition start="1382" end="1573"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>parents love their sons or daughters unconditionally</text>
+    <TextPosition start="1317" end="1369"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>my older brother has got married and lived independently for two years but when he faces difficulties in his work or his life, he comes back to meet our parents and ask for advice</text>
+    <TextPosition start="1589" end="1768"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Parents are our teachers from the very early time in our life
+
+Learning is a thing that we do in all of our lives. Getting the best lessons, besides our abilities to self-study, depends on our teachers a lot. There are people who believe that no one else is better than our parents in terms of teachers. I whole-heartedly agree with this opinion because of these following reasons.
+Firstly, parents are our teachers from the very early time in our life. As we were born, parents taught us from the very little things such as how to smile, how to walk to the ordinary routines such as eating. Moreover, when we grow bigger, they teach us many fairy tales and several important ethic lessons that affect us till the end of our lives.
+Secondly, at school we study bigger things about sciences and languages, but after school we learn from our parents. In my opinion, we spend most of our time at home with our families than it at school. I think when we leave school, maybe we will forget parts of the lessons we learn at school if we do not experience them in life, but I strongly believe we will never forget what our parents have taught us because we use it every day. For example, I believe I will never forget what my parents told me about how to be grateful to other people who help me.
+Thirdly, I totally believe parents love their sons or daughters unconditionally. Therefore, even when we grow older, get married and then have our own families with spouses and children, parents always keep watching us and help us to realize which is right and which is wrong in life. For instance, my older brother has got married and lived independently for two years but when he faces difficulties in his work or his life, he comes back to meet our parents and ask for advice.
+To conclude, I strongly believe that parents are our best teachers.</OriginalText>
+</Annotation>

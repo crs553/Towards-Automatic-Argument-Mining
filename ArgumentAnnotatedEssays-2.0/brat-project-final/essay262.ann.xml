@@ -1,0 +1,103 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>every prospective between generations alters and especially the challenges for this generation are significantly different from the last generation</text>
+    <TextPosition start="307" end="454"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it is no doubt that until the next generation, there will be whole new challenges waiting for the next youngsters</text>
+    <TextPosition start="2163" end="2276"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>In the past, focusing on one skill was enough to deal with the problems</text>
+    <TextPosition start="691" end="762"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>every industry was rather small in size and simple to manage</text>
+    <TextPosition start="771" end="831"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>as those industries expand and become internationalized, people are required to equip with multiple skills to answer those challenges</text>
+    <TextPosition start="842" end="975"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>now there are more chances to do business with people around the world</text>
+    <TextPosition start="990" end="1060"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>besides one's own profession, language ability is essential as well</text>
+    <TextPosition start="1065" end="1132"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>financial crimes are rampant in the 21st century</text>
+    <TextPosition start="1155" end="1203"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>surging up demands for those who excel at both laws and financial management</text>
+    <TextPosition start="1210" end="1286"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>under globalization and industrial integration, the work-related challenges for this generation are getting more complicated and challenging</text>
+    <TextPosition start="463" end="603"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>The past generation was given less freedom and was usually asked to follow the paths their parents had prepared for them</text>
+    <TextPosition start="1415" end="1535"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>young people in this generation are exposed to more creative ideas and rather think individually</text>
+    <TextPosition start="1550" end="1646"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>this generation is encountering the self-recognition issue which could not be experienced by the previous generation</text>
+    <TextPosition start="1297" end="1413"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>They are eager for finding who they are and what they really want</text>
+    <TextPosition start="1648" end="1713"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>It is fortunate that they can struggle with these sweet worries and these worries are indeed never easy for them</text>
+    <TextPosition start="1715" end="1827"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>They have to make decisions between so many possibilities and they are responsible for taking the consequences</text>
+    <TextPosition start="1829" end="1939"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Challenges are different from generation to generation
+
+While debating about generation issues, people always have different opinions. Some people believe that little things changed through generation, while others claim that generation differences are presented in every way. In my opinion, I believe that every prospective between generations alters and especially the challenges for this generation are significantly different from the last generation.
+First, under globalization and industrial integration, the work-related challenges for this generation are getting more complicated and challenging. The successful people are those who can quickly respond to this rapid-changing world. In the past, focusing on one skill was enough to deal with the problems because every industry was rather small in size and simple to manage. However, as those industries expand and become internationalized, people are required to equip with multiple skills to answer those challenges. For example, now there are more chances to do business with people around the world, so besides one's own profession, language ability is essential as well. For another example, financial crimes are rampant in the 21st century, thus surging up demands for those who excel at both laws and financial management. 
+Second, this generation is encountering the self-recognition issue which could not be experienced by the previous generation. The past generation was given less freedom and was usually asked to follow the paths their parents had prepared for them. In contrast, young people in this generation are exposed to more creative ideas and rather think individually. They are eager for finding who they are and what they really want. It is fortunate that they can struggle with these sweet worries and these worries are indeed never easy for them. They have to make decisions between so many possibilities and they are responsible for taking the consequences. 
+In conclusion, challenges for this generation are more complicated and diverse than the past generation, whether in career or in self-identification. It is hard to judge which generation's problems are more difficult but it is no doubt that until the next generation, there will be whole new challenges waiting for the next youngsters.</OriginalText>
+</Annotation>

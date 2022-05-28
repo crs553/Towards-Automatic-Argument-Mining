@@ -1,0 +1,87 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>"murdering" criminals is therefore immoral and hard to accept</text>
+    <TextPosition start="323" end="384"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>capital punishment presents an extreme warning to the community</text>
+    <TextPosition start="1605" end="1668"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>every human being has the right to live and no authority is empowered to deprive one of life</text>
+    <TextPosition start="422" end="514"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>what criminals cause to the society, specifically to the victims, is indeed significantly offensive</text>
+    <TextPosition start="525" end="624"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they are humans and their lives need to be valued</text>
+    <TextPosition start="626" end="675"/>
+    <Relation relationID="T5Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>execution does not resolve the consequences of crime</text>
+    <TextPosition start="690" end="742"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>it could put the criminal's family through hardship while the pain of the victim's kin is never to be consoled</text>
+    <TextPosition start="759" end="869"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>capital punishment is certainly not the only option to control the amount of crimes, life imprisonment is just as effective by detaining the criminals in prison for the rest of their lives</text>
+    <TextPosition start="881" end="1069"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>in terms of punishment, living a miserable life with restriction to the world outside and sustaining the feeling of guilt every day in a dark bounded room are much more obsessing than being killed right away</text>
+    <TextPosition start="1081" end="1288"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>The third reason why the death penalty should be banned is the chance that innocent people are wrongly convicted</text>
+    <TextPosition start="1290" end="1402"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>many people are executed for the crime they did not commit, which leads to a question of fairness in judicial system</text>
+    <TextPosition start="1463" end="1579"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Juries are also humans, they may lack of discretion</text>
+    <TextPosition start="1404" end="1455"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>it can be replaced by a life sentence</text>
+    <TextPosition start="1740" end="1777"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Capital punishment is necessary or not?
+
+Capital punishment is a controversial debate in many countries. In a world where brutal crimes need to be deterred, it may be true that the death penalty is an efficient retribution to admonish the violence. However, as the society grows, human rights become more highly respected, "murdering" criminals is therefore immoral and hard to accept.
+First of all, it is recognized that every human being has the right to live and no authority is empowered to deprive one of life. Although what criminals cause to the society, specifically to the victims, is indeed significantly offensive, they are humans and their lives need to be valued. In addition, execution does not resolve the consequences of crime, not to mention it could put the criminal's family through hardship while the pain of the victim's kin is never to be consoled.
+Secondly, capital punishment is certainly not the only option to control the amount of crimes, life imprisonment is just as effective by detaining the criminals in prison for the rest of their lives. Moreover, in terms of punishment, living a miserable life with restriction to the world outside and sustaining the feeling of guilt every day in a dark bounded room are much more obsessing than being killed right away.
+The third reason why the death penalty should be banned is the chance that innocent people are wrongly convicted. Juries are also humans, they may lack of discretion. Thus, many people are executed for the crime they did not commit, which leads to a question of fairness in judicial system.
+In conclusion, although capital punishment presents an extreme warning to the community, I firmly object to it because it is absurd and inhumane. Furthermore, it can be replaced by a life sentence.
+</OriginalText>
+</Annotation>

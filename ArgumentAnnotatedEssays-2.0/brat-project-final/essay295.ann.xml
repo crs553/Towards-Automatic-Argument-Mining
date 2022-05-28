@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I prefer to learn with a teacher rather than learn by myself</text>
+    <TextPosition start="499" end="559"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>being without a teacher has shortcomings</text>
+    <TextPosition start="1701" end="1741"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>if someone faced so complicated confusion in his study and his many endeavors on making out it were miscarried, this might be ended in disappointment</text>
+    <TextPosition start="1783" end="1932"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>for one who depends on only himself in learning, his improvement of ability, with regard to cooperation and express his opinion, is unpromising</text>
+    <TextPosition start="1947" end="2090"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>when we encounter difficulty in our study which we can not make out, that asking the difficulty from our teacher is propitious way for us to solve it instantly</text>
+    <TextPosition start="699" end="858"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>professors and teachers have much experience and knowledge, and are so dextrous with letting students understand their study</text>
+    <TextPosition start="873" end="997"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>They know something which are not incorporated in such materials as books and webpages</text>
+    <TextPosition start="999" end="1085"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>I, in my class, often communicate with my teacher to find a coordinated answer to a my faced problem, and my classmates are so accustomed to communicating with the teacher</text>
+    <TextPosition start="1093" end="1264"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>learning with a teacher is that you can ask about problems related your studies</text>
+    <TextPosition start="602" end="681"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>We can accomplish our assignments with little help of a teacher within less time than do it by ourself</text>
+    <TextPosition start="1351" end="1453"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>the teachers play important role in leading us to right direction</text>
+    <TextPosition start="1468" end="1533"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>This gives us opportunity to rise our educational level to an exited degree</text>
+    <TextPosition start="1545" end="1620"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>knowledge may be thereby better improved and strengthened</text>
+    <TextPosition start="1622" end="1679"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>the learning with a teacher is more efficient than by myself</text>
+    <TextPosition start="1289" end="1349"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Learning with a teacher is more efficient than by myself.
+
+Every person learn in their own manner which they think that is most expedient to them. As for the learning by yourself, it has some certain profit. It gives you a chance to concentrate on what you learn cause there is no one who distracts your attention in presence of you, and your learning becomes more profound. In addition, the learning with a teacher makes us bear more burdens of studies cause they assign us homework, Nevertheless, I prefer to learn with a teacher rather than learn by myself. 
+Firstly, The distinguishing fact of the learning with a teacher is that you can ask about problems related your studies. In other words, when we encounter difficulty in our study which we can not make out, that asking the difficulty from our teacher is propitious way for us to solve it instantly. In addition, professors and teachers have much experience and knowledge, and are so dextrous with letting students understand their study. They know something which are not incorporated in such materials as books and webpages. Hence I, in my class, often communicate with my teacher to find a coordinated answer to a my faced problem, and my classmates are so accustomed to communicating with the teacher. 
+Secondly, in my mind, the learning with a teacher is more efficient than by myself. We can accomplish our assignments with little help of a teacher within less time than do it by ourself. Furthermore, the teachers play important role in leading us to right direction. Moreover, This gives us opportunity to rise our educational level to an exited degree. knowledge may be thereby better improved and strengthened.
+Finally, of course, being without a teacher has shortcomings. Notable one of the shortcomings is that if someone faced so complicated confusion in his study and his many endeavors on making out it were miscarried, this might be ended in disappointment. I think that for one who depends on only himself in learning, his improvement of ability, with regard to cooperation and express his opinion, is unpromising. Hence I support this point that the learning with a teacher is better.</OriginalText>
+</Annotation>

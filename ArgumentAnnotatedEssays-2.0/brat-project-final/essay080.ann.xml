@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>more good come from zoos than bad</text>
+    <TextPosition start="1818" end="1851"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>both of the arguments have strong supports</text>
+    <TextPosition start="1754" end="1796"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>keeping animals in captivity is wrong</text>
+    <TextPosition start="366" end="403"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>animals should be considered non-human persons and they should have the right of having freedom</text>
+    <TextPosition start="412" end="507"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>This is so unfair for them to be taken out of their natural environment and to be kept in small enclosures</text>
+    <TextPosition start="509" end="615"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>many zoos, especially the ones in developing countries, do not provide care and attention which their animals require</text>
+    <TextPosition start="634" end="751"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>The animals are often undernourished and do not have sufficient quality and quantity of medical treatment</text>
+    <TextPosition start="753" end="858"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>sometimes animals from hot countries have to survive in the cold winter of somewhere in Europe</text>
+    <TextPosition start="873" end="967"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>zoos provide the public with good entertainment and also help to ensure the balance of the ecology</text>
+    <TextPosition start="1016" end="1114"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Many people, especially young children enjoy going to zoos and see their favorite animals, cute baby-born animals and the animals that are from the different corners of the world</text>
+    <TextPosition start="1116" end="1294"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Zoos provide educational information about the lives of different animals to the public</text>
+    <TextPosition start="1296" end="1383"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>zoos play an important role in reserving many breeds of animal and preventing them from being missing from life</text>
+    <TextPosition start="1391" end="1502"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>in zoos, animals are kept in enclosures which simulate their own habitats and also endangered animals are being protected from their predators or hunters</text>
+    <TextPosition start="1534" end="1687"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>zoos are needed to keep the nature balanced</text>
+    <TextPosition start="1694" end="1737"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Keeping animals in zoos
+
+Since the time they were introduced zoos have both been supported and criticized. Many believe that zoos could be very entertaining and ecologically important, whereas, others think that keeping animals in captivity is totally wrong. Both sides will be discussed before a reasonable conclusion is drawn.
+First, critics of zoology argue that keeping animals in captivity is wrong because animals should be considered non-human persons and they should have the right of having freedom. This is so unfair for them to be taken out of their natural environment and to be kept in small enclosures. That is because, many zoos, especially the ones in developing countries, do not provide care and attention which their animals require. The animals are often undernourished and do not have sufficient quality and quantity of medical treatment. In addition, sometimes animals from hot countries have to survive in the cold winter of somewhere in Europe.
+On the other hand, the advocators believe that zoos provide the public with good entertainment and also help to ensure the balance of the ecology. Many people, especially young children enjoy going to zoos and see their favorite animals, cute baby-born animals and the animals that are from the different corners of the world. Zoos provide educational information about the lives of different animals to the public. Also, zoos play an important role in reserving many breeds of animal and preventing them from being missing from life. This is due to the fact that, in zoos, animals are kept in enclosures which simulate their own habitats and also endangered animals are being protected from their predators or hunters. Thus zoos are needed to keep the nature balanced.
+In conclusion, both of the arguments have strong supports, but in my own view, more good come from zoos than bad. However, it is hoped that the standards of zoos should be leveled up to ensure that the animals in zoos are provided with good care and attention.
+</OriginalText>
+</Annotation>

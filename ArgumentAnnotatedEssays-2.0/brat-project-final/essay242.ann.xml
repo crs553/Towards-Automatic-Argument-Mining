@@ -1,0 +1,146 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>living environment is more important than job for most of us</text>
+    <TextPosition start="290" end="350"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>job can bring us happiness</text>
+    <TextPosition start="364" end="390"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>People can receive a sense of values and respected from job</text>
+    <TextPosition start="392" end="451"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>If people receive respect from others, they will feel achievement and self-confidence</text>
+    <TextPosition start="453" end="538"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>job can provide money to us</text>
+    <TextPosition start="553" end="580"/>
+    <Relation relationID="RT5T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>people should concern more about their living environment than job</text>
+    <TextPosition start="592" end="658"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>for most of us, job is only a tool to maintain our lives</text>
+    <TextPosition start="667" end="723"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Few people can feel happiness from their job</text>
+    <TextPosition start="725" end="769"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>they have to continue to work more than 30 years</text>
+    <TextPosition start="778" end="826"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Workers in the FOXCONN factory, which is the main manufacture of APPLE Company, just repeat one action more than 8 hours every day</text>
+    <TextPosition start="841" end="971"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>These labor works cannot provide workers with a lot of happiness</text>
+    <TextPosition start="973" end="1037"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>they feel tired and frustrated after long hour work</text>
+    <TextPosition start="1046" end="1097"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>beautiful environment is one of basic physiological needs, which are the most fundamental requirements for people</text>
+    <TextPosition start="1108" end="1221"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Without beautiful environment, people are not able to feel happiness and will fell anxiety</text>
+    <TextPosition start="1223" end="1313"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Nowadays, the fast development of economy is gradually destroying our environment very quickly</text>
+    <TextPosition start="1315" end="1409"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Factories released a huge amount of wasters into river and soil</text>
+    <TextPosition start="1411" end="1474"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>In order to build city and factory, people destroy huge forests</text>
+    <TextPosition start="1476" end="1539"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>In China, some residents who live in nearby some toxic factories became sick</text>
+    <TextPosition start="1541" end="1617"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>these factories release a lot of toxic water and wasters into environment around people</text>
+    <TextPosition start="1626" end="1713"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>local residents benefits from an increasing number of jobs which are provided by those factories</text>
+    <TextPosition start="1727" end="1823"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>they cannot feel happiness from high-paying job</text>
+    <TextPosition start="1825" end="1872"/>
+    <Relation relationID="T20Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>most of them suffer from cancer or other diseases</text>
+    <TextPosition start="1885" end="1934"/>
+    <Relation relationID="T21Default Inference" type="Default Inference" typeBinary="0" partnerID="T21"/>
+  </Proposition>
+  <Proposition id="T24">
+    <ADU type="claim"/>
+    <text>the goal people is for good livers</text>
+    <TextPosition start="2041" end="2075"/>
+    <Relation relationID="RT24-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Your job has more effect on your happiness than your living environment does
+
+With the development of the economy, people become more and more rich. They start to pay attention to mental requirement like happiness. While I accept that job can offer happiness to some people, I believe that living environment is more important than job for most of us.
+Admittedly, job can bring us happiness. People can receive a sense of values and respected from job. If people receive respect from others, they will feel achievement and self-confidence. In addition, job can provide money to us. 
+However, people should concern more about their living environment than job. First, for most of us, job is only a tool to maintain our lives. Few people can feel happiness from their job because they have to continue to work more than 30 years. For example, Workers in the FOXCONN factory, which is the main manufacture of APPLE Company, just repeat one action more than 8 hours every day. These labor works cannot provide workers with a lot of happiness because they feel tired and frustrated after long hour work. 
+Second, beautiful environment is one of basic physiological needs, which are the most fundamental requirements for people. Without beautiful environment, people are not able to feel happiness and will fell anxiety. Nowadays, the fast development of economy is gradually destroying our environment very quickly. Factories released a huge amount of wasters into river and soil. In order to build city and factory, people destroy huge forests. In China, some residents who live in nearby some toxic factories became sick because these factories release a lot of toxic water and wasters into environment around people. Even though local residents benefits from an increasing number of jobs which are provided by those factories, they cannot feel happiness from high-paying job yet because most of them suffer from cancer or other diseases.
+In conclusion, it is far better to protect our living environment rather than focus on job or work since the goal people is for good livers.</OriginalText>
+</Annotation>

@@ -1,0 +1,75 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>This, contrary to some ideas, is a positive progress in human society</text>
+    <TextPosition start="242" end="311"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Women nowadays are much more active, they may be successful businessmen, they join the political world, they become scientists and so on</text>
+    <TextPosition start="544" end="680"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>the "weaker" gender as often be thought has enough right as well as ability to contribute to the development of human beings just like any other men, not to mention they even perform better in some fields</text>
+    <TextPosition start="698" end="902"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Gone are the days when women could do nothing rather than stick to boring house work and take care of children</text>
+    <TextPosition start="432" end="542"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the fairness between males and females is inevitable in such a developed society</text>
+    <TextPosition start="350" end="430"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>the revolution in females' right has brought about many benefits not only to themselves but society as well</text>
+    <TextPosition start="925" end="1032"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>The financial burden of families, for instance, has decreased significantly with both the wives and the husbands working to earn money</text>
+    <TextPosition start="1034" end="1168"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>women have the outstanding instinct to take up some careers like healthcare or human resource management due to their patience and elaboration</text>
+    <TextPosition start="1184" end="1326"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>such changes do lead to some negative results like an upward trend in divorce rate</text>
+    <TextPosition start="1340" end="1422"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>women find it difficult to balance their work and their traditional role as the wives</text>
+    <TextPosition start="1453" end="1538"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>children might enjoy less care from parents as they are both busy with their work</text>
+    <TextPosition start="1546" end="1627"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Nowadays there are more opportunities for women than there were in the past
+
+The modern times have witnessed profound changes in most aspects of life, including the revolution of feminism. Women have been opened up to more chances than ever. This, contrary to some ideas, is a positive progress in human society from my point of view.
+To start with, the fairness between males and females is inevitable in such a developed society. Gone are the days when women could do nothing rather than stick to boring house work and take care of children. Women nowadays are much more active, they may be successful businessmen, they join the political world, they become scientists and so on. This is to say, the "weaker" gender as often be thought has enough right as well as ability to contribute to the development of human beings just like any other men, not to mention they even perform better in some fields.
+In the second place, the revolution in females' right has brought about many benefits not only to themselves but society as well. The financial burden of families, for instance, has decreased significantly with both the wives and the husbands working to earn money. What is more, women have the outstanding instinct to take up some careers like healthcare or human resource management due to their patience and elaboration.
+Admittedly, such changes do lead to some negative results like an upward trend in divorce rate or, under many circumstances, women find it difficult to balance their work and their traditional role as the wives. Also, children might enjoy less care from parents as they are both busy with their work. Yet everything has it upside and downside, women should find the best way to overcome such challenges.
+All things considered, in a society where females are given equal opportunities compared with males would obviously enjoy lots of benefits far outweighing its obstacles.
+</OriginalText>
+</Annotation>

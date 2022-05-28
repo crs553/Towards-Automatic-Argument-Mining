@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>Consideration and communication, in my personal opinion, are the most important quality</text>
+    <TextPosition start="1633" end="1720"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Consideration is always important in relationship</text>
+    <TextPosition start="468" end="517"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>roommate turns down the music or television volume at night time</text>
+    <TextPosition start="532" end="596"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Sometimes we will not know what we have done until we have a taste of our own medicine</text>
+    <TextPosition start="598" end="684"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>At all times, think about the other's feeling before doing any self-centered action would help to improve the roommate relationship tremendously</text>
+    <TextPosition start="686" end="830"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>having a considered roommate is significantly imperative to our school life</text>
+    <TextPosition start="843" end="918"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>It will not only prevent conflicts but also to have a friend or even a family member</text>
+    <TextPosition start="920" end="1004"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>communication is as well making a good roommate</text>
+    <TextPosition start="1016" end="1063"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Through communication, bonded are build and we could have better understanding of each others</text>
+    <TextPosition start="1456" end="1549"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>communication is very important</text>
+    <TextPosition start="1380" end="1411"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>People have different habit in daily life, such as tidy the blanket in the morning</text>
+    <TextPosition start="1065" end="1147"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>One might think this is a piece of cake while other would consider it as immense project</text>
+    <TextPosition start="1149" end="1237"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>If one requested to move out just because his roommate do not tidy up the blanket in the morning might be crying over split milk</text>
+    <TextPosition start="1239" end="1367"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>it would clear up the misinterpretation</text>
+    <TextPosition start="1415" end="1454"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Roommates quality and their importance
+
+Much has been said about the importance about good roommates and how roommates will affect our life in school. Research showed that friends that we made in university are more likely to be life time friends and this especially applicable to roommate. In my personal opinion, the most important quality of roommates is being considered. In the meantime, communication is also another essential particularity of a good roommate. 
+Consideration is always important in relationship. For example, roommate turns down the music or television volume at night time. Sometimes we will not know what we have done until we have a taste of our own medicine. At all times, think about the other's feeling before doing any self-centered action would help to improve the roommate relationship tremendously. Therefore, having a considered roommate is significantly imperative to our school life. It will not only prevent conflicts but also to have a friend or even a family member.
+Moreover, communication is as well making a good roommate. People have different habit in daily life, such as tidy the blanket in the morning. One might think this is a piece of cake while other would consider it as immense project. If one requested to move out just because his roommate do not tidy up the blanket in the morning might be crying over split milk. Therefore, communication is very important as it would clear up the misinterpretation. Through communication, bonded are build and we could have better understanding of each others.
+In conclusion, there are many valuable factors about roommate that are important. Consideration and communication, in my personal opinion, are the most important quality. However, people might not get what they want all the time. The sky is the limit; there are all kinds of personality out there. We need to be flexible to be account into society.</OriginalText>
+</Annotation>

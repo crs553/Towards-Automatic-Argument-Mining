@@ -1,0 +1,75 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>parents are the best teacher</text>
+    <TextPosition start="105" end="133"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Children normally think that their parents are somehow special and that makes them the most important people in the children&#8217;s lives</text>
+    <TextPosition start="135" end="267"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>the things that parents say have great power to their child</text>
+    <TextPosition start="278" end="337"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>More power than any friend or other adult could have</text>
+    <TextPosition start="339" end="391"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>if someone tells a kid that something is wrong and they shouldn't do it, but his father told him/her that it was right, the kid will listen to the father instead of the other person, even if his father is wrong</text>
+    <TextPosition start="406" end="616"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>a child normally spends more time with their parents than with other people</text>
+    <TextPosition start="628" end="703"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>their parents have more time to teach him/her than anybody else</text>
+    <TextPosition start="708" end="771"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>They have more contact and more intimacy with their children</text>
+    <TextPosition start="773" end="833"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>even if the parents don&#8217;t intend to teach their children something, they are always observing and learning by themselves</text>
+    <TextPosition start="931" end="1051"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>if there is a man that beats his wife and treats her bad, his child probably is going to be rude and treat girls bad</text>
+    <TextPosition start="1057" end="1173"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>children usually mirror themselves on their parents</text>
+    <TextPosition start="844" end="895"/>
+    <Relation relationID="RT11T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Parents are the best teachers because they are more special than everybody else
+
+I completely agree that parents are the best teacher. Children normally think that their parents are somehow special and that makes them the most important people in the children&#8217;s lives.
+Firstly, the things that parents say have great power to their child. More power than any friend or other adult could have. For example, if someone tells a kid that something is wrong and they shouldn't do it, but his father told him/her that it was right, the kid will listen to the father instead of the other person, even if his father is wrong.
+Secondly, a child normally spends more time with their parents than with other people, so their parents have more time to teach him/her than anybody else. They have more contact and more intimacy with their children. 
+Lastly, children usually mirror themselves on their parents. That&#8217;s as important thing because even if the parents don&#8217;t intend to teach their children something, they are always observing and learning by themselves. So, if there is a man that beats his wife and treats her bad, his child probably is going to be rude and treat girls bad.
+All in all, I agree that parents are the greatest teachers and I think that they should be very careful with what they say and do in front of their child, because it can define who he is going to be.
+</OriginalText>
+</Annotation>

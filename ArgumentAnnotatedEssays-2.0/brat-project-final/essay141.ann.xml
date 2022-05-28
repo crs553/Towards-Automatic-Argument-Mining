@@ -1,0 +1,116 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I agree that face-to-face communication is better</text>
+    <TextPosition start="469" end="518"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>the advantages of this are qualitatively greater than that of the opposite</text>
+    <TextPosition start="2439" end="2513"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>communicating in person can be more convincing</text>
+    <TextPosition start="584" end="630"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Sometimes, face-to face communication can lead us to convince or complain someone successfully, and a fitting example can be found from my uncle</text>
+    <TextPosition start="632" end="776"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>He once complained a service of a restaurant</text>
+    <TextPosition start="778" end="822"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Without exaggeration, he directly went to the boss and told the boss that something wrong occurred on the meal--a fly concealed in it</text>
+    <TextPosition start="824" end="957"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Afterward, my uncle acquired a new service thanks to face-to face communication</text>
+    <TextPosition start="959" end="1038"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>If he just wrote something to complain on the website or by telephone, I do not think this problem would be thought important</text>
+    <TextPosition start="1040" end="1165"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>we can commence to agree that communicating with someone in person is the best way</text>
+    <TextPosition start="1178" end="1260"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>it is easy to be deceived without face-to face communication</text>
+    <TextPosition start="1346" end="1406"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>I had received some harmful words on facebook from my best friend, Eric</text>
+    <TextPosition start="1422" end="1493"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>He said that I was totally failed in building a good friendship and he did not want to be one of my friends anymore</text>
+    <TextPosition start="1495" end="1610"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>I just shocked and did not know what happened</text>
+    <TextPosition start="1612" end="1657"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>I realized that his facebook account was stolen</text>
+    <TextPosition start="1668" end="1715"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>we are capable of stating that it is important to talk to people face-to-face</text>
+    <TextPosition start="1740" end="1817"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>communication by letters, email, or telephone can enable them to talk without scruple, which is also one of the most important parts in communication</text>
+    <TextPosition start="1899" end="2048"/>
+    <Relation relationID="RT18T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>It is conceivable that before we talk, it is necessary for us to be imprudent about our words</text>
+    <TextPosition start="2135" end="2228"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>Talking without scruple is not the indispensable part in communication; in contrast, it is usually detrimental to us</text>
+    <TextPosition start="2230" end="2346"/>
+    <Relation relationID="T18Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>More convincing
+
+There is a hotly debated issue over whether face-to-face communication is better than other kinds of communication, and this topic can also be approached from several different angles due to its complexity. Some people tend to believe that communication in person is the best way of expression, while others seem to stand on the opposite position. After deeply pondering over this issue, I also develop my own perspective. I favor the former; that is, I agree that face-to-face communication is better. 
+The first and foremost reason lies in the inevitable fact that communicating in person can be more convincing. Sometimes, face-to face communication can lead us to convince or complain someone successfully, and a fitting example can be found from my uncle. He once complained a service of a restaurant. Without exaggeration, he directly went to the boss and told the boss that something wrong occurred on the meal--a fly concealed in it. Afterward, my uncle acquired a new service thanks to face-to face communication. If he just wrote something to complain on the website or by telephone, I do not think this problem would be thought important. Therefore, we can commence to agree that communicating with someone in person is the best way. 
+Apart from the one I have mentioned above, another equally crucible aspect is that it is easy to be deceived without face-to face communication. For instance, I had received some harmful words on facebook from my best friend, Eric. He said that I was totally failed in building a good friendship and he did not want to be one of my friends anymore. I just shocked and did not know what happened. Finally, I realized that his facebook account was stolen. Hence, from this case, we are capable of stating that it is important to talk to people face-to-face. 
+Admittedly, on the other hand, there might be some dissidents proclaiming that communication by letters, email, or telephone can enable them to talk without scruple, which is also one of the most important parts in communication. However, from my limited understanding, I just doubt the credibility of that saying. It is conceivable that before we talk, it is necessary for us to be imprudent about our words. Talking without scruple is not the indispensable part in communication; in contrast, it is usually detrimental to us. 
+Based on the reasons demonstrated above, I prefer to express my opinion in person because the advantages of this are qualitatively greater than that of the opposite. In other words, I think the best way of communication is by means of face-to-face. It is not to say, of course, that other points of view are completely without merit. Still, I am firmly convinced that the reasons I proposed in favor of my own sentiment are much more tenable and cogent.</OriginalText>
+</Annotation>

@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the guns which are used by police have not been a trigger of higher level of violence</text>
+    <TextPosition start="1570" end="1655"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>they have a weapon which will prevent an escaping criminal who poses a serious danger to the public</text>
+    <TextPosition start="737" end="836"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>some military weapons need encouraging for police officers to protect the public and minimize the rate of violence</text>
+    <TextPosition start="851" end="965"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>a police holds a responsibility to tackle of violence in the urban or suburban areas using a gun</text>
+    <TextPosition start="400" end="496"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>An obvious example of this happens in The United State, a man killed more than ten people in the cinema using a weapon, while a police shot in the foot to paralyze him</text>
+    <TextPosition start="498" end="665"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>police officers can force a criminal to surrender</text>
+    <TextPosition start="678" end="727"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the number of unemployment rate has risen to 15 percent in several globalized and non-globalized countries</text>
+    <TextPosition start="1085" end="1191"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Many well-qualified and well-educated person cannot earn some money to live comfortably</text>
+    <TextPosition start="1193" end="1280"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>cost of living in the big city is extremely expensive, so this problem impresses some people who live under the poverty line to do anything to pay their basic needs</text>
+    <TextPosition start="1292" end="1456"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Many baggers chose to be a pickpocket in the public transport, for instance</text>
+    <TextPosition start="1458" end="1533"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>there are some reason why the level of bloody increases significantly in the communities</text>
+    <TextPosition start="986" end="1074"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Do guns can really increase the level of violence?
+
+The number of criminality is increase rapidly throughout the world. Some inhabitants argue that this case appears because the guns are always used by a police to solve a criminal act. Personally, I tend to disagree with this statement, while I believe that other factors contribute a slight incline level of violence.
+On the one hand, I agree that a police holds a responsibility to tackle of violence in the urban or suburban areas using a gun. An obvious example of this happens in The United State, a man killed more than ten people in the cinema using a weapon, while a police shot in the foot to paralyze him. Obviously, police officers can force a criminal to surrender, because they have a weapon which will prevent an escaping criminal who poses a serious danger to the public. As a result, some military weapons need encouraging for police officers to protect the public and minimize the rate of violence.
+On the other hand, there are some reason why the level of bloody increases significantly in the communities. Firstly, the number of unemployment rate has risen to 15 percent in several globalized and non-globalized countries. Many well-qualified and well-educated person cannot earn some money to live comfortably. Secondly, cost of living in the big city is extremely expensive, so this problem impresses some people who live under the poverty line to do anything to pay their basic needs. Many baggers chose to be a pickpocket in the public transport, for instance.
+In conclusion, it seems to me that the guns which are used by police have not been a trigger of higher level of violence. However, some cases occupy a crucial reason to do a criminality in society such unemployment. In my view, the main focus is decreasing a level of unemployment to avoid a criminal act.</OriginalText>
+</Annotation>

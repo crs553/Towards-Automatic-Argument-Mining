@@ -1,0 +1,94 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>life in a city is much better than life in the countryside</text>
+    <TextPosition start="119" end="177"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>in the city there is much better education system</text>
+    <TextPosition start="188" end="237"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>the schools and the universities have well equipped classes and the famous professors would like to work in such places</text>
+    <TextPosition start="256" end="375"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>city provides more work opportunities than the countryside</text>
+    <TextPosition start="405" end="463"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>There are not only more jobs, but they are also well-paid</text>
+    <TextPosition start="465" end="522"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>living in a city is more expensive</text>
+    <TextPosition start="534" end="568"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>incomes are higher</text>
+    <TextPosition start="574" end="592"/>
+    <Relation relationID="T6Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>in the urban areas there are also more citizens what means, that the culture diversity is huge</text>
+    <TextPosition start="608" end="702"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Meeting and knowing new people's tradition is an unforgettable experience, which could influence on one's previous habits</text>
+    <TextPosition start="704" end="825"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the city has well-organised lines of transport</text>
+    <TextPosition start="840" end="886"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>The buses and trains are more frequent than in the countryside</text>
+    <TextPosition start="888" end="950"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>the city provides better communication</text>
+    <TextPosition start="955" end="993"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>in the countryside there are many places to rest, because of its location</text>
+    <TextPosition start="1004" end="1077"/>
+    <Relation relationID="RT13T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>peaceful and close to the nature areas could help to avoid worries and sadness</text>
+    <TextPosition start="1089" end="1167"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Life in  a city is much better than life in the countryside
+
+As far as I am concerned, I agree with the statement that life in a city is much better than life in the countryside.
+Firstly, in the city there is much better education system. This means, that the schools and the universities have well equipped classes and the famous professors would like to work in such places.
+In addition, I believe that city provides more work opportunities than the countryside. There are not only more jobs, but they are also well-paid. Of course living in a city is more expensive, but incomes are higher too.
+Moreover, in the urban areas there are also more citizens what means, that the culture diversity is huge. Meeting and knowing new people's tradition is an unforgettable experience, which could influence on one's previous habits.
+Furthermore, the city has well-organised lines of transport. The buses and trains are more frequent than in the countryside, so the city provides better communication.
+However, in the countryside there are many places to rest, because of its location. Moreover, peaceful and close to the nature areas could help to avoid worries and sadness.
+Taking all into account, I think that living in the city is much better nowadays, because of the opportunities it gives. Today living in the rural places is in most causes connected with agrarian lifestyle, which for me is without perspective. If I could decide I would chose living in the city for sure.</OriginalText>
+</Annotation>

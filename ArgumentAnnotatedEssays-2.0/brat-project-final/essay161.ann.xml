@@ -1,0 +1,158 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I myself prefer to spend my leisure time outdoors</text>
+    <TextPosition start="202" end="251"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it is good for health and keep my body fit</text>
+    <TextPosition start="281" end="323"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>outdoor activities enable me to socialize with other people and enjoy natural beauty</text>
+    <TextPosition start="331" end="415"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>doing outdoor activities such as soccer and baseball is good for one's health</text>
+    <TextPosition start="497" end="574"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>last year, I spent my summer time playing soccer and baseball</text>
+    <TextPosition start="590" end="651"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Playing baseball provided my upper body for hitting and throwing</text>
+    <TextPosition start="653" end="717"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games</text>
+    <TextPosition start="719" end="828"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>practicing these sports helped me greatly</text>
+    <TextPosition start="844" end="885"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>playing these sports is to keep my body fit, make me ultimately refreshed</text>
+    <TextPosition start="923" end="996"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>After that summer, my body is stronger and endurance is better</text>
+    <TextPosition start="998" end="1060"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>Outdoor activities not only improves my health but also gives me chances to communicate with more people</text>
+    <TextPosition start="1063" end="1167"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>When I was ten years old, I was a shy girl</text>
+    <TextPosition start="1169" end="1211"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>My mother took me to The National Camp</text>
+    <TextPosition start="1213" end="1251"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>At first, I just ate and played alone</text>
+    <TextPosition start="1253" end="1290"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively</text>
+    <TextPosition start="1292" end="1437"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>On the next day, we played together and she introduced me to her friends</text>
+    <TextPosition start="1439" end="1511"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp</text>
+    <TextPosition start="1513" end="1641"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today</text>
+    <TextPosition start="1643" end="1741"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="claim"/>
+    <text>you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking</text>
+    <TextPosition start="1754" end="1872"/>
+    <Relation relationID="RT19-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>If you spend your spare time at home or something like that, you can't enjoy beautiful nature</text>
+    <TextPosition start="1874" end="1967"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="claim"/>
+    <text>Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings</text>
+    <TextPosition start="1969" end="2107"/>
+    <Relation relationID="RT21-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="claim"/>
+    <text>indoor activities are fun</text>
+    <TextPosition start="2121" end="2146"/>
+    <Relation relationID="RT22T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy</text>
+    <TextPosition start="2148" end="2267"/>
+    <Relation relationID="T22Default Inference" type="Default Inference" typeBinary="0" partnerID="T22"/>
+  </Proposition>
+  <Proposition id="T24">
+    <ADU type="premise"/>
+    <text>this advantage cannot outweigh the attractions coming from outdoor activities</text>
+    <TextPosition start="2320" end="2397"/>
+    <Relation relationID="T25Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T25"/>
+  </Proposition>
+  <Proposition id="T25">
+    <ADU type="claim"/>
+    <text>I can also have fun in indoor activities</text>
+    <TextPosition start="2278" end="2318"/>
+    <Relation relationID="RT25T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Leisure activities - Spend your free time outdoors or indoors.
+
+People often relax themselves by joining leisure activities. Some people prefer to spend their free time indoors. But from my experience, I myself prefer to spend my leisure time outdoors because I strongly feel that it is good for health and keep my body fit. Also, outdoor activities enable me to socialize with other people and enjoy natural beauty.
+There are strong advantages to spend leisure time outdoors. One benefit is that doing outdoor activities such as soccer and baseball is good for one's health. For instance, last year, I spent my summer time playing soccer and baseball. Playing baseball provided my upper body for hitting and throwing. Soccer, on the other hand, developed my lower body for kicking and endurance for playing full 90-minute-games. I belive that practicing these sports helped me greatly. Something else that is good is that playing these sports is to keep my body fit, make me ultimately refreshed. After that summer, my body is stronger and endurance is better. 
+Outdoor activities not only improves my health but also gives me chances to communicate with more people. When I was ten years old, I was a shy girl. My mother took me to The National Camp. At first, I just ate and played alone. But on the third day, while I was swimming, a friendly girl came and greeted me, we became friend later and she taught me how to swim effectively. On the next day, we played together and she introduced me to her friends. Thanks to her and outdoor activities such as going skiing, climbing the mountain, I had a lot of friends since The National Camp. If, for example, I hadn't participate in that camping, I wouldn't have had many friends like today. 
+Moreover, you can also enjoy the beautiful nature when doing some outdoor activities like going hiking, sunbathing, going biking. If you spend your spare time at home or something like that, you can't enjoy beautiful nature. Spending time outdoors, people can breathe fresh air, feel the warm sun on their face and enjoy the complete peace that only nature brings.
+Admittedly, indoor activities are fun. There's no doubt that indoor activities like reading a book, watching TV or listening to music can bring us lots of joy. Although I can also have fun in indoor activities, this advantage cannot outweigh the attractions coming from outdoor activities. After all, people are people and we have our own propensity. Leisure activities are one of them and I myself choose outdoor activities to spend my leisure time.</OriginalText>
+</Annotation>

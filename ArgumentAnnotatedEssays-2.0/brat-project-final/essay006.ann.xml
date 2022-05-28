@@ -1,0 +1,116 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>studying abroad has many advantages</text>
+    <TextPosition start="174" end="209"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Students gain a lot out of the experience personally, academically, and culturally</text>
+    <TextPosition start="211" end="293"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>students who study outside their countries can get a lot of experience living in a foreign country</text>
+    <TextPosition start="309" end="407"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>the new academic experience that the students can obtain at the institution where they are pursuing their studies</text>
+    <TextPosition start="779" end="892"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>Most important is the cultural aspect of the experience</text>
+    <TextPosition start="1092" end="1147"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Living in a new country requires a great amount of flexibility and adaptability in one's character</text>
+    <TextPosition start="409" end="507"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>students might face many challenges in the host country</text>
+    <TextPosition start="522" end="577"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>they should be able to deal with the obstacles that they may encounter</text>
+    <TextPosition start="590" end="660"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Overcoming problems teaches the students how to be more mature and self-independence</text>
+    <TextPosition start="662" end="746"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>they will get exposed to a different educational system</text>
+    <TextPosition start="907" end="962"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>They will meet new professors and new classmates which makes the academic experience different from that in their home country</text>
+    <TextPosition start="964" end="1090"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>While living in a foreign country, students can learn a lot about the culture of that country</text>
+    <TextPosition start="1149" end="1242"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>they can meet different people of the country</text>
+    <TextPosition start="1257" end="1302"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>They can learn about their way of thinking, their customs and traditions, and way of life</text>
+    <TextPosition start="1304" end="1393"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Learning about others' cultures is so important</text>
+    <TextPosition start="1395" end="1442"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>It contributes in building a new understanding in us of how we see the world</text>
+    <TextPosition start="1444" end="1520"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>It makes us more open, and willing to accept different ideas and thoughts</text>
+    <TextPosition start="1522" end="1595"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>it educates us about the world we are living in</text>
+    <TextPosition start="1602" end="1649"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <OriginalText>Studies abroad and the cultural aspect of the experience
+
+Studying abroad is one very common thing that students do, and they have different reasons for that. I believe that studying abroad has many advantages. Students gain a lot out of the experience personally, academically, and culturally.
+First of all, students who study outside their countries can get a lot of experience living in a foreign country. Living in a new country requires a great amount of flexibility and adaptability in one's character. For example, students might face many challenges in the host country. Therefore, they should be able to deal with the obstacles that they may encounter. Overcoming problems teaches the students how to be more mature and self-independence. 
+One other important factor is the new academic experience that the students can obtain at the institution where they are pursuing their studies. For example, they will get exposed to a different educational system. They will meet new professors and new classmates which makes the academic experience different from that in their home country.
+Most important is the cultural aspect of the experience. While living in a foreign country, students can learn a lot about the culture of that country. Furthermore, they can meet different people of the country. They can learn about their way of thinking, their customs and traditions, and way of life. Learning about others' cultures is so important. It contributes in building a new understanding in us of how we see the world. It makes us more open, and willing to accept different ideas and thoughts. Also it educates us about the world we are living in. 
+In conclusion, studying abroad does not only have advantages, but also can change us in a very positive way. It can influence us in different aspects of life.</OriginalText>
+</Annotation>

@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>These changes make cooking so easy-to-use and time-saving as to improve the way we live to a great extent</text>
+    <TextPosition start="356" end="461"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>the time-saving, simple food preparation process gives us more time to do other activities, more chance to select diverse kinds of foods and more willingness to cook meals</text>
+    <TextPosition start="1338" end="1509"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>people have more chance to do other activities they like since food preparation is no longer time-consuming</text>
+    <TextPosition start="477" end="584"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>such a change has liberated many housewives from tedious cooking process and gave them additional time to do something more meaningful like accompanying family or doing a job</text>
+    <TextPosition start="600" end="774"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>more people can sleep a bit later to go to work</text>
+    <TextPosition start="795" end="842"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>they only need a couple of time to prepare for the breakfasts</text>
+    <TextPosition start="851" end="912"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>since food preparation has become easier and more convenient, it is certainly great to preserve diverse kinds of foods at home</text>
+    <TextPosition start="935" end="1061"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>People can have a variety of dishes even in a small meal and choose whatever they like</text>
+    <TextPosition start="1063" end="1149"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>More men, on the other hand, are willing to participate in cooking that they had never done before</text>
+    <TextPosition start="1151" end="1249"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>This transformation may bring positive impacts to family in some cases</text>
+    <TextPosition start="1251" end="1321"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Modern cooking methods have improved our life-style significantly
+
+With technology advances, food has become easier to prepare in modern days. People now can use kitchen appliances such as microwave and toaster to cook their meals easier and more convenient than before. Also, instant food products take only a few minutes to be made into delicious meals. These changes make cooking so easy-to-use and time-saving as to improve the way we live to a great extent.
+First of all, people have more chance to do other activities they like since food preparation is no longer time-consuming. For instance, such a change has liberated many housewives from tedious cooking process and gave them additional time to do something more meaningful like accompanying family or doing a job. On the other hand, more people can sleep a bit later to go to work because they only need a couple of time to prepare for the breakfasts.
+At the second point, since food preparation has become easier and more convenient, it is certainly great to preserve diverse kinds of foods at home. People can have a variety of dishes even in a small meal and choose whatever they like. More men, on the other hand, are willing to participate in cooking that they had never done before. This transformation may bring positive impacts to family in some cases.
+In conclusion, the time-saving, simple food preparation process gives us more time to do other activities, more chance to select diverse kinds of foods and more willingness to cook meals. Of course, there may be some other perspectives that I neglected to fully consider. Nevertheless, for the reasons that I have presented above, I would assert that this change has improved our life significantly.</OriginalText>
+</Annotation>

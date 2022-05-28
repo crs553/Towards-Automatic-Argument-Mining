@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>international aid should be prioritised</text>
+    <TextPosition start="431" end="470"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>International aid is critical</text>
+    <TextPosition start="472" end="501"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Many people, for example in some African countries, are living below the basic standards</text>
+    <TextPosition start="580" end="668"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>They lack food, water or clothes which keep them warm, not to mention the education needs</text>
+    <TextPosition start="670" end="759"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>What is worse, people who live in countries that are confronted with wars or natural disasters are facing even more severe issues such as security, homelessness or the pain of losing best friends or family members</text>
+    <TextPosition start="761" end="974"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>those people are in desperate need of international support</text>
+    <TextPosition start="993" end="1052"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>there is a high demand that the money should be spent in the place where it is collected</text>
+    <TextPosition start="1255" end="1343"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>charity organisations are mainly funded by the home country</text>
+    <TextPosition start="1190" end="1249"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>even within the most developed countries, there are still poor people who lack their basic needs</text>
+    <TextPosition start="1369" end="1465"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>By solving the problems in the home country, it is beneficial for social stability and steady economic growth</text>
+    <TextPosition start="1467" end="1576"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>it is reasonable to lend a hand to our fellow citizens</text>
+    <TextPosition start="1123" end="1177"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>people from other countries may be facing much more serious problems</text>
+    <TextPosition start="510" end="578"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <OriginalText>International aid
+
+The world has become more prosperous than ever yet a great number of people are still living in poverty or suffering by wars or disasters. Charity organisations have been playing an important role to provide support to those people. However, it is controversial whether the help should go to the people who need it most or the citizens of the country where the charity organisations are located. My view is that international aid should be prioritised.
+International aid is critical because people from other countries may be facing much more serious problems. Many people, for example in some African countries, are living below the basic standards. They lack food, water or clothes which keep them warm, not to mention the education needs. What is worse, people who live in countries that are confronted with wars or natural disasters are facing even more severe issues such as security, homelessness or the pain of losing best friends or family members. It is clear that those people are in desperate need of international support.
+Despite the importance of helping those beyond our national borders, it is reasonable to lend a hand to our fellow citizens. After all, charity organisations are mainly funded by the home country thus there is a high demand that the money should be spent in the place where it is collected. Another reason is that, even within the most developed countries, there are still poor people who lack their basic needs. By solving the problems in the home country, it is beneficial for social stability and steady economic growth.
+In conclusion, people from unfortunate countries need more international assistance while helping citizens in the home country is also necessary.</OriginalText>
+</Annotation>

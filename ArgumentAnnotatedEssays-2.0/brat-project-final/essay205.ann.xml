@@ -1,0 +1,99 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>students should be free not to attend classes</text>
+    <TextPosition start="463" end="508"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it improves the quality of student life as well as their learning motivation and teaches important life skills</text>
+    <TextPosition start="517" end="627"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>I hold this belief due to the improvement of students' current experience as well as the valuable skills and knowledge they obtain for their whole life afterwards</text>
+    <TextPosition start="2478" end="2640"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>some students might learn better at home on their own, for instance, by reading the textbook</text>
+    <TextPosition start="867" end="959"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>This problem occurs especially if the lecturer is lethargic</text>
+    <TextPosition start="961" end="1020"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>By letting students choose not to attend class you give them the opportunity to escape bad teaching</text>
+    <TextPosition start="1022" end="1121"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>they are able to save precious study time and dive into the course syllabus independently</text>
+    <TextPosition start="1128" end="1217"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>being free to stay away from classes improves flexibility and therefore quality of student life</text>
+    <TextPosition start="1232" end="1327"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Sometimes the wild party on Thursday night is too good to end already at midnight only because of a lecture on Friday in the morning</text>
+    <TextPosition start="1329" end="1461"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>With a liberal policy students are able to postpone the learning to the afternoon which gives a feeling of freedom and improves time efficiency</text>
+    <TextPosition start="1463" end="1606"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Research has shown that the more satisfied the students are with those life aspects, the better they perform in academic areas</text>
+    <TextPosition start="1608" end="1734"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Intrinsic motivation is known to be much more desirable because it leads to better learning and well-being</text>
+    <TextPosition start="1940" end="2046"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>By giving students the freedom to choose about class attendance they might rather be thinking about why they decided to study and learn to motivate themselves</text>
+    <TextPosition start="2154" end="2312"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>These are crucial skills for the duration of their study and their whole life time</text>
+    <TextPosition start="2314" end="2396"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>in order to gain intrinsic motivation students need to become aware of their strengths and aims</text>
+    <TextPosition start="2057" end="2152"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Should students be required to attend classes?
+
+The issue at hand is whether it should be obligatory for university students to attend classes. This is an interesting question because it affects a great amount of students worldwide. Nonetheless there are various different policies regarding this topic. An important aspect might be whether one desires to optimize the learned knowledge or the amount of valuable experiences for the students. However, to my mind students should be free not to attend classes because it improves the quality of student life as well as their learning motivation and teaches important life skills.
+Firstly, a liberal policy is very feasible. Checking for attendance requires a lot of bureaucracy. Especially for larger classes it is impossible to check for everybody to attend. So an optional attendance saves time and money.
+Secondly, some students might learn better at home on their own, for instance, by reading the textbook. This problem occurs especially if the lecturer is lethargic. By letting students choose not to attend class you give them the opportunity to escape bad teaching. Thus they are able to save precious study time and dive into the course syllabus independently.
+In addition, being free to stay away from classes improves flexibility and therefore quality of student life. Sometimes the wild party on Thursday night is too good to end already at midnight only because of a lecture on Friday in the morning. With a liberal policy students are able to postpone the learning to the afternoon which gives a feeling of freedom and improves time efficiency. Research has shown that the more satisfied the students are with those life aspects, the better they perform in academic areas.
+Finally, psychology knows two types of motivation. There is intrinsic motivation which comes from your own mindset. And there is extrinsic motivation which comes from the praise and laud of other people. Intrinsic motivation is known to be much more desirable because it leads to better learning and well-being. However, in order to gain intrinsic motivation students need to become aware of their strengths and aims. By giving students the freedom to choose about class attendance they might rather be thinking about why they decided to study and learn to motivate themselves. These are crucial skills for the duration of their study and their whole life time.
+To conclude, it is clear that going to classes should be optional for students. I hold this belief due to the improvement of students' current experience as well as the valuable skills and knowledge they obtain for their whole life afterwards.</OriginalText>
+</Annotation>

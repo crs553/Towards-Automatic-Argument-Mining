@@ -1,0 +1,140 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>paying for teacher base on grade that students got is not appropriate, and it is not fair for teacher</text>
+    <TextPosition start="271" end="372"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>teacher could not pay attention to each students in class</text>
+    <TextPosition start="1838" end="1895"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>learning abilities of student are different</text>
+    <TextPosition start="1906" end="1949"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>there are problems if paying teacher by grade students get</text>
+    <TextPosition start="1961" end="2019"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>there are certain period of time for teachers to teach</text>
+    <TextPosition start="529" end="583"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>In these short time, it is not possible for teachers to pay attention to individual students in class</text>
+    <TextPosition start="585" end="686"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>Teachers have to manage to teach every topics by schedule</text>
+    <TextPosition start="688" end="745"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>If teachers pay attention to specific students, their work might not finish on time, and this might make many student miss some field in topics that they should know</text>
+    <TextPosition start="747" end="912"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>main task of teacher to give knowledge to students, and this role have to finish in time</text>
+    <TextPosition start="439" end="527"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>teachers should not be paid by testing result that students get</text>
+    <TextPosition start="1258" end="1321"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>learning abilities in each students is different</text>
+    <TextPosition start="922" end="970"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>It is not possible that they all comprehend all lessons in the same period of time</text>
+    <TextPosition start="972" end="1054"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Some students might understand all topics that they had learnt but some are not</text>
+    <TextPosition start="1056" end="1135"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>testing result are different</text>
+    <TextPosition start="1148" end="1176"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>This problems depend on how hard study they do</text>
+    <TextPosition start="1178" end="1224"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>It is not teachers fault</text>
+    <TextPosition start="1226" end="1250"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>grade that students get should not be in evaluating teacher</text>
+    <TextPosition start="1653" end="1712"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>there could lead to a big problem if schools pay teachers by grade that students get</text>
+    <TextPosition start="1331" end="1415"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>That is problem in quality of education</text>
+    <TextPosition start="1417" end="1456"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>Teacher may not care about how they have to teach to make students understand the topics</text>
+    <TextPosition start="1458" end="1546"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>Teachers may just give high grades to get higher salary</text>
+    <TextPosition start="1548" end="1603"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>This problem should not be happened</text>
+    <TextPosition start="1605" end="1640"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>Should teachers be paid according to how much their students learn?
+
+Everyone is different. Although students are in the same process of education system, learning abilities in each students are not equal. Some students are fast learner, but some students are not. Thus, paying for teacher base on grade that students got is not appropriate, and it is not fair for teacher. So that, I disagree with this notion.
+To begin with, in schools, main task of teacher to give knowledge to students, and this role have to finish in time. there are certain period of time for teachers to teach. In these short time, it is not possible for teachers to pay attention to individual students in class. Teachers have to manage to teach every topics by schedule. If teachers pay attention to specific students, their work might not finish on time, and this might make many student miss some field in topics that they should know.
+Second, learning abilities in each students is different. It is not possible that they all comprehend all lessons in the same period of time. Some students might understand all topics that they had learnt but some are not. Therefore, testing result are different. This problems depend on how hard study they do. It is not teachers fault. Thus, teachers should not be paid by testing result that students get.
+Lastly, there could lead to a big problem if schools pay teachers by grade that students get. That is problem in quality of education. Teacher may not care about how they have to teach to make students understand the topics. Teachers may just give high grades to get higher salary. This problem should not be happened. Therefore, grade that students get should not be in evaluating teacher.
+In conclusion, I totally disagree with this statement that teachers should be paid by how much their students learn because teacher could not pay attention to each students in class. Besides, learning abilities of student are different. Moreover, there are problems if paying teacher by grade students get.</OriginalText>
+</Annotation>

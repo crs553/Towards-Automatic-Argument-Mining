@@ -1,0 +1,117 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the artists must be given freedom so that they will produce some really marvelous masterpiece</text>
+    <TextPosition start="301" end="394"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>there are many wonderful and beautiful Arts due to the freedom to express ideas</text>
+    <TextPosition start="2515" end="2594"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Allowing them to think freely will give them an opportunity to express themselves</text>
+    <TextPosition start="2272" end="2353"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>ideas can naturally flow when there are no limitations</text>
+    <TextPosition start="2357" end="2411"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>even though freedom to express ideas can bring some negative effects</text>
+    <TextPosition start="2420" end="2488"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>without any limitations, there will be more awe inspiring work from our artists</text>
+    <TextPosition start="844" end="923"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>if there is control over artists' ideas, they will definitely lose their sense of creativity in the long run</text>
+    <TextPosition start="416" end="524"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>when they are given the opportunity to express themselves, most artists will think out of the box and come up with spectacular Arts such as paintings or movies</text>
+    <TextPosition start="548" end="707"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>paintings by Da Vinci and Michallengo are admired even till now as they were not restricted during those times</text>
+    <TextPosition start="722" end="832"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>it is every human's right to be able to voice out their opinions in any ways as long as they do not cause any problems to the nation</text>
+    <TextPosition start="938" end="1070"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>human rights is violated if artists are not allowed to express their feelings freely</text>
+    <TextPosition start="1486" end="1570"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Today, many countries make numerous efforts to show that they are democratic countries</text>
+    <TextPosition start="1072" end="1158"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Arts is one of the ways that can be used to criticise social problems and government policies in a particular country</text>
+    <TextPosition start="1160" end="1277"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>the famous movie '3 Idiots' acted by Amir Khan criticises the education system which is chiefly based on memorising and not being able to apply whatever the students learn</text>
+    <TextPosition start="1307" end="1478"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>In case there is anyone who brings up some sensitive issues in their films or books regarding any races, this might end up in some chaos among the society</text>
+    <TextPosition start="1865" end="2019"/>
+    <Relation relationID="RT17T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>artists know their boundaries very well and would surely do not want their names tarnished just because of their unscrupulous acts</text>
+    <TextPosition start="2049" end="2179"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>They might go deeper into certain aspects that can cause controversies in a country</text>
+    <TextPosition start="1665" end="1748"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>Malaysia is a multiracial country whereby all the citizens live together in harmony and peace</text>
+    <TextPosition start="1770" end="1863"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <OriginalText>Artists' freedom to express ideas
+
+Artists in most countries are given the freedom to express their thoughts in whatever they do. Nevertheless, some argue that there should be government restrictions in order to limit their opinions. I however, agree to this only to a certain extent and believe that the artists must be given freedom so that they will produce some really marvelous masterpiece.
+First and foremost, if there is control over artists' ideas, they will definitely lose their sense of creativity in the long run. It is undeniable that when they are given the opportunity to express themselves, most artists will think out of the box and come up with spectacular Arts such as paintings or movies. For example, paintings by Da Vinci and Michallengo are admired even till now as they were not restricted during those times. In short, without any limitations, there will be more awe inspiring work from our artists.
+Furthermore, it is every human's right to be able to voice out their opinions in any ways as long as they do not cause any problems to the nation. Today, many countries make numerous efforts to show that they are democratic countries. Arts is one of the ways that can be used to criticise social problems and government policies in a particular country. To illustrate this further, the famous movie '3 Idiots' acted by Amir Khan criticises the education system which is chiefly based on memorising and not being able to apply whatever the students learn. Thus, human rights is violated if artists are not allowed to express their feelings freely.
+Looking from another perspective, there are certain drawbacks if artists are not restricted. They might go deeper into certain aspects that can cause controversies in a country. To cite an example, Malaysia is a multiracial country whereby all the citizens live together in harmony and peace. In case there is anyone who brings up some sensitive issues in their films or books regarding any races, this might end up in some chaos among the society. Nonetheless, I believe that artists know their boundaries very well and would surely do not want their names tarnished just because of their unscrupulous acts.
+To conclude, it is now evident that there should not be any restrictions on artists' work. Allowing them to think freely will give them an opportunity to express themselves as ideas can naturally flow when there are no limitations. Hence, even though freedom to express ideas can bring some negative effects, I certainly believe that there are many wonderful and beautiful Arts due to the freedom to express ideas and thus, I strongly believe there should be no restrictions on them.
+</OriginalText>
+</Annotation>

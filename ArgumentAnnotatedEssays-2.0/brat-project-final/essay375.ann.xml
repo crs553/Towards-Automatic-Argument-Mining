@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>no matter how widely they are spoken, every language should be protected from being disappeared</text>
+    <TextPosition start="417" end="512"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>letting languages spoken by ethnic minorities be extinct seems to be very beneficial</text>
+    <TextPosition start="1977" end="2061"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>we need to consider that if the government expands the use scope of that languages, it can be really expensive</text>
+    <TextPosition start="614" end="724"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>educational programmes will need to be given so as to keep young people learning and using them</text>
+    <TextPosition start="733" end="828"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>some certain areas in the Southern Vietnam have been trying to help their secondary school students who are originally from khmer people speak their language beside Vietnamese</text>
+    <TextPosition start="843" end="1018"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the local government has recently struggled with their costly investments on language teachers, facilities and appropriate materials</text>
+    <TextPosition start="1023" end="1155"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>in many aspects such as communication, trade, cooperation as well as transaction, it will be absolutely easier for the whole society to work together in one language only</text>
+    <TextPosition start="1186" end="1356"/>
+    <Relation relationID="RT8T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>saving regional languages could be seen as a waste of money</text>
+    <TextPosition start="544" end="603"/>
+    <Relation relationID="RT9T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>the government should try to preserve minority languages</text>
+    <TextPosition start="1420" end="1476"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>language can be seen as much more than just one method of communication</text>
+    <TextPosition start="1494" end="1565"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>forming a language must be undergone thousands of years</text>
+    <TextPosition start="1580" end="1635"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>it deserves to be respected and preserved</text>
+    <TextPosition start="1643" end="1684"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>language is one of the essential factors creating the differences and unique cutures in the world</text>
+    <TextPosition start="1706" end="1803"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>saving the use of that kinds of languages in this case generally is the most important element of the cultural diversity's preservation</text>
+    <TextPosition start="1816" end="1951"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Languages' extinction, discuss both views
+
+It is true that the increasing number of languages which are at risk of extinction has become one of the most significant issues that many people of today's society are very concerned for. The question whether our government should make an effort to preserve them by investing more money on that minority languages or not is still a debatable one. I personally suppose that no matter how widely they are spoken, every language should be protected from being disappeared.
+There are several reasons why saving regional languages could be seen as a waste of money. Firstly, we need to consider that if the government expands the use scope of that languages, it can be really expensive because educational programmes will need to be given so as to keep young people learning and using them. For example, some certain areas in the Southern Vietnam have been trying to help their secondary school students who are originally from khmer people speak their language beside Vietnamese, so the local government has recently struggled with their costly investments on language teachers, facilities and appropriate materials. Secondly, it is obvious that in many aspects such as communication, trade, cooperation as well as transaction, it will be absolutely easier for the whole society to work together in one language only.
+Despite of the above arguments, i still strongly believe that the government should try to preserve minority languages. This is because language can be seen as much more than just one method of communication. In addition, forming a language must be undergone thousands of years; thus, it deserves to be respected and preserved. Last but not least, language is one of the essential factors creating the differences and unique cutures in the world. Therefore, saving the use of that kinds of languages in this case generally is the most important element of the cultural diversity's preservation.
+In conclusion, although letting languages spoken by ethnic minorities be extinct seems to be very beneficial, it will definitely impact seriously on many other aspects especially in the loss of our cultural heritages.</OriginalText>
+</Annotation>

@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>reducing stress by listening to music, playing sports, and doing meditation are easy and practical ways</text>
+    <TextPosition start="375" end="478"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>I always listen music from my mp3 player</text>
+    <TextPosition start="729" end="769"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>I could enjoy listening music without thinking of people around me</text>
+    <TextPosition start="771" end="837"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>I feel happy when I listen music</text>
+    <TextPosition start="853" end="885"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>listening to music is a great way to relax</text>
+    <TextPosition start="494" end="536"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>another way that is perfectly work for everyone to reduce the stress is exercise</text>
+    <TextPosition start="895" end="975"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>after work, I always do exercise, and jogging is my favorite sport</text>
+    <TextPosition start="1173" end="1239"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>I feel that after working out, I am easily to fall asleep</text>
+    <TextPosition start="1241" end="1298"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Exercising not only reduce my stress but also make me get a good health</text>
+    <TextPosition start="1300" end="1371"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Meditation is easy way to relax</text>
+    <TextPosition start="1521" end="1552"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it is not require any equipment, and it take few minutes</text>
+    <TextPosition start="1561" end="1617"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>A way to do meditation is that I just sit down, close my eyes, and count my breath</text>
+    <TextPosition start="1619" end="1701"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>These could relieve me from stress</text>
+    <TextPosition start="1703" end="1737"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>meditation also one of the ways to reduce the stress</text>
+    <TextPosition start="1380" end="1432"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>It is are easy and usable</text>
+    <TextPosition start="1939" end="1964"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>And everyone should find the time to do more and more to feel better physically and in everyone mind</text>
+    <TextPosition start="1966" end="2066"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Best ways of reducing stress: listening to music, exercise, meditation
+
+Nowadays, we are living in in the world which is absolutely complicated. Everything seem to be rush, and it have a lot of competition. These make people get stress. Thus, many people try to reduce their stress. There are many activities that could relieve those people who are in stress. in my opinion, reducing stress by listening to music, playing sports, and doing meditation are easy and practical ways.
+First of all, listening to music is a great way to relax. For example, when I go to office, I use public transport. I see many things such as traffic jam, crowded people at bus stop, and all so crowded people in buses. These make me stress. So that I always listen music from my mp3 player. I could enjoy listening music without thinking of people around me. Consequently, I feel happy when I listen music.
+Second, another way that is perfectly work for everyone to reduce the stress is exercise. For instance, I alway have many things in my mind such as a difficult of my work that I have to finish in time. These problem sometime make me hard to fall asleep because it make me stress. Thus, after work, I always do exercise, and jogging is my favorite sport. I feel that after working out, I am easily to fall asleep. Exercising not only reduce my stress but also make me get a good health.
+Third, meditation also one of the ways to reduce the stress. when I have many things to think about, and this make me stress, I will do meditation. Meditation is easy way to relax because it is not require any equipment, and it take few minutes. A way to do meditation is that I just sit down, close my eyes, and count my breath. These could relieve me from stress. 
+In conclusion, there are many ways to reduce the stress. In my point of view, listening to music, exercising, and doing meditation are the most activities that people could do to escape from stress. It is are easy and usable. And everyone should find the time to do more and more to feel better physically and in everyone mind.</OriginalText>
+</Annotation>

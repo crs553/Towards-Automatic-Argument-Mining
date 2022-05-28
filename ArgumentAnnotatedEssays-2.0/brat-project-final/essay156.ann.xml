@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>violence in movies has negative effects on youngsters mostly on their behaviors, emotions &amp; study</text>
+    <TextPosition start="250" end="347"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>unexpectedly the violent behavior has effected on child&#8217;s behaviors</text>
+    <TextPosition start="684" end="751"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>In this case, the child would imitate the actor's behaviors in order to look like to him</text>
+    <TextPosition start="588" end="676"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Imagine an actor who is a child&#8217;s favorite is doing violent roles</text>
+    <TextPosition start="521" end="586"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Nowadays children are more involved in TV programs</text>
+    <TextPosition start="469" end="519"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>children behaviors are the most concerning matter which parents are always trying to do their best</text>
+    <TextPosition start="369" end="467"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>if these scenes are in TV, they would probably have their negative effects on the viewer who could be a child</text>
+    <TextPosition start="922" end="1031"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>killing is worse</text>
+    <TextPosition start="893" end="909"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>dying is always a disappointing happening</text>
+    <TextPosition start="837" end="878"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>human beings are very sensitive, especially of youngsters</text>
+    <TextPosition start="764" end="821"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>the study of a youngster would affected terribly</text>
+    <TextPosition start="1404" end="1452"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>it is obvious that he wouldn&#8217;t be able to concentrate on his study perfectly</text>
+    <TextPosition start="1319" end="1395"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>he is thinking about the movie or whatever has happened in it</text>
+    <TextPosition start="1256" end="1317"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>he has to study for the exam</text>
+    <TextPosition start="1199" end="1227"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>a child watches a frightening movie</text>
+    <TextPosition start="1143" end="1178"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>the study of youngsters shall always been controlled</text>
+    <TextPosition start="1076" end="1128"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Growing violence in films has affected youngsters in a negative way?
+
+It's obvious that violent behavior is growing more in films in recent 20 years. This matter has been considered as a way to advertise a film. From my point of view, I believe that violence in movies has negative effects on youngsters mostly on their behaviors, emotions &amp; study.
+In the first place, children behaviors are the most concerning matter which parents are always trying to do their best. Nowadays children are more involved in TV programs. Imagine an actor who is a child&#8217;s favorite is doing violent roles. In this case, the child would imitate the actor's behaviors in order to look like to him. Thus, unexpectedly the violent behavior has effected on child&#8217;s behaviors.
+Meanwhile, human beings are very sensitive, especially of youngsters. For instance, dying is always a disappointing happening. Furthermore, killing is worse. Therefore, if these scenes are in TV, they would probably have their negative effects on the viewer who could be a child.
+Finally, beside all above mentioned items, the study of youngsters shall always been controlled. For example, a child watches a frightening movie. On the other hand, he has to study for the exam. In this condition, because he is thinking about the movie or whatever has happened in it, it is obvious that he wouldn&#8217;t be able to concentrate on his study perfectly. Hence, the study of a youngster would affected terribly.
+In conclusion, I certainly can say that growing of violence in films have definitely negative effects on youngsters mostly on their study, emotions and behaviors. Therefore, I think this matter should be controlled by parents or somehow by directors.</OriginalText>
+</Annotation>

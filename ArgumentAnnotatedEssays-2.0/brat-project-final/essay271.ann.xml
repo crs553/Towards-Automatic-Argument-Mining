@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>being present at classes seems a wiser option</text>
+    <TextPosition start="530" end="575"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college</text>
+    <TextPosition start="618" end="818"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>they can help each other for learning materials better</text>
+    <TextPosition start="826" end="880"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems</text>
+    <TextPosition start="891" end="1007"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>by the help of teachers, students can understand ideas faster and easier</text>
+    <TextPosition start="1084" end="1156"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points</text>
+    <TextPosition start="1163" end="1273"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study</text>
+    <TextPosition start="1275" end="1464"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>they have to obey class&#8217;s disciplines and they practice to be more perseverance in the process of doing their assignments</text>
+    <TextPosition start="1551" end="1672"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times</text>
+    <TextPosition start="1683" end="1821"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>they may miss some important parts in virtue of the chaotic and incoherent study</text>
+    <TextPosition start="1841" end="1921"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>appearing in class makes students more conscientious</text>
+    <TextPosition start="1492" end="1544"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it</text>
+    <TextPosition start="2076" end="2216"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success</text>
+    <TextPosition start="2224" end="2356"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Students should attend to classes or it should be optional?
+
+Nowadays, it is often claimed that attending classes has a lot of benefits for students and provide them with a variety of learning opportunities (options) as well. On the contrary to this popular belief, there are still those who subscribe to this view that having a choice for attending classes enable students to study at home and through this way they do not waste their time for commuting and also they can save their money. However, I am inclined to believe that being present at classes seems a wiser option.
+First and foremost, I truly believe that being present at classes provide students with opportunity of communicating with other students that is beneficial for understanding new material by reviewing them throughout the free times in college. Also, they can help each other for learning materials better. However, if they do not attend classes they cannot use the help of others for assisting them to comprehend difficult problems. 
+Another significant fact which should be taken into consideration is that by the help of teachers, students can understand ideas faster and easier since teachers explain them thoroughly in the class and after that give them a lot of examples to clarify the points. In this way attending classes not only wastes their time but also facilitates their understanding process that takes them less time for comprehending materials in comparison with self-study. 
+Finally yet importantly, appearing in class makes students more conscientious since they have to obey class&#8217;s disciplines and they practice to be more perseverance in the process of doing their assignments. However, the ones who choose to study at home do not have any discipline for their studies and cannot force themselves to study in particular times. Through this way, they may miss some important parts in virtue of the chaotic and incoherent study. 
+On the basis of the points mentioned above, I convinced that communicating and studying with peer group is a good way for learning materials. Moreover, teachers have a conspicuous role in assisting students for learning materials that being present at classes is a requisite for benefiting it. Also, attending to classes makes students more attentive and have them to do their studies on time that this attitude lead them to success.</OriginalText>
+</Annotation>

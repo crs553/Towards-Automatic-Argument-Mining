@@ -1,0 +1,103 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it should be better to leave this type of type of training for a certain group of good, knowledgeable learners</text>
+    <TextPosition start="309" end="419"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>This will improve the quality of both universities and students, thus placing people in positions which suit them most</text>
+    <TextPosition start="2084" end="2202"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>focusing only on talented students is a better option</text>
+    <TextPosition start="428" end="481"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>it helps academic institutions maintain their high education quality</text>
+    <TextPosition start="490" end="558"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Unlike middle school or high school, university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge</text>
+    <TextPosition start="560" end="715"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>some students may be capable in high schools, but the pressure of higher education is tough even for talented ones</text>
+    <TextPosition start="726" end="840"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>That explains why it is only suitable for a limited people, and opening up for everyone will be fatal for institutions</text>
+    <TextPosition start="842" end="960"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>they need to somehow lower the materials so that it is practical for everyone</text>
+    <TextPosition start="968" end="1045"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>university should only accept good students</text>
+    <TextPosition start="1057" end="1100"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it gives better human resources for sophisticated purposes</text>
+    <TextPosition start="1109" end="1167"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>this may lead to 'social division', when someone with high education refuses to do the called 'low jobs'</text>
+    <TextPosition start="1192" end="1296"/>
+    <Relation relationID="T10Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>it gives no harm to the whole community</text>
+    <TextPosition start="1311" end="1350"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Those standard jobs will always be available for everyone, while complex ones should be only handled by the best people, who start their career from the best institutions</text>
+    <TextPosition start="1352" end="1522"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>limiting the number of people who can be admitted by universities is a good choice</text>
+    <TextPosition start="1532" end="1614"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>it will reward the motivation of students and constantly keep them in the difficult level of learning, which makes them do the best to improve themselves</text>
+    <TextPosition start="1621" end="1774"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>this improves the overall quality of education and gives the best people to serve in the most necessary needs of the society</text>
+    <TextPosition start="1788" end="1912"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <OriginalText>University education should be only available for good students
+
+The purpose of education is always a controversial topic among people and society, especially in high level such as college or university. Some people think that all students should deserve to be educated at this level. However, in my opinion, it should be better to leave this type of type of training for a certain group of good, knowledgeable learners.
+First, focusing only on talented students is a better option because it helps academic institutions maintain their high education quality. Unlike middle school or high school, university and college require far a lot of ability and skills to keep up with an enormous amount of complex knowledge. In fact, some students may be capable in high schools, but the pressure of higher education is tough even for talented ones. That explains why it is only suitable for a limited people, and opening up for everyone will be fatal for institutions, since they need to somehow lower the materials so that it is practical for everyone.
+Secondly, university should only accept good students because it gives better human resources for sophisticated purposes. Some people argue that this may lead to 'social division', when someone with high education refuses to do the called 'low jobs', but actually it gives no harm to the whole community. Those standard jobs will always be available for everyone, while complex ones should be only handled by the best people, who start their career from the best institutions. I think limiting the number of people who can be admitted by universities is a good choice since it will reward the motivation of students and constantly keep them in the difficult level of learning, which makes them do the best to improve themselves. Ultimately, this improves the overall quality of education and gives the best people to serve in the most necessary needs of the society.
+To sum thing up, I agree that everyone should have a compulsory education level up to high school, but the above divisions should be only the realm of the best students. This will improve the quality of both universities and students, thus placing people in positions which suit them most.</OriginalText>
+</Annotation>

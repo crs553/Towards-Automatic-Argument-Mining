@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>they are important somehow, but not essential</text>
+    <TextPosition start="343" end="388"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>an international sports event is a very good thing to gather people, let them dream, being proud of their nationality and forget problems, but just for a while</text>
+    <TextPosition start="1560" end="1719"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>if the general atmosphere during the show is peaceful and fraternal, the reality is different</text>
+    <TextPosition start="1043" end="1136"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>these sports events are not essential in other issues such as politics or other international affairs</text>
+    <TextPosition start="934" end="1035"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>After the Olympics games are finished, everything came back to normal and all the game competition is forgotten by the majority</text>
+    <TextPosition start="1191" end="1318"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>recently, Putin was pleased to open the last winter Olympic games and gather international countries, but actually it has been just facade and Putin didn't listen international warning after he conquered the Crimea</text>
+    <TextPosition start="1335" end="1549"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>world sport events provide positive waves for number of people</text>
+    <TextPosition start="411" end="473"/>
+    <Relation relationID="RT8T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The main purpose of such competitions is to enjoy and share emotions between supporters though their favorite team</text>
+    <TextPosition start="475" end="589"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>These emotions are shared locally in our village or city, nationally in our own country but even internationally too</text>
+    <TextPosition start="591" end="707"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>these events gather people and their nationalist pride feeling is increased</text>
+    <TextPosition start="719" end="794"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>the football world cup taking place every four years is a very followed event during which everyone is having fun</text>
+    <TextPosition start="809" end="922"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Popular events are essential
+  
+A world sportive competition event is watched by almost every country around the world and provide social stimulus and people gathering. However, while people view these sportive events as vital in release international problems, others think that they are just entertainment to distract people. I believe that they are important somehow, but not essential.
+As a matter of fact, world sport events provide positive waves for number of people. The main purpose of such competitions is to enjoy and share emotions between supporters though their favorite team. These emotions are shared locally in our village or city, nationally in our own country but even internationally too. Obviously these events gather people and their nationalist pride feeling is increased. For example, the football world cup taking place every four years is a very followed event during which everyone is having fun.
+Moreover, these sports events are not essential in other issues such as politics or other international affairs. Thus, if the general atmosphere during the show is peaceful and fraternal, the reality is different. In other words, this is the "calm before the storm". After the Olympics games are finished, everything came back to normal and all the game competition is forgotten by the majority. To picture it, recently, Putin was pleased to open the last winter Olympic games and gather international countries, but actually it has been just facade and Putin didn't listen international warning after he conquered the Crimea.
+Finally, an international sports event is a very good thing to gather people, let them dream, being proud of their nationality and forget problems, but just for a while. These meetings are in none case here to interact with international affairs.</OriginalText>
+</Annotation>

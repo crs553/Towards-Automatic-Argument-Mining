@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>both alternative sources and traditional teaching methods from educators are equally important in children's acquisition of knowledge</text>
+    <TextPosition start="386" end="519"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>learners can obtain more useful knowledge from teachers than from other sources</text>
+    <TextPosition start="283" end="362"/>
+    <Relation relationID="RT1T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>technologies are vital in students' learning</text>
+    <TextPosition start="1313" end="1357"/>
+    <Relation relationID="RT3-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>the widespread of alternative sources of knowledge has played an important role in students' acquisition of knowledge</text>
+    <TextPosition start="543" end="660"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Computers can be programmed to provide an endless numbers of questions in diverse range of fields, and as the students answer these questions, the facts has been learned and reinforced</text>
+    <TextPosition start="662" end="846"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>A case in point is the reading and listening parts of TOEFL iBT exams, as candidates have to answer many questions in a limited period of time</text>
+    <TextPosition start="848" end="990"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>when students have some academic problems, they can post those to some websites and receive correct answers from unknown people in faraway places without any costs</text>
+    <TextPosition start="1002" end="1165"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>in the past, conducting a research require long hours of searching in library shelves, now all can be done at a click of a button</text>
+    <TextPosition start="1176" end="1305"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>formal education approaches are also indispensable</text>
+    <TextPosition start="1709" end="1759"/>
+    <Relation relationID="RT9-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>schools and university are places in which students gather to be educated and learn from each others as well as formal educators</text>
+    <TextPosition start="1378" end="1506"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>At schools, students' development has been orchestrated stage by stage, step by step by experienced teachers, and their acquisition of knowledge is guided and backed up in a systematic way</text>
+    <TextPosition start="1508" end="1696"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Teachers lesson vs other sources
+ 
+The way in which children today study is radically different from any previous generations, and the increased availability and relatively low price of modern technology has been instrumental in this change. Despite the argument of some people that learners can obtain more useful knowledge from teachers than from other sources, I firmly believe that both alternative sources and traditional teaching methods from educators are equally important in children's acquisition of knowledge.
+It is undeniable that the widespread of alternative sources of knowledge has played an important role in students' acquisition of knowledge. Computers can be programmed to provide an endless numbers of questions in diverse range of fields, and as the students answer these questions, the facts has been learned and reinforced. A case in point is the reading and listening parts of TOEFL iBT exams, as candidates have to answer many questions in a limited period of time. Moreover, when students have some academic problems, they can post those to some websites and receive correct answers from unknown people in faraway places without any costs. Besides, in the past, conducting a research require long hours of searching in library shelves, now all can be done at a click of a button. Thus, technologies are vital in students' learning.
+On the other hand, schools and university are places in which students gather to be educated and learn from each others as well as formal educators. At schools, students' development has been orchestrated stage by stage, step by step by experienced teachers, and their acquisition of knowledge is guided and backed up in a systematic way. Therefore, formal education approaches are also indispensable. 
+To put it all in a nutshell, I pen out saying that alternative sources information and traditional education systems are equally important in children's development. So students should learn both from their teachers as well as modern technology to gain the best learning outcome.</OriginalText>
+</Annotation>

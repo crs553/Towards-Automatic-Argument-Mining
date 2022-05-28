@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>governments should certainly spend money on the public transportation system</text>
+    <TextPosition start="223" end="299"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it would deal with problems that the rising number of private cars is creating</text>
+    <TextPosition start="308" end="386"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>the using of public transportation reduces the amount of resources using on transportation</text>
+    <TextPosition start="395" end="485"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>the more cars we use means that the faster gasoline in this world is used up</text>
+    <TextPosition start="558" end="634"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Cars depend on gasoline, which is a non-renewable resource</text>
+    <TextPosition start="487" end="545"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>if the public transportation is efficiently used, the amount of gasoline consuming per person will be much lower</text>
+    <TextPosition start="653" end="765"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>this definitely helps to reserve our invaluable natural resource, gasoline</text>
+    <TextPosition start="771" end="845"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>public transportation helps to solve the air pollution problems</text>
+    <TextPosition start="855" end="918"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>public transports use much less gasoline to carry people than private cars</text>
+    <TextPosition start="931" end="1005"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>It means that by using public transports, the less gas exhaust is pumped to the air and people will no longer have to bear the stuffy situation on the roads, which is always full of fumes</text>
+    <TextPosition start="1007" end="1194"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>using public transportation is much safer than private transportation</text>
+    <TextPosition start="1216" end="1285"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>According to National Safety Council, riding the bus is over 170 times safer than private care</text>
+    <TextPosition start="1287" end="1381"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>there is no reason that governments should hesitate to invest in public transportation, a healthy, safe and economical way of transporting</text>
+    <TextPosition start="1388" end="1526"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>it is the key to protect our world, creating a healthy and safe environment for people to live in</text>
+    <TextPosition start="1636" end="1733"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Improve roads or public transports
+
+Many people think that governments should spend money on improving roads and highways while the others say that it would be better to spend money on public transportation. In my opinion, governments should certainly spend money on the public transportation system because it would deal with problems that the rising number of private cars is creating.
+First, the using of public transportation reduces the amount of resources using on transportation. Cars depend on gasoline, which is a non-renewable resource. Therefore, the more cars we use means that the faster gasoline in this world is used up. In the contrary, if the public transportation is efficiently used, the amount of gasoline consuming per person will be much lower. And this definitely helps to reserve our invaluable natural resource, gasoline.
+Second, public transportation helps to solve the air pollution problems. Averagely, public transports use much less gasoline to carry people than private cars. It means that by using public transports, the less gas exhaust is pumped to the air and people will no longer have to bear the stuffy situation on the roads, which is always full of fumes.
+Last but not least, using public transportation is much safer than private transportation. According to National Safety Council, riding the bus is over 170 times safer than private care. Thus there is no reason that governments should hesitate to invest in public transportation, a healthy, safe and economical way of transporting.
+In short, I can say for certain that spending money on improving public transportation is necessary because it is the key to protect our world, creating a healthy and safe environment for people to live in.</OriginalText>
+</Annotation>

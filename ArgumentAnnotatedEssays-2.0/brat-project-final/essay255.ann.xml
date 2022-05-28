@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>there will be a decrease in cars use in the future</text>
+    <TextPosition start="501" end="551"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>the public transportation has improved</text>
+    <TextPosition start="619" end="657"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it is much convenience to take a subway or a bus</text>
+    <TextPosition start="659" end="707"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>I live in a city which always have a jam in the morning and doesn't have enough parking lots for the cars</text>
+    <TextPosition start="722" end="827"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>with the stations increased people are willing to take a public transportation than drive on their own</text>
+    <TextPosition start="833" end="935"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>with the risen of the aware to the environment, people will think more about whether to drive on their own or not</text>
+    <TextPosition start="1017" end="1130"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>a driving car can make a lot of different pollutions to the world</text>
+    <TextPosition start="946" end="1011"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>instead of driving each one's car, if we put forty people in a bus, it will solve the traffic jam by decrease the cars use and also reduce the air pollution for the city</text>
+    <TextPosition start="1145" end="1314"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>a personal car uses is in need</text>
+    <TextPosition start="1542" end="1572"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>a public transportation can't meet every place</text>
+    <TextPosition start="1581" end="1627"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>it may be true when you want to go to some countryside or some other inconvenience places</text>
+    <TextPosition start="1640" end="1729"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>no matter you are going to somewhere for a trip or you just simply live in some suburbs and so on, it always have some other ways that you can do, you can ride a bike, or even walk on your feet</text>
+    <TextPosition start="1740" end="1933"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>It not only helps you to reduce the car use, but also good to your health</text>
+    <TextPosition start="1935" end="2008"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>this won't be a problem at all</text>
+    <TextPosition start="2023" end="2053"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>The car use will definitely decrease in twenty years
+
+Views differ considerably when it comes to the issue of whether cars will be less than there are today in twenty years or not. Some people believe that since the environmental concern has risen, the car use will decrease. While others think that a personal car is important for ones daily life. Both of the opposite arguments appear to be somewhat convincing and stand to reason. But as far as I am concerned, I agree with the idea, which is that there will be a decrease in cars use in the future. The following reasons will present my points.
+First of all, since the public transportation has improved, it is much convenience to take a subway or a bus. For example, I live in a city which always have a jam in the morning and doesn't have enough parking lots for the cars. So, with the stations increased people are willing to take a public transportation than drive on their own. 
+Second, a driving car can make a lot of different pollutions to the world. So, with the risen of the aware to the environment, people will think more about whether to drive on their own or not. For example, instead of driving each one's car, if we put forty people in a bus, it will solve the traffic jam by decrease the cars use and also reduce the air pollution for the city.
+Although, I am agree with the idea that reducing of the car use will be achieve in twenty years. I think I still have to point out that there are some different points of view. People who hold different opinion may argue that a personal car uses is in need because a public transportation can't meet every place. Of course, it may be true when you want to go to some countryside or some other inconvenience places. However, no matter you are going to somewhere for a trip or you just simply live in some suburbs and so on, it always have some other ways that you can do, you can ride a bike, or even walk on your feet. It not only helps you to reduce the car use, but also good to your health. In this way, this won't be a problem at all.
+In conclusion, given the reasons described above, when the advantages and disadvantages of whether there will be fewer cars in use in twenty years or not are carefully compared, the best choice is obviously stand on my side, which is that the car use will definitely decrease in twenty years.</OriginalText>
+</Annotation>

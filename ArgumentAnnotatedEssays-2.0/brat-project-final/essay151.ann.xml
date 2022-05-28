@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>using single language through out the world is a positive change which is helping the world to become a better place to live</text>
+    <TextPosition start="424" end="548"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Communication in single language would improve the productivity of the world and brings everyone on to the same page</text>
+    <TextPosition start="1971" end="2087"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>A world with fewer languages helps us interact with each other in a better way</text>
+    <TextPosition start="550" end="628"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Due to globalization, many people are traveling for professional trips</text>
+    <TextPosition start="630" end="700"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>communicating in single language will reduce the problems of travelers in daily activities like ordering food in a restaurant or in going around places</text>
+    <TextPosition start="706" end="857"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>students who migrate for better education would not have to go through lot of stress</text>
+    <TextPosition start="872" end="956"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>they can easily make new friends and can be part of any discussions which is otherwise not possible in a world with multiple languages; this in turn makes it easy to adjust in new environment</text>
+    <TextPosition start="960" end="1151"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Single language also reduces misunderstandings between people</text>
+    <TextPosition start="1153" end="1214"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>exchange of knowledge in different sectors of research like electronics, medical, astronomy etc would become easier</text>
+    <TextPosition start="1232" end="1347"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>few people are worried about the dying local languages</text>
+    <TextPosition start="1368" end="1422"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>These languages are the basis for the origination and initial communication between different cultures</text>
+    <TextPosition start="1424" end="1526"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>They represent local culture</text>
+    <TextPosition start="1528" end="1556"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>As the usage of these languages decrease, culture also changes accordingly</text>
+    <TextPosition start="1558" end="1632"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>these languages are tightly coupled with history; all the olden day literature and scripts will be impossible to decipher if these languages are lost</text>
+    <TextPosition start="1643" end="1792"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Various local languages are becoming extinct 
+
+Today, English is commonly used language across the world. Its usage is increasing day by day. As a consequence, various local languages are becoming extinct. Some people argue that, this is a positive change and would help people to easily communicate. While there are others who disagree with this and are more concerned about dying local languages. In my opinion, I believe using single language through out the world is a positive change which is helping the world to become a better place to live.
+A world with fewer languages helps us interact with each other in a better way. Due to globalization, many people are traveling for professional trips. So, communicating in single language will reduce the problems of travelers in daily activities like ordering food in a restaurant or in going around places. Furthermore, students who migrate for better education would not have to go through lot of stress as they can easily make new friends and can be part of any discussions which is otherwise not possible in a world with multiple languages; this in turn makes it easy to adjust in new environment. Single language also reduces misunderstandings between people. Adding to that, exchange of knowledge in different sectors of research like electronics, medical, astronomy etc would become easier.
+On the other hand, few people are worried about the dying local languages. These languages are the basis for the origination and initial communication between different cultures. They represent local culture. As the usage of these languages decrease, culture also changes accordingly. Further, these languages are tightly coupled with history; all the olden day literature and scripts will be impossible to decipher if these languages are lost.
+To conclude, I believe change is inevitable and that usage of one language across the world is a positive one. We have to accept these changes for a world to be a better place. Communication in single language would improve the productivity of the world and brings everyone on to the same page.</OriginalText>
+</Annotation>

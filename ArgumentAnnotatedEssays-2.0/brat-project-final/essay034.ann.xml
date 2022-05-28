@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>student have to be forced to study at school</text>
+    <TextPosition start="337" end="381"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>there are some advantages of leaving school to find a job</text>
+    <TextPosition start="1586" end="1643"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>studying at school is always the best choice for children's future</text>
+    <TextPosition start="1645" end="1711"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>There are many ways that can train children to learn independent and social skills instead of getting a job</text>
+    <TextPosition start="1713" end="1820"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>they have more opprotunities to find a job and to be successful in the future</text>
+    <TextPosition start="837" end="914"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>employer always prefer to hire an employee of high degree who have professional skills</text>
+    <TextPosition start="941" end="1027"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>schools offer to students a good environment with experienced professors and high quality programs for studying</text>
+    <TextPosition start="397" end="508"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>schools provide lots of academic knowledge to students</text>
+    <TextPosition start="680" end="734"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Students may learn professional skills, expand their understandings and gain experiences</text>
+    <TextPosition start="736" end="824"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>It creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things</text>
+    <TextPosition start="510" end="663"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>children should interrupt their school work and get a job</text>
+    <TextPosition start="1094" end="1151"/>
+    <Relation relationID="RT12T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Whether children can learn a lot at school</text>
+    <TextPosition start="1153" end="1195"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>there are many subjects that will be of little value to them in the future</text>
+    <TextPosition start="1197" end="1271"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>children can learn social skills when they have a job</text>
+    <TextPosition start="1286" end="1339"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>They can get more experiences that can not be obtained at school</text>
+    <TextPosition start="1341" end="1405"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>Working helps children be more independent and teach them to esteem and manage the money that they've earned</text>
+    <TextPosition start="1407" end="1515"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Study at school or get a job?
+
+Many people believe that children should study at school to have more knowledge that prepare better for their future. Others, however, think that these children may disrupt their school work and should be allowed to leave school early to find a job. Personally, I tend to agree with the point of view that student have to be forced to study at school.
+First of all, schools offer to students a good environment with experienced professors and high quality programs for studying. It creates the best conditions for students education and can force them to focus on their school work instead of wasting their time to do useless things. Second of all, schools provide lots of academic knowledge to students. Students may learn professional skills, expand their understandings and gain experiences. Therefore, they have more opprotunities to find a job and to be successful in the future. For example, as we know, employer always prefer to hire an employee of high degree who have professional skills.
+Nevertheless, it is not unreasonable that some people think that children should interrupt their school work and get a job. Whether children can learn a lot at school, there are many subjects that will be of little value to them in the future. Furthermore, children can learn social skills when they have a job. They can get more experiences that can not be obtained at school. Working helps children be more independent and teach them to esteem and manage the money that they've earned.
+Overall, I believe that students should study at school. Even though there are some advantages of leaving school to find a job, studying at school is always the best choice for children's future. There are many ways that can train children to learn independent and social skills instead of getting a job.
+</OriginalText>
+</Annotation>

@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>they are able to sustain their cultural identities and doing so help they keep their origin values</text>
+    <TextPosition start="391" end="489"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>maintaining one&#8217;s cultural identity is a key important rule to help individuals emerge in the new multicultural environments</text>
+    <TextPosition start="500" end="624"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>sustaining the cultural values of immigrants is paramount essential</text>
+    <TextPosition start="1089" end="1156"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Take Australia for example, immigrants from varieties of nations have a day called multicultural day where people from each country prepare their food and traditional activities for displaying in the public venues</text>
+    <TextPosition start="626" end="839"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Many Australians come this day to enjoy the shows, learn about the cultures and admire the diverse values</text>
+    <TextPosition start="841" end="946"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>These feedbacks, in turn, help raise one&#8217;s pride of their cultures and help people understand each other more</text>
+    <TextPosition start="948" end="1057"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>it is crucial to keep one&#8217;s identity</text>
+    <TextPosition start="1168" end="1204"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>they need a connection back to their country as well as teach their children their value of origin</text>
+    <TextPosition start="1209" end="1307"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>keeping the cultural traditions in the destination countries is tremendous important</text>
+    <TextPosition start="1711" end="1795"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>children immigrated to a new country will face social troubles in school with new friends</text>
+    <TextPosition start="1323" end="1412"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>In this new environment, parent should find friends coming from their same country so that they can socialize in a very familiar manner as feeling being home</text>
+    <TextPosition start="1414" end="1571"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Fail to create this familiarity makes them felt isolated, in the extreme can lead to social disorder like autism</text>
+    <TextPosition start="1573" end="1685"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>there are opposing ideas of neglecting one&#8217;s cultural values to adapt in the new cultures</text>
+    <TextPosition start="1819" end="1908"/>
+    <Relation relationID="RT14T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>More people are migrating to other countries than ever before
+
+The last 50 years have seen an increasing number of immigrants to other countries. People moved due to a number of reasons, namely better educations or higher salary jobs. Some people thought that they should follow the local customs in order to integrate into their adopted countries&#8217; cultures. However I strongly believe that they are able to sustain their cultural identities and doing so help they keep their origin values.
+Firstly, maintaining one&#8217;s cultural identity is a key important rule to help individuals emerge in the new multicultural environments. Take Australia for example, immigrants from varieties of nations have a day called multicultural day where people from each country prepare their food and traditional activities for displaying in the public venues. Many Australians come this day to enjoy the shows, learn about the cultures and admire the diverse values. These feedbacks, in turn, help raise one&#8217;s pride of their cultures and help people understand each other more. Thus this makes it clear that sustaining the cultural values of immigrants is paramount essential.
+Secondly, it is crucial to keep one&#8217;s identity for they need a connection back to their country as well as teach their children their value of origin. For instance, children immigrated to a new country will face social troubles in school with new friends. In this new environment, parent should find friends coming from their same country so that they can socialize in a very familiar manner as feeling being home. Fail to create this familiarity makes them felt isolated, in the extreme can lead to social disorder like autism. Hence, it is clear that keeping the cultural traditions in the destination countries is tremendous important.
+To conclude, although there are opposing ideas of neglecting one&#8217;s cultural values to adapt in the new cultures. As far as I am concerned, sustaining the traditions will make the immigrated people keep their cultural identity and give them confident among the many culture society.</OriginalText>
+</Annotation>

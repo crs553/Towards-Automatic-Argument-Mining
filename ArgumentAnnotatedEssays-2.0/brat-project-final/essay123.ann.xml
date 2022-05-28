@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>teenagers need more attention and help in comparison with the higher ages</text>
+    <TextPosition start="251" end="324"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>they are the best advisor for their children</text>
+    <TextPosition start="494" end="538"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>parents and other adult relatives are more experienced towards children</text>
+    <TextPosition start="411" end="482"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>if children listen to their advices they can prevent happening worst things</text>
+    <TextPosition start="610" end="685"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>They have experienced a large numbers of stuffs during their life</text>
+    <TextPosition start="540" end="605"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they can save value things in their life such as time and money, and enjoy they life with the best way</text>
+    <TextPosition start="693" end="795"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>parents and adults relatives are the best friends and consular for the teenagers</text>
+    <TextPosition start="835" end="915"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>unfortunately nowadays there are some individuals who cheat the others for gaining more power and money</text>
+    <TextPosition start="925" end="1028"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>They cheat young ages</text>
+    <TextPosition start="1030" end="1051"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>they believe they are immature and they can trap them easily</text>
+    <TextPosition start="1060" end="1120"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Parents or other adult relatives should make important decisions for their olde
+
+It might seem that teenaged children particularly in age of 15 - 18 are fully grown, so they do not need any help for making important decisions. However, in my opinion, teenagers need more attention and help in comparison with the higher ages. I will discuss my view in two main areas.
+In the first place, there is no doubt that parents and other adult relatives are more experienced towards children, therefore they are the best advisor for their children. They have experienced a large numbers of stuffs during their life, so if children listen to their advices they can prevent happening worst things. Also, they can save value things in their life such as time and money, and enjoy they life with the best way.
+Moreover, I have always believed that parents and adults relatives are the best friends and consular for the teenagers, because unfortunately nowadays there are some individuals who cheat the others for gaining more power and money. They cheat young ages because they believe they are immature and they can trap them easily.
+To sum up, it makes no difference, people from young ages to old ages are free to make a decision, nonetheless sometimes to prevent some problems coming up for young individuals , it is a good idea to ask parents and adult relatives to give a piece of advice.</OriginalText>
+</Annotation>

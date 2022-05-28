@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>through proper management and regulation, a booming tourist industry is an excellent source of economic growth and wealth for rural and urban areas</text>
+    <TextPosition start="400" end="547"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>The most obvious merit is that tourism can vastly boost economic development in a particular state or region</text>
+    <TextPosition start="549" end="657"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>This takes place, not only through direct expenditure from tourists, but also because it provides direct and indirect jobs to the community, including retail, agriculture, and in the service industry</text>
+    <TextPosition start="659" end="858"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>The increasing tax and the expansion of local markets for accommodation, luxury goods amongst others are also a result of a solid, well-regulated tourism programs</text>
+    <TextPosition start="860" end="1022"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>tourism provides a considerable number of direct and indirect jobs to the community, including retail, hotels, transport, agriculture, and in the service industry</text>
+    <TextPosition start="1037" end="1199"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>This increase of job opportunities allows more people to make significant contribution to society through the purchasing of commodities by their growing incomes</text>
+    <TextPosition start="1201" end="1361"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>this gives energy to the economic cycle, generating local economic prosperity in return</text>
+    <TextPosition start="1376" end="1463"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>Some people may oppose these, citing the environmental and cultural destruction caused by tourism</text>
+    <TextPosition start="1465" end="1562"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>compared to the tourism industry, other alternatives, like resource extraction and manufacture, are far worse destroyers</text>
+    <TextPosition start="1573" end="1693"/>
+    <Relation relationID="T10Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>paper mills pour hundreds and thousands of tons of contamination into rivers, causing severe water pollution</text>
+    <TextPosition start="1709" end="1817"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>the dramatic majority of tourist, particularly those who tend to spending a wealth of time and money locating and visiting rustic villages, are well educated</text>
+    <TextPosition start="1838" end="1995"/>
+    <Relation relationID="T10Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>It is illogical to believe that these rational folks will not conduct themselves decently if required to do so</text>
+    <TextPosition start="1997" end="2107"/>
+    <Relation relationID="T10Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Under suitable administration, tourism enhances local economic development
+
+Tourist trade is becoming a powerful engine for the economy. Nevertheless, some individuals believe that this position ignores the ecological and environmental destruction, as a result of tourist activities, and its adverse effects on local communities and ecosystems. While both positions seem reasonable, my view is that, through proper management and regulation, a booming tourist industry is an excellent source of economic growth and wealth for rural and urban areas.
+The most obvious merit is that tourism can vastly boost economic development in a particular state or region. This takes place, not only through direct expenditure from tourists, but also because it provides direct and indirect jobs to the community, including retail, agriculture, and in the service industry. The increasing tax and the expansion of local markets for accommodation, luxury goods amongst others are also a result of a solid, well-regulated tourism programs. Furthermore, tourism provides a considerable number of direct and indirect jobs to the community, including retail, hotels, transport, agriculture, and in the service industry. This increase of job opportunities allows more people to make significant contribution to society through the purchasing of commodities by their growing incomes. As a result, this gives energy to the economic cycle, generating local economic prosperity in return.
+Some people may oppose these, citing the environmental and cultural destruction caused by tourism. In fact, compared to the tourism industry, other alternatives, like resource extraction and manufacture, are far worse destroyers. For instance, paper mills pour hundreds and thousands of tons of contamination into rivers, causing severe water pollution. On the other hand, the dramatic majority of tourist, particularly those who tend to spending a wealth of time and money locating and visiting rustic villages, are well educated. It is illogical to believe that these rational folks will not conduct themselves decently if required to do so.
+After careful consideration of both sides of the argument, the tourism sector is desirable for its important socioeconomic advantages. In conclusion, it is evident that under suitable administration, the benefits of tourism outweigh its drawbacks.</OriginalText>
+</Annotation>

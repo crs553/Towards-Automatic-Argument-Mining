@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T3">
+    <ADU type="conclusion"/>
+    <text>success and trying new things and taking risks go hand in hand and to achieve success you should consider them</text>
+    <TextPosition start="1698" end="1808"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>successful people can learn important and very valuable points from trying new things</text>
+    <TextPosition start="325" end="410"/>
+    <Relation relationID="RT1-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>great success requires taking great risks</text>
+    <TextPosition start="437" end="478"/>
+    <Relation relationID="RT2-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>if you want to know how to act effectively when communicating with people, you can try something new like salesmanship in various stores and places</text>
+    <TextPosition start="610" end="757"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>By selling goods or other commodities you will face different people with different behaviors and personalities</text>
+    <TextPosition start="759" end="870"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>you will learn how to behave people in different situations and jobs in the future</text>
+    <TextPosition start="887" end="969"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>These experiences can only be obtained by trying new things and can&#8217;t be always found in books</text>
+    <TextPosition start="971" end="1065"/>
+    <Relation relationID="RT7-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>There are always interesting and useful experiences that successful people can learn them only by trying new things</text>
+    <TextPosition start="480" end="595"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>If you want to gain very high profits in investments, you should use great and very high amounts of money in very risky financial decisions and dealings in which you may lose much amount of money</text>
+    <TextPosition start="1129" end="1324"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>If you want to achieve a remarkable success in an important exam, you should risk studying all the time and sacrificing your free time and your favorite hobbies</text>
+    <TextPosition start="1326" end="1486"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>The more you take risks, the greater your successes will be</text>
+    <TextPosition start="1488" end="1547"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>it is important to take risks</text>
+    <TextPosition start="1644" end="1673"/>
+    <Relation relationID="RT12-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>If you don&#8217;t take any risks, you will have an ordinary life with average successes</text>
+    <TextPosition start="1549" end="1631"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>great success requires taking great risks</text>
+    <TextPosition start="1086" end="1127"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Successful people try new things and take risks
+
+I have my own reasons why I agree with the statement that successful people try new things and take risks. There are many viewpoints regarding what the main characteristics of successful people are. In my opinion, one of the main reasons for supporting this statement is that successful people can learn important and very valuable points from trying new things. The other reason is that great success requires taking great risks.
+There are always interesting and useful experiences that successful people can learn them only by trying new things. For example, if you want to know how to act effectively when communicating with people, you can try something new like salesmanship in various stores and places. By selling goods or other commodities you will face different people with different behaviors and personalities and as a result you will learn how to behave people in different situations and jobs in the future. These experiences can only be obtained by trying new things and can&#8217;t be always found in books. 
+I do believe that great success requires taking great risks. If you want to gain very high profits in investments, you should use great and very high amounts of money in very risky financial decisions and dealings in which you may lose much amount of money. If you want to achieve a remarkable success in an important exam, you should risk studying all the time and sacrificing your free time and your favorite hobbies. The more you take risks, the greater your successes will be. If you don&#8217;t take any risks, you will have an ordinary life with average successes. That&#8217;s why it is important to take risks.
+In sum, I believe that success and trying new things and taking risks go hand in hand and to achieve success you should consider them.</OriginalText>
+</Annotation>

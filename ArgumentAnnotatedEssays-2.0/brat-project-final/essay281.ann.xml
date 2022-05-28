@@ -1,0 +1,147 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>government should pay attention on basic needs of people first</text>
+    <TextPosition start="352" end="414"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>government should invest to create more jobs</text>
+    <TextPosition start="760" end="804"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>When people have jobs, they did not have to steal money</text>
+    <TextPosition start="806" end="861"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>criminal rate were drop</text>
+    <TextPosition start="874" end="897"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>people have a good quality life</text>
+    <TextPosition start="905" end="936"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>quality of life were dropping and this make people unhappy</text>
+    <TextPosition start="691" end="749"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>There were increasing in criminal rate in many cities</text>
+    <TextPosition start="622" end="675"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>When people did not have money, They had to rob other people</text>
+    <TextPosition start="560" end="620"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>after great economic recession, many people in many countries were unemployed</text>
+    <TextPosition start="443" end="520"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>industrial in many countries still emit high intense of carbon dioxide, which caused of greenhouse effect</text>
+    <TextPosition start="1019" end="1124"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Greenhouse effect causes of climate change</text>
+    <TextPosition start="1126" end="1168"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>These impact on every living creature in the world</text>
+    <TextPosition start="1170" end="1220"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>government take care of this issue by declare regulate to control emission of carbon dioxide</text>
+    <TextPosition start="1226" end="1318"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>government should invest in alternative energy such as using solar energy instead of coal energy</text>
+    <TextPosition start="1372" end="1468"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>If we lived in good environment, our life would be better</text>
+    <TextPosition start="1470" end="1527"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>environment is also important issue that everyone depend on it</text>
+    <TextPosition start="946" end="1008"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>government should create campaign to fill love to family</text>
+    <TextPosition start="1788" end="1844"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>setting event once a week to gather everyone in family to spend time with each other</text>
+    <TextPosition start="1859" end="1943"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>When family understand each other, it mean society and a nation will not have much trouble</text>
+    <TextPosition start="1945" end="2035"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>family is a root of society</text>
+    <TextPosition start="1537" end="1564"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>If everyone in family did not have time to spend with each other, that family could have problems, If family had problems, it mean society could have problems</text>
+    <TextPosition start="1566" end="1724"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>When society had problems, it could impact to a nation</text>
+    <TextPosition start="1726" end="1780"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T24">
+    <ADU type="claim"/>
+    <text>These three issues are the most important basic needs of people in my opinion that government should pay attention on to improve quality life of people</text>
+    <TextPosition start="2205" end="2356"/>
+    <Relation relationID="RT24-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Governments should spend money on space exploration or for basic needs of people
+
+Although developing technologies to discover amazing thing in galaxy is interesting, there are many people in the world are in poverty or starvation. Thus, these technologies mean nothing if people lack of prosperity. Therefore, in my opinion, I accede with notion that government should pay attention on basic needs of people first.
+First, as you can see that after great economic recession, many people in many countries were unemployed. Then, many people did not have money. When people did not have money, They had to rob other people. There were increasing in criminal rate in many cities. Consequently, quality of life were dropping and this make people unhappy. So that, government should invest to create more jobs. When people have jobs, they did not have to steal money. Therefore, criminal rate were drop. Thus, people have a good quality life.
+Second, environment is also important issue that everyone depend on it. Nowaday, industrial in many countries still emit high intense of carbon dioxide, which caused of greenhouse effect. Greenhouse effect causes of climate change. These impact on every living creature in the world. So, government take care of this issue by declare regulate to control emission of carbon dioxide. In addition to controlling emission carbon dioxide, government should invest in alternative energy such as using solar energy instead of coal energy. If we lived in good environment, our life would be better.
+Lastly, family is a root of society. If everyone in family did not have time to spend with each other, that family could have problems, If family had problems, it mean society could have problems. When society had problems, it could impact to a nation. Thus, government should create campaign to fill love to family. For example, setting event once a week to gather everyone in family to spend time with each other. When family understand each other, it mean society and a nation will not have much trouble.
+In conclusion, I personally agree with statement that government should spend money on basic people needs. The basic needs: jobs, good environment, and love in family. These three issues are the most important basic needs of people in my opinion that government should pay attention on to improve quality life of people.
+</OriginalText>
+</Annotation>

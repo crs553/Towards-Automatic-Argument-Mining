@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>Television has destroyed communication among friends and family</text>
+    <TextPosition start="249" end="312"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Some People spend a lot of time watching television, others even eat watching television, and some others make of this media a priority</text>
+    <TextPosition start="314" end="449"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>television is a great tool to learn, entertain and inform what is happening</text>
+    <TextPosition start="1807" end="1882"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>she is used to his habit that she prefers to write him an email</text>
+    <TextPosition start="866" end="929"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Sometimes his wife wants to talk before they go to work, but he only let her talk during commercials</text>
+    <TextPosition start="760" end="860"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Instead of spend time with family and friends, they like to seat on a chair for hours</text>
+    <TextPosition start="518" end="603"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Time with the family is gold, some people have to realize that and take quality of time to talk to them</text>
+    <TextPosition start="931" end="1034"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>I know someone who wakes up in the morning and before even eat he turns the television on, he even records the programs he cannot watch during work hours</text>
+    <TextPosition start="605" end="758"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>some people spend a lot of time watching television</text>
+    <TextPosition start="465" end="516"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>This is the time, when if they have children, they can share everything about school, a project and even concerns</text>
+    <TextPosition start="1170" end="1283"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>when there is a dinner with friends, some people do not have a fluid conversation</text>
+    <TextPosition start="1291" end="1372"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>the television is again in between them</text>
+    <TextPosition start="1381" end="1420"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>When family or friends gather together to have a good time eating and talking, this is not the reality in some cases</text>
+    <TextPosition start="1422" end="1538"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>Another way television has destroyed communication is when some people cannot even seat at the table and have dinner with the family</text>
+    <TextPosition start="1036" end="1168"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>some people make the television a priority</text>
+    <TextPosition start="1549" end="1591"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>I remember a friend told me one day that because she was watching a telenovela I could not go to her house a certain time during the night</text>
+    <TextPosition start="1593" end="1731"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <OriginalText>TV has adverse effects on friends and family
+
+Nowdays there are different resources to entertain, educate and inform people. One of this resource is television; however television has some negative effects among some people. Therefore, I agree that Television has destroyed communication among friends and family. Some People spend a lot of time watching television, others even eat watching television, and some others make of this media a priority.
+First of all, some people spend a lot of time watching television. Instead of spend time with family and friends, they like to seat on a chair for hours. I know someone who wakes up in the morning and before even eat he turns the television on, he even records the programs he cannot watch during work hours. Sometimes his wife wants to talk before they go to work, but he only let her talk during commercials. So, she is used to his habit that she prefers to write him an email. Time with the family is gold, some people have to realize that and take quality of time to talk to them.
+Another way television has destroyed communication is when some people cannot even seat at the table and have dinner with the family. This is the time, when if they have children, they can share everything about school, a project and even concerns. Also, when there is a dinner with friends, some people do not have a fluid conversation because the television is again in between them. When family or friends gather together to have a good time eating and talking, this is not the reality in some cases.
+Finally, some people make the television a priority. I remember a friend told me one day that because she was watching a telenovela I could not go to her house a certain time during the night. Honestly, I was in shock! How she could say that to me?. 
+As I have said, television is a great tool to learn, entertain and inform what is happening, but I agree that television has destroyed communication among friends and family as soon as television become a priority, spend a lot of time watching it and eat in front of the television.</OriginalText>
+</Annotation>

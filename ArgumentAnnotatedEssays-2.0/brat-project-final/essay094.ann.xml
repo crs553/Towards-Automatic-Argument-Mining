@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>It is a completely right and extremely wise policy to focus on health education and preventative measures rather than treatment</text>
+    <TextPosition start="32" end="159"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>reasonable attentions should be paid to treatment so that our citizens are always looked after with best services</text>
+    <TextPosition start="1904" end="2017"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Health education causes long-term positive effects on our next generations</text>
+    <TextPosition start="237" end="311"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Preventative measures will help improve general health state of all citizens</text>
+    <TextPosition start="1091" end="1167"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>thank to a full health education from their childhoods, children will have good habits of taking care of their own health and these habits may be kept in their adolescences</text>
+    <TextPosition start="327" end="499"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>if a child is educated to have a hygienic lifestyle at a very young age, he also keeps it when older</text>
+    <TextPosition start="514" end="614"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>health education will prepare for people especially children necessary knowledge to protect themselves from risks of diseases</text>
+    <TextPosition start="626" end="751"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Instead of afraid or panic, they may be calmer if unfortunately committing some normal diseases such as allergy or illness in seasonal changes</text>
+    <TextPosition start="753" end="895"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Many diseases which may be cured easily can turn to serious ones if we do not have right treatment</text>
+    <TextPosition start="897" end="995"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Health education will help people to have right choices of treatment to recover more quickly</text>
+    <TextPosition start="997" end="1089"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>vaccines will guarantee that pregnant women and their babies are protected from serious infectious diseases such as flu, smallpox, rubella so on</text>
+    <TextPosition start="1182" end="1326"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>When huge injection campaigns are organized throughout our country, the community's health state will be improved remarkably</text>
+    <TextPosition start="1328" end="1452"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>human resources play a key role in the development of a country</text>
+    <TextPosition start="1457" end="1520"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>investing money to enhance the general health state is a totally right decision</text>
+    <TextPosition start="1522" end="1601"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>the cost of treatment is often much higher than that of prevention</text>
+    <TextPosition start="1624" end="1690"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>the government can save a lot of money for our country's health budget</text>
+    <TextPosition start="1692" end="1762"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <OriginalText>Prevention is better than cure
+
+It is a completely right and extremely wise policy to focus on health education and preventative measures rather than treatment. Once applied, it will bring many benefits to both citizens and governments.
+Health education causes long-term positive effects on our next generations. First of all, thank to a full health education from their childhoods, children will have good habits of taking care of their own health and these habits may be kept in their adolescences. For example, if a child is educated to have a hygienic lifestyle at a very young age, he also keeps it when older. Secondly, health education will prepare for people especially children necessary knowledge to protect themselves from risks of diseases. Instead of afraid or panic, they may be calmer if unfortunately committing some normal diseases such as allergy or illness in seasonal changes. Many diseases which may be cured easily can turn to serious ones if we do not have right treatment. Health education will help people to have right choices of treatment to recover more quickly.
+Preventative measures will help improve general health state of all citizens. For example, vaccines will guarantee that pregnant women and their babies are protected from serious infectious diseases such as flu, smallpox, rubella so on. When huge injection campaigns are organized throughout our country, the community's health state will be improved remarkably. As human resources play a key role in the development of a country, investing money to enhance the general health state is a totally right decision. In addition, because the cost of treatment is often much higher than that of prevention, the government can save a lot of money for our country's health budget.
+In conclusion, I strongly agree that we should give more priority to health education and preventative measures than to treatment. However, reasonable attentions should be paid to treatment so that our citizens are always looked after with best services.
+</OriginalText>
+</Annotation>

@@ -1,0 +1,170 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>Professors could combine doing research and preparing good courses in a dynamic way</text>
+    <TextPosition start="2528" end="2611"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Only by developing students, can we have a better academic field</text>
+    <TextPosition start="2462" end="2526"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>conducting research is helpful for professors and students to some extent</text>
+    <TextPosition start="2296" end="2369"/>
+    <Relation relationID="T2Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>the precondition of doing research is growing students&#8217; solid theory fundamental</text>
+    <TextPosition start="2380" end="2460"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>the research takes up too much teaching time</text>
+    <TextPosition start="213" end="257"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>research could bring funding and latest achievements in the field</text>
+    <TextPosition start="146" end="211"/>
+    <Relation relationID="T5Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>professors should assist students to acquire knowledge</text>
+    <TextPosition start="387" end="441"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>professors could teach students through research and projects</text>
+    <TextPosition start="1582" end="1643"/>
+    <Relation relationID="RT9T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>professor should concern about preparing class</text>
+    <TextPosition start="2234" end="2280"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>professors should pay more attention on how to teach students rather than conduct research</text>
+    <TextPosition start="908" end="998"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>The professors&#8217; duty is to nurture students, and prepare excellent courses</text>
+    <TextPosition start="443" end="517"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>If professors spend a lot of time on research, he will cut the time on preparing courses is reduced, which may decrease the quality of classes</text>
+    <TextPosition start="519" end="661"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>The reason why people enter a university is that they want to learn cutting-edged technologies</text>
+    <TextPosition start="663" end="757"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>professors should provide well-preparation courses to convey the state-of-art knowledge for college and university students</text>
+    <TextPosition start="772" end="895"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>if professors are busy in doing research, ignoring preparing appropriate courses for students, it would ruin the reputation of universities</text>
+    <TextPosition start="1019" end="1158"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>Students are unsatisfied with the unprepared course, and the enrollment of universities may decline</text>
+    <TextPosition start="1160" end="1259"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>Many students would not choose these kinds of universities to study</text>
+    <TextPosition start="1261" end="1328"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>hardly can professors find assistants to help with projects</text>
+    <TextPosition start="1343" end="1402"/>
+    <Relation relationID="T28Default Inference" type="Default Inference" typeBinary="0" partnerID="T28"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>spending more time to nurture excellent students is more consequential to professors, rather than research</text>
+    <TextPosition start="1460" end="1566"/>
+    <Relation relationID="RT20-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>Some students enjoy taking part in some research</text>
+    <TextPosition start="1645" end="1693"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>Through to use the equipment and invent their own work, they may get more experience in the process of research</text>
+    <TextPosition start="1695" end="1806"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>electronic students always invent new machines such as robots, MP3 and remote control car</text>
+    <TextPosition start="1822" end="1911"/>
+    <Relation relationID="T22Default Inference" type="Default Inference" typeBinary="0" partnerID="T22"/>
+  </Proposition>
+  <Proposition id="T24">
+    <ADU type="premise"/>
+    <text>They can manage the electric theory in practical skills</text>
+    <TextPosition start="1913" end="1968"/>
+    <Relation relationID="T22Default Inference" type="Default Inference" typeBinary="0" partnerID="T22"/>
+  </Proposition>
+  <Proposition id="T25">
+    <ADU type="premise"/>
+    <text>And some students will be rewarded by investing new inventions</text>
+    <TextPosition start="1970" end="2032"/>
+    <Relation relationID="T22Default Inference" type="Default Inference" typeBinary="0" partnerID="T22"/>
+  </Proposition>
+  <Proposition id="T26">
+    <ADU type="premise"/>
+    <text>only under specific circumstance, when students master all of the systematic knowledge, can they accomplish research</text>
+    <TextPosition start="2043" end="2159"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T27">
+    <ADU type="premise"/>
+    <text>This is requires professors provide high quality courses</text>
+    <TextPosition start="2161" end="2217"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T28">
+    <ADU type="premise"/>
+    <text>It is adverse to the whole academic field</text>
+    <TextPosition start="1404" end="1445"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <OriginalText>The precondition of doing research by professors
+
+Nowadays, many professors conduct research while teaching in colleges or universities. Although research could bring funding and latest achievements in the field, the research takes up too much teaching time. As far as I am concerned, professors should spend more time on preparing courses than research.
+To begin with, it is vital that professors should assist students to acquire knowledge. The professors&#8217; duty is to nurture students, and prepare excellent courses. If professors spend a lot of time on research, he will cut the time on preparing courses is reduced, which may decrease the quality of classes. The reason why people enter a university is that they want to learn cutting-edged technologies. In this way, professors should provide well-preparation courses to convey the state-of-art knowledge for college and university students. Therefore, professors should pay more attention on how to teach students rather than conduct research.
+On the other hand, if professors are busy in doing research, ignoring preparing appropriate courses for students, it would ruin the reputation of universities. Students are unsatisfied with the unprepared course, and the enrollment of universities may decline. Many students would not choose these kinds of universities to study. In this way, hardly can professors find assistants to help with projects. It is adverse to the whole academic field. Accordingly, spending more time to nurture excellent students is more consequential to professors, rather than research.
+Nevertheless, professors could teach students through research and projects. Some students enjoy taking part in some research. Through to use the equipment and invent their own work, they may get more experience in the process of research. For instance, electronic students always invent new machines such as robots, MP3 and remote control car. They can manage the electric theory in practical skills. And some students will be rewarded by investing new inventions. However, only under specific circumstance, when students master all of the systematic knowledge, can they accomplish research. This is requires professors provide high quality courses. In other word, professor should concern about preparing class.
+Consequently, conducting research is helpful for professors and students to some extent. However, the precondition of doing research is growing students&#8217; solid theory fundamental. Only by developing students, can we have a better academic field. Professors could combine doing research and preparing good courses in a dynamic way.</OriginalText>
+</Annotation>

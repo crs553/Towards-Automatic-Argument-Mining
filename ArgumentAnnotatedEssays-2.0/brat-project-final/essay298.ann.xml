@@ -1,0 +1,115 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is good for a teenager to do a part time job while he/she is still a student</text>
+    <TextPosition start="327" end="406"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it can destruct students from their study</text>
+    <TextPosition start="1863" end="1904"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>i did part time job in my high school and it did not hurt my academic result</text>
+    <TextPosition start="1918" end="1994"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Students can learn about time management, money management and convince people by their words</text>
+    <TextPosition start="546" end="639"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>when I was in my high school I worked as a sales-man in a shop for a year</text>
+    <TextPosition start="654" end="727"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>i had to manage my time efficiently</text>
+    <TextPosition start="785" end="820"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>As i had to spend some of my time in my job</text>
+    <TextPosition start="729" end="772"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>I had to manage my boss as well as had to prepare my homework</text>
+    <TextPosition start="822" end="883"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>This taught me how to manage time efficiently and do any job quickly and effectively</text>
+    <TextPosition start="885" end="969"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>I learn money management</text>
+    <TextPosition start="981" end="1005"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>When my boss was out of the shop, i had to manage the accounts section of the shop</text>
+    <TextPosition start="1007" end="1089"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>From this i learned, how to manage money correctly</text>
+    <TextPosition start="1091" end="1141"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>This experience taught me, doing part time job can help students to learn many things</text>
+    <TextPosition start="1143" end="1228"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>students can learn lots of things from part time job, before starting their real job</text>
+    <TextPosition start="460" end="544"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>from part time jobs students can earn money, which can help their parents</text>
+    <TextPosition start="1253" end="1326"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>part time job can help students earn money and which can help their parents financially</text>
+    <TextPosition start="1674" end="1761"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>By tutoring them, i earned some money and bought me books with it</text>
+    <TextPosition start="1499" end="1564"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>after taking that part time job i stopped taking my pocket money form my parents</text>
+    <TextPosition start="1576" end="1656"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <OriginalText>Part time job for teenage students
+
+When we talk about student, we generally mean a boy or a girl who study in school or college. In some country, teenage students have the opportunity to do some part time job beside their study. However, some people do not support the concept of teenagers doing job beside study. In my view, it is good for a teenager to do a part time job while he/she is still a student and this is for two reasons.
+The main reason is that students can learn lots of things from part time job, before starting their real job. Students can learn about time management, money management and convince people by their words. For example, when I was in my high school I worked as a sales-man in a shop for a year. As i had to spend some of my time in my job, therefore, i had to manage my time efficiently. I had to manage my boss as well as had to prepare my homework. This taught me how to manage time efficiently and do any job quickly and effectively. Moreover, I learn money management. When my boss was out of the shop, i had to manage the accounts section of the shop. From this i learned, how to manage money correctly. This experience taught me, doing part time job can help students to learn many things.
+Another reason is that from part time jobs students can earn money, which can help their parents. For instance, when i was in high school I worked as a home tutor. I taught math to two kids of my neighbor. I helped them to understand the difficult topics of the books. By tutoring them, i earned some money and bought me books with it. Moreover, after taking that part time job i stopped taking my pocket money form my parents. As you can see, part time job can help students earn money and which can help their parents financially.
+In sum, I am sure; some people will oppose the idea of part time job for students. They will argue, it can destruct students from their study. However, as i did part time job in my high school and it did not hurt my academic result; therefore, i believe part time job will be good for students. Every Student should do part time job beside their study if they want to prepare more efficiently for their future.</OriginalText>
+</Annotation>

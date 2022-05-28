@@ -1,0 +1,97 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>computers brought convenience and easiness to our life</text>
+    <TextPosition start="332" end="386"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>they enabled easier access to information and increased qualities of the communication</text>
+    <TextPosition start="393" end="479"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>with the use of computers we spend less time in search for information, and can get it from different sources</text>
+    <TextPosition start="1018" end="1127"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Through computers we can collect appropriate data very quickly, store it in the hard disc as long as we want and use it when needed</text>
+    <TextPosition start="555" end="686"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Search engines such as google, yandex with many features relevant to the characteristics of the information needed enable search of information in few minutes</text>
+    <TextPosition start="688" end="846"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Social networks such as facebook, twitter have changed traditional sources of information and decreasing the monopolization of the information by the governments</text>
+    <TextPosition start="848" end="1009"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>computers through internet made our access to information easier</text>
+    <TextPosition start="489" end="553"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>in a globalized world that we live computers made communications faster, visual and cheaper</text>
+    <TextPosition start="1138" end="1229"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>With the use of email our messages can be delivered to any person in any part of the world in few minutes</text>
+    <TextPosition start="1231" end="1336"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>it is convenient</text>
+    <TextPosition start="1351" end="1367"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>you do not need to mile to the post office, but just click the mouse of your computer from the convenience of your arm chair in order to reach your friends, family members in any part of the world</text>
+    <TextPosition start="1376" end="1572"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Internet facilities such as msn, skype made visual communication possible</text>
+    <TextPosition start="1574" end="1647"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>via skype people not just communicate with their family members and friends, but also make interviews for employment, enrolment into universities</text>
+    <TextPosition start="1662" end="1807"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>communication has become cheaper, faster and visual</text>
+    <TextPosition start="1820" end="1871"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>it broadened the sources of information and made access more quick, a long with the improving quality of the communication in many ways</text>
+    <TextPosition start="1967" end="2102"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Computers have made life easier
+
+The advent of the computer is one of the results of the development of the advantaged technology. While some people advocate for the idea that computers have made life more complex and stressful, others support the idea that computers have made life easier and more convenient. In my point of view, computers brought convenience and easiness to our life since they enabled easier access to information and increased qualities of the communication. 
+First, computers through internet made our access to information easier. Through computers we can collect appropriate data very quickly, store it in the hard disc as long as we want and use it when needed. Search engines such as google, yandex with many features relevant to the characteristics of the information needed enable search of information in few minutes. Social networks such as facebook, twitter have changed traditional sources of information and decreasing the monopolization of the information by the governments. Hence, with the use of computers we spend less time in search for information, and can get it from different sources. 
+Second, in a globalized world that we live computers made communications faster, visual and cheaper. With the use of email our messages can be delivered to any person in any part of the world in few minutes. In addition, it is convenient because you do not need to mile to the post office, but just click the mouse of your computer from the convenience of your arm chair in order to reach your friends, family members in any part of the world. Internet facilities such as msn, skype made visual communication possible. For example, via skype people not just communicate with their family members and friends, but also make interviews for employment, enrolment into universities. In result, communication has become cheaper, faster and visual. 
+Finally, I believe that computers have made life easier and more convenient in the ways that it broadened the sources of information and made access more quick, a long with the improving quality of the communication in many ways.</OriginalText>
+</Annotation>

@@ -1,0 +1,55 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>technology has a great contribution to our lives and civilization</text>
+    <TextPosition start="1547" end="1612"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>We can not neglect profound impact of great technological process on human life</text>
+    <TextPosition start="1614" end="1693"/>
+    <Relation relationID="RT1-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>thanks to modern technology invented recently, human life has been improved dramatically</text>
+    <TextPosition start="510" end="598"/>
+    <Relation relationID="RT3-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Air-conditioners, computers, cellphones, washing machines, for example, is likely to be seen as greatest inventions helping people to reduce stress and time for other activities</text>
+    <TextPosition start="600" end="777"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>applying technological science into the preparation of medications also plays a significant role in saving the number of patients' lives</text>
+    <TextPosition start="789" end="925"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>technological products have devastated the natural environment indirectly through its production process</text>
+    <TextPosition start="1053" end="1157"/>
+    <Relation relationID="RT6T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>exploiting and collecting raw materials as well as essential fuels to serve the production of technological products have destroyed nature seriously</text>
+    <TextPosition start="1175" end="1323"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>technology may decrease a great deal of creativity in certain groups of people especially children and the youth due to the dependence upon available achievements</text>
+    <TextPosition start="1345" end="1507"/>
+    <Relation relationID="RT8T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>Negative effects of technological process
+
+It is undeniable that technological process has brought numerous benefits making human life become more and more comfortable and easy. Some individuals assume that this technological development also causes many drawbacks impacting seriously on our lives. I personally disagree with this view. In the following paragraphs, both sides of the above matter as well as my own view's explanations would be analyzed and given, respectively.
+Firstly, it is undoubtedly that thanks to modern technology invented recently, human life has been improved dramatically. Air-conditioners, computers, cellphones, washing machines, for example, is likely to be seen as greatest inventions helping people to reduce stress and time for other activities. Moreover, applying technological science into the preparation of medications also plays a significant role in saving the number of patients' lives.
+However, some negative aspects of technological process need to be mentioned clearly. In spite of bring fantastic advantages, technological products have devastated the natural environment indirectly through its production process. This is because exploiting and collecting raw materials as well as essential fuels to serve the production of technological products have destroyed nature seriously. Last but not least, technology may decrease a great deal of creativity in certain groups of people especially children and the youth due to the dependence upon available achievements.
+In conclusion, I totally believe that technology has a great contribution to our lives and civilization. We can not neglect profound impact of great technological process on human life. Nonetheless, its adverse effects need controlling more reasonably.</OriginalText>
+</Annotation>

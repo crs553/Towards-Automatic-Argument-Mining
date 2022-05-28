@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>this trend reflects and enhances the high level of violence in society</text>
+    <TextPosition start="287" end="357"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>being armed with guns in the police force is necessary</text>
+    <TextPosition start="1533" end="1587"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>a society that its police force carries guns will be definitely seen as a highly violent one</text>
+    <TextPosition start="1064" end="1156"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>we need to consider that police armed with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself</text>
+    <TextPosition start="498" end="642"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs</text>
+    <TextPosition start="657" end="820"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>citizens in that society can be shot by both police and offenders accidentally</text>
+    <TextPosition start="828" end="906"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>while on duty, not only are private citizens affected but facilities such as cars, houses, streets are likely to be destroyed by guns</text>
+    <TextPosition start="918" end="1051"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>Those are possibly the strongest evidences to determine a society suffering a high level of violence</text>
+    <TextPosition start="1385" end="1485"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>people and police in those ones usually deal with dangerous diverse crime's categories such as theft, robbery, murder, rape, vandalism, arson</text>
+    <TextPosition start="1231" end="1372"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>police force carries guns only in high crime societies</text>
+    <TextPosition start="1168" end="1222"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Police force carries guns - significant impact for level of violence
+
+The increasing number of street criminals leading to carrying guns in police force has become one of the most significant issues that many people of today's society are very concerned for. Few individuals assume that this trend reflects and enhances the high level of violence in society. I totally agree with this viewpoint for some specific reasons which would be given and analyzed in the following paragraphs.
+First of all, we need to consider that police armed with guns or any other kinds of legal weapons just attempts to protect not only civilians but also himself. As a result, criminals todays are very sophisticated so they spend a large amount of money to acquire modern weapons to cope with the police and serve their own nefarious needs. Thus, citizens in that society can be shot by both police and offenders accidentally. Moreover, while on duty, not only are private citizens affected but facilities such as cars, houses, streets are likely to be destroyed by guns. Therefore, a society that its police force carries guns will be definitely seen as a highly violent one.
+Secondly, police force carries guns only in high crime societies. Hence, people and police in those ones usually deal with dangerous diverse crime's categories such as theft, robbery, murder, rape, vandalism, arson. Obviously, Those are possibly the strongest evidences to determine a society suffering a high level of violence.
+In conclusion, from the above views, although being armed with guns in the police force is necessary, it will bring the higher level of violence. Additionally, the government should to impose strict laws in carrying weapons as well as give professional training to them in order to avoid any influence on civilians' lives.</OriginalText>
+</Annotation>

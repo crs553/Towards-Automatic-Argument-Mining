@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>big cities can be a good place for bringing up children</text>
+    <TextPosition start="205" end="260"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it is a good idea for children to past their first earlier life in the cities</text>
+    <TextPosition start="554" end="631"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Children who live in cities have a lot of entertainment</text>
+    <TextPosition start="732" end="787"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>they can learn a lot of things by watching television and surfing through the net</text>
+    <TextPosition start="1059" end="1140"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>they can exchange their knowledge, they can learn different cultures</text>
+    <TextPosition start="1235" end="1303"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>countrysides have some advantages such as fresh air, peace, and etc</text>
+    <TextPosition start="1325" end="1392"/>
+    <Relation relationID="RT7T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>education is better in big cities in comparison with countrysides</text>
+    <TextPosition start="299" end="364"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>in my country the best schools, universities and institutes are located in cities, and todays education is one of the most important parts of our children's life</text>
+    <TextPosition start="380" end="541"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>it is acknowledged that a large number of creational facilities are built in cities</text>
+    <TextPosition start="647" end="730"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>playgrounds, parks, science museums, cinemas etc</text>
+    <TextPosition start="801" end="849"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>in countrysides we hardly ever see creational facilities</text>
+    <TextPosition start="860" end="916"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Children who live in countrysides most of the time pass their free time in farms</text>
+    <TextPosition start="918" end="998"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>in big cities children access to media easily</text>
+    <TextPosition start="1009" end="1054"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Via internet they can have connection with the other children all around the world</text>
+    <TextPosition start="1142" end="1224"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <OriginalText>It is better for children to grow up in the countryside than in a big city?
+
+Nowadays living is possible on every place of the world, but still there are some differences among them. From my point of view big cities can be a good place for bringing up children.
+To begin with, it is undeniable that education is better in big cities in comparison with countrysides. For instance, in my country the best schools, universities and institutes are located in cities, and todays education is one of the most important parts of our children's life. Therefore, it is a good idea for children to past their first earlier life in the cities.
+What is more, it is acknowledged that a large number of creational facilities are built in cities. Children who live in cities have a lot of entertainment. For example playgrounds, parks, science museums, cinemas etc. However, in countrysides we hardly ever see creational facilities. Children who live in countrysides most of the time pass their free time in farms.
+Finally, in big cities children access to media easily, so they can learn a lot of things by watching television and surfing through the net. Via internet they can have connection with the other children all around the world, therefor they can exchange their knowledge, they can learn different cultures.
+To sum up, although countrysides have some advantages such as fresh air, peace, and etc. Today's children needs somethings to entertain them, and occupy their leisure time in the best way.</OriginalText>
+</Annotation>

@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>i discern that several small breaks will help students to be active in their academics</text>
+    <TextPosition start="509" end="595"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>it not only provide break to them from their regular commitment but also allows them to spend some time on themselves, heel stressful mind and boost desire of resuming to the regular schedule</text>
+    <TextPosition start="2129" end="2320"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Vacations are not only required by students but also by professionals and housekeepers</text>
+    <TextPosition start="2038" end="2124"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>several vacations throughout the year will keep stress level of students low</text>
+    <TextPosition start="606" end="682"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>students learning capability increase after having refreshing vacation</text>
+    <TextPosition start="1439" end="1509"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Many educational bodies schedule its small vacations after term exams so that student's get relief form exam pressure</text>
+    <TextPosition start="684" end="801"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>research done by universities proves that student's performance improves if they get regular breaks from their learning, preparation and examination schedule</text>
+    <TextPosition start="812" end="969"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Many colleges in foreign countries provide vacations to students after each semester that facilitate student to entertain themselves as well as prepare for their next semester</text>
+    <TextPosition start="971" end="1146"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>several holidays aid these students to not only amuse themselves but also arrange fund and materials such as books and references material for their upcoming course</text>
+    <TextPosition start="1153" end="1317"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>in my school we used to get several vacations after our quarterly exams</text>
+    <TextPosition start="1533" end="1604"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>During those vacations i used to analyze my performance in latest examination and used to go through those question or concept again to avoid making same mistakes</text>
+    <TextPosition start="1606" end="1768"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>I also used to spend my time on developing some recreational activity or learning some sports or game</text>
+    <TextPosition start="1770" end="1871"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>During my all vacations, I used to miss my school due to which I used to restart my session with great enthusiasm of learning and scoring good marks in new quarter</text>
+    <TextPosition start="1873" end="2036"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <OriginalText>One long vacation or several long vacation
+
+Everybody require some break from their tight schedules likewise students also require vacation form their intense academic schedules. Many people promote one long vacation system of the school because it would help student to start their course or academic year with strong zeal of learning. So other several, prefer numbers of short breaks during the year so that student can get rejuvenate periodically. In both the scenario students relief themselves. However, i discern that several small breaks will help students to be active in their academics.
+Firstly, several vacations throughout the year will keep stress level of students low. Many educational bodies schedule its small vacations after term exams so that student's get relief form exam pressure. However, research done by universities proves that student's performance improves if they get regular breaks from their learning, preparation and examination schedule. Many colleges in foreign countries provide vacations to students after each semester that facilitate student to entertain themselves as well as prepare for their next semester. Also several holidays aid these students to not only amuse themselves but also arrange fund and materials such as books and references material for their upcoming course.
+Secondly, scientific research provide several authentic survey of the students' performance after break. It states that students learning capability increase after having refreshing vacation. To quote an instance, in my school we used to get several vacations after our quarterly exams. During those vacations i used to analyze my performance in latest examination and used to go through those question or concept again to avoid making same mistakes. I also used to spend my time on developing some recreational activity or learning some sports or game. During my all vacations, I used to miss my school due to which I used to restart my session with great enthusiasm of learning and scoring good marks in new quarter.
+Vacations are not only required by students but also by professionals and housekeepers. As it not only provide break to them from their regular commitment but also allows them to spend some time on themselves, heel stressful mind and boost desire of resuming to the regular schedule. Therefore schools should consider giving several small vocations to the students during the year.</OriginalText>
+</Annotation>

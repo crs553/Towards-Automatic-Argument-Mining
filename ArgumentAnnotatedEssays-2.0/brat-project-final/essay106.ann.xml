@@ -1,0 +1,62 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the effort to prohibit people from smoking in public area is certainly helping in curtailing the associated health risks and to create a healthy nation</text>
+    <TextPosition start="1488" end="1639"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>the number of fatality can be significantly reduced if a total ban on public smoking is implemented</text>
+    <TextPosition start="862" end="961"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>it is well known and clinically proven that smoking is extremely hazardous to the smoker and others who have been exposed to the fume over a period of time</text>
+    <TextPosition start="406" end="561"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Recent death statistic released by the Malaysian Ministry of Health shows that the top killer was lung related diseases caused by smoking</text>
+    <TextPosition start="563" end="700"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>A large proportion of death involved second hand smoker particularly young children and pregnant women who were vulnerable to these lethal diseases</text>
+    <TextPosition start="702" end="849"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>the image of a healthy nation can be promoted when government restricts public smoking by imposing stern penalty to the offender</text>
+    <TextPosition start="973" end="1101"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>This example shows the benefit of restricting public smoking to a country as a whole</text>
+    <TextPosition start="1391" end="1475"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>the Brunei government had recently enforced a law against smoking in public areas such as caf&#233;s, hospital and shopping street</text>
+    <TextPosition start="1117" end="1242"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>This step has curbed down the numbers of smokers in the country and as a result, Brunei remains a place known for its tranquility and cleanliness</text>
+    <TextPosition start="1244" end="1389"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <OriginalText>Prohibit public smoking?
+
+The awareness on harmful effects from smoking among the general public has put much pressure on the government and private sectors. As a result, some businesses prohibit smoking in their premises and even some governments restrict smoking in public area. It is agreed that the move will do more good by looking at the quality of health and image of a nation in long run.
+Firstly, it is well known and clinically proven that smoking is extremely hazardous to the smoker and others who have been exposed to the fume over a period of time. Recent death statistic released by the Malaysian Ministry of Health shows that the top killer was lung related diseases caused by smoking. A large proportion of death involved second hand smoker particularly young children and pregnant women who were vulnerable to these lethal diseases. Therefore, the number of fatality can be significantly reduced if a total ban on public smoking is implemented.
+Secondly, the image of a healthy nation can be promoted when government restricts public smoking by imposing stern penalty to the offender. For instance, the Brunei government had recently enforced a law against smoking in public areas such as caf&#233;s, hospital and shopping street. This step has curbed down the numbers of smokers in the country and as a result, Brunei remains a place known for its tranquility and cleanliness. This example shows the benefit of restricting public smoking to a country as a whole.
+To sum up, the effort to prohibit people from smoking in public area is certainly helping in curtailing the associated health risks and to create a healthy nation. It is hoped that more businesses and governments will follow the same initiatives for the interest of the people and the country.
+</OriginalText>
+</Annotation>

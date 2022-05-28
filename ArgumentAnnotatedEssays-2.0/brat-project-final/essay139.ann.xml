@@ -1,0 +1,80 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>we should give priority to our own issues</text>
+    <TextPosition start="260" end="301"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>biodiversity is essential to maintain the balance of ecosystem</text>
+    <TextPosition start="368" end="430"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>If certain species are absent from this system, such kind of balance is likely to be disrupted and other species, including human beings, will come under threat</text>
+    <TextPosition start="432" end="592"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>it is our responsibility to keep as many species on the Earth as possible</text>
+    <TextPosition start="605" end="678"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>species extinction is quite natural according to the theory of evolution</text>
+    <TextPosition start="697" end="769"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>The environment on the Earth has been transformed many times since the first species came into being</text>
+    <TextPosition start="771" end="871"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>A great number of plants and animals died out</text>
+    <TextPosition start="873" end="918"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>they were unable to fit into the new environment</text>
+    <TextPosition start="927" end="975"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the process of extinction of some species is irrevocable and we can do nothing about it</text>
+    <TextPosition start="996" end="1083"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>We should put our own survival and sustainment in order first before considering the conservation of other species</text>
+    <TextPosition start="1393" end="1507"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>human beings nowadays are still faced with many urgent problems such as starvation, disease and wars</text>
+    <TextPosition start="1098" end="1198"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>When these problems are taken into account, extinction of some animals recedes greatly in importance and it is not sensible to devote our limited resources to animals that have been past help</text>
+    <TextPosition start="1200" end="1391"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Protect animals or not?
+ 
+Many animals today are in danger of extinction owing to various reasons. While some people believe it is important to protect these endangered species, others argue that problems of human beings deserve more attention. In my opinion, we should give priority to our own issues.
+Animal protectionists may base their argument on the ground that biodiversity is essential to maintain the balance of ecosystem. If certain species are absent from this system, such kind of balance is likely to be disrupted and other species, including human beings, will come under threat. Therefore, it is our responsibility to keep as many species on the Earth as possible.
+However, I think species extinction is quite natural according to the theory of evolution. The environment on the Earth has been transformed many times since the first species came into being. A great number of plants and animals died out because they were unable to fit into the new environment. On most occasions, the process of extinction of some species is irrevocable and we can do nothing about it.
+Furthermore, human beings nowadays are still faced with many urgent problems such as starvation, disease and wars. When these problems are taken into account, extinction of some animals recedes greatly in importance and it is not sensible to devote our limited resources to animals that have been past help. We should put our own survival and sustainment in order first before considering the conservation of other species.
+In conclusion, more emphasis should be laid on human beings other than animals, and it is better to let nature take its course with regard to species extinction.</OriginalText>
+</Annotation>

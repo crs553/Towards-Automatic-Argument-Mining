@@ -1,0 +1,68 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>a higher pay can be one of the incentive if were to encourage harder-working employees</text>
+    <TextPosition start="1562" end="1648"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>they will be feeling more cared for and therefore do their best for their bosses</text>
+    <TextPosition start="1776" end="1856"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>A raise or a promotion can no doubt increase the morale in the working places</text>
+    <TextPosition start="346" end="423"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>creating an enjoyable working environment is more realistic and essential if one wishes an increase in productivity and better employee performances</text>
+    <TextPosition start="1055" end="1203"/>
+    <Relation relationID="RT5T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Workers understand they have to work harder to meet the boss' expectations and to make themselves worthwhile</text>
+    <TextPosition start="425" end="533"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>junior high school teachers have great responsibility not only for students' private lives as they are going through adolescence but also their school work</text>
+    <TextPosition start="549" end="704"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>it is an important phase for them to study hard and get into the high school they want</text>
+    <TextPosition start="726" end="812"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>If the teachers receive higher salaries, they will be willing to spend more extra time mentoring the youngsters rather than hoping they learn in cram schools and so forth, as this is what is happening in Taiwan</text>
+    <TextPosition start="814" end="1024"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Take Google for example, the company offers recreation rooms and extra personal leaves for their workers to develop a more relaxing and supportive workforce</text>
+    <TextPosition start="1205" end="1361"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the employers can make sure the employees can actually focus and concentrate on their projects instead of thinking about their children or feeling pressured</text>
+    <TextPosition start="1378" end="1534"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <OriginalText>Paying more money is the only motivation to make employees work harder
+
+The purpose of this essay is to discuss whether or not the only way to motivate employees to be more hard-working and productive is by raising their salaries. In this essay, I would start by analyzing the factors for higher yields and finish by stating my position on this.
+A raise or a promotion can no doubt increase the morale in the working places. Workers understand they have to work harder to meet the boss' expectations and to make themselves worthwhile. For instance, junior high school teachers have great responsibility not only for students' private lives as they are going through adolescence but also their school work due to the fact that it is an important phase for them to study hard and get into the high school they want. If the teachers receive higher salaries, they will be willing to spend more extra time mentoring the youngsters rather than hoping they learn in cram schools and so forth, as this is what is happening in Taiwan.
+Nevertheless, I believe that creating an enjoyable working environment is more realistic and essential if one wishes an increase in productivity and better employee performances. Take Google for example, the company offers recreation rooms and extra personal leaves for their workers to develop a more relaxing and supportive workforce. By doing this, the employers can make sure the employees can actually focus and concentrate on their projects instead of thinking about their children or feeling pressured.
+To sum up, I believe that a higher pay can be one of the incentive if were to encourage harder-working employees. Alternatively, providing a more secured and relaxing environment for workers can fundamentally boost their productivity since they will be feeling more cared for and therefore do their best for their bosses.
+</OriginalText>
+</Annotation>

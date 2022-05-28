@@ -1,0 +1,128 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>groups or organizations are a vital part for us in plenty of aspects in different ages and in different backgrounds</text>
+    <TextPosition start="2419" end="2534"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>almost of us live in the environment of groups</text>
+    <TextPosition start="1087" end="1133"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>the groups play an essential role in the process of socialization, from children to adults</text>
+    <TextPosition start="464" end="554"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>We begin taking part in groups or organizations during the early days of life, and especially most people continue their social participation in all through life</text>
+    <TextPosition start="556" end="717"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>By making teamwork, the children in schools may learn to how to get along with others</text>
+    <TextPosition start="719" end="804"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>As university students, it is likely for them to join student organization of their major in order to expand their experiences or communicate with others</text>
+    <TextPosition start="806" end="959"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>After graduating from schools, employees might go to business associations for various business resources and benefits</text>
+    <TextPosition start="961" end="1079"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>By participating in an organization, it is a positive way for people to obtain some experiences on a particular purpose</text>
+    <TextPosition start="1135" end="1254"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>A solid group can be a suited environment, which provides people to improve themselves or broaden their horizons</text>
+    <TextPosition start="1256" end="1368"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>as a student majoring in mass media, I have taken part in mass media student group for a year</text>
+    <TextPosition start="1383" end="1476"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>When being in the department of art, I have not only learned how to do a project, but also known some famous artists during the term</text>
+    <TextPosition start="1478" end="1610"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>it is advantage which increase an opportunity on my resume for the sake of getting a better job</text>
+    <TextPosition start="1623" end="1718"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>groups and organizations would lead people to take action or achieve their goal</text>
+    <TextPosition start="1733" end="1812"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Tzu Chi, a non-profit Buddhism organization in Taiwan, is famous for contributing to the social and community services, and medical care</text>
+    <TextPosition start="1876" end="2012"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>They bring hopes and inspire others with their generous spirit</text>
+    <TextPosition start="2014" end="2076"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>For accomplishing their missions, the charity should gather people who are volunteers and sponsors for those difficult tasks</text>
+    <TextPosition start="2078" end="2202"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>they could have chance to help the people in need from all over the world</text>
+    <TextPosition start="2275" end="2348"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>they lit the light for the poor and victims</text>
+    <TextPosition start="2217" end="2260"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>humans are a part of the society, and the society includes a wide variety of groups</text>
+    <TextPosition start="366" end="449"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>there are various charities in the world</text>
+    <TextPosition start="1834" end="1874"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <OriginalText>Why are groups or organizations important to people?
+
+During our life, it is inevitable that we may be related with any groups or organizations; therefore, groups and organizations are an important part of their lives. In my point of view, groups provide a place for people to gain experiences or achieve goals. My reasons include the following:
+In the first place, humans are a part of the society, and the society includes a wide variety of groups. Most of all, the groups play an essential role in the process of socialization, from children to adults. We begin taking part in groups or organizations during the early days of life, and especially most people continue their social participation in all through life. By making teamwork, the children in schools may learn to how to get along with others. As university students, it is likely for them to join student organization of their major in order to expand their experiences or communicate with others. After graduating from schools, employees might go to business associations for various business resources and benefits. Thus, almost of us live in the environment of groups.
+By participating in an organization, it is a positive way for people to obtain some experiences on a particular purpose. A solid group can be a suited environment, which provides people to improve themselves or broaden their horizons. For example, as a student majoring in mass media, I have taken part in mass media student group for a year. When being in the department of art, I have not only learned how to do a project, but also known some famous artists during the term. Above all, it is advantage which increase an opportunity on my resume for the sake of getting a better job.
+Furthermore, groups and organizations would lead people to take action or achieve their goal. Here is an example: there are various charities in the world. Tzu Chi, a non-profit Buddhism organization in Taiwan, is famous for contributing to the social and community services, and medical care. They bring hopes and inspire others with their generous spirit. For accomplishing their missions, the charity should gather people who are volunteers and sponsors for those difficult tasks. As a result, they lit the light for the poor and victims; in addition, they could have chance to help the people in need from all over the world. 
+For the above reasons and examples, it could be widely thought that groups or organizations are a vital part for us in plenty of aspects in different ages and in different backgrounds.</OriginalText>
+</Annotation>

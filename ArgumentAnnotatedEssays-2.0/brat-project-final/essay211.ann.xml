@@ -1,0 +1,98 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>schools should not remove these subjects</text>
+    <TextPosition start="2039" end="2079"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>non-academic subjects are as essential as academic subjects for a student&#8217;s development</text>
+    <TextPosition start="1939" end="2026"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>from the health point of view, schools should not only deliver academic subjects</text>
+    <TextPosition start="354" end="434"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>If physical education is removed from the syllabus, there will be considerable negative effects on students&#8217; health</text>
+    <TextPosition start="436" end="551"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>after studying and sitting in the classroom for the whole morning, it is better for students to do some outdoor activities, such as stretching, jogging and playing ball games, in order to improve their learning ability during the afternoon classes</text>
+    <TextPosition start="567" end="814"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>Removing physical classes from school education will not only be harmful to young people&#8217;s health, it will also decrease their learning capability</text>
+    <TextPosition start="816" end="962"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>school education should not only focus on the academic development of a student</text>
+    <TextPosition start="1349" end="1428"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>it is much more crucial to teach them how to be independent and live a good life</text>
+    <TextPosition start="1432" end="1512"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Success in life should be the ultimate goal of a student, which requires more than academic knowledge, but also practical life skills such as cooking, good communication skills and teamwork spirit</text>
+    <TextPosition start="1145" end="1341"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>schools are responsible for developing their students into well-rounded people</text>
+    <TextPosition start="977" end="1055"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>It is more important for a person to success in life than to success only academically</text>
+    <TextPosition start="1057" end="1143"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>students can learn practical skills after school hours from their parents</text>
+    <TextPosition start="1541" end="1614"/>
+    <Relation relationID="RT12T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>it is not a good idea</text>
+    <TextPosition start="1640" end="1661"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>most young people would rather watch TV or play computer games after school instead of learning life skills from their parents</text>
+    <TextPosition start="1670" end="1796"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>parents are usually too busy with their daily jobs to teach their children the life skills</text>
+    <TextPosition start="1808" end="1898"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Non academic subjects should be removed from syllabus
+
+Students have become more and more stressed during the last few years due to the increase in academic tasks assigned by their teachers to improve their academic success. While some people believe that non-academic subjects should be completely removed, I strongly disagree with that.
+To begin with, from the health point of view, schools should not only deliver academic subjects. If physical education is removed from the syllabus, there will be considerable negative effects on students&#8217; health. For instance, after studying and sitting in the classroom for the whole morning, it is better for students to do some outdoor activities, such as stretching, jogging and playing ball games, in order to improve their learning ability during the afternoon classes. Removing physical classes from school education will not only be harmful to young people&#8217;s health, it will also decrease their learning capability.
+In addition, schools are responsible for developing their students into well-rounded people. It is more important for a person to success in life than to success only academically. Success in life should be the ultimate goal of a student, which requires more than academic knowledge, but also practical life skills such as cooking, good communication skills and teamwork spirit. Thus, school education should not only focus on the academic development of a student as it is much more crucial to teach them how to be independent and live a good life.
+Some people may argue that students can learn practical skills after school hours from their parents. However, I believe that it is not a good idea because most young people would rather watch TV or play computer games after school instead of learning life skills from their parents. Moreover, parents are usually too busy with their daily jobs to teach their children the life skills.
+In conclusion, I strongly believe that non-academic subjects are as essential as academic subjects for a student&#8217;s development. Therefore, schools should not remove these subjects.</OriginalText>
+</Annotation>

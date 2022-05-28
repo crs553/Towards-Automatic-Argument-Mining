@@ -1,0 +1,109 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>it's better to have one or two close friends than to have a large number of casual acquaintances</text>
+    <TextPosition start="207" end="303"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>it's much easier to have some casual acquaintances than have some close friends</text>
+    <TextPosition start="814" end="893"/>
+    <Relation relationID="RT1-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>being a friend with someone is different from only being acquaintant</text>
+    <TextPosition start="326" end="394"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>it's not easy to make friend with anyone</text>
+    <TextPosition start="403" end="443"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>friends are people who have great compatibility with each other</text>
+    <TextPosition start="455" end="518"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>After two years in college I have found sometimes there is more differences between people than similarities, for we are growing in the different families and was educated in various ways</text>
+    <TextPosition start="520" end="707"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Sometimes acquaintances are just acquaintances</text>
+    <TextPosition start="709" end="755"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>We spend time together but we could never be friend</text>
+    <TextPosition start="757" end="808"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>close friends can easily understand each others feelings</text>
+    <TextPosition start="903" end="959"/>
+    <Relation relationID="RT9-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>acquaintances probably not able to understand you better than your friends</text>
+    <TextPosition start="1004" end="1078"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>they wouldn't even spare time to consider your feelings</text>
+    <TextPosition start="1090" end="1145"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Everyone play the role of acquaintance and friend at the same time</text>
+    <TextPosition start="1147" end="1213"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Being friendly is a good way to treat a acquaintance but way not enough for a friend</text>
+    <TextPosition start="1215" end="1299"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>When my friend is sick, I would not only ask if he is okay like an acquaintance but do my best to make him get well as soon as possible</text>
+    <TextPosition start="1301" end="1436"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>If my friend is going to the wrong direction in his life trail, I will try my best to pull him back, but not stand and stare like it's not of my business</text>
+    <TextPosition start="1438" end="1591"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>my friend will do the same to me</text>
+    <TextPosition start="1607" end="1639"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>a friend is a person you care about</text>
+    <TextPosition start="1656" end="1691"/>
+    <Relation relationID="RT17-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>One or two close friends vs. a large number of casual acquaintances
+
+There is no need for me to put any emphasis on the advantage of having a large number of casual acquaintance. However, I still agree that it's better to have one or two close friends than to have a large number of casual acquaintances.
+We can not deny that being a friend with someone is different from only being acquaintant. First, it's not easy to make friend with anyone. I believe friends are people who have great compatibility with each other. After two years in college I have found sometimes there is more differences between people than similarities, for we are growing in the different families and was educated in various ways. Sometimes acquaintances are just acquaintances. We spend time together but we could never be friend. So, it's much easier to have some casual acquaintances than have some close friends.
+Second, close friends can easily understand each others feelings. Because of the similarity I talked before, acquaintances probably not able to understand you better than your friends. Moreover, they wouldn't even spare time to consider your feelings. Everyone play the role of acquaintance and friend at the same time. Being friendly is a good way to treat a acquaintance but way not enough for a friend. When my friend is sick, I would not only ask if he is okay like an acquaintance but do my best to make him get well as soon as possible. If my friend is going to the wrong direction in his life trail, I will try my best to pull him back, but not stand and stare like it's not of my business. And I believe my friend will do the same to me. In conclusion, a friend is a person you care about. 
+To me, friends are the most important people in my life second to my family. I am the kind of person who has only one or two close friends, and I am fully content that I have such nice friends. If someone exchange my friends with thousands of acquaintances, I will definitely say NO.</OriginalText>
+</Annotation>

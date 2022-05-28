@@ -1,0 +1,87 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>Society does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers</text>
+    <TextPosition start="475" end="635"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Ads will keep us well informed about new products and services</text>
+    <TextPosition start="1756" end="1818"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>advertising cigarettes and alcohol will definitely affect our children in negative way</text>
+    <TextPosition start="1857" end="1943"/>
+    <Relation relationID="RT4T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>advertising alcohol, cigarettes, goods and services with adult content should be prohibited</text>
+    <TextPosition start="678" end="769"/>
+    <Relation relationID="RT5T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>these kind of ads will have negative effect to our children</text>
+    <TextPosition start="778" end="837"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis</text>
+    <TextPosition start="839" end="942"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>some countries take this issue seriously and advertising alcohol, cigarettes and materials with adult content is banned on those countries</text>
+    <TextPosition start="957" end="1095"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>by advertising companies, businesses, firms and individuals promote their goods and services</text>
+    <TextPosition start="1115" end="1207"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Thanks to ads we learn about new products, we can compare them and choose what&#8217;s the best for us</text>
+    <TextPosition start="1209" end="1305"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>These days, not only many businesses, but also governments have to rely on advertising</text>
+    <TextPosition start="1307" end="1393"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>tourism makes up one-third of the Czech Republic's economy</text>
+    <TextPosition start="1408" end="1466"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>In order to promote the country's attractions, the Czech government has to advertise and sell its services to foreign consumers</text>
+    <TextPosition start="1468" end="1595"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Only well planned and well targeted advertising will bring more foreign tourists to the country</text>
+    <TextPosition start="1597" end="1692"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Society should ban all forms of the advertising
+
+It is no secret that advertising become inseparable part of our modern life. We come across with ads almost everywhere and everyday. Some people argue that companies by advertising their goods or services spend their money for nothing. Other critics say that ads have no purpose, they only cause damages to society and all forms of advertising should be banned. On my part I would like to solve this issue on a different way. Society does need an advertising but it is our responsibility to control the content and what kind of goods and services we would like to offer to our customers.
+First of all, I do support the idea that advertising alcohol, cigarettes, goods and services with adult content should be prohibited because these kind of ads will have negative effect to our children. Youngsters might be tempted to buy cigarettes or alcohol and later to start consume it on a daily basis. Fortunately, some countries take this issue seriously and advertising alcohol, cigarettes and materials with adult content is banned on those countries.
+On the other hand by advertising companies, businesses, firms and individuals promote their goods and services. Thanks to ads we learn about new products, we can compare them and choose what&#8217;s the best for us.
+These days, not only many businesses, but also governments have to rely on advertising. For example, tourism makes up one-third of the Czech Republic's economy. In order to promote the country's attractions, the Czech government has to advertise and sell its services to foreign consumers. Only well planned and well targeted advertising will bring more foreign tourists to the country.
+In conclusion, I think that modern society needs advertising. Ads will keep us well informed about new products and services, but we should also bear in mind that advertising cigarettes and alcohol will definitely affect our children in negative way.
+</OriginalText>
+</Annotation>

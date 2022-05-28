@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>qualification is still the fundamental determinant of an employee's competency of their jobs</text>
+    <TextPosition start="1594" end="1686"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>the importance of social skills should not be neglected as those skills can help one to perform their job effectiveness and efficiency by facilitating interaction and communication with others</text>
+    <TextPosition start="1693" end="1885"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>qualification should be the foremost measurement to determine the value of a employer</text>
+    <TextPosition start="504" end="589"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>It is of importance that workers should be well educated and trained to perform duties of their job</text>
+    <TextPosition start="591" end="690"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>people who work in professional fields such as medicals are required to have a university degree and years of experience</text>
+    <TextPosition start="706" end="826"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Social skills seem to be less important as they cannot contribute to the success of a surgery</text>
+    <TextPosition start="828" end="921"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>organization have been transformed to customers oriented</text>
+    <TextPosition start="1361" end="1417"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Excellent social skills can help employees maintain strong relationship with their clients which thus lead to a better customer satisfaction</text>
+    <TextPosition start="1419" end="1559"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>the importance of social skills have been recognized by increasing number of employers</text>
+    <TextPosition start="963" end="1049"/>
+    <Relation relationID="RT9T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>people nowadays are required to work as a team in their jobs frequently</text>
+    <TextPosition start="1065" end="1136"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Interpersonal skill plays an essential role in helping colleagues to cooperate with each other, especially when conflicts arise</text>
+    <TextPosition start="1138" end="1265"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Better social skills allow them to resolve disagreements in a much more harmony way</text>
+    <TextPosition start="1267" end="1350"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Qualification is still the fundamental determinant of an employee's competency of their jobs
+
+With the increased educational level of workforce, there are growing number of employers seeking criteria other than qualifications such as social skills in their employee selection process. However, some employers still believe that qualifications should be the most paramount criterion. The essay intends to explore both sides of arguments and also present my own opinion. 
+Firstly, some people suggest that qualification should be the foremost measurement to determine the value of a employer. It is of importance that workers should be well educated and trained to perform duties of their job. Specifically, people who work in professional fields such as medicals are required to have a university degree and years of experience. Social skills seem to be less important as they cannot contribute to the success of a surgery. 
+On the other hand, it is no doubt that the importance of social skills have been recognized by increasing number of employers. It is because people nowadays are required to work as a team in their jobs frequently. Interpersonal skill plays an essential role in helping colleagues to cooperate with each other, especially when conflicts arise. Better social skills allow them to resolve disagreements in a much more harmony way. Besides, organization have been transformed to customers oriented. Excellent social skills can help employees maintain strong relationship with their clients which thus lead to a better customer satisfaction.
+To my view, I incline to believe qualification is still the fundamental determinant of an employee's competency of their jobs. Yet, the importance of social skills should not be neglected as those skills can help one to perform their job effectiveness and efficiency by facilitating interaction and communication with others.</OriginalText>
+</Annotation>

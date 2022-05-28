@@ -1,0 +1,109 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>advertising is the major reason for high sales of a product</text>
+    <TextPosition start="325" end="384"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>The most effective way to convince consumers to purchase a product is through advertising</text>
+    <TextPosition start="118" end="207"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>it is not sufficient in itself</text>
+    <TextPosition start="218" end="248"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>The product also should satisfy the needs of the consumers</text>
+    <TextPosition start="250" end="308"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>advertisers push the limits of creativity to dispose the consumers to purchase the product</text>
+    <TextPosition start="479" end="569"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>Advertisement is the most effective way to create a well-known product</text>
+    <TextPosition start="1097" end="1167"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>They make the product preferable</text>
+    <TextPosition start="1569" end="1601"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>We are mainly introduced to products through advertisements</text>
+    <TextPosition start="407" end="466"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases</text>
+    <TextPosition start="571" end="714"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Recently, there is a very creative advertisements of a soft drink product on TV</text>
+    <TextPosition start="716" end="795"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot</text>
+    <TextPosition start="797" end="909"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>the number of that product being sold will increases</text>
+    <TextPosition start="932" end="984"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>the more an advertisement of a product takes place in mass media, the more popular the product becomes</text>
+    <TextPosition start="993" end="1095"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product</text>
+    <TextPosition start="1169" end="1295"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is</text>
+    <TextPosition start="1297" end="1398"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>it also has to be affordable for the consumer</text>
+    <TextPosition start="1409" end="1454"/>
+    <Relation relationID="T16Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>advertisements have undeniable affects on the society about the product being advertised</text>
+    <TextPosition start="1479" end="1567"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>Advertisements affects on consumer goods
+
+Everyday, companies offer a huge number of different products to consumers. The most effective way to convince consumers to purchase a product is through advertising. However, it is not sufficient in itself. The product also should satisfy the needs of the consumers. In my opinion, advertising is the major reason for high sales of a product for several reasons. 
+We are mainly introduced to products through advertisements. Therefore, advertisers push the limits of creativity to dispose the consumers to purchase the product. When the consumers are impressed by the way a product is advertised, they can be convinced to consider that the product is a need in some cases. Recently, there is a very creative advertisements of a soft drink product on TV. The story delivers a desired call to drink that soft drink that people tend to drink when the weather is too hot. As a result of this, the number of that product being sold will increases. 
+Also, the more an advertisement of a product takes place in mass media, the more popular the product becomes. Advertisement is the most effective way to create a well-known product. Consumers tend to purchase the most known product when it comes to picking one out of two different brands of the same product. When a product is commonly used, it becomes trustworthy for the society, no matter what quality it is. However, it also has to be affordable for the consumer. Considering this fact, advertisements have undeniable affects on the society about the product being advertised. They make the product preferable. 
+In conclusion, as I believe that consumers should consider major needs when they purchase goods, high sales are obviously a reflection of the powerful advertisements.</OriginalText>
+</Annotation>

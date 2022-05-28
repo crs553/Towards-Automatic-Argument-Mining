@@ -1,0 +1,74 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>the majority of people in the globe have benefited greatly from these powerful and effective means of modern communication</text>
+    <TextPosition start="428" end="550"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>there are valid arguments to the contrary</text>
+    <TextPosition start="364" end="405"/>
+    <Relation relationID="RT1T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>these new forms of communication do bring a great deal of convenience to humankind</text>
+    <TextPosition start="1132" end="1214"/>
+    <Relation relationID="RT4-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business</text>
+    <TextPosition start="567" end="718"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>With the click of a button, the vast amount of information can be transmitted from America to China in just a few seconds</text>
+    <TextPosition start="720" end="841"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>it is generally felt that the access to these tools of communication is available in every corner of the world</text>
+    <TextPosition start="856" end="966"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>With a mobile phone or a laptop, a person can talk or send messages online at a bus stop, in a corner shop or anywhere they could imagine</text>
+    <TextPosition start="968" end="1105"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>people who live in poverty are less likely to be benefited from modern communication technologies</text>
+    <TextPosition start="1658" end="1755"/>
+    <Relation relationID="RT9T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the more privileged are able to enjoy the benefits</text>
+    <TextPosition start="1281" end="1331"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the wide spread use of these efficient and effective ways of communication costs a considerable amount of money</text>
+    <TextPosition start="1361" end="1472"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Anyone who aims to use these innovations have to not only pay for the appliances such as a mobile phone or a computer but also cover up costs for communication services</text>
+    <TextPosition start="1474" end="1642"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Do modern communication technologies benefit all people
+
+Modern communication technologies such as mobile phones, e-mails and internet chat programs like the MSN Messenger have brought significant changes to our lives in recent years. Yet, there remains some disagreement as to whether the overall effect of this innovation has been positive or negative. Although there are valid arguments to the contrary, it is my belief that the majority of people in the globe have benefited greatly from these powerful and effective means of modern communication.
+To begin with, mobile phones and other tools of modern communication facilitate not only contact with friends and relatives in faraway places but also global business. With the click of a button, the vast amount of information can be transmitted from America to China in just a few seconds. Furthermore, it is generally felt that the access to these tools of communication is available in every corner of the world. With a mobile phone or a laptop, a person can talk or send messages online at a bus stop, in a corner shop or anywhere they could imagine. Therefore, it seems that these new forms of communication do bring a great deal of convenience to humankind.
+Nevertheless, opponents of modern communications claim that only the more privileged are able to enjoy the benefits. They further point out that the wide spread use of these efficient and effective ways of communication costs a considerable amount of money. Anyone who aims to use these innovations have to not only pay for the appliances such as a mobile phone or a computer but also cover up costs for communication services. Consequently, people who live in poverty are less likely to be benefited from modern communication technologies.
+By way of conclusion, I believe that modern communication technologies will benefit more people in the future as the pace of life increases; however, the have-nots cannot be ignored simply because they couldn't afford it.
+</OriginalText>
+</Annotation>

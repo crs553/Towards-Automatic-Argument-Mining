@@ -1,0 +1,128 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>Having one's own hobbies and doing physical activities can bring us a lot of benefits</text>
+    <TextPosition start="274" end="359"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it may take us a lot of times to develop our personal hobbies</text>
+    <TextPosition start="1624" end="1685"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>doing so can bring us a healthy body, a refreshed mind and a way to release pressure and sadness</text>
+    <TextPosition start="1691" end="1787"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>having hobbies and doing physical activities is the best way to keep fit</text>
+    <TextPosition start="368" end="440"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>doing some sport and hobbies can prevent us from becoming too fat or short-sighted</text>
+    <TextPosition start="507" end="589"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Looking at the computer screen all day long can make us daze</text>
+    <TextPosition start="442" end="502"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>My neighbor Tom once was a computer engineer in a big company</text>
+    <TextPosition start="591" end="652"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>He ate fast food everyday and never went out to exercise</text>
+    <TextPosition start="654" end="710"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>When he found out that he was too fat to find a girlfriend, he made up his mind to loose weight</text>
+    <TextPosition start="712" end="807"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>He started to jog every morning</text>
+    <TextPosition start="809" end="840"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>After a moth, he is thinner and finds a girlfriend</text>
+    <TextPosition start="842" end="892"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>having hobbies and doing sports can refresh our mind</text>
+    <TextPosition start="947" end="999"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>doing something for a long time can be boring</text>
+    <TextPosition start="900" end="945"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>at school, students have breaks every class so that they can relax for a few minutes and prepare for the next class</text>
+    <TextPosition start="1014" end="1129"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Humans are not robots; we can't keep working for twenty-four hours</text>
+    <TextPosition start="1131" end="1197"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>Doing sports or hobbies for a short time can recharge our batteries</text>
+    <TextPosition start="1199" end="1266"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>we should develop at least one personal hobby, not to show off, but express our emotion when we feel depressed or pressured</text>
+    <TextPosition start="1274" end="1397"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>Playing musical instrument is a good way, I can play classical guitar</text>
+    <TextPosition start="1399" end="1468"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>When I meet difficulties in studies, I will take my guitar and play the song Green Sleeves</text>
+    <TextPosition start="1470" end="1560"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>It makes me feel better and gives me the confidence</text>
+    <TextPosition start="1562" end="1613"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>People should have hobbies and do physical activities
+
+Whether or not people should have hobbies and do physical activities has been a controversial question. Different people have different ideas. Some people think we should focus on our jobs, but I don't agree with them. Having one's own hobbies and doing physical activities can bring us a lot of benefits.
+First, having hobbies and doing physical activities is the best way to keep fit. Looking at the computer screen all day long can make us daze, so doing some sport and hobbies can prevent us from becoming too fat or short-sighted. My neighbor Tom once was a computer engineer in a big company. He ate fast food everyday and never went out to exercise. When he found out that he was too fat to find a girlfriend, he made up his mind to loose weight. He started to jog every morning. After a moth, he is thinner and finds a girlfriend.
+Also, doing something for a long time can be boring, having hobbies and doing sports can refresh our mind. For example, at school, students have breaks every class so that they can relax for a few minutes and prepare for the next class. Humans are not robots; we can't keep working for twenty-four hours. Doing sports or hobbies for a short time can recharge our batteries.
+Last, we should develop at least one personal hobby, not to show off, but express our emotion when we feel depressed or pressured. Playing musical instrument is a good way, I can play classical guitar. When I meet difficulties in studies, I will take my guitar and play the song Green Sleeves. It makes me feel better and gives me the confidence.
+Although it may take us a lot of times to develop our personal hobbies, but doing so can bring us a healthy body, a refreshed mind and a way to release pressure and sadness. Hence, I think it is good for us to have hobbies and do physical activities which are different from our work.</OriginalText>
+</Annotation>

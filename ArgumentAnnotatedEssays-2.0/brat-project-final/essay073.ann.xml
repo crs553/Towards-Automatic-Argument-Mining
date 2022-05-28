@@ -1,0 +1,80 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I agree only to certain degree that in today's world, image serves as a more effective means of communication</text>
+    <TextPosition start="378" end="487"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it is undeniable that images in the absence of words can obviously claim the attraction of many</text>
+    <TextPosition start="1105" end="1200"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>pictures can influence the way people think</text>
+    <TextPosition start="498" end="541"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>nowadays horrendous images are displayed on the cigarette boxes to illustrate the consequences of smoking</text>
+    <TextPosition start="556" end="661"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>statistics show a slight reduction in the number of smokers, indicating that they realize the effects of the negative habit</text>
+    <TextPosition start="676" end="799"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the magnificent photograph captured by Kevin Carter, which portrayed a starving Sudanese child struck by extreme poverty has successfully highlighted the plight faced by the citizens in Sudan</text>
+    <TextPosition start="816" end="1007"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>images are also widely used in newspapers, magazines and advertisements</text>
+    <TextPosition start="1026" end="1097"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>written words are also vital in order to spread across certain messages</text>
+    <TextPosition start="1236" end="1307"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>With only pictures, everyone is left to their own interpretation on how they perceive the images</text>
+    <TextPosition start="1309" end="1405"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>this is different when words are used to explain what the illustration is about</text>
+    <TextPosition start="1420" end="1499"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>the primary way of educating students is also by this way</text>
+    <TextPosition start="1514" end="1571"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Academic textbooks these days are laden with words besides pictures to guide the readers to comprehend better</text>
+    <TextPosition start="1573" end="1682"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Is image more powerful than the written word?
+
+"A picture is worth a thousand words" is a popular maxim that is being used for a very long time. This strongly depicts the power of images in conveying messages, ideas, or opinions to people. Nevertheless, the importance of written word can never be denied as it is also another way of communication that is commonly used. Hence, I agree only to certain degree that in today's world, image serves as a more effective means of communication.
+Firstly, pictures can influence the way people think. For example, nowadays horrendous images are displayed on the cigarette boxes to illustrate the consequences of smoking. As a result, statistics show a slight reduction in the number of smokers, indicating that they realize the effects of the negative habit. Not only that, the magnificent photograph captured by Kevin Carter, which portrayed a starving Sudanese child struck by extreme poverty has successfully highlighted the plight faced by the citizens in Sudan. Apart from that, images are also widely used in newspapers, magazines and advertisements. Thus, it is undeniable that images in the absence of words can obviously claim the attraction of many.
+Looking from another perspective, written words are also vital in order to spread across certain messages. With only pictures, everyone is left to their own interpretation on how they perceive the images. Nonetheless, this is different when words are used to explain what the illustration is about. Furthermore, the primary way of educating students is also by this way. Academic textbooks these days are laden with words besides pictures to guide the readers to comprehend better.
+To conclude, both images and words go hand in hand and one cannot wholly emphasise on only one aspect, either images or words. Hence, for a more meaningful communication, these two elements have their respective roles to play: image to exemplify and words to describe a particular subject.
+</OriginalText>
+</Annotation>

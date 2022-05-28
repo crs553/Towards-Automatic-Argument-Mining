@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>these various advertisements get people to buy products that are unnecessary and only look good on television</text>
+    <TextPosition start="183" end="292"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product</text>
+    <TextPosition start="446" end="586"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>To boost their sales and win over customers, companies pour a great amount of money into advertising</text>
+    <TextPosition start="326" end="426"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>huge cooperation hire celebrities as the face of their product</text>
+    <TextPosition start="605" end="667"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>By casting famous singers in their television advertisement, motorcycles or clothes for example, sales increase significantly</text>
+    <TextPosition start="669" end="794"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>youngsters, as the target consumers, love celebrities</text>
+    <TextPosition start="801" end="854"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>having these products shows their status</text>
+    <TextPosition start="862" end="902"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>the quality obviously is not relatively important</text>
+    <TextPosition start="904" end="953"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>it plays and important role economically</text>
+    <TextPosition start="1055" end="1095"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>they aim to grab your attention</text>
+    <TextPosition start="1211" end="1242"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>They introduce new products, and provide various choices, not to mention they are often visually enjoyable</text>
+    <TextPosition start="1097" end="1203"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>advertisements can be falseful and exaggerated</text>
+    <TextPosition start="986" end="1032"/>
+    <Relation relationID="T10Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Advertising also helps to keep prices at reasonable levels, creates a fair environment for commercial competition</text>
+    <TextPosition start="1244" end="1357"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Otherwise the market may be monopolistic, and the price as well as the choice will not be so selective</text>
+    <TextPosition start="1359" end="1461"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>High sales reflect power of advertising and not the real need
+
+Nowadays, we can see advertisements everywhere, from television set to posters on the streets. Some people believe that these various advertisements get people to buy products that are unnecessary and only look good on television. I tend to agree with this view.
+To boost their sales and win over customers, companies pour a great amount of money into advertising. Most of the time, it is not about the function or quality of the commodities themselves but really the promotion of the good feeling of possessing the product. By which I mean, huge cooperation hire celebrities as the face of their product. By casting famous singers in their television advertisement, motorcycles or clothes for example, sales increase significantly since youngsters, as the target consumers, love celebrities. Since having these products shows their status, the quality obviously is not relatively important.
+However, despite the fact that advertisements can be falseful and exaggerated, it is also true that it plays and important role economically. They introduce new products, and provide various choices, not to mention they are often visually enjoyable, since they aim to grab your attention. Advertising also helps to keep prices at reasonable levels, creates a fair environment for commercial competition. Otherwise the market may be monopolistic, and the price as well as the choice will not be so selective.
+The power of advertising maybe over-rated, we can not deny that the final decision is on the hands of us consumers. No matter how appealing the advertisements are, we should be able to make the decision on our own.
+</OriginalText>
+</Annotation>

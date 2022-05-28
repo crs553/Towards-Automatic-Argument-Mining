@@ -1,0 +1,80 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly</text>
+    <TextPosition start="1798" end="1927"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>they have been instilled and imparted the most updated knowledge and skills at universities</text>
+    <TextPosition start="633" end="724"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>fresh graduates are likely to bring a number of practical and applicable ideas to meet the current needs of the organisation</text>
+    <TextPosition start="491" end="615"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>having a larger proportion of young adults could enhance the working effectiveness and efficiency</text>
+    <TextPosition start="736" end="833"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Compared with aged staffs, younger employees are often physically stronger and energetic which enables them to carry out heavy workload to meet the deadline</text>
+    <TextPosition start="835" end="991"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>encouraging the workers to retire at age of fifty-five to release the positions for younger job seekers has some merits</text>
+    <TextPosition start="361" end="480"/>
+    <Relation relationID="RT6T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>the introduction of the early retirement has some benefits</text>
+    <TextPosition start="1716" end="1774"/>
+    <Relation relationID="RT7T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>From social perspective, massively forcing the early retirement would be one of financial burden to the local government</text>
+    <TextPosition start="1376" end="1496"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>sufficient pension payments and regular medical care should be given and arranged for the senior citizens after they have been imposed to terminate their employment permanently</text>
+    <TextPosition start="1511" end="1687"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>sacrificing the senior members to save the young workers poses several negative influences</text>
+    <TextPosition start="1002" end="1092"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>From personal level, it fosters a sense of unfairness between the older and younger generations</text>
+    <TextPosition start="1094" end="1189"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>every person within the business enterprise has the rights to proceed their work as long as they are capable of doing it, disregard the age and physical capacity</text>
+    <TextPosition start="1213" end="1374"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Early retirement for 55+ employees to help younger people
+
+Nowadays the discussion about whether the businesses are supposed to prescribe the retirement age at fifty-five to offer more job vacancies for younger generation has become a controversy. Some believe that is a perfect attempt to support the young, others claim that this is not the case.
+Admittedly, encouraging the workers to retire at age of fifty-five to release the positions for younger job seekers has some merits. Firstly, fresh graduates are likely to bring a number of practical and applicable ideas to meet the current needs of the organisation. This is because they have been instilled and imparted the most updated knowledge and skills at universities. Secondly, having a larger proportion of young adults could enhance the working effectiveness and efficiency. Compared with aged staffs, younger employees are often physically stronger and energetic which enables them to carry out heavy workload to meet the deadline.
+However, sacrificing the senior members to save the young workers poses several negative influences. From personal level, it fosters a sense of unfairness between the older and younger generations. It is undeniable that every person within the business enterprise has the rights to proceed their work as long as they are capable of doing it, disregard the age and physical capacity. From social perspective, massively forcing the early retirement would be one of financial burden to the local government. For example, sufficient pension payments and regular medical care should be given and arranged for the senior citizens after they have been imposed to terminate their employment permanently.
+In conclusion, even though the introduction of the early retirement has some benefits, it is convincing that it would generate a sense of discrimination among different age groups and increase the government financial pressure accordingly.
+</OriginalText>
+</Annotation>

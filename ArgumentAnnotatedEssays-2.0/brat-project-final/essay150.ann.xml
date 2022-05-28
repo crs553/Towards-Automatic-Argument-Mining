@@ -1,0 +1,122 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>reading fiction is more enjoyable than watching movies</text>
+    <TextPosition start="144" end="198"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>these books have more depth, are much easier to use, and more useful for language learners</text>
+    <TextPosition start="1771" end="1861"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>fiction books pay more attention to details</text>
+    <TextPosition start="235" end="278"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>we can know characters, places, and times of a novel very well during reading it</text>
+    <TextPosition start="289" end="369"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Most of the novels describe not only main characters but also other people in the novels, where each scene is happening</text>
+    <TextPosition start="371" end="490"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>after I read animal farms which is a story of Russian revolution, I could understand the leaders and different segments of the Russian people</text>
+    <TextPosition start="505" end="646"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>a movie just gives us a very small review of its stories and characters</text>
+    <TextPosition start="657" end="728"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>reading a novel is more convenient</text>
+    <TextPosition start="740" end="774"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Some novels have around 100 pages and readers cannot finish them in just one hour</text>
+    <TextPosition start="776" end="857"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Yet these people can continue to read their novels wherever they find free time such as in bus or trains</text>
+    <TextPosition start="859" end="963"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>I have started to read a novel since last week</text>
+    <TextPosition start="978" end="1024"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>I do not have enough time to read a novel in one day, so I usually read it when I am coming home from English class</text>
+    <TextPosition start="1026" end="1141"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>I cannot watch a complete movie</text>
+    <TextPosition start="1156" end="1187"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>I can just sit in front of TV for 15 minutes and after that, I have to study</text>
+    <TextPosition start="1196" end="1272"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>people enjoy watching TV</text>
+    <TextPosition start="1303" end="1327"/>
+    <Relation relationID="RT16T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>they can learn many things such as learning a language by watching movies</text>
+    <TextPosition start="1343" end="1416"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>movies are not a good idea to learn a language for beginners</text>
+    <TextPosition start="1470" end="1530"/>
+    <Relation relationID="T16Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>characters in movies speak very fast and unclear for language learners</text>
+    <TextPosition start="1537" end="1607"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>For these learners it is better to start by reading some novels which are more comprehensible and enjoyable</text>
+    <TextPosition start="1609" end="1716"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>Reading fictions is more pleasant
+
+There are many different opinions regarding hobbies. Some people would rather watch TV. However, in my view, reading fiction is more enjoyable than watching movies for the following reasons.
+Firstly, fiction books pay more attention to details. In fact, we can know characters, places, and times of a novel very well during reading it. Most of the novels describe not only main characters but also other people in the novels, where each scene is happening. For example, after I read animal farms which is a story of Russian revolution, I could understand the leaders and different segments of the Russian people. However, a movie just gives us a very small review of its stories and characters.
+Secondly, reading a novel is more convenient. Some novels have around 100 pages and readers cannot finish them in just one hour. Yet these people can continue to read their novels wherever they find free time such as in bus or trains. For example, I have started to read a novel since last week. I do not have enough time to read a novel in one day, so I usually read it when I am coming home from English class. In contrast, I cannot watch a complete movie because I can just sit in front of TV for 15 minutes and after that, I have to study.
+Some people might argue that people enjoy watching TV when they know they can learn many things such as learning a language by watching movies. This point has some merits on the surface; however, movies are not a good idea to learn a language for beginners since characters in movies speak very fast and unclear for language learners. For these learners it is better to start by reading some novels which are more comprehensible and enjoyable.
+To sum up, reading fictions is more pleasant because these books have more depth, are much easier to use, and more useful for language learners.</OriginalText>
+</Annotation>

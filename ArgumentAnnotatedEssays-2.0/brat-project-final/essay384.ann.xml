@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>governments should definitely reduce violent components to the minimum in kidvids, while such contents remain in the TV shows that for mature minds to watch would be entirely reasonable</text>
+    <TextPosition start="306" end="491"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>reducing the proportion of violent content in TV shows could, to some degree, decrease the overall crime rate</text>
+    <TextPosition start="506" end="615"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>governments must first prohibit any types of violent content in all children&#8217;s television programs</text>
+    <TextPosition start="676" end="774"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>As a result of mental immaturity, most youngsters are incapable of distinguishing right from wrong</text>
+    <TextPosition start="776" end="874"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>by watching these violent TV programs and videos, juveniles will become very aggressive and offensive and have a great tendency to commit crimes</text>
+    <TextPosition start="902" end="1046"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>it would be rather necessary for governments to establish an intensive law that prevents teenagers from watching these violent and brutal TV Shows and movies</text>
+    <TextPosition start="1059" end="1216"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>adults watch horror video or war movies for relaxing themselves after a busy day</text>
+    <TextPosition start="1420" end="1500"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>For whom, such media sources are mere materials of relaxation and entertainment</text>
+    <TextPosition start="1502" end="1581"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Considering that these mature minds are capable of being responsible for their own behaviors, they certainly have the right to watch TV shows or movies that are appealing to them</text>
+    <TextPosition start="1583" end="1761"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>it would certainly be a violation of adults&#8217; civil liberties, if governments implement such a restricted regulation on these TV shows or movies that only for mature audiences</text>
+    <TextPosition start="1232" end="1406"/>
+    <Relation relationID="RT11T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Large amount of violence in television programs
+
+Excessive violence in television programs has been one of the major concerns facing society. Reducing such contents from TV shows is the widely accepted solution endorsed by the majority of governments throughout the world today. Personally, I believe that governments should definitely reduce violent components to the minimum in kidvids, while such contents remain in the TV shows that for mature minds to watch would be entirely reasonable. 
+Admittedly, reducing the proportion of violent content in TV shows could, to some degree, decrease the overall crime rate. However, in order to tackle this problem more effectively, governments must first prohibit any types of violent content in all children&#8217;s television programs. As a result of mental immaturity, most youngsters are incapable of distinguishing right from wrong. Little wonder, then, that by watching these violent TV programs and videos, juveniles will become very aggressive and offensive and have a great tendency to commit crimes. Therefore, it would be rather necessary for governments to establish an intensive law that prevents teenagers from watching these violent and brutal TV Shows and movies.
+Nevertheless, it would certainly be a violation of adults&#8217; civil liberties, if governments implement such a restricted regulation on these TV shows or movies that only for mature audiences. Frequently, adults watch horror video or war movies for relaxing themselves after a busy day. For whom, such media sources are mere materials of relaxation and entertainment. Considering that these mature minds are capable of being responsible for their own behaviors, they certainly have the right to watch TV shows or movies that are appealing to them. 
+In conclusion, it is my belief that violent contents must be excluded from all kidvids in order to reduce the proportion of juvenile delinquency; however, the adults should not be the victim of this policy.</OriginalText>
+</Annotation>

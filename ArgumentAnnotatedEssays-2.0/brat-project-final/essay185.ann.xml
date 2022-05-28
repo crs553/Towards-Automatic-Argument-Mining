@@ -1,0 +1,116 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>new forms of energy cannot soon replace fossil fuels such as gases, oil, and coal</text>
+    <TextPosition start="163" end="244"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>due to the limitation of technology renewable resources are relatively expensive</text>
+    <TextPosition start="255" end="335"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Researches in renewable energy cost a huge amount of money which developing countries cannot afford</text>
+    <TextPosition start="337" end="436"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>fossil fuels are abundant and inexpensive in many areas</text>
+    <TextPosition start="457" end="512"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>it is estimated that China has the largest deposit of coal in the world and the government does not want to invest too much money on new forms of energy, say expensive solar batteries and wind farms</text>
+    <TextPosition start="527" end="725"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the plan of renewable resources of energy may face challenges in that not every country can afford the reforming</text>
+    <TextPosition start="732" end="844"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>these new forms of energy may not be as clean and green as we think</text>
+    <TextPosition start="939" end="1006"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>utility companies claim that renewable energy is environmentally friendly</text>
+    <TextPosition start="864" end="937"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Latest studies have shown that these renewable resources of energy are problematic as well and they are very likely to pose long-term environmental hazards</text>
+    <TextPosition start="1008" end="1163"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the dams built for hydroelectricity influence the water flows of the rivers and sometimes cause drought in areas in front of the dams</text>
+    <TextPosition start="1178" end="1311"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>This damages the habitats of many valuable fish and wading birds</text>
+    <TextPosition start="1313" end="1377"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>the accumulation of heavy metal in the silt on the bottom of the rivers behind the dams is extremely difficult and expensive to clean up; leaving problems for the following generations</text>
+    <TextPosition start="1397" end="1581"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>renewable resources are not as reliable as we think</text>
+    <TextPosition start="1588" end="1639"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>contemporarily fossil fuels cause serious environmental conundrums such as acid rain, deduction of ozone layer and global warming</text>
+    <TextPosition start="1652" end="1781"/>
+    <Relation relationID="RT14T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>these problems can be solved by improving efficiency of the mechanism and reducing emissions</text>
+    <TextPosition start="1783" end="1875"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>we can use chemicals to desulfurize the emissions from plants and vehicles to avoid acid rain</text>
+    <TextPosition start="1889" end="1982"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>These improving methods are often cheaper and simpler compared to the high-tech of renewable energy</text>
+    <TextPosition start="1984" end="2083"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>With these solutions fossil fuels seem more sustainable</text>
+    <TextPosition start="2085" end="2140"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Fossil fuels will soon be replaced?
+
+Although renewable resources of energy are elements of the current and future energy strategy, as far as I'm concerned, these new forms of energy cannot soon replace fossil fuels such as gases, oil, and coal.
+Firstly, due to the limitation of technology renewable resources are relatively expensive. Researches in renewable energy cost a huge amount of money which developing countries cannot afford. On the other hand, fossil fuels are abundant and inexpensive in many areas. For example, it is estimated that China has the largest deposit of coal in the world and the government does not want to invest too much money on new forms of energy, say expensive solar batteries and wind farms. Thus the plan of renewable resources of energy may face challenges in that not every country can afford the reforming.
+Besides, although utility companies claim that renewable energy is environmentally friendly; these new forms of energy may not be as clean and green as we think. Latest studies have shown that these renewable resources of energy are problematic as well and they are very likely to pose long-term environmental hazards. For example, the dams built for hydroelectricity influence the water flows of the rivers and sometimes cause drought in areas in front of the dams. This damages the habitats of many valuable fish and wading birds. More importantly, the accumulation of heavy metal in the silt on the bottom of the rivers behind the dams is extremely difficult and expensive to clean up; leaving problems for the following generations. Thus renewable resources are not as reliable as we think.
+Admittedly contemporarily fossil fuels cause serious environmental conundrums such as acid rain, deduction of ozone layer and global warming; these problems can be solved by improving efficiency of the mechanism and reducing emissions. For example we can use chemicals to desulfurize the emissions from plants and vehicles to avoid acid rain. These improving methods are often cheaper and simpler compared to the high-tech of renewable energy. With these solutions fossil fuels seem more sustainable.
+In conclusion as promising as renewable resources of energy sound, there is no way those new forms of energy will replace fossil fuels soon. </OriginalText>
+</Annotation>

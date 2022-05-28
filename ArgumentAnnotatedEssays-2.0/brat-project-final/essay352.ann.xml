@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>It is disagreed that computer can affect children in a negative way if they use a computer on a daily basis</text>
+    <TextPosition start="197" end="304"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>computer assists children to use vast resources available over internet to study effectively as well as develop some basic skills which help them in future careers</text>
+    <TextPosition start="343" end="506"/>
+    <Relation relationID="RT1-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>computer impacts children on a positive note</text>
+    <TextPosition start="1043" end="1087"/>
+    <Relation relationID="RT4-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>through computer children can access internet to gather knowledge on the subjects they are studying or they are interested about</text>
+    <TextPosition start="642" end="770"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>The best thing about internet is the availability of information in the form of text, image or video related to almost everything</text>
+    <TextPosition start="508" end="637"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>students preparing for delivering speech on a certain topic can browse through internet to learn each and every minute details of the subject matter</text>
+    <TextPosition start="787" end="935"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>It's hard to get everything at a same place unless children are not familiar with computers</text>
+    <TextPosition start="937" end="1028"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>it's clear that computer has a positive effect on the children</text>
+    <TextPosition start="1594" end="1656"/>
+    <Relation relationID="RT9-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>computers enable people to prepare presentations, draw complex graphs and pictures, document thesis in a simple though efficient way</text>
+    <TextPosition start="1099" end="1231"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>When children are allowed to play around with computer from a very early age, they get acquainted with the previously mentioned skills and become expert before facing professional world</text>
+    <TextPosition start="1233" end="1418"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>students who used to prepare Microsoft PowerPoint presentation for their school projects, get an edge over others at an early stage of their career</text>
+    <TextPosition start="1434" end="1581"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Using a computer every day can have more negative than positive effects
+
+In today's world, computer is an essential part of everyday life. Around the globe, the effect is evident on children also. It is disagreed that computer can affect children in a negative way if they use a computer on a daily basis. This will be proven by analyzing how computer assists children to use vast resources available over internet to study effectively as well as develop some basic skills which help them in future careers.
+The best thing about internet is the availability of information in the form of text, image or video related to almost everything and through computer children can access internet to gather knowledge on the subjects they are studying or they are interested about. As an example, students preparing for delivering speech on a certain topic can browse through internet to learn each and every minute details of the subject matter. It's hard to get everything at a same place unless children are not familiar with computers. That is how, computer impacts children on a positive note.
+Nowadays, computers enable people to prepare presentations, draw complex graphs and pictures, document thesis in a simple though efficient way. When children are allowed to play around with computer from a very early age, they get acquainted with the previously mentioned skills and become expert before facing professional world. For instance, students who used to prepare Microsoft PowerPoint presentation for their school projects, get an edge over others at an early stage of their career. From this, it's clear that computer has a positive effect on the children.
+Following the demonstration of a computer's contribution in children's study and building skills which are to be used in their career afterwards, it is agreed that computer is a boon to children. However, parents should advise and guide their children properly so that they don't get misled.</OriginalText>
+</Annotation>

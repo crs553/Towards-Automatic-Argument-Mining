@@ -1,0 +1,97 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T3">
+    <ADU type="conclusion"/>
+    <text>we should preserve historic buildings in the city</text>
+    <TextPosition start="1414" end="1463"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>The historic buildings show the history of our ancestors</text>
+    <TextPosition start="222" end="278"/>
+    <Relation relationID="RT1-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>they can develop tourism industries by attracting tourists</text>
+    <TextPosition start="293" end="351"/>
+    <Relation relationID="RT2-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>They can benefit us financially by developing other industries</text>
+    <TextPosition start="1465" end="1527"/>
+    <Relation relationID="RT4-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>they are the symbols of our nations, which can show the historical culture of our previous ancestors</text>
+    <TextPosition start="1539" end="1639"/>
+    <Relation relationID="RT5-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>Historic buildings answer many questions, which are mysterious about our previous ancestors; thereby no one can determine the price of the historic buildings</text>
+    <TextPosition start="354" end="511"/>
+    <Relation relationID="RT7-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>They show the history of nations and previous generations who lived in the city</text>
+    <TextPosition start="513" end="592"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>They show the lifestyle of people who lived in thousands of years ago</text>
+    <TextPosition start="594" end="663"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>They show us how they survive, or how they defend themselves etc</text>
+    <TextPosition start="665" end="729"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>By investigating about their structures, we can understand how much they knew about the architecture of building</text>
+    <TextPosition start="731" end="843"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>historic buildings are important treasures, which provide an area to learn valuable lessons</text>
+    <TextPosition start="864" end="955"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>It is a valuable opportunities for any city having historic buildings to show them to new visitors</text>
+    <TextPosition start="1161" end="1259"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>It is interesting for most people to know about the way people live in thousands years ago</text>
+    <TextPosition start="1058" end="1148"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>Another advantage of historic buildings is their capabilities to attract more tourists to the city</text>
+    <TextPosition start="958" end="1056"/>
+    <Relation relationID="RT15-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Historic building can develop other industries such as restaurants or other food industries and handicrafts shops and so on</text>
+    <TextPosition start="1261" end="1384"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <OriginalText>Replacing old buildings is important for any city but it should not affect historic houses
+
+It is important for any city to replace old buildings with new ones, but these revolutions should not include historic buildings. The historic buildings show the history of our ancestors. In addition, they can develop tourism industries by attracting tourists. 
+Historic buildings answer many questions, which are mysterious about our previous ancestors; thereby no one can determine the price of the historic buildings. They show the history of nations and previous generations who lived in the city. They show the lifestyle of people who lived in thousands of years ago. They show us how they survive, or how they defend themselves etc. By investigating about their structures, we can understand how much they knew about the architecture of building. In the other hand, historic buildings are important treasures, which provide an area to learn valuable lessons. 
+Another advantage of historic buildings is their capabilities to attract more tourists to the city. It is interesting for most people to know about the way people live in thousands years ago. Therefore, It is a valuable opportunities for any city having historic buildings to show them to new visitors. Historic building can develop other industries such as restaurants or other food industries and handicrafts shops and so on. 
+These are reasons that why we should preserve historic buildings in the city. They can benefit us financially by developing other industries. Moreover, they are the symbols of our nations, which can show the historical culture of our previous ancestors.</OriginalText>
+</Annotation>

@@ -1,0 +1,134 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>people who can't accept others' criticism can't succeed in group working</text>
+    <TextPosition start="310" end="382"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>the work belongs to every member, not a personal show for specific one member</text>
+    <TextPosition start="871" end="948"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>It doesn't work if one member solely insists on his/her idea and doesn't take other member's criticism</text>
+    <TextPosition start="760" end="862"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>It's every member's duty to respect other's opinion</text>
+    <TextPosition start="950" end="1001"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>the core of group working is "consensus"</text>
+    <TextPosition start="432" end="472"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>It's the idea that everyone&#8217;s opinion accounts</text>
+    <TextPosition start="474" end="520"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>In group works, group members gather together to have brain-storming discussion, think over every possible solutions and then finally reach an agreement</text>
+    <TextPosition start="522" end="674"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Criticism definitely hurts</text>
+    <TextPosition start="1173" end="1199"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>it points out your drawbacks and forces you to confront them</text>
+    <TextPosition start="1208" end="1268"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>criticism can help you detect those drawbacks and fix them if you are willing to take it</text>
+    <TextPosition start="1279" end="1367"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>Even if you are not working in a group, you still need to take others' criticism</text>
+    <TextPosition start="1091" end="1171"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>taking criticism is a virtue as you take someone's opinion that is against you</text>
+    <TextPosition start="1011" end="1089"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Those who don't even take a word of criticism will eventually lose chances to get improved</text>
+    <TextPosition start="1369" end="1459"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>if you can't take any criticism, not only will you fail in cooperating with other people, but also get defeated in personal works</text>
+    <TextPosition start="1477" end="1606"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>As one Chinese idiom goes: "The good medicine tastes bitter&#8220;</text>
+    <TextPosition start="1608" end="1668"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Criticism might be the most powerful solution to heal</text>
+    <TextPosition start="1670" end="1723"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>even if you are right, criticism is still helpful</text>
+    <TextPosition start="1966" end="2015"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>in this case it not only is a fixer, but it also serves as a practice to test you how much you know about your work</text>
+    <TextPosition start="2024" end="2139"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>Taking criticism doesn't necessary mean that you have to take it all</text>
+    <TextPosition start="2141" end="2209"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>You should have your own judgments too</text>
+    <TextPosition start="2211" end="2249"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>And it's kind of art to make the best use of criticism</text>
+    <TextPosition start="2251" end="2305"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <OriginalText>People who can&#8217;t accept others&#8217; criticism can&#8217;t succeed in group working
+
+In everyday life we encounter different people, and we receive different opinions about us or our works, no matter positive or negative. It might be easy to take praises but hard to accept criticism. Therefore, here goes the point that people who can't accept others' criticism can't succeed in group working. Personally, I agree with this statement.
+First, the core of group working is "consensus". It's the idea that everyone&#8217;s opinion accounts. In group works, group members gather together to have brain-storming discussion, think over every possible solutions and then finally reach an agreement. In this long process of discussion, there must be different opinions sparkling out. It doesn't work if one member solely insists on his/her idea and doesn't take other member's criticism because the work belongs to every member, not a personal show for specific one member. It's every member's duty to respect other's opinion.
+Second, taking criticism is a virtue as you take someone's opinion that is against you. Even if you are not working in a group, you still need to take others' criticism. Criticism definitely hurts because it points out your drawbacks and forces you to confront them. However, criticism can help you detect those drawbacks and fix them if you are willing to take it. Those who don't even take a word of criticism will eventually lose chances to get improved. In other words, if you can't take any criticism, not only will you fail in cooperating with other people, but also get defeated in personal works. As one Chinese idiom goes: "The good medicine tastes bitter&#8220;. Criticism might be the most powerful solution to heal.
+However, some people might ask: what if the criticism proves to be wrong? What if that I was at first right but the seemingly reasonable criticism led me to the wrong direction? Doesn't insistence also a good character? In my point of view, even if you are right, criticism is still helpful because in this case it not only is a fixer, but it also serves as a practice to test you how much you know about your work. Taking criticism doesn't necessary mean that you have to take it all. You should have your own judgments too! And it's kind of art to make the best use of criticism.
+In conclusion, criticism is essential especially in group working but in other occasions we still need criticism. It's just like a picky mirror through which we can see the bad side of us and thus try to become more beautiful and confident. </OriginalText>
+</Annotation>

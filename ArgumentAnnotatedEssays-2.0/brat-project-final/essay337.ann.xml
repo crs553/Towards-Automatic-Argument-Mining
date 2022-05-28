@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>this great invention causes many social problems</text>
+    <TextPosition start="392" end="440"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>spending too much time on phones may exert adverse effects on social life</text>
+    <TextPosition start="462" end="535"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>as people increasingly tend to focus and relay on phones, they may lose their interest on daily activities like meeting with their friends</text>
+    <TextPosition start="557" end="695"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>distraction may be developed during study or social activities</text>
+    <TextPosition start="704" end="766"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>continuous use of mobile phone may damage both eyesight and physical posture of the children</text>
+    <TextPosition start="778" end="870"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>many games involve children helping their character to kill or shoot, which many lead to increased aggressive feelings, thoughts and behaviours</text>
+    <TextPosition start="1128" end="1271"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>In those games, children are rewarded for being more violent, and this violence is repeated again and again</text>
+    <TextPosition start="1005" end="1112"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>there are many types of games available in the phone and many of them are very aggressive in nature such as "Iron man"</text>
+    <TextPosition start="885" end="1003"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>the hardship of communication may be developed</text>
+    <TextPosition start="1284" end="1330"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>as lots of chatting apps available online such as "Weichat", people tend to send instant messages free of charge by using their phones rather than face to face communication</text>
+    <TextPosition start="1528" end="1701"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>mobile phones have shortened the distance of communicatio</text>
+    <TextPosition start="1714" end="1771"/>
+    <Relation relationID="RT11T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>With rapid development of the internet, people are able to enjoy quick electronic communication via internet</text>
+    <TextPosition start="1404" end="1512"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>mobile phones brings convenience of communication</text>
+    <TextPosition start="1891" end="1940"/>
+    <Relation relationID="RT13T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Mobile phone; "Iron man" / "Weichat" - destroy social interactions?
+
+Recently, there has been a social concern in regards to whether mobile phones have a negative effect in our social communication. Indeed, mobile phones have been widely used for people of all ages, bringing convenience and entertainment into our life. However, as far as I am concerned, I strongly agree with the view that this great invention causes many social problems.
+In the first place, spending too much time on phones may exert adverse effects on social life. In the first place, as people increasingly tend to focus and relay on phones, they may lose their interest on daily activities like meeting with their friends so that distraction may be developed during study or social activities. Moreover, continuous use of mobile phone may damage both eyesight and physical posture of the children.
+Furthermore, there are many types of games available in the phone and many of them are very aggressive in nature such as "Iron man". In those games, children are rewarded for being more violent, and this violence is repeated again and again. For instance, many games involve children helping their character to kill or shoot, which many lead to increased aggressive feelings, thoughts and behaviours. Therefore, the hardship of communication may be developed.
+However, other people may perceive this issue from different viewpoint. With rapid development of the internet, people are able to enjoy quick electronic communication via internet. For instance, as lots of chatting apps available online such as "Weichat", people tend to send instant messages free of charge by using their phones rather than face to face communication. Therefore, mobile phones have shortened the distance of communication.
+After having considered all the problems that I have discussed above, we can finally draw a conclusion that although mobile phones brings convenience of communication, they also contribute to some social problems.</OriginalText>
+</Annotation>

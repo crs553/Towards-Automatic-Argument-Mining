@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>students should study a broad range of subjects from literature to mathematics</text>
+    <TextPosition start="231" end="309"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>tertiary education should make students prepare for specialization at university</text>
+    <TextPosition start="326" end="406"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it should be to some extent paternalistic to prevent students from avoiding hurdles</text>
+    <TextPosition start="421" end="504"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>students have to find one or more fields of study in which they are really interested</text>
+    <TextPosition start="521" end="606"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>They should not decide their future major without trying a broad range of subjects, otherwise they might miss valuable encounter with the subject</text>
+    <TextPosition start="608" end="753"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>a would-be mathematician student may be strongly intrigued by philosophy and make a success in the field</text>
+    <TextPosition start="769" end="873"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>students should obtain knowledge from a variety of academic fields</text>
+    <TextPosition start="881" end="947"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>General education plays a significant role in specialized education</text>
+    <TextPosition start="949" end="1016"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Science today, for example, is said to be more and more specialized, but in order to solve a problem scientists have to combine knowledge from chemistry to physics</text>
+    <TextPosition start="1018" end="1181"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>textbooks used in higher education are labelled particular subjects, in fact they require basic understanding of other subjects</text>
+    <TextPosition start="1205" end="1332"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>you sometimes need knowledge about physics to read a text on chemistry</text>
+    <TextPosition start="1348" end="1418"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>high school students should learn broadly and prepare future learning at university</text>
+    <TextPosition start="1431" end="1514"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>schools should be responsible for their future and protect them</text>
+    <TextPosition start="1754" end="1817"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>students have tendency to shun difficulties</text>
+    <TextPosition start="1536" end="1579"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>They might avoid tough courses, but instead attend mainly Mickey Mouse courses and enjoy themselves too much</text>
+    <TextPosition start="1581" end="1689"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>This might result in limited choices in the future</text>
+    <TextPosition start="1691" end="1741"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>High schools must be responsible for their future with well-planned curriculum
+
+Some people state that high schools should allow students to study what they want to. They believe this motivates students to study. I think, however, students should study a broad range of subjects from literature to mathematics. I believe that tertiary education should make students prepare for specialization at university. In addition, it should be to some extent paternalistic to prevent students from avoiding hurdles.
+To begin with, students have to find one or more fields of study in which they are really interested. They should not decide their future major without trying a broad range of subjects, otherwise they might miss valuable encounter with the subject. For instance, a would-be mathematician student may be strongly intrigued by philosophy and make a success in the field.
+Next, students should obtain knowledge from a variety of academic fields. General education plays a significant role in specialized education. Science today, for example, is said to be more and more specialized, but in order to solve a problem scientists have to combine knowledge from chemistry to physics. In addition, although textbooks used in higher education are labelled particular subjects, in fact they require basic understanding of other subjects. For instance, you sometimes need knowledge about physics to read a text on chemistry. Therefore, high school students should learn broadly and prepare future learning at university.
+Last but not least, students have tendency to shun difficulties. They might avoid tough courses, but instead attend mainly Mickey Mouse courses and enjoy themselves too much. This might result in limited choices in the future. Therefore, schools should be responsible for their future and protect them.
+In summary, students should find interesting subjects and acquire general knowledge to prepare higher education at tertiary education. Besides, high school must be responsible for their future with well-planned curriculum.</OriginalText>
+</Annotation>

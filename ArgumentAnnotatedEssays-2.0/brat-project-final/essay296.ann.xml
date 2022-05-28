@@ -1,0 +1,121 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>it has made our lives more chaotic according to the reasons mentioned above</text>
+    <TextPosition start="1916" end="1991"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>technologies allowed us to have a convenient life</text>
+    <TextPosition start="1865" end="1914"/>
+    <Relation relationID="RT1T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>it takes time for people to adapt them</text>
+    <TextPosition start="666" end="704"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>we are informed with devices that are produced with new features nearly every day</text>
+    <TextPosition start="712" end="793"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>many people often get lost</text>
+    <TextPosition start="795" end="821"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>I use new Iphone which I personally think is great</text>
+    <TextPosition start="837" end="887"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>even though I used it for couple months, I still do not know how to use all the features proficiently</text>
+    <TextPosition start="898" end="999"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>I tried to go through all the instructions but, soon, I gave up</text>
+    <TextPosition start="1011" end="1074"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>I found out that it is time-consuming and there are too many things to learn</text>
+    <TextPosition start="1083" end="1159"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>new technologies are always great</text>
+    <TextPosition start="622" end="655"/>
+    <Relation relationID="RT11T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>they created their own language to communicate</text>
+    <TextPosition start="1270" end="1316"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>people used computers or cellphones to chat with others</text>
+    <TextPosition start="1213" end="1268"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>people try to type as fast as they are talking</text>
+    <TextPosition start="1326" end="1372"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>they use a lot of abbreviations and broken language</text>
+    <TextPosition start="1374" end="1425"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>This has gotten worse with twitter, myspace, and facebook</text>
+    <TextPosition start="1427" end="1484"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>What are even worse, young people who are still in the early ages are exposed to them and impeded by the newly developed inventions</text>
+    <TextPosition start="1486" end="1617"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>my younger brother does not know how to spell the words correctly and he talks to his friends with terms that I have never heard of</text>
+    <TextPosition start="1631" end="1762"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>I have tried to correct him for couple times but he just thinks that I am too conservative</text>
+    <TextPosition start="1764" end="1854"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>technology destroys the language</text>
+    <TextPosition start="1168" end="1200"/>
+    <Relation relationID="RT20-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>Technology designed to make people's lives simpler often make them more complicated
+
+Many people think they are blessed to be in the era of high technology. With newly developing technologies, people are able to carry various tasks more convenient and easy. For example, we no longer have to travel to DMV to renew our driver's license or drive to bank for sending money. Ancient people would probably think that we are like magicians. However, even with all the conveniences, we would have to admit that technologies made our lives more complicated. There are couple reasons and examples to support my answer.
+Of course, new technologies are always great. However, it takes time for people to adapt them. Since we are informed with devices that are produced with new features nearly every day, many people often get lost. For instance, I use new Iphone which I personally think is great. However, even though I used it for couple months, I still do not know how to use all the features proficiently. At first, I tried to go through all the instructions but, soon, I gave up because I found out that it is time-consuming and there are too many things to learn. 
+Next, technology destroys the language. Ever since people used computers or cellphones to chat with others, they created their own language to communicate. Because people try to type as fast as they are talking, they use a lot of abbreviations and broken language. This has gotten worse with twitter, myspace, and facebook. What are even worse, young people who are still in the early ages are exposed to them and impeded by the newly developed inventions. To clarify, my younger brother does not know how to spell the words correctly and he talks to his friends with terms that I have never heard of. I have tried to correct him for couple times but he just thinks that I am too conservative.
+Although technologies allowed us to have a convenient life, it has made our lives more chaotic according to the reasons mentioned above. </OriginalText>
+</Annotation>

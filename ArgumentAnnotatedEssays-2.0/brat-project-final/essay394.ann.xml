@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>children are those who need to be under instruction of handwriting</text>
+    <TextPosition start="264" end="330"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>this approach is a basis tool used in several fields such as taking notes, doing homework and writing</text>
+    <TextPosition start="473" end="574"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>It enables to improve learners' spelling capacity and accompany reading or writing disabilities as well</text>
+    <TextPosition start="576" end="679"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Under the guidance of parents or teachers, children can benefit from practicing handwriting</text>
+    <TextPosition start="681" end="772"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>handwriting still plays a vital role in students' learning</text>
+    <TextPosition start="404" end="462"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>This way of writing will encourage them to pay more attention on content, elaborate in details and develop their organization abilities</text>
+    <TextPosition start="774" end="909"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>poor handwriting can have a negative impact on students' school performance</text>
+    <TextPosition start="1007" end="1082"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>kids who are bad at handwriting meet difficulties in taking notes and catching up lessons</text>
+    <TextPosition start="1101" end="1190"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>It resulted in the missing of information and the lack of details during their works</text>
+    <TextPosition start="1192" end="1276"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the increasing taking advantage of advanced equipment could make students be lazier and more subjective in their writing skills</text>
+    <TextPosition start="1288" end="1415"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>with the assistance of automatic grammar and spelling checking in office word, learners are now no need for noticing much in their mistakes</text>
+    <TextPosition start="1430" end="1569"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Is it necessary to teach children handwriting?
+
+In this age of modern technology, some people usually underestimate the importance of teaching handwriting for children. To some people, it is considered as an arduous and time consuming task. From my point of view, children are those who need to be under instruction of handwriting for several reasons.
+Despite the convenience from up-to-date facilities, handwriting still plays a vital role in students' learning. Firstly, this approach is a basis tool used in several fields such as taking notes, doing homework and writing. It enables to improve learners' spelling capacity and accompany reading or writing disabilities as well. Under the guidance of parents or teachers, children can benefit from practicing handwriting. This way of writing will encourage them to pay more attention on content, elaborate in details and develop their organization abilities.
+Secondly, parents and schools should give priority on directing their kids about handwriting as poor handwriting can have a negative impact on students' school performance. The fact is that kids who are bad at handwriting meet difficulties in taking notes and catching up lessons. It resulted in the missing of information and the lack of details during their works. Moreover, the increasing taking advantage of advanced equipment could make students be lazier and more subjective in their writing skills. For example, with the assistance of automatic grammar and spelling checking in office word, learners are now no need for noticing much in their mistakes. 
+To conclude, no matter how fast and convenient modern devices bring to us in writing, handwriting is still a needed skill for all of people, especially students at the early age.</OriginalText>
+</Annotation>

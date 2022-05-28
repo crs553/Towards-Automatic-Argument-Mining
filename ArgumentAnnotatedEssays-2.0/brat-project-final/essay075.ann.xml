@@ -1,0 +1,68 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>government should give priorities to invest more money on the basic social welfares such as education and housing instead of subsidizing arts relative programs</text>
+    <TextPosition start="68" end="227"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>art could play an active role in improving the quality of people's lives</text>
+    <TextPosition start="1176" end="1248"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>those are the most essential ways enable to make people a decent life</text>
+    <TextPosition start="1375" end="1444"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>Art is not the key determination of quality of life, but education is</text>
+    <TextPosition start="229" end="298"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>In order to make people better off, it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens</text>
+    <TextPosition start="300" end="482"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>knowledge and wisdom is the guarantee of the enhancement of the quality of people's lives for a well-rounded social system</text>
+    <TextPosition start="507" end="629"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>art, to some extent, serve a valuable function about enriching one's daily lives</text>
+    <TextPosition start="643" end="723"/>
+    <Relation relationID="RT8T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work</text>
+    <TextPosition start="738" end="851"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>it is unrealistic to pursuit of this high standard of life in many developing countries, in which the basic housing supply has still been a huge problem with plenty of lower income family have squeezed in a small tight room</text>
+    <TextPosition start="862" end="1085"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>By comparison to these issues, the pursuit of art seems unimportant at all</text>
+    <TextPosition start="1087" end="1161"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>Do arts and music improve the quality of life?
+
+My view is that the government should give priorities to invest more money on the basic social welfares such as education and housing instead of subsidizing arts relative programs.
+Art is not the key determination of quality of life, but education is. In order to make people better off, it is more urgent for governments to commit money to some fundamental help such as setting more scholarships in education section for all citizens. This is simply because knowledge and wisdom is the guarantee of the enhancement of the quality of people's lives for a well-rounded social system.
+Admittedly, art, to some extent, serve a valuable function about enriching one's daily lives, for example, it could bring release one's heavy burden of study pressure and refresh human bodies through a hard day from work. However, it is unrealistic to pursuit of this high standard of life in many developing countries, in which the basic housing supply has still been a huge problem with plenty of lower income family have squeezed in a small tight room. By comparison to these issues, the pursuit of art seems unimportant at all.
+To conclude, art could play an active role in improving the quality of people's lives, but I think that governments should attach heavier weight to other social issues such as education and housing needs because those are the most essential ways enable to make people a decent life.
+</OriginalText>
+</Annotation>

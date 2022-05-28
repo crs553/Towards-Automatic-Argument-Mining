@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>future developments in IT will put the users at their own expense</text>
+    <TextPosition start="325" end="390"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>its effect on the users' independence and prositution should not be out of concern</text>
+    <TextPosition start="1449" end="1531"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>In the past, there used to be World Wide Web or e-mail, but the cyber world now varies form games, online TV shows to means of communication, and probably still keeps going</text>
+    <TextPosition start="473" end="645"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Such irrisistible temptations drift people from the real world to the unreal ones, resulting in their dependence on technical equipment</text>
+    <TextPosition start="647" end="782"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the lack of soft skills attained form outdoor activities will agitate the IT addict</text>
+    <TextPosition start="798" end="881"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>staying inside with computer and mobile phone will always be the first alternative</text>
+    <TextPosition start="894" end="976"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>IT seems to have turned its users to its slaves</text>
+    <TextPosition start="424" end="471"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The existence of Skype, Viber or Yahoo has notably reduced even the longest distance into one click</text>
+    <TextPosition start="1031" end="1130"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>rarely do people go out of their comfot zone, provided with snack and air conditioner, to assemble with others in flesh</text>
+    <TextPosition start="1145" end="1264"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>their action will make a beeline for obesity, short-sighted, diabetes and other heart-related problems</text>
+    <TextPosition start="1283" end="1385"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Future information technology: positive or negative?
+
+The appearance of information technology (IT) in the last 20 years has brought about significant developments in life standard as well as work efficiency. However, it is believed that the evolution also proves to be detrimental. In my opinion, there is a likelihood that future developments in IT will put the users at their own expense.
+With the rapid developing pace, IT seems to have turned its users to its slaves. In the past, there used to be World Wide Web or e-mail, but the cyber world now varies form games, online TV shows to means of communication, and probably still keeps going. Such irrisistible temptations drift people from the real world to the unreal ones, resulting in their dependence on technical equipment. What is more, the lack of soft skills attained form outdoor activities will agitate the IT addict, therefore, staying inside with computer and mobile phone will always be the first alternative.
+Future IT has also aroused concern on health issues. The existence of Skype, Viber or Yahoo has notably reduced even the longest distance into one click. As a result, rarely do people go out of their comfot zone, provided with snack and air conditioner, to assemble with others in flesh. Needless to say, their action will make a beeline for obesity, short-sighted, diabetes and other heart-related problems.
+In conclusion, despite the contribution of IT to the society, its effect on the users' independence and prositution should not be out of concern. To my mind, there have to be some alterations before IT has more serious impact on each individual's life.</OriginalText>
+</Annotation>

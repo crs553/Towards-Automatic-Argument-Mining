@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community</text>
+    <TextPosition start="1859" end="1992"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>competitive child would have more motivation and perspective that leads them to success</text>
+    <TextPosition start="1626" end="1713"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>it would not help them much once they enter to society or company which required more about skill of team work</text>
+    <TextPosition start="1719" end="1829"/>
+    <Relation relationID="T2Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>it might be hard for a competitive person to deal or manage in a team work project</text>
+    <TextPosition start="960" end="1042"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>A strong competition sense helps children having urge to learn or to practice for being the best among peers, and this factor is initially arises from the schools and parents, to encourage children to get the highest scores through the grading system</text>
+    <TextPosition start="405" end="655"/>
+    <Relation relationID="RT5T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>a competitive child is usually more motivated to pursue a goal or to face difficulties independently</text>
+    <TextPosition start="669" end="769"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>it is also risky that children are becoming too competitive to cooperating with others</text>
+    <TextPosition start="775" end="861"/>
+    <Relation relationID="T6Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Being competitive leads them to success, but could also restrict them in many ways</text>
+    <TextPosition start="863" end="945"/>
+    <Relation relationID="T5Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Having a good cooperating spirit helps kids to communicate and get along with others, which gives them more possibility to solve problems or to achieve a goal easily by working as a team</text>
+    <TextPosition start="1168" end="1354"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>cooperation is also an essential quality for children, no matter in school activities or in communities</text>
+    <TextPosition start="1063" end="1166"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>in society, there is hardly anyone who could has big achievement by oneself</text>
+    <TextPosition start="1367" end="1442"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>famous singers or movie stars, despite of their talent to make them successful, there are always a team to manage works or deal with things</text>
+    <TextPosition start="1457" end="1596"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Sense of cooperation
+
+In present educational system there are variety of competitions in academic area and athletic area for children to attend, which could stimulating the will of children to learn and to achieve the best of them, and also be able to teach them teamwork skill. However, some people think it is better to make children be competitive than cooperative, both the values have its arguments.
+A strong competition sense helps children having urge to learn or to practice for being the best among peers, and this factor is initially arises from the schools and parents, to encourage children to get the highest scores through the grading system. Even though a competitive child is usually more motivated to pursue a goal or to face difficulties independently, but it is also risky that children are becoming too competitive to cooperating with others. Being competitive leads them to success, but could also restrict them in many ways. For example, it might be hard for a competitive person to deal or manage in a team work project.
+On the other hand, cooperation is also an essential quality for children, no matter in school activities or in communities. Having a good cooperating spirit helps kids to communicate and get along with others, which gives them more possibility to solve problems or to achieve a goal easily by working as a team. After all, in society, there is hardly anyone who could has big achievement by oneself. For example, famous singers or movie stars, despite of their talent to make them successful, there are always a team to manage works or deal with things.
+In my point of view, though competitive child would have more motivation and perspective that leads them to success, but it would not help them much once they enter to society or company which required more about skill of team work. To sum up, I would say that schools and adults should put a sense of cooperation in children to make them becoming a useful adult whether in society or community.</OriginalText>
+</Annotation>

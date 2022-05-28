@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>education is the single most important factor in the development of a country</text>
+    <TextPosition start="323" end="400"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>The more people in the country become educated, the better chance it can develop</text>
+    <TextPosition start="1637" end="1717"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>these children remain uneducated and will have the same fate as their parents</text>
+    <TextPosition start="873" end="950"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>In a developing country, not many can afford to send their children to school</text>
+    <TextPosition start="402" end="479"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>There are government schools where tuition fees are practically free but they are not aplenty and mostly are situated in the cities</text>
+    <TextPosition start="481" end="612"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>They are not reachable by children who live in the mountains or islands</text>
+    <TextPosition start="614" end="685"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>These children whose parents are either farmers or fishermen, can hardly eat three meals a day, let alone afford to pay for transportation to get to these schools everyday</text>
+    <TextPosition start="687" end="858"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Basic education teaches one child to read and write</text>
+    <TextPosition start="1065" end="1116"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Supplementary education provides him with useful knowledge and information</text>
+    <TextPosition start="1118" end="1192"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>A further specific education can teach an individual with skills enough to make a living and be self-sufficient</text>
+    <TextPosition start="1194" end="1305"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>A well-informed man can act sensibly and make sound judgment</text>
+    <TextPosition start="1307" end="1367"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>a skillful man contributes favorably and is valuable to the society</text>
+    <TextPosition start="1386" end="1453"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>the benefits of education can make a man, a society and a developed country</text>
+    <TextPosition start="1469" end="1544"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Education plays an important role in the socioeconomic status of a country
+
+Education is undeniably an economic necessity. In most countries, it makes up a considerable part of its national budget yearly. In highly industrialized countries, undertakings are made to make it accessible and affordable to all. I believe that education is the single most important factor in the development of a country.
+In a developing country, not many can afford to send their children to school. There are government schools where tuition fees are practically free but they are not aplenty and mostly are situated in the cities. They are not reachable by children who live in the mountains or islands. These children whose parents are either farmers or fishermen, can hardly eat three meals a day, let alone afford to pay for transportation to get to these schools everyday. As a result, these children remain uneducated and will have the same fate as their parents.
+Development through education does not necessarily mean raising a country full of doctors, lawyers or engineers. Basic education teaches one child to read and write. Supplementary education provides him with useful knowledge and information. A further specific education can teach an individual with skills enough to make a living and be self-sufficient. A well-informed man can act sensibly and make sound judgment. In the same way, a skillful man contributes favorably and is valuable to the society. Collectively, the benefits of education can make a man, a society and a developed country.
+In conclusion, education plays an important role in the socioeconomic status of a country. The more people in the country become educated, the better chance it can develop.</OriginalText>
+</Annotation>

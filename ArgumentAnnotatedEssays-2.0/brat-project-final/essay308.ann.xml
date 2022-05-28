@@ -1,0 +1,122 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I prefer to spend my entire live in one place which is my hometown</text>
+    <TextPosition start="214" end="280"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>In my hometown, I have a lot of friends and good relationships, I love the traffic in here, and the environment is wonderful</text>
+    <TextPosition start="282" end="406"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Nowhere else can give me some people like in here</text>
+    <TextPosition start="740" end="789"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>In here, I have a lot of friends, and we usually spend free time to play sports like soccer, basketball and of course we have a lot of fun</text>
+    <TextPosition start="454" end="592"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Every people in my town have known each others, and we have good relationships</text>
+    <TextPosition start="594" end="672"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>If anyone needs help, his neighbor will help as much as possible</text>
+    <TextPosition start="674" end="738"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>We have large streets but few cars</text>
+    <TextPosition start="854" end="888"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>we can move easily to anywhere</text>
+    <TextPosition start="893" end="923"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Last week, I went to the city center to meet my friends</text>
+    <TextPosition start="925" end="980"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>The traffic in the city was too crowed</text>
+    <TextPosition start="982" end="1020"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>I have to wait for an hour to go to my friend house</text>
+    <TextPosition start="1022" end="1073"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>I love the traffic system in here</text>
+    <TextPosition start="819" end="852"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>I want to live here</text>
+    <TextPosition start="791" end="810"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>I have been gone to some places to travel and stay for a short time, and I realize that the environment in some place isn't clean and fresh like my home town</text>
+    <TextPosition start="1112" end="1269"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>There were a lot of people</text>
+    <TextPosition start="1271" end="1297"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>the environment can't be keep clean</text>
+    <TextPosition start="1301" end="1336"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>I also love the environment in here</text>
+    <TextPosition start="1075" end="1110"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="claim"/>
+    <text>Moving some places can give to you a lot of experiences</text>
+    <TextPosition start="1435" end="1490"/>
+    <Relation relationID="RT19T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>living in one place like your hometown can make you feel comfortable about the traffic, people and of course the environment</text>
+    <TextPosition start="1495" end="1619"/>
+    <Relation relationID="T19Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T19"/>
+  </Proposition>
+  <OriginalText>Staying in one place is better than moving number of places
+
+Some people may prefer to live in different places at different time because of many reasons such as looking for better job, house, community and so on. I prefer to spend my entire live in one place which is my hometown. In my hometown, I have a lot of friends and good relationships, I love the traffic in here, and the environment is wonderful.
+I was born and grew up in here, a small town. In here, I have a lot of friends, and we usually spend free time to play sports like soccer, basketball and of course we have a lot of fun. Every people in my town have known each others, and we have good relationships. If anyone needs help, his neighbor will help as much as possible. Nowhere else can give me some people like in here.
+I want to live here because I love the traffic system in here. We have large streets but few cars, so we can move easily to anywhere. Last week, I went to the city center to meet my friends. The traffic in the city was too crowed. I have to wait for an hour to go to my friend house.
+I also love the environment in here. I have been gone to some places to travel and stay for a short time, and I realize that the environment in some place isn't clean and fresh like my home town. There were a lot of people so the environment can't be keep clean.
+In conclusion, I strongly feel that staying in one place is better than moving number of places. Moving some places can give to you a lot of experiences but living in one place like your hometown can make you feel comfortable about the traffic, people and of course the environment.</OriginalText>
+</Annotation>

@@ -1,0 +1,98 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>the internet provides a lot of valuable information</text>
+    <TextPosition start="270" end="321"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>the internet gives daily necessary information, people can gain knowledge and they can explore the world</text>
+    <TextPosition start="370" end="474"/>
+    <Relation relationID="RT1-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it helps us in studying, doing business and exploring the world</text>
+    <TextPosition start="1766" end="1829"/>
+    <Relation relationID="RT4-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>With valuable information it provides, people can enjoy their lives much more</text>
+    <TextPosition start="1831" end="1908"/>
+    <Relation relationID="RT5-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people</text>
+    <TextPosition start="578" end="700"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet</text>
+    <TextPosition start="715" end="851"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>everybody would like to know what is going on around the world in their everyday lives</text>
+    <TextPosition start="490" end="576"/>
+    <Relation relationID="RT8-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge</text>
+    <TextPosition start="961" end="1098"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Not only students but also everyone could get more information and knowledge</text>
+    <TextPosition start="1100" end="1176"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>people who have problems with their health can search for more information about it</text>
+    <TextPosition start="1192" end="1275"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>people can gain more knowledge by using the internet, the most useful technology in the world</text>
+    <TextPosition start="866" end="959"/>
+    <Relation relationID="RT12-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>people who have no time or have financial problems could travel around the world by using the internet</text>
+    <TextPosition start="1381" end="1483"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>They can see lots of picture and videos of many interesting places</text>
+    <TextPosition start="1485" end="1551"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>people can learn other countries's culture and tradition which makes them have more knowledge about that nations</text>
+    <TextPosition start="1563" end="1675"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>The internet makes the world becomes smaller which is a good thing</text>
+    <TextPosition start="1297" end="1363"/>
+    <Relation relationID="RT16-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>The internet provides a lot of valuable information
+
+In the modern society, internet is considered as one of the most important inventions over the past century. Some people believe that several problems occur from an information on the internet. However, some say that the internet provides a lot of valuable information. In my opinion, I agree with the latter because the internet gives daily necessary information, people can gain knowledge and they can explore the world.
+First of all, everybody would like to know what is going on around the world in their everyday lives. Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people. For example, a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet.
+In addition, people can gain more knowledge by using the internet, the most useful technology in the world. Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge. Not only students but also everyone could get more information and knowledge. For instance, people who have problems with their health can search for more information about it.
+Last but not least, The internet makes the world becomes smaller which is a good thing. This is because people who have no time or have financial problems could travel around the world by using the internet. They can see lots of picture and videos of many interesting places. Moreover, people can learn other countries's culture and tradition which makes them have more knowledge about that nations.
+To conclude, people are satisfied with the internet and sometimes even thanks it because it helps us in studying, doing business and exploring the world. With valuable information it provides, people can enjoy their lives much more.</OriginalText>
+</Annotation>

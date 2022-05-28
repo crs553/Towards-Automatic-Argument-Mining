@@ -1,0 +1,128 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>international sporting occasions are essential in easing international tensions and releasing patriotic emotions in a safe way</text>
+    <TextPosition start="258" end="384"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>International sporting events will draw the international concern</text>
+    <TextPosition start="1985" end="2050"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>It really help to alleviate the tension</text>
+    <TextPosition start="1002" end="1041"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>it is useful to ease tensions between nations</text>
+    <TextPosition start="640" end="685"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>People can understand more about a country</text>
+    <TextPosition start="596" end="638"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>An international sporting event is normal held in a country with huge interest from fans all over the world</text>
+    <TextPosition start="386" end="493"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>For the time of occasions, people regardless of nationality, origin and religion will live together</text>
+    <TextPosition start="495" end="594"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>in FIFA World Cup 2010, the relation between North Korea and South Korea is dangerous for the warship sinking</text>
+    <TextPosition start="699" end="808"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>The world suspected North Korea of the aggressive action</text>
+    <TextPosition start="810" end="866"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>due to this event North Korea showed a friendship and enthuasism</text>
+    <TextPosition start="877" end="941"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>It is rare times when people can learn about this country</text>
+    <TextPosition start="943" end="1000"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>an international sporting event also helps fans release patriotic emotions in a safe way</text>
+    <TextPosition start="1068" end="1156"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>When they garther together to encourage their team, they will show their patriotic emotions</text>
+    <TextPosition start="1158" end="1249"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Regardless of the competition between teams, their emotions are always released in a safe way due to the sole passion of the sport</text>
+    <TextPosition start="1251" end="1381"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>all fans know that a sport event will attract the attention of whole the world and a lot of public media</text>
+    <TextPosition start="1393" end="1497"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>They will try to create a beautiful image about their land and people</text>
+    <TextPosition start="1499" end="1568"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>In Olympic Beijing 2008, Chinese tried thier best to bring the world a spectacular image about their country</text>
+    <TextPosition start="1570" end="1678"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>foreigners came here always received the support of friendly volunteers who were young students</text>
+    <TextPosition start="1694" end="1789"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>They were welcomed by each Chinese hospitality, beauty in each cities</text>
+    <TextPosition start="1791" end="1860"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>Everythings is created by patriotic emotions of Chinese who wanted to bring a beautiful China to the world</text>
+    <TextPosition start="1862" end="1968"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>International sporting occasions help to ease international tensions
+
+International sporting events are a good change to create a multi-nation community of fans having the same passion. It will help people around the world understand each other more. Since, international sporting occasions are essential in easing international tensions and releasing patriotic emotions in a safe way.
+An international sporting event is normal held in a country with huge interest from fans all over the world. For the time of occasions, people regardless of nationality, origin and religion will live together. People can understand more about a country, it is useful to ease tensions between nations. For example in FIFA World Cup 2010, the relation between North Korea and South Korea is dangerous for the warship sinking. The world suspected North Korea of the aggressive action. However, due to this event North Korea showed a friendship and enthuasism. It is rare times when people can learn about this country. It really help to alleviate the tension.
+Besides easing tensions, an international sporting event also helps fans release patriotic emotions in a safe way. When they garther together to encourage their team, they will show their patriotic emotions. Regardless of the competition between teams, their emotions are always released in a safe way due to the sole passion of the sport. Moreover, all fans know that a sport event will attract the attention of whole the world and a lot of public media. They will try to create a beautiful image about their land and people. In Olympic Beijing 2008, Chinese tried thier best to bring the world a spectacular image about their country. First of all, foreigners came here always received the support of friendly volunteers who were young students. They were welcomed by each Chinese hospitality, beauty in each cities. Everythings is created by patriotic emotions of Chinese who wanted to bring a beautiful China to the world.
+In conclusion, International sporting events will draw the international concern. It will make the world more peaceful by easing internation tensions and releasing patriotic emotions in a safe way.
+</OriginalText>
+</Annotation>

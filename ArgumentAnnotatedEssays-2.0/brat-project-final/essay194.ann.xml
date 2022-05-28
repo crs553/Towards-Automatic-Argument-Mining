@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>we must help animals live safely and comfortably in their own environment</text>
+    <TextPosition start="206" end="279"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Scientific facts showed the damage that zoos can inflict on animals</text>
+    <TextPosition start="1424" end="1491"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>many zoos do not meet the standards of care required for them</text>
+    <TextPosition start="1503" end="1564"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>Many scientific studies have revealed the detriment that zoos have caused to animals</text>
+    <TextPosition start="281" end="365"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>like we, human beings, animals are delivered to this world with genetic instincts</text>
+    <TextPosition start="376" end="457"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>When we captivate animals and put them to live a style of life that they are unfamiliar with, they begin to loose those in-born instincts</text>
+    <TextPosition start="524" end="661"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>when they are released or in the worst case, when they escape, they act disorientated and this contributes to the animal mortality rate</text>
+    <TextPosition start="670" end="805"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>various zoos do not have the proper implements or policies that assure the quality of animal care</text>
+    <TextPosition start="843" end="940"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>I was shocked by the cruelty which animals were treated</text>
+    <TextPosition start="1003" end="1058"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>I can not think of any staff memeber who did not have an improper behaviour towards the animlas in the zoo</text>
+    <TextPosition start="1060" end="1166"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>They beat them up</text>
+    <TextPosition start="1168" end="1185"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>they did not wanted to eat their meals and then excused themselves saying that it was a way to train the animals</text>
+    <TextPosition start="1194" end="1306"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Should animals be free or live in zoos?
+
+Many people state that zoos are a great asset to animals. Others believe that they are inferior creatures and therefore do not deserve our attention. In my opinion, we must help animals live safely and comfortably in their own environment.
+Many scientific studies have revealed the detriment that zoos have caused to animals. Firstly, like we, human beings, animals are delivered to this world with genetic instincts. Skills which help them live and survive in their residing areas. When we captivate animals and put them to live a style of life that they are unfamiliar with, they begin to loose those in-born instincts. Hence, when they are released or in the worst case, when they escape, they act disorientated and this contributes to the animal mortality rate. 
+In addition to the previous point, various zoos do not have the proper implements or policies that assure the quality of animal care. For instance, I recall my first trip to a zoo, at age eight. I was shocked by the cruelty which animals were treated. I can not think of any staff memeber who did not have an improper behaviour towards the animlas in the zoo. They beat them up because they did not wanted to eat their meals and then excused themselves saying that it was a way to train the animals.
+In conclusion, I strongly believe that we have to assit animals and provide them the best quality of life possible. Scientific facts showed the damage that zoos can inflict on animals. Moreover, many zoos do not meet the standards of care required for them.</OriginalText>
+</Annotation>

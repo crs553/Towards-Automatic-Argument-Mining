@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>both choices have their own advantages and disadvantages</text>
+    <TextPosition start="261" end="317"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>learning all those characteristics would really help me in leading successful life</text>
+    <TextPosition start="1998" end="2080"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it teaches me everything that I certainly wants to learn in my life</text>
+    <TextPosition start="1922" end="1989"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>students can have an opportunity to take part in many kind of extracurricular activities happing around the campus such as attending conversation club, or joining sports club</text>
+    <TextPosition start="463" end="637"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Students can also have more chance of interaction with their teachers and classmates</text>
+    <TextPosition start="639" end="723"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>it is easier for students to get help when facing problem such as if students have problem in solving their math question, they can easily ask for help to their roommates, classmates, or teachers</text>
+    <TextPosition start="738" end="933"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>living in a dormitory helps students to familiarize themselves with the academic environment of the university</text>
+    <TextPosition start="337" end="447"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>living in dormitory is always helpful to students</text>
+    <TextPosition start="943" end="992"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>students can learn many new things such as how to become responsible, independent, punctual, co-operative compared to living in university dormitories</text>
+    <TextPosition start="1082" end="1232"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>They are responsible to take care of everything including paying their apartment rent on time, and dealing with the utility bills</text>
+    <TextPosition start="1234" end="1363"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>students also have to focus on their study, and try to maintain their grades higher</text>
+    <TextPosition start="1378" end="1461"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>students also have a chance to know about the community around them</text>
+    <TextPosition start="1476" end="1543"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Interacting with the people, and socializing with them prepares students for the life after graduation</text>
+    <TextPosition start="1545" end="1647"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>living off campus prepares students for the real life</text>
+    <TextPosition start="1014" end="1067"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Dormitory or apartment?
+
+When it comes to the issue of choosing an accommodation after completion of their high school, most students always get confused between these two options: living in an apartment, or in university dormitories. As far as I am concerned, both choices have their own advantages and disadvantages. 
+On the one hand, living in a dormitory helps students to familiarize themselves with the academic environment of the university. For instance, students can have an opportunity to take part in many kind of extracurricular activities happing around the campus such as attending conversation club, or joining sports club. Students can also have more chance of interaction with their teachers and classmates. In addition, it is easier for students to get help when facing problem such as if students have problem in solving their math question, they can easily ask for help to their roommates, classmates, or teachers. I think living in dormitory is always helpful to students. 
+On the other hand, living off campus prepares students for the real life. For example, students can learn many new things such as how to become responsible, independent, punctual, co-operative compared to living in university dormitories. They are responsible to take care of everything including paying their apartment rent on time, and dealing with the utility bills. In addition, students also have to focus on their study, and try to maintain their grades higher. Furthermore, students also have a chance to know about the community around them. Interacting with the people, and socializing with them prepares students for the life after graduation. 
+From given the evidences, it seems to me that it becomes hard for students to choose between their living options since both living accommodation have its own benefits. If I have to choose, I would definitely choose the second option: living in an apartment. I think that it teaches me everything that I certainly wants to learn in my life because learning all those characteristics would really help me in leading successful life.</OriginalText>
+</Annotation>

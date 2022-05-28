@@ -1,0 +1,98 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T11">
+    <ADU type="conclusion"/>
+    <text>people should be polite to others in a such busy and crowded world</text>
+    <TextPosition start="1985" end="2051"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>a person with good manner will give others a fine personal impression</text>
+    <TextPosition start="542" end="611"/>
+    <Relation relationID="RT2-T11" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Through those impressions, a person was easily to get acquired with others and blended with the community that surrounded him as soon as possible</text>
+    <TextPosition start="613" end="758"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>I worked in a new company, if I am a guy with good manners and treating everyone well, my new colleagues will accept me, even then I will be approved by the employers</text>
+    <TextPosition start="773" end="939"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>In opposite situation if I am being rude, I can not get along well with each other</text>
+    <TextPosition start="941" end="1023"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>I will be fired and have no other choice but lost my job</text>
+    <TextPosition start="1034" end="1090"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>people will get respect from politeness within each other</text>
+    <TextPosition start="1102" end="1159"/>
+    <Relation relationID="RT1-T11" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Politeness and tender words not only can help the speaker to earn a good reputation but also that encourage the listeners who were in need</text>
+    <TextPosition start="1161" end="1299"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>A successful corporation must have a relationship with respect and pleasure</text>
+    <TextPosition start="1301" end="1376"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>There are many more facts have improved that people with politeness are easily to be succeed</text>
+    <TextPosition start="1378" end="1470"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>from their behaviors, they made their partners or opponents to find their own individual dignity</text>
+    <TextPosition start="1480" end="1576"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>the society needs a civilized environment and orders</text>
+    <TextPosition start="1587" end="1639"/>
+    <Relation relationID="RT12-T11" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>a degree of social civilization depend on its people's qualities</text>
+    <TextPosition start="1645" end="1709"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>In order to create a better living environment for ourselves and our offsprings, our behaviors must be asked with politeness and good manners</text>
+    <TextPosition start="1711" end="1852"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Benefit from those effective measures, there may be an obvious effect on the reducing of criminal rate</text>
+    <TextPosition start="1854" end="1956"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>A man 's manner is a mirror that reflects his virtues
+
+Once a celebrity said: A man's manner is a mirror that reflects his virtues. Recently, the social environment we lived with busy noises and crowded spaces in case that people pay less attentions on their behaviors and manners. They are being rude towards others. Due to this phenomenon, someone suggests that we should not expect people to be polite to other. Obviously, I do not agree with such kind of altitudes, the explanations I explored would be stated as following.
+First of all, a person with good manner will give others a fine personal impression. Through those impressions, a person was easily to get acquired with others and blended with the community that surrounded him as soon as possible. For example, I worked in a new company, if I am a guy with good manners and treating everyone well, my new colleagues will accept me, even then I will be approved by the employers. In opposite situation if I am being rude, I can not get along well with each other. Finally, I will be fired and have no other choice but lost my job.
+Secondly, people will get respect from politeness within each other. Politeness and tender words not only can help the speaker to earn a good reputation but also that encourage the listeners who were in need. A successful corporation must have a relationship with respect and pleasure. There are many more facts have improved that people with politeness are easily to be succeed, because from their behaviors, they made their partners or opponents to find their own individual dignity.
+Finally, the society needs a civilized environment and orders. And a degree of social civilization depend on its people's qualities. In order to create a better living environment for ourselves and our offsprings, our behaviors must be asked with politeness and good manners. Benefit from those effective measures, there may be an obvious effect on the reducing of criminal rate.
+All in all, I suppose that people should be polite to others in a such busy and crowded world.</OriginalText>
+</Annotation>

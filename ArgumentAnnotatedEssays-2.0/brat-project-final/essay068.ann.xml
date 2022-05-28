@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is time for the government to take action to control the proliferation of violent scenes in media</text>
+    <TextPosition start="91" end="191"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>our society is occupied with the violent scenes and plots at present</text>
+    <TextPosition start="1308" end="1376"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>This will definitely set a bad example for the immature audiences who, lacking correct parental guidance and abilities to differentiate the right from wrong, are prone to go astray by imitating the violent behaviors and committing real violent crimes</text>
+    <TextPosition start="299" end="549"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>excessive violence would offer misleading information to the public and exert detrimental influence to the society as well</text>
+    <TextPosition start="890" end="1012"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they regard the violence as reasonable and justifiable</text>
+    <TextPosition start="553" end="607"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>media, such as TV or film, is considered as the correct information source regulated by the government</text>
+    <TextPosition start="628" end="730"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>It should be reporting and reflecting true phenomenon in the society</text>
+    <TextPosition start="732" end="800"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Violence, as one of the facts in the real world, certainly has to be reported</text>
+    <TextPosition start="802" end="879"/>
+    <Relation relationID="T5Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>It is recently reported in the news that a seventeen-year-old boy killed all his family members, one sister and two parents out of hatred and jealousy</text>
+    <TextPosition start="1014" end="1164"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>In the real world, we are inclined to take extreme approach to tackle a small problem due to excessive violence exposure</text>
+    <TextPosition start="1166" end="1286"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <OriginalText>Should government control media crime
+
+The soaring crime rate has led to the proposal that it is time for the government to take action to control the proliferation of violent scenes in media.
+Obviously, violence in the media is often portrayed as extreme as possible in order to attract audiences. This will definitely set a bad example for the immature audiences who, lacking correct parental guidance and abilities to differentiate the right from wrong, are prone to go astray by imitating the violent behaviors and committing real violent crimes as they regard the violence as reasonable and justifiable.
+On the other hand, media, such as TV or film, is considered as the correct information source regulated by the government. It should be reporting and reflecting true phenomenon in the society. Violence, as one of the facts in the real world, certainly has to be reported. However, excessive violence would offer misleading information to the public and exert detrimental influence to the society as well. It is recently reported in the news that a seventeen-year-old boy killed all his family members, one sister and two parents out of hatred and jealousy. In the real world, we are inclined to take extreme approach to tackle a small problem due to excessive violence exposure.
+We cannot deny that our society is occupied with the violent scenes and plots at present. What the government should do immediately is to strengthen censorship to control the amount of violence in media. Otherwise, the violent crime rate will rise continuously and out of control someday.</OriginalText>
+</Annotation>

@@ -1,0 +1,111 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>people are likely to spend less time in cooking food</text>
+    <TextPosition start="271" end="323"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it is certain that spending less time on cooking will be the main trend in near future</text>
+    <TextPosition start="1119" end="1205"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>people nowadays just spend one hour to prepare a meal instead of two, even three hours like in the last 10 years</text>
+    <TextPosition start="717" end="829"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>with the development of science and technology, more advanced kitchen facilities, such as the modern microwaves or the advanced pressure cookers, have been created and invented to help people prepare and cook food in a very short time</text>
+    <TextPosition start="468" end="702"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>in recent years, there was a significant increase in the number of people from all walks of life realizing this valuable benefit of those technologies in doing their housework</text>
+    <TextPosition start="841" end="1016"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>And this figure still continuously go up along with the improvement of science and technology</text>
+    <TextPosition start="1018" end="1111"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>they find hard to have time to prepare and cook a meal</text>
+    <TextPosition start="1646" end="1700"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>89% of people have come to think that, since they have been put in the situation which is filled with competitions and pressures, they have to use a lot of time to work hard, to update themselves, to acquire all kinds of skills and so on</text>
+    <TextPosition start="1401" end="1638"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>most of young people prefer to have meals at restaurants</text>
+    <TextPosition start="1230" end="1286"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Even they have some spare time, they prefer to go out with friends to relax and relieve the pressure from work and study</text>
+    <TextPosition start="1702" end="1822"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>it is quite easy to have a nutritious meal with guaranteed quality, but do not waste a lot of time</text>
+    <TextPosition start="2478" end="2576"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>investing much time in cooking food will guarantee nutrition as well as quality of food for their family</text>
+    <TextPosition start="1851" end="1955"/>
+    <Relation relationID="RT13T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>as a matter of fact, using technology or advanced facilities do not make food lose its nutrition and quality</text>
+    <TextPosition start="1994" end="2102"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>health and life of eaters is assured</text>
+    <TextPosition start="2245" end="2281"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Even, with the help of ozone machines, bacterias, mold spores, or pesticide in vegetables, fruits and foods will be killed and removed</text>
+    <TextPosition start="2104" end="2238"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>along with the high living standard, requirements of quality products in almost restaurants, nowadays, are under severe control and supervision by appropriate authorities</text>
+    <TextPosition start="2292" end="2462"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>they want to invest more time in their work or study to improve themselves</text>
+    <TextPosition start="1295" end="1369"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>People will spend less time on cooking food
+
+Perhaps, no issue in this world is as significant to people as cooking food, because it affects everybody in their daily lives. Some people hold the opinion that people should spend much time on food. However, I do think that people are likely to spend less time in cooking food. There are various reasons why I maintain this viewpoint, and among those reasons are two important ones.
+The first and foremost reason is that with the development of science and technology, more advanced kitchen facilities, such as the modern microwaves or the advanced pressure cookers, have been created and invented to help people prepare and cook food in a very short time. As a result, people nowadays just spend one hour to prepare a meal instead of two, even three hours like in the last 10 years. Actually, in recent years, there was a significant increase in the number of people from all walks of life realizing this valuable benefit of those technologies in doing their housework. And this figure still continuously go up along with the improvement of science and technology. Thus, it is certain that spending less time on cooking will be the main trend in near future.
+Another reason is that most of young people prefer to have meals at restaurants because they want to invest more time in their work or study to improve themselves. According to a recent survey, 89% of people have come to think that, since they have been put in the situation which is filled with competitions and pressures, they have to use a lot of time to work hard, to update themselves, to acquire all kinds of skills and so on. Thus, they find hard to have time to prepare and cook a meal. Even they have some spare time, they prefer to go out with friends to relax and relieve the pressure from work and study.
+Some people may argue that investing much time in cooking food will guarantee nutrition as well as quality of food for their family. To some extent, it is true. However, as a matter of fact, using technology or advanced facilities do not make food lose its nutrition and quality. Even, with the help of ozone machines, bacterias, mold spores, or pesticide in vegetables, fruits and foods will be killed and removed, thus health and life of eaters is assured. Besides, along with the high living standard, requirements of quality products in almost restaurants, nowadays, are under severe control and supervision by appropriate authorities. Consequently, it is quite easy to have a nutritious meal with guaranteed quality, but do not waste a lot of time.
+To sum up, if all those factors are contemplated, it is obviously found that there are many solid reasons to support my viewpoint. So, from what have been discussed above, I strongly affirm the conclusion that people will spend less time in cooking food.
+</OriginalText>
+</Annotation>

@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the combination of tourism and teaching process is highly recommended in pursuit of a harmonial relationship between human and their surroundings</text>
+    <TextPosition start="1824" end="1969"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>tourism has proven its friendly attitude towards the exploited areas in terms of finance and environmental impact</text>
+    <TextPosition start="1694" end="1807"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>places of interest often locate in the wilderness areas, of which economy, before their appearance, haven't blossmed yet</text>
+    <TextPosition start="466" end="586"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Not until the investment of some companies do chains of hotels and services spring up</text>
+    <TextPosition start="588" end="673"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>It will, by all means, attract considerable attention which goes hand in hand with the enormous income for the local residents</text>
+    <TextPosition start="675" end="801"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>tourism helps divert the local economy to its right direction, which exploit the best out of its own potential</text>
+    <TextPosition start="818" end="928"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>tourism plays an indispensable role in nurturing the economy in a way it is meant to be</text>
+    <TextPosition start="366" end="453"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>environmental damage is inevitable</text>
+    <TextPosition start="952" end="986"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>In order to turn a wilderness into a place of attraction, the planners must have taken the nourishment of the sceneries into thorough consideration</text>
+    <TextPosition start="1024" end="1171"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>a fortune is spent on trimming the trees, watering the flowers, preserving and balancing the local fauna and flora, in the hope of beautifying the wild</text>
+    <TextPosition start="1202" end="1353"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Not to mention ecotourism, a new kind of environment-friendly service, which gives all environmentalists and nature lovers a hand in raising the awareness of people in protecting their coexistent creatures</text>
+    <TextPosition start="1355" end="1560"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>tourism should not be alledged to be notorous for its detriment to the ecological diversity</text>
+    <TextPosition start="1579" end="1670"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>it is not tourism to be blamed for</text>
+    <TextPosition start="988" end="1022"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>Tourism: good or bad?
+
+Tourism, since its first appearance a long time ago, can be described as a controversial celebrity. Some believe that tourism is attributed to domestic economic distortion, environmental devastation and irrepairable damage to the exploited places. However, I strongly disagree with this misconcept for the two following reasons.
+First of all, tourism plays an indispensable role in nurturing the economy in a way it is meant to be. Basically, places of interest often locate in the wilderness areas, of which economy, before their appearance, haven't blossmed yet. Not until the investment of some companies do chains of hotels and services spring up. It will, by all means, attract considerable attention which goes hand in hand with the enormous income for the local residents. In other word, tourism helps divert the local economy to its right direction, which exploit the best out of its own potential.
+Secondly, even though environmental damage is inevitable, it is not tourism to be blamed for. In order to turn a wilderness into a place of attraction, the planners must have taken the nourishment of the sceneries into thorough consideration. To be precise, for instance, a fortune is spent on trimming the trees, watering the flowers, preserving and balancing the local fauna and flora, in the hope of beautifying the wild. Not to mention ecotourism, a new kind of environment-friendly service, which gives all environmentalists and nature lovers a hand in raising the awareness of people in protecting their coexistent creatures. Because of that, tourism should not be alledged to be notorous for its detriment to the ecological diversity.
+All thing considered, tourism has proven its friendly attitude towards the exploited areas in terms of finance and environmental impact. In my opinion, the combination of tourism and teaching process is highly recommended in pursuit of a harmonial relationship between human and their surroundings.</OriginalText>
+</Annotation>

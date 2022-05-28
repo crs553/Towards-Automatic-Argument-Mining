@@ -1,0 +1,98 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>TV programs are among the popular topics in every day talk as well as a great time for gathering</text>
+    <TextPosition start="355" end="451"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Modern TV has smart system that let you be connected with people</text>
+    <TextPosition start="465" end="529"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>watching TV take a lot of your day</text>
+    <TextPosition start="548" end="582"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs</text>
+    <TextPosition start="597" end="720"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>people like having meals while they are watching TV</text>
+    <TextPosition start="730" end="781"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>Families usually tend to watch television either with each other or friends</text>
+    <TextPosition start="783" end="858"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>my friends and I used to sit together and enjoy watching movies using VHS player at nights</text>
+    <TextPosition start="872" end="962"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>It was fun and a little bit similar to the cinema</text>
+    <TextPosition start="964" end="1013"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>TV can be one of communication ways</text>
+    <TextPosition start="1023" end="1058"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>TV can be connected to multimedia devices that have smart operating system like Google TV, WDTV using Skype, tango and other apps</text>
+    <TextPosition start="1070" end="1199"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Teenagers can play games online with their friends</text>
+    <TextPosition start="1213" end="1263"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>we can communicate with each other through TV</text>
+    <TextPosition start="1275" end="1320"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>TV may take some of your time away from your family and friends</text>
+    <TextPosition start="1334" end="1397"/>
+    <Relation relationID="RT14T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>it can also make family get together and help to get in conversation</text>
+    <TextPosition start="1402" end="1470"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>it's one way of recent communications</text>
+    <TextPosition start="1483" end="1520"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Television destroys communication among friends and family
+
+Television is one of the greatest innovations that we use every day. Besides, watching television has some cons and at the same time has very good pros. However, while some people argue that TV has devastated communication among friends and families, I believe it has done the opposite. I think TV programs are among the popular topics in every day talk as well as a great time for gathering. In addition Modern TV has smart system that let you be connected with people.
+First, it's true watching TV take a lot of your day, nevertheless it makes people meet and start a conversation about what they watch at other times like weather forecast and sport programs.
+Second, people like having meals while they are watching TV. Families usually tend to watch television either with each other or friends. For example my friends and I used to sit together and enjoy watching movies using VHS player at nights. It was fun and a little bit similar to the cinema. 
+Third, TV can be one of communication ways. Moreover, TV can be connected to multimedia devices that have smart operating system like Google TV, WDTV using Skype, tango and other apps. In addition Teenagers can play games online with their friends; therefore we can communicate with each other through TV. 
+To sum up, TV may take some of your time away from your family and friends but it can also make family get together and help to get in conversation. As well as it's one way of recent communications, based on that I think TV helps you to get connected with people.</OriginalText>
+</Annotation>

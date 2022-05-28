@@ -1,0 +1,134 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the zoo is invaluable for human beings</text>
+    <TextPosition start="260" end="298"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>It is very crucial for learning</text>
+    <TextPosition start="300" end="331"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>It helps animals out of extinction</text>
+    <TextPosition start="333" end="367"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it is a interesting travel location</text>
+    <TextPosition start="375" end="410"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>the zoo gives humans new knowledge</text>
+    <TextPosition start="426" end="460"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the zoo is the important place for innate learning</text>
+    <TextPosition start="583" end="633"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>The zoo also let students have a chance to learning biology practically</text>
+    <TextPosition start="635" end="706"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>They are able to observe animals' behaviors and features</text>
+    <TextPosition start="708" end="764"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>practical learning help students relax from a boring lecture class</text>
+    <TextPosition start="776" end="842"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>researchers need the zoo to pick up some examples of animals for their researches</text>
+    <TextPosition start="853" end="934"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it has diverse species of animals</text>
+    <TextPosition start="943" end="976"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>the zoo preserves a large number of rare animals and provides them safe habitats</text>
+    <TextPosition start="988" end="1068"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>In the zoo, there is not so harmful as a forest</text>
+    <TextPosition start="1070" end="1117"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>They, fed by zookeepers, do not need to find food themselves</text>
+    <TextPosition start="1119" end="1179"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>we can do artificial insemenation to maintain nearly extinct wildlife</text>
+    <TextPosition start="1194" end="1263"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>because of all weird, acute, and beautiful animals in the zoo, it can be a great tourist attraction</text>
+    <TextPosition start="1285" end="1384"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>There are a lot of tourists who seek to see those animals closely</text>
+    <TextPosition start="1386" end="1451"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>If the zoo has a large number of both national and foreign tourists, it will receive a great deal of money</text>
+    <TextPosition start="1453" end="1559"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="claim"/>
+    <text>It benefits to a certain country</text>
+    <TextPosition start="1622" end="1654"/>
+    <Relation relationID="RT19-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>That also make money flow, and then economics become better</text>
+    <TextPosition start="1561" end="1620"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="claim"/>
+    <text>the zoo not only saves animals in danger of extinction, but also helps people around the world have better lives</text>
+    <TextPosition start="1672" end="1784"/>
+    <Relation relationID="RT21-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Do you agree or disagree with the statement that a zoo has no useful purpose
+
+Some people may believe that a zoo is futile in the era of globalization, which people can develop their knowledge fast and easily. However, I do not agree with them. I believe that the zoo is invaluable for human beings. It is very crucial for learning. It helps animals out of extinction. Also, it is a interesting travel location.
+First of all, the zoo gives humans new knowledge. When you were so young that you did not know many kinds of animals, what should you do if there were no zoo? Inevitably, the zoo is the important place for innate learning. The zoo also let students have a chance to learning biology practically. They are able to observe animals' behaviors and features. Moreover, practical learning help students relax from a boring lecture class. Besides, researchers need the zoo to pick up some examples of animals for their researches because it has diverse species of animals.
+Secondly, the zoo preserves a large number of rare animals and provides them safe habitats. In the zoo, there is not so harmful as a forest. They, fed by zookeepers, do not need to find food themselves. Furthermore, we can do artificial insemenation to maintain nearly extinct wildlife.
+Last but not least, because of all weird, acute, and beautiful animals in the zoo, it can be a great tourist attraction. There are a lot of tourists who seek to see those animals closely. If the zoo has a large number of both national and foreign tourists, it will receive a great deal of money. That also make money flow, and then economics become better. It benefits to a certain country. 
+In conclusion, the zoo not only saves animals in danger of extinction, but also helps people around the world have better lives. I firmly believe that the zoo is so useful for the earth.</OriginalText>
+</Annotation>

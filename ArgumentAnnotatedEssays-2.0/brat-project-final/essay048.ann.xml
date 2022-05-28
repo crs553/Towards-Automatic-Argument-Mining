@@ -1,0 +1,68 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>online-teaching should be widely used among colleges and universities in terms of convenience and optimizing cost for educational institutions</text>
+    <TextPosition start="364" end="506"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>educational institutions are able to optimize costs by increasing teacher-student ratios</text>
+    <TextPosition start="1049" end="1137"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>distance-learning brings significant convenience for students in every corner of the world</text>
+    <TextPosition start="523" end="613"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>In earlier times, students who were tired of commuting had to attend schools nearby, regardless of any differences in teaching facilities, teacher's qualifications or the school reputation</text>
+    <TextPosition start="615" end="803"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Now, however, students are able to apply for online-courses provided by top-of-the-range universities and colleges worldwide</text>
+    <TextPosition start="805" end="929"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the presence of video conferencing allows a teacher to teach a greater number of students</text>
+    <TextPosition start="944" end="1033"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Thanks to the economical online-teaching, universities and colleges are able to offer grants for students who have outstanding academic achievements but are unable to attend schools because of financial constrains</text>
+    <TextPosition start="1139" end="1352"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>attending lectures in person provides students an opportunity to communicate with teachers and other classmates</text>
+    <TextPosition start="1413" end="1524"/>
+    <Relation relationID="RT9T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>They further point out that traditional teaching approaches involving discussion and cooperation among students play a significant role in campus life</text>
+    <TextPosition start="1526" end="1676"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>It is the real interactions and communications in class make education much more attractive</text>
+    <TextPosition start="1678" end="1769"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Distance-learning vs. attending school in person
+
+A matter of considerable controversy at present is the issue of whether distance-learning should be promoted as much as possible, or rather attending lectures in person should be allowed to take a predominant place in universities because this way of learning is superior than online degrees. From my perspective, online-teaching should be widely used among colleges and universities in terms of convenience and optimizing cost for educational institutions.
+To begin with, distance-learning brings significant convenience for students in every corner of the world. In earlier times, students who were tired of commuting had to attend schools nearby, regardless of any differences in teaching facilities, teacher's qualifications or the school reputation. Now, however, students are able to apply for online-courses provided by top-of-the-range universities and colleges worldwide. Furthermore, the presence of video conferencing allows a teacher to teach a greater number of students. Consequently, educational institutions are able to optimize costs by increasing teacher-student ratios. Thanks to the economical online-teaching, universities and colleges are able to offer grants for students who have outstanding academic achievements but are unable to attend schools because of financial constrains.
+Nevertheless, opponents of online-degrees would argue that attending lectures in person provides students an opportunity to communicate with teachers and other classmates. They further point out that traditional teaching approaches involving discussion and cooperation among students play a significant role in campus life. It is the real interactions and communications in class make education much more attractive.
+By way of conclusion, it is my belief that distance-learning will become increasingly important in the future as the pace of life increases. However, discussions and interactions should be held via video conferencing frequently so that the joy of learning would not be diminished.
+</OriginalText>
+</Annotation>

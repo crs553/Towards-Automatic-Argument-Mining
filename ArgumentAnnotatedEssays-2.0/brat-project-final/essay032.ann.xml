@@ -1,0 +1,99 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>aiding poor countries has positive effects, overweighing its side-effects for the several reasons</text>
+    <TextPosition start="664" end="761"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>there are abovementioned three key points of positive effects of aid; supporting poor countries to make its economy strong and building humane concepts to people, keeping strong global economy</text>
+    <TextPosition start="2104" end="2296"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>just giving aid to impoverished countries could be manipulated by big power countries</text>
+    <TextPosition start="422" end="507"/>
+    <Relation relationID="RT4T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>a great amount of materials and money have poor countries being corrupted and politically dependent on other countries</text>
+    <TextPosition start="522" end="640"/>
+    <Relation relationID="RT5T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>Aiding help poor countries in this situation solve their economical problems and run their own business</text>
+    <TextPosition start="1071" end="1174"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>poor counties suffer from shortage of basic materials and facilities to start businesses and make it richer</text>
+    <TextPosition start="777" end="884"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>To be out of poverty, it is fundamental to support basic industry related factors such as light, electricity, load, highways, natural resources, technology and buildings for companies</text>
+    <TextPosition start="886" end="1069"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>republic of Korea used to be the poorest country even compared to others in Africa in 1960's</text>
+    <TextPosition start="1187" end="1279"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Now that it has became strong economy country aiding poor countries after 10 years of aid from other counties</text>
+    <TextPosition start="1281" end="1390"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>aiding campaign gives a chance to considerate about poor people</text>
+    <TextPosition start="1402" end="1465"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>If people in rich countries ponder poor people suffering from poverty and diseases, they would never take their abundance for granted</text>
+    <TextPosition start="1467" end="1600"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>It not only raises the notice the meaning of harmony and love, but also be a good chance to learn humane doctrine of globalization</text>
+    <TextPosition start="1602" end="1732"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>the campaigns might include practical benefits</text>
+    <TextPosition start="1741" end="1787"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>In globalized world, the economies of several countries are in a big network and must influence on each others</text>
+    <TextPosition start="1789" end="1899"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>When America mortgage loan system went bad, several economies of European and Asian countries fluctuated, even any countries had to be gotten international supports to block its bankrupt</text>
+    <TextPosition start="1901" end="2087"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Giving aid to poorer countries has more negative effects than positive effect
+
+In this world, there is no one who does not know this world 'globalization', which means the world are more closer, and every single countries affects each other more than before in many ways. That is why governmental and non-governmental organizations have been focus on being harmony and contribute to aid to poor countries. It is true that just giving aid to impoverished countries could be manipulated by big power countries. In addition, a great amount of materials and money have poor countries being corrupted and politically dependent on other countries. However, I agree that aiding poor countries has positive effects, overweighing its side-effects for the several reasons.
+First of all, poor counties suffer from shortage of basic materials and facilities to start businesses and make it richer. To be out of poverty, it is fundamental to support basic industry related factors such as light, electricity, load, highways, natural resources, technology and buildings for companies. Aiding help poor countries in this situation solve their economical problems and run their own business. In actual, republic of Korea used to be the poorest country even compared to others in Africa in 1960's. Now that it has became strong economy country aiding poor countries after 10 years of aid from other counties.
+Secondly, aiding campaign gives a chance to considerate about poor people. If people in rich countries ponder poor people suffering from poverty and diseases, they would never take their abundance for granted. It not only raises the notice the meaning of harmony and love, but also be a good chance to learn humane doctrine of globalization.
+Third, the campaigns might include practical benefits. In globalized world, the economies of several countries are in a big network and must influence on each others. When America mortgage loan system went bad, several economies of European and Asian countries fluctuated, even any countries had to be gotten international supports to block its bankrupt.
+In conclusion, there are abovementioned three key points of positive effects of aid; supporting poor countries to make its economy strong and building humane concepts to people, keeping strong global economy. I strongly believe that being a global neighbor by aiding poor countries would be continues by many organizations and volunteers, and it will make the earth a better place to live.
+</OriginalText>
+</Annotation>

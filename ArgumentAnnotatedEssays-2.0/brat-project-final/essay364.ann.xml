@@ -1,0 +1,110 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>traditional skills and ways are always valuable and will last forever</text>
+    <TextPosition start="1539" end="1608"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>technology has brought many benefits</text>
+    <TextPosition start="1497" end="1533"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>They make differences between countries</text>
+    <TextPosition start="372" end="411"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Every country has unique tradtions which show their creation, intelligence</text>
+    <TextPosition start="413" end="487"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>people feel pround of their country</text>
+    <TextPosition start="503" end="538"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they keep reserving conventions</text>
+    <TextPosition start="543" end="574"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>ways to build a house in every country are different and they distinguish between countries</text>
+    <TextPosition start="589" end="680"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>traditional skills and ways belong to value of culture</text>
+    <TextPosition start="316" end="370"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Lot of people like to use traditional things because if their quality and durability</text>
+    <TextPosition start="767" end="851"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>vases are made by hand would be used more</text>
+    <TextPosition start="867" end="908"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>there are plenty of works that using traditional way is unique method</text>
+    <TextPosition start="922" end="991"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>making cone hats from leaves have to use hand</text>
+    <TextPosition start="1007" end="1052"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Not only because there is no machine for the work, but also it looks more beautiful when it is made by hand, so resulting in greater value economy</text>
+    <TextPosition start="1054" end="1200"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>in some cases that traditional way can not replace by a new technology</text>
+    <TextPosition start="695" end="765"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>Traditional skills and ways of life will help youngsters study and know more history</text>
+    <TextPosition start="1237" end="1321"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Methods which their ancestors used in the past will be displayed again for new generations</text>
+    <TextPosition start="1323" end="1413"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>they might create somethings that are useful for life</text>
+    <TextPosition start="1427" end="1480"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <OriginalText>Traditional skills and ways are always valuable and will last forever
+
+These days, most of countries on the world invest for technology. It is evident that technology promotes economy. Many people think that conventional things will not exist and should be eliminated. I totally disagree this opinion.
+First of all, traditional skills and ways belong to value of culture. They make differences between countries. Every country has unique tradtions which show their creation, intelligence. Consequently, people feel pround of their country, so they keep reserving conventions. For example, ways to build a house in every country are different and they distinguish between countries.
+In addition, in some cases that traditional way can not replace by a new technology. Lot of people like to use traditional things because if their quality and durability. In paticular, vases are made by hand would be used more. Futhermore, there are plenty of works that using traditional way is unique method. For instance, making cone hats from leaves have to use hand. Not only because there is no machine for the work, but also it looks more beautiful when it is made by hand, so resulting in greater value economy.
+The last thing is about education. Traditional skills and ways of life will help youngsters study and know more history. Methods which their ancestors used in the past will be displayed again for new generations. After that, they might create somethings that are useful for life.
+In conclusion, technology has brought many benefits, but traditional skills and ways are always valuable and will last forever.</OriginalText>
+</Annotation>

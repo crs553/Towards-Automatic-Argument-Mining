@@ -1,0 +1,110 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>tackling down environmental problems is of the first priority rather than economic developments</text>
+    <TextPosition start="365" end="460"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>we will all perish as she's gone</text>
+    <TextPosition start="761" end="793"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Just like a man that needs a healthy body, all the living creatures as a whole needs a strong planet as well</text>
+    <TextPosition start="795" end="903"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Without Earth, whatever great civil constructions and economic achievements will end up in vain</text>
+    <TextPosition start="657" end="752"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>All the living creatures live together on our mother Earth and she is the only one</text>
+    <TextPosition start="573" end="655"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>environmental protection is far more urgent than economic developments</text>
+    <TextPosition start="501" end="571"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Environmental problems are global rather than local, which means that no countries can be spared from these problems</text>
+    <TextPosition start="1006" end="1122"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Take global warming for example, when the temperature increases, the whole globe is affected, suffering the hotter weather together</text>
+    <TextPosition start="1124" end="1255"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The melting ice mountain not only jeopardizes habitats of animals living in the polar region, but its effects of the rising sea level also endangers the residents living in the small island near the equator</text>
+    <TextPosition start="1257" end="1463"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the rising sea water could drown them</text>
+    <TextPosition start="1471" end="1508"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Environmental issues can not be divided by nationality</text>
+    <TextPosition start="1510" end="1564"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>all humans are simply entwined together by our only home-Earth</text>
+    <TextPosition start="1573" end="1635"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>the influence on environmental problems are boarder and more profound than economic issues</text>
+    <TextPosition start="914" end="1004"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>if the economic is in a very bad situation, people would revolt instantly, while environmental problems seem to be more like chronic diseases that would not burst out right away</text>
+    <TextPosition start="1759" end="1936"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>the truth is that we've been encountering so many sighs and warnings of global climate anomalies and other environmental crisis right now</text>
+    <TextPosition start="1947" end="2084"/>
+    <Relation relationID="T16Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>economic issues are global and critical as well thus can not be put aside</text>
+    <TextPosition start="1666" end="1739"/>
+    <Relation relationID="RT16T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>It would be unwise to still deny the truth and keep focusing on economic developments and unfortunately, usually the economic developments are even the causes of environmental damages</text>
+    <TextPosition start="2086" end="2269"/>
+    <Relation relationID="T16Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T16"/>
+  </Proposition>
+  <OriginalText>Environmental protection vs Economic developments
+
+Environmental protection and economic developments might be the biggest issues in the 21st century. They are both important because they are vital to human's future and welfare. However, since the budget and the recourse are limited, governments must choose between these two issues. In my opinion, I believe that tackling down environmental problems is of the first priority rather than economic developments. The following are reasons why. 
+First, environmental protection is far more urgent than economic developments. All the living creatures live together on our mother Earth and she is the only one. Without Earth, whatever great civil constructions and economic achievements will end up in vain because we will all perish as she's gone. Just like a man that needs a healthy body, all the living creatures as a whole needs a strong planet as well. 
+Second, the influence on environmental problems are boarder and more profound than economic issues. Environmental problems are global rather than local, which means that no countries can be spared from these problems. Take global warming for example, when the temperature increases, the whole globe is affected, suffering the hotter weather together. The melting ice mountain not only jeopardizes habitats of animals living in the polar region, but its effects of the rising sea level also endangers the residents living in the small island near the equator, since the rising sea water could drown them. Environmental issues can not be divided by nationality because all humans are simply entwined together by our only home-Earth.
+Some people might argue that economic issues are global and critical as well thus can not be put aside. They may say that if the economic is in a very bad situation, people would revolt instantly, while environmental problems seem to be more like chronic diseases that would not burst out right away. However, the truth is that we've been encountering so many sighs and warnings of global climate anomalies and other environmental crisis right now. It would be unwise to still deny the truth and keep focusing on economic developments and unfortunately, usually the economic developments are even the causes of environmental damages.
+In conclusion, environmental conservation is more essential than economic developments in the aspects of urgency and ranges of influence. As mentioned in the second paragraph, how can a man live happily if he is unhealthy? Similarly, how can we live safely and joyfully when our home is devastated by, ironically, by ourselves? </OriginalText>
+</Annotation>

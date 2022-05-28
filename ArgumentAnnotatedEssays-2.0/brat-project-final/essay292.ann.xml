@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is better that children are not be allowed to play the computer games</text>
+    <TextPosition start="1868" end="1940"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>playing computer games is a a waste of time</text>
+    <TextPosition start="172" end="215"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>An investigation done by Beijing University shows that 80% of the students who failed in the final exam paid 2 hours or more on-online games every week, while 90% excellent students expressed that they did not touch computer games during the most of the days</text>
+    <TextPosition start="407" end="665"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Recent research by Scientist also reveals that the youngs are more likely to be attacted by and lose themselves in these computer games, because of their low control ability</text>
+    <TextPosition start="667" end="840"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>a large number of students are obsessed in on-line computer games and as a result their performance in school are declined</text>
+    <TextPosition start="283" end="405"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>time on this activity is really time wasting</text>
+    <TextPosition start="917" end="961"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>children could learn nothing from these computer games</text>
+    <TextPosition start="851" end="905"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>all these games are developed for commercial purpose and in order to catch the eyes of the children</text>
+    <TextPosition start="969" end="1068"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>majority of the games use war, violence, bloody, or sexual subjects to lure the students</text>
+    <TextPosition start="1070" end="1158"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>those subjects are not suitable for the students and will bring bad effects to the youths</text>
+    <TextPosition start="1169" end="1258"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>It is not uncommon that the teenages are found sleepless for several days playing on-line games at public internet bar, and there are also some media reports regarding the sudden death case of the teenages in the internet bar</text>
+    <TextPosition start="1615" end="1840"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>majority of the students failed in front of the computer games playing and they use their time for studying, sleeping and physical exerice to play these computer games</text>
+    <TextPosition start="1446" end="1613"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>there are a few students paying considerable time on the computer games playing finally choose computer games related jobs as their career</text>
+    <TextPosition start="1273" end="1411"/>
+    <Relation relationID="RT14T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Disagree Playing Computer Games wastes time and students should not be allowed!
+
+It is a debatable subject that children should not be allowed to play computer games since playing computer games is a a waste of time. I hold a positive view against this opinion. 
+First and foremost, a large number of students are obsessed in on-line computer games and as a result their performance in school are declined. An investigation done by Beijing University shows that 80% of the students who failed in the final exam paid 2 hours or more on-online games every week, while 90% excellent students expressed that they did not touch computer games during the most of the days. Recent research by Scientist also reveals that the youngs are more likely to be attacted by and lose themselves in these computer games, because of their low control ability. 
+Second, children could learn nothing from these computer games, therefore time on this activity is really time wasting. Since all these games are developed for commercial purpose and in order to catch the eyes of the children, majority of the games use war, violence, bloody, or sexual subjects to lure the students. However, those subjects are not suitable for the students and will bring bad effects to the youths. 
+Admittedly, there are a few students paying considerable time on the computer games playing finally choose computer games related jobs as their career. But we have to realize the fact: majority of the students failed in front of the computer games playing and they use their time for studying, sleeping and physical exerice to play these computer games. It is not uncommon that the teenages are found sleepless for several days playing on-line games at public internet bar, and there are also some media reports regarding the sudden death case of the teenages in the internet bar. 
+In conclusion, I believe it is better that children are not be allowed to play the computer games. The computer games are like cigerate to adults and we need to set up rules to regulate this area.</OriginalText>
+</Annotation>

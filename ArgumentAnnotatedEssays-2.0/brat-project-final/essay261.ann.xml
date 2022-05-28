@@ -1,0 +1,111 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the art and music should be required to study</text>
+    <TextPosition start="633" end="678"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>the art and music, from my point of view, are also essential for younger student's future life</text>
+    <TextPosition start="349" end="443"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>those subjects help students learn this planet from another perspective and they can release people from the enormous pressure nowadays</text>
+    <TextPosition start="452" end="587"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>It is well known that the art and music are not bound by country border, and they are something that is shared by the people from every parts of this world and is symbols of various cultures</text>
+    <TextPosition start="776" end="966"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>learning art and music enables students to appreciate the fruits of eminent artists and musicians and to feel the fascination of different cultures</text>
+    <TextPosition start="993" end="1140"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>students are able to feel the greatest music masterpiece in Euopren as the symphony of destiny-Beethoven's most notable workpiece is played</text>
+    <TextPosition start="1156" end="1295"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>art and music would broaden student's horizon and therefore make them thoughtful</text>
+    <TextPosition start="694" end="774"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>with the improvement of life rhythm, people have currently suffered too much pressure from their studies or jobs, and these pressure are likely to destroy one person if he cannot find a way to emancipate himself</text>
+    <TextPosition start="1413" end="1624"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Art and music are, of course most accessible tools for modern people to liberate themselves from the extremely stressful life</text>
+    <TextPosition start="1626" end="1751"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>When enjoying one piece of brilliant paintings, such as the Mona Lisa, people would put all their pressure down on the ground and just think about what the most proficient and mysterious smile in this world stands for</text>
+    <TextPosition start="1753" end="1970"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>they would totally involve in the ocean of art and their stressful nervous would be relieved</text>
+    <TextPosition start="1988" end="2080"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>this sense towards art is built on the initial study on the art</text>
+    <TextPosition start="2094" end="2157"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>studying art and music is also the appropriate outlets of stress and superb ways to relax</text>
+    <TextPosition start="1311" end="1400"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>the study of art and music is supposed to rely on younger student's own interest</text>
+    <TextPosition start="2171" end="2251"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>the school should replace some basic science class with some art and music class in order to cultivate student's interest of art without adding extra study pressure</text>
+    <TextPosition start="2328" end="2492"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>The education of art and music would not work if students resist it</text>
+    <TextPosition start="2253" end="2320"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>in the modern society, since understanding of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure</text>
+    <TextPosition start="2509" end="2657"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Younger school children should study art and music
+
+Undoubtedly, math, language, science and history are all extremely important subjects in student's education since these subjects provide students the basic understanding of the world. Therefore, some people assert that there is no need to learn other subjects for younger students. Nevertheless, the art and music, from my point of view, are also essential for younger student's future life because those subjects help students learn this planet from another perspective and they can release people from the enormous pressure nowadays. In this case, I would definitely agree that the art and music should be required to study.
+First of all, art and music would broaden student's horizon and therefore make them thoughtful. It is well known that the art and music are not bound by country border, and they are something that is shared by the people from every parts of this world and is symbols of various cultures. Under this circumstance, learning art and music enables students to appreciate the fruits of eminent artists and musicians and to feel the fascination of different cultures. For instance, students are able to feel the greatest music masterpiece in Euopren as the symphony of destiny-Beethoven's most notable workpiece is played. 
+In addition, studying art and music is also the appropriate outlets of stress and superb ways to relax. Obviously, with the improvement of life rhythm, people have currently suffered too much pressure from their studies or jobs, and these pressure are likely to destroy one person if he cannot find a way to emancipate himself. Art and music are, of course most accessible tools for modern people to liberate themselves from the extremely stressful life. When enjoying one piece of brilliant paintings, such as the Mona Lisa, people would put all their pressure down on the ground and just think about what the most proficient and mysterious smile in this world stands for. At this moment, they would totally involve in the ocean of art and their stressful nervous would be relieved. Apparently, this sense towards art is built on the initial study on the art.
+Admittedly, the study of art and music is supposed to rely on younger student's own interest. The education of art and music would not work if students resist it. Thus, the school should replace some basic science class with some art and music class in order to cultivate student's interest of art without adding extra study pressure.
+In a nutshell, in the modern society, since understanding of the lengthen and depth of the world is important and meanwhile people have burdened excessive pressure, younger students' art and music education should not take the second place.
+</OriginalText>
+</Annotation>

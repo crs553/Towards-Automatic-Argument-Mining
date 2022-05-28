@@ -1,0 +1,98 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>providing professional training can be effective in encouraging further good work</text>
+    <TextPosition start="246" end="327"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>we can unleash uncomfortable in training classes by making new friends, joking in class, enjoying new knowledge</text>
+    <TextPosition start="645" end="756"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>training time can provide employee interesting time outside working office to refresh their mind</text>
+    <TextPosition start="386" end="482"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>in company we always have to deal with so many stressful situations such as negotiating with difficult customer, complaining from boss, etc</text>
+    <TextPosition start="493" end="632"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>they will think about develop long term career with their company</text>
+    <TextPosition start="955" end="1020"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>employees will be very proud of themselves when they are provided training while others don't have this opportunity</text>
+    <TextPosition start="1041" end="1156"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>employees fell that they are valuable if they are trained</text>
+    <TextPosition start="768" end="825"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>the employees know that their company is investing on them for future development of their company</text>
+    <TextPosition start="841" end="939"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>providing training will make employees happy with their current job</text>
+    <TextPosition start="1168" end="1235"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>it help them improve their professional business knowledge</text>
+    <TextPosition start="1244" end="1302"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Having professional training help employees gain more confidence in their business</text>
+    <TextPosition start="1304" end="1386"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>they will finish their jobs with excellent result</text>
+    <TextPosition start="1406" end="1455"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>excellent working result will make them very happy as well as their boss</text>
+    <TextPosition start="1468" end="1540"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>providing professional training as a reward for good work has many advantages</text>
+    <TextPosition start="1557" end="1634"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Training can help employees refresh their mind as well as make them happy, focus on work</text>
+    <TextPosition start="1636" end="1724"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Salary increases and promotions to new positions are not the only ways
+
+It is unquestionable that salary increases and promotions to new positions are very common way to reward employees for good work. Besides the methods, from my point of view, providing professional training can be effective in encouraging further good work. My arguments for this point are listed follows.
+Firstly, training time can provide employee interesting time outside working office to refresh their mind. Clearly, in company we always have to deal with so many stressful situations such as negotiating with difficult customer, complaining from boss, etc. Therefore, we can unleash uncomfortable in training classes by making new friends, joking in class, enjoying new knowledge.
+Secondly, employees fell that they are valuable if they are trained. In this case, the employees know that their company is investing on them for future development of their company. So obviously, they will think about develop long term career with their company. For another thing, employees will be very proud of themselves when they are provided training while others don't have this opportunity. 
+Thirdly, providing training will make employees happy with their current job because it help them improve their professional business knowledge. Having professional training help employees gain more confidence in their business, so I believe that they will finish their jobs with excellent result. Of course, excellent working result will make them very happy as well as their boss.
+In conclusion, providing professional training as a reward for good work has many advantages. Training can help employees refresh their mind as well as make them happy, focus on work. Taking into account of all these factors, we may reach the conclusion that training can be effective in encouraging further good work.</OriginalText>
+</Annotation>

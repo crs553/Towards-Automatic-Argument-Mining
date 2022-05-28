@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>advertisement bring more benefits than harms to our lives</text>
+    <TextPosition start="331" end="388"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>some kinds of shampoo, namely Sunsilk, Clear, Dove are publicized as magic items to recreate injured hair with the number of other benefits</text>
+    <TextPosition start="706" end="845"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>not all customers are satisfied with what they bought under the introduction from advertisement</text>
+    <TextPosition start="873" end="968"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>all of things are advertised as the best ones result in the confusing for users in picking out the most suitable goods</text>
+    <TextPosition start="573" end="691"/>
+    <Relation relationID="RT4T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>most advertisements so exaggerate the quality of their products that they often ignore some negative effects of what they sell</text>
+    <TextPosition start="424" end="550"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Take Coca cola for an example, this drinking firm is well-known as one of companies invested a major part of their money in advertising</text>
+    <TextPosition start="1330" end="1465"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>No wonder why this drinking title becomes more and more familiar with customers around the world</text>
+    <TextPosition start="1467" end="1563"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>online advertisement is one of the easiest approaches due to their potential gains such as cheaper cost, convenience and easily observing</text>
+    <TextPosition start="1585" end="1722"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>advertisement enables to support users in getting accustomed to enterprises and know thoroughly items sold from these producers</text>
+    <TextPosition start="1201" end="1328"/>
+    <Relation relationID="RT9T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>it is undeniable fact that advertising market gives lots of working opportunities from producers, writers to models and cameramen for all of people as long as their qualification adapt to the demands</text>
+    <TextPosition start="990" end="1189"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Discuss both harms and good of advertising and give your opinion
+
+On these days, with the assistance of advertisement, people easily purchase the best products with detailed information and instruction for their requirement. Although some people claim that the advantages of advertising are outweigh the advantages, I believe that advertisement bring more benefits than harms to our lives.
+On the one hand, it is clear that most advertisements so exaggerate the quality of their products that they often ignore some negative effects of what they sell. In addition to this, all of things are advertised as the best ones result in the confusing for users in picking out the most suitable goods. For example, some kinds of shampoo, namely Sunsilk, Clear, Dove are publicized as magic items to recreate injured hair with the number of other benefits. However, the fact is that not all customers are satisfied with what they bought under the introduction from advertisement. 
+On the other hand, it is undeniable fact that advertising market gives lots of working opportunities from producers, writers to models and cameramen for all of people as long as their qualification adapt to the demands. Moreover, advertisement enables to support users in getting accustomed to enterprises and know thoroughly items sold from these producers. Take Coca cola for an example, this drinking firm is well-known as one of companies invested a major part of their money in advertising. No wonder why this drinking title becomes more and more familiar with customers around the world. Last but not least, online advertisement is one of the easiest approaches due to their potential gains such as cheaper cost, convenience and easily observing.
+To sum up, everything has its own gains and losses and advertisement is not an exception. From my point of view, advertising will be better if producers and advertisers are more honest in producing advertisements to give people the general view on one product.</OriginalText>
+</Annotation>

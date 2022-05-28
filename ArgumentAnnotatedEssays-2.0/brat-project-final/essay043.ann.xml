@@ -1,0 +1,74 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>large scale sports games make people focus on attractive contests instead of international disputes, and help them being proud of their nation</text>
+    <TextPosition start="461" end="603"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>world sports events strongly participate in eventually pulling back people towards friendship and peace</text>
+    <TextPosition start="1310" end="1413"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>during times of war, people living in badly affected countries can forget about the gloomy environment and maintain a link with the rest of the world by listening to international sports event</text>
+    <TextPosition start="772" end="964"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>when Irak was hardly struck by the Second Gulf War, its citizens tried to catch any incoming news about the FootballWorld Cup through their portable receivers</text>
+    <TextPosition start="979" end="1137"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>international sports competitions encourage people and put pressure on them to come back, sooner or later, to a relative peaceful normality</text>
+    <TextPosition start="1163" end="1302"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>it is clear that people can freely express their patriotic feelings during international sports events</text>
+    <TextPosition start="1957" end="2059"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>these sporting occasions are a good opportunity for people to be proud of their country</text>
+    <TextPosition start="1425" end="1512"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>when the Football World Cup was organised in South Africa, its citizens filled up the stadiums, cheered and waved national flags to support their national team on the field</text>
+    <TextPosition start="1528" end="1700"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>South African national and traditional songs were played in the streets throughout the night</text>
+    <TextPosition start="1702" end="1794"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>This example demonstrates how people might take numerous elements from their roots and history to proudly display them while supporting their team</text>
+    <TextPosition start="1796" end="1942"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>This has been true for centuries and will certainly not change in the foreseeable future</text>
+    <TextPosition start="2329" end="2417"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Sporting events easing international tensions, releasing patriotic feelings
+
+For most folks on Earth, the need to gather in one place, and enjoy competition with other talented people from different cultures through popular games has always been a strong motivation. This trend is so deeply engraved in people's mind that the organisation of such events continue to be planned, even when some participants are facing grievous social problems. It is agreed that large scale sports games make people focus on attractive contests instead of international disputes, and help them being proud of their nation. This will be proved by analysing how sports events may be an important link to the peace, and by how they encourage people to display their national symbols.
+Firstly, during times of war, people living in badly affected countries can forget about the gloomy environment and maintain a link with the rest of the world by listening to international sports event. For example, when Irak was hardly struck by the Second Gulf War, its citizens tried to catch any incoming news about the FootballWorld Cup through their portable receivers. This clearly shows that international sports competitions encourage people and put pressure on them to come back, sooner or later, to a relative peaceful normality. Thus, world sports events strongly participate in eventually pulling back people towards friendship and peace.
+Secondly, these sporting occasions are a good opportunity for people to be proud of their country. For instance, when the Football World Cup was organised in South Africa, its citizens filled up the stadiums, cheered and waved national flags to support their national team on the field. South African national and traditional songs were played in the streets throughout the night. This example demonstrates how people might take numerous elements from their roots and history to proudly display them while supporting their team. As a result, it is clear that people can freely express their patriotic feelings during international sports events.
+In conclusion, after analysing the effects of world games both for countries at war and for organising countries, it is clear that they not only constitute a tremendous appeal towards a peaceful society, but also guide the public demonstrations of national proudness. This has been true for centuries and will certainly not change in the foreseeable future.
+</OriginalText>
+</Annotation>

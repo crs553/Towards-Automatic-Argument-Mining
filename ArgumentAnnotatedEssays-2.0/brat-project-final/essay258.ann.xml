@@ -1,0 +1,128 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>both learning by myself and learning with a teacher could be helpful</text>
+    <TextPosition start="132" end="200"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Learning with a teacher can prevent one from being confused and increase the rate and speed of learning</text>
+    <TextPosition start="202" end="305"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>for practical subjects you have to have a teacher</text>
+    <TextPosition start="339" end="388"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>sometimes I would rather learning on my own</text>
+    <TextPosition start="409" end="452"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>it is good to learn with a teacher and sometimes on my own</text>
+    <TextPosition start="2156" end="2214"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>I will learn faster and better and won't get discouraged and confused</text>
+    <TextPosition start="853" end="922"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>A good and experienced teacher can help me learn faster and easier</text>
+    <TextPosition start="454" end="520"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Sometimes when learning a course by myself which is hard and confusing to understand and has few sources available, I get discouraged after spending a lot of time</text>
+    <TextPosition start="522" end="684"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>In this situation, I'll look for a teacher and request for help from him or her</text>
+    <TextPosition start="686" end="765"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>And then he or she will teach me the course efficiently in a short time</text>
+    <TextPosition start="767" end="838"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>if you want to learn driving a car or some jobs like medicine and engineering and some sports like skiing and swimming, you'll have to find a teacher</text>
+    <TextPosition start="1033" end="1182"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>It's almost impossible and inefficient to learn those things on your own</text>
+    <TextPosition start="1184" end="1256"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>if you are going to learn some things by yourself, you may learn and understand them incorrectly</text>
+    <TextPosition start="1270" end="1366"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>There are some practical subjects that you can only learn them with a teacher or an instructor</text>
+    <TextPosition start="924" end="1018"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>from my own experiences, after I had started learning playing the guitar without a teacher, I got used to wrong habits regarding strumming and tempo, but after finding and learning with a tutor and identifying and eliminating those incorrect habits, I was able to play properly</text>
+    <TextPosition start="1381" end="1658"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>There are some things that I prefer to learn them without a teacher</text>
+    <TextPosition start="1660" end="1727"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>I won't have to spend extra money for a teacher and my time will not be wasted either because of going to classes</text>
+    <TextPosition start="1736" end="1849"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>In today's world there are many great and useful sources available like books, electronic books, the internet and TV and satellite</text>
+    <TextPosition start="1851" end="1981"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>I can utilize them as tutorials for many things</text>
+    <TextPosition start="1983" end="2030"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>I can learn English or other languages by a lot of helpful books and many online websites</text>
+    <TextPosition start="2046" end="2135"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <OriginalText>Sometimes it is good to learn with a teacher and sometimes on my own
+
+Different people prefer different styles of learning. I think both learning by myself and learning with a teacher could be helpful. Learning with a teacher can prevent one from being confused and increase the rate and speed of learning. Another important point is that for practical subjects you have to have a teacher. On the other hand, sometimes I would rather learning on my own.
+A good and experienced teacher can help me learn faster and easier. Sometimes when learning a course by myself which is hard and confusing to understand and has few sources available, I get discouraged after spending a lot of time. In this situation, I'll look for a teacher and request for help from him or her. And then he or she will teach me the course efficiently in a short time and therefore I will learn faster and better and won't get discouraged and confused.
+There are some practical subjects that you can only learn them with a teacher or an instructor. For example, if you want to learn driving a car or some jobs like medicine and engineering and some sports like skiing and swimming, you'll have to find a teacher. It's almost impossible and inefficient to learn those things on your own. By the way, if you are going to learn some things by yourself, you may learn and understand them incorrectly! For example, from my own experiences, after I had started learning playing the guitar without a teacher, I got used to wrong habits regarding strumming and tempo, but after finding and learning with a tutor and identifying and eliminating those incorrect habits, I was able to play properly.
+There are some things that I prefer to learn them without a teacher because I won't have to spend extra money for a teacher and my time will not be wasted either because of going to classes. In today's world there are many great and useful sources available like books, electronic books, the internet and TV and satellite. I can utilize them as tutorials for many things. For instance, I can learn English or other languages by a lot of helpful books and many online websites. 
+In sum, sometimes it is good to learn with a teacher and sometimes on my own. In my view, both can help and each of them has its own advantages and disadvantages.</OriginalText>
+</Annotation>

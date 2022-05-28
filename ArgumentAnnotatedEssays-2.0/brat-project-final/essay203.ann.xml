@@ -1,0 +1,146 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is one's hard work that helps him reach his target</text>
+    <TextPosition start="244" end="297"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>I do not see any rational in believing in luck to reach one's goals</text>
+    <TextPosition start="125" end="192"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>it is good to be lucky</text>
+    <TextPosition start="2273" end="2295"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>depending on luck for everything is not good</text>
+    <TextPosition start="2297" end="2341"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>if you depend only on luck for all your accomplishments, you are taking a great risk</text>
+    <TextPosition start="306" end="390"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Luck is something intangible and no one can guarantee that it would ever come your way</text>
+    <TextPosition start="392" end="478"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>If it doesn't work, it would be a great disappointment</text>
+    <TextPosition start="480" end="534"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>all my accomplishments were backed by my hard work, not my luck</text>
+    <TextPosition start="687" end="750"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>I never did encounter any disappointments of missing my goals</text>
+    <TextPosition start="756" end="817"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>if you strive hard to achieve what you want, then your hard work would take you at least closer to your final goal</text>
+    <TextPosition start="544" end="658"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>those who believe in hard work are clear about their goals and know about their final destination</text>
+    <TextPosition start="936" end="1033"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>They carefully organize the process of achieving their targets and continue to evaluate their progress until they reach the final goal</text>
+    <TextPosition start="1035" end="1169"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>If you believe in luck, you would be clueless about where you are heading</text>
+    <TextPosition start="1171" end="1244"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>a friend of mine, who had severe financial constraints, had the habit of buying lottery tickets thinking that one day he would win a lottery</text>
+    <TextPosition start="1259" end="1399"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>He was living in an illusion that he can solve his financial issues with this lottery</text>
+    <TextPosition start="1401" end="1486"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>up to this day his luck has not appeared and problems have got further worsened</text>
+    <TextPosition start="1497" end="1576"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>if you work hard, luck too might shine on you and take you some more steps further ahead from your actual target</text>
+    <TextPosition start="1588" end="1700"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>my boss worked tirelessly for his promotion</text>
+    <TextPosition start="1715" end="1758"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>He looked at every aspect that he needed to qualify for the promotion</text>
+    <TextPosition start="1760" end="1829"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>He realized that having a master's degree would be a great credential for him to outperform his competitors</text>
+    <TextPosition start="1831" end="1938"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>he had many commitments at home and work, he somehow managed to complete this degree before he was eligible to apply</text>
+    <TextPosition start="1949" end="2065"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>At the end he was not only able to get the promotion amidst a stiff competition but also got nominated for a foreign scholarship</text>
+    <TextPosition start="2067" end="2195"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T24">
+    <ADU type="premise"/>
+    <text>he had more credentials than other officers in his capacity</text>
+    <TextPosition start="2202" end="2261"/>
+    <Relation relationID="T23Default Inference" type="Default Inference" typeBinary="0" partnerID="T23"/>
+  </Proposition>
+  <OriginalText>Luck vs hard work
+
+There are many instances that luck has brought people things that they never could even imagine. However, I do not see any rational in believing in luck to reach one's goals. Therefore I strongly agree with the argument that it is one's hard work that helps him reach his target.
+First, if you depend only on luck for all your accomplishments, you are taking a great risk. Luck is something intangible and no one can guarantee that it would ever come your way. If it doesn't work, it would be a great disappointment. Instead if you strive hard to achieve what you want, then your hard work would take you at least closer to your final goal. In my personal experience, all my accomplishments were backed by my hard work, not my luck. And I never did encounter any disappointments of missing my goals.
+Secondly, if you believe that hard work is the key to success, it would make you a visionary person. In other words, those who believe in hard work are clear about their goals and know about their final destination. They carefully organize the process of achieving their targets and continue to evaluate their progress until they reach the final goal. If you believe in luck, you would be clueless about where you are heading. For example, a friend of mine, who had severe financial constraints, had the habit of buying lottery tickets thinking that one day he would win a lottery. He was living in an illusion that he can solve his financial issues with this lottery. However, up to this day his luck has not appeared and problems have got further worsened. 
+Thirdly, if you work hard, luck too might shine on you and take you some more steps further ahead from your actual target. For example, my boss worked tirelessly for his promotion. He looked at every aspect that he needed to qualify for the promotion. He realized that having a master's degree would be a great credential for him to outperform his competitors. Although he had many commitments at home and work, he somehow managed to complete this degree before he was eligible to apply. At the end he was not only able to get the promotion amidst a stiff competition but also got nominated for a foreign scholarship since he had more credentials than other officers in his capacity. 
+Although it is good to be lucky, depending on luck for everything is not good. Hence I strongly believe in hard working that would not easily disappoint you as luck sometimes does.</OriginalText>
+</Annotation>

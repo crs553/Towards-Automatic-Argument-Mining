@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T3">
+    <ADU type="conclusion"/>
+    <text>I do not approve of this trend due to negative effects such as low quality of life and affecting the environment</text>
+    <TextPosition start="1625" end="1737"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>young people tend to study or work in urban areas</text>
+    <TextPosition start="1472" end="1521"/>
+    <Relation relationID="RT1T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>these provide them many educational opportunities and career potentials</text>
+    <TextPosition start="1528" end="1599"/>
+    <Relation relationID="T1Default Inference" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>cities often offer more well-paid jobs and study chances compared to rural areas</text>
+    <TextPosition start="376" end="456"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>they move to big cities to pursue academic career and find jobs in order to have a higher standard of living</text>
+    <TextPosition start="601" end="709"/>
+    <Relation relationID="RT5T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>many large companies and universities often locate in cities which are hailed as promising lands to develop their career</text>
+    <TextPosition start="469" end="589"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>if a gradate stays in the city after leaving his college and seeks a job with good salary instead of returning his village to do farm work, he could perhaps buy a house or his own car after a short time</text>
+    <TextPosition start="724" end="926"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>cities cannot provide adequate space for thousands of dwellers that might lead to poor housing conditions and sanitation</text>
+    <TextPosition start="1159" end="1279"/>
+    <Relation relationID="RT8-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>the burgeoning number of young adults from the countryside flocking to cities gives rise to overpopulation in cities</text>
+    <TextPosition start="1028" end="1144"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>it might put strain on the environment</text>
+    <TextPosition start="1295" end="1333"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>If there are more people in the cities, there would be large numbers of vehicles on the road, which causes air pollution</text>
+    <TextPosition start="1335" end="1455"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>Young people move to cities
+
+These days, there are increasing numbers of young people from the countryside moving to cities in search of jobs and educational opportunities. Personally, I think it has some drawbacks that will be discussed in this essay together with some reasons about this.
+To begin with, the major cause that leads to urban migration of young adults is that cities often offer more well-paid jobs and study chances compared to rural areas. Obviously, many large companies and universities often locate in cities which are hailed as promising lands to develop their career. Therefore they move to big cities to pursue academic career and find jobs in order to have a higher standard of living. For example, if a gradate stays in the city after leaving his college and seeks a job with good salary instead of returning his village to do farm work, he could perhaps buy a house or his own car after a short time. 
+However, this phenomenon sometimes poses several negative consequences. There can be no doubt that the burgeoning number of young adults from the countryside flocking to cities gives rise to overpopulation in cities. As a result, cities cannot provide adequate space for thousands of dwellers that might lead to poor housing conditions and sanitation. Additionally, it might put strain on the environment. If there are more people in the cities, there would be large numbers of vehicles on the road, which causes air pollution.
+In conclusion, young people tend to study or work in urban areas since these provide them many educational opportunities and career potentials. In my opinion, however, I do not approve of this trend due to negative effects such as low quality of life and affecting the environment.</OriginalText>
+</Annotation>

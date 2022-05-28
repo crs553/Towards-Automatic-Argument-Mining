@@ -1,0 +1,99 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>communicating by e-mails or voice mails is better</text>
+    <TextPosition start="169" end="218"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>In this case it is not so difficult to write an e-mail or to leave a voice mail</text>
+    <TextPosition start="437" end="516"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>even shy people feel themselves more confident</text>
+    <TextPosition start="525" end="571"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>communicating by e-mail is easy</text>
+    <TextPosition start="321" end="352"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Many people have problems with calling a person that they are not acquainted with</text>
+    <TextPosition start="354" end="435"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>I might not have time to call a person or to meet with him or her in an appropriate time</text>
+    <TextPosition start="828" end="916"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>for me it is better to leave a voice mail</text>
+    <TextPosition start="920" end="961"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>I get home at about midnight and I still need to answer some questions and to solve some routine problems</text>
+    <TextPosition start="721" end="826"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>I work and study at the university and I don't have spare time during the day</text>
+    <TextPosition start="642" end="719"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>you can write an e-mail at any time of the day</text>
+    <TextPosition start="583" end="629"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>you can change the word order or you can choose more appropriate style to sound more polite</text>
+    <TextPosition start="1125" end="1216"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>When you speak face-to-face you are not as able to control every word as you are when you write an e-mail</text>
+    <TextPosition start="1218" end="1323"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>when you write an e-mail you have enough time to think carefully about what you are writing and how it would be better to express yourself</text>
+    <TextPosition start="972" end="1110"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>there is no chance to disturb people by sending them an e-mail</text>
+    <TextPosition start="1338" end="1400"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>You should not worry about interrupting an important conversation or some other business</text>
+    <TextPosition start="1402" end="1490"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Communicating via e-mail and voice mail vs Telephone and face-to face
+
+Although many people prefer communicating by telephone or face-to-face, personally I believe that communicating by e-mails or voice mails is better. There are several reasons to support this idea which I would like to mention in this essay.
+Firstly, communicating by e-mail is easy. Many people have problems with calling a person that they are not acquainted with. In this case it is not so difficult to write an e-mail or to leave a voice mail because even shy people feel themselves more confident.
+Secondly, you can write an e-mail at any time of the day. As for me, I work and study at the university and I don't have spare time during the day. I get home at about midnight and I still need to answer some questions and to solve some routine problems. I might not have time to call a person or to meet with him or her in an appropriate time so for me it is better to leave a voice mail.
+Thirdly, when you write an e-mail you have enough time to think carefully about what you are writing and how it would be better to express yourself. For example, you can change the word order or you can choose more appropriate style to sound more polite. When you speak face-to-face you are not as able to control every word as you are when you write an e-mail.
+And finally, there is no chance to disturb people by sending them an e-mail. You should not worry about interrupting an important conversation or some other business.
+To sum up, I would like to say that for me both options of communicating are possible, but if this is an important and not urgent question I would prefer to answer it by means of internet or voice mail.</OriginalText>
+</Annotation>

@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>other celebrities do lead young people in the right direction</text>
+    <TextPosition start="1900" end="1961"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>some celebrities misguide young people by showing their external wealth and appearance</text>
+    <TextPosition start="1812" end="1898"/>
+    <Relation relationID="RT1T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>the attention of young people may become focused on chasing the dream of celebrity status</text>
+    <TextPosition start="775" end="864"/>
+    <Relation relationID="RT4T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>some celebrities tend to show off their images in front of the public</text>
+    <TextPosition start="359" end="428"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>some movie starts enjoy wearing luxury brand clothes and showing their expensive life style in front of the media, thereby gaining the public attention</text>
+    <TextPosition start="443" end="594"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>If they continue to behave in such a way, it will create a misleading image to young people who may think that extraordinary life can be achieved without hard work</text>
+    <TextPosition start="596" end="759"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>celebrities such as sports player whose performance and professional skills can be directly seen by their fans</text>
+    <TextPosition start="1060" end="1170"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>people understand that the great deal of efforts on training is directly linked to their results</text>
+    <TextPosition start="1188" end="1284"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>this kind of self-made celebrity can inspire children to develop their talents through application and perseverance</text>
+    <TextPosition start="1297" end="1412"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>other celebrities do set up role models to young people because of their visible accomplishments</text>
+    <TextPosition start="953" end="1049"/>
+    <Relation relationID="RT11-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>other celebrities such as musician also have achieved great success in their career</text>
+    <TextPosition start="1424" end="1507"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Take Michael Jackson as an example, his works are widely spread around the world, and have been extremely welcomed by the younger generation</text>
+    <TextPosition start="1509" end="1649"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>His songs spread the idea that people should care about each other, which suggests to young people how to become a good member of society</text>
+    <TextPosition start="1651" end="1788"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Some celebrities misguide young people&amp; some guide them in right direction
+
+Some people think that celebrities are known for their glamorous lifestyle rather than the work they do. While I agree this will bring negative impacts on the younger generation, this is not necessarily the case for those celebrities who are ambitious in their jobs.
+It is true that some celebrities tend to show off their images in front of the public. For example, some movie starts enjoy wearing luxury brand clothes and showing their expensive life style in front of the media, thereby gaining the public attention. If they continue to behave in such a way, it will create a misleading image to young people who may think that extraordinary life can be achieved without hard work. Consequently, the attention of young people may become focused on chasing the dream of celebrity status. This is detrimental to study and work ethics and habits. 
+Nevertheless, I believe that other celebrities do set up role models to young people because of their visible accomplishments. Firstly, celebrities such as sports player whose performance and professional skills can be directly seen by their fans. This means that people understand that the great deal of efforts on training is directly linked to their results. Therefore, this kind of self-made celebrity can inspire children to develop their talents through application and perseverance. Secondly, other celebrities such as musician also have achieved great success in their career. Take Michael Jackson as an example, his works are widely spread around the world, and have been extremely welcomed by the younger generation. His songs spread the idea that people should care about each other, which suggests to young people how to become a good member of society. 
+In summary, although some celebrities misguide young people by showing their external wealth and appearance, other celebrities do lead young people in the right direction.</OriginalText>
+</Annotation>

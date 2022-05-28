@@ -1,0 +1,61 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>there are other equally vital aspects that need to be considered in this regard</text>
+    <TextPosition start="189" end="268"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>the salary is very pivotal factor</text>
+    <TextPosition start="141" end="174"/>
+    <Relation relationID="RT1T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>there are other even more important aspects such as: friendly co-workers, working conditions and professional achievements</text>
+    <TextPosition start="1390" end="1512"/>
+    <Relation relationID="RT4-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>People, for instance, who don't like their co-workers and working condition are considered less satisfied with their jobs, despite of a high salary</text>
+    <TextPosition start="543" end="690"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>in order for people to cover their daily and general needs they need money as well</text>
+    <TextPosition start="298" end="380"/>
+    <Relation relationID="RT6T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>aspects such as: friendly colleagues, environment and work-place condition, sometimes, have even more impact on person's happiness and quality of life</text>
+    <TextPosition start="391" end="541"/>
+    <Relation relationID="T6Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>career promotion or getting some kind of credit from the administration of a company or organization are, likely, more enjoyable achievements than getting a high salary</text>
+    <TextPosition start="948" end="1116"/>
+    <Relation relationID="RT8-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>most of the satisfaction of a job comes to people from their professional achievements, skills and the position they reach</text>
+    <TextPosition start="808" end="930"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>people, who work in monotonous jobs, where no achievements or a new positions can be reached feel themselves more dissatisfied, even though they have a very good salaries</text>
+    <TextPosition start="1131" end="1301"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>Factor of choosing a career.
+
+In many societies, choice of a job depends on the size of the salary offered. Nevertheless, while I admit that the salary is very pivotal factor, I claim that there are other equally vital aspects that need to be considered in this regard.
+To begin with, I agree that in order for people to cover their daily and general needs they need money as well. However, aspects such as: friendly colleagues, environment and work-place condition, sometimes, have even more impact on person's happiness and quality of life. People, for instance, who don't like their co-workers and working condition are considered less satisfied with their jobs, despite of a high salary. In this sense, it is also one very salient proof of the accuracy of my position.
+Further and even more importantly, most of the satisfaction of a job comes to people from their professional achievements, skills and the position they reach. In other words, career promotion or getting some kind of credit from the administration of a company or organization are, likely, more enjoyable achievements than getting a high salary. For example, people, who work in monotonous jobs, where no achievements or a new positions can be reached feel themselves more dissatisfied, even though they have a very good salaries.
+In conclusion, I disagree with the idea that salary outweighs any other motivators, as there are other even more important aspects such as: friendly co-workers, working conditions and professional achievements.</OriginalText>
+</Annotation>

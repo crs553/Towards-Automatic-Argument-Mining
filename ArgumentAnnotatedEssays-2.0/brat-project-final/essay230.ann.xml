@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is the best way for teenage children to take a part-time job to prepare their adult life</text>
+    <TextPosition start="468" end="559"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it is an oppertunity to learn how to deal with money</text>
+    <TextPosition start="721" end="773"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>when I was 16, I found a job during summer vacation and earned some money by own</text>
+    <TextPosition start="798" end="878"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>At the beginning of the semester, I was told to buy a text book</text>
+    <TextPosition start="880" end="943"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>I spent most of my salary hanging out with my friend</text>
+    <TextPosition start="960" end="1012"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>I finally realized that I should learn to make a plan before I spend my money, and that did influence me in my life now</text>
+    <TextPosition start="1025" end="1144"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>when children get a job, they are able to earn money by themselves, instead of getting pocket money from their parents</text>
+    <TextPosition start="595" end="713"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>by taking a part-time job, they certainly have to be responsible for anything they have done</text>
+    <TextPosition start="1156" end="1248"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>if a student get a job in a company but he is frequently late for work, the company may reduce his payment or even fire him</text>
+    <TextPosition start="1264" end="1387"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>To compare with the school life, they might suffer only a small punishment at school</text>
+    <TextPosition start="1389" end="1473"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Under the circumstances, he will learn that he has to obey the rule and take responsibility for their work</text>
+    <TextPosition start="1475" end="1581"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>to help their children to adapt adult life, parents should let them experience it as much as they can</text>
+    <TextPosition start="1598" end="1699"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Parents can help their teenage children prepare for adult life
+
+Nowadays, the society has become exceedingly competitive than ever before, parents have the responsibilitis to teach their children to survive and to be indepedent from them, just as animals teach their offspring skills of finding foods. Parents can use many methods to guide them to achieve that, for example, asking them to do some housework or clean the rooms by themselves. In my views, I agree that it is the best way for teenage children to take a part-time job to prepare their adult life for several reasons.
+First of all, when children get a job, they are able to earn money by themselves, instead of getting pocket money from their parents. Thus, it is an oppertunity to learn how to deal with money. Take me as an example, when I was 16, I found a job during summer vacation and earned some money by own. At the beginning of the semester, I was told to buy a text book. Unfortunately, I spent most of my salary hanging out with my friend. Therefore, I finally realized that I should learn to make a plan before I spend my money, and that did influence me in my life now.
+Secondly, by taking a part-time job, they certainly have to be responsible for anything they have done. For instance, if a student get a job in a company but he is frequently late for work, the company may reduce his payment or even fire him. To compare with the school life, they might suffer only a small punishment at school. Under the circumstances, he will learn that he has to obey the rule and take responsibility for their work.
+In conclusion, to help their children to adapt adult life, parents should let them experience it as much as they can. Due to the reasons given above, to encourage children taking a part-time job is a good choice for them to get prepared for adult life.</OriginalText>
+</Annotation>

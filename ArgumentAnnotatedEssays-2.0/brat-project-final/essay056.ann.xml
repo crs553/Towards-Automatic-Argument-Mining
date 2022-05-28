@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it's a reasonable loss in globalization</text>
+    <TextPosition start="226" end="265"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>No one can deny the huge benefits of the trend that English is being accepted universally</text>
+    <TextPosition start="362" end="451"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>communication between countries and cultures become convenient</text>
+    <TextPosition start="468" end="530"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>In my country, English is a required course from elementary school</text>
+    <TextPosition start="532" end="598"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>studying abroad is easy and becomes hot among youngsters</text>
+    <TextPosition start="606" end="662"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>language obstacle is no longer a problem, which results in mutual understanding and trust between their mother land and the host country</text>
+    <TextPosition start="674" end="810"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>enhances relationship and promotes international business</text>
+    <TextPosition start="827" end="884"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>researchers, especially those who work on high-tech, would have wider range of references if they are good at English</text>
+    <TextPosition start="899" end="1016"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Taking IT industry for an example, top technical science is published in English</text>
+    <TextPosition start="1018" end="1098"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>It's neither to get a translated version of these articles, nor to always have a translator besides</text>
+    <TextPosition start="1100" end="1199"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>they have no choice but choosing English as a second language</text>
+    <TextPosition start="1214" end="1275"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>the culture heritage and nation identity vanish</text>
+    <TextPosition start="1383" end="1430"/>
+    <Relation relationID="RT13T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>English is making lesser-known languages disappear ever year</text>
+    <TextPosition start="1314" end="1374"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>this is really short-sighted, ignoring the rapid development of native economy and society</text>
+    <TextPosition start="1441" end="1531"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Influence of English - advantages outweigh the disadvantages
+
+In the present age, it is a matter of fact that increasing minority languages have diminished from the world due to the proliferation of English. Some people claim it's a reasonable loss in globalization while others argue the demerits exceed the merits. Personally, I agree with the former opinion.
+No one can deny the huge benefits of the trend that English is being accepted universally. To begin with, communication between countries and cultures become convenient. In my country, English is a required course from elementary school. Thus, studying abroad is easy and becomes hot among youngsters. For them, language obstacle is no longer a problem, which results in mutual understanding and trust between their mother land and the host country. This, in turn, enhances relationship and promotes international business. Furthermore, researchers, especially those who work on high-tech, would have wider range of references if they are good at English. Taking IT industry for an example, top technical science is published in English. It's neither to get a translated version of these articles, nor to always have a translator besides. As a result, they have no choice but choosing English as a second language.
+Admittedly, opponents may blame that English is making lesser-known languages disappear ever year. Hence, the culture heritage and nation identity vanish. However, this is really short-sighted, ignoring the rapid development of native economy and society.
+In conclusion, in spite of some negative effects, I'm totally convinced that the prevalent usage of English brings benefits to people and countries all around. I suggest all youths should learn English owing to its key role in globalization. But at the same time, actions, like recording, can be taken to protect native languages and cultures.
+</OriginalText>
+</Annotation>

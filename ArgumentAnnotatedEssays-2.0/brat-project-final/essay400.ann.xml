@@ -1,0 +1,61 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>governments should devote a greater portion of their health budgets to health education and means for precautions</text>
+    <TextPosition start="274" end="387"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>society should be educated and became aware of health issues</text>
+    <TextPosition start="736" end="796"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>decreasing the number of patients in the health system can lead hospitals and healthcare centers to be managed effectively which will result in better treatments for current patients</text>
+    <TextPosition start="541" end="723"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients</text>
+    <TextPosition start="805" end="944"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>The first reason why education and preventative measures should receive a greater budget is the potential improvements in health system</text>
+    <TextPosition start="389" end="524"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>there is nothing more important than health in a human's life and the happiness and welfare come with health</text>
+    <TextPosition start="1112" end="1220"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives</text>
+    <TextPosition start="1233" end="1388"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>the marketing campaign of Ministry of Health in Turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign</text>
+    <TextPosition start="1403" end="1602"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>governments should allocate more budget on prevention from illness and providing health education is the welfare of the society</text>
+    <TextPosition start="968" end="1095"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>A greater proportion of the budget should be allotted to education and prevention issues
+
+In today's world, the concept of the welfare state requires governments to provide sustainable healthcare and health education to their citizens. I completely agree with the idea that governments should devote a greater portion of their health budgets to health education and means for precautions.
+The first reason why education and preventative measures should receive a greater budget is the potential improvements in health system. I believe that decreasing the number of patients in the health system can lead hospitals and healthcare centers to be managed effectively which will result in better treatments for current patients. Therefore, society should be educated and became aware of health issues so that the potential precautions on the way of illnesses can be taken instead of trying to provide treatment for the increasing number of patients.
+The second reason why governments should allocate more budget on prevention from illness and providing health education is the welfare of the society. In my opinion, there is nothing more important than health in a human's life and the happiness and welfare come with health. Therefore, a government's role should be providing means that lead its citizens to learn how to prevent from potential illness that can cause misery in people's lives. For example, the marketing campaign of Ministry of Health in Turkey which aimed smoking problem among the youth increased the well-being of those who quit smoking and adapted a better lifestyle after the campaign.
+In conclusion, a greater proportion of the budget should be allotted to education and prevention issues in comparison with treatment due to achieve more effective health system and greater level of well-being.</OriginalText>
+</Annotation>

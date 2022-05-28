@@ -1,0 +1,74 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>While many believe that petrol and diesel fuel should be charged with the highest taxation, I strongly disagree with this notion</text>
+    <TextPosition start="302" end="430"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>higher fuel and petrol cost has its own pros and cons</text>
+    <TextPosition start="1587" end="1640"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Taxation may have tackled the environmental issue simply by diverting people to public transportations such as trains, buses or ferries</text>
+    <TextPosition start="557" end="692"/>
+    <Relation relationID="RT4T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>if petrol and fuel taxation are raised, people might hesitate choosing a personal automobile</text>
+    <TextPosition start="463" end="555"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>for those who have already afforded a car, there is a likelihood it is restraint from usage on long journeys or to crowded cities</text>
+    <TextPosition start="708" end="837"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the more costly petrol is, the higher the price of necessary product: rice, meat or even vegetable</text>
+    <TextPosition start="936" end="1034"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>people have to turn to cheaper alternatives, which might cause the abundance in goods and later on, economic crisis</text>
+    <TextPosition start="1050" end="1165"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>taxation on flamable resources might backfire by conducing to inflation</text>
+    <TextPosition start="848" end="919"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Suppose that the those countries cut down on its oil support, other nations will have to pay more as well as release beneficial policies for them</text>
+    <TextPosition start="1319" end="1464"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>America, for example, has recently drawn its intervention in Russian crisis only due to the influx of oil</text>
+    <TextPosition start="1466" end="1571"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>countries that import oil will be more dependent on the exporters, both politically and financially</text>
+    <TextPosition start="1218" end="1317"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Increased taxation on petrol and diesel fuel to discourage private cars?
+
+There is no doubt our life has had a change for the better since cars were introduced. However, cars themselves, especially private ones, have exerted severe pressure on the environment and economy for wasteful oil consumption. While many believe that petrol and diesel fuel should be charged with the highest taxation, I strongly disagree with this notion.
+One can not deny the fact that if petrol and fuel taxation are raised, people might hesitate choosing a personal automobile. Taxation may have tackled the environmental issue simply by diverting people to public transportations such as trains, buses or ferries. Additionally, for those who have already afforded a car, there is a likelihood it is restraint from usage on long journeys or to crowded cities.
+However, taxation on flamable resources might backfire by conducing to inflation. To be precise, the more costly petrol is, the higher the price of necessary product: rice, meat or even vegetable. Consequently, people have to turn to cheaper alternatives, which might cause the abundance in goods and later on, economic crisis.
+Another point that should be taken into account is countries that import oil will be more dependent on the exporters, both politically and financially. Suppose that the those countries cut down on its oil support, other nations will have to pay more as well as release beneficial policies for them. America, for example, has recently drawn its intervention in Russian crisis only due to the influx of oil.
+To summarize, higher fuel and petrol cost has its own pros and cons. However, it disadvantages may outweigh its advantages with regard to economic and politic issues, making it advisable to seek another options to reduce the use of personal cars.</OriginalText>
+</Annotation>

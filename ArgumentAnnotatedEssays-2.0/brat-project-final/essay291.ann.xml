@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>college and university should be available for all students who want to pursue their goal</text>
+    <TextPosition start="1748" end="1837"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Students can have opportunity to learn, to practice, to gain more knowledge for their career and for their future</text>
+    <TextPosition start="1839" end="1952"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>studying in advance education take a huge of money</text>
+    <TextPosition start="686" end="736"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>College and university do not want people who not qualify for to waste their money in these expensive courses and waste their time</text>
+    <TextPosition start="738" end="868"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>only good students have potentials to success programs more that those who are not considered as good students</text>
+    <TextPosition start="888" end="998"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>mediocre students are not have a chance to gain these advance knowledge from college and university</text>
+    <TextPosition start="1014" end="1113"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>college and university should consider students to study with them only if they are good students</text>
+    <TextPosition start="568" end="665"/>
+    <Relation relationID="RT8T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>mediocre students should have opportunity to be trained in college and university</text>
+    <TextPosition start="1621" end="1702"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>moderate students should have a chance to try</text>
+    <TextPosition start="1314" end="1359"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Everyone that has strongly ambition could pursue and success their goal even they are not classified as a good student because people can change</text>
+    <TextPosition start="1361" end="1505"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>With a good environment in college or university is encouraging students to study harder for a good future</text>
+    <TextPosition start="1507" end="1613"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>all students should have equal opportunity to study in higher education</text>
+    <TextPosition start="1167" end="1238"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>higher education take a lot of money and a lot of time</text>
+    <TextPosition start="1251" end="1305"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Higher education should be available only to good students or not
+
+No one can disagree that knowledge is the most important for everyone. College and university are playing in an important role to provide academic skills to people in order to pursue their goal. There are an issue that some people agree that this opportunity should be preserved for good students however there are others people who think that everyone should have this chance to gain these advance skills from college or university. This issue will be discussed.
+First of all, many people think that college and university should consider students to study with them only if they are good students. The reason is that studying in advance education take a huge of money. College and university do not want people who not qualify for to waste their money in these expensive courses and waste their time. They believe that only good students have potentials to success programs more that those who are not considered as good students. Consequently, mediocre students are not have a chance to gain these advance knowledge from college and university.
+On the other hand, there are some people think that all students should have equal opportunity to study in higher education. Of course, higher education take a lot of money and a lot of time however moderate students should have a chance to try. Everyone that has strongly ambition could pursue and success their goal even they are not classified as a good student because people can change. With a good environment in college or university is encouraging students to study harder for a good future. Thus, mediocre students should have opportunity to be trained in college and university.
+In conclusion, I personally agree with that college and university should be available for all students who want to pursue their goal. Students can have opportunity to learn, to practice, to gain more knowledge for their career and for their future. Studying in college and university is a great opportunity that all students should have.</OriginalText>
+</Annotation>

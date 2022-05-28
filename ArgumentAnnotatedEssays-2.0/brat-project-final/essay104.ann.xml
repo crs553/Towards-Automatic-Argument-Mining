@@ -1,0 +1,93 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the Internet will pave way for a more accessible and convenient learning</text>
+    <TextPosition start="536" end="608"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>the Internet is an adequate source of academic information, which will potentially fulfill the needs of university pupils</text>
+    <TextPosition start="630" end="751"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Nowadays, not only are lectures available online, it is also applicable to find reference e-books as well as multi-aspect documents on the cyberspace</text>
+    <TextPosition start="753" end="902"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the Internet has grown to become the largest virtual library ever</text>
+    <TextPosition start="913" end="978"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>with the use of the Internet, distance and time seem to be no more a hindrance</text>
+    <TextPosition start="990" end="1068"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>College students can save their time browsing for necessary information through the web instead of spending hours wandering in bookstores or libraries</text>
+    <TextPosition start="1070" end="1220"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>the Internet offers a more effective and practical method of studying</text>
+    <TextPosition start="1242" end="1311"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>While virtual flowcharts and animations may simplify complicated scientific processes, Google and Wikipedia are always accessible for detailed responses to every query</text>
+    <TextPosition start="1313" end="1480"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>the Internet will become an indispensable part in academic training</text>
+    <TextPosition start="1502" end="1569"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>This fairy tale turns out to be true thanks to technical and internet advances</text>
+    <TextPosition start="1748" end="1826"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Have you ever imagined what it would be like to stay at home and attend a lecture by a famous speaker in Finland simultaneously</text>
+    <TextPosition start="1619" end="1746"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>the Internet have several drawbacks which can affect the education system negatively, for instance internet abuse and black webs</text>
+    <TextPosition start="1851" end="1979"/>
+    <Relation relationID="RT13T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>these problems are mainly triggered by students' wrong approach towards the Internet not the Internet itself</text>
+    <TextPosition start="2018" end="2126"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>what we are to do is a change in learners' attitude not an elimination of the Internet from academic study</text>
+    <TextPosition start="2134" end="2240"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>The Internet is an adequate source of academic information
+
+Over the past few decades, the world has witnessed a long stride in technological modernization, especially in field of education. This has enabled university lecturers to post their lessons on the web for the sake of students. Consequently, direct interactions between teachers and learners have been deemphasized. However, the impact of the Internet on schooling is still an intriguing issue which has sparked a heated debate among educationists. Personally, I believe that the Internet will pave way for a more accessible and convenient learning.
+First and foremost, the Internet is an adequate source of academic information, which will potentially fulfill the needs of university pupils. Nowadays, not only are lectures available online, it is also applicable to find reference e-books as well as multi-aspect documents on the cyberspace. As such, the Internet has grown to become the largest virtual library ever. Moreover, with the use of the Internet, distance and time seem to be no more a hindrance. College students can save their time browsing for necessary information through the web instead of spending hours wandering in bookstores or libraries. Last but not least, the Internet offers a more effective and practical method of studying. While virtual flowcharts and animations may simplify complicated scientific processes, Google and Wikipedia are always accessible for detailed responses to every query.
+In the near future, the Internet will become an indispensable part in academic training, for the enormous benefits that it brings about. Have you ever imagined what it would be like to stay at home and attend a lecture by a famous speaker in Finland simultaneously? This fairy tale turns out to be true thanks to technical and internet advances.
+Critics may argue that the Internet have several drawbacks which can affect the education system negatively, for instance internet abuse and black webs. However, we should bear in mind that these problems are mainly triggered by students' wrong approach towards the Internet not the Internet itself. Thus, what we are to do is a change in learners' attitude not an elimination of the Internet from academic study.
+After analyzing both points of view, I would like to reiterate the necessity of the Internet in learning process. It is obvious that the benefits of the Internet undoubtedly outweigh its disadvantages. However, it is not just the matter of help or hindrance, it is the way you use the cyberspace. Be wise and conscious.
+</OriginalText>
+</Annotation>

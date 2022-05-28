@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the affect of technology on culture is undeniable, it has also contributed to the preservation of traditonal culture</text>
+    <TextPosition start="297" end="413"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>The invention of mobile phone and internet has changed our traditional ways of communicating as well as working, it has also been much less labourous than in the pass with the assistance of electrical machineries</text>
+    <TextPosition start="490" end="702"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>these newfangled practices has replaced many old traditional ones</text>
+    <TextPosition start="713" end="778"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>factories equipped with new and highly-productive system has replaced old handmade products, the exchange of letters among friends is so hard to be seen as we have had emails and social network instead, new video games has superseded the old-physical ones</text>
+    <TextPosition start="794" end="1049"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>Many old traditionally cultural things have long gone as a result of modern technology</text>
+    <TextPosition start="1051" end="1137"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>Thanks to modern technology, our life has been improved with many gadgets</text>
+    <TextPosition start="415" end="488"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>technology has also made some contributions to the maintenance and study of traditional cultures in some ways</text>
+    <TextPosition start="1186" end="1295"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Internet has aided to assess the young generations to the cultural identity of many nations from all around the world</text>
+    <TextPosition start="1297" end="1414"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>With the help of advanced methods, many art masterpiece has been well restorated and well preserved</text>
+    <TextPosition start="1416" end="1515"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Modern devices also assist the scientists to study the ancient societies much more deeply, hence discovering more cultural traces</text>
+    <TextPosition start="1517" end="1646"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>Modern technology has impacted the traditional cultures in both negative and positive ways
+
+Nowadays, technology has been developing significantly, impacting many aspects of our life. While there is belief that technology advances means a lost in traditional cultures, I would argue that although the affect of technology on culture is undeniable, it has also contributed to the preservation of traditonal culture.
+Thanks to modern technology, our life has been improved with many gadgets. The invention of mobile phone and internet has changed our traditional ways of communicating as well as working, it has also been much less labourous than in the pass with the assistance of electrical machineries. However, these newfangled practices has replaced many old traditional ones. For instance, factories equipped with new and highly-productive system has replaced old handmade products, the exchange of letters among friends is so hard to be seen as we have had emails and social network instead, new video games has superseded the old-physical ones. Many old traditionally cultural things have long gone as a result of modern technology.
+However, despite the drawback mentioned above, technology has also made some contributions to the maintenance and study of traditional cultures in some ways. Internet has aided to assess the young generations to the cultural identity of many nations from all around the world. With the help of advanced methods, many art masterpiece has been well restorated and well preserved. Modern devices also assist the scientists to study the ancient societies much more deeply, hence discovering more cultural traces.
+To give a brief conclusion, Modern technogy has impacted the traditional cultures in both negative and positive ways.</OriginalText>
+</Annotation>

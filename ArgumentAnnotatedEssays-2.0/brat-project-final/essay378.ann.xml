@@ -1,0 +1,80 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the teacher is the best option for children's education in some aspects</text>
+    <TextPosition start="359" end="430"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Not only do they contribute much to children's professional skills but also they can teach their students important social communication techniques in order to survive in this competitive world</text>
+    <TextPosition start="1728" end="1921"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>to be able to obtain the teacher certificates, people need years of training at their normal schools to learn theoretical knowledge</text>
+    <TextPosition start="542" end="673"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>in comparison to teachers, parents tend to have less knowledge to teach their children's subjects such as mathematics and physics</text>
+    <TextPosition start="684" end="813"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>school teachers are more qualified than parents in the field of education</text>
+    <TextPosition start="453" end="526"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>teaching staff are professional and experienced in terms of promoting children's communication skills</text>
+    <TextPosition start="828" end="929"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>after many years of teaching experience, teacher are able to know how to help children to develop important life skills such as learning personal boundaries, facing future problems and learning important conflict resolution skills</text>
+    <TextPosition start="944" end="1174"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>parents are facing difficult generation gap with their children because they are less likely to know how to handle family conflicts in an efficient way</text>
+    <TextPosition start="1189" end="1340"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>it was impossible for them to be a good teacher</text>
+    <TextPosition start="1616" end="1663"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>compared with teachers, parents do not have enough time to spend with their children</text>
+    <TextPosition start="1363" end="1447"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Nowadays we are facing a global economic crisis and it is necessary for both parents to work</text>
+    <TextPosition start="1449" end="1541"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>there is only limited time for them to teach their children</text>
+    <TextPosition start="1549" end="1608"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Teacher is the best option for children's education in some aspects
+
+Recently, there has been a social concern with regard to who is the best teacher for children's education. Indeed, children grow up with two important people, their parents and teachers, and both are important in children's development. As far as I am concerned, I agree with the view that the teacher is the best option for children's education in some aspects. 
+In the first place, school teachers are more qualified than parents in the field of education. For instance, to be able to obtain the teacher certificates, people need years of training at their normal schools to learn theoretical knowledge. However, in comparison to teachers, parents tend to have less knowledge to teach their children's subjects such as mathematics and physics.
+Furthermore, teaching staff are professional and experienced in terms of promoting children's communication skills. For example, after many years of teaching experience, teacher are able to know how to help children to develop important life skills such as learning personal boundaries, facing future problems and learning important conflict resolution skills. By contrast, parents are facing difficult generation gap with their children because they are less likely to know how to handle family conflicts in an efficient way. 
+Last but not least, compared with teachers, parents do not have enough time to spend with their children. Nowadays we are facing a global economic crisis and it is necessary for both parents to work, hence there is only limited time for them to teach their children. Thus, it was impossible for them to be a good teacher.
+In conclusion, teachers are the best for children's education. Not only do they contribute much to children's professional skills but also they can teach their students important social communication techniques in order to survive in this competitive world.</OriginalText>
+</Annotation>

@@ -1,0 +1,128 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is very important to live life at a slower pace</text>
+    <TextPosition start="420" end="470"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>living in a hurry comes along with several disadvantages</text>
+    <TextPosition start="480" end="536"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>If you are always hurried and you do not take a certain time off, your body will react to your stressful lifestyle</text>
+    <TextPosition start="625" end="739"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Many hardworking people have diseases, like the burn-out syndrome</text>
+    <TextPosition start="741" end="806"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>their bodies cannot hold the pace</text>
+    <TextPosition start="816" end="849"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>my father had a a breakdown several years ago due to his stressful job</text>
+    <TextPosition start="865" end="935"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>After several weeks off his body was restored, now he has reduced the tempo of his lifestyle and is doing fine</text>
+    <TextPosition start="937" end="1047"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>living your life on the fast lane is very stressful and can affect your health</text>
+    <TextPosition start="545" end="623"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>If you are always facing excessive stress you cannot care for your beloved's</text>
+    <TextPosition start="1122" end="1198"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>If you do not hurry yourself you can take more time for your family and friends</text>
+    <TextPosition start="1200" end="1279"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>living your life at a slower pace increases your happiness</text>
+    <TextPosition start="1062" end="1120"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Caring for your social environment will increase your happiness and also reduce your stress level</text>
+    <TextPosition start="1281" end="1378"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>a friend of mine lives at a slow pace and is really satisfied about it</text>
+    <TextPosition start="1393" end="1463"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>he can enjoy his family and cultivate his friendships</text>
+    <TextPosition start="1473" end="1526"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>When you are faced with difficult tasks and you do them in a rush, you are more likely to do avoidable errors or mistakes</text>
+    <TextPosition start="1557" end="1678"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Doing tasks in a hurry may end up in not considering all necessary aspects or opportunities</text>
+    <TextPosition start="1680" end="1771"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>you might make mistakes, you would not have done with more patience</text>
+    <TextPosition start="1785" end="1852"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>quality takes time</text>
+    <TextPosition start="1537" end="1555"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>I once wrote an essay in a hurry and got a bad grade</text>
+    <TextPosition start="1869" end="1921"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>I made few mistakes I could have avoided</text>
+    <TextPosition start="1931" end="1971"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <OriginalText>Rush vs Slower Pace
+
+Modern technologies and globalization have increased the speed of life in the past decades tremendously. However, while the majority of people live on the fast lane, others decide to reduce the speed and take their time. To draw an entire picture, we have to consider both the advantages and disadvantages of this increased speed of life and ask our self which way of life is better. In my opinion, it is very important to live life at a slower pace, because living in a hurry comes along with several disadvantages.
+First, living your life on the fast lane is very stressful and can affect your health. If you are always hurried and you do not take a certain time off, your body will react to your stressful lifestyle. Many hardworking people have diseases, like the burn-out syndrome, because their bodies cannot hold the pace. For instance, my father had a a breakdown several years ago due to his stressful job. After several weeks off his body was restored, now he has reduced the tempo of his lifestyle and is doing fine.
+In addition, living your life at a slower pace increases your happiness. If you are always facing excessive stress you cannot care for your beloved's. If you do not hurry yourself you can take more time for your family and friends. Caring for your social environment will increase your happiness and also reduce your stress level. For example, a friend of mine lives at a slow pace and is really satisfied about it, because he can enjoy his family and cultivate his friendships.
+Finally, quality takes time. When you are faced with difficult tasks and you do them in a rush, you are more likely to do avoidable errors or mistakes. Doing tasks in a hurry may end up in not considering all necessary aspects or opportunities. As a result you might make mistakes, you would not have done with more patience. To illustrate, I once wrote an essay in a hurry and got a bad grade, because I made few mistakes I could have avoided.
+In conclusion, there is to say that, given the arguments above, living a slower life is advantageous for your health, your happiness and even the quality of your work.</OriginalText>
+</Annotation>

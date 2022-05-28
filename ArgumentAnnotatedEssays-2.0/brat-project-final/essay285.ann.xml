@@ -1,0 +1,140 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I completely disagree with this statement that we should replace normal course with online course</text>
+    <TextPosition start="389" end="486"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it should not replace classroom learning</text>
+    <TextPosition start="115" end="155"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Learning in classroom could provide more information to study</text>
+    <TextPosition start="157" end="218"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>learning in classroom are not only learning academic skills but also learning social skills, and learning how to solve problem in real situation</text>
+    <TextPosition start="229" end="373"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>in classroom have many equipment to demonstrate real example</text>
+    <TextPosition start="675" end="735"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>in biology class, learning anatomy by operating fog have many benefits</text>
+    <TextPosition start="750" end="820"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Learner could learn how to use tools and see actual organs of fog</text>
+    <TextPosition start="822" end="887"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>online class just only study in textbook not learnin real situation</text>
+    <TextPosition start="907" end="974"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>learning in classroom could provide more information and make students more comprehend in subjects that they had learnt</text>
+    <TextPosition start="546" end="665"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>online class could not provide knowledge about social skills</text>
+    <TextPosition start="986" end="1046"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>This important skill cannot be gotten in online classes</text>
+    <TextPosition start="1245" end="1300"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>In a classroom, teacher could give assignment to student to work as a group</text>
+    <TextPosition start="1062" end="1137"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>This could help students to learn how to deal with people, how to collaborate with people in their group</text>
+    <TextPosition start="1139" end="1243"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>in school can provide exercise class which train student to move their body</text>
+    <TextPosition start="1375" end="1450"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Classroom have specialist trainer to teach students to it right way</text>
+    <TextPosition start="1452" end="1519"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>If student do it by themselves, they might be hurt themselves</text>
+    <TextPosition start="1521" end="1582"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>This make students have healthier life which online class cannot provide</text>
+    <TextPosition start="1584" end="1656"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>learning in classroom, student could have healthier life</text>
+    <TextPosition start="1310" end="1366"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>having classroom could provide abundant skills to students</text>
+    <TextPosition start="2039" end="2097"/>
+    <Relation relationID="RT20-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>classroom could provide real actual example to make students more understand in their subject</text>
+    <TextPosition start="1774" end="1867"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>classroom courses are also provide students to learn social skill</text>
+    <TextPosition start="1878" end="1943"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>classroom could provide exercise class to set students to have a good health</text>
+    <TextPosition start="1955" end="2031"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <OriginalText>Should replace normal classroom with online computer classes?
+
+There are many advantages of distance learning, but it should not replace classroom learning. Learning in classroom could provide more information to study. Besides, learning in classroom are not only learning academic skills but also learning social skills, and learning how to solve problem in real situation. Consequently, I completely disagree with this statement that we should replace normal course with online course. I will give reasons to support my opinion.
+To begin with, learning in classroom could provide more information and make students more comprehend in subjects that they had learnt. Because in classroom have many equipment to demonstrate real example. For example, in biology class, learning anatomy by operating fog have many benefits. Learner could learn how to use tools and see actual organs of fog. Unlike classroom, online class just only study in textbook not learnin real situation.
+Secondly, online class could not provide knowledge about social skills. For instance, In a classroom, teacher could give assignment to student to work as a group. This could help students to learn how to deal with people, how to collaborate with people in their group. This important skill cannot be gotten in online classes.
+Lastly, learning in classroom, student could have healthier life because in school can provide exercise class which train student to move their body. Classroom have specialist trainer to teach students to it right way. If student do it by themselves, they might be hurt themselves. This make students have healthier life which online class cannot provide. 
+In conclusion, I personally disagree this this notion that we should replace classroom with online class. Because, classroom could provide real actual example to make students more understand in their subject. Besides, classroom courses are also provide students to learn social skill. Moreover, classroom could provide exercise class to set students to have a good health. Thus, having classroom could provide abundant skills to students.</OriginalText>
+</Annotation>

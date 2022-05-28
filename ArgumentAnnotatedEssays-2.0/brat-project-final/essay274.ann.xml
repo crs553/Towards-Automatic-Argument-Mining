@@ -1,0 +1,103 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>you should focus on what you are good at</text>
+    <TextPosition start="415" end="455"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>the more time you spend on what you do well, the more likely to achieve something great you will be</text>
+    <TextPosition start="530" end="629"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Albert Einstein, one of the most competent physicians in history, devoted most of his life to develop theory in physics and finally established special and general relativity</text>
+    <TextPosition start="645" end="819"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>he hardly cared about something else</text>
+    <TextPosition start="830" end="866"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>It is said that, surprisingly, he never tried to distinguish a hand soup and a facial soup</text>
+    <TextPosition start="868" end="958"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>using two different soups properly was quite annoying</text>
+    <TextPosition start="986" end="1039"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>you will be more likely to accomplish your purpose by concentrating on what you do well</text>
+    <TextPosition start="1073" end="1160"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Focusing what you are good at helps you attain your goal</text>
+    <TextPosition start="457" end="513"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>When you're doing something well, you will feel more satisfied and more interested in it</text>
+    <TextPosition start="1236" end="1324"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>you will motivate yourself to do more</text>
+    <TextPosition start="1332" end="1369"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>I used to be good at math when I was in junior high school</text>
+    <TextPosition start="1391" end="1449"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>I was really satisfied with the fact that I could do preferably</text>
+    <TextPosition start="1459" end="1522"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>I became to absorb myself to try more advanced level of math problems</text>
+    <TextPosition start="1524" end="1593"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>I could not only get higher scores in math test but also solve the university-level problems</text>
+    <TextPosition start="1608" end="1700"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>by doing what you are good at, you will be better at it</text>
+    <TextPosition start="1708" end="1763"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>If you keep doing what you already do well, you can be better good at it</text>
+    <TextPosition start="1162" end="1234"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <OriginalText>Which do you prefer: do only what you already do well, or not.
+
+You may love to try new things and take risks even if you aren't good at the things. That may help you expand experiences, look for your personalities and find your new talents. This ideal, however, doesn't necessarily be accomplished. If not, you might lose another chance that you could use to accomplish other things. So, I definitely believe that you should focus on what you are good at.
+Focusing what you are good at helps you attain your goal. Without doubt, the more time you spend on what you do well, the more likely to achieve something great you will be. For instance, Albert Einstein, one of the most competent physicians in history, devoted most of his life to develop theory in physics and finally established special and general relativity. Instead, he hardly cared about something else. It is said that, surprisingly, he never tried to distinguish a hand soup and a facial soup because, at least for him, using two different soups properly was quite annoying. As the example above indicates, you will be more likely to accomplish your purpose by concentrating on what you do well.
+If you keep doing what you already do well, you can be better good at it. When you're doing something well, you will feel more satisfied and more interested in it. Then, you will motivate yourself to do more. To give an example, I used to be good at math when I was in junior high school. Because I was really satisfied with the fact that I could do preferably, I became to absorb myself to try more advanced level of math problems. As a result, I could not only get higher scores in math test but also solve the university-level problems. Thus, by doing what you are good at, you will be better at it.
+In summary, doing what you can already do well helps you make a big accomplishment and do it much better.</OriginalText>
+</Annotation>

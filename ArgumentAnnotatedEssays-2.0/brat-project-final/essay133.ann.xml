@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>computer can influence society, and people's lives have already been controlled by device</text>
+    <TextPosition start="414" end="503"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>people cannot pass the day without stay in front of computer or using it</text>
+    <TextPosition start="1470" end="1542"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>This situation becomes lifestyle habits, and nowadays human activities are influenced by computer use</text>
+    <TextPosition start="1544" end="1645"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>they spend almost nine hours a day dealing with computers as to produce efficient time in working</text>
+    <TextPosition start="754" end="851"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>A study conducted by Mediabank shows that majority of Australian adults do not socialize with their families and friends as much as they used to</text>
+    <TextPosition start="587" end="731"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the idea that computers could be a help has been neglected</text>
+    <TextPosition start="889" end="947"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>this modern device has been a major hindrance to some people</text>
+    <TextPosition start="525" end="585"/>
+    <Relation relationID="RT8T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>This is due to using computer more efficient and, many workers cannot do more in work without computer</text>
+    <TextPosition start="1259" end="1361"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Communication by feature-computer such as email and internet help busy businessmen to make deal with relation even in different country</text>
+    <TextPosition start="1122" end="1257"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>using computer can make people easier to complete their work</text>
+    <TextPosition start="958" end="1018"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Businessmen, for example, use computer device to presentation or communication with their colleagues</text>
+    <TextPosition start="1020" end="1120"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Nowadays human activities are influenced by computer use
+
+Computer is a modern device that is useful for human life. People use computer particularly for work, study, even for communication. However, many people argue that computer more give obstacle than a help in social life. Other sides believe that it becomes prominent thing, and they cannot do anything without that device. However, I strongly believe that computer can influence society, and people's lives have already been controlled by device. 
+I would argue that this modern device has been a major hindrance to some people. A study conducted by Mediabank shows that majority of Australian adults do not socialize with their families and friends as much as they used to, due to the fact that they spend almost nine hours a day dealing with computers as to produce efficient time in working. As it can be seen from the example, the idea that computers could be a help has been neglected.
+However, using computer can make people easier to complete their work. Businessmen, for example, use computer device to presentation or communication with their colleagues. Communication by feature-computer such as email and internet help busy businessmen to make deal with relation even in different country. This is due to using computer more efficient and, many workers cannot do more in work without computer.
+In conclusion, in era technology like this age, computer becomes important thing in human life. Every day, people cannot pass the day without stay in front of computer or using it. This situation becomes lifestyle habits, and nowadays human activities are influenced by computer use.</OriginalText>
+</Annotation>

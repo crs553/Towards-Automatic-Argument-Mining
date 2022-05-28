@@ -1,0 +1,103 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>both the ability to relate well to people and studying hard in school are important for success in a future job</text>
+    <TextPosition start="215" end="326"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>each of them has its own benefits</text>
+    <TextPosition start="1812" end="1845"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>studying hard in school is an important factor to succeed in a job</text>
+    <TextPosition start="856" end="922"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>If we study them hard, we will have the chance of doing our job better and quicker in the future</text>
+    <TextPosition start="562" end="658"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>We need to know and learn about the theoritical basis of our future job</text>
+    <TextPosition start="350" end="421"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>In school, we are able to identify skills required for our future job and work on mastering and learning them</text>
+    <TextPosition start="451" end="560"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>if someone wants to become a good industrial engineer, he should study his technical courses very well so that he will be able to utilize them well in his future job</text>
+    <TextPosition start="673" end="838"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>relating well to people is also another important factor</text>
+    <TextPosition start="1541" end="1597"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>One of the other factors for success in a future job is effective commuincation</text>
+    <TextPosition start="924" end="1003"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>By relating well to people, we are likely to have a lot of friends</text>
+    <TextPosition start="1005" end="1071"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>we will have a wide network of communication</text>
+    <TextPosition start="1086" end="1130"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Commuincation can bring many benefits</text>
+    <TextPosition start="1132" end="1169"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>if you need help with getting a job, by commuincating with people offering jobs whom you treat well</text>
+    <TextPosition start="1184" end="1283"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>they respect you as well, you can achieve your goal</text>
+    <TextPosition start="1298" end="1349"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>if you are a salesman in a store or any other place, by relating well to your customers, you will increase the chance of their coming back again and becoming your regular customers</text>
+    <TextPosition start="1355" end="1535"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>This can be done in school</text>
+    <TextPosition start="423" end="449"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <OriginalText>The ability to relate well to people is more important
+
+I think that No factor is important enough by itself to succeed in any situations. We should consider many factors and choose the best of them. I believe that both the ability to relate well to people and studying hard in school are important for success in a future job for following reasons:
+We need to know and learn about the theoritical basis of our future job. This can be done in school. In school, we are able to identify skills required for our future job and work on mastering and learning them. If we study them hard, we will have the chance of doing our job better and quicker in the future. For example, if someone wants to become a good industrial engineer, he should study his technical courses very well so that he will be able to utilize them well in his future job. As you can see, studying hard in school is an important factor to succeed in a job.
+One of the other factors for success in a future job is effective commuincation. By relating well to people, we are likely to have a lot of friends and therefore we will have a wide network of communication. Commuincation can bring many benefits. For example, if you need help with getting a job, by commuincating with people offering jobs whom you treat well and therefore they respect you as well, you can achieve your goal. Or, if you are a salesman in a store or any other place, by relating well to your customers, you will increase the chance of their coming back again and becoming your regular customers. So, relating well to people is also another important factor. 
+In sum, though some people may disagree with me, as I explained my reasons and examples above, none of those factors are important and sufficient enough by themselves and we should notice to both of them because each of them has its own benefits.</OriginalText>
+</Annotation>

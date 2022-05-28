@@ -1,0 +1,98 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T16">
+    <ADU type="conclusion"/>
+    <text>Using public transportation has a lot of advantages for the modern society facing a lot of problems: the environmental population, the isolation in life, the depletion of natural resources</text>
+    <TextPosition start="1599" end="1787"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>The use of public transportation is the best way to conserve natural resources gradually run out</text>
+    <TextPosition start="370" end="466"/>
+    <Relation relationID="RT2-T16" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Cars depend on oil and gasoline to move</text>
+    <TextPosition start="468" end="507"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>If people use too many private cars, the oil and gasoline nonrenewable will run out quickly</text>
+    <TextPosition start="509" end="600"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Instead of using many private cars, people can use public transportation, such as bus, train, subway, each one can get far more people and less oil and gasoline are used up per person</text>
+    <TextPosition start="602" end="785"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>The use of public transportation helps in reducing the air pollution</text>
+    <TextPosition start="787" end="855"/>
+    <Relation relationID="RT6-T16" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Cars use oil and gasoline and send out gas such as carbon dioxide, heat and so on</text>
+    <TextPosition start="857" end="938"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>They cause pollution and make the Earth warmer</text>
+    <TextPosition start="940" end="986"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The more cars are driven, the more pollution will be put into air</text>
+    <TextPosition start="988" end="1053"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>If we use the public transportation, less cars will be used and less pollution will be emitted</text>
+    <TextPosition start="1055" end="1149"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>The atmosphere, surrounding us, will be protected and help us more healthy</text>
+    <TextPosition start="1151" end="1225"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>The use of public transportation make us live more sociable</text>
+    <TextPosition start="1227" end="1286"/>
+    <Relation relationID="RT12-T16" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>When we drive a private car, we are alone or only our family members that we already know and lost the opportunity to make friends with others or to see that we are a part of this society</text>
+    <TextPosition start="1288" end="1475"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>When using public transportation, we have a chance to meet more people and more chances to discovery new aspects of life</text>
+    <TextPosition start="1477" end="1597"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>Public transportation keeps society from the depletion of natural resources, the air pollution, the loss of a sense of community</text>
+    <TextPosition start="171" end="299"/>
+    <Relation relationID="RT17-T16" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <OriginalText>Public transportation keeps society from the depletion of natural resources
+
+The development of public transportation is the most essential thing for a developed society. Public transportation keeps society from the depletion of natural resources, the air pollution, the loss of a sense of community. So, I think the government have to spend more money on improving it.
+The use of public transportation is the best way to conserve natural resources gradually run out. Cars depend on oil and gasoline to move. If people use too many private cars, the oil and gasoline nonrenewable will run out quickly. Instead of using many private cars, people can use public transportation, such as bus, train, subway, each one can get far more people and less oil and gasoline are used up per person.
+The use of public transportation helps in reducing the air pollution. Cars use oil and gasoline and send out gas such as carbon dioxide, heat and so on. They cause pollution and make the Earth warmer. The more cars are driven, the more pollution will be put into air. If we use the public transportation, less cars will be used and less pollution will be emitted. The atmosphere, surrounding us, will be protected and help us more healthy.
+The use of public transportation make us live more sociable. When we drive a private car, we are alone or only our family members that we already know and lost the opportunity to make friends with others or to see that we are a part of this society. When using public transportation, we have a chance to meet more people and more chances to discovery new aspects of life.
+Using public transportation has a lot of advantages for the modern society facing a lot of problems: the environmental population, the isolation in life, the depletion of natural resources. So, the government have to invest more for it and encourage people to use.</OriginalText>
+</Annotation>

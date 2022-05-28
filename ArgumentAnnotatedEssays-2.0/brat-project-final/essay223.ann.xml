@@ -1,0 +1,133 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>television has more positive effects than negative effects</text>
+    <TextPosition start="262" end="320"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>the television can have violent programs</text>
+    <TextPosition start="1518" end="1558"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>if children can use Tv programs wisely, there are more positive effects than negative effects</text>
+    <TextPosition start="1569" end="1662"/>
+    <Relation relationID="T2Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>it has useful and educational programs and quite helpful to relieve stresses for children</text>
+    <TextPosition start="1674" end="1763"/>
+    <Relation relationID="T2Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>television has useful and educational programs</text>
+    <TextPosition start="378" end="424"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Not only the up-to-date news, but also there are many programs which has educational purposes</text>
+    <TextPosition start="426" end="519"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>If children can use those programs wisely, they can learn many information from it</text>
+    <TextPosition start="521" end="603"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>in Korea, there's program called EBS</text>
+    <TextPosition start="618" end="654"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>It is targeted for children to teenager</text>
+    <TextPosition start="656" end="695"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>We can study subjects through EBS lecture</text>
+    <TextPosition start="697" end="738"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>there are many documentary films such as the life of a great man in Korea</text>
+    <TextPosition start="746" end="819"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Using those education programs let people get a lot of inspirations instead of having negative effects</text>
+    <TextPosition start="821" end="923"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>Tv is helpful to relieve our stresses</text>
+    <TextPosition start="939" end="976"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Many children have a lot of stresses recently</text>
+    <TextPosition start="1030" end="1075"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>they have so much pressure about study</text>
+    <TextPosition start="1083" end="1121"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>When they are watching sports programs, it's easy to relieve those stresses</text>
+    <TextPosition start="1123" end="1198"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>I got too much stress from the school</text>
+    <TextPosition start="1215" end="1252"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>I was quite aggressive</text>
+    <TextPosition start="1258" end="1280"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>After I watch the soccer match between Korea and Japan, the stress was gone</text>
+    <TextPosition start="1291" end="1366"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>this soccer match helped me to continue my academic career in the school</text>
+    <TextPosition start="1377" end="1449"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>it helped me to relieve my stress</text>
+    <TextPosition start="1457" end="1490"/>
+    <Relation relationID="T21Default Inference" type="Default Inference" typeBinary="0" partnerID="T21"/>
+  </Proposition>
+  <OriginalText>Tv has NO negative effects on children
+
+Nowadays, we have undergone many technology innovations such as Tv. Many people say that television has negative effects on children, since it can be violent or inappropriate for children. However, I strongly believe that television has more positive effects than negative effects. There are two reasons to support my idea.
+First of all, television has useful and educational programs. Not only the up-to-date news, but also there are many programs which has educational purposes. If children can use those programs wisely, they can learn many information from it. For example, in Korea, there's program called EBS. It is targeted for children to teenager. We can study subjects through EBS lecture. Also, there are many documentary films such as the life of a great man in Korea. Using those education programs let people get a lot of inspirations instead of having negative effects. 
+In addition, Tv is helpful to relieve our stresses. There are many Tv programs such as sports programs. Many children have a lot of stresses recently, since they have so much pressure about study. When they are watching sports programs, it's easy to relieve those stresses. As an example, I got too much stress from the school. So, I was quite aggressive, however. After I watch the soccer match between Korea and Japan, the stress was gone. Instead, this soccer match helped me to continue my academic career in the school, since it helped me to relieve my stress.
+In conclusion, of course, the television can have violent programs, however, if children can use Tv programs wisely, there are more positive effects than negative effects. Now that, it has useful and educational programs and quite helpful to relieve stresses for children. For these reasons, I strongly disagree with the statement that television has negative effects on children.</OriginalText>
+</Annotation>

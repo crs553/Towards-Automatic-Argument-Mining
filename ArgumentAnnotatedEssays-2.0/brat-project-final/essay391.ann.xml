@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>this great invention in the 21st century causes many problems in our society</text>
+    <TextPosition start="272" end="348"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>mobile phones make our communication faster</text>
+    <TextPosition start="1818" end="1861"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>as people, especially teenagers increasingly tend to focus on their phones, they may lose their interests on daily activities such as meeting with friends, and this lack of communication may impair their future negotiation and interpersonal skills</text>
+    <TextPosition start="475" end="722"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>continuous use of mobile phones may also damage children's eyesight and physical posture</text>
+    <TextPosition start="734" end="822"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>it is harmful for us to use mobile phones frequently</text>
+    <TextPosition start="837" end="889"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>spending too much time on mobiles phones many exert an adverse effect on our social skills</text>
+    <TextPosition start="370" end="460"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>there many game applications available online and many of them are quite aggressive in nature</text>
+    <TextPosition start="992" end="1085"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>In these games, children are rewarded to help their characters to kill or shoot monsters or characters controlled by other players, and this many lead to development of aggressive feelings, thoughts and behaviors</text>
+    <TextPosition start="1087" end="1299"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>frequent conflicts may occur during communication</text>
+    <TextPosition start="1315" end="1364"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>the growing number of mobiles games will impact their mental development</text>
+    <TextPosition start="904" end="976"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>as most of the telecommunication companies provide us with access to the internet via our phones, people are able to enjoy sending instant messages and making international calls free of charge</text>
+    <TextPosition start="1536" end="1729"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>mobile phones have shortened the distance of communication</text>
+    <TextPosition start="1737" end="1795"/>
+    <Relation relationID="RT13T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Mobile phones , such as smart phones, has made our communication easy and convenience</text>
+    <TextPosition start="1429" end="1514"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Mobile phones: faster communication vs social problems
+
+Recently, there has been a social concern with regard to whether or not mobiles phones have negative effects on our social life. Indeed, mobile phones have widely been used by people of all ages. However, I believe, this great invention in the 21st century causes many problems in our society.
+In the first place, spending too much time on mobiles phones many exert an adverse effect on our social skills. For example, as people, especially teenagers increasingly tend to focus on their phones, they may lose their interests on daily activities such as meeting with friends, and this lack of communication may impair their future negotiation and interpersonal skills. Moreover, continuous use of mobile phones may also damage children's eyesight and physical posture. As a result, it is harmful for us to use mobile phones frequently.
+Furthermore, the growing number of mobiles games will impact their mental development. For instance, there many game applications available online and many of them are quite aggressive in nature. In these games, children are rewarded to help their characters to kill or shoot monsters or characters controlled by other players, and this many lead to development of aggressive feelings, thoughts and behaviors. Consequently, frequent conflicts may occur during communication.
+However, we may perceive this issue from different viewpoints. Mobile phones , such as smart phones, has made our communication easy and convenience. The reason is that, as most of the telecommunication companies provide us with access to the internet via our phones, people are able to enjoy sending instant messages and making international calls free of charge. Thus, mobile phones have shortened the distance of communication. 
+To sum up, although mobile phones make our communication faster, it also gives rise to many social problems such as children's social skills and their mental health. Therefore, i highly advocate that we should use mobile phone in moderation in order to avoid these serious problems.</OriginalText>
+</Annotation>

@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>Going to another place to learn language is better choice</text>
+    <TextPosition start="376" end="433"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>I have to improve myself to communicate with other people</text>
+    <TextPosition start="1526" end="1583"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>in foreign country I could have a chance to speak foreign language with my friends</text>
+    <TextPosition start="1594" end="1676"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>everyone around me speaks foreign language, and then I have to improve myself to communicate with people</text>
+    <TextPosition start="610" end="714"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>If I could not communicate with other people, I could not even buy food to sacrifice my hunger</text>
+    <TextPosition start="716" end="810"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>This environment makes me want to develop myself to be able to communicate with people that speak foreign language</text>
+    <TextPosition start="812" end="926"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>going to another country to learn language is a good environment to stimulate people to learn language</text>
+    <TextPosition start="493" end="595"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>having friend that speaks another language is help people to professional in that language faster</text>
+    <TextPosition start="938" end="1035"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>English school in outside my home country, there are many people that come from different places and from different languages</text>
+    <TextPosition start="1051" end="1176"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>The only language that I could talk to make friends is English language</text>
+    <TextPosition start="1178" end="1249"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>I could talk with my friend without worrying about speaking wrong</text>
+    <TextPosition start="1257" end="1322"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>This reason makes me have a progress in foreign language faster</text>
+    <TextPosition start="1324" end="1387"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Learning a foreign language in my own country or another country
+
+Knowing foreign language is became more and more important in this time. Many people pursue to study foreign language. There are two options to learn foreign language. First is stay in homeland to study foreign language. The second option is that go to study in another place that foreign language are spoken. Going to another place to learn language is better choice. I will give reasons to support my opinion.
+To begin with, going to another country to learn language is a good environment to stimulate people to learn language. For example, everyone around me speaks foreign language, and then I have to improve myself to communicate with people. If I could not communicate with other people, I could not even buy food to sacrifice my hunger. This environment makes me want to develop myself to be able to communicate with people that speak foreign language.
+Secondly, having friend that speaks another language is help people to professional in that language faster. For instance, English school in outside my home country, there are many people that come from different places and from different languages. The only language that I could talk to make friends is English language. Thus, I could talk with my friend without worrying about speaking wrong. This reason makes me have a progress in foreign language faster.
+In conclusion, I personally believe that learning language from foreign country is better than learning language in home country because I have to improve myself to communicate with other people. Besides, in foreign country I could have a chance to speak foreign language with my friends. Learning foreign language form another country is better choice for me to study language.</OriginalText>
+</Annotation>

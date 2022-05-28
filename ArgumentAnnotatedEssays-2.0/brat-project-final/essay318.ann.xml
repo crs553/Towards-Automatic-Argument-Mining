@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>no additional payment should be charged on them</text>
+    <TextPosition start="470" end="517"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>"rush hours" are usually not the direct consequence of drivers</text>
+    <TextPosition start="2196" end="2258"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>charging them extra fee might seems to be out of the jurisdiction</text>
+    <TextPosition start="791" end="856"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Capitalism enfranchised people's right to own properties, and consequently, their rights to use them</text>
+    <TextPosition start="552" end="652"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Driving cars during the rush hours might is bound to polluting cities's environment, but laws protect drivers to do so</text>
+    <TextPosition start="654" end="772"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>traffic jam is a natural phenomenon that nobody is able to shun or ban</text>
+    <TextPosition start="886" end="956"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>it is out of drivers' control</text>
+    <TextPosition start="961" end="990"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Wars are notorious, but you can't blame the soldiers who are justing fight for their countries</text>
+    <TextPosition start="1076" end="1170"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>Charging drivers one more fee makes no sense and is ridiculous</text>
+    <TextPosition start="1327" end="1389"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Buying a car spends hundreds of thousand; paying for all sorts of fee takes another several-these are all ready too much for most of the families to bear</text>
+    <TextPosition start="1172" end="1325"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>charging them too much fee adds a lot to their burden and is actually jeopardizing their rights</text>
+    <TextPosition start="1471" end="1566"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Majority of the families buy cars simply for a safer and easier conveyance</text>
+    <TextPosition start="1391" end="1465"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Sometimes traffic jam occur only due to the malfunction of a traffic light, or unreasonable organization of roadways</text>
+    <TextPosition start="1857" end="1973"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>the one who should be charged for a fine is the city planner, not drivers</text>
+    <TextPosition start="1991" end="2064"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>charging drivers fees regardless of the causes of the problems could be ridiculous and even unlawful</text>
+    <TextPosition start="2078" end="2178"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>Rather than passively forcing drivers to pay another fee, government should instead, be more active on advocating the use of more efficient and environmental-friendly energy or planning out more reasonable and convenient layout that allow people to reach their destinations with less oil</text>
+    <TextPosition start="1568" end="1855"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Drivers have to pay a fee for driving in Rush Hour
+
+Started in the late eighteenth century, the industrialization and urbanization witnessed the explosion in number of automobiles. The very fuel that they rely on, oil, has now become the dominant pollution of cities' environment. While critics castigating about the exorbitant use of oil and other insisting to charged drivers with extra fee during the rush hours for their selfish conducts, I hold the contention that no additional payment should be charged on them. The reasons are the followings. 
+Capitalism enfranchised people's right to own properties, and consequently, their rights to use them. Driving cars during the rush hours might is bound to polluting cities's environment, but laws protect drivers to do so, and accordingly, charging them extra fee might seems to be out of the jurisdiction. From another point of view, traffic jam is a natural phenomenon that nobody is able to shun or ban; so it is out of drivers' control. Why drivers should pay a fine only for driving their own cars in a particular time? Wars are notorious, but you can't blame the soldiers who are justing fight for their countries.
+Buying a car spends hundreds of thousand; paying for all sorts of fee takes another several-these are all ready too much for most of the families to bear. Charging drivers one more fee makes no sense and is ridiculous. Majority of the families buy cars simply for a safer and easier conveyance, and charging them too much fee adds a lot to their burden and is actually jeopardizing their rights.
+Rather than passively forcing drivers to pay another fee, government should instead, be more active on advocating the use of more efficient and environmental-friendly energy or planning out more reasonable and convenient layout that allow people to reach their destinations with less oil. Sometimes traffic jam occur only due to the malfunction of a traffic light, or unreasonable organization of roadways. In these cases, the one who should be charged for a fine is the city planner, not drivers. Simply put, charging drivers fees regardless of the causes of the problems could be ridiculous and even unlawful. 
+In conclusion, "rush hours" are usually not the direct consequence of drivers. Instead, the real causes of traffic jam may fall on various of grounds, and therefore, charging drivers for another fee for this could be unreasonable and irrational.</OriginalText>
+</Annotation>

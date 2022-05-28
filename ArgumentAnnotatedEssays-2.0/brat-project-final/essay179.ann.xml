@@ -1,0 +1,98 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>stress management is an essential skill for everyone to learn and find their own way to solve their stress</text>
+    <TextPosition start="1939" end="2045"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>if we don't have a good stress management skill, it may lead to some critical problems</text>
+    <TextPosition start="613" end="699"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Stress, our body's way of responding to any kind of demand, can be caused by both good and bad experiences</text>
+    <TextPosition start="307" end="413"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Stress may be a positive mobilization to drive for success</text>
+    <TextPosition start="415" end="473"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>it is widely thought that we experience stress any time, which comes across unexpectedly that frustrates our goals</text>
+    <TextPosition start="484" end="598"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>stress management recently becomes a more significant issue in our realization</text>
+    <TextPosition start="1146" end="1224"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Some people regard stress as a power, which overcomes the obstacles to motivate themselves to do their best</text>
+    <TextPosition start="933" end="1040"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>other people cannot charge of their thoughts, emotions, and the way they deal with problems</text>
+    <TextPosition start="1042" end="1133"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>In the frenetic, fast-paced world, it is a very common predicament that all of us, from the young to the senior, feel depressed caused by stress, such as financial problems, exam stress, relationship difficulties and work overload</text>
+    <TextPosition start="701" end="931"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>some people have physical problems, such as insomnia and headaches</text>
+    <TextPosition start="1446" end="1512"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Melancholia, the most fatal problem, even leads some people to commit suicide</text>
+    <TextPosition start="1514" end="1591"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>it is necessary that we should reduce and cope with our stress in the goal of balancing our mind and body</text>
+    <TextPosition start="1607" end="1712"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>stress takes a toll on our health</text>
+    <TextPosition start="1239" end="1272"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>This is one of the reasons why people were overwhelmed by constant stress</text>
+    <TextPosition start="1365" end="1438"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>It is known that the modern life is frequently full of hassles, frustrations, and demands</text>
+    <TextPosition start="1274" end="1363"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>What is a very important skill a person should learn
+
+Some people think that life is a struggle, which means we may encounter numerous difficulties during our lives. Accordingly, stress management, how to survive our unbearable stress, is the most important skill that we should have. Here are my reasons. 
+Stress, our body's way of responding to any kind of demand, can be caused by both good and bad experiences. Stress may be a positive mobilization to drive for success. However, it is widely thought that we experience stress any time, which comes across unexpectedly that frustrates our goals. As a result, if we don't have a good stress management skill, it may lead to some critical problems.
+In the frenetic, fast-paced world, it is a very common predicament that all of us, from the young to the senior, feel depressed caused by stress, such as financial problems, exam stress, relationship difficulties and work overload. Some people regard stress as a power, which overcomes the obstacles to motivate themselves to do their best; other people cannot charge of their thoughts, emotions, and the way they deal with problems. Therefore, stress management recently becomes a more significant issue in our realization.
+Furthermore, stress takes a toll on our health. It is known that the modern life is frequently full of hassles, frustrations, and demands. This is one of the reasons why people were overwhelmed by constant stress. Thus, some people have physical problems, such as insomnia and headaches. Melancholia, the most fatal problem, even leads some people to commit suicide. Consequently, it is necessary that we should reduce and cope with our stress in the goal of balancing our mind and body. To avoid being a pessimist, we may try to conquer our distress by sharing our worry with friends or families, doing exercise regularly, and trying to see our troubles in a different way.
+For the above reasons, I believe that stress management is an essential skill for everyone to learn and find their own way to solve their stress.</OriginalText>
+</Annotation>

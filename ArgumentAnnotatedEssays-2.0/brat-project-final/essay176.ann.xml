@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>a quintessence of any visit to an excellent museum of a new place would be the best part of a tour</text>
+    <TextPosition start="49" end="147"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>museums can help us know the history and the customs of a new place</text>
+    <TextPosition start="574" end="641"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>it is easy to know the history of the new place</text>
+    <TextPosition start="207" end="254"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Last year, I went to Ellis Island and the immigration museum, where is a symbol of American immigration and the immigrant experience in the New York</text>
+    <TextPosition start="256" end="404"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Through the exhibit, I found that the Statue of Liberty symbolized freedom, and Ellis Island may be the place, where the immigration took their dreams and fears</text>
+    <TextPosition start="406" end="566"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>visiting a well-known museum also can broaden our horizon</text>
+    <TextPosition start="654" end="711"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>Those outstanding and diverse range of objects,with classic and magnificent art, is guaranteed to inspire us</text>
+    <TextPosition start="713" end="821"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>In my city, National Palace Museum is celebrated for collection of ancient Chinese artifacts</text>
+    <TextPosition start="823" end="915"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>To my astonishment, Jadeite cabbage is the most famous artistic work, which is made of jade, is vividly shown</text>
+    <TextPosition start="917" end="1026"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>a local museum could be a top choice and destination for tourist to visit</text>
+    <TextPosition start="1038" end="1111"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Someone take a trip without making any plans, so they may waste their time on shopping or staying at their hotel</text>
+    <TextPosition start="1113" end="1225"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>visiting a museum saves their precious time for making a decision</text>
+    <TextPosition start="1240" end="1305"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>a local museum represent its own typical culture so that visitors may easily acquaint with the new place in a short time</text>
+    <TextPosition start="1330" end="1450"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>it is worthwhile for us to visit a museum of a new place</text>
+    <TextPosition start="1578" end="1634"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Why people visit museums?
+
+As a lover of travel, a quintessence of any visit to an excellent museum of a new place would be the best part of a tour, which can be explained by the following reasons.
+Primary, it is easy to know the history of the new place. Last year, I went to Ellis Island and the immigration museum, where is a symbol of American immigration and the immigrant experience in the New York. Through the exhibit, I found that the Statue of Liberty symbolized freedom, and Ellis Island may be the place, where the immigration took their dreams and fears. Thus, museums can help us know the history and the customs of a new place.
+Secondary, visiting a well-known museum also can broaden our horizon. Those outstanding and diverse range of objects,with classic and magnificent art, is guaranteed to inspire us! In my city, National Palace Museum is celebrated for collection of ancient Chinese artifacts. To my astonishment, Jadeite cabbage is the most famous artistic work, which is made of jade, is vividly shown.
+Moreover, a local museum could be a top choice and destination for tourist to visit. Someone take a trip without making any plans, so they may waste their time on shopping or staying at their hotel. As a result, visiting a museum saves their precious time for making a decision. Most important of all, a local museum represent its own typical culture so that visitors may easily acquaint with the new place in a short time.
+For the above reasons, if we have a chance to visit top museums in the world, we must stop by these museums. During our trip, it is worthwhile for us to visit a museum of a new place.</OriginalText>
+</Annotation>

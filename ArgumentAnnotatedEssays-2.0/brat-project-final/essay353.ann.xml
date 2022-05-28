@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I disagree with the opinion that children who are brought up in less well-of families are, likely, more successful in the future life</text>
+    <TextPosition start="1322" end="1455"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>these people will not have an access to a good education</text>
+    <TextPosition start="422" end="478"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>they can be proselytized into bad isms</text>
+    <TextPosition start="493" end="531"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>most of the terroristic groups try to attract uneducated people</text>
+    <TextPosition start="546" end="609"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the person with better education has a wider outlook, which will allow no brainwash</text>
+    <TextPosition start="619" end="702"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>people with lower level of education have more proneness to be attracted in such isms</text>
+    <TextPosition start="719" end="804"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>children from poorer families are prone to have bad habits such as: crime, thievery and thuggery</text>
+    <TextPosition start="314" end="410"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>they use it a lot of times</text>
+    <TextPosition start="1033" end="1059"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>wealthy families can afford better health services and costly medicines, which will be very beneficial for the health of a child</text>
+    <TextPosition start="1070" end="1198"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>many good medicines cost vast amounts of money, which cannot be afforded by poorer families</text>
+    <TextPosition start="1214" end="1305"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>people who are born in well-off families have access to good education, which will have a positive impact on their later life</text>
+    <TextPosition start="820" end="945"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>children from rich families have better skills on how to use money</text>
+    <TextPosition start="957" end="1023"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Children from poorer families are more successful in the future life.
+
+According to some people, child who is brought up in less well-off family is more quick-witted and can tackle with an adult life problems better than who is from affluent ones. However, I completely disagree with this position.
+To begin with, children from poorer families are prone to have bad habits such as: crime, thievery and thuggery. Moreover, these people will not have an access to a good education. As a result, they can be proselytized into bad isms. For example, most of the terroristic groups try to attract uneducated people, because the person with better education has a wider outlook, which will allow no brainwash. In this sense, people with lower level of education have more proneness to be attracted in such isms.
+Nevertheless, people who are born in well-off families have access to good education, which will have a positive impact on their later life. Secondly, children from rich families have better skills on how to use money, because they use it a lot of times. Finally, wealthy families can afford better health services and costly medicines, which will be very beneficial for the health of a child. For instance, many good medicines cost vast amounts of money, which cannot be afforded by poorer families.
+In conclusion, I disagree with the opinion that children who are brought up in less well-of families are, likely, more successful in the future life due to aforementioned reasons.</OriginalText>
+</Annotation>

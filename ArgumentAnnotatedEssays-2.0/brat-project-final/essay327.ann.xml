@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>It seems to me that students should start learning that as they start school</text>
+    <TextPosition start="248" end="324"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Learning that not only help them to improve their minds and memories, but can extend their visions about the other countries</text>
+    <TextPosition start="326" end="450"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it is easy to distinguish between a child having two languages and a child having just his native language while comparing their ability to communicate, understanding other studies, etc</text>
+    <TextPosition start="1583" end="1768"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>They can easily understand the language structure and memorize the vocabularies</text>
+    <TextPosition start="694" end="773"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the ability of Learning in the childhood period is more powerful than other periods of life</text>
+    <TextPosition start="460" end="551"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>students in the beginning of their education can learn faster and easier in compare to a young one to understand a foreign language</text>
+    <TextPosition start="561" end="692"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>the persistence of learning a knowledge in the childhood is more than other period of lives</text>
+    <TextPosition start="811" end="902"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>this time is the best time to learn any language</text>
+    <TextPosition start="1060" end="1108"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>They would be able to understand other cultures and costumes</text>
+    <TextPosition start="1227" end="1287"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>It can give them a sense of power to communicate better with peers in other parts of the World</text>
+    <TextPosition start="1299" end="1393"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Having knowledge about other countries and their languages lead to extend the child's vision</text>
+    <TextPosition start="1395" end="1487"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>they would be able to develop their personalities and sense of reliance</text>
+    <TextPosition start="1500" end="1571"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Learning a foreign language helps students tremendously to comprehend what happens in the around World</text>
+    <TextPosition start="1123" end="1225"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Is it necessary for children or not?
+
+Learning a foreign language is necessary for children to strengthen their ability to learn. Whether children should start learning a foreign language as they start school or not might be a controversial issue. It seems to me that students should start learning that as they start school. Learning that not only help them to improve their minds and memories, but can extend their visions about the other countries. 
+First, the ability of Learning in the childhood period is more powerful than other periods of life. Thereby students in the beginning of their education can learn faster and easier in compare to a young one to understand a foreign language. They can easily understand the language structure and memorize the vocabularies. It is out of of the questioned that the persistence of learning a knowledge in the childhood is more than other period of lives. By considering this and being aware of that students have not any responsibility and other difficulty in comparison with a young man, we can infer that why this time is the best time to learn any language.
+In addition, Learning a foreign language helps students tremendously to comprehend what happens in the around World. They would be able to understand other cultures and costumes. Moreover, It can give them a sense of power to communicate better with peers in other parts of the World. Having knowledge about other countries and their languages lead to extend the child's vision. Therefore, they would be able to develop their personalities and sense of reliance. 
+Overall, it is easy to distinguish between a child having two languages and a child having just his native language while comparing their ability to communicate, understanding other studies, etc, to find that why children should start learning a foreign language in the beginning of the education.</OriginalText>
+</Annotation>

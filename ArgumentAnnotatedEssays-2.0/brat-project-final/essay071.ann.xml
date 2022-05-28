@@ -1,0 +1,57 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>while some of them are disturbing, we can not overlook other merits the advertisements bring</text>
+    <TextPosition start="343" end="435"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it is unfair to restrict those public service advertisements which are creative and inspiring</text>
+    <TextPosition start="444" end="537"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>publicizing brand image or a particular product of mass media could boost sales for companies</text>
+    <TextPosition start="744" end="837"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>the advertising expenses lead to a higher product price and some of them express fake information, creating information asymmetry between consumers and companies</text>
+    <TextPosition start="1221" end="1382"/>
+    <Relation relationID="RT5T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they are not in the purpose of making profits but taking a role of disseminating valued culture, good moral traits and calling for helps for the disabled and the poor</text>
+    <TextPosition start="548" end="714"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>it could simulate household spending and therefore promote the economic development of the whole country</text>
+    <TextPosition start="858" end="962"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>A recent study shows that after launching an advertising campaign, the sales revenue would increase by 40%, which is the very fact to verify its positive influences on economic</text>
+    <TextPosition start="964" end="1140"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>its merits still outweigh these downsides</text>
+    <TextPosition start="1389" end="1430"/>
+    <Relation relationID="T5Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T5"/>
+  </Proposition>
+  <OriginalText>Should all the advertisements be banned?
+
+Never in history was advertising industry so developed as in modern society and it has led to some adverse sentiments in public because some deliver exaggerated and fake information. Hence whether we should ban all the advertisements or not has aroused much controversy of the public. My view is that while some of them are disturbing, we can not overlook other merits the advertisements bring.
+First, it is unfair to restrict those public service advertisements which are creative and inspiring. In fact, they are not in the purpose of making profits but taking a role of disseminating valued culture, good moral traits and calling for helps for the disabled and the poor.
+Besides, it is obvious that publicizing brand image or a particular product of mass media could boost sales for companies. In a larger sense, it could simulate household spending and therefore promote the economic development of the whole country. A recent study shows that after launching an advertising campaign, the sales revenue would increase by 40%, which is the very fact to verify its positive influences on economic.
+That is not to say, however, that advertisements have no downsides. Of course, the advertising expenses lead to a higher product price and some of them express fake information, creating information asymmetry between consumers and companies. Yet, its merits still outweigh these downsides.
+Taken all together, advertisements have its social responsibility and contribute to economic growth. We can not deny all of them. However, if those with exaggerated and fake information could be banned, advertisements would be welcomed by more.
+</OriginalText>
+</Annotation>

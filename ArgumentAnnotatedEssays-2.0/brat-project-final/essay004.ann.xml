@@ -1,0 +1,67 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>this industry has affected the cultural attributes and damaged the natural environment of the tourist destinations</text>
+    <TextPosition start="262" end="376"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>the tourism bring large profit for the destination countries</text>
+    <TextPosition start="179" end="239"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>international tourism can create negative impacts on the destination countries</text>
+    <TextPosition start="953" end="1031"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>tourism has threatened the nature environments</text>
+    <TextPosition start="1578" end="1624"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>tourists from different cultures will probably cause changes to the cultural identity of the tourist destinations</text>
+    <TextPosition start="417" end="530"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Take Thailand for example, in the Vietnam War, many American soldiers came to Thailand for a break and involved in sexual and drug activities, these huge demands caused many local businesses opened and expanded, even illegally involved in under-age prostitutes to maximize their profits</text>
+    <TextPosition start="532" end="818"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>This was due to the lack of adequate controls by authorities and lead to a bad image of Thailand tourism</text>
+    <TextPosition start="820" end="924"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>tourism increasingly create harms to the natural habitats of the destination appeals</text>
+    <TextPosition start="1074" end="1158"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>As the Australia&#8217;s Great Barrier Reef has shown, the billion visitors per annum has generated immense destruction to this nature wonder, namely breaking the corals caused by walking or throwing boat&#8217;s anchors, dropping fuel and other sorts of pollutions</text>
+    <TextPosition start="1160" end="1413"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>many marine lives have been endangered, in the extremes part of the reef become uninhabitable for these marine species</text>
+    <TextPosition start="1432" end="1550"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <OriginalText>International tourism is now more common than ever before
+
+The last 50 years have seen a significant increase in the number of tourist traveling worldwide. While some might think the tourism bring large profit for the destination countries, I would contend that this industry has affected the cultural attributes and damaged the natural environment of the tourist destinations.
+Firstly, it is an undeniable fact that tourists from different cultures will probably cause changes to the cultural identity of the tourist destinations. Take Thailand for example, in the Vietnam War, many American soldiers came to Thailand for a break and involved in sexual and drug activities, these huge demands caused many local businesses opened and expanded, even illegally involved in under-age prostitutes to maximize their profits. This was due to the lack of adequate controls by authorities and lead to a bad image of Thailand tourism. Therefore this proves that international tourism can create negative impacts on the destination countries.
+Secondly, there are clear evidences that tourism increasingly create harms to the natural habitats of the destination appeals. As the Australia&#8217;s Great Barrier Reef has shown, the billion visitors per annum has generated immense destruction to this nature wonder, namely breaking the corals caused by walking or throwing boat&#8217;s anchors, dropping fuel and other sorts of pollutions. For this reason, many marine lives have been endangered, in the extremes part of the reef become uninhabitable for these marine species. Thus, it is apparent that tourism has threatened the nature environments.
+To conclude, I strongly believe that the tourism has created threatening pressure on both the sociocultural and natural environments. If authorities do not take steps to appropriately conserve these precious values, they will be destroyed in the near future.</OriginalText>
+</Annotation>

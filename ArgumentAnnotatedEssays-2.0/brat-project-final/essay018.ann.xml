@@ -1,0 +1,115 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>universities must open choice for everyone to select his subject</text>
+    <TextPosition start="1498" end="1562"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>we must give them opportunity to achieve their goal</text>
+    <TextPosition start="1774" end="1825"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Our youth has become very confident towards his career</text>
+    <TextPosition start="1564" end="1618"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>They are not ready to be bound in certain limitations</text>
+    <TextPosition start="1620" end="1673"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Female candidates also do not care about any restriction posed by the society and the employer</text>
+    <TextPosition start="1675" end="1769"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>Universities should accept equal numbers of students of both genders</text>
+    <TextPosition start="407" end="475"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>women have proved themselves in every field whether it is indoor or outdoor</text>
+    <TextPosition start="514" end="589"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>nowadays women are working in home as well as in the sky</text>
+    <TextPosition start="604" end="660"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>They are acting as a good housewife and they are flying planes also</text>
+    <TextPosition start="662" end="729"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>university authority must not be biased on ground of the gender discrimination</text>
+    <TextPosition start="744" end="822"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>They must consider the academic record of the student as main criteria of admission</text>
+    <TextPosition start="824" end="907"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>universities follow the requirement of job providers and decide subject suitable for particular gender</text>
+    <TextPosition start="1357" end="1459"/>
+    <Relation relationID="RT12T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>the current job market affects the decision of universities</text>
+    <TextPosition start="919" end="978"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Every university designs its courses according to the need of employers</text>
+    <TextPosition start="980" end="1051"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>The job selection criteria are pre decided</text>
+    <TextPosition start="1053" end="1095"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>employers need male candidates for the heavy work such as repairing and installation of heavy machine</text>
+    <TextPosition start="1110" end="1211"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>They prefer male staff for night shifts</text>
+    <TextPosition start="1213" end="1252"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>They want female candidates for soft natured work like counseling, teaching, designing etc</text>
+    <TextPosition start="1254" end="1344"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <OriginalText>Gender Equality at university admission
+
+Nowadays men and women are equally participating in every field. Contrastingly, in the past time, women worked at home and performed sophisticated work. This factor is still affecting thinking of many people. They still believe that in present time women must do such type of work only. This tendency enforces universities to accept student according to the gender.
+Universities should accept equal numbers of students of both genders. Initially, if we look into the fact, women have proved themselves in every field whether it is indoor or outdoor. For example, nowadays women are working in home as well as in the sky. They are acting as a good housewife and they are flying planes also. Furthermore, university authority must not be biased on ground of the gender discrimination. They must consider the academic record of the student as main criteria of admission. 
+However, the current job market affects the decision of universities. Every university designs its courses according to the need of employers. The job selection criteria are pre decided. For instance employers need male candidates for the heavy work such as repairing and installation of heavy machine. They prefer male staff for night shifts. They want female candidates for soft natured work like counseling, teaching, designing etc. Therefore, universities follow the requirement of job providers and decide subject suitable for particular gender.
+To conclude, I strongly believe that universities must open choice for everyone to select his subject. Our youth has become very confident towards his career. They are not ready to be bound in certain limitations. Female candidates also do not care about any restriction posed by the society and the employer. So we must give them opportunity to achieve their goal.</OriginalText>
+</Annotation>

@@ -1,0 +1,110 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>An integration of music into learning process bound to be successful when it is not compulsory</text>
+    <TextPosition start="1999" end="2093"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>music can help an individual to shape its character</text>
+    <TextPosition start="1946" end="1997"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>many university authorities provide music lessons for their students</text>
+    <TextPosition start="387" end="455"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>they live and study in a harmony with music</text>
+    <TextPosition start="464" end="507"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>It is obvious that music has a great power which can positively influence on human being and its psychology</text>
+    <TextPosition start="267" end="374"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>students, who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time</text>
+    <TextPosition start="535" end="695"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>music can be a useful and interesting solution</text>
+    <TextPosition start="711" end="757"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>if musical activity involves many participants, there will be co-operation and developed team work in the group, which is, of course, beneficial in their future life</text>
+    <TextPosition start="769" end="934"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>students with a quite poor academic background can show themselves in the music</text>
+    <TextPosition start="945" end="1024"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the calm atmosphere in the class might be created</text>
+    <TextPosition start="1040" end="1089"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it is clear that music can have many mentally enhancing effects on students</text>
+    <TextPosition start="1104" end="1179"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>music and other entertaining subjects should be optional</text>
+    <TextPosition start="1528" end="1584"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Nowadays, time is the most valuable thing in life with increased pace</text>
+    <TextPosition start="1586" end="1655"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>students are to develop their professional skills by learning occupation-related subjects, rather than playing on guitar or singing a song</text>
+    <TextPosition start="1669" end="1807"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>students can not obtain supposed impacts, unless they get interested in it more seriously</text>
+    <TextPosition start="1426" end="1515"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>music is the art which requires special attitude towards it</text>
+    <TextPosition start="1343" end="1402"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>demand is not for musically orientated students, but for academically developed employees</text>
+    <TextPosition start="1210" end="1299"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Should high school make music lessons compulsory
+
+Most people claim that in high school music must be taught as a main subject, while others say that this is an unnecessary subject and should at least be optional. In this essay I will give my opinion for both sides.
+It is obvious that music has a great power which can positively influence on human being and its psychology. Therefore, many university authorities provide music lessons for their students so that they live and study in a harmony with music. I have an impression that students, who spend a great deal of their time studying different academic subjects should have an opportunity to cope with the stress gained during school time. In this case, music can be a useful and interesting solution. Moreover, if musical activity involves many participants, there will be co-operation and developed team work in the group, which is, of course, beneficial in their future life. In fact, students with a quite poor academic background can show themselves in the music. Consequently, the calm atmosphere in the class might be created.
+By contrast, it is clear that music can have many mentally enhancing effects on students. In our hectic life, however, demand is not for musically orientated students, but for academically developed employees. Hence, I agree with the majority, because music is the art which requires special attitude towards it. Increasingly however, students can not obtain supposed impacts, unless they get interested in it more seriously. Therefore, music and other entertaining subjects should be optional. Nowadays, time is the most valuable thing in life with increased pace. To my mind, students are to develop their professional skills by learning occupation-related subjects, rather than playing on guitar or singing a song.
+In conclusion, I think that in order to be a competitive worker, students must know their field in an advanced level. On the other hand, music can help an individual to shape its character. An integration of music into learning process bound to be successful when it is not compulsory.
+</OriginalText>
+</Annotation>

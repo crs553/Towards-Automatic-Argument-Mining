@@ -1,0 +1,61 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>some tough experiences people met before will be helpful in their life path</text>
+    <TextPosition start="399" end="474"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>experiences of difficulties teach them how to keep a nice mood and have confidence all the time</text>
+    <TextPosition start="839" end="934"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>hardship makes people realize how to cherish and compliment the common but wonderful little things happened in their life such as, a shining weather, a delicious breakfast and etc</text>
+    <TextPosition start="491" end="670"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>People who have such nice spirit usually know how to find the true love in their life instead of being seduced by greed as to lose themselves in the end</text>
+    <TextPosition start="672" end="824"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>they are conscious of what to do and how to do when fierce crisis happens</text>
+    <TextPosition start="1111" end="1184"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they already have such experiences of overcoming some difficulties</text>
+    <TextPosition start="1043" end="1109"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Those people are more likely to achieve their ambitions in their career</text>
+    <TextPosition start="1186" end="1257"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>they are aware of how to lead people to reach success despite what kind of difficulties are getting in their way</text>
+    <TextPosition start="1266" end="1378"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>people who experienced lots of difficulties will be calmer when they are in troubles</text>
+    <TextPosition start="949" end="1033"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Most difficult experiences will become valuable lessons
+
+There is a famous old saying that failure is the mother of success. For that reason, some people advocate that some difficulties people met at their early ages will become an invaluable fortune in their future lives. However, some people think it isn't supposed to be that case. From my point of view, I am in favor the former statement that some tough experiences people met before will be helpful in their life path.
+To start with, hardship makes people realize how to cherish and compliment the common but wonderful little things happened in their life such as, a shining weather, a delicious breakfast and etc. People who have such nice spirit usually know how to find the true love in their life instead of being seduced by greed as to lose themselves in the end. As a result, experiences of difficulties teach them how to keep a nice mood and have confidence all the time.
+What's more, people who experienced lots of difficulties will be calmer when they are in troubles. Because they already have such experiences of overcoming some difficulties, they are conscious of what to do and how to do when fierce crisis happens. Those people are more likely to achieve their ambitions in their career because they are aware of how to lead people to reach success despite what kind of difficulties are getting in their way.
+So, to sum it up, both not afraid of difficulties and appreciating common but pleasant things in their lives drive me to believe that most tough experiences in people's life path will be a priceless treasure to them. Remember if you are afraid of encountering difficulties, then you will be in the troubles all the time.</OriginalText>
+</Annotation>

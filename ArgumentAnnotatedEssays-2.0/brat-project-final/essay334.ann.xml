@@ -1,0 +1,109 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>problems posed by machines should draws more attentions as well</text>
+    <TextPosition start="1746" end="1809"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>we cannot deny machines are play a vital role in people living and working</text>
+    <TextPosition start="1670" end="1744"/>
+    <Relation relationID="RT1T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>although using machines have many benefits</text>
+    <TextPosition start="200" end="242"/>
+    <Relation relationID="RT3T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Not like human, machines do not need rest, which means they can work as long as employers want and consistently produce high quality products without any mistakes</text>
+    <TextPosition start="393" end="555"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>using machines can save company's money</text>
+    <TextPosition start="570" end="609"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>machines never ask for salary, over-time pay or pension</text>
+    <TextPosition start="619" end="674"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>employers do not need to spend money on employee's welfare</text>
+    <TextPosition start="679" end="737"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The company only needs some technicians to make sure machines are working on the right track or replace some part when machines are not working</text>
+    <TextPosition start="739" end="882"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>machines can bring many benefits</text>
+    <TextPosition start="304" end="336"/>
+    <Relation relationID="RT10T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>machines are more effective than human</text>
+    <TextPosition start="353" end="391"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>because of extensive of using machines, many people loss their job</text>
+    <TextPosition start="991" end="1057"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Especially in large population countries, high unemployment rate may cause crime and social instability</text>
+    <TextPosition start="1059" end="1162"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>using of machines are also pose serious pollution and energy dissipation</text>
+    <TextPosition start="1181" end="1253"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>nowadays people prefer to use dish-washing machine to wash dishes and plates rather than hand washing</text>
+    <TextPosition start="1268" end="1369"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>they did not know that compared with hand washing dish-washing machine consume at least 2 times water and electricity to wash these tableware</text>
+    <TextPosition start="1375" end="1516"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>if thousands of families use dish-washing machines, how many water and how much electricity will be wasted</text>
+    <TextPosition start="1538" end="1644"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>the disadvantages of machines that bring to us should not be neglected by people</text>
+    <TextPosition start="894" end="974"/>
+    <Relation relationID="RT18-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <OriginalText>Advantages and disadvantages of machines instead of human to do the work
+
+The issue of whether using of machine are bring many advantages to society is of great concern to many people. In my opinion, although using machines have many benefits, we cannot ignore its negative effects.
+It is undoubted that machines can bring many benefits. For one thing, machines are more effective than human. Not like human, machines do not need rest, which means they can work as long as employers want and consistently produce high quality products without any mistakes. For another, using machines can save company's money. Because machines never ask for salary, over-time pay or pension, so employers do not need to spend money on employee's welfare. The company only needs some technicians to make sure machines are working on the right track or replace some part when machines are not working. 
+However, the disadvantages of machines that bring to us should not be neglected by people. To start with, because of extensive of using machines, many people loss their job. Especially in large population countries, high unemployment rate may cause crime and social instability. Apart from this, using of machines are also pose serious pollution and energy dissipation. For example, nowadays people prefer to use dish-washing machine to wash dishes and plates rather than hand washing. But they did not know that compared with hand washing dish-washing machine consume at least 2 times water and electricity to wash these tableware. As you can imagine, if thousands of families use dish-washing machines, how many water and how much electricity will be wasted!
+In conclusion, although we cannot deny machines are play a vital role in people living and working, problems posed by machines should draws more attentions as well.</OriginalText>
+</Annotation>

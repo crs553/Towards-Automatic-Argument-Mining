@@ -1,0 +1,110 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>experience makes us more skilled, improves our decision making and makes us more compatible for life</text>
+    <TextPosition start="266" end="366"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>those challenges of their initial life teach them important survival lessons which help them for whole life</text>
+    <TextPosition start="541" end="648"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Every day comes with new challenges for them like walking</text>
+    <TextPosition start="464" end="521"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>when they tried to learn walking, they stumble and hurt themselves many times</text>
+    <TextPosition start="663" end="740"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>they slowly tune their technique and learned to walk</text>
+    <TextPosition start="746" end="798"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>No known scientist has success in first attempt</text>
+    <TextPosition start="875" end="922"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Scientists try and test many specimens before they get they want</text>
+    <TextPosition start="924" end="988"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Thomas Edison tested around 10000 bulbs before inventing Light bulb</text>
+    <TextPosition start="1007" end="1074"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>all the initial experiments would be difficult and frustrating for him but he searched for more options and learnt new findings with each experiment even when he was failing in his attempts and finally found break through</text>
+    <TextPosition start="1080" end="1301"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>All inventions and experiments are based on many unfortunate observations</text>
+    <TextPosition start="800" end="873"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>first time I was away from parent and staying with people I had not known</text>
+    <TextPosition start="1647" end="1720"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>I had felt very fragile and emotionally distracted, but then slowly I started adjusting with roommates and built connection with them</text>
+    <TextPosition start="1722" end="1855"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>I also became more casual and social with others, this experience increased my communication skill and social speaking skills</text>
+    <TextPosition start="1857" end="1982"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>When I moved to college hostel after school, first few days were very unsettling for me</text>
+    <TextPosition start="1551" end="1638"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>We might be facing a toughest time of life at the time, but when we think back about those moments later in life, we feel more confident about our decisions and about ourselves</text>
+    <TextPosition start="1373" end="1549"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>Our difficult experiences also make us robust and strong unknowingly</text>
+    <TextPosition start="1303" end="1371"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>Good experiences give us good memories and bad ones teach us lessons for life</text>
+    <TextPosition start="2168" end="2245"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Every experience always gives us something to learn and keep for life
+
+I agree with the statement that our life seems tough at the time but those difficult experiences of life become important lessons for the future. My opinion based on the reasons that Every tough experience makes us more skilled, improves our decision making and makes us more compatible for life.
+The best example of it is how babies learn about basics survival habits during their childhood. Every day comes with new challenges for them like walking, eating, etc., but those challenges of their initial life teach them important survival lessons which help them for whole life. For example, when they tried to learn walking, they stumble and hurt themselves many times. But they slowly tune their technique and learned to walk.
+All inventions and experiments are based on many unfortunate observations. No known scientist has success in first attempt. Scientists try and test many specimens before they get they want. It was said that Thomas Edison tested around 10000 bulbs before inventing Light bulb. So, all the initial experiments would be difficult and frustrating for him but he searched for more options and learnt new findings with each experiment even when he was failing in his attempts and finally found break through.
+Our difficult experiences also make us robust and strong unknowingly. We might be facing a toughest time of life at the time, but when we think back about those moments later in life, we feel more confident about our decisions and about ourselves. When I moved to college hostel after school, first few days were very unsettling for me because first time I was away from parent and staying with people I had not known. I had felt very fragile and emotionally distracted, but then slowly I started adjusting with roommates and built connection with them. I also became more casual and social with others, this experience increased my communication skill and social speaking skills. 
+Therefore, to conclude my opinion on this statement, I want to mentioned that every experience in life whether it is good or bad always gives us something to learn and keep for life. Good experiences give us good memories and bad ones teach us lessons for life.</OriginalText>
+</Annotation>

@@ -1,0 +1,109 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>new high school is a great addition to the educational system of my community</text>
+    <TextPosition start="305" end="382"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>The high school of my district is pretty old and lacks in necessities for students, so they can't get enough education</text>
+    <TextPosition start="163" end="281"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>The only disadvantage is the nosiness of competitions which students will participate</text>
+    <TextPosition start="1687" end="1772"/>
+    <Relation relationID="RT4T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>it isn't a big deal</text>
+    <TextPosition start="1791" end="1810"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>this new construction has a lot of advantages like new connections between students from different communities, also the new educational equipment will increase the students' enthusiasm toward studying</text>
+    <TextPosition start="1484" end="1685"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>the new high school will bring a lots of opportunities for student concerned in education</text>
+    <TextPosition start="407" end="496"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Their old high school is pretty old and need in new educational materials, repairing of the place for sport activities</text>
+    <TextPosition start="498" end="616"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the laboratory of physics and chemistry was in bad condition</text>
+    <TextPosition start="623" end="683"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the students can't study well during the classes</text>
+    <TextPosition start="688" end="736"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>They will study with new breath and great enthusiasm in new school</text>
+    <TextPosition start="738" end="804"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>the new high school will be a place for new connections between the student of different communities and districts of the city</text>
+    <TextPosition start="817" end="943"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>After classes students and not only the students will get together in building of high school, participate in different competitions</text>
+    <TextPosition start="945" end="1077"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>during the football match the students of different high schools will come and after the competition they will keep in touch</text>
+    <TextPosition start="1092" end="1216"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>This will increase the social connections of the students</text>
+    <TextPosition start="1218" end="1275"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>The only disadvantage is the noisiness of the competitions</text>
+    <TextPosition start="1277" end="1335"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>The people living in the neighborhood will be a bit perturbed</text>
+    <TextPosition start="1337" end="1398"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>this isn't a important reason for ceasing the competitions</text>
+    <TextPosition start="1412" end="1470"/>
+    <Relation relationID="T18Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>New high school
+
+Although some of my neighbors will oppose this idea, personally I approve it. The new high school will bring a lot of advantages to my community. The high school of my district is pretty old and lacks in necessities for students, so they can't get enough education. I really believe that new high school is a great addition to the educational system of my community.	
+Firstly, I think that the new high school will bring a lots of opportunities for student concerned in education. Their old high school is pretty old and need in new educational materials, repairing of the place for sport activities. Also the laboratory of physics and chemistry was in bad condition, so the students can't study well during the classes. They will study with new breath and great enthusiasm in new school. 
+Secondly, the new high school will be a place for new connections between the student of different communities and districts of the city. After classes students and not only the students will get together in building of high school, participate in different competitions. For instance during the football match the students of different high schools will come and after the competition they will keep in touch. This will increase the social connections of the students. The only disadvantage is the noisiness of the competitions. The people living in the neighborhood will be a bit perturbed, but I think this isn't a important reason for ceasing the competitions. 
+To sum up, this new construction has a lot of advantages like new connections between students from different communities, also the new educational equipment will increase the students' enthusiasm toward studying. The only disadvantage is the nosiness of competitions which students will participate, but I think that it isn't a big deal. So the new high school will be a great addition for my environment.</OriginalText>
+</Annotation>

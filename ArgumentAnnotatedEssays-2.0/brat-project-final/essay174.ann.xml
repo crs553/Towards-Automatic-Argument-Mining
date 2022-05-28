@@ -1,0 +1,98 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I prefer the serious movies which are simple, touching and powerful</text>
+    <TextPosition start="32" end="99"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>most serious movies have a wide variety of content</text>
+    <TextPosition start="130" end="180"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Entertaining movies are created to amuse people</text>
+    <TextPosition start="182" end="229"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>most entertaining movies are empty and nonsensical</text>
+    <TextPosition start="240" end="290"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Compared with the entertainment film, the serious film may be more worthwhile and meaningful</text>
+    <TextPosition start="292" end="384"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>the hidden meanings of serious movies are usually beyond words and images which make us think about ourselves</text>
+    <TextPosition start="877" end="986"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>"Click" is a very interesting comedy, with a serious approach about the importance of having a balanced life between family and work businesses</text>
+    <TextPosition start="578" end="721"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The movie is humorous and satiric,which leads us to think what is the most valuable of our lives, and it reminds us how important our families are</text>
+    <TextPosition start="723" end="869"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Serious movies usually designed to express one or more thinking about love, humaneness</text>
+    <TextPosition start="386" end="472"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it may point out the dark sides of the society</text>
+    <TextPosition start="484" end="530"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>some of serious movies try to make you think about the dark sides of the world</text>
+    <TextPosition start="998" end="1076"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>"Blood diamond", an adaptation of a real story in South Africa, focuses on the link between diamonds and conflict</text>
+    <TextPosition start="1078" end="1191"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>After watching the movie, we may learn a lesson between jewels and death</text>
+    <TextPosition start="1193" end="1265"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>Diamonds are not rare or a sign of true love; indeed, the hidden meaning of a diamond is a cruel reality</text>
+    <TextPosition start="1267" end="1371"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>serious movie tell you how to see the world in a different way</text>
+    <TextPosition start="1386" end="1448"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Serious or entertaining movies
+
+I prefer the serious movies which are simple, touching and powerful. Here are my reasons. 
+First, most serious movies have a wide variety of content. Entertaining movies are created to amuse people. However, most entertaining movies are empty and nonsensical. Compared with the entertainment film, the serious film may be more worthwhile and meaningful. Serious movies usually designed to express one or more thinking about love, humaneness; moreover, it may point out the dark sides of the society.
+Second, not all of serious movies are boring. "Click" is a very interesting comedy, with a serious approach about the importance of having a balanced life between family and work businesses. The movie is humorous and satiric,which leads us to think what is the most valuable of our lives, and it reminds us how important our families are. Thus, the hidden meanings of serious movies are usually beyond words and images which make us think about ourselves.
+Moreover, some of serious movies try to make you think about the dark sides of the world. "Blood diamond", an adaptation of a real story in South Africa, focuses on the link between diamonds and conflict. After watching the movie, we may learn a lesson between jewels and death. Diamonds are not rare or a sign of true love; indeed, the hidden meaning of a diamond is a cruel reality. As a result, serious movie tell you how to see the world in a different way.
+For the above reasons, I prefer to see those serious movies which make people have deep thoughts toward their real lives.</OriginalText>
+</Annotation>

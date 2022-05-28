@@ -1,0 +1,122 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>we should do our parts to do what ever it takes to protect old buildings, letting next generations still have a chance to look at them</text>
+    <TextPosition start="509" end="643"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>they are significant symbols of a city</text>
+    <TextPosition start="759" end="797"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Old buildings are reminders of a city's culture and complexity</text>
+    <TextPosition start="799" end="861"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>By seeing historic buildings -- whether related to something famous or recognizably dramatic, people are able to witness the aesthetic and cultural history of an area</text>
+    <TextPosition start="863" end="1029"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>when somebody mentions Beijing, China's capital city, you will immediately have Capital Palace come to appear in your mind</text>
+    <TextPosition start="1044" end="1166"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>it is the most remarkable sign of the city, and also it is the inevitable history of Beijing, even the entire China</text>
+    <TextPosition start="1176" end="1291"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>Historic buildings have intrinsic values</text>
+    <TextPosition start="709" end="749"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Depending on the study of Capital Palace, researchers have a comprehensive understanding of the history and the culture</text>
+    <TextPosition start="1293" end="1412"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The city is occupied with an abundance of modern houses and and high buildings which make it crowded, and no rooms for people to relax themselves</text>
+    <TextPosition start="1532" end="1677"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the warmth of the materials, the heart pine, marble, or the old brick, all those old buildings features call back of our inner peace</text>
+    <TextPosition start="1688" end="1820"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Lying under the roof of a historic building or sitting on the desk fill with history are both easy ways to forget life's little annoyance and feel peaceful</text>
+    <TextPosition start="1822" end="1977"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>historic buildings make our lives more colorful, provide places for citizens to relax bodies and minds</text>
+    <TextPosition start="1428" end="1530"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>There are many historic buildings, such as Beijing Place, Shanghai Artist Museum, they are all able to support themselves financially by charging tens of thousands of tourists</text>
+    <TextPosition start="2047" end="2222"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Our governments will be happy with those efficient consequences, and a majority of cities also can imitate this economical cycle</text>
+    <TextPosition start="2224" end="2352"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>historic buildings can be a source of maintenance fees</text>
+    <TextPosition start="1991" end="2045"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>There is no chance to renovate to save a history site once it's gone</text>
+    <TextPosition start="2518" end="2586"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>the city which I enjoy the most is a combination of history and modernity</text>
+    <TextPosition start="2379" end="2452"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>the preservation of old buildings is a one-way street</text>
+    <TextPosition start="2463" end="2516"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>This reality brings us to light the importance of locating and saving old buildings of historic significance</text>
+    <TextPosition start="2588" end="2696"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>The city which I enjoy the most is a combination of history and modernity
+
+The city where I was born used to be of a great antique beauty, which was surrounded with by lots of ancient style buildings. Unfortunately, the unstoppable trend of urbanization makes me only appreciate parts of those classic buildings in the pictures or in museums. In order to prevent the disappearance of the historic buildings, some citizens suggest the government to spend money on historic buildings. As far as I am concerned, we should do our parts to do what ever it takes to protect old buildings, letting next generations still have a chance to look at them. Here are some reasons and examples to illustrate my viewpoint. 
+Historic buildings have intrinsic values, because they are significant symbols of a city. Old buildings are reminders of a city's culture and complexity. By seeing historic buildings -- whether related to something famous or recognizably dramatic, people are able to witness the aesthetic and cultural history of an area. For example, when somebody mentions Beijing, China's capital city, you will immediately have Capital Palace come to appear in your mind, because it is the most remarkable sign of the city, and also it is the inevitable history of Beijing, even the entire China. Depending on the study of Capital Palace, researchers have a comprehensive understanding of the history and the culture. 
+Furthermore, historic buildings make our lives more colorful, provide places for citizens to relax bodies and minds. The city is occupied with an abundance of modern houses and and high buildings which make it crowded, and no rooms for people to relax themselves. However, the warmth of the materials, the heart pine, marble, or the old brick, all those old buildings features call back of our inner peace. Lying under the roof of a historic building or sitting on the desk fill with history are both easy ways to forget life's little annoyance and feel peaceful. 
+Meanwhile, historic buildings can be a source of maintenance fees. There are many historic buildings, such as Beijing Place, Shanghai Artist Museum, they are all able to support themselves financially by charging tens of thousands of tourists. Our governments will be happy with those efficient consequences, and a majority of cities also can imitate this economical cycle. 
+Overall, I believe that the city which I enjoy the most is a combination of history and modernity. However, the preservation of old buildings is a one-way street. There is no chance to renovate to save a history site once it's gone. This reality brings us to light the importance of locating and saving old buildings of historic significance. Therefore, government should spend money on preservation of old buildings.</OriginalText>
+</Annotation>

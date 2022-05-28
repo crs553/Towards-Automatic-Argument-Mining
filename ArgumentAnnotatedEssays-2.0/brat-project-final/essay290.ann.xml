@@ -1,0 +1,80 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I personally prefer to work for a large company</text>
+    <TextPosition start="321" end="368"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>I have different reasons to hold that, such as having a better chance to find work, having a better salary and having the opportunity to travel around the world to attend international conferences</text>
+    <TextPosition start="1666" end="1862"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Large company equals more job opportunity</text>
+    <TextPosition start="798" end="839"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>to find a job in a large company is way more easier than to find a job in a small company</text>
+    <TextPosition start="397" end="486"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Large companies always look for new skilled employees to fill in their need of distributing, managing and selling their products in different countries</text>
+    <TextPosition start="488" end="639"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>if a large company decides to open a branch in a foreign country, they would need more employees in that country to work there</text>
+    <TextPosition start="654" end="780"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>a large company can give better salaries than a smaller one</text>
+    <TextPosition start="862" end="921"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The fact that a company is a large one, this means that it's having a considerable success</text>
+    <TextPosition start="923" end="1013"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>this means that the company can give more salaries to its employees</text>
+    <TextPosition start="1031" end="1098"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>common sense would tell us that a famous and international known company won't give the same salary as a small local company</text>
+    <TextPosition start="1114" end="1238"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>large companies have an international reputation, as they organize international conferences, meetings and workshops which will give me the opportunity to travel in different countries and meet new people</text>
+    <TextPosition start="1283" end="1487"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>As well as learning new skills in my field from these workshops</text>
+    <TextPosition start="1489" end="1552"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Some people prefer to work for a large company
+
+Companies vary from small to large ones based on the context, success and needs of their work. Small companies usually have a local job in the area, while large companies work in an international context providing for the entire nation or even for other foreign countries. I personally prefer to work for a large company for several reasons.
+First, to find a job in a large company is way more easier than to find a job in a small company. Large companies always look for new skilled employees to fill in their need of distributing, managing and selling their products in different countries. For example, if a large company decides to open a branch in a foreign country, they would need more employees in that country to work there. In other words, Large company equals more job opportunity.
+Second, I think that a large company can give better salaries than a smaller one. The fact that a company is a large one, this means that it's having a considerable success. In other words, this means that the company can give more salaries to its employees. For instance, common sense would tell us that a famous and international known company won't give the same salary as a small local company.
+Third, I love travelling around the world. large companies have an international reputation, as they organize international conferences, meetings and workshops which will give me the opportunity to travel in different countries and meet new people. As well as learning new skills in my field from these workshops.
+In conclusion, i can certainly state that I would rather prefer working in a large company than in a small one. I have different reasons to hold that, such as having a better chance to find work, having a better salary and having the opportunity to travel around the world to attend international conferences.</OriginalText>
+</Annotation>

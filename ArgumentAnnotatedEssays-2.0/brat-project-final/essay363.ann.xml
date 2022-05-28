@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>using machines is advantageous</text>
+    <TextPosition start="1434" end="1464"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>machines make work easy and smooth</text>
+    <TextPosition start="1468" end="1502"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>The negative effects on health can be put on the back seat</text>
+    <TextPosition start="1504" end="1562"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>there are many other ways to exercise and stay healthy</text>
+    <TextPosition start="1571" end="1625"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>the usage of machines is harmful for health of humans</text>
+    <TextPosition start="459" end="512"/>
+    <Relation relationID="RT5T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>machines decrease the work done by people</text>
+    <TextPosition start="519" end="560"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>in many institutions staircases are replaced by lifts now a days</text>
+    <TextPosition start="575" end="639"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>People opt for elevators instead of climbing one or two flight of stairs</text>
+    <TextPosition start="641" end="713"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>It is confirmed in a number of researches that daily usage of elevators in workplaces promotes obesity</text>
+    <TextPosition start="715" end="817"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>this example clearly shows the linkage between using machines and adverse health effects</text>
+    <TextPosition start="822" end="910"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>The work of chopping, blending, grating, kneading has become so easy that people can not imagine their lives without this simple machine at their homes</text>
+    <TextPosition start="1116" end="1267"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>using machines makes daily tasks less time consuming and less cumbersome</text>
+    <TextPosition start="1298" end="1370"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>usage of machines makes work easier and less time is consumed for doing similar amount of work</text>
+    <TextPosition start="964" end="1058"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Take the example of use of food processors in kitchens</text>
+    <TextPosition start="1060" end="1114"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Machines - positive or negative for humans
+
+Advancements in technology have touched new heights in past few decades. This can be seen no where clearer than in increasing use of machines now a days. These machines reduce the physical work done by humans. Some people think that this is a positive development while others believe it to be disadvantageous for humans.Both sides will be critiqued before a reasoned conclusion is reached.
+It is felt by many that the usage of machines is harmful for health of humans since machines decrease the work done by people. For example, in many institutions staircases are replaced by lifts now a days. People opt for elevators instead of climbing one or two flight of stairs. It is confirmed in a number of researches that daily usage of elevators in workplaces promotes obesity. So this example clearly shows the linkage between using machines and adverse health effects.
+On other side of the coin, many people believe that usage of machines makes work easier and less time is consumed for doing similar amount of work. Take the example of use of food processors in kitchens. The work of chopping, blending, grating, kneading has become so easy that people can not imagine their lives without this simple machine at their homes. Thus it is very obvious that using machines makes daily tasks less time consuming and less cumbersome.
+After analyzing these two points of view, it is believed that using machines is advantageous as machines make work easy and smooth. The negative effects on health can be put on the back seat because there are many other ways to exercise and stay healthy. Therefore, it is hoped that in coming time people will enjoy using more and more machines and will choose alternative ways to stay disease free.</OriginalText>
+</Annotation>

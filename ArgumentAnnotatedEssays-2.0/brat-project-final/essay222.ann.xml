@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>parents are really the best teachers who give us much knowledge and advice</text>
+    <TextPosition start="1625" end="1699"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>parents are the first teachers who teach babies how to walk and speak and make children to become a good person</text>
+    <TextPosition start="47" end="158"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>parents provide their children the best social skills and knowledge in order to prepare for their children's future life</text>
+    <TextPosition start="170" end="290"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>children are taught basic things, which influence their whole life, by their parents</text>
+    <TextPosition start="299" end="383"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>As a baby, they do not know any thing all around but they learn everything from their parents</text>
+    <TextPosition start="385" end="478"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Parents always try to explain and describe tenderly all things in simple way so that their baby can understand and learn from that</text>
+    <TextPosition start="480" end="610"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>parents bring the whole world of wonderful and colorful thing into their baby's little mind</text>
+    <TextPosition start="626" end="717"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>parents train their child how to become a good person</text>
+    <TextPosition start="727" end="780"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>They always make their children basically say thanks and apology in the right way</text>
+    <TextPosition start="782" end="863"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>it is common that they try to explain who is a good or bad person</text>
+    <TextPosition start="882" end="947"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>children are shown how to behave well with others</text>
+    <TextPosition start="968" end="1017"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>this can influence positively their future children and makes children's behavior better before they face the real world</text>
+    <TextPosition start="1045" end="1165"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>parents' support is one factor which makes people succeed in their life</text>
+    <TextPosition start="1537" end="1608"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>parents are ones who loves their children most and always take care of their children</text>
+    <TextPosition start="1191" end="1276"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>they tend to provide the best knowledge and advice from their experience for children</text>
+    <TextPosition start="1284" end="1369"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Unlike a professional, parents always support children and give them much social skill so they can communicate well with others and have good habit in life</text>
+    <TextPosition start="1371" end="1526"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Are parents best teachers?
+
+It is obvious that parents are the first teachers who teach babies how to walk and speak and make children to become a good person. Moreover, parents provide their children the best social skills and knowledge in order to prepare for their children's future life.
+First, children are taught basic things, which influence their whole life, by their parents. As a baby, they do not know any thing all around but they learn everything from their parents. Parents always try to explain and describe tenderly all things in simple way so that their baby can understand and learn from that. Consequently, parents bring the whole world of wonderful and colorful thing into their baby's little mind.
+Second, parents train their child how to become a good person. They always make their children basically say thanks and apology in the right way. On the one hand, it is common that they try to explain who is a good or bad person. On the other hand, children are shown how to behave well with others. This seems to be easy but this can influence positively their future children and makes children's behavior better before they face the real world.
+Third, it is clear that parents are ones who loves their children most and always take care of their children. Thus, they tend to provide the best knowledge and advice from their experience for children. Unlike a professional, parents always support children and give them much social skill so they can communicate well with others and have good habit in life. In fact, parents' support is one factor which makes people succeed in their life.
+In conclusion, parents are really the best teachers who give us much knowledge and advice. Based on love, they always try their best to make good condition for their children development in order to prepare children's future life.</OriginalText>
+</Annotation>

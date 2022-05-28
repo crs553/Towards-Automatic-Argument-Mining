@@ -1,0 +1,134 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is not the good idea for teenagers to have job while they are still students</text>
+    <TextPosition start="79" end="158"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>many argue that it provide good working experience</text>
+    <TextPosition start="170" end="220"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Having jobs would affect the health of the student</text>
+    <TextPosition start="284" end="334"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>It divert their mind from studies and would take away their childhood phase from their life</text>
+    <TextPosition start="336" end="427"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>Having job would affect their health, divert them from studies and take away one of the important phase from their life</text>
+    <TextPosition start="1819" end="1938"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>would affect their mental and physical health</text>
+    <TextPosition start="901" end="946"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>jobs has various responsibilities like attendance, sometimes extra work and so on</text>
+    <TextPosition start="699" end="780"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>This would result in stress, tension and tiredness</text>
+    <TextPosition start="782" end="832"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>They won't be able to get proper time for relaxation, sleep</text>
+    <TextPosition start="834" end="893"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>If the student get involved himself in job in rest of the time, then it would cause an extra burden on them</text>
+    <TextPosition start="577" end="684"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>He has to spend his most of time in school to get a good grades</text>
+    <TextPosition start="512" end="575"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>A student has to do lots of studies in today's competitive world to prove himself</text>
+    <TextPosition start="429" end="510"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>jobs can divert students from their studies</text>
+    <TextPosition start="964" end="1007"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>If students started earning in earlier age in their life, then they get attracted towards money</text>
+    <TextPosition start="1009" end="1104"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>They feel themselves independent and would prefer to work more for money</text>
+    <TextPosition start="1106" end="1178"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>This would affect their studies, they loose their interest from studies</text>
+    <TextPosition start="1180" end="1251"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>they drop out their studies so as to earn more money</text>
+    <TextPosition start="1263" end="1315"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>the main drawback of teenagers job is that, they miss out the fun of their childhood time</text>
+    <TextPosition start="1338" end="1427"/>
+    <Relation relationID="T21Default Inference" type="Default Inference" typeBinary="0" partnerID="T21"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="claim"/>
+    <text>they should take advantage of life as much possible they can</text>
+    <TextPosition start="1685" end="1745"/>
+    <Relation relationID="RT21-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>They have whole life to do job and prove themselves, but the childhood phase will never return in their life</text>
+    <TextPosition start="1564" end="1672"/>
+    <Relation relationID="T21Default Inference" type="Default Inference" typeBinary="0" partnerID="T21"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>He would miss various childhood activities such as hang out with friends, clubs and fun activities and social interaction with others</text>
+    <TextPosition start="1429" end="1562"/>
+    <Relation relationID="T21Default Inference" type="Default Inference" typeBinary="0" partnerID="T21"/>
+  </Proposition>
+  <OriginalText>Do you think it is good for teenagers to work while schooling?
+
+In my opinion, it is not the good idea for teenagers to have job while they are still students. Although, many argue that it provide good working experience, but I think it can interfere with their life in various ways. Having jobs would affect the health of the student. It divert their mind from studies and would take away their childhood phase from their life.
+A student has to do lots of studies in today's competitive world to prove himself. He has to spend his most of time in school to get a good grades. If the student get involved himself in job in rest of the time, then it would cause an extra burden on them. Furthermore, jobs has various responsibilities like attendance, sometimes extra work and so on. This would result in stress, tension and tiredness. They won't be able to get proper time for relaxation, sleep. Thus, would affect their mental and physical health.
+Another reason, jobs can divert students from their studies. If students started earning in earlier age in their life, then they get attracted towards money. They feel themselves independent and would prefer to work more for money. This would affect their studies, they loose their interest from studies. Moreover, they drop out their studies so as to earn more money.
+In addition to this, the main drawback of teenagers job is that, they miss out the fun of their childhood time. He would miss various childhood activities such as hang out with friends, clubs and fun activities and social interaction with others. They have whole life to do job and prove themselves, but the childhood phase will never return in their life. Therefore, they should take advantage of life as much possible they can.
+Thus, for a teenager it is important to pay attention on their studies. Having job would affect their health, divert them from studies and take away one of the important phase from their life.</OriginalText>
+</Annotation>

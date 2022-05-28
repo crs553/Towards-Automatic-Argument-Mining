@@ -1,0 +1,152 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>Many circumstances that I experienced change the way I think</text>
+    <TextPosition start="64" end="124"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>These experiences taught me to change my life to be a better person</text>
+    <TextPosition start="1881" end="1948"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>I could find a better way to solve problems</text>
+    <TextPosition start="1691" end="1734"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>experiences could shape me to be more aware about my health</text>
+    <TextPosition start="1745" end="1804"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>these experiences could make me to make plan for my future life</text>
+    <TextPosition start="1816" end="1879"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>There are many experiences that are improve my life in many way</text>
+    <TextPosition start="126" end="189"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>I could improve the way that I solve problems, improve how I take care of my health, and improve to plan my life for future</text>
+    <TextPosition start="204" end="327"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>in math class, the way that we learnt to find an answer by doing step by step</text>
+    <TextPosition start="478" end="555"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Start with find cause of problem and the way to do research to solve the problem</text>
+    <TextPosition start="557" end="637"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>I could adapt this method to use my real life</text>
+    <TextPosition start="639" end="684"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>When I want to go to somewhere, I try to find the way to reach to destination</text>
+    <TextPosition start="686" end="763"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Which ways are shortest and which ways are less consume my time</text>
+    <TextPosition start="765" end="828"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>I could find a better way to solve problems</text>
+    <TextPosition start="830" end="873"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>studying in university taught me to be more prudent person to solve problems</text>
+    <TextPosition start="387" end="463"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>This experience teach me to aware my health</text>
+    <TextPosition start="1193" end="1236"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>Some experiences could teach me the way to take care of myself</text>
+    <TextPosition start="885" end="947"/>
+    <Relation relationID="RT17-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>reading and listening the news about choosing a good diet are the way to keep myself are more healthy</text>
+    <TextPosition start="963" end="1064"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>I am always buy a quality food such as organic food</text>
+    <TextPosition start="1072" end="1123"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>This food are not have chemical</text>
+    <TextPosition start="1125" end="1156"/>
+    <Relation relationID="T21Default Inference" type="Default Inference" typeBinary="0" partnerID="T21"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>I can have a good health</text>
+    <TextPosition start="1167" end="1191"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>This experience change me to concern about making plan for my future life</text>
+    <TextPosition start="1494" end="1567"/>
+    <Relation relationID="T25Default Inference" type="Default Inference" typeBinary="0" partnerID="T25"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="claim"/>
+    <text>experiences are also change to plan for my future life</text>
+    <TextPosition start="1246" end="1300"/>
+    <Relation relationID="RT23-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T24">
+    <ADU type="premise"/>
+    <text>I read about saving money for my retire is a good plan for my life</text>
+    <TextPosition start="1315" end="1381"/>
+    <Relation relationID="T25Default Inference" type="Default Inference" typeBinary="0" partnerID="T25"/>
+  </Proposition>
+  <Proposition id="T25">
+    <ADU type="premise"/>
+    <text>I start changing myself from spending many thing that I want to saving money for my entire life</text>
+    <TextPosition start="1397" end="1492"/>
+    <Relation relationID="T23Default Inference" type="Default Inference" typeBinary="0" partnerID="T23"/>
+  </Proposition>
+  <OriginalText>Experiences that have shaped your outlook and the way you live
+
+Many circumstances that I experienced change the way I think. There are many experiences that are improve my life in many way. For example, I could improve the way that I solve problems, improve how I take care of my health, and improve to plan my life for future. I will give reasons to support my opinion.
+To begin with, studying in university taught me to be more prudent person to solve problems. For example, in math class, the way that we learnt to find an answer by doing step by step. Start with find cause of problem and the way to do research to solve the problem. I could adapt this method to use my real life. When I want to go to somewhere, I try to find the way to reach to destination. Which ways are shortest and which ways are less consume my time. I could find a better way to solve problems.
+Secondly, Some experiences could teach me the way to take care of myself. For instance, reading and listening the news about choosing a good diet are the way to keep myself are more healthy. Thus, I am always buy a quality food such as organic food. This food are not have chemical. So that, I can have a good health. This experience teach me to aware my health.
+Lastly, experiences are also change to plan for my future life. For example, I read about saving money for my retire is a good plan for my life. Consequently, I start changing myself from spending many thing that I want to saving money for my entire life. This experience change me to concern about making plan for my future life.
+In conclusion, experiences that shape my thinking and the way to live my life are teach me to be a better person. Because I could find a better way to solve problems. Besides, experiences could shape me to be more aware about my health. Moreover, these experiences could make me to make plan for my future life. These experiences taught me to change my life to be a better person.</OriginalText>
+</Annotation>

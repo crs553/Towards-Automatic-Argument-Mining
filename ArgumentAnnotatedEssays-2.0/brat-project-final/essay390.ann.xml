@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>celebrities nowadays give more good influence on young people than they were previously</text>
+    <TextPosition start="1622" end="1709"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>people without talents cannot be famous in this changing world and to be accredited they need to contribute positively to young generation</text>
+    <TextPosition start="1459" end="1597"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it is not easy to influence young people these days when they are well equipped of life skills</text>
+    <TextPosition start="769" end="863"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>They are mostly being educated at very early ages by family or schools as to distinguish what is benefit for them</text>
+    <TextPosition start="643" end="756"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the young generation these days is very conscious toward positive lifestyles</text>
+    <TextPosition start="565" end="641"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>people use their money to become an inspiration are definitely not a good mirror for young people</text>
+    <TextPosition start="263" end="360"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>We definitely do not want our children to spend money on luxurious custom or lifestyle just to be similar to someone, especially when these people are not symbols of any talent but showing off</text>
+    <TextPosition start="362" end="554"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>not many people can exist in the celebrities' world without any talents or achievements</text>
+    <TextPosition start="896" end="983"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>only money and glamour look are not enough for a person to be recognized anymore, it is importance that they have to have achievements in order to be a muse to youngsters</text>
+    <TextPosition start="1271" end="1441"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>We are giving chances to many teenagers to show their intelligence in different talent shows, for example; The Voice, X Factor or Next Top Models etc</text>
+    <TextPosition start="985" end="1134"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>to become a star and an inspiration for people, a person need to have real talent to compete with other candidates</text>
+    <TextPosition start="1149" end="1263"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Celebrities &amp; Their Influences
+
+Some people argue that adolescents are being influenced badly by untalented people who become famous thanks to their luxurious lifestyle and wealth. To some extent, I do not agree with this statement.
+First of all, it is true that people use their money to become an inspiration are definitely not a good mirror for young people. We definitely do not want our children to spend money on luxurious custom or lifestyle just to be similar to someone, especially when these people are not symbols of any talent but showing off. However, the young generation these days is very conscious toward positive lifestyles. They are mostly being educated at very early ages by family or schools as to distinguish what is benefit for them. Therefore, it is not easy to influence young people these days when they are well equipped of life skills. 
+Moreover, it seems to me that not many people can exist in the celebrities' world without any talents or achievements. We are giving chances to many teenagers to show their intelligence in different talent shows, for example; The Voice, X Factor or Next Top Models etc. As a result, to become a star and an inspiration for people, a person need to have real talent to compete with other candidates. Thus, only money and glamour look are not enough for a person to be recognized anymore, it is importance that they have to have achievements in order to be a muse to youngsters. 
+In conclusion, people without talents cannot be famous in this changing world and to be accredited they need to contribute positively to young generation. That is the reason why celebrities nowadays give more good influence on young people than they were previously.</OriginalText>
+</Annotation>

@@ -1,0 +1,87 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>married women nowadays have right to take up jobs like men when employment discrimination based on gender have been erased significantly</text>
+    <TextPosition start="76" end="212"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Working outside home will bring a lot of benefits to both married woman and their household</text>
+    <TextPosition start="214" end="305"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it is a normal practice for women to be helpmates in earning money</text>
+    <TextPosition start="635" end="701"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>a well-organized home does not need the housewife's presence the whole day long</text>
+    <TextPosition start="1355" end="1434"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>extra income that women earn will contribute to their family's expenses</text>
+    <TextPosition start="364" end="435"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>By taking up a job, a wife can earn more money to support her family life</text>
+    <TextPosition start="437" end="510"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>This is really necessary in cases of her husband's low salary and the difficulty of getting a good job at the present</text>
+    <TextPosition start="512" end="629"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>it is no doubt that they play roles as a mother and as a wife better</text>
+    <TextPosition start="996" end="1064"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>working outside the house creates opportunities for married women to contact with the outer world, strengthen their character and show their capacity</text>
+    <TextPosition start="713" end="862"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>These things in turn will make them more confident, independent</text>
+    <TextPosition start="864" end="927"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>These women will set a good example for their children</text>
+    <TextPosition start="929" end="983"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>there are many supporting conditions that help women balance housework and work</text>
+    <TextPosition start="1096" end="1175"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Besides the gorvernment's policies on limited families and their husbands' sharing in the housework, many employers are willing to offer part-time jobs for women</text>
+    <TextPosition start="1177" end="1338"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Do married women usually work? Why and why not?
+
+Personally, I believe that married women nowadays have right to take up jobs like men when employment discrimination based on gender have been erased significantly. Working outside home will bring a lot of benefits to both married woman and their household. I will mention some basic reasons as following.
+Firstly, extra income that women earn will contribute to their family's expenses. By taking up a job, a wife can earn more money to support her family life. This is really necessary in cases of her husband's low salary and the difficulty of getting a good job at the present. So, it is a normal practice for women to be helpmates in earning money.
+Secondly, working outside the house creates opportunities for married women to contact with the outer world, strengthen their character and show their capacity. These things in turn will make them more confident, independent. These women will set a good example for their children. Therefore, it is no doubt that they play roles as a mother and as a wife better.
+Last but not least, nowadays, there are many supporting conditions that help women balance housework and work. Besides the gorvernment's policies on limited families and their husbands' sharing in the housework, many employers are willing to offer part-time jobs for women.
+In conclusion, a well-organized home does not need the housewife's presence the whole day long and married women could go to work in order to enjoy the working life outside the home.
+</OriginalText>
+</Annotation>

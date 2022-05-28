@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T3">
+    <ADU type="conclusion"/>
+    <text>the advanced medical care brings with it more benefits than disadvantages</text>
+    <TextPosition start="270" end="343"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>the increase in life expectancy has some pressure on the Medicare system</text>
+    <TextPosition start="166" end="238"/>
+    <Relation relationID="RT1T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>the improvement of medical care makes a better life for all people</text>
+    <TextPosition start="947" end="1013"/>
+    <Relation relationID="RT2-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>The main advantage of high-tech medical care is that people are better taken care so that they have a good health</text>
+    <TextPosition start="345" end="458"/>
+    <Relation relationID="RT4-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>They can contribute effectively to the development of the economy</text>
+    <TextPosition start="460" end="525"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>healthy workers can create more productivity</text>
+    <TextPosition start="534" end="578"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>they do not have to spend more time in health checking or treatment</text>
+    <TextPosition start="596" end="663"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>this saves an amount of time as well as cost</text>
+    <TextPosition start="667" end="711"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>a community with the elderly who have a good health has a major role to play in a sustainable development of a society</text>
+    <TextPosition start="726" end="844"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>young people will be happy as their parents, grandparents are healthy</text>
+    <TextPosition start="856" end="925"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>the increase in life expectancy puts a high pressure on the economic system</text>
+    <TextPosition start="1060" end="1135"/>
+    <Relation relationID="RT11T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>more pension have to spend for Medicare instead of investing in other sectors of the economic system</text>
+    <TextPosition start="1144" end="1244"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>the capital that spend on taking care the elderly is contributed by these people during their working time</text>
+    <TextPosition start="1298" end="1404"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>they are worth to have good care</text>
+    <TextPosition start="1409" end="1441"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>They have given their effort to the society so that young people, the governments have a responsibility to improve the Medicare system</text>
+    <TextPosition start="1443" end="1577"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="claim"/>
+    <text>It helps people build a sustainable society where people can live a happy life when they are old</text>
+    <TextPosition start="1692" end="1788"/>
+    <Relation relationID="RT17-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <OriginalText>Improved medical care
+
+Along with the development of technologies, advanced medical care has played an important role in the improvement of life expectancy. Although the increase in life expectancy has some pressure on the Medicare system, I am inclined to believe that the advanced medical care brings with it more benefits than disadvantages.
+The main advantage of high-tech medical care is that people are better taken care so that they have a good health. They can contribute effectively to the development of the economy because healthy workers can create more productivity. In other words, they do not have to spend more time in health checking or treatment so this saves an amount of time as well as cost.
+In addition, a community with the elderly who have a good health has a major role to play in a sustainable development of a society. In facts, young people will be happy as their parents, grandparents are healthy. It can be said that the improvement of medical care makes a better life for all people.
+On the other hand, some people maintain that the increase in life expectancy puts a high pressure on the economic system because more pension have to spend for Medicare instead of investing in other sectors of the economic system. Although it is real in some aspects, I believe that the capital that spend on taking care the elderly is contributed by these people during their working time, so they are worth to have good care. They have given their effort to the society so that young people, the governments have a responsibility to improve the Medicare system.
+By way of conclusion, it is true that the development of the health care system helps people have a better life. It helps people build a sustainable society where people can live a happy life when they are old.</OriginalText>
+</Annotation>

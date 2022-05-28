@@ -1,0 +1,87 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is the responsibility of these disadvantaged citizens, rather than the government, to help them out</text>
+    <TextPosition start="189" end="291"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>the government should provide help for the disadvantaged people</text>
+    <TextPosition start="1454" end="1517"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Government money should be spent on publicly beneficial programs only</text>
+    <TextPosition start="293" end="362"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Tax revenue is collected from those who works</text>
+    <TextPosition start="364" end="409"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Spending them on helping those not make contribution to society would not sound fair to tax payers</text>
+    <TextPosition start="411" end="509"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>there are other pressing demands on the government expenditure, such as health care service and education</text>
+    <TextPosition start="520" end="625"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>addressing unemployment should have low priority</text>
+    <TextPosition start="630" end="678"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>to survive in this competitive world, one has to work hard and equip themselves well</text>
+    <TextPosition start="706" end="790"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>If they could get free financial help from the government, they might end up with out any motivation to work at all</text>
+    <TextPosition start="792" end="907"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it is beneficial to the society as a whole when the jobless can make contribution again</text>
+    <TextPosition start="1315" end="1402"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>this does not mean we should leave alone those who do need assistance</text>
+    <TextPosition start="920" end="989"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>They are already in reverse circumstances and it would be rather difficult for them to overcome the difficulties without external support</text>
+    <TextPosition start="991" end="1128"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>the government ought to set up free vocational trainings or to provide interest-free bank loans for them, so that they can have the chance to get back to work</text>
+    <TextPosition start="1144" end="1302"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Should governments be responsible to help the unemployed and homeless
+
+Unemployment is clearly a global problem, be it in developed countries or developing ones. However, I tend to believe it is the responsibility of these disadvantaged citizens, rather than the government, to help them out.
+Government money should be spent on publicly beneficial programs only. Tax revenue is collected from those who works. Spending them on helping those not make contribution to society would not sound fair to tax payers. Besides, there are other pressing demands on the government expenditure, such as health care service and education, so addressing unemployment should have low priority.
+Also, it is obvious that, to survive in this competitive world, one has to work hard and equip themselves well. If they could get free financial help from the government, they might end up with out any motivation to work at all.
+Of course, this does not mean we should leave alone those who do need assistance. They are already in reverse circumstances and it would be rather difficult for them to overcome the difficulties without external support. In this case, the government ought to set up free vocational trainings or to provide interest-free bank loans for them, so that they can have the chance to get back to work. After all, it is beneficial to the society as a whole when the jobless can make contribution again.
+In conclusion, my point of view is that, although the government should provide help for the disadvantaged people, direct financial support may not be a wise option and people should rely on themselves to get out of the adversity.
+</OriginalText>
+</Annotation>

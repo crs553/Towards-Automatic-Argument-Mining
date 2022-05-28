@@ -1,0 +1,73 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the technology has large positive effects on relationships between people</text>
+    <TextPosition start="197" end="270"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it helps ordinary people to make new friends and to maintain relationships</text>
+    <TextPosition start="1538" end="1612"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>technology has enabled people stay in contact with each other more closely</text>
+    <TextPosition start="300" end="374"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>While public use the Internet or smart phone to share information to each other at different positions</text>
+    <TextPosition start="376" end="478"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Instead of using letters, technology advanced not only gives us more spare time but also convenient and efficient</text>
+    <TextPosition start="480" end="593"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>even if family members who are in different countries, they also can use the Internet to connect each others, especially though the images or videos, they can feel close</text>
+    <TextPosition start="601" end="770"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>technology is also essential for students, live in remote districts, shared the valuable natural resources with friends</text>
+    <TextPosition start="785" end="904"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>technology provides opportunities for people to establish the social network</text>
+    <TextPosition start="989" end="1065"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>In the past, people might have had pen friends in other countries, but now, thanks to the social networking websites, people can easily to find someone who has similar interests</text>
+    <TextPosition start="1067" end="1244"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>they can connect with friends who have been out of touch for a long time by using the Internet</text>
+    <TextPosition start="1252" end="1346"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>technology is beneficial to humanity develops positive relationships</text>
+    <TextPosition start="1361" end="1429"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Man to man interaction changed
+
+Nowadays, the variety of communication systems used widely. As technology develops, it has negative influences in many respects. However, I strongly agree with that the technology has large positive effects on relationships between people. 
+The main advantage is that technology has enabled people stay in contact with each other more closely. While public use the Internet or smart phone to share information to each other at different positions. Instead of using letters, technology advanced not only gives us more spare time but also convenient and efficient. More, even if family members who are in different countries, they also can use the Internet to connect each others, especially though the images or videos, they can feel close. Furthermore, technology is also essential for students, live in remote districts, shared the valuable natural resources with friends. 
+Another issue is that in the ever-accelerated updating of science and technology, technology provides opportunities for people to establish the social network. In the past, people might have had pen friends in other countries, but now, thanks to the social networking websites, people can easily to find someone who has similar interests. Also, they can connect with friends who have been out of touch for a long time by using the Internet. In this way, technology is beneficial to humanity develops positive relationships. 
+In conclusion, I agree with that the technology has more optimal effects on people's interaction, because it helps ordinary people to make new friends and to maintain relationships.</OriginalText>
+</Annotation>

@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>a balance between personal and professional life should be created by restricting maximum number of working hours</text>
+    <TextPosition start="521" end="634"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>people working for extended hours have been found having adverse effects on their health and personal life</text>
+    <TextPosition start="398" end="504"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>This will help in uplift of society, and bring the lost equilibrium between personal and professional life of each individual person</text>
+    <TextPosition start="2075" end="2207"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>By working too long, they often become tired, lazy and reluctant to carry out physical exercise in order to remain fit and healthy and eventually loose health and become sick</text>
+    <TextPosition start="775" end="949"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they become extensively addicted to their work and become workaholic type persons</text>
+    <TextPosition start="961" end="1042"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>The repercussion are so severe that their families and friends remain deprived off their attention and in the end they end up losing balance between their family and personal life</text>
+    <TextPosition start="1044" end="1223"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>people; who prefer working longer hours, do not find time to focus on their health</text>
+    <TextPosition start="691" end="773"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>they usually remain busy in their office</text>
+    <TextPosition start="1362" end="1402"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>they do not find leisure time for such social activities</text>
+    <TextPosition start="1406" end="1462"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>I would take my boss's example; he has been working for extended hours in office for many years</text>
+    <TextPosition start="1478" end="1573"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Recently, his health and personal life was drastically affected as he broke up with his wife and his family life has totally been in chaos and cries</text>
+    <TextPosition start="1575" end="1723"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>He started regretting afterwards and now trying to manage his work but it seems to be too late for him</text>
+    <TextPosition start="1725" end="1827"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>these workaholic people do not spend time for the contribution of society by actively participating in any social campaign</text>
+    <TextPosition start="1235" end="1357"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Working Extended hours should restricted
+
+Working longer hours is becoming prevalent in these days. There is a saying in my native village, "Health is Wealth". I believe many of people including me are not really considering the importance of health. The need for increased working hours might be because of enhanced competitive environment and desire to acquire much money and promotion. However, people working for extended hours have been found having adverse effects on their health and personal life. In my opinion, a balance between personal and professional life should be created by restricting maximum number of working hours. 
+First of all, many of us would agree to the fact that people; who prefer working longer hours, do not find time to focus on their health. By working too long, they often become tired, lazy and reluctant to carry out physical exercise in order to remain fit and healthy and eventually loose health and become sick. Moreover, they become extensively addicted to their work and become workaholic type persons. The repercussion are so severe that their families and friends remain deprived off their attention and in the end they end up losing balance between their family and personal life.
+Secondly, these workaholic people do not spend time for the contribution of society by actively participating in any social campaign. As they usually remain busy in their office so they do not find leisure time for such social activities. For instance, I would take my boss's example; he has been working for extended hours in office for many years. Recently, his health and personal life was drastically affected as he broke up with his wife and his family life has totally been in chaos and cries. He started regretting afterwards and now trying to manage his work but it seems to be too late for him.
+To conclude this, I would strongly emphasis and recommend, Government must include the clause of maximum number of working hours in its Labor Law and enforce to all companies for ensuring their employees do not spend extended hours in companies. This will help in uplift of society, and bring the lost equilibrium between personal and professional life of each individual person.</OriginalText>
+</Annotation>

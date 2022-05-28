@@ -1,0 +1,68 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>people should create a sense of co-operation in their children to make them feel more accomplished in life</text>
+    <TextPosition start="1724" end="1830"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>MNCs are mainly focusing on a team work, and a person with the competitive mind would be having a difficulty in managing the situation with the team</text>
+    <TextPosition start="858" end="1006"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Competitive children are more likely to be confident enough to handle the situations independently</text>
+    <TextPosition start="409" end="507"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>This factor will lead them to be successful in their lives ahead</text>
+    <TextPosition start="737" end="801"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>they will not be having a pace and an eager to get on the top as the competitors do</text>
+    <TextPosition start="1173" end="1256"/>
+    <Relation relationID="T6Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>they shall have an art of managing different situations of life with the help of a team</text>
+    <TextPosition start="1262" end="1349"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>those who wants to create a sense of co-operation in their children is a symbol that they want to make them sensible enough in their lives ahead</text>
+    <TextPosition start="1017" end="1161"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>competitive children will be far more clever and faster than the co-operative child in an initial level</text>
+    <TextPosition start="1373" end="1476"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>co-operative child will have a potential of structuring and implementing new and innovative ideas with the help of a team</text>
+    <TextPosition start="1571" end="1692"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>it will not help them to be on the success path for the long run</text>
+    <TextPosition start="1482" end="1546"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>People should create a sense of co-operation in their children
+
+It is undeniable that children have an innocent mind, and they requires a proper guidance at a specific time to make them understand the value of life. Some people think that it is better to make them competitive, while other believes to make them co-operative. Both these factors have their own values, and have been discussed in detail below:
+Competitive children are more likely to be confident enough to handle the situations independently. This factor initially arises from the school, where teacher encourages student to feel more competitive through the grading system, and this is the place where children are trying to get on the top by scoring the highest marks. This factor will lead them to be successful in their lives ahead, but will also restrict them in many ways. For example, MNCs are mainly focusing on a team work, and a person with the competitive mind would be having a difficulty in managing the situation with the team.
+However, those who wants to create a sense of co-operation in their children is a symbol that they want to make them sensible enough in their lives ahead. Although, they will not be having a pace and an eager to get on the top as the competitors do, but they shall have an art of managing different situations of life with the help of a team.
+In my opinion, though competitive children will be far more clever and faster than the co-operative child in an initial level, but it will not help them to be on the success path for the long run; while on the contrary, co-operative child will have a potential of structuring and implementing new and innovative ideas with the help of a team.
+To conclude, I would say that people should create a sense of co-operation in their children to make them feel more accomplished in life.</OriginalText>
+</Annotation>

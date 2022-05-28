@@ -1,0 +1,88 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T3">
+    <ADU type="conclusion"/>
+    <text>I do not think these disadvantages will outweigh the advantages brought by cell phones</text>
+    <TextPosition start="216" end="302"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it has a number of problems that should be well handled</text>
+    <TextPosition start="1959" end="2014"/>
+    <Relation relationID="RT2T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>almost everything that changed our lifestyle a lot will also cause some social problems</text>
+    <TextPosition start="410" end="497"/>
+    <Relation relationID="RT4T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Speaking loudly on the phone in public areas, such as schools, libraries and hospitals appears to be very impolite and offensive</text>
+    <TextPosition start="541" end="669"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other</text>
+    <TextPosition start="686" end="837"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>it is not impossible to solve these problems, as long as some regulations and rules can be effectively implemented</text>
+    <TextPosition start="853" end="967"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>some harmful effects on our health are lethal</text>
+    <TextPosition start="1002" end="1047"/>
+    <Relation relationID="RT9T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>It has been proved that overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers, although the further investigation are needed</text>
+    <TextPosition start="1049" end="1255"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>There is panic among people that their conversation can be intercepted by the third party</text>
+    <TextPosition start="1304" end="1393"/>
+    <Relation relationID="RT11T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>This possibility exists all the time</text>
+    <TextPosition start="1395" end="1431"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>a more efficient and reliable system can also be invented to guarantee the private information of users</text>
+    <TextPosition start="1437" end="1540"/>
+    <Relation relationID="T11Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>the mobile phone has become a dispensable multifunctional tools in people's daily life</text>
+    <TextPosition start="1552" end="1638"/>
+    <Relation relationID="RT14-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Not only used for communication, but it also functions as an Internet browser, a music player, a personal organizer and so forth</text>
+    <TextPosition start="1640" end="1768"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Effects of mobile phones
+
+Nowadays, the popularity of mobile phones has brought about a lot of convenience but at the meanwhile a variety of problems as well, such as social, medical and technical problems. However, I do not think these disadvantages will outweigh the advantages brought by cell phones. In this essay, I would like to analyze these three issues in order to support my viewpoint.
+First of all, almost everything that changed our lifestyle a lot will also cause some social problems. Mobile phones are not out of expectation. Speaking loudly on the phone in public areas, such as schools, libraries and hospitals appears to be very impolite and offensive. What is worse, some students utilize their cell phones as an effective cheating tools in examinations in which they can send and receive answers by texting each other. Nevertheless, it is not impossible to solve these problems, as long as some regulations and rules can be effectively implemented.
+It is also worth mentioning that some harmful effects on our health are lethal. It has been proved that overusing of the electronic devices including mobile phones could lead to higher possibility of suffering hearing loss and even cancers, although the further investigation are needed.
+Another debatable problem is about techniques. There is panic among people that their conversation can be intercepted by the third party. This possibility exists all the time. But a more efficient and reliable system can also be invented to guarantee the private information of users.
+Moreover, the mobile phone has become a dispensable multifunctional tools in people's daily life. Not only used for communication, but it also functions as an Internet browser, a music player, a personal organizer and so forth.
+In conclusion, nothing can be overused without side effects. The contribution of the mobile phone to our modern society is prominent and people's dependence on it is irreversible, although it has a number of problems that should be well handled.
+</OriginalText>
+</Annotation>

@@ -1,0 +1,93 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>flourishing economies can go hand in hand with environmental preservation</text>
+    <TextPosition start="313" end="386"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>unchecked and reckless uses of the local raw materials may happen, which can put a strain on the natural resources</text>
+    <TextPosition start="834" end="948"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>people in the poverty-stricken areas are not likely to be equipped with knowledge to preserve the ecosystems</text>
+    <TextPosition start="711" end="819"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>the economic development and environmental protection can be conflicting</text>
+    <TextPosition start="964" end="1036"/>
+    <Relation relationID="RT5T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>some countries may place economic developments ahead of environmental protection, thus ruining the local environments</text>
+    <TextPosition start="400" end="517"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>they have to rely on natural resources to maintain their living standards</text>
+    <TextPosition start="627" end="700"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>these needy countries lack adequate financial and human resources, advanced technologies and experience</text>
+    <TextPosition start="522" end="625"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>the booming economy can be closely linked to the preservation of the environment</text>
+    <TextPosition start="1057" end="1137"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>With people raising their awareness of the green economy, the products free of pollutants are increasingly prevalent among clients, which means eco-friendly businesses can make a favorable impression on customers today, triggering sales</text>
+    <TextPosition start="1139" end="1375"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>electronic bicycles powered by clean energy resources have been well received among people in recent years</text>
+    <TextPosition start="1390" end="1496"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>it may spur its economic development</text>
+    <TextPosition start="1766" end="1802"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>If a firm is environmentally conscious, it may have to make optimal use of its resources to improve its production lines and equipment, which can boost productivity</text>
+    <TextPosition start="1589" end="1753"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>taking environmental consequences seriously can enhance working efficiencies</text>
+    <TextPosition start="1511" end="1587"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>without the requirement of environmental preservation, the firm would still consume a vast amount of energy which constitutes a large part of its operational costs, being a hurdle to the economic development</text>
+    <TextPosition start="1823" end="2030"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Economic development vs environment
+
+Currently, a great number of countries have pushed forward their economies by developing national industries. However, some people are worried that the economic targets in industrialized countries may be attained at the expense of the ecosystems. From my perspective, I think flourishing economies can go hand in hand with environmental preservation.
+Admittedly, some countries may place economic developments ahead of environmental protection, thus ruining the local environments. As these needy countries lack adequate financial and human resources, advanced technologies and experience, they have to rely on natural resources to maintain their living standards. Besides, people in the poverty-stricken areas are not likely to be equipped with knowledge to preserve the ecosystems. As a result, unchecked and reckless uses of the local raw materials may happen, which can put a strain on the natural resources. In this view, the economic development and environmental protection can be conflicting.
+However, I believe the booming economy can be closely linked to the preservation of the environment. With people raising their awareness of the green economy, the products free of pollutants are increasingly prevalent among clients, which means eco-friendly businesses can make a favorable impression on customers today, triggering sales. For example, electronic bicycles powered by clean energy resources have been well received among people in recent years.
+Furthermore, taking environmental consequences seriously can enhance working efficiencies. If a firm is environmentally conscious, it may have to make optimal use of its resources to improve its production lines and equipment, which can boost productivity. Therefore, it may spur its economic development. On the other hand, without the requirement of environmental preservation, the firm would still consume a vast amount of energy which constitutes a large part of its operational costs, being a hurdle to the economic development.
+Therefore, I would conclude that thriving economies and the preservation of ecosystems can be promoted simultaneously. On the other hand, I suppose the developed countries should support the underdeveloped areas by providing financial resources, technologies and experience so that the environmental problems can be effectively alleviated in these areas.
+</OriginalText>
+</Annotation>

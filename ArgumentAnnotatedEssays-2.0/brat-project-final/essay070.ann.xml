@@ -1,0 +1,80 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is insufficient to increase the petrol price only to solve problems</text>
+    <TextPosition start="371" end="441"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>whether it can work out for alleviating traffic and pollution pressure ought to be evaluated</text>
+    <TextPosition start="670" end="762"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>price control institution has been used in plenty of social areas, for example, in the farming products and in the real estate area</text>
+    <TextPosition start="528" end="659"/>
+    <Relation relationID="T5Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>it seems not easy to increase petrol price instantly</text>
+    <TextPosition start="900" end="952"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>governments have a macro-economic perspective to control price in various areas according to social demands</text>
+    <TextPosition start="777" end="884"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution</text>
+    <TextPosition start="973" end="1110"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours</text>
+    <TextPosition start="1125" end="1252"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>several other solutions can be introduced to assist in reducing pollution and traffic problems</text>
+    <TextPosition start="1277" end="1371"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars</text>
+    <TextPosition start="1384" end="1550"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season</text>
+    <TextPosition start="1565" end="1695"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>with supervisory institutions built to find and address problems</text>
+    <TextPosition start="1702" end="1766"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice</text>
+    <TextPosition start="1779" end="1942"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Growing traffic and pollution can be controlled by increasing petrol prices
+
+As we read newspapers or watch TV, we have always been attracted by environmental problems such as traffic issues, air and water pollution questions. Initiatives should be taken to address the specific problems. As the impacts for those pollution and traffic issues are extremely far-reaching, it is insufficient to increase the petrol price only to solve problems, though it is a promising method discussed in the contemporary society.
+Specifically, price control institution has been used in plenty of social areas, for example, in the farming products and in the real estate area; however, whether it can work out for alleviating traffic and pollution pressure ought to be evaluated. On one hand, governments have a macro-economic perspective to control price in various areas according to social demands. Consequently, it seems not easy to increase petrol price instantly. On the other hand, pollutions are not just caused by the burning of oil, chemical pollutants, extra lights, also constitute considerable amount of pollution. In addition, the improvements of work efficiency also attribute to the speed-up of working pace, resulting in traffic jams during rush-hours.
+As illustrated before, several other solutions can be introduced to assist in reducing pollution and traffic problems. Primarily, authorities should spare no efforts in improving public transportation facilities, such as constructing more bus lines, in order to reducing the usage of private cars. Furthermore, temporarily targets should be set, with regard to the limitations of pollutants in a certain period of time, for example, a season. Plus with supervisory institutions built to find and address problems. Meanwhile, cultivating a sense of environmental protection would also work out, though it might not be into effect immediately, but in the long run, it would be a wise choice.
+In conclusion, addressing pollution and traffic issues only by increasing oil price is not adequate, while improving transportation facilities and building supervisory institution would be preferable, plus with the awareness of environmental protection being raised.
+</OriginalText>
+</Annotation>

@@ -1,0 +1,99 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>richer nations should take more responsibility for helping the poorer nations in all health, education and trade</text>
+    <TextPosition start="1915" end="2027"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Improvements in these areas will create a better life for residents in poorer nations which they can use to grow their homeland</text>
+    <TextPosition start="2029" end="2156"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>richer nations can contribute by delegating doctors and nurses to these power nations as well as donate money to build hospitals</text>
+    <TextPosition start="638" end="766"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>in the area of health, poorer nations normally have less quantity of doctors and nurses compared to richer nations</text>
+    <TextPosition start="268" end="382"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>High population in poorer countries due to lack of family planning caused the proportion of doctors unbalance to the quantity of resident</text>
+    <TextPosition start="384" end="521"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>poorer nations are lack of hospitals to fulfill the demand of the patients</text>
+    <TextPosition start="539" end="613"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>richer countries can allocate experienced educators to train more teachers and lecturers in poorer countries</text>
+    <TextPosition start="1102" end="1210"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>for the issue of education fee, richer countries should offer scholarships and loan to the qualified students</text>
+    <TextPosition start="1223" end="1332"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>in the area of education, it is generally agreed that poorer countries often lack of teachers in schools as well as lecturers in higher education institutions</text>
+    <TextPosition start="778" end="936"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>education for these countries normally is not free so only certain group of students can afford it</text>
+    <TextPosition start="952" end="1050"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>in the area of trade, no one can deny that poorer countries are lagging behind richer countries due to shortage of money</text>
+    <TextPosition start="1342" end="1462"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Trading are less active in poorer countries may also be caused by incomplete transportation infrastructure</text>
+    <TextPosition start="1464" end="1570"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>residents in rural areas still depend on their own farm for food production</text>
+    <TextPosition start="1585" end="1660"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>richer nations can provide financial service to poorer countries to encourage trading</text>
+    <TextPosition start="1686" end="1771"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>The former can also give consultation on setting up a complete and efficient transportation infrastructure to support trading</text>
+    <TextPosition start="1773" end="1898"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Richer nations should help poorer nations in health, education and trade
+
+Improvements in health, education and trade are essential for the development of poorer nations. Poorer nations need help from richer nations in these areas to develop their countries.
+Firstly, in the area of health, poorer nations normally have less quantity of doctors and nurses compared to richer nations. High population in poorer countries due to lack of family planning caused the proportion of doctors unbalance to the quantity of resident. On top of that, poorer nations are lack of hospitals to fulfill the demand of the patients. To solve these issues, richer nations can contribute by delegating doctors and nurses to these power nations as well as donate money to build hospitals.
+Secondly, in the area of education, it is generally agreed that poorer countries often lack of teachers in schools as well as lecturers in higher education institutions. Besides that, education for these countries normally is not free so only certain group of students can afford it. In order to solve the education manpower problem, richer countries can allocate experienced educators to train more teachers and lecturers in poorer countries. Meanwhile, for the issue of education fee, richer countries should offer scholarships and loan to the qualified students.
+Lastly, in the area of trade, no one can deny that poorer countries are lagging behind richer countries due to shortage of money. Trading are less active in poorer countries may also be caused by incomplete transportation infrastructure. For example, residents in rural areas still depend on their own farm for food production. As a token of goodwill, richer nations can provide financial service to poorer countries to encourage trading. The former can also give consultation on setting up a complete and efficient transportation infrastructure to support trading.
+In conclusion, richer nations should take more responsibility for helping the poorer nations in all health, education and trade. Improvements in these areas will create a better life for residents in poorer nations which they can use to grow their homeland.
+</OriginalText>
+</Annotation>

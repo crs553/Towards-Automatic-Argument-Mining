@@ -1,0 +1,68 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the government should fund the deprived for their health care and education, who are the group in real need for the authority's help</text>
+    <TextPosition start="1695" end="1827"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>such people might fail to get cured in time, thus influencing their working efficiency, which would destabilize the production of the industry</text>
+    <TextPosition start="737" end="879"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>If citizens had no access to health care and education, their physical health and psychological soundness would be at risk</text>
+    <TextPosition start="600" end="722"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>the government should be accountable for citizens' health care and education to keep society safe and stable</text>
+    <TextPosition start="1038" end="1146"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>without sufficient guidance of teachers, these citizens might misbehave or even commit crimes, posing a threat to other citizens' security</text>
+    <TextPosition start="887" end="1025"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>it is the government that should be obligated to fund the health care and education for citizens</text>
+    <TextPosition start="343" end="439"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>citizens enjoy the right to live in a harmonious and stable environment, which should be enabled by the government, the leader of the society</text>
+    <TextPosition start="457" end="598"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>it is a waste of public money for the government to subsidize health care and education of each citizen in society</text>
+    <TextPosition start="1207" end="1321"/>
+    <Relation relationID="RT8T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>a great number of people, in fact, have had the capacity to pay for the both privately</text>
+    <TextPosition start="1329" end="1415"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the government should give priority to more pressing problems related to social members' wellbeing, such as soaring crime rate, AIDS epidemic or the shortage of infrastructure, which are requiring financial resources from the government to address</text>
+    <TextPosition start="1426" end="1673"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <OriginalText>Government should be responsible for education and health care or not?
+
+Despite the development of modern society, the health care and education still remain the basic rights of citizens. And a much debated issue these days is whether or not the government should be responsible for citizens' health care and education.
+Some people argue that it is the government that should be obligated to fund the health care and education for citizens. This is because citizens enjoy the right to live in a harmonious and stable environment, which should be enabled by the government, the leader of the society. If citizens had no access to health care and education, their physical health and psychological soundness would be at risk. As a result, such people might fail to get cured in time, thus influencing their working efficiency, which would destabilize the production of the industry. Also, without sufficient guidance of teachers, these citizens might misbehave or even commit crimes, posing a threat to other citizens' security. Therefore, the government should be accountable for citizens' health care and education to keep society safe and stable.
+On the other hand, some people oppose the argument, saying it is a waste of public money for the government to subsidize health care and education of each citizen in society, since a great number of people, in fact, have had the capacity to pay for the both privately. Instead, the government should give priority to more pressing problems related to social members' wellbeing, such as soaring crime rate, AIDS epidemic or the shortage of infrastructure, which are requiring financial resources from the government to address.
+Personally, I think the government should fund the deprived for their health care and education, who are the group in real need for the authority's help. At the same time, citizens available for the both should encourage the government to allocate money to more urgent areas. After all, the harmonious society calls for the joint efforts of the government and citizens.
+</OriginalText>
+</Annotation>

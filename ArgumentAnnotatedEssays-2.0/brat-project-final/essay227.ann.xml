@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>spending the budget for space exploration is an important activity to save living of humanity in the future</text>
+    <TextPosition start="295" end="402"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>it may helps to save civilization of humanity</text>
+    <TextPosition start="1528" end="1573"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Many governments believe that space exploration is an activity that wastes the budget</text>
+    <TextPosition start="405" end="490"/>
+    <Relation relationID="T7Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the essential challenge of humanity in the future would be the discovery of a new place for the living</text>
+    <TextPosition start="498" end="600"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>it is very significant to find a new place for living in other planets</text>
+    <TextPosition start="941" end="1011"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>In during history, our planet is threatening by many of other planets or stars and it is an enormous danger for living of humanity</text>
+    <TextPosition start="798" end="928"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>In 20th century, although human being succeeded to achieve out of space by means of new technologies such as rockets, but finding a new place for living in another planet is impossible until now</text>
+    <TextPosition start="602" end="796"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>In the future, many countries will try to prevent attach of other countries by using and invention new missiles</text>
+    <TextPosition start="1088" end="1199"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>space exploration will use as a military power for many countries</text>
+    <TextPosition start="1380" end="1445"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Both countries tried to send man to the moon and show their power to each other</text>
+    <TextPosition start="1286" end="1365"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>In the past, the space race happened between the United Stated and the Soviet Union</text>
+    <TextPosition start="1201" end="1284"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Space exploration has used as a tools for military power in the cold war</text>
+    <TextPosition start="1014" end="1086"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Nowadays, spending budget on space exploration is not reasonable
+
+Space exploration, for discovery of out of space, has been possible for human in the 20th century. The United state and Russia are the important countries that spend large budgets for the research of this subject. In my opinion, spending the budget for space exploration is an important activity to save living of humanity in the future. 
+Many governments believe that space exploration is an activity that wastes the budget, while the essential challenge of humanity in the future would be the discovery of a new place for the living. In 20th century, although human being succeeded to achieve out of space by means of new technologies such as rockets, but finding a new place for living in another planet is impossible until now. In during history, our planet is threatening by many of other planets or stars and it is an enormous danger for living of humanity. Therefore, it is very significant to find a new place for living in other planets. 
+Space exploration has used as a tools for military power in the cold war. In the future, many countries will try to prevent attach of other countries by using and invention new missiles. In the past, the space race happened between the United Stated and the Soviet Union. Both countries tried to send man to the moon and show their power to each other. As a result, space exploration will use as a military power for many countries.
+In summary, spending budget for space exploring is not the waste budget, because it may helps to save civilization of humanity. Although exploring space used for discovery of other planets, nowadays most of governments have used many rockets for military purposes and therefore the purposes of exploring space has altered.</OriginalText>
+</Annotation>

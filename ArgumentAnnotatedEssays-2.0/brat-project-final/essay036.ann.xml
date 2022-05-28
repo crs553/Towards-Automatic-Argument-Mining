@@ -1,0 +1,81 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is sensible to enforce the gun control</text>
+    <TextPosition start="282" end="323"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>considering the rise in accident rates, violent crime rates and suicide rates</text>
+    <TextPosition start="1483" end="1560"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>most violent crimes are related to the abuse of guns, especially in some countries where guns are available for people</text>
+    <TextPosition start="730" end="848"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>guns will create a violent society if the trend continues</text>
+    <TextPosition start="862" end="919"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>in American, young adults and even juveniles can get access to guns, which leads to the tragedies of school gun shooting</text>
+    <TextPosition start="938" end="1058"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>some terrorists are able to possess more advanced weapons than the police, which makes citizens always live in danger</text>
+    <TextPosition start="1075" end="1192"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>the fewer guns possessed, the fewer accidents would happened, our surroundings would be safer with lower accident rates</text>
+    <TextPosition start="599" end="718"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The accidents cannot be completely avoided although only those who have gun licenses can purchase guns</text>
+    <TextPosition start="389" end="491"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>we hear some news from time to time that someone was hurt by accident during the hunting</text>
+    <TextPosition start="506" end="594"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>the possession of guns can also raise the rates of suicide</text>
+    <TextPosition start="1203" end="1261"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>In the US, firearms remain the most common method of suicide, accounting for about 50 per cent</text>
+    <TextPosition start="1263" end="1357"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>there is an increasing trend of adolescent suicides and suicides among those age 75 and over</text>
+    <TextPosition start="1374" end="1466"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Gun control 
+
+Gun is definitely not a kind of normal good in our society, which is strictly controlled in most countries. However, gun control in some countries is relatively loose than others. Therefore, this is still a controversial topic around the world. From my point of view, it is sensible to enforce the gun control.
+The first factor considered is the risk of accidents with guns. The accidents cannot be completely avoided although only those who have gun licenses can purchase guns. For example, we hear some news from time to time that someone was hurt by accident during the hunting. So the fewer guns possessed, the fewer accidents would happened, our surroundings would be safer with lower accident rates.
+Secondly, most violent crimes are related to the abuse of guns, especially in some countries where guns are available for people. Eventually, guns will create a violent society if the trend continues. Take an example, in American, young adults and even juveniles can get access to guns, which leads to the tragedies of school gun shooting. What is worse, some terrorists are able to possess more advanced weapons than the police, which makes citizens always live in danger.
+Thirdly, the possession of guns can also raise the rates of suicide. In the US, firearms remain the most common method of suicide, accounting for about 50 per cent. Unfortunately, there is an increasing trend of adolescent suicides and suicides among those age 75 and over.
+In conclusion, considering the rise in accident rates, violent crime rates and suicide rates, I support that the guns should be strictly limited and the government should enforce a series of laws to prevent our societies from violence.
+</OriginalText>
+</Annotation>

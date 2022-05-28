@@ -1,0 +1,74 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>such details should be strictly censored, if not banned altogether</text>
+    <TextPosition start="249" end="315"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>a great deal of crime coverage is rather biased, exaggerated or fraudulent, which only result to terrorize communities and leave law-aiding people increasingly apprehensive of about crimes</text>
+    <TextPosition start="622" end="810"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>the press provide the public with criminal content in order to increase newspaper circulation and TV rating</text>
+    <TextPosition start="341" end="448"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>These days the primary purpose of journalists covering the details of criminal acts is, more often than that, to boost newspaper circulations and TV ratings</text>
+    <TextPosition start="450" end="606"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>without the prevention on criminal details, the unlawful behavior would be more and more severe and the social harmony would be broken</text>
+    <TextPosition start="1190" end="1324"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>This may help those who are in the process of panning a criminal act perfect their plans, avoid the pitfalls and make themselves harder to be tracked down by the police</text>
+    <TextPosition start="1014" end="1182"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>detailed reports of crimes exposured on the press may provide the potential criminals with instructive learning materials, which would be hard to obtain otherwise</text>
+    <TextPosition start="850" end="1012"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>they have already suffered greatly for what they have experienced</text>
+    <TextPosition start="1435" end="1500"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Without their consent, this could only add to theses innocent people's mental suffering and they may do some extreme actions</text>
+    <TextPosition start="1502" end="1626"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>particular coverage of heinous crimes may further traumatize the victims of crimes</text>
+    <TextPosition start="1344" end="1426"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>as they may be false, may further drive up the already-high crime rate and may bring even more suffering to the victims of crimes</text>
+    <TextPosition start="1739" end="1868"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Detailed description of crimes on newspaper and TV can have bad consequences on society
+
+Nowadays, the print as well as the electronic media tend to dedicate large amounts of airtime and space to detailed reports about crimes. Personally, I believe such details should be strictly censored, if not banned altogether.
+It is widely known that the press provide the public with criminal content in order to increase newspaper circulation and TV rating. These days the primary purpose of journalists covering the details of criminal acts is, more often than that, to boost newspaper circulations and TV ratings. Consequently, a great deal of crime coverage is rather biased, exaggerated or fraudulent, which only result to terrorize communities and leave law-aiding people increasingly apprehensive of about crimes.
+An even more detrimental fact is that detailed reports of crimes exposured on the press may provide the potential criminals with instructive learning materials, which would be hard to obtain otherwise. This may help those who are in the process of panning a criminal act perfect their plans, avoid the pitfalls and make themselves harder to be tracked down by the police. Thus, without the prevention on criminal details, the unlawful behavior would be more and more severe and the social harmony would be broken.
+Most importantly, particular coverage of heinous crimes may further traumatize the victims of crimes because they have already suffered greatly for what they have experienced. Without their consent, this could only add to theses innocent people's mental suffering and they may do some extreme actions.
+In conclusion, I strongly hold my point that any descriptions of crimes should not go unchecked as any longer, as they may be false, may further drive up the already-high crime rate and may bring even more suffering to the victims of crimes.</OriginalText>
+</Annotation>

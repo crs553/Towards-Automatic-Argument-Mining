@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>a government is supposed to offer sufficient financial support for both</text>
+    <TextPosition start="468" end="539"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>both are crucial on the way to a brighter future</text>
+    <TextPosition start="1995" end="2043"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>if countries, especially the developing countries, are determined to take off, one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education</text>
+    <TextPosition start="960" end="1167"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>a lack of well-established primary education goes hand in hand with a high rate of illiteracy, and this interplay seriously compromises a country's future development</text>
+    <TextPosition start="776" end="942"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>elementary education, like the base of a architecture, is the fundamental requirement to be a qualified citizen in today's society</text>
+    <TextPosition start="557" end="687"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>government should guarantee that all people have equal and convenient access to it</text>
+    <TextPosition start="689" end="771"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide</text>
+    <TextPosition start="1687" end="1840"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Researches into humanities and art still need large amount of money</text>
+    <TextPosition start="1605" end="1672"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>for higher education, which represent the cutting edge of a country's academic achievements, act as the vanguard in economic and social advance</text>
+    <TextPosition start="1188" end="1331"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>The high technology and new ideas applied into practice may not only lead a country to flourish but also elevate its status in the international community</text>
+    <TextPosition start="1333" end="1487"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Some may argue that universities can support themselve well by donation or invention</text>
+    <TextPosition start="1489" end="1573"/>
+    <Relation relationID="T8Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>this argument is invalid</text>
+    <TextPosition start="1579" end="1603"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Government budget focus, young children or university?
+
+"Education is the investment in our future", as Senator Bernie Sanders once pointed out, education, which fosters a civilized society, plays a significant role in a country's long-lasting prosperity. It is no wonder that governments throughout the world lay special emphasis on education development. As for the two integral components within the system, elementary and advanced education, there's no doubt that a government is supposed to offer sufficient financial support for both.
+Concerning that elementary education, like the base of a architecture, is the fundamental requirement to be a qualified citizen in today's society, government should guarantee that all people have equal and convenient access to it. So a lack of well-established primary education goes hand in hand with a high rate of illiteracy, and this interplay seriously compromises a country's future development. In other words, if countries, especially the developing countries, are determined to take off, one of the key points governments should set on agenda is to educate more qualified future citizens through elementary education.
+That's not enough, for higher education, which represent the cutting edge of a country's academic achievements, act as the vanguard in economic and social advance. The high technology and new ideas applied into practice may not only lead a country to flourish but also elevate its status in the international community. Some may argue that universities can support themselve well by donation or invention, but this argument is invalid. Researches into humanities and art still need large amount of money, what's more, government's big budget on universities may attract more excellent intellectuals and researchers into the country and enjoy a higher reputation worldwide.
+From reasons listed above, we can safely draw the conclusion that, a government should spare effort on young children education as well as universities, both are crucial on the way to a brighter future.</OriginalText>
+</Annotation>

@@ -1,0 +1,158 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I prefer to live with a roommate</text>
+    <TextPosition start="319" end="351"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it saves me money, enables me to socialize, and allows me to get help</text>
+    <TextPosition start="369" end="438"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>many people decide to live alone for various reasons</text>
+    <TextPosition start="2136" end="2188"/>
+    <Relation relationID="RT4T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>it offers me many advantages, such as less spending, more socializing, and more help</text>
+    <TextPosition start="2259" end="2343"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>Living with a roommate saves me a lot of money</text>
+    <TextPosition start="440" end="486"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>If you have roommates, you can split the rent and utilities among them</text>
+    <TextPosition start="488" end="558"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>you can get more for less</text>
+    <TextPosition start="571" end="596"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>last year, I shared a room off-campus with my friend, and we decided to split the rent and heating bills into half: I was able to save about fifty dollars for heating, and two hundred dollars for rent monthly</text>
+    <TextPosition start="611" end="819"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>I was able to save a lot of money by sharing wasted heating and rooms with my friend and splitting the bills</text>
+    <TextPosition start="821" end="929"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>living with a roommate also enables me to socialize more easily</text>
+    <TextPosition start="965" end="1028"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>It is always easier to socialize when you have a lot of people around you</text>
+    <TextPosition start="1030" end="1103"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>You can invite your roommates' friends over to your room and have fun together</text>
+    <TextPosition start="1105" end="1183"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>one night, my roommate, Millan, brought his friends along</text>
+    <TextPosition start="1199" end="1256"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Even though his friends and I were total strangers to each other, we quickly got to know each other</text>
+    <TextPosition start="1258" end="1357"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>We soon found out that everyone loved playing video games</text>
+    <TextPosition start="1359" end="1416"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>We played a video game called 'Halo' together all night, and became good friends</text>
+    <TextPosition start="1418" end="1498"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>Living with a roommate made socializing much easier for me</text>
+    <TextPosition start="1500" end="1558"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="claim"/>
+    <text>living with a roommate allows me to get help</text>
+    <TextPosition start="1569" end="1613"/>
+    <Relation relationID="RT19-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>It often is the case that your roommates have the skills or knowledge you need</text>
+    <TextPosition start="1615" end="1693"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>When you run into a problem, you can ask your roommates if they can help</text>
+    <TextPosition start="1695" end="1767"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>Some of them may have something to offer</text>
+    <TextPosition start="1769" end="1809"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T23">
+    <ADU type="premise"/>
+    <text>when my computer mysteriously broke down, I dialed up the manufacturer and asked for help</text>
+    <TextPosition start="1826" end="1915"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T24">
+    <ADU type="premise"/>
+    <text>They failed to give me any useful solutions</text>
+    <TextPosition start="1917" end="1960"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T25">
+    <ADU type="premise"/>
+    <text>To my surprise, one of my roommates noticed my problems and offered to help</text>
+    <TextPosition start="1962" end="2037"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T26">
+    <ADU type="premise"/>
+    <text>He was very good with computers, and he managed to fix the problem quickly</text>
+    <TextPosition start="2039" end="2113"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <OriginalText>Living with a roommate is better than Living alone
+
+Many single people have difficulties deciding whether to live with a roommate or to live alone. Each makes different decisions. Some people choose to live alone for privacy, while others choose to live with a roommate for practical reasons. As far as I am concerned, I prefer to live with a roommate. This is because it saves me money, enables me to socialize, and allows me to get help.
+Living with a roommate saves me a lot of money. If you have roommates, you can split the rent and utilities among them. This means you can get more for less. For example, last year, I shared a room off-campus with my friend, and we decided to split the rent and heating bills into half: I was able to save about fifty dollars for heating, and two hundred dollars for rent monthly. I was able to save a lot of money by sharing wasted heating and rooms with my friend and splitting the bills.
+Apart from saving a lot of money, living with a roommate also enables me to socialize more easily. It is always easier to socialize when you have a lot of people around you. You can invite your roommates' friends over to your room and have fun together. For instance, one night, my roommate, Millan, brought his friends along. Even though his friends and I were total strangers to each other, we quickly got to know each other. We soon found out that everyone loved playing video games. We played a video game called 'Halo' together all night, and became good friends. Living with a roommate made socializing much easier for me.
+Finally, living with a roommate allows me to get help. It often is the case that your roommates have the skills or knowledge you need. When you run into a problem, you can ask your roommates if they can help. Some of them may have something to offer. To illustrate, when my computer mysteriously broke down, I dialed up the manufacturer and asked for help. They failed to give me any useful solutions. To my surprise, one of my roommates noticed my problems and offered to help. He was very good with computers, and he managed to fix the problem quickly.
+In conclusion, while many people decide to live alone for various reasons, I prefer to live with a roommate, and I always will. This is because it offers me many advantages, such as less spending, more socializing, and more help. I think single people should live with a roommate, if they want to enjoy their lives.</OriginalText>
+</Annotation>

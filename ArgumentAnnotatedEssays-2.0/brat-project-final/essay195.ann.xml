@@ -1,0 +1,105 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>If a university plans to develop a new research in my country and I have to choose between establishing a centre for business research or a centre for agriculture research, I would opt for the second one</text>
+    <TextPosition start="238" end="441"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>my country has a lot of land which is useful for the agriculture</text>
+    <TextPosition start="457" end="521"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Most of these lands are left without any treatment</text>
+    <TextPosition start="523" end="573"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>The centre for research in agriculture can help my co-citizens to better exploit these land</text>
+    <TextPosition start="575" end="666"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>This centre can also help people there to solve their issues related to their land</text>
+    <TextPosition start="668" end="750"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Especially, if they have no knowledge or education in this field</text>
+    <TextPosition start="752" end="816"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>the centre for research in agriculture helps the economy of my country to improve</text>
+    <TextPosition start="828" end="909"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>The agriculture field has only thirty percent as a market part</text>
+    <TextPosition start="911" end="973"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>The centre of research can raise the market part of this field by developing the agriculture products</text>
+    <TextPosition start="975" end="1076"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>the dates are the most important agriculture product in my country</text>
+    <TextPosition start="1091" end="1157"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>The centre of research for agriculture can make some research in how to get a good quality of this product, how to treat the Palme and maybe how to treat the land of the palms</text>
+    <TextPosition start="1159" end="1334"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>Another reason that makes the centre of research for the agriculture more important than the centre of business research is that the first one can create a lot of jobs</text>
+    <TextPosition start="1336" end="1503"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>showing people how to exploit a land and get good agriculture products will push people to think about working in the field of agriculture rather than working in business or other field to make money</text>
+    <TextPosition start="1516" end="1715"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>a centre of business research is more important</text>
+    <TextPosition start="1741" end="1788"/>
+    <Relation relationID="RT14T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>we have to be in parallel with the advanced countries which have focused in business field</text>
+    <TextPosition start="1797" end="1887"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>being a developed country does not mean that we have to focus only in business, but we have to focus on what really bring us to the level of self satisfaction, and the agriculture for our country is the field that can realize that</text>
+    <TextPosition start="1896" end="2126"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>A university plans to devlope a new research centre in your country
+
+Most of the universities in the world seek to develop some research in some countries. These researches can be aimed for several fields such as business or agriculture. If a university plans to develop a new research in my country and I have to choose between establishing a centre for business research or a centre for agriculture research, I would opt for the second one.
+First of all, my country has a lot of land which is useful for the agriculture. Most of these lands are left without any treatment. The centre for research in agriculture can help my co-citizens to better exploit these land. This centre can also help people there to solve their issues related to their land. Especially, if they have no knowledge or education in this field.
+Secondly, the centre for research in agriculture helps the economy of my country to improve. The agriculture field has only thirty percent as a market part. The centre of research can raise the market part of this field by developing the agriculture products. For example, the dates are the most important agriculture product in my country. The centre of research for agriculture can make some research in how to get a good quality of this product, how to treat the Palme and maybe how to treat the land of the palms.
+Another reason that makes the centre of research for the agriculture more important than the centre of business research is that the first one can create a lot of jobs. Obviously, showing people how to exploit a land and get good agriculture products will push people to think about working in the field of agriculture rather than working in business or other field to make money. 
+Some people think that a centre of business research is more important because we have to be in parallel with the advanced countries which have focused in business field. For me being a developed country does not mean that we have to focus only in business, but we have to focus on what really bring us to the level of self satisfaction, and the agriculture for our country is the field that can realize that.
+My country need to focus more on the agriculture by establishing centers for research in this field, which will have some very positive consequences on agriculture people work, on the economy and on the employment.</OriginalText>
+</Annotation>

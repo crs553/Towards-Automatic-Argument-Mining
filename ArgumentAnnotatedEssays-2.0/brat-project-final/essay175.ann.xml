@@ -1,0 +1,80 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>media is overemphasizing the personal lives of famous people in this modern society</text>
+    <TextPosition start="123" end="206"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>media provide information about an event that recently occurred somewhere and which is important to the people</text>
+    <TextPosition start="389" end="499"/>
+    <Relation relationID="RT4T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>The most important of all is that the essence of coverage accurate and not based on gossip</text>
+    <TextPosition start="501" end="591"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>journalism is changing</text>
+    <TextPosition start="602" end="624"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Some reporters are more interested with gossip than news relating to public issues, paying too much attention to the personal lives of famous people</text>
+    <TextPosition start="626" end="774"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>sensationalism distract the viewers from public or social problems</text>
+    <TextPosition start="1109" end="1175"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>these personal reports of famous people, unimportant information or distorted stories, will not solve problem related with the society</text>
+    <TextPosition start="1291" end="1425"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>yellow journalism block the viewers from significant news, such as education, environment and public issues</text>
+    <TextPosition start="1443" end="1550"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>The media face the challenge that media executives must choose the content, which can attract the audience</text>
+    <TextPosition start="1177" end="1283"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>gossip involves misleading images for the purpose of boosting newspaper sales or exciting public opinion</text>
+    <TextPosition start="790" end="894"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>The audience may see a lot of photos in the kind of reports, which seems to tell a story</text>
+    <TextPosition start="896" end="984"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>it is unfair that the ridiculous coverage may be a vexation for the famous people who are reported</text>
+    <TextPosition start="996" end="1094"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Overemphasizing on personal lives of famous people by media
+
+As a mass media majoring student, I think that it's true that media is overemphasizing the personal lives of famous people in this modern society. In my point of view, disadvantages of overemphasizing on personal lives of famous people by media outweigh its advantages. My reasons include the following:
+It is no doubt that the media provide information about an event that recently occurred somewhere and which is important to the people. The most important of all is that the essence of coverage accurate and not based on gossip. However, journalism is changing. Some reporters are more interested with gossip than news relating to public issues, paying too much attention to the personal lives of famous people.
+First of all, gossip involves misleading images for the purpose of boosting newspaper sales or exciting public opinion. The audience may see a lot of photos in the kind of reports, which seems to tell a story. Moreover, it is unfair that the ridiculous coverage may be a vexation for the famous people who are reported.
+Furthermore, sensationalism distract the viewers from public or social problems. The media face the challenge that media executives must choose the content, which can attract the audience. Thus, these personal reports of famous people, unimportant information or distorted stories, will not solve problem related with the society. In other words, yellow journalism block the viewers from significant news, such as education, environment and public issues.
+Based on the above discussion, I agree with that paying too much attention on personal lives of famous people may be a serious problem.</OriginalText>
+</Annotation>

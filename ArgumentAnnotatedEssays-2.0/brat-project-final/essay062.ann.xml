@@ -1,0 +1,110 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>Universities must admit both in equal numbers, depending on their choices</text>
+    <TextPosition start="324" end="397"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Equality in education will help in development of the society</text>
+    <TextPosition start="1771" end="1832"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Both genders are the fulcrum of the society and none of them is superior or inferior</text>
+    <TextPosition start="1834" end="1918"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>females should be given equal opportunities as males</text>
+    <TextPosition start="534" end="586"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>The whole world aims for women empowerment</text>
+    <TextPosition start="469" end="511"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Right to education is a basic human right of both, males and females</text>
+    <TextPosition start="399" end="467"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>When universities will accept them in equal number, both genders will be able to nurture their talent and a healthy competitive environment will develop</text>
+    <TextPosition start="588" end="740"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>Universities giving both genders equal opportunities, will prepare them for future challenges and will help in the long run</text>
+    <TextPosition start="1134" end="1257"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Co-education helps both genders to gel well with each other</text>
+    <TextPosition start="742" end="801"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>It helps them how to behave and cooperate and work together</text>
+    <TextPosition start="803" end="862"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>students studying in boy's colleges do not generally know how to talk to a female or behave in front of them</text>
+    <TextPosition start="877" end="985"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>females studying in girl's colleges are too shy to face boys</text>
+    <TextPosition start="1006" end="1066"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Co-education will help to eradicate this kind of demerit in both</text>
+    <TextPosition start="1068" end="1132"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>some male chauvinists think that women are incapable in particular fields, like maths, mechanical engineering, defense etc</text>
+    <TextPosition start="1274" end="1396"/>
+    <Relation relationID="RT15T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>This kind of gender biased approach is detrimental for the development of the society</text>
+    <TextPosition start="1398" end="1483"/>
+    <Relation relationID="T15Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>women have proved their mettle in every field</text>
+    <TextPosition start="1501" end="1546"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>Women like Margaret Thatcher, Indira Gandhi, Mari Curie etc., are symbols of women's intelligence and skills</text>
+    <TextPosition start="1548" end="1656"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <OriginalText>Should universities accept equal number of males/females or not
+
+Education is important for the development of the world. Its a debatable issue whether universities should accept equal number of males and females in a course or not. However, since both genders are equally important, both must be given equal opportunities. Universities must admit both in equal numbers, depending on their choices.
+Right to education is a basic human right of both, males and females. The whole world aims for women empowerment, and to achieve this, females should be given equal opportunities as males. When universities will accept them in equal number, both genders will be able to nurture their talent and a healthy competitive environment will develop.
+Co-education helps both genders to gel well with each other. It helps them how to behave and cooperate and work together. For example, students studying in boy's colleges do not generally know how to talk to a female or behave in front of them. On the other hand, females studying in girl's colleges are too shy to face boys. Co-education will help to eradicate this kind of demerit in both. Universities giving both genders equal opportunities, will prepare them for future challenges and will help in the long run.
+Unfortunately, some male chauvinists think that women are incapable in particular fields, like maths, mechanical engineering, defense etc. This kind of gender biased approach is detrimental for the development of the society. Time and again, women have proved their mettle in every field. Women like Margaret Thatcher, Indira Gandhi, Mari Curie etc., are symbols of women's intelligence and skills.
+Thus, I firmly believe that both genders have equal rights and universities should accept them in equal numbers. Equality in education will help in development of the society. Both genders are the fulcrum of the society and none of them is superior or inferior. Choice of course should be the discretion of the student and their merit, irrespective of the gender. Educational rights must be given to both genders.</OriginalText>
+</Annotation>

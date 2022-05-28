@@ -1,0 +1,127 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>one can achieve success more easily with the help from his or her family</text>
+    <TextPosition start="300" end="372"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>when my father had difficulty in solving a problem in his childhood, he had to go to his teacher for help</text>
+    <TextPosition start="879" end="984"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>more and more people have the opportunity to receive education from university</text>
+    <TextPosition start="533" end="611"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>our parents receive better education than our grandparents did</text>
+    <TextPosition start="619" end="681"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>they can provide more advices and helps in our career</text>
+    <TextPosition start="683" end="736"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>In the past, seldom people have the chance to attend a collage</text>
+    <TextPosition start="738" end="800"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>my grandparents did not get a education even in high school</text>
+    <TextPosition start="815" end="874"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Things have changed a lot</text>
+    <TextPosition start="986" end="1011"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>I grow up in a better condition than my father did</text>
+    <TextPosition start="1013" end="1063"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Whenever I have problems, I can always ask my parents for help</text>
+    <TextPosition start="1065" end="1127"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>They can solve the problem quickly</text>
+    <TextPosition start="1129" end="1163"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>they have learned quite a lot</text>
+    <TextPosition start="1172" end="1201"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>family members can help us in many other aspects</text>
+    <TextPosition start="1218" end="1266"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>when I did not know what major to choose when I attend university, my father told a lot about different majors</text>
+    <TextPosition start="1281" end="1391"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>He shared his own experience with me, which helped me quite a lot</text>
+    <TextPosition start="1393" end="1458"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>Parents are quite experienced than their child</text>
+    <TextPosition start="1460" end="1506"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>they can guide them toward the right direction</text>
+    <TextPosition start="1508" end="1554"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>parents can told their children as many as they can</text>
+    <TextPosition start="1565" end="1616"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>What they want is help their child to make a progress</text>
+    <TextPosition start="1618" end="1671"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="claim"/>
+    <text>our parents and other family members can help us a lot in our life</text>
+    <TextPosition start="1684" end="1750"/>
+    <Relation relationID="RT22-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>The opportunity to receive education from university
+
+There are many factors that contribute to one's success. However, which factor is the most influential one is open to debate. Some people believe that nowadays the assitance from family is quite a essential factor in one's success. It seems that one can achieve success more easily with the help from his or her family. I agree with this statement. In my opinion, family plays a more important role in helping one to pursuit success. There are a couple of reasons.
+First of all, more and more people have the opportunity to receive education from university. Since our parents receive better education than our grandparents did, they can provide more advices and helps in our career. In the past, seldom people have the chance to attend a collage. For example, my grandparents did not get a education even in high school, so when my father had difficulty in solving a problem in his childhood, he had to go to his teacher for help. Things have changed a lot. I grow up in a better condition than my father did. Whenever I have problems, I can always ask my parents for help. They can solve the problem quickly because they have learned quite a lot. 
+What is more, family members can help us in many other aspects. For example, when I did not know what major to choose when I attend university, my father told a lot about different majors. He shared his own experience with me, which helped me quite a lot. Parents are quite experienced than their child, they can guide them toward the right direction. Besides, parents can told their children as many as they can. What they want is help their child to make a progress.
+In a word, our parents and other family members can help us a lot in our life. I believe that with the help of our family, we can achieve success quite easily.</OriginalText>
+</Annotation>

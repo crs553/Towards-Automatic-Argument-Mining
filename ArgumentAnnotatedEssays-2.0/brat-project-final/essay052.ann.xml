@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>English as an elegant language should be advocated in many fields to expand the global trade and communications</text>
+    <TextPosition start="1537" end="1648"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>the prevalent of English brings a great number of benefits for people</text>
+    <TextPosition start="274" end="343"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>the dominated status of English has destroyed culture diversity and many less-used languages become extinct</text>
+    <TextPosition start="983" end="1090"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>English is a sophisticated language</text>
+    <TextPosition start="1097" end="1132"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>it promotes the communication and interaction between different countries more conveniently and clearly</text>
+    <TextPosition start="359" end="462"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>In the ancient time, the different languages and geography set barriers for people to exchange their goods and ideas</text>
+    <TextPosition start="464" end="580"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the innovation of plane and train solved the geographical barriers</text>
+    <TextPosition start="595" end="661"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>If we can popularize the use of English, the language hinder will disappear as well</text>
+    <TextPosition start="663" end="746"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>English is a beautiful language, which is more systematical and extensive than many other languages</text>
+    <TextPosition start="761" end="860"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Learning English can foster people's sentiment and nourish their literature and art</text>
+    <TextPosition start="862" end="945"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it does not express every detail of life especially in Asia countries, which have totally different linguistic system</text>
+    <TextPosition start="1134" end="1251"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>language contains many aspects of people's daily life, which is influenced by culture, environment as well as religious</text>
+    <TextPosition start="1275" end="1394"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>these languages have special significance for people who belong to them and using English to replace them is crudity</text>
+    <TextPosition start="1407" end="1523"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>we still need preserve other languages for sake of keeping the linguistic and cultural diversity</text>
+    <TextPosition start="1655" end="1751"/>
+    <Relation relationID="RT14T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Advantages and disadvantages of the prevalent of English
+
+With the development of globalization, English became the dominated language in national trade, conference and many important events. This phenomenon has aroused a heated discussion in public.
+Some people claim that the prevalent of English brings a great number of benefits for people. First of all, it promotes the communication and interaction between different countries more conveniently and clearly. In the ancient time, the different languages and geography set barriers for people to exchange their goods and ideas. Fortunately, the innovation of plane and train solved the geographical barriers. If we can popularize the use of English, the language hinder will disappear as well. In addition, English is a beautiful language, which is more systematical and extensive than many other languages. Learning English can foster people's sentiment and nourish their literature and art.
+However, the opponents believe that the dominated status of English has destroyed culture diversity and many less-used languages become extinct. Even English is a sophisticated language; it does not express every detail of life especially in Asia countries, which have totally different linguistic system. It is undeniable that language contains many aspects of people's daily life, which is influenced by culture, environment as well as religious. Obviously, these languages have special significance for people who belong to them and using English to replace them is crudity.
+Personally, English as an elegant language should be advocated in many fields to expand the global trade and communications. But, we still need preserve other languages for sake of keeping the linguistic and cultural diversity.
+</OriginalText>
+</Annotation>

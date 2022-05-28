@@ -1,0 +1,86 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>exams have a role to play in ensuring proper and objective assessment of achievement</text>
+    <TextPosition start="1531" end="1615"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>exams need to be carefully designed and supplemented with other forms of evaluation if they are to be a truly useful component of the education system</text>
+    <TextPosition start="1626" end="1776"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>There are clearly advantages to exams</text>
+    <TextPosition start="349" end="386"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>They help to ensure fairness by imposing the same conditions on all exam candidates</text>
+    <TextPosition start="388" end="471"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>They are also relatively versatile; different types of exam questions, for example, multiple-choice questions and essay tasks, can test different sorts of reasoning ability</text>
+    <TextPosition start="473" end="645"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>exams also have some drawbacks</text>
+    <TextPosition start="656" end="686"/>
+    <Relation relationID="RT6T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Test-wise candidates can often perform well on exams without having good underlying knowledge or skills</text>
+    <TextPosition start="688" end="791"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>some test-takers perform cannot achieve a satisfying result because of anxiety</text>
+    <TextPosition start="806" end="884"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>teachers and learners focus only on theses aspects of the curriculum that are likely to be tested, thus narrowing the educational experience for all</text>
+    <TextPosition start="900" end="1048"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>A number of measures should be taken to address these concerns</text>
+    <TextPosition start="1050" end="1112"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>exams should match the content and activities of the learning environment</text>
+    <TextPosition start="1133" end="1206"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Exam task should be varied to give fair opportunities to candidates with different types of skills</text>
+    <TextPosition start="1208" end="1306"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Other types of assessment should also be considered, assignment writing, for example, to assess independent learning and research skills, or group projects, to measure teamwork ability</text>
+    <TextPosition start="1308" end="1492"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>"Pen and Paper" Examination
+
+Examinations are one of the most common methods of measuring learning in education systems throughout the world. At virtually every stage of the learning process, exams are used to verify that the learner is ready to move on to the next stage. However, many believe that the role of examinations should be reconsidered.
+There are clearly advantages to exams. They help to ensure fairness by imposing the same conditions on all exam candidates. They are also relatively versatile; different types of exam questions, for example, multiple-choice questions and essay tasks, can test different sorts of reasoning ability. However, exams also have some drawbacks. Test-wise candidates can often perform well on exams without having good underlying knowledge or skills. In contrast, some test-takers perform cannot achieve a satisfying result because of anxiety. In this case, teachers and learners focus only on theses aspects of the curriculum that are likely to be tested, thus narrowing the educational experience for all.
+A number of measures should be taken to address these concerns. Wherever possible, exams should match the content and activities of the learning environment. Exam task should be varied to give fair opportunities to candidates with different types of skills. Other types of assessment should also be considered, assignment writing, for example, to assess independent learning and research skills, or group projects, to measure teamwork ability.
+In conclusion, it is convincing that exams have a role to play in ensuring proper and objective assessment of achievement. However, exams need to be carefully designed and supplemented with other forms of evaluation if they are to be a truly useful component of the education system.
+</OriginalText>
+</Annotation>

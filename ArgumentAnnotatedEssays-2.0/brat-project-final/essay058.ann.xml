@@ -1,0 +1,137 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>children should be taught co-operation complimented with a healthy competition</text>
+    <TextPosition start="2055" end="2133"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Co-operation is essential for teamwork</text>
+    <TextPosition start="375" end="413"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Educational systems emphasize on encouraging co-operative approach in children</text>
+    <TextPosition start="415" end="493"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>We live in a social setup and mutual help and sharing only leads to success</text>
+    <TextPosition start="495" end="570"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>A person can not learn or achieve everything by oneself</text>
+    <TextPosition start="572" end="627"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>lions hunt in a team</text>
+    <TextPosition start="643" end="663"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>It is only due to their teamwork that they are able to catch a prey and make task easy</text>
+    <TextPosition start="665" end="751"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>co-operative approach will save time, energy and will have a higher success rate</text>
+    <TextPosition start="770" end="850"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>co-operation helps to understand other's perspective and learn by their mistakes</text>
+    <TextPosition start="866" end="946"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>It helps to identify one's strengths and weaknesses as compared to others</text>
+    <TextPosition start="948" end="1021"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>A co-operative approach can create inspirational and motivational feeling seeing other people's achievements</text>
+    <TextPosition start="1023" end="1131"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>competition is also as important as co-operation</text>
+    <TextPosition start="1142" end="1190"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>Competition helps in improvement and evolution</text>
+    <TextPosition start="1419" end="1465"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>An individual must compete with oneself only, instead of trying to beat others</text>
+    <TextPosition start="1273" end="1351"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Competition has helped the development of science and technology</text>
+    <TextPosition start="1353" end="1417"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>every other day, new cars are developed by companies which are more efficient than others</text>
+    <TextPosition start="1480" end="1569"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>This kind of competition gives customers more options</text>
+    <TextPosition start="1571" end="1624"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>Competition should be always based on self-improvement rule</text>
+    <TextPosition start="1761" end="1820"/>
+    <Relation relationID="RT18T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>blind and selfish competition is detrimental</text>
+    <TextPosition start="1635" end="1679"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>'Your loss, my gain' kind of competition can never be fruitful in the long run</text>
+    <TextPosition start="1681" end="1759"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>A healthy competition which involves raising one's own level above others is the best approach</text>
+    <TextPosition start="1822" end="1916"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>Competition or co-operation-which is better
+
+The modern society is full of cut-throat competition. Some people think that inculcating co-operative approach in a child is essential while some think that competing is the best way to succeed. However, co-operative approach always helps a child to become a responsible adult with good moral values and a friendly social circle.
+Co-operation is essential for teamwork. Educational systems emphasize on encouraging co-operative approach in children. We live in a social setup and mutual help and sharing only leads to success. A person can not learn or achieve everything by oneself. For instance, lions hunt in a team. It is only due to their teamwork that they are able to catch a prey and make task easy. In the same way, co-operative approach will save time, energy and will have a higher success rate.
+Nevertheless, co-operation helps to understand other's perspective and learn by their mistakes. It helps to identify one's strengths and weaknesses as compared to others. A co-operative approach can create inspirational and motivational feeling seeing other people's achievements. However, competition is also as important as co-operation.
+Unfortunately, the meaning of competiton has been modified in a wrong direction. An individual must compete with oneself only, instead of trying to beat others. Competition has helped the development of science and technology. Competition helps in improvement and evolution. For example, every other day, new cars are developed by companies which are more efficient than others. This kind of competition gives customers more options.
+However, blind and selfish competition is detrimental. 'Your loss, my gain' kind of competition can never be fruitful in the long run. Competition should be always based on self-improvement rule. A healthy competition which involves raising one's own level above others is the best approach.
+Thus, competition and co-operation go hand in hand. These are two sides of the same coin which can't be separated. I firmly believe that children should be taught co-operation complimented with a healthy competition. They must be made aware of the demerits of selfish competition. When co-operation and healthy competition is followed together, success, achievements, recognition and any goal becomes easier.
+
+</OriginalText>
+</Annotation>

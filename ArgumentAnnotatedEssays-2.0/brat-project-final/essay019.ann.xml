@@ -1,0 +1,109 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>for the young adults it will be better to live with their parents</text>
+    <TextPosition start="1624" end="1689"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>their lives are going to be more difficult, when they are away from home</text>
+    <TextPosition start="246" end="318"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>They will have to pay a lot of bills</text>
+    <TextPosition start="320" end="356"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>they will have to find a lodging or at least a place where to live and in order to have less expenses they will have to find a co-tenant, who they may not like</text>
+    <TextPosition start="366" end="525"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>They will not need to worry about financial problems or if they will get on well with their roommate</text>
+    <TextPosition start="1731" end="1831"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>Living in their own houses will save the young adults a lot of money</text>
+    <TextPosition start="528" end="596"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>If they live separate from their parents they will have to pay for a loan, electricity, water or even for a meal</text>
+    <TextPosition start="598" end="710"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>If the young adults still study they will have to combine studying with working</text>
+    <TextPosition start="712" end="791"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>they will not have money to pay for everything</text>
+    <TextPosition start="801" end="847"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>There will not be such worries when young adults live in their own home</text>
+    <TextPosition start="849" end="920"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>parents will take care for them</text>
+    <TextPosition start="930" end="961"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>parents will give their children money in order they to focus only on studying</text>
+    <TextPosition start="973" end="1051"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>Another problem that the young adults may encounter is to find a co-tenant, who they do not like</text>
+    <TextPosition start="1053" end="1149"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>His habits may be totally different from theirs, his behavior may be inappropriate, but they will have to live with him or even share a room, in order to have less expenses</text>
+    <TextPosition start="1151" end="1323"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>Living with such a person may be a huge problem for the young adults</text>
+    <TextPosition start="1325" end="1393"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>When the co-tenant do not share their interests and points of view, they will not be able to ask him for advice</text>
+    <TextPosition start="1395" end="1506"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>they are most likely to quarrel every day, instead of to help each other</text>
+    <TextPosition start="1521" end="1593"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <OriginalText>Some young adults want independence from their parents quickly
+
+Many young adults want to get away from their parent's houses as soon as possible in order to have no limits, to be independent. But these young people do not take into account that their lives are going to be more difficult, when they are away from home. They will have to pay a lot of bills, because they will have to find a lodging or at least a place where to live and in order to have less expenses they will have to find a co-tenant, who they may not like. 
+Living in their own houses will save the young adults a lot of money. If they live separate from their parents they will have to pay for a loan, electricity, water or even for a meal. If the young adults still study they will have to combine studying with working, because they will not have money to pay for everything. There will not be such worries when young adults live in their own home, because parents will take care for them. Moreover, parents will give their children money in order they to focus only on studying.
+Another problem that the young adults may encounter is to find a co-tenant, who they do not like. His habits may be totally different from theirs, his behavior may be inappropriate, but they will have to live with him or even share a room, in order to have less expenses. Living with such a person may be a huge problem for the young adults. When the co-tenant do not share their interests and points of view, they will not be able to ask him for advice. Furthermore, they are most likely to quarrel every day, instead of to help each other.
+In conclusion, I reckon that for the young adults it will be better to live with their parents, because of the benefits they will have. They will not need to worry about financial problems or if they will get on well with their roommate.</OriginalText>
+</Annotation>

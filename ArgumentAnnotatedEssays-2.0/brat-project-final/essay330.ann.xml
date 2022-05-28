@@ -1,0 +1,80 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>people should sometimes do things that they do not enjoy</text>
+    <TextPosition start="411" end="467"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>housework is very difficult for me, although my husband helps me some of them, but it is my responsibility</text>
+    <TextPosition start="716" end="822"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>I really don't like any of them, however I should do</text>
+    <TextPosition start="824" end="876"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>In personal live, we have some responsibilities towards to other people, there is nobody who likes all of these responsibilities</text>
+    <TextPosition start="572" end="700"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>most people's lives are filled with tasks that they don't enjoy doing</text>
+    <TextPosition start="502" end="571"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>professional lives are filled with tasks that is neccessary parts of the jobs</text>
+    <TextPosition start="888" end="965"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>I'm a research asistant at a university, and as any of the univesity in ours we have a professor who isn't good at human relationships, most of the asistans don't enjoy to talk with him about any situation, although we have to ask about his field</text>
+    <TextPosition start="1061" end="1307"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Nobody likes attending boring conferences, or working a person who isn't well in with anyone</text>
+    <TextPosition start="967" end="1059"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>People sometimes can attend any activities by insisting on any of their friends although they don't really want</text>
+    <TextPosition start="1391" end="1502"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>one of our friends tell my husband and me about a dance course which we both don't like</text>
+    <TextPosition start="1517" end="1604"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>After insisting on some of our friends, we attended, and got really enjoyable time, we continued the course about six months although most of our friends left the course after a month</text>
+    <TextPosition start="1606" end="1789"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>doing something which an individual doesn't enjoy can led to enjoyment</text>
+    <TextPosition start="1319" end="1389"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>In personal live, we have some responsibilities towards other people
+
+People should sometimes do things, even though they don't enjoy it. This is basic part of the lives. There may be small or big things, but at last people should accept them, because most of them is about responsibilities. Moreover, sometimes by doing things helps the people learn about live. In this essay, the reasons for why I agree that people should sometimes do things that they do not enjoy doing will be explored. 
+Firstly, most people's lives are filled with tasks that they don't enjoy doing.In personal live, we have some responsibilities towards to other people, there is nobody who likes all of these responsibilities. For instance, housework is very difficult for me, although my husband helps me some of them, but it is my responsibility. I really don't like any of them, however I should do. 
+Secondly,professional lives are filled with tasks that is neccessary parts of the jobs. Nobody likes attending boring conferences, or working a person who isn't well in with anyone. I'm a research asistant at a university, and as any of the univesity in ours we have a professor who isn't good at human relationships, most of the asistans don't enjoy to talk with him about any situation, although we have to ask about his field. 
+Thirdly, doing something which an individual doesn't enjoy can led to enjoyment. People sometimes can attend any activities by insisting on any of their friends although they don't really want. For example, one of our friends tell my husband and me about a dance course which we both don't like. After insisting on some of our friends, we attended, and got really enjoyable time, we continued the course about six months although most of our friends left the course after a month.
+Nobody has a life with a lot of fun; there are sometimes unpleasant and boring parts which is not liked by anyone, but most of them are about responsibilities which is the part of individual's live.</OriginalText>
+</Annotation>

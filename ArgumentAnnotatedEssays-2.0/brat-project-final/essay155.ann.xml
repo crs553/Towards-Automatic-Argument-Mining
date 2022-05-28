@@ -1,0 +1,122 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>smoking should not be permitted, especially in public places like restaurants</text>
+    <TextPosition start="421" end="498"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it will make the non-smokers breathe uncomfortably</text>
+    <TextPosition start="507" end="557"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Smoking in restaurants will absolutely disturb other people in enjoying their meals</text>
+    <TextPosition start="655" end="738"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>restaurants are places where people come and pay some money to enjoy their meals</text>
+    <TextPosition start="573" end="653"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>They will not be able to enjoy their meals while breathing in smoke around them</text>
+    <TextPosition start="740" end="819"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>Smoking in restaurants can give a bad example to the children</text>
+    <TextPosition start="1001" end="1062"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>restaurants are places that people usually come with their families</text>
+    <TextPosition start="832" end="899"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>there will be children, grandparents, as well as pregnant women inside the restaurants</text>
+    <TextPosition start="913" end="999"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Children have a high potential to imitate what adults do</text>
+    <TextPosition start="1064" end="1120"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>they have really high curiosity towards something</text>
+    <TextPosition start="1129" end="1178"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>Smoking in restaurants also can affect the elders' health, especially if they have problems with their hearts and lungs</text>
+    <TextPosition start="1180" end="1299"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>The most dangerous people that would be affected by smoke are the pregnant women</text>
+    <TextPosition start="1301" end="1381"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>they will breathe in the contaminated air and it will disrupt the growth of the babies</text>
+    <TextPosition start="1390" end="1476"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>it is unfair for passive smokers</text>
+    <TextPosition start="1745" end="1777"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>they do not smoke but they have same health risks as the active one</text>
+    <TextPosition start="1786" end="1853"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>passive smokers will have a lot of health risks</text>
+    <TextPosition start="1498" end="1545"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>When they are around the active smokers, they will inhale hazardous smoke</text>
+    <TextPosition start="1547" end="1620"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>Stroke, heart disorders, hearing loss, and cancers are some diseases that can attack passive smokers</text>
+    <TextPosition start="1622" end="1722"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>there will be a lot of people get disadvantaged</text>
+    <TextPosition start="1925" end="1972"/>
+    <Relation relationID="RT20-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Smoking should not be permitted in restaurants
+
+Generally speaking, smoking is never been good for human's body. There are so many researches done to prove that a cigar contains harmful ingredients for human's body. Although many smokers claim that they need to smoke in order to work more effectively or to think more creatively, those reasons never proves that smoking has any benefits for human's body. In my opinion, smoking should not be permitted, especially in public places like restaurants because it will make the non-smokers breathe uncomfortably.
+First of all, restaurants are places where people come and pay some money to enjoy their meals. Smoking in restaurants will absolutely disturb other people in enjoying their meals. They will not be able to enjoy their meals while breathing in smoke around them. 
+Secondly, restaurants are places that people usually come with their families. This means, there will be children, grandparents, as well as pregnant women inside the restaurants. Smoking in restaurants can give a bad example to the children. Children have a high potential to imitate what adults do because they have really high curiosity towards something. Smoking in restaurants also can affect the elders' health, especially if they have problems with their hearts and lungs. The most dangerous people that would be affected by smoke are the pregnant women because they will breathe in the contaminated air and it will disrupt the growth of the babies.
+Last but not least, passive smokers will have a lot of health risks. When they are around the active smokers, they will inhale hazardous smoke. Stroke, heart disorders, hearing loss, and cancers are some diseases that can attack passive smokers. Personally speaking, it is unfair for passive smokers because they do not smoke but they have same health risks as the active one.
+In conclusion, smoking should not be permitted in restaurants because there will be a lot of people get disadvantaged. State laws that prohibit it should be upheld so the restaurant' management can make a clear rule in their restaurants because everyone has a right to enjoy their meals.</OriginalText>
+</Annotation>

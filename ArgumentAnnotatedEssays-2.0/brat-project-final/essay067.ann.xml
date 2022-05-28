@@ -1,0 +1,74 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>freedom of expressing thoughts and ideas should always be eulogized and it's rather iniquitous to impose a shackle on artists' will to create</text>
+    <TextPosition start="265" end="406"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>this world needs them to make itself colourful</text>
+    <TextPosition start="2113" end="2159"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>One of the major concerns against freeing artists' creation derives from the fear of social misleading which would destabilize the society</text>
+    <TextPosition start="408" end="546"/>
+    <Relation relationID="RT4T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the audiences have their own judgement and are not likely to be misled or influenced by some art work</text>
+    <TextPosition start="567" end="668"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>art inevitably involves imagination, exaggeration and sometimes is purely fabricated; regardless of whether the work of art is based on truth or not, it is the public's authority to determine how to interpret its meaning</text>
+    <TextPosition start="697" end="917"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>If the art displays unreality, the public audiences certainly have the acumen to recognise its untruthfulness and only appreciate its art value</text>
+    <TextPosition start="919" end="1062"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>the notion of being afraid of social misleading is unjustified</text>
+    <TextPosition start="1286" end="1348"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>restrictions on exposure to adolescents should apply</text>
+    <TextPosition start="1566" end="1618"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>some of the art work may contain negative implications such as insanity, violence, eroticism etc</text>
+    <TextPosition start="1444" end="1540"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>adolescents are not mature enough to avoid being led astray by these contents</text>
+    <TextPosition start="1622" end="1699"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>in the case of adults being the audience, there's really nothing to hide &#8211; these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art</text>
+    <TextPosition start="1710" end="1934"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Creative Artists
+
+Innovative artists bring enjoyment and inspiration to our sometimes tedious life; however, some people deem that artists have been entrusted with too much freedom and power and should be restricted by the government. It is my personal belief that freedom of expressing thoughts and ideas should always be eulogized and it's rather iniquitous to impose a shackle on artists' will to create.
+One of the major concerns against freeing artists' creation derives from the fear of social misleading which would destabilize the society; however, I believe the audiences have their own judgement and are not likely to be misled or influenced by some art work. It is needless to say that art inevitably involves imagination, exaggeration and sometimes is purely fabricated; regardless of whether the work of art is based on truth or not, it is the public's authority to determine how to interpret its meaning. If the art displays unreality, the public audiences certainly have the acumen to recognise its untruthfulness and only appreciate its art value; if the art reflects the reality, then what would be the intention to ban it if it was not for covering the dirty truth? Would it be autocratic if the government clamp down the artists who are telling the truth? In a word, the notion of being afraid of social misleading is unjustified.
+Let's then take a look at the impact that art has posed on individuals. It is undeniable that some of the art work may contain negative implications such as insanity, violence, eroticism etc. I absolutely agree that restrictions on exposure to adolescents should apply as adolescents are not mature enough to avoid being led astray by these contents; however, in the case of adults being the audience, there's really nothing to hide &#8211; these negative things objectively exist on this planet and it is impossible for adults to be brain-washed only because of some pieces of creative art.
+By way of conclusion, I do not root for the idea that restrictions should be put on artists work; on the contrary, they should be encouraged to express their innovative ideas &#8211; this world needs them to make itself colourful.
+</OriginalText>
+</Annotation>

@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>their salary at a lower level would be more appropriate compared with other peoples in scientific or social, economic fields</text>
+    <TextPosition start="276" end="400"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>they have an exceptional ability that other people do not own</text>
+    <TextPosition start="497" end="558"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>hardly anyone could play basketball as skillfully as Michael Jordan - a legendary former American player who won several times in the NBA championship</text>
+    <TextPosition start="573" end="723"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>They also point out that these people have to undergo painstaking and industrious training, let alone participate in a great number of contests to be recognized and prove themselves</text>
+    <TextPosition start="725" end="906"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>there are many singers and athletes, few of whom could rise to fame and victory ultimately</text>
+    <TextPosition start="930" end="1020"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Overcoming all these obstacles, they should be paid a great deal of money for their extraordinary efforts</text>
+    <TextPosition start="1022" end="1127"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>athletes and singers deserve their current salary</text>
+    <TextPosition start="439" end="488"/>
+    <Relation relationID="RT8T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>singers and athletes, in fact, contribute insignificantly to the development of the society</text>
+    <TextPosition start="1200" end="1291"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>It is assumed the amazing performances they give to the audiences are only valuable in aesthetic and entertaining terms</text>
+    <TextPosition start="1293" end="1412"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>While scientists invent machines serving daily lives, doctors take care of patients and cure their diseases and policemen help to ensure the safety and stability of the nation, singers and athletes do not play a helpful part in improving the material life</text>
+    <TextPosition start="1414" end="1669"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>They commit themselves to promoting relaxation and enjoyment for the audience</text>
+    <TextPosition start="1671" end="1748"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>their contribution is less important than those from doctors or scientists, albeit necessary</text>
+    <TextPosition start="1758" end="1850"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>their privilege of salary seems groundless, while the main work forces receive modest salaries which only enable them to afford bare necessities</text>
+    <TextPosition start="1859" end="2003"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Whether athletes and singers are overpaid?
+
+Some people believe that professional athletes and entertainers are paid reasonable salaries, which can be up to millions of dollars each year. However, that is not equal to their actual contributions to the society. I believe that their salary at a lower level would be more appropriate compared with other peoples in scientific or social, economic fields.
+First of all, some people claim that athletes and singers deserve their current salary because they have an exceptional ability that other people do not own. For example, hardly anyone could play basketball as skillfully as Michael Jordan - a legendary former American player who won several times in the NBA championship. They also point out that these people have to undergo painstaking and industrious training, let alone participate in a great number of contests to be recognized and prove themselves. In addition, although there are many singers and athletes, few of whom could rise to fame and victory ultimately. Overcoming all these obstacles, they should be paid a great deal of money for their extraordinary efforts. 
+However, their talents should not be overrated. Other people say that singers and athletes, in fact, contribute insignificantly to the development of the society. It is assumed the amazing performances they give to the audiences are only valuable in aesthetic and entertaining terms. While scientists invent machines serving daily lives, doctors take care of patients and cure their diseases and policemen help to ensure the safety and stability of the nation, singers and athletes do not play a helpful part in improving the material life. They commit themselves to promoting relaxation and enjoyment for the audience. Indeed, their contribution is less important than those from doctors or scientists, albeit necessary. Hence, their privilege of salary seems groundless, while the main work forces receive modest salaries which only enable them to afford bare necessities.
+From all analysis suggested above, professional athletes and singers are overpaid in terms of their contributions. I think that there should be a modification in the salary of professional singers and athletes to balance with those of people in other fields, namely science and society, who are the driving forces for the prosperity of the nation.</OriginalText>
+</Annotation>

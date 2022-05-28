@@ -1,0 +1,79 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>It&#8217;s certainly better for children to grow up in a big city</text>
+    <TextPosition start="40" end="99"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>I hold this belief because of two main reasons, academic and social reasons</text>
+    <TextPosition start="151" end="226"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>you won&#8217;t know a lot of people, there are gossips everywhere, and your life will be really limited</text>
+    <TextPosition start="998" end="1096"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Growing up in the countryside is not such a good experience</text>
+    <TextPosition start="937" end="996"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>if a child grows up in a big city they will be all day at home at the computer or at the video-game</text>
+    <TextPosition start="252" end="351"/>
+    <Relation relationID="RT6T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>this is not true if you live in a neighborhood with other people about your age as I did</text>
+    <TextPosition start="357" end="445"/>
+    <Relation relationID="T6Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>My friends and I used to play soccer, bike, climb trees and do a lot of other stuff every day</text>
+    <TextPosition start="447" end="540"/>
+    <Relation relationID="T6Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>We did play video-games, but that wasn't our main activity</text>
+    <TextPosition start="542" end="600"/>
+    <Relation relationID="T6Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>In a big city there are more kinds of people and more things to do</text>
+    <TextPosition start="602" end="668"/>
+    <Relation relationID="T6Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>In a big city you have more qualified teachers and a better access to technology</text>
+    <TextPosition start="855" end="935"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>He said that he had to study a lot to pass the test to enter the university</text>
+    <TextPosition start="719" end="794"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>I have a friend that grew up in the countryside</text>
+    <TextPosition start="670" end="717"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <OriginalText>Children should grow up in a big city!
+
+It&#8217;s certainly better for children to grow up in a big city. Of course you need to choose a good neighborhood. I hold this belief because of two main reasons, academic and social reasons.
+Some people thinks that if a child grows up in a big city they will be all day at home at the computer or at the video-game, but this is not true if you live in a neighborhood with other people about your age as I did. My friends and I used to play soccer, bike, climb trees and do a lot of other stuff every day. We did play video-games, but that wasn't our main activity. In a big city there are more kinds of people and more things to do.
+I have a friend that grew up in the countryside. He said that he had to study a lot to pass the test to enter the university. This is another downside of growing up in the countryside. In a big city you have more qualified teachers and a better access to technology.
+Growing up in the countryside is not such a good experience, you won&#8217;t know a lot of people, there are gossips everywhere, and your life will be really limited. If someday I have children, I&#8217;m absolutely sure that they will grow up in a good neighborhood of a big city and they will be very happy about it.</OriginalText>
+</Annotation>

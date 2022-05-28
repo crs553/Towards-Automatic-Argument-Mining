@@ -1,0 +1,128 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>parents should encourage students to take the part-time job</text>
+    <TextPosition start="2247" end="2306"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>taking the part-time job can let students experience the real adult life and know more about it</text>
+    <TextPosition start="2139" end="2234"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>most people they contact with are also students</text>
+    <TextPosition start="436" end="483"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>they can teach students many things about adult life</text>
+    <TextPosition start="601" end="653"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>there are a few opportunities for students to know how to live adult life in the university</text>
+    <TextPosition start="335" end="426"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>when students do part-time jobs, they can work with many kinds of people, and most of whom are adults</text>
+    <TextPosition start="494" end="595"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>My friend Lisa, who is doing part-time job now, tells me that it is fabulous to take it</text>
+    <TextPosition start="655" end="742"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Through part-time job, she makes friends with different kinds of people and they let her know the different aspects of adult life</text>
+    <TextPosition start="744" end="873"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Lisa thought in adult life, work is the core; but after she knows these friends, she changes her mind that the true core for the adult life is responsibility but not work</text>
+    <TextPosition start="888" end="1058"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>thanks to the information her new friends has provided; now she is more confidence about her future adult life</text>
+    <TextPosition start="1067" end="1177"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>we do not experience it</text>
+    <TextPosition start="1287" end="1310"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>it is very difficult for us to really know how tense the adult life can be</text>
+    <TextPosition start="1312" end="1386"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>we need part-time job to teach us how hard the real adult life can be</text>
+    <TextPosition start="1399" end="1468"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>some questionnaires indicate that if students have taken part-time jobs, they will make the best use of their time to prepare their future and more importantly; they will not expect too much for their future than students who have not taken the part-time job</text>
+    <TextPosition start="1480" end="1738"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>the part-time job can make people understand future life better</text>
+    <TextPosition start="1751" end="1814"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>parents always tell students that the adult life is much tenser than school life</text>
+    <TextPosition start="1188" end="1268"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>the part-time job will effect student' study</text>
+    <TextPosition start="1852" end="1896"/>
+    <Relation relationID="RT18T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>most students will do the part-time job in their holiday</text>
+    <TextPosition start="1908" end="1964"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>it will not effect on their study</text>
+    <TextPosition start="1969" end="2002"/>
+    <Relation relationID="T18Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>Compared with playing computers every day, doing part-time jobs is the best choice for students to spend their holiday</text>
+    <TextPosition start="2004" end="2122"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <OriginalText>The part-time job can let students experience the real adult life and know more about it
+
+Nowadays, the difference between school and society is bigger and bigger. If students want to get used to the society quickly, it is better for parents to encourage them to take part-time jobs. There are some reasons can support my view.
+First, there are a few opportunities for students to know how to live adult life in the university. Because most people they contact with are also students. However, when students do part-time jobs, they can work with many kinds of people, and most of whom are adults. So, they can teach students many things about adult life. My friend Lisa, who is doing part-time job now, tells me that it is fabulous to take it. Through part-time job, she makes friends with different kinds of people and they let her know the different aspects of adult life. For example, Lisa thought in adult life, work is the core; but after she knows these friends, she changes her mind that the true core for the adult life is responsibility but not work. Hence, thanks to the information her new friends has provided; now she is more confidence about her future adult life. 
+Second, parents always tell students that the adult life is much tenser than school life. However, because we do not experience it, it is very difficult for us to really know how tense the adult life can be. Therefore, we need part-time job to teach us how hard the real adult life can be. Actually, some questionnaires indicate that if students have taken part-time jobs, they will make the best use of their time to prepare their future and more importantly; they will not expect too much for their future than students who have not taken the part-time job. Therefore, the part-time job can make people understand future life better.
+Third, some parents are afraid that the part-time job will effect student' study. Actually, most students will do the part-time job in their holiday, so it will not effect on their study. Compared with playing computers every day, doing part-time jobs is the best choice for students to spend their holiday.
+In conclusion, taking the part-time job can let students experience the real adult life and know more about it. Therefore, parents should encourage students to take the part-time job.</OriginalText>
+</Annotation>

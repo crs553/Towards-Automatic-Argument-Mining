@@ -1,0 +1,92 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>physical exercise is a crucial part of every school day</text>
+    <TextPosition start="182" end="237"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Exercise is good not only for having a good health body, but also for the mind</text>
+    <TextPosition start="239" end="317"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>including exercise in children's daily routine, it is a good way to teach them the importance of physical activity from an early age</text>
+    <TextPosition start="332" end="464"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>Physical activity helps children to grow up physically healthier</text>
+    <TextPosition start="466" end="530"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the rate of obesity in children has increased every year, it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school</text>
+    <TextPosition start="559" end="749"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>exercise will help them to not be less exposed to illness related with cardiovascular, higher blood and cholesterol issues</text>
+    <TextPosition start="764" end="886"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>Daily exercise will help also to develop children's brain function</text>
+    <TextPosition start="888" end="954"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>It is well known how important it is to exercise regularly to help the body system to work better</text>
+    <TextPosition start="956" end="1053"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>When people exercise, the respiratory system's function is enhanced, helping all organs, including the brain, to get more oxygen in</text>
+    <TextPosition start="1055" end="1186"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Daily exercise will provide children with a mental break which will boost them to be efficient learners</text>
+    <TextPosition start="1188" end="1291"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>Having children in the daily exercise routine from an early age will teach them the important value of having physical activity in their every day routine</text>
+    <TextPosition start="1293" end="1447"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Children are bombarded with lectures about nutrition and physical activity; however, they will be more beneficed if that knowledge can be put in practice</text>
+    <TextPosition start="1449" end="1602"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>they can stick with the routine and make the daily physical activities a good habit on their whole life</text>
+    <TextPosition start="1614" end="1717"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>It will meliorate not only mental and body health, but also will establish in children a habit of doing it, giving them the opportunity to measure the worth of including such an important activity in their daily live schedules</text>
+    <TextPosition start="1804" end="2030"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Physical exercise should be required part of every school day
+
+Although some people believe that students should spend the whole day on academic studies, I nevertheless believe that physical exercise is a crucial part of every school day. Exercise is good not only for having a good health body, but also for the mind. In addition, including exercise in children's daily routine, it is a good way to teach them the importance of physical activity from an early age.
+Physical activity helps children to grow up physically healthier. As studies have shown that the rate of obesity in children has increased every year, it will be very beneficial for children to have a daily physical activity and get a break from being sitting several hours at school. In addition, exercise will help them to not be less exposed to illness related with cardiovascular, higher blood and cholesterol issues.
+Daily exercise will help also to develop children's brain function. It is well known how important it is to exercise regularly to help the body system to work better. When people exercise, the respiratory system's function is enhanced, helping all organs, including the brain, to get more oxygen in. Daily exercise will provide children with a mental break which will boost them to be efficient learners.
+Having children in the daily exercise routine from an early age will teach them the important value of having physical activity in their every day routine. Children are bombarded with lectures about nutrition and physical activity; however, they will be more beneficed if that knowledge can be put in practice. Moreover, they can stick with the routine and make the daily physical activities a good habit on their whole life. 
+Including physical activity in children's school day should be strongly considered. It will meliorate not only mental and body health, but also will establish in children a habit of doing it, giving them the opportunity to measure the worth of including such an important activity in their daily live schedules.</OriginalText>
+</Annotation>

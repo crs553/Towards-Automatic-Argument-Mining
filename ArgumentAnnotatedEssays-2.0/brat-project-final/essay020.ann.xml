@@ -1,0 +1,80 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>more responsibilities should put on private individuals and companies such as paying to clean up air pollution</text>
+    <TextPosition start="192" end="302"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>governments are responsible to provide a healthy environment for their inhabitants and they should be responsible from cleaning up the air pollution</text>
+    <TextPosition start="1698" end="1846"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>If these companies were obliged to pay to clean up the air pollution, they would at least make an effort to reduce the amount of air pollution they cause</text>
+    <TextPosition start="703" end="856"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>in most industrialized countries, there is a number of companies that holds heavy factories in their constitutions</text>
+    <TextPosition start="312" end="426"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>The waste products and harmful gases produced by these factories cause a significant amount of air pollution</text>
+    <TextPosition start="428" end="536"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>While these companies make a huge amount of money from their businesses, most of them are not considering to take precautions to reduce the amount of air pollution</text>
+    <TextPosition start="538" end="701"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>by charging private individuals for causing air pollution, that will at least contribute to reduce the amount of the pollution</text>
+    <TextPosition start="1222" end="1348"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>private individuals cause air pollution in several ways such as inessential use of cars and house heating</text>
+    <TextPosition start="866" end="971"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>As house heating is a major need in the winter time, some households do not consider to use filters to reduce the amount of pollution that the heating causes</text>
+    <TextPosition start="973" end="1130"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>some expensive vehicles cause a huge amount of pollution</text>
+    <TextPosition start="1149" end="1205"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>governments should restrict the use of products that cause air pollution for both individuals and companies</text>
+    <TextPosition start="1385" end="1492"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>Governments also should use an amount of money from their budgets to clean up the air, instead of putting all the responsibility to companies and private individuals</text>
+    <TextPosition start="1494" end="1659"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Air pollution
+
+Air pollution is an issue threatening the environment in many different ways such as causing holes in the ozone and affecting global heating in the negative way. I believe that more responsibilities should put on private individuals and companies such as paying to clean up air pollution. 
+First, in most industrialized countries, there is a number of companies that holds heavy factories in their constitutions. The waste products and harmful gases produced by these factories cause a significant amount of air pollution. While these companies make a huge amount of money from their businesses, most of them are not considering to take precautions to reduce the amount of air pollution. If these companies were obliged to pay to clean up the air pollution, they would at least make an effort to reduce the amount of air pollution they cause.
+Second, private individuals cause air pollution in several ways such as inessential use of cars and house heating. As house heating is a major need in the winter time, some households do not consider to use filters to reduce the amount of pollution that the heating causes. Instead of this, some expensive vehicles cause a huge amount of pollution. In my opinion, by charging private individuals for causing air pollution, that will at least contribute to reduce the amount of the pollution. 
+On the other hand, I believe that governments should restrict the use of products that cause air pollution for both individuals and companies. Governments also should use an amount of money from their budgets to clean up the air, instead of putting all the responsibility to companies and private individuals. 
+In conclusion, due to the fact that governments are responsible to provide a healthy environment for their inhabitants and they should be responsible from cleaning up the air pollution, both companies and private individuals should take the main part to clean up the air pollution.</OriginalText>
+</Annotation>

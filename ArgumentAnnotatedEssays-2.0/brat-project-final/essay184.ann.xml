@@ -1,0 +1,103 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>it is much more gratifying to stay side by side and cheer up the team at the stadium rather than just to stay at home and watch the match alone</text>
+    <TextPosition start="301" end="444"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>watch a football match on television it is comfortable and pleasing</text>
+    <TextPosition start="1595" end="1662"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>It can be unforgettable moments in your life</text>
+    <TextPosition start="1726" end="1770"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>watching a live football game is an exceptional experience</text>
+    <TextPosition start="1101" end="1159"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>attending a live football match is very fulfilling</text>
+    <TextPosition start="453" end="503"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Before the match starts, thousands of fans gathering outside of the stadium with team flags, colorful outfits, sound of trumpets and rattles</text>
+    <TextPosition start="505" end="645"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>As the game kicks off, the atmosphere inside the stadium is even more exciting</text>
+    <TextPosition start="661" end="739"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>You are watching football stars play the game with your own eyes and sharing your feelings with about 40,000 people at the stadium, such an excitement you can never have when you are watching it at home</text>
+    <TextPosition start="741" end="943"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Everybody yells and sings together, the stadium is like bursted out whenever a goal is scored</text>
+    <TextPosition start="945" end="1038"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>See, you will be bored if you are watching it alone</text>
+    <TextPosition start="1040" end="1091"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>The tickets to get in the stadium may be a little expensive</text>
+    <TextPosition start="1255" end="1314"/>
+    <Relation relationID="T5Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>you will gain much more entertainment value from the game</text>
+    <TextPosition start="1320" end="1377"/>
+    <Relation relationID="T13Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>You can cherish your experience for a long time</text>
+    <TextPosition start="1379" end="1426"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>it can be an exclusive experience</text>
+    <TextPosition start="1441" end="1474"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>If it is a crucial win to acclaim a trophy, you will be "on site" to witness and celebrate the victory</text>
+    <TextPosition start="1476" end="1578"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>You can watch it at home, but "easy come, easy go", you will quickly forget it, like a movie</text>
+    <TextPosition start="1161" end="1253"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <OriginalText>Live football game at a stadium
+
+Have you ever traveled along to support your home football team during tournaments? Have you attended at a stadium to watch your team's match, yell or even cry with the team and their thousands of fans there? If you have a great love with football and your home team, it is much more gratifying to stay side by side and cheer up the team at the stadium rather than just to stay at home and watch the match alone.
+First, attending a live football match is very fulfilling. Before the match starts, thousands of fans gathering outside of the stadium with team flags, colorful outfits, sound of trumpets and rattles... everywhere. As the game kicks off, the atmosphere inside the stadium is even more exciting. You are watching football stars play the game with your own eyes and sharing your feelings with about 40,000 people at the stadium, such an excitement you can never have when you are watching it at home. Everybody yells and sings together, the stadium is like bursted out whenever a goal is scored. See, you will be bored if you are watching it alone.
+Second, watching a live football game is an exceptional experience. You can watch it at home, but "easy come, easy go", you will quickly forget it, like a movie. The tickets to get in the stadium may be a little expensive, but you will gain much more entertainment value from the game. You can cherish your experience for a long time. Furthermore, it can be an exclusive experience. If it is a crucial win to acclaim a trophy, you will be "on site" to witness and celebrate the victory.
+In conclusion, watch a football match on television it is comfortable and pleasing, but watching the match live at the stadium is more enjoyable. It can be unforgettable moments in your life.</OriginalText>
+</Annotation>

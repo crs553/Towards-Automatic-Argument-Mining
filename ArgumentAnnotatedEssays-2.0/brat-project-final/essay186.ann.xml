@@ -1,0 +1,110 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>human needs for farmland, housing and industry are more important</text>
+    <TextPosition start="398" end="463"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>protecting endangered animals is necessary</text>
+    <TextPosition start="2121" end="2163"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>land used for farmland, housing and industry can benefit more to the whole society</text>
+    <TextPosition start="520" end="602"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the economy of the whole society will be developed with the help of agriculture, real estate industry and industry, in particularly industry which is the pillar industry of national economy</text>
+    <TextPosition start="626" end="815"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they produce plenty of profits</text>
+    <TextPosition start="825" end="855"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>the society will be stable and harmony due to more farmland and industry</text>
+    <TextPosition start="871" end="943"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>more farmlands and industries can provide more job opportunities which can decrease the unemployment rate and crime rate</text>
+    <TextPosition start="976" end="1096"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>the needs for farmland, housing and industry are more important</text>
+    <TextPosition start="1103" end="1166"/>
+    <Relation relationID="RT9-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>farmland, housing and industry can satisfy the desire of human that living a better life</text>
+    <TextPosition start="1176" end="1264"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>farming, housing and industry provide us the food we eat, place we live, clothes we wear, which are essential to live</text>
+    <TextPosition start="1296" end="1413"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Especially in some poor areas, survival is the most significant thing</text>
+    <TextPosition start="1415" end="1484"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>highly developed agriculture and industry can improve our living conditions which allow us have a good quality life</text>
+    <TextPosition start="1499" end="1614"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>it can do good to protect the endangered animals</text>
+    <TextPosition start="1741" end="1789"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>farmland, housing and industry will occupy the land used for endangered animals</text>
+    <TextPosition start="1660" end="1739"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>agriculture and industry make a contribution to the economy</text>
+    <TextPosition start="1823" end="1882"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>we can have more advanced methods to take care of endangered animals</text>
+    <TextPosition start="1914" end="1982"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>we can invent new technique to help endangered animals to produce offspring to be sure they would not distinct</text>
+    <TextPosition start="1997" end="2107"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <OriginalText>Farmland, housing and industry or saving land for animals?
+
+Nowadays, there is a prevailing opinion that human needs for farmland, housing and industry are more important than saving land for endangered animals. People who disagree with the point dispute that the decreasing of land for endangered animals will bring damage to ecological balance. As far as I am concerned, I agree with the opinion human needs for farmland, housing and industry are more important. The reasons are based on the following aspects.
+First, land used for farmland, housing and industry can benefit more to the whole society. There is no deny that the economy of the whole society will be developed with the help of agriculture, real estate industry and industry, in particularly industry which is the pillar industry of national economy, because they produce plenty of profits. What is more, the society will be stable and harmony due to more farmland and industry. It is widely acknowledged that more farmlands and industries can provide more job opportunities which can decrease the unemployment rate and crime rate. Thus the needs for farmland, housing and industry are more important.
+Second, farmland, housing and industry can satisfy the desire of human that living a better life. It is clearly understood that farming, housing and industry provide us the food we eat, place we live, clothes we wear, which are essential to live. Especially in some poor areas, survival is the most significant thing. In addition, highly developed agriculture and industry can improve our living conditions which allow us have a good quality life. 
+Last I want to mention is that even though farmland, housing and industry will occupy the land used for endangered animals, it can do good to protect the endangered animals. According to the discuss above, agriculture and industry make a contribution to the economy. With the economy development, we can have more advanced methods to take care of endangered animals. For instant, we can invent new technique to help endangered animals to produce offspring to be sure they would not distinct.
+All in all, protecting endangered animals is necessary, nevertheless, human needs for farmland, housing and industry are more important.</OriginalText>
+</Annotation>

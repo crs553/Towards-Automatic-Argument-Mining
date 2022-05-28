@@ -1,0 +1,99 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T4">
+    <ADU type="conclusion"/>
+    <text>I highly prefer living in a big city to living in countryside</text>
+    <TextPosition start="24" end="85"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>The big cities have lots of advantages and facilities over the small towns</text>
+    <TextPosition start="87" end="161"/>
+    <Relation relationID="RT1-T4" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>Where a person lives and grow up is very important to his future life</text>
+    <TextPosition start="163" end="232"/>
+    <Relation relationID="RT2-T4" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>the environment that a person grow up, build the personality and his/her culture</text>
+    <TextPosition start="242" end="322"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>People in big cities have many options to enjoy their life and spend their times with their friends in social places in contrary to people living in small towns who have few choices and at most cases one bar or one cinema to socialize with their friends</text>
+    <TextPosition start="445" end="698"/>
+    <Relation relationID="RT5-T4" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>There are lots of social places in big cities like restaurants, museums, bars, sporting clubs, cinemas, theatre and etc</text>
+    <TextPosition start="324" end="443"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>in this modern world education has a very important role in the human kind future life</text>
+    <TextPosition start="838" end="924"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Better education results better career and been well paid</text>
+    <TextPosition start="926" end="983"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>persons in big cities have more chance to get the better job than people living in small towns</text>
+    <TextPosition start="988" end="1082"/>
+    <Relation relationID="RT9-T4" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>lots of companies placed in big cities and there are more job positions in there than small towns</text>
+    <TextPosition start="1089" end="1186"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>In big cities educational facilities is quite better than small towns with more experienced and profession teachers</text>
+    <TextPosition start="700" end="815"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>by living in big cities one sacrifices quiet and peaceful life with breathing fresh air and loses much time in traffic and anyway for transportation</text>
+    <TextPosition start="1192" end="1340"/>
+    <Relation relationID="RT12T4" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>distances in big cities often are too far to pass quickly</text>
+    <TextPosition start="1350" end="1407"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Every technology has it&#8217;s good and bad effects but I prefer having the technologies with their disadvantages to living like 16 century without any of modern facilities of technology</text>
+    <TextPosition start="1409" end="1590"/>
+    <Relation relationID="T12Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>medical technologies is completely better in big cities and in my view this profit overcomes all the bad influences of technologies on human kind</text>
+    <TextPosition start="1623" end="1768"/>
+    <Relation relationID="RT15-T4" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <OriginalText>Big city vs small town
+
+I highly prefer living in a big city to living in countryside. The big cities have lots of advantages and facilities over the small towns. Where a person lives and grow up is very important to his future life, because the environment that a person grow up, build the personality and his/her culture.
+There are lots of social places in big cities like restaurants, museums, bars, sporting clubs, cinemas, theatre and etc. People in big cities have many options to enjoy their life and spend their times with their friends in social places in contrary to people living in small towns who have few choices and at most cases one bar or one cinema to socialize with their friends.
+In big cities educational facilities is quite better than small towns with more experienced and profession teachers. It&#8217;s undisputed that in this modern world education has a very important role in the human kind future life. Better education results better career and been well paid. So persons in big cities have more chance to get the better job than people living in small towns. Also lots of companies placed in big cities and there are more job positions in there than small towns.
+But by living in big cities one sacrifices quiet and peaceful life with breathing fresh air and loses much time in traffic and anyway for transportation, because distances in big cities often are too far to pass quickly. Every technology has it&#8217;s good and bad effects but I prefer having the technologies with their disadvantages to living like 16 century without any of modern facilities of technology. In addition to what mentioned, medical technologies is completely better in big cities and in my view this profit overcomes all the bad influences of technologies on human kind.
+In conclusion, in my view living in big cities is quite funnier and better and more exciting than living in small towns because of many more social places, technologies facilities, better education and medical services.
+</OriginalText>
+</Annotation>

@@ -1,0 +1,69 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the benefits of children engagement in paid work outweigh its drawbacks</text>
+    <TextPosition start="345" end="416"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>they are likely to understand their parents' hardship, to respect values of money and to form a good habit of saving</text>
+    <TextPosition start="730" end="846"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>children can learn about the hardship of earning money</text>
+    <TextPosition start="432" end="486"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>When they take some kind of paid work such as looking after babies, doing housework and keeping shops, they will have some life experience and skills which make them mature and can deal with many different situations in real life</text>
+    <TextPosition start="488" end="717"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>when children take jobs, they tend to be more responsibl</text>
+    <TextPosition start="858" end="914"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>whether they can earn money or not will depend on their effectiveness and attitudes in working</text>
+    <TextPosition start="924" end="1018"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>To keep their jobs, children will have to try their best to finish their duties</text>
+    <TextPosition start="1020" end="1099"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>if a child works as a shop assistant, he will have to keep an eye on good and products, calculate prices correctly and take responsibilities for any lost</text>
+    <TextPosition start="1114" end="1267"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>children will be more material, neglect their study for earning money or be exploited by the employers</text>
+    <TextPosition start="1296" end="1398"/>
+    <Relation relationID="RT10T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>if children get good care and instructions from their parents, they can take advantages of the work to learn valuable things and avoid going in a wrong way</text>
+    <TextPosition start="1409" end="1564"/>
+    <Relation relationID="T10Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Children engagement in paid work
+
+In many countries, children are educated from their young age to be independent and responsible for their actions. Their parents allow them to take some jobs because these jobs can help them learn and take responsibilities. However, some people think it's not a good educational measure. From my point of view, the benefits of children engagement in paid work outweigh its drawbacks.
+First of all, children can learn about the hardship of earning money. When they take some kind of paid work such as looking after babies, doing housework and keeping shops, they will have some life experience and skills which make them mature and can deal with many different situations in real life. Therefore, they are likely to understand their parents' hardship, to respect values of money and to form a good habit of saving.
+Secondly, when children take jobs, they tend to be more responsible because whether they can earn money or not will depend on their effectiveness and attitudes in working. To keep their jobs, children will have to try their best to finish their duties. For example, if a child works as a shop assistant, he will have to keep an eye on good and products, calculate prices correctly and take responsibilities for any lost.
+Some people may argue that children will be more material, neglect their study for earning money or be exploited by the employers. However, if children get good care and instructions from their parents, they can take advantages of the work to learn valuable things and avoid going in a wrong way.
+In conclusion, if children take part in some kind of paid work with their parents' permission, they can learn lively lessons and become mature and responsible. I recommend that parents should help their children to choose a suitable job which does not affect their children 's study and that the government should have right policies to avoid exploiting children's labour.
+</OriginalText>
+</Annotation>

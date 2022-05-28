@@ -1,0 +1,68 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>having a large scale of different knowledge is the key to success</text>
+    <TextPosition start="512" end="577"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>when one knows different region's works, it will help one to get a friend much easier</text>
+    <TextPosition start="631" end="716"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>I have studied some of the engineering courses</text>
+    <TextPosition start="1061" end="1107"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>While some of the problems are the Engineering department's part, I went there and discussed with the colleagues there</text>
+    <TextPosition start="935" end="1053"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>It is much easier for us to contact than any other person in my department, which made me popular there, and much easier to get the help that I need</text>
+    <TextPosition start="1109" end="1257"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Thanks to Jeff's hard working during his leisure time, he learned a lot about the history of art</text>
+    <TextPosition start="1539" end="1635"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>when you want to translate your major, it is important to know some of the things about different fields</text>
+    <TextPosition start="1267" end="1371"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Things ended up that he joined in a great team, while his friend who only knew financing issues can do nothing but worked in a bank</text>
+    <TextPosition start="1637" end="1768"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>if one can&#8217;t success one&#8217;s own major, what else things he can do in different filed</text>
+    <TextPosition start="1974" end="2057"/>
+    <Relation relationID="RT9T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>what if one finally find out him or her has the talent in other filed</text>
+    <TextPosition start="2125" end="2194"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Whether it is better to have broad knowledge or not
+
+Views differ considerably when it comes to the issue of whether having broad knowledge of many academic subjects is better than specializing in one specific subject. Some people believe that having a broad knowledge can give you a higher chance to success, while others think that professional in a specific subject is the key to enroll a success. Both of the opposite arguments appear to be somewhat convincing and stand to reason. As far as I am concerned, having a large scale of different knowledge is the key to success. The following will present my points.
+First of all, when one knows different region's works, it will help one to get a friend much easier. For example, I worked in a large company, which has many different departments. I was in the Management Information System department. What we do every day is to solve the problem that our clients asked in the phone. While some of the problems are the Engineering department's part, I went there and discussed with the colleagues there, since I have studied some of the engineering courses. It is much easier for us to contact than any other person in my department, which made me popular there, and much easier to get the help that I need.
+Second, when you want to translate your major, it is important to know some of the things about different fields. Take my cousin Jeff and his friend as an example. They majored in financing when they were in college. But, they decided to enroll in the art system after graduated. Thanks to Jeff's hard working during his leisure time, he learned a lot about the history of art. Things ended up that he joined in a great team, while his friend who only knew financing issues can do nothing but worked in a bank.
+Although I agree with the idea that knowing different fields is important. I think I still have to point out that there are some different points of view. People who hold different opinion may argue that if one can&#8217;t success one&#8217;s own major, what else things he can do in different filed. Of course, it may be true when talking about this topic. However, what if one finally find out him or her has the talent in other filed. In this way, it won&#8217;t be a problem at all.
+In conclusion, given the reasons described above, when the advantages and disadvantages of whether having the knowledge in different fields is better or not are carefully compared. The best choice is obviously stand on my side, which is that a broad knowledge of different subjects is really important.</OriginalText>
+</Annotation>

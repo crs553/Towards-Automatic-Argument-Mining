@@ -1,0 +1,117 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>CCTV cameras should be installed in every premise to combat the ever increasing theft rate and to protect the workers at the workplace</text>
+    <TextPosition start="504" end="638"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>This is chiefly to shield oneself from being harmed by any intruders or robbers</text>
+    <TextPosition start="2481" end="2560"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>privacies are lost with the use of these cameras</text>
+    <TextPosition start="2574" end="2622"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>safety should be put first in order to be safe</text>
+    <TextPosition start="2637" end="2683"/>
+    <Relation relationID="T4Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>CCTVs must be put in all workplace so that crime rates can be minimized</text>
+    <TextPosition start="1229" end="1300"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>by having CCTV cameras at workplace, crimes such as robbery can be trimmed down</text>
+    <TextPosition start="649" end="728"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>when a shop is attacked by thieves, the clips taken by these cameras serve as a source of evidence to help the thieves to be traced</text>
+    <TextPosition start="746" end="877"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>in Malaysia, policemen used the videos captured by the CCTV cameras to trace and successfully catch a group of robbers who broke into a Seven Eleven shop during the midnight</text>
+    <TextPosition start="907" end="1080"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>as the employees know that they are under constant surveillance, they will less likely steal from the shops</text>
+    <TextPosition start="1097" end="1204"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the installation of CCTV cameras may help the employees escape this situation</text>
+    <TextPosition start="1511" end="1588"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>these cameras can help to provide some form of protection to the workers against the customers</text>
+    <TextPosition start="1805" end="1899"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>the customers know very well that their conversations are recorded</text>
+    <TextPosition start="1597" end="1663"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>at some offices, employees are often required to handle angry or frustrated customers</text>
+    <TextPosition start="1315" end="1400"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>face-to-face interactions with an annoyed customer can put the employee in physical danger</text>
+    <TextPosition start="1412" end="1502"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>Those opposing the CCTV systems feel that their privacies are invaded with the constant monitoring of the cameras</text>
+    <TextPosition start="1983" end="2096"/>
+    <Relation relationID="RT16T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>one must realize that safety is of paramount importance compared to privacy and prevention is always better than suffering from the consequences</text>
+    <TextPosition start="2107" end="2251"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>opponents of this system should try to comprehend the situation and take actions to prevent themselves from being victims of crime</text>
+    <TextPosition start="2259" end="2389"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>the videotapes can used to determine what actually took place and further actions can be then taken</text>
+    <TextPosition start="1694" end="1793"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <OriginalText>Use of CCTV cameras
+
+Today, close circuit television (CCTV) cameras are widely used in a variety of circumstances. They are used in schools, businesses and some other premises in order to monitor the activities taking place. It is undeniable that the use of CCTV has plenty of benefits to offer, especially in reducing crimes and protecting the employees in a premise. Nevertheless, some argue that these cameras invade their privacies due to constantly being monitored. Even so, I strongly believe that CCTV cameras should be installed in every premise to combat the ever increasing theft rate and to protect the workers at the workplace.
+Firstly, by having CCTV cameras at workplace, crimes such as robbery can be trimmed down. This is because when a shop is attacked by thieves, the clips taken by these cameras serve as a source of evidence to help the thieves to be traced. To illustrate this further, in Malaysia, policemen used the videos captured by the CCTV cameras to trace and successfully catch a group of robbers who broke into a Seven Eleven shop during the midnight. Not only that, as the employees know that they are under constant surveillance, they will less likely steal from the shops. Thus, it is clear that CCTVs must be put in all workplace so that crime rates can be minimized.
+Furthermore, at some offices, employees are often required to handle angry or frustrated customers. At times, face-to-face interactions with an annoyed customer can put the employee in physical danger. Hence, the installation of CCTV cameras may help the employees escape this situation because the customers know very well that their conversations are recorded. In the event of an argument, the videotapes can used to determine what actually took place and further actions can be then taken. In short, these cameras can help to provide some form of protection to the workers against the customers.
+Looking from another perspective, the use of CCTV cameras does cause controversy. Those opposing the CCTV systems feel that their privacies are invaded with the constant monitoring of the cameras. However, one must realize that safety is of paramount importance compared to privacy and prevention is always better than suffering from the consequences. Ergo, opponents of this system should try to comprehend the situation and take actions to prevent themselves from being victims of crime.
+To conclude, CCTV cameras are essential and therefore must be installed in every premise. This is chiefly to shield oneself from being harmed by any intruders or robbers. Admittedly, privacies are lost with the use of these cameras. Nonetheless, safety should be put first in order to be safe.
+</OriginalText>
+</Annotation>

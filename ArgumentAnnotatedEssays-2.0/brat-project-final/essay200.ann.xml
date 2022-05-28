@@ -1,0 +1,116 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>human activities are having a bad effect upon our planet</text>
+    <TextPosition start="291" end="347"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>human are polluting the Earth's environment, exhausting natural resource and threatening the living of other species</text>
+    <TextPosition start="353" end="469"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>People are corrupting their ecosphere</text>
+    <TextPosition start="471" end="508"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>In recent decades, concurrently with the increase of human consume, the waste discarded by human also multiplies</text>
+    <TextPosition start="510" end="622"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>These wastes including household waste and industrial waste are so big that a "new" continent is now being formed in the sea from garbage</text>
+    <TextPosition start="624" end="761"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the industrial exhaust gases are adulterating the air, causing the insalubrious phenomenon such as acid rain, global warming or climate change</text>
+    <TextPosition start="776" end="918"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>people are draining the Earth's natural resources</text>
+    <TextPosition start="929" end="978"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>These resources such as oil, coal are vital for human activity</text>
+    <TextPosition start="980" end="1042"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>nowadays, the exploitation activities of these resources are increasing dramatically to adapt to the infinite need of people</text>
+    <TextPosition start="1054" end="1178"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Researchers indicated that most of natural resources are un-recyclable and only several decades after, the Earth's natural resources are totally exhausted</text>
+    <TextPosition start="1180" end="1334"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>At that time, human activity will be seriously affected due to the dependence on these resources</text>
+    <TextPosition start="1336" end="1432"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>people are endangering other species' live</text>
+    <TextPosition start="1440" end="1482"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Hunting has been a fundamental activity of human for having food</text>
+    <TextPosition start="1484" end="1548"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Through million years of hunting, especially in recent centuries with the innovation of rifle and dynamite, people have killed many animals and even have made some kinds of them become extinct</text>
+    <TextPosition start="1550" end="1742"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>people, suffering from the population pressure, are expanding their living area</text>
+    <TextPosition start="1754" end="1833"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>the living area of other species narrowed</text>
+    <TextPosition start="1849" end="1890"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>This narrowing of living region is pushing many creatures to the brink of extinction</text>
+    <TextPosition start="1892" end="1976"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="claim"/>
+    <text>it is polluting the Earth environment, depleting the resource and imperiling other species' lives</text>
+    <TextPosition start="2088" end="2185"/>
+    <Relation relationID="RT19-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Some people believe that the Earth is being harmed by human
+
+Whether human activity is making the Earth a better place to live or damaging it is a debatable issue. Some people advocate the idea that human activity is advantageously influencing to the Earth. However, I strongly believe that human activities are having a bad effect upon our planet, for human are polluting the Earth's environment, exhausting natural resource and threatening the living of other species.
+People are corrupting their ecosphere. In recent decades, concurrently with the increase of human consume, the waste discarded by human also multiplies. These wastes including household waste and industrial waste are so big that a "new" continent is now being formed in the sea from garbage. Furthermore, the industrial exhaust gases are adulterating the air, causing the insalubrious phenomenon such as acid rain, global warming or climate change.
+Besides, people are draining the Earth's natural resources. These resources such as oil, coal are vital for human activity, therefore nowadays, the exploitation activities of these resources are increasing dramatically to adapt to the infinite need of people. Researchers indicated that most of natural resources are un-recyclable and only several decades after, the Earth's natural resources are totally exhausted. At that time, human activity will be seriously affected due to the dependence on these resources.
+Also, people are endangering other species' live. Hunting has been a fundamental activity of human for having food. Through million years of hunting, especially in recent centuries with the innovation of rifle and dynamite, people have killed many animals and even have made some kinds of them become extinct. Moreover, people, suffering from the population pressure, are expanding their living area; consequently, the living area of other species narrowed. This narrowing of living region is pushing many creatures to the brink of extinction.
+All in all, from discussed reasons, we can conclude that human activity are gradually destroy the Earth since it is polluting the Earth environment, depleting the resource and imperiling other species' lives.</OriginalText>
+</Annotation>

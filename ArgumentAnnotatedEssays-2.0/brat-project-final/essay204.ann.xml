@@ -1,0 +1,116 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>traditional learning still has many benefits to the students</text>
+    <TextPosition start="1780" end="1840"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>online classes have many advantages</text>
+    <TextPosition start="347" end="382"/>
+    <Relation relationID="RT1T2" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>the participant with the others like classmates or professors is still an important factor in studying</text>
+    <TextPosition start="458" end="560"/>
+    <Relation relationID="RT4-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Working in group leads to more discussion and more opinion among the class</text>
+    <TextPosition start="562" end="636"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>the discussion class results in expanded children vision and their respect to others roommate's ideas</text>
+    <TextPosition start="652" end="753"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>Unlike the distance learning that children have few opportunities to discuss with their friends</text>
+    <TextPosition start="755" end="850"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>classroom learning provides other activities than studying</text>
+    <TextPosition start="860" end="918"/>
+    <Relation relationID="RT8-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>During student's free time, they have a number of activities that they can join, such as playing sports, going to lab, or going to library</text>
+    <TextPosition start="920" end="1058"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>These activities lead to more interact with their friends</text>
+    <TextPosition start="1060" end="1117"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Connection with friends improves their IQ abilities</text>
+    <TextPosition start="1119" end="1170"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>they have a chance to learn about their societies</text>
+    <TextPosition start="1185" end="1234"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>the online course keeps the children at their home only</text>
+    <TextPosition start="1242" end="1297"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>in school, there are professors that guided you during you had a problem or needed an advice</text>
+    <TextPosition start="1307" end="1399"/>
+    <Relation relationID="RT14-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>The professor provides good answers to you</text>
+    <TextPosition start="1401" end="1443"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>They do not mind helping you, and they never leave you alone when you got a problem</text>
+    <TextPosition start="1445" end="1528"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>in distance learning, these aspects of the professor had reduced their important</text>
+    <TextPosition start="1543" end="1623"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>The professor has been assigned to teach only</text>
+    <TextPosition start="1625" end="1670"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>there will be a long response from the teachers when children ask them a question</text>
+    <TextPosition start="1682" end="1763"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Distance learning and online computer classes should replace classroom
+
+During these digital age, the online classes has become more interest and more common in the society. Almost every school develops their online class systems. One question I always thought about is whether online computer classes should replace classroom learning. Although, online classes have many advantages, for me, I prefer traditional learning classes for several reasons.
+First, the participant with the others like classmates or professors is still an important factor in studying. Working in group leads to more discussion and more opinion among the class. Consequently, the discussion class results in expanded children vision and their respect to others roommate's ideas. Unlike the distance learning that children have few opportunities to discuss with their friends.
+Second, classroom learning provides other activities than studying. During student's free time, they have a number of activities that they can join, such as playing sports, going to lab, or going to library. These activities lead to more interact with their friends. Connection with friends improves their IQ abilities, furthermore, they have a chance to learn about their societies. While the online course keeps the children at their home only.
+Lastly, in school, there are professors that guided you during you had a problem or needed an advice. The professor provides good answers to you. They do not mind helping you, and they never leave you alone when you got a problem. In contrast, in distance learning, these aspects of the professor had reduced their important. The professor has been assigned to teach only. Moreover, there will be a long response from the teachers when children ask them a question.
+In conclusion, traditional learning still has many benefits to the students. But in the future, it seems that the distance learning become more popular and ordinary in schools.</OriginalText>
+</Annotation>

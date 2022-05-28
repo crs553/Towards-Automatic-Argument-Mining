@@ -1,0 +1,122 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>zoos provide social interaction, education, and develop qualities such as animal respect and understanding</text>
+    <TextPosition start="365" end="471"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>in some of them the animals are not very well taken care of and they do not have good and clean facilities</text>
+    <TextPosition start="2479" end="2585"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>This is mostly true but does not relate to the purpose of zoos</text>
+    <TextPosition start="2587" end="2649"/>
+    <Relation relationID="T3Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>The zoo is a great reason for spending time with the family, it is a great activity that can be enjoyed every family member, from little children to grandparents</text>
+    <TextPosition start="876" end="1037"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>When people visit the zoo, they normally do it in a group, with their families, or as a part of a school group activity</text>
+    <TextPosition start="473" end="592"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>In the zoo they interact with each other and are able to relax and look at the animals, play with some of them, comment on their appearance and behavior, and laugh at their funny customs</text>
+    <TextPosition start="594" end="780"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Nowadays families do not spend as much time together as they used to a couple of decades ago</text>
+    <TextPosition start="782" end="874"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Animals, the different species, their habitats and behaviors are a subject of study at schools and universities</text>
+    <TextPosition start="1040" end="1151"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>Visiting the zoo would help the students understand what they learn at school</text>
+    <TextPosition start="1808" end="1885"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>We can learn a lot from books and lectures, but there is an even better way to learn, that is visuals and personal experience</text>
+    <TextPosition start="1153" end="1278"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>If you visit the zoo, you get to watch the animals, their customs, what they eat and how they eat it, as well as which characteristics the different species have</text>
+    <TextPosition start="1280" end="1441"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>In the zoo you can see an animal and their different variations, the male and the female or the baby and the adult</text>
+    <TextPosition start="1443" end="1557"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>It offers a great opportunity to observe their reactions to different situations, such as weather, specie and genre interaction, defense behavior, or protection of their babies</text>
+    <TextPosition start="1559" end="1735"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>it will also help identify which animals could be dangerous</text>
+    <TextPosition start="1747" end="1806"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>a visit to the zoo will help increasing someone's respect and appreciation for animals</text>
+    <TextPosition start="1897" end="1983"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>Being able to see the animals in real life and learning facts about them would help by making people aware of the importance of animals and the respect they deserve</text>
+    <TextPosition start="2263" end="2427"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>It is a lot easier to appreciate something after you have seen it, and learned from it</text>
+    <TextPosition start="1985" end="2071"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>This is especially true for people living in the city, where the only animals they normally interact with are pets like cats and dogs</text>
+    <TextPosition start="2073" end="2206"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>In the present there is a lack of respect for animals</text>
+    <TextPosition start="2208" end="2261"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <OriginalText>Zoos have no useful purpose?
+
+Have you ever seen a real life bear or a monkey? If you did, it was probably at a zoo. Zoos are big outdoor spaces in which different animal species are kept, so that people can look, learn and admire them. A lot of people think that zoos have no use, or provide no purpose. I strongly disagree with this affirmation because I believe zoos provide social interaction, education, and develop qualities such as animal respect and understanding.
+When people visit the zoo, they normally do it in a group, with their families, or as a part of a school group activity. In the zoo they interact with each other and are able to relax and look at the animals, play with some of them, comment on their appearance and behavior, and laugh at their funny customs. Nowadays families do not spend as much time together as they used to a couple of decades ago. The zoo is a great reason for spending time with the family, it is a great activity that can be enjoyed every family member, from little children to grandparents. 
+Animals, the different species, their habitats and behaviors are a subject of study at schools and universities. We can learn a lot from books and lectures, but there is an even better way to learn, that is visuals and personal experience. If you visit the zoo, you get to watch the animals, their customs, what they eat and how they eat it, as well as which characteristics the different species have. In the zoo you can see an animal and their different variations, the male and the female or the baby and the adult. It offers a great opportunity to observe their reactions to different situations, such as weather, specie and genre interaction, defense behavior, or protection of their babies. Moreover, it will also help identify which animals could be dangerous. Visiting the zoo would help the students understand what they learn at school. 
+Finally, a visit to the zoo will help increasing someone's respect and appreciation for animals. It is a lot easier to appreciate something after you have seen it, and learned from it. This is especially true for people living in the city, where the only animals they normally interact with are pets like cats and dogs. In the present there is a lack of respect for animals. Being able to see the animals in real life and learning facts about them would help by making people aware of the importance of animals and the respect they deserve.
+The reason why most people oppose to zoos is that in some of them the animals are not very well taken care of and they do not have good and clean facilities. This is mostly true but does not relate to the purpose of zoos. It would be great if every zoo kept the animals in perfect conditions, but regardless of the condition, zoos are very useful.</OriginalText>
+</Annotation>

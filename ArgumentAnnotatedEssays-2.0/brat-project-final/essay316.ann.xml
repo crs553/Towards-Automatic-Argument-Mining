@@ -1,0 +1,85 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>What government should take into consideration at the first place should not be historic and traditional building preservation but new building construction</text>
+    <TextPosition start="268" end="424"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>If the price of housing grows continuously, a comfortable place to live in will be a luxury to the middle class and the low class</text>
+    <TextPosition start="583" end="712"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>ordinary people, especially the younger generation, will fall into a certain pattern - work, pay bills for housing, work; and I am sure that it will increase people's dissatisfaction of the government</text>
+    <TextPosition start="720" end="920"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>when they are working, the fair of losing their accommodation always lingers, which will limit their efficiency</text>
+    <TextPosition start="930" end="1041"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>government should spend money on people to rescue them from this</text>
+    <TextPosition start="1047" end="1111"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>only a government of the people, by the people, for the people will finally last; people's cohesiveness will be promoted</text>
+    <TextPosition start="1121" end="1241"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>Building more accommodating constructions meets people's basic need</text>
+    <TextPosition start="426" end="493"/>
+    <Relation relationID="RT8-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>People cannot live a harmonious life if citizens do not have a decent place to live in</text>
+    <TextPosition start="495" end="581"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>new building construction deserves more governmental investment</text>
+    <TextPosition start="1279" end="1342"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it requires far more resource compare to old building preservation</text>
+    <TextPosition start="1365" end="1431"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Build a new building has following prerequisites, land that has been sold by the government via formal procedures, a reliable construction company and tremendous amount of labor</text>
+    <TextPosition start="1433" end="1610"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>hundreds of problems would occur during the construction</text>
+    <TextPosition start="1626" end="1682"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>only government can cope with it by utilizing its enormous resource like dollars and effectiveness</text>
+    <TextPosition start="1690" end="1788"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>New building construction hold the right to gain more money from government
+
+The housing shortage is drawing more and more attention nowadays. And the cost of accommodation keeps growing these years. The necessity of governmental financial aid is extremely important. What government should take into consideration at the first place should not be historic and traditional building preservation but new building construction.
+Building more accommodating constructions meets people's basic need. People cannot live a harmonious life if citizens do not have a decent place to live in. If the price of housing grows continuously, a comfortable place to live in will be a luxury to the middle class and the low class. Then, ordinary people, especially the younger generation, will fall into a certain pattern - work, pay bills for housing, work; and I am sure that it will increase people's dissatisfaction of the government. Because when they are working, the fair of losing their accommodation always lingers, which will limit their efficiency. And government should spend money on people to rescue them from this, because only a government of the people, by the people, for the people will finally last; people's cohesiveness will be promoted.
+Otherwise, another vital reason why new building construction deserves more governmental investment lies in the fact that it requires far more resource compare to old building preservation. Build a new building has following prerequisites, land that has been sold by the government via formal procedures, a reliable construction company and tremendous amount of labor. Except these, hundreds of problems would occur during the construction. Thus, only government can cope with it by utilizing its enormous resource like dollars and effectiveness. 
+Generally, personally speaking, I believe new building construction hold the right to gain more money from government.</OriginalText>
+</Annotation>

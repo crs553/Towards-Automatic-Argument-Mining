@@ -1,0 +1,61 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>people avoid eating meat mostly for the sake of their health and relegious aspect</text>
+    <TextPosition start="459" end="540"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Many researchers have convinced that many kinds of vegetable contain antioxydant which can prevent cancer</text>
+    <TextPosition start="631" end="736"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>a vegetable diet can do good for our health</text>
+    <TextPosition start="767" end="810"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>a meal without meat can lead to a lack of protein intake</text>
+    <TextPosition start="837" end="893"/>
+    <Relation relationID="T7Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>it is proved that many kinds of bean such as soy bean or pea are also comparable protein sources</text>
+    <TextPosition start="895" end="991"/>
+    <Relation relationID="T5Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>health improvement is the main reason for vegetarian diet to become so popular</text>
+    <TextPosition start="551" end="629"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>eating their meat mean you eat the flesh of your parent sentient beings</text>
+    <TextPosition start="1156" end="1227"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>Some religion, such as Buddha, believes that animals were human being in their previous life</text>
+    <TextPosition start="1059" end="1151"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>it is vital to follow one's own religious practices which can bring the enlightenment in mind</text>
+    <TextPosition start="1314" end="1407"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Vegetarianism - why some people are choosing to become vegetarian?
+
+Since the dawn of time, human has considered meat as a fundamental protein sources. Meat has served as the main dish in almost every family's meals all around the world. Recent years, however, has seen a rapid increase in the number of vegetarians. Some people claim that this is brought about by the care for animal rights issue, others think it is much beyond that. It is clear to me that people avoid eating meat mostly for the sake of their health and relegious aspect.
+Firstly, health improvement is the main reason for vegetarian diet to become so popular. Many researchers have convinced that many kinds of vegetable contain antioxydant which can prevent cancer. This fortifies the fact that a vegetable diet can do good for our health. Although some argue that a meal without meat can lead to a lack of protein intake, it is proved that many kinds of bean such as soy bean or pea are also comparable protein sources.
+Secondy, relegious beliefs also contributes to a vegetarian diet. Some religion, such as Buddha, believes that animals were human being in their previous life, so eating their meat mean you eat the flesh of your parent sentient beings. It is often said that this view is rather unscientific. However, I am convinced that it is vital to follow one's own religious practices which can bring the enlightenment in mind.
+To sum up, it is evident for me that people choose to become vegetarians for health and religious concern rather than the benefits of animals. However, a meal which is nutritionally balanced is always most recommended.</OriginalText>
+</Annotation>

@@ -1,0 +1,133 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>pets should be treated like human beings</text>
+    <TextPosition start="354" end="394"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>they listen to us, more than some people will ever do</text>
+    <TextPosition start="602" end="655"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>We can talk to them</text>
+    <TextPosition start="574" end="593"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>When I was 14 years old, my uncle passed away and I felt like everything was no longer important</text>
+    <TextPosition start="720" end="816"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Talking to my friends was frustrating</text>
+    <TextPosition start="818" end="855"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>none of them have ever felt that way</text>
+    <TextPosition start="864" end="900"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>I was all alone at home for a long time</text>
+    <TextPosition start="908" end="947"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>my dog was near me and it seemed to me that only him could understand my deeply feelings</text>
+    <TextPosition start="949" end="1037"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>pets aren't able to speak with us</text>
+    <TextPosition start="1057" end="1090"/>
+    <Relation relationID="T2Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>we can nonetheless count on them</text>
+    <TextPosition start="1092" end="1124"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>pets are our friends as well as certain human beings are</text>
+    <TextPosition start="425" end="481"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Similarly to friends, indeed, they are always with us and they are there if we feel alone</text>
+    <TextPosition start="483" end="572"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>nowadays the pet therapy is becoming more popular than before</text>
+    <TextPosition start="1190" end="1251"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>Researchers have discovered that pets can bring benefits in a huge amount of illnesses</text>
+    <TextPosition start="1253" end="1339"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>There are dogs who lead blind people around the city</text>
+    <TextPosition start="1341" end="1393"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>pets are important for depressed people as well</text>
+    <TextPosition start="1470" end="1517"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>without them they could not go around all alone</text>
+    <TextPosition start="1408" end="1455"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>their presence make them feel better</text>
+    <TextPosition start="1526" end="1562"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>there are dogs who are educated in order to find out criminals or to use their sense of smell to find drugs</text>
+    <TextPosition start="1574" end="1681"/>
+    <Relation relationID="T20Default Inference" type="Default Inference" typeBinary="0" partnerID="T20"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>pets are useful for a variety of things</text>
+    <TextPosition start="1136" end="1175"/>
+    <Relation relationID="RT20-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="claim"/>
+    <text>they are our friends and they can be useful in many situations</text>
+    <TextPosition start="1822" end="1884"/>
+    <Relation relationID="RT22-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Our useful friends
+
+Pets have always been essential in our society. Cats and dogs are the most common pets but there are birds, tortoises and fishes as well. Some people think that pets should be treated like family members. However, others argue that they are just animals and aren't able to think like us. The issue is controversial but in my opinion, pets should be treated like human beings for different reasons.
+First, pets are our friends as well as certain human beings are. Similarly to friends, indeed, they are always with us and they are there if we feel alone. We can talk to them because they listen to us, more than some people will ever do. To illustrate this point, I can write about my own experience. When I was 14 years old, my uncle passed away and I felt like everything was no longer important. Talking to my friends was frustrating because none of them have ever felt that way. Since I was all alone at home for a long time, my dog was near me and it seemed to me that only him could understand my deeply feelings. Clearly, although pets aren't able to speak with us, we can nonetheless count on them.
+Secondly, pets are useful for a variety of things. For example, nowadays the pet therapy is becoming more popular than before. Researchers have discovered that pets can bring benefits in a huge amount of illnesses. There are dogs who lead blind people around the city and therefore without them they could not go around all alone. In addition, pets are important for depressed people as well because their presence make them feel better. Moreover, there are dogs who are educated in order to find out criminals or to use their sense of smell to find drugs. 
+To sum up, I am strongly convinced that pets deserve to be treated like family members because of all the reasons mentioned above, namely they are our friends and they can be useful in many situations.</OriginalText>
+</Annotation>

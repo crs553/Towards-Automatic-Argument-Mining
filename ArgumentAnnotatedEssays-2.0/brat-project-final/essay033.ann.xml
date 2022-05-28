@@ -1,0 +1,57 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I would rather classify myself in the proponents of globalization as a speeding factor of global progress</text>
+    <TextPosition start="1355" end="1460"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>the idea of globalization put their inherited culture in danger of uncontrolled change and make them vulnerable against the attack of imperialistic governments</text>
+    <TextPosition start="453" end="612"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Some people prefer to recognize globalization as a threat to ethnic and religious values of people of their country</text>
+    <TextPosition start="320" end="435"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>globalization contribute effectively to the global improvement of the world in many aspects</text>
+    <TextPosition start="647" end="738"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Developing globalization, people can have more access to many natural resources of the world and it leads to increasing the pace of scientific and economic promotions of the entire world</text>
+    <TextPosition start="740" end="926"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>they admit that globalization can be considered a chance for people of each country to promote their lifestyle through the stuffs and services imported from other countries</text>
+    <TextPosition start="941" end="1113"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>globalization results in considerable decrease in global tension</text>
+    <TextPosition start="1172" end="1236"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>convergence of benefits of people of the world which is a natural consequence of globalization</text>
+    <TextPosition start="1244" end="1338"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <OriginalText>Effects of globalization
+
+During the history of the world, every change has its own positive and negative sides. Globalization as a gradual change affecting all over the world is not an exception. Although it has undeniable effects on the economics of the world; it has side effects which make it a controversial issue.
+Some people prefer to recognize globalization as a threat to ethnic and religious values of people of their country. They think that the idea of globalization put their inherited culture in danger of uncontrolled change and make them vulnerable against the attack of imperialistic governments.
+Those who disagree, believe that globalization contribute effectively to the global improvement of the world in many aspects. Developing globalization, people can have more access to many natural resources of the world and it leads to increasing the pace of scientific and economic promotions of the entire world. In addition, they admit that globalization can be considered a chance for people of each country to promote their lifestyle through the stuffs and services imported from other countries.
+Moreover, the proponents of globalization idea point out globalization results in considerable decrease in global tension due to convergence of benefits of people of the world which is a natural consequence of globalization.
+In conclusion, I would rather classify myself in the proponents of globalization as a speeding factor of global progress. I think it is more likely to solve the problems of the world rather than intensifying them.
+</OriginalText>
+</Annotation>

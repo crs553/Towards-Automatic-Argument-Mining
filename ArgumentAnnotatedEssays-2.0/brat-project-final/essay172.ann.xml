@@ -1,0 +1,134 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>I would prefer to live in an apartment in the community rather than in the university dormitories</text>
+    <TextPosition start="309" end="406"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>an apartment provides a lot more freedom than a dormitory</text>
+    <TextPosition start="415" end="472"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>While in a dormitory you have to obey preset rules, in the apartment you set your own rules</text>
+    <TextPosition start="474" end="565"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>You are free to have visits at any time or to be left alone if you want</text>
+    <TextPosition start="567" end="638"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>An apartment offers more privacy</text>
+    <TextPosition start="640" end="672"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>you can choose to have your own room instead of sharing with another student</text>
+    <TextPosition start="681" end="757"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>you also get more space than you would in a dormitory</text>
+    <TextPosition start="795" end="848"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>an apartment is more expensive</text>
+    <TextPosition start="914" end="944"/>
+    <Relation relationID="RT9T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>you could rent the extra rooms in the apartment to other people and rent would be a lot cheaper</text>
+    <TextPosition start="975" end="1070"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>Transportation is another issue, you have to go to and return from the university everyday</text>
+    <TextPosition start="1072" end="1162"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>You could choose to use public transportation, a cheaper option, or to have a car</text>
+    <TextPosition start="1164" end="1245"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>The car is an expensive option, but also offers freedom of schedule and destination</text>
+    <TextPosition start="1247" end="1330"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>the studying conditions are better in an apartment</text>
+    <TextPosition start="1340" end="1390"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>you don't have all the noise and distractions that you often have in dormitories</text>
+    <TextPosition start="1399" end="1479"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>A lot of students often complain about their roommate playing music too loud or bringing friends over at inappropriate times</text>
+    <TextPosition start="1481" end="1605"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>you would be able to concentrate better</text>
+    <TextPosition start="1701" end="1740"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>in an apartment you don't have a roommate</text>
+    <TextPosition start="1613" end="1654"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>you won't have this problem</text>
+    <TextPosition start="1656" end="1683"/>
+    <Relation relationID="T17Default Inference" type="Default Inference" typeBinary="0" partnerID="T17"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>you won't have a problem if you are the one who wants to play music, bring friends over, or study late at night</text>
+    <TextPosition start="1763" end="1874"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>You set your own schedules</text>
+    <TextPosition start="1876" end="1902"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T22">
+    <ADU type="premise"/>
+    <text>living in a dormitory, and being surrounded by students also has some advantages, like being able to get help with any academic issues from them</text>
+    <TextPosition start="1923" end="2067"/>
+    <Relation relationID="T14Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Apartments vs dormitories at university
+
+Many students prefer to live in the university dormitories while others prefer an apartment in the city. Both options have their advantages and disadvantages. After considering the level of freedom, the studying conditions and the economic factor, if I had to choose, I would prefer to live in an apartment in the community rather than in the university dormitories.
+First, an apartment provides a lot more freedom than a dormitory. While in a dormitory you have to obey preset rules, in the apartment you set your own rules. You are free to have visits at any time or to be left alone if you want. An apartment offers more privacy because you can choose to have your own room instead of sharing with another student. This is an important factor because you also get more space than you would in a dormitory.
+Second, from an economic point of view, people often argue that an apartment is more expensive. This is only partially true, you could rent the extra rooms in the apartment to other people and rent would be a lot cheaper. Transportation is another issue, you have to go to and return from the university everyday. You could choose to use public transportation, a cheaper option, or to have a car. The car is an expensive option, but also offers freedom of schedule and destination.
+Lastly, the studying conditions are better in an apartment because you don't have all the noise and distractions that you often have in dormitories. A lot of students often complain about their roommate playing music too loud or bringing friends over at inappropriate times. Since in an apartment you don't have a roommate, you won't have this problem, and as a result you would be able to concentrate better. For the same reason, you won't have a problem if you are the one who wants to play music, bring friends over, or study late at night. You set your own schedules. In the other hand, living in a dormitory, and being surrounded by students also has some advantages, like being able to get help with any academic issues from them. 
+To conclude, both options have their advantages, but personally I think the advantages of living in an apartment outshine those of living in a dormitory.</OriginalText>
+</Annotation>

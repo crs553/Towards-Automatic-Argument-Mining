@@ -1,0 +1,122 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>individuals should pay their college tuition</text>
+    <TextPosition start="202" end="246"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it would cost too much, the college education is a personal's choice, and there are many ways to fund a college education</text>
+    <TextPosition start="255" end="376"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it would cause too much cost from taxpayers and the governmen</text>
+    <TextPosition start="1787" end="1848"/>
+    <Relation relationID="RT4-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>it would affect all taxpayers whether or not they benefit from the use of the funds</text>
+    <TextPosition start="769" end="852"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="claim"/>
+    <text>making college education free would cost too much</text>
+    <TextPosition start="386" end="435"/>
+    <Relation relationID="RT6-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>It would divert public funds from other needs such as law enforcement, infrastructure and so forth</text>
+    <TextPosition start="437" end="535"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>There are many other needs which should come first, such as providing health care to all American, or improving public schools</text>
+    <TextPosition start="537" end="663"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>it would cause to raise our taxes again and again to fund college education</text>
+    <TextPosition start="678" end="753"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>those people should make the financial investment in their own choice; not the government</text>
+    <TextPosition start="1070" end="1159"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>it is a personal choice to go to a college</text>
+    <TextPosition start="863" end="905"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Not everyone wants to go to a college</text>
+    <TextPosition start="907" end="944"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>People who want to make more money, and live a better life than other people decide to take a college education</text>
+    <TextPosition start="946" end="1057"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>there are many ways to fund a college education</text>
+    <TextPosition start="1168" end="1215"/>
+    <Relation relationID="RT14-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>People who cannot afford to pay their tuition benefit from the scholarship, financial aids, and other funds</text>
+    <TextPosition start="1217" end="1324"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>the government already helps pay college expense through indirect means</text>
+    <TextPosition start="1339" end="1410"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>They often provide services such as fire departments, medical assistance, and police protection for the schools and their students</text>
+    <TextPosition start="1412" end="1542"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>They also provide funds for academic research</text>
+    <TextPosition start="1544" end="1589"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>While the money is not given to individual students, these contributions are not trivial</text>
+    <TextPosition start="1591" end="1679"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="claim"/>
+    <text>it is a personal choice</text>
+    <TextPosition start="1751" end="1774"/>
+    <Relation relationID="RT20-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Should the Government Provide Free College?
+
+Some people believe that the government should cover the college tuitions and expenses for any citizen who wants to go to a college. However, I believe that individuals should pay their college tuition because it would cost too much, the college education is a personal's choice, and there are many ways to fund a college education. 
+First, making college education free would cost too much. It would divert public funds from other needs such as law enforcement, infrastructure and so forth. There are many other needs which should come first, such as providing health care to all American, or improving public schools. In addition, it would cause to raise our taxes again and again to fund college education. Consequently, it would affect all taxpayers whether or not they benefit from the use of the funds. 
+Second, it is a personal choice to go to a college. Not everyone wants to go to a college. People who want to make more money, and live a better life than other people decide to take a college education. Therefore, those people should make the financial investment in their own choice; not the government.
+Third, there are many ways to fund a college education. People who cannot afford to pay their tuition benefit from the scholarship, financial aids, and other funds. In addition, the government already helps pay college expense through indirect means. They often provide services such as fire departments, medical assistance, and police protection for the schools and their students. They also provide funds for academic research. While the money is not given to individual students, these contributions are not trivial. 
+In short, the individual should finance his or her education because it is a personal choice. Otherwise, it would cause too much cost from taxpayers and the government.</OriginalText>
+</Annotation>

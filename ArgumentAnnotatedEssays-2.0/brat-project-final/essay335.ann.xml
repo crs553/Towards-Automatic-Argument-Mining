@@ -1,0 +1,56 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>IT discoveries are likely to have more disadvantages than benefits and people should know how to use their developments properly</text>
+    <TextPosition start="1300" end="1428"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>All this inventions will try to take control of the Earth</text>
+    <TextPosition start="1213" end="1270"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Scientists believe that one day people will face their developments, for instance robots, and they will not succeed to control them</text>
+    <TextPosition start="1080" end="1211"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>before centeries, there were not washing machines, which clean your clothes, while a person do another job</text>
+    <TextPosition start="919" end="1025"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>nowadays technology is entering into our society really quick</text>
+    <TextPosition start="695" end="756"/>
+    <Relation relationID="RT5T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>scientists develop robots, which help people cope with their problems or just invent coffee machines, engines with integrated computers and etc</text>
+    <TextPosition start="761" end="904"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>connecting people by email is easy and fast</text>
+    <TextPosition start="472" end="515"/>
+    <Relation relationID="RT7T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>World Wide Web offers humanity to access to information, which they want to know for less than 10 seconds</text>
+    <TextPosition start="530" end="635"/>
+    <Relation relationID="RT8T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>There have been significant developments in the field of IT!
+
+Decade after decade, every day, scientists discover magnificent devices in the field of IT, such as interactive boards, multicore computers and laptops, tablets, which have an incredible resolution and also mobile phones, which have the power of a computer. World Wide Web and communication via email are some of the positive sides of information technology, however, there are some negative aspects.
+Firstly, connecting people by email is easy and fast. In addition, World Wide Web offers humanity to access to information, which they want to know for less than 10 seconds. These are two of the benefits, why IT is useful.
+Besides, nowadays technology is entering into our society really quick and scientists develop robots, which help people cope with their problems or just invent coffee machines, engines with integrated computers and etc. For example, before centeries, there were not washing machines, which clean your clothes, while a person do another job.
+Secondly, there are some drawbacks about this issue. Scientists believe that one day people will face their developments, for instance robots, and they will not succeed to control them. All this inventions will try to take control of the Earth.
+In conclusion, I agree that IT discoveries are likely to have more disadvantages than benefits and people should know how to use their developments properly.</OriginalText>
+</Annotation>

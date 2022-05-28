@@ -1,0 +1,69 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>other prefer to be surrounded by a large number of friends</text>
+    <TextPosition start="257" end="315"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>staying in contact with a large number of friends gives the opportunity to learn more from the others' experiences</text>
+    <TextPosition start="384" end="498"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>among a large number of people there could be someone who practices a particular sport, or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before</text>
+    <TextPosition start="514" end="759"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>a large number of friends can help you to consider all the possible solutions to a problem and to make you more open-minded</text>
+    <TextPosition start="1121" end="1244"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>if you happen to face a problem and ask them for advice, your friends you will see that issue from their different point of views and accordingly they will help you to consider better all advantages and disadvantages</text>
+    <TextPosition start="1259" end="1475"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>When you have just few close friends, on one hand you develop a more intimate relationship with them and you feel you can trust them more</text>
+    <TextPosition start="1477" end="1614"/>
+    <Relation relationID="RT7T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>they often will give you viewpoints not so different from yours, adding less to your experience</text>
+    <TextPosition start="1638" end="1733"/>
+    <Relation relationID="T7Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>while differences give the opportunity to learn, they can also mean that sometimes it can be difficult to reach an agreement</text>
+    <TextPosition start="773" end="897"/>
+    <Relation relationID="RT9T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>This would not happen or at least would happen rarely if one decides to spend time with one or two close friends</text>
+    <TextPosition start="899" end="1011"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>in this case it is more likely that interests and preferences are the same</text>
+    <TextPosition start="1022" end="1096"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <OriginalText>Spending time with a large number of friends can add more to one's life
+
+Despite friendship is one of the most important values in a man's life, people might have different preferences: some of them prefer to spend time with one or two close friends, while other prefer to be surrounded by a large number of friends. In my view, I prefer the second attitude.
+The first reason is that staying in contact with a large number of friends gives the opportunity to learn more from the others' experiences. For instance, among a large number of people there could be someone who practices a particular sport, or plays an instrument or likes traveling very much and from their experiences you can be attracted to try something new that you had never considered before. 
+Of course, while differences give the opportunity to learn, they can also mean that sometimes it can be difficult to reach an agreement. This would not happen or at least would happen rarely if one decides to spend time with one or two close friends. In fact, in this case it is more likely that interests and preferences are the same.
+Another reason is that a large number of friends can help you to consider all the possible solutions to a problem and to make you more open-minded. For example, if you happen to face a problem and ask them for advice, your friends you will see that issue from their different point of views and accordingly they will help you to consider better all advantages and disadvantages.
+When you have just few close friends, on one hand you develop a more intimate relationship with them and you feel you can trust them more, but on the other hand they often will give you viewpoints not so different from yours, adding less to your experience.
+In sum, although each choice - few close friends or a large number of friends - presents its advantages and its weak points, I think that spending time with a large number of friends can add more to one's life.</OriginalText>
+</Annotation>

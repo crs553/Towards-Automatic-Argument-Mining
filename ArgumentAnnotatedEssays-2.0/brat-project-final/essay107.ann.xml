@@ -1,0 +1,75 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>concerns to save Earth are vital</text>
+    <TextPosition start="311" end="343"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>rapid development of infrastructure is eating most of the forest throughout world</text>
+    <TextPosition start="377" end="458"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>The so-called Concrete jungles have evolved endangering forests and wild life</text>
+    <TextPosition start="460" end="537"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>life saving oxygen is produced by trees after converting harmful carbon dioxide gas</text>
+    <TextPosition start="554" end="637"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>wild life is very essential to maintain ecological balance on planet Earth</text>
+    <TextPosition start="649" end="723"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>large emissions of carbon monoxide gas from refrigerants like air conditioners have depleted ozone layer</text>
+    <TextPosition start="735" end="839"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Importance of ozone layer is evident by the fact as it protects us from harmful ultra violet rays</text>
+    <TextPosition start="841" end="938"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>excess emission of carbon dioxide gas mainly by vehicles around the world has increased the average temperature at north pole which in turn has increased water level due to gradual melting of glaciers</text>
+    <TextPosition start="954" end="1154"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>either industrial waste or domestic waste produced everyday is badly polluting the planet Earth</text>
+    <TextPosition start="1164" end="1259"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>a large amount of unnoticed industrial waste released in oceans effects aquatic life to a large extent</text>
+    <TextPosition start="1274" end="1376"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Harmful chemicals present in industrial waste kills lot of sea creatures in oceans or rivers</text>
+    <TextPosition start="1378" end="1470"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Human activities are harming the Earth
+
+"Save the planet Earth" is a common line which can be read and heard all over the world. There has been a lot of initiatives to protect the planet Earth from unbridled human developments. Although some people argue these developments are making our life comfortable, but concerns to save Earth are vital due to various reasons.
+Firstly, rapid development of infrastructure is eating most of the forest throughout world. The so-called Concrete jungles have evolved endangering forests and wild life. As we all know life saving oxygen is produced by trees after converting harmful carbon dioxide gas. Moreover, wild life is very essential to maintain ecological balance on planet Earth.
+Secondly, large emissions of carbon monoxide gas from refrigerants like air conditioners have depleted ozone layer. Importance of ozone layer is evident by the fact as it protects us from harmful ultra violet rays. To add to it, excess emission of carbon dioxide gas mainly by vehicles around the world has increased the average temperature at north pole which in turn has increased water level due to gradual melting of glaciers.
+Lastly, either industrial waste or domestic waste produced everyday is badly polluting the planet Earth. For instance a large amount of unnoticed industrial waste released in oceans effects aquatic life to a large extent. Harmful chemicals present in industrial waste kills lot of sea creatures in oceans or rivers.
+To conclude, Earth is our home and it should be protected. Any human activity causing harm to Earth should be controlled and alternate ways should be devised to control damage. Creative ideas should be encouraged to leave minimum environmental footprints without compromising quality of life.
+</OriginalText>
+</Annotation>

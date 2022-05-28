@@ -1,0 +1,97 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>newspapers and magazines will be history with the time</text>
+    <TextPosition start="423" end="477"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>internet presents the information about the current affair so fast and the accessibility to the historical news</text>
+    <TextPosition start="521" end="632"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>when the aircraft MH 370 went missing, everyone wanted to know the details about this tragic incident</text>
+    <TextPosition start="852" end="953"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>The friends and families of passengers and crews were impatient to know the truth</text>
+    <TextPosition start="955" end="1036"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>In such situations, newspapers and magazines can not respond as fast as digital media</text>
+    <TextPosition start="1038" end="1123"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Instead of waiting for next publication, people can get trustworthy information about the current incidents from internet within an hour or two</text>
+    <TextPosition start="1125" end="1268"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>digital media will rule over paper and magazines</text>
+    <TextPosition start="1288" end="1336"/>
+    <Relation relationID="RT7-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>A very important responsibility of media is to publish information about the current affairs as quickly as possible specially when there is a crisis</text>
+    <TextPosition start="634" end="782"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>This helps readers to get updated and act accordingly</text>
+    <TextPosition start="784" end="837"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>one research fellow may want to know how a small village named Oramaki in Japan was suffering after Second World War</text>
+    <TextPosition start="1467" end="1583"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>It is very difficult to get this sort of information from past in newspapers and magazines as one has to know before where to look at</text>
+    <TextPosition start="1585" end="1718"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>internet provides efficient search facility where one can search the topic and get the details</text>
+    <TextPosition start="1724" end="1818"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>People often want to access news from past for various reasons like to prepare for research, satisfy interest, etc</text>
+    <TextPosition start="1338" end="1452"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>This feature of digital media is not supported by newspapers and magazines</text>
+    <TextPosition start="1820" end="1894"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>considering the current infrastructure and mindset of people, paper media will continue for another few years</text>
+    <TextPosition start="2067" end="2176"/>
+    <Relation relationID="RT16T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Internet will end the era of newspapers and magazines
+
+Digital media has been extremely popular among people around the globe. With this advancement, newspapers and magazines are struggling to justify their existence. Some believe that traditional paper media will come to an end very soon due to the increased usage of internet based media. But many other still thinks they are going to stay. I agree to the argument that newspapers and magazines will be history with the time. I will establish my view by analysing how internet presents the information about the current affair so fast and the accessibility to the historical news.
+A very important responsibility of media is to publish information about the current affairs as quickly as possible specially when there is a crisis. This helps readers to get updated and act accordingly. For example, when the aircraft MH 370 went missing, everyone wanted to know the details about this tragic incident. The friends and families of passengers and crews were impatient to know the truth. In such situations, newspapers and magazines can not respond as fast as digital media. Instead of waiting for next publication, people can get trustworthy information about the current incidents from internet within an hour or two. This explains why digital media will rule over paper and magazines.
+People often want to access news from past for various reasons like to prepare for research, satisfy interest, etc. For example, one research fellow may want to know how a small village named Oramaki in Japan was suffering after Second World War. It is very difficult to get this sort of information from past in newspapers and magazines as one has to know before where to look at. But internet provides efficient search facility where one can search the topic and get the details. This feature of digital media is not supported by newspapers and magazines.
+To conclude, the fast responding internet media with vast information will be replacing newspapers and magazines as new and information provider for valid reasons. Though considering the current infrastructure and mindset of people, paper media will continue for another few years.</OriginalText>
+</Annotation>

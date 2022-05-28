@@ -1,0 +1,128 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>the transportation is an elementary factor which directly affects to people&#8217;s living</text>
+    <TextPosition start="1915" end="1999"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>I&#8217;m facing the traffic congestion every day</text>
+    <TextPosition start="454" end="497"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>people will have more ways to go to a place</text>
+    <TextPosition start="655" end="698"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>now buses are only a kind of public transportation in this community</text>
+    <TextPosition start="706" end="774"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>It makes people in this area have no choice</text>
+    <TextPosition start="776" end="819"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>They must take only a bus to go to another place</text>
+    <TextPosition start="821" end="869"/>
+    <Relation relationID="T6Default Inference" type="Default Inference" typeBinary="0" partnerID="T6"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>If a subway and a sky train are available here, it will be more convenience to them</text>
+    <TextPosition start="871" end="954"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>people can estimate time from taking a subway train due to the train schedule</text>
+    <TextPosition start="969" end="1046"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>On the contrary they cannot do so in case of a bus</text>
+    <TextPosition start="1048" end="1098"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="claim"/>
+    <text>this improvement will decrease a bad traffic on the road indirectly</text>
+    <TextPosition start="1106" end="1173"/>
+    <Relation relationID="RT11-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>it should have more alternatives to use public transportation, such as a subway train or a sky train</text>
+    <TextPosition start="546" end="646"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>They should increase more routes to make people transport more easily</text>
+    <TextPosition start="1507" end="1576"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>it is waste of time</text>
+    <TextPosition start="1486" end="1505"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>the buses provide merely two routes in this community</text>
+    <TextPosition start="1186" end="1239"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>It is absolutely a major problem</text>
+    <TextPosition start="1241" end="1273"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>if a place I intend to go is not in the route of buses, I still have to take a bus that does not bring me to my destination but go to the center station first to exchange to another bus</text>
+    <TextPosition start="1288" end="1473"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>having more kinds of public transportation can dwindle the number of people using their own cars</text>
+    <TextPosition start="1586" end="1682"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="claim"/>
+    <text>The necessary energy will slowly be used up</text>
+    <TextPosition start="1821" end="1864"/>
+    <Relation relationID="RT19-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>people use less their own cars</text>
+    <TextPosition start="1872" end="1902"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>people can save their expenses form gasoline, which nowadays is getting more expensive</text>
+    <TextPosition start="1733" end="1819"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <OriginalText>One important thing that I want to change about my hometown
+
+Public utilities and surroundings are the primary factors which we basically consider before we decide to live in a place. However, it is difficult to find a community which can perfectly meet our requirements. In my hometown, there are almost complete public utilities for one&#8217;s needs but transportation. So the thing that I really want to change is to have more public transportation. Since I&#8217;m facing the traffic congestion every day. And this problem seem to get worst. 
+At first, it should have more alternatives to use public transportation, such as a subway train or a sky train. Hence, people will have more ways to go to a place. Since now buses are only a kind of public transportation in this community, It makes people in this area have no choice. They must take only a bus to go to another place. If a subway and a sky train are available here, it will be more convenience to them. For example, people can estimate time from taking a subway train due to the train schedule. On the contrary they cannot do so in case of a bus. Also, this improvement will decrease a bad traffic on the road indirectly. 
+Secondly, the buses provide merely two routes in this community. It is absolutely a major problem. For example, if a place I intend to go is not in the route of buses, I still have to take a bus that does not bring me to my destination but go to the center station first to exchange to another bus. Obviously, it is waste of time. They should increase more routes to make people transport more easily.
+Lastly, having more kinds of public transportation can dwindle the number of people using their own cars. Also, it provides many advantages. For instance, people can save their expenses form gasoline, which nowadays is getting more expensive. The necessary energy will slowly be used up, since people use less their own cars.
+To sum up, the transportation is an elementary factor which directly affects to people&#8217;s living. I wish one day this problem would be changed. And then, the transportation in my hometown is no longer difficult for everyone in this community.</OriginalText>
+</Annotation>

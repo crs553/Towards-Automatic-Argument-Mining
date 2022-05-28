@@ -1,0 +1,110 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>children should be forbidden in watching television or movies excessively</text>
+    <TextPosition start="502" end="575"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="premise"/>
+    <text>children generally have weak self-control, and thus they lose their time easily</text>
+    <TextPosition start="591" end="670"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>Watching TV for a long time without doing homework is one of major headaches that most of children have brought to their parents</text>
+    <TextPosition start="672" end="800"/>
+    <Relation relationID="RT3-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Whenever I back to home from school, the first thing I would do is turning on the television and sit there for hours</text>
+    <TextPosition start="847" end="963"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>I could watch TV for hours, but I could hardly sit in front of my desk to do homework for few minutes</text>
+    <TextPosition start="965" end="1066"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>I could memorize all channels that TV programs was playing, but I could barely memorize any word on the textbook</text>
+    <TextPosition start="1068" end="1180"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>I, therefore, did extremely bad at school due to the lack of studying</text>
+    <TextPosition start="1182" end="1251"/>
+    <Relation relationID="T3Default Inference" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>Children are not mature enough to make a judgment of what is good or bad</text>
+    <TextPosition start="1348" end="1420"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>they are likely to imitate the behaviors on TV out of their curiosity</text>
+    <TextPosition start="1432" end="1501"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>Recently, more and more children smoke</text>
+    <TextPosition start="1503" end="1541"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>they imitate actors' behaviors on TV or movies</text>
+    <TextPosition start="1550" end="1596"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>according to some statistics, there are more and more children have violent tendency, and the reports attribute this to TV programs and movies</text>
+    <TextPosition start="1617" end="1759"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="claim"/>
+    <text>there are many programs on TV or movies that are harmful to children in metal and physical health</text>
+    <TextPosition start="1780" end="1877"/>
+    <Relation relationID="RT13-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>sometimes programs on TV are full of violence and sex which are harmful to children</text>
+    <TextPosition start="1263" end="1346"/>
+    <Relation relationID="T13Default Inference" type="Default Inference" typeBinary="0" partnerID="T13"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>it doesn't mean that children should do it overtime and without being taken care what they are watching</text>
+    <TextPosition start="2224" end="2327"/>
+    <Relation relationID="T16Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>children should watch TV and movies for their rich contents that could give children some topics in conversation</text>
+    <TextPosition start="2057" end="2169"/>
+    <Relation relationID="RT16T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>children are poor at time management, and are less mature to make a good judgment, they cannot be too serious to be taken care when watching TV and movies</text>
+    <TextPosition start="2487" end="2641"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <OriginalText>Should parents limit their children watching TV to make them do well in school?
+
+In 19th century, television is one of an significant inventions and has become a indispensible appliance in every house. For its accessible and containing fancy programs, television attracts audiences from a wide range of age and background. Children, who are addicted to TV, causes broad argument about whether they should be limited in watching television in amount of time. As far as I am concerned, I agree with that children should be forbidden in watching television or movies excessively.
+First of all, children generally have weak self-control, and thus they lose their time easily. Watching TV for a long time without doing homework is one of major headaches that most of children have brought to their parents. I, in my childhood, was just a typical case. Whenever I back to home from school, the first thing I would do is turning on the television and sit there for hours. I could watch TV for hours, but I could hardly sit in front of my desk to do homework for few minutes. I could memorize all channels that TV programs was playing, but I could barely memorize any word on the textbook. I, therefore, did extremely bad at school due to the lack of studying.
+Moreover, sometimes programs on TV are full of violence and sex which are harmful to children. Children are not mature enough to make a judgment of what is good or bad, therefore they are likely to imitate the behaviors on TV out of their curiosity. Recently, more and more children smoke because they imitate actors' behaviors on TV or movies. What's even worse, according to some statistics, there are more and more children have violent tendency, and the reports attribute this to TV programs and movies. It is obvious that there are many programs on TV or movies that are harmful to children in metal and physical health. How can anyone expect children could do well at school if they have those abnormal behaviors?
+Admittedly, in concerning the social relationship with peers, some may support that children should watch TV and movies for their rich contents that could give children some topics in conversation. I agree with this viewpoint to some extent. However, it doesn't mean that children should do it overtime and without being taken care what they are watching. 
+In considering whether the time children watching on TV or movies should be constrained, I hold a strongly positive point of view toward this issue. Because children are poor at time management, and are less mature to make a good judgment, they cannot be too serious to be taken care when watching TV and movies.</OriginalText>
+</Annotation>

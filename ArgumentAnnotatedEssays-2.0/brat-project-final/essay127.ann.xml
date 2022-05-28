@@ -1,0 +1,122 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>life in the old days brings more happiness to people than today for several reasons</text>
+    <TextPosition start="276" end="359"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="claim"/>
+    <text>some people live in a pretty good condition, it is only a minority</text>
+    <TextPosition start="1569" end="1635"/>
+    <Relation relationID="RT3T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>life is simple in the past</text>
+    <TextPosition start="381" end="407"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="claim"/>
+    <text>lives in the old days is easier than today</text>
+    <TextPosition start="680" end="722"/>
+    <Relation relationID="RT5-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>Nowadays, all humans compete together</text>
+    <TextPosition start="409" end="446"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>world population getting higher</text>
+    <TextPosition start="454" end="485"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>competition is getting fierce</text>
+    <TextPosition start="487" end="516"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>If you are not able to handle your jobs, then someone will replace you right away</text>
+    <TextPosition start="518" end="599"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>People need to put much more effort to keep their living condition</text>
+    <TextPosition start="601" end="667"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>the environment today is serious damaged</text>
+    <TextPosition start="732" end="772"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>Looking out the windows, what I see isn't sky, trees or mountains, but is coldly high buildings</text>
+    <TextPosition start="774" end="869"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Everyday, I walk on hard roads, breath in polluted air, and live in a limited space</text>
+    <TextPosition start="871" end="954"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>it has been proved that living in this kind of condition will result in some mental diseases</text>
+    <TextPosition start="970" end="1062"/>
+    <Relation relationID="T15Default Inference" type="Default Inference" typeBinary="0" partnerID="T15"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="claim"/>
+    <text>the environment our grandparents live is more comfortable than today</text>
+    <TextPosition start="1070" end="1138"/>
+    <Relation relationID="RT15-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>Today, we are able to read the news all over the world, to chat with people through the Internet, or to travel around the world by planes</text>
+    <TextPosition start="1183" end="1320"/>
+    <Relation relationID="T18Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>it also means that any thing happens in the world will affect our life</text>
+    <TextPosition start="1331" end="1401"/>
+    <Relation relationID="T16Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="claim"/>
+    <text>The third reason is that the pace of life</text>
+    <TextPosition start="1140" end="1181"/>
+    <Relation relationID="RT18-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>If we cannot react properly and immediately, then we will be in a vulnerable situation</text>
+    <TextPosition start="1403" end="1489"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>We have no choice but have to live in a fast pace</text>
+    <TextPosition start="1491" end="1540"/>
+    <Relation relationID="T18Default Inference" type="Default Inference" typeBinary="0" partnerID="T18"/>
+  </Proposition>
+  <OriginalText>People are put too much focus on making wealth and progress in technology
+
+The life today is totally different from half centuries before. Advances in technology do help humans to solve abundant of problems; however it also deprives of some things that we had. In my opinion, life in the old days brings more happiness to people than today for several reasons.
+The first reason is life is simple in the past. Nowadays, all humans compete together. Since world population getting higher, competition is getting fierce. If you are not able to handle your jobs, then someone will replace you right away. People need to put much more effort to keep their living condition. Therefore, lives in the old days is easier than today.
+Second, the environment today is serious damaged. Looking out the windows, what I see isn't sky, trees or mountains, but is coldly high buildings. Everyday, I walk on hard roads, breath in polluted air, and live in a limited space. What's worse, it has been proved that living in this kind of condition will result in some mental diseases. Thus, the environment our grandparents live is more comfortable than today.
+The third reason is that the pace of life. Today, we are able to read the news all over the world, to chat with people through the Internet, or to travel around the world by planes; however, it also means that any thing happens in the world will affect our life. If we cannot react properly and immediately, then we will be in a vulnerable situation. We have no choice but have to live in a fast pace.
+In conclusion, while there some people live in a pretty good condition, it is only a minority. People are put too much focus on making wealth and progress in technology; nevertheless, behind the glamorous facade of it, what we loss will never be returned.</OriginalText>
+</Annotation>

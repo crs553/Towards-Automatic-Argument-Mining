@@ -1,0 +1,104 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T2">
+    <ADU type="conclusion"/>
+    <text>it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls, and we ca not forcedly put the same numbers of males and females into every subject</text>
+    <TextPosition start="1751" end="1951"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="claim"/>
+    <text>many different characters exist between male and female students</text>
+    <TextPosition start="254" end="318"/>
+    <Relation relationID="RT1-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>Most of male students tend to use their left brain to think and act, and they are more rational and logical than girls in many cases</text>
+    <TextPosition start="409" end="541"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>there are more male scientists and engineers in comparison with females around the world</text>
+    <TextPosition start="557" end="645"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Many boys are interested in science and technology, while a number of girls like to learn literature, education and arts</text>
+    <TextPosition start="647" end="767"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>girls are more likely to prefer some jobs related to emotion and communication, such as teacher, singer and interpreter</text>
+    <TextPosition start="778" end="897"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>girls differ from boys in mind and behaviour to a large extent, and they both have better ability in the specific aspect</text>
+    <TextPosition start="915" end="1035"/>
+    <Relation relationID="T8Default Inference" type="Default Inference" typeBinary="0" partnerID="T8"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="claim"/>
+    <text>boys and girls have the diversity in psychological modes and individuality</text>
+    <TextPosition start="333" end="407"/>
+    <Relation relationID="RT8-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>a girl, who is interested in literature, is arranged into an engineering department</text>
+    <TextPosition start="1260" end="1343"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>it can have a negative affect on these students to require them to choose a subject in equal proportion of gender</text>
+    <TextPosition start="1050" end="1163"/>
+    <Relation relationID="RT10-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>that does not conform to students' personality traits and mental development</text>
+    <TextPosition start="1169" end="1245"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>universities should encourage more girls to choose science subjects and more boys to study the humanities</text>
+    <TextPosition start="1484" end="1589"/>
+    <Relation relationID="RT12-T2" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>this could avoid imbalance of gender in some subjects</text>
+    <TextPosition start="1595" end="1648"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>It would affect students' mental health to study in the environment of single gender</text>
+    <TextPosition start="1650" end="1734"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>she is unlikely to focus on her subject</text>
+    <TextPosition start="1349" end="1388"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="premise"/>
+    <text>this also can block the girl's future development and career prospect</text>
+    <TextPosition start="1394" end="1463"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>We can not forcedly put the same numbers of males and females into every subject
+
+There is a view that universities and colleges should equally enroll male and female students in numbers in each faculty. Personally, I do not agree the viewpoint, because many different characters exist between male and female students.
+On one hand, boys and girls have the diversity in psychological modes and individuality. Most of male students tend to use their left brain to think and act, and they are more rational and logical than girls in many cases. For instance, there are more male scientists and engineers in comparison with females around the world. Many boys are interested in science and technology, while a number of girls like to learn literature, education and arts. Besides, girls are more likely to prefer some jobs related to emotion and communication, such as teacher, singer and interpreter. This means that girls differ from boys in mind and behaviour to a large extent, and they both have better ability in the specific aspect.
+Furthermore, it can have a negative affect on these students to require them to choose a subject in equal proportion of gender, and that does not conform to students' personality traits and mental development. For example, a girl, who is interested in literature, is arranged into an engineering department, but she is unlikely to focus on her subject, and this also can block the girl's future development and career prospect.
+On the other hand, universities should encourage more girls to choose science subjects and more boys to study the humanities, and this could avoid imbalance of gender in some subjects. It would affect students' mental health to study in the environment of single gender.
+In conclusion, it is necessary for universities to respect the individual choice of subject due to the diversity of boys and girls, and we ca not forcedly put the same numbers of males and females into every subject.</OriginalText>
+</Annotation>

@@ -1,0 +1,91 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>they may be factors decreasing the position of written language</text>
+    <TextPosition start="199" end="262"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>it is easy to point out many benefits users can get from email and text messaging, which answers to the question of their great popularity</text>
+    <TextPosition start="397" end="535"/>
+    <Relation relationID="RT2-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>Before email and mobile phone, human beings communicated by meeting directly, sending letters or later, calling from home phones</text>
+    <TextPosition start="537" end="665"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>Such ways usually made people have troubles for the expensiveness, difficulties in far communication or emergency and the loss of information</text>
+    <TextPosition start="667" end="808"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>People can send or receive electronic letters anywhere and anytime they want</text>
+    <TextPosition start="876" end="952"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="premise"/>
+    <text>thanks to the function provided by email and text messaging (SMS), it is cheaper and faster to transfer a lot of information, even to many people at the same time</text>
+    <TextPosition start="966" end="1128"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>They are so convenient that the majority of population prefer to use them instead of some traditional ways</text>
+    <TextPosition start="1130" end="1236"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="premise"/>
+    <text>email and cell phones have improved the obstacles above</text>
+    <TextPosition start="819" end="874"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="claim"/>
+    <text>The popularity of email and text messaging, as a result, leads to the losing of written language's position</text>
+    <TextPosition start="1238" end="1345"/>
+    <Relation relationID="RT10-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>People tend to use slangs and abbreviated words to shorten their writing and save more time in communicating for other activities</text>
+    <TextPosition start="1347" end="1476"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>language in writing is not in its original form</text>
+    <TextPosition start="1498" end="1545"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>people compose a message with only emoticons (the expressions by face created by service providers), which means there is no room for writing or typing texts</text>
+    <TextPosition start="1567" end="1724"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>it is more dangerous that youngsters sometimes use such new languages in their studying, writing assignments</text>
+    <TextPosition start="1736" end="1844"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>If that tendency continues at a rapid pace, written language may face up to a real problem about its stand</text>
+    <TextPosition start="1846" end="1952"/>
+    <Relation relationID="T10Default Inference" type="Default Inference" typeBinary="0" partnerID="T10"/>
+  </Proposition>
+  <OriginalText>Email and text messaging threats written language
+
+The introduction of email and text messaging has brought about considerable changes in communication. With this situation, some people believe that they may be factors decreasing the position of written language. I am in favor of that idea because of their advantages and the fact we can see today about the use of these new means.
+First of all, it is easy to point out many benefits users can get from email and text messaging, which answers to the question of their great popularity. Before email and mobile phone, human beings communicated by meeting directly, sending letters or later, calling from home phones. Such ways usually made people have troubles for the expensiveness, difficulties in far communication or emergency and the loss of information. However, email and cell phones have improved the obstacles above. People can send or receive electronic letters anywhere and anytime they want. Especially, thanks to the function provided by email and text messaging (SMS), it is cheaper and faster to transfer a lot of information, even to many people at the same time. They are so convenient that the majority of population prefer to use them instead of some traditional ways.
+The popularity of email and text messaging, as a result, leads to the losing of written language's position. People tend to use slangs and abbreviated words to shorten their writing and save more time in communicating for other activities. The outcome is that language in writing is not in its original form. Even in some cases, people compose a message with only emoticons (the expressions by face created by service providers), which means there is no room for writing or typing texts. Moreover, it is more dangerous that youngsters sometimes use such new languages in their studying, writing assignments. If that tendency continues at a rapid pace, written language may face up to a real problem about its stand.
+In conclusion, we cannot deny the threat from email and text messaging to the status of written language because their obvious popularity. Nevertheless, educators and individuals themselves, especially the youths should pay ore attention to this matter so that we can take advantages of the new language along with preserving the traditional one.</OriginalText>
+</Annotation>

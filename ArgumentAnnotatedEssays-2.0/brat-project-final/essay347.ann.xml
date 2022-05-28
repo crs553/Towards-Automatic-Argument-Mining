@@ -1,0 +1,97 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T3">
+    <ADU type="conclusion"/>
+    <text>buying habit is people's choice to make, not entirely affected by advertisements</text>
+    <TextPosition start="1691" end="1771"/>
+  </Proposition>
+  <Proposition id="T1">
+    <ADU type="premise"/>
+    <text>in most asian countries, advertisement company usually hire popular singers or actors to advertise the products to boosts the sales, and some people, especially adolescent may buy things from their favourite singer advertised to support their idol instead of to fill their needs</text>
+    <TextPosition start="313" end="591"/>
+    <Relation relationID="T2Default Inference" type="Default Inference" typeBinary="0" partnerID="T2"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>people will be swayed by the advertising and buy things they do not need it for their life</text>
+    <TextPosition start="208" end="298"/>
+    <Relation relationID="RT2T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="claim"/>
+    <text>it is important that government needs to impose rules on particularly advertisement company (for example, toys company) to avoid youngster have bias thought on what they really need</text>
+    <TextPosition start="1893" end="2074"/>
+    <Relation relationID="RT4-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>for children or adolescents who is not mentally develop, it might be hard for them not to swayed by advertising</text>
+    <TextPosition start="1777" end="1888"/>
+    <Relation relationID="T4Default Inference" type="Default Inference" typeBinary="0" partnerID="T4"/>
+  </Proposition>
+  <Proposition id="T6">
+    <ADU type="premise"/>
+    <text>there are always people purchase particular products swayed by advertising which makes it a trend to follow for other people who is unnecessarily need it</text>
+    <TextPosition start="892" end="1045"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>A good advertisement can convince people to believe that it is what they want, even though it is not the real needs of the society</text>
+    <TextPosition start="756" end="886"/>
+    <Relation relationID="RT7T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>products usually look more gorgeous and with good quality in advertisement, people are more likely to buy goods impulsively without a second thought</text>
+    <TextPosition start="606" end="754"/>
+    <Relation relationID="T7Default Inference" type="Default Inference" typeBinary="0" partnerID="T7"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>the advertisement is not the only cause for people to buy</text>
+    <TextPosition start="1112" end="1169"/>
+    <Relation relationID="RT9-T3" type="Default Inference" typeBinary="0" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>sometimes it depends on one's needs and ability of consumption</text>
+    <TextPosition start="1171" end="1233"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>buying habit is a very personal things for individuals</text>
+    <TextPosition start="1056" end="1110"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="premise"/>
+    <text>It is unlikely to buy things impulsively for adults who have concern of arranging disposable income</text>
+    <TextPosition start="1235" end="1334"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>Most of them have to allocate the money if they doing other purchase</text>
+    <TextPosition start="1336" end="1404"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="claim"/>
+    <text>children and adolescents who is not economic independence is more possible to buy things impulsively without considering whether they need it or not</text>
+    <TextPosition start="1425" end="1573"/>
+    <Relation relationID="RT14T3" type="Default Conflict" typeBinary="1" partnerID="T3"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>they do not have financial pressure from life and ability to define what is necessary</text>
+    <TextPosition start="1581" end="1666"/>
+    <Relation relationID="T14Default Inference" type="Default Inference" typeBinary="0" partnerID="T14"/>
+  </Proposition>
+  <OriginalText>Advertising impact on people's choice of consumption
+
+Nowdays, people's choice of consumption is heavily affected by various of advertising on television, street, magazine etc. This argument may be true that people will be swayed by the advertising and buy things they do not need it for their life. For example, in most asian countries, advertisement company usually hire popular singers or actors to advertise the products to boosts the sales, and some people, especially adolescent may buy things from their favourite singer advertised to support their idol instead of to fill their needs.
+In addition, products usually look more gorgeous and with good quality in advertisement, people are more likely to buy goods impulsively without a second thought. A good advertisement can convince people to believe that it is what they want, even though it is not the real needs of the society. And there are always people purchase particular products swayed by advertising which makes it a trend to follow for other people who is unnecessarily need it.
+However, buying habit is a very personal things for individuals, the advertisement is not the only cause for people to buy, sometimes it depends on one's needs and ability of consumption. It is unlikely to buy things impulsively for adults who have concern of arranging disposable income. Most of them have to allocate the money if they doing other purchase. On the other hand, children and adolescents who is not economic independence is more possible to buy things impulsively without considering whether they need it or not, since they do not have financial pressure from life and ability to define what is necessary.
+In my opinion, I think buying habit is people's choice to make, not entirely affected by advertisements. But for children or adolescents who is not mentally develop, it might be hard for them not to swayed by advertising. So it is important that government needs to impose rules on particularly advertisement company (for example, toys company) to avoid youngster have bias thought on what they really need.</OriginalText>
+</Annotation>

@@ -1,0 +1,129 @@
+<Annotation corpus="brat-project-final">
+  <Proposition id="T1">
+    <ADU type="conclusion"/>
+    <text>public museums and art galleries will still be necessary</text>
+    <TextPosition start="34" end="90"/>
+  </Proposition>
+  <Proposition id="T2">
+    <ADU type="claim"/>
+    <text>we can see the art works and historical objects online</text>
+    <TextPosition start="104" end="158"/>
+    <Relation relationID="RT2T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T3">
+    <ADU type="premise"/>
+    <text>the Internet really brings them convenience</text>
+    <TextPosition start="239" end="282"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T4">
+    <ADU type="premise"/>
+    <text>pictures online are only limited to a screen size</text>
+    <TextPosition start="401" end="450"/>
+    <Relation relationID="T11Default Inference" type="Default Inference" typeBinary="0" partnerID="T11"/>
+  </Proposition>
+  <Proposition id="T5">
+    <ADU type="premise"/>
+    <text>the exhibits in museums or galleries are all life size and visitors can get a more direct felling</text>
+    <TextPosition start="465" end="562"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T7">
+    <ADU type="claim"/>
+    <text>computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects</text>
+    <TextPosition start="1622" end="1755"/>
+    <Relation relationID="RT7T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T8">
+    <ADU type="premise"/>
+    <text>only when we see the real mummy, can we experience mystique</text>
+    <TextPosition start="577" end="636"/>
+    <Relation relationID="T5Default Inference" type="Default Inference" typeBinary="0" partnerID="T5"/>
+  </Proposition>
+  <Proposition id="T9">
+    <ADU type="claim"/>
+    <text>Most people nowadays prefer to use the Internet to search for art work</text>
+    <TextPosition start="160" end="230"/>
+    <Relation relationID="RT9T1" type="Default Conflict" typeBinary="1" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T10">
+    <ADU type="premise"/>
+    <text>We can browse the art work from all over the world at home</text>
+    <TextPosition start="284" end="342"/>
+    <Relation relationID="T9Default Inference" type="Default Inference" typeBinary="0" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T11">
+    <ADU type="premise"/>
+    <text>people may not get a spiritual experience</text>
+    <TextPosition start="353" end="394"/>
+    <Relation relationID="T9Default Conflict" type="Default Conflict" typeBinary="1" partnerID="T9"/>
+  </Proposition>
+  <Proposition id="T12">
+    <ADU type="claim"/>
+    <text>In order to help visitors to learn more about the exhibits, museums hold various activities which make visitors be part of what they are seeing</text>
+    <TextPosition start="638" end="781"/>
+    <Relation relationID="RT12-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T13">
+    <ADU type="premise"/>
+    <text>at American Museum of Natural History, you can make a bone-by-bone reproduction of the museum's stegosaurus</text>
+    <TextPosition start="796" end="903"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T14">
+    <ADU type="premise"/>
+    <text>at Museum of Art in New York, you can look at 17th century instruments while listening to their music</text>
+    <TextPosition start="905" end="1006"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T15">
+    <ADU type="premise"/>
+    <text>While if you "visit" the museum online, you may not able to get this kind of experience</text>
+    <TextPosition start="1008" end="1095"/>
+    <Relation relationID="T12Default Inference" type="Default Inference" typeBinary="0" partnerID="T12"/>
+  </Proposition>
+  <Proposition id="T16">
+    <ADU type="claim"/>
+    <text>Seeing an art work on computer screen is not the same as you watch it by your own eyes</text>
+    <TextPosition start="1097" end="1183"/>
+    <Relation relationID="RT16-T1" type="Default Inference" typeBinary="0" partnerID="T1"/>
+  </Proposition>
+  <Proposition id="T17">
+    <ADU type="premise"/>
+    <text>you can't see the texture of the artwork which is very important to study the skills used by the artist</text>
+    <TextPosition start="1199" end="1302"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T18">
+    <ADU type="premise"/>
+    <text>not all the details of the artwork can be shown on the computer screen</text>
+    <TextPosition start="1317" end="1387"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T19">
+    <ADU type="premise"/>
+    <text>Some details might be dim</text>
+    <TextPosition start="1389" end="1414"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <Proposition id="T20">
+    <ADU type="premise"/>
+    <text>the resolution ratio of the screen is not high enough</text>
+    <TextPosition start="1421" end="1474"/>
+    <Relation relationID="T19Default Inference" type="Default Inference" typeBinary="0" partnerID="T19"/>
+  </Proposition>
+  <Proposition id="T21">
+    <ADU type="premise"/>
+    <text>These may influence the comprehension of the art work or historical objects</text>
+    <TextPosition start="1476" end="1551"/>
+    <Relation relationID="T16Default Inference" type="Default Inference" typeBinary="0" partnerID="T16"/>
+  </Proposition>
+  <OriginalText>Are museums necessary?
+
+I believe public museums and art galleries will still be necessary, even though we can see the art works and historical objects online.
+Most people nowadays prefer to use the Internet to search for art work because the Internet really brings them convenience. We can browse the art work from all over the world at home. However, people may not get a spiritual experience since pictures online are only limited to a screen size. By contrast, the exhibits in museums or galleries are all life size and visitors can get a more direct felling. For example, only when we see the real mummy, can we experience mystique.
+In order to help visitors to learn more about the exhibits, museums hold various activities which make visitors be part of what they are seeing. For example, at American Museum of Natural History, you can make a bone-by-bone reproduction of the museum's stegosaurus; at Museum of Art in New York, you can look at 17th century instruments while listening to their music. While if you "visit" the museum online, you may not able to get this kind of experience.
+Seeing an art work on computer screen is not the same as you watch it by your own eyes. For instance, you can't see the texture of the artwork which is very important to study the skills used by the artist. What's more, not all the details of the artwork can be shown on the computer screen. Some details might be dim since the resolution ratio of the screen is not high enough. These may influence the comprehension of the art work or historical objects.
+In conclusion, I believe we still need museums and art galleries but computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects.
+</OriginalText>
+</Annotation>
