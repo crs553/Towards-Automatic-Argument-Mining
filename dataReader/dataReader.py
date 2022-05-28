@@ -1,7 +1,7 @@
 from glob import glob
 from os import getcwd
-
-import six
+import pandas as pd
+import xmltodict
 
 
 class Reader():
@@ -14,7 +14,7 @@ class Reader():
         self.__path = path
         self.__test_train_split = self.__setup_train_test()
         self.__texts = self.__open_text()
-        self.__anns = self.__open_annotations()
+        self.__anns = self.__load_annotations()
 
     @property
     def path(self) -> str:
@@ -64,22 +64,28 @@ class Reader():
 
         return local_texts
 
-    def __open_annotations(self) -> list:
+    def __load_annotations(self) -> list:
         """
-        Opens all annotation files within brat-project-final
+        Opens all annotation files within brat-project-final and creates a relational matrix
         :return:  list of found annotation files
         """
-        local_anns = []
-        filenames = [i for i in glob(self.__path + "/brat-project-final/*.ann")]
+        print("Directory annotation loading...")
+        print("Detected files: ")
+
+        anns = []
+
+        #change for xml needed
+        filenames = [i for i in glob(self.__path + "/brat-project-final/*ann")]
         filenames.sort()
 
         for fname in filenames:
+            print(fname[-12:])
             f = open(fname, "r")
             file = f.read()
             f.close()
-            local_anns.append((fname[-12:], file))
+            anns.append((fname[-12:], file))
 
-        return local_anns
+        return anns
 
 
 if __name__ == "__main__":
