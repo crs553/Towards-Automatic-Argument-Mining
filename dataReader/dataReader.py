@@ -1,7 +1,10 @@
 from glob import glob
 from os import getcwd
+
+import numpy as np
 import pandas as pd
 import xmltodict
+from nltk.tokenize import  sent_tokenize,word_tokenize
 
 
 class Reader():
@@ -67,7 +70,7 @@ class Reader():
     def __load_annotations(self) -> list:
         """
         Opens all annotation files within brat-project-final and creates a relational matrix
-        :return:  list of found annotation files
+        :return:  list of found annotation xml type files
         """
         print("Directory annotation loading...")
         print("Detected files: ")
@@ -75,17 +78,56 @@ class Reader():
         anns = []
 
         #change for xml needed
-        filenames = [i for i in glob(self.__path + "/brat-project-final/*ann")]
+        filenames = [i for i in glob(self.__path + "/brat-project-final/*ann.xml")]
         filenames.sort()
 
-        for fname in filenames:
-            print(fname[-12:])
+        for i, fname in enumerate(filenames):
+            print(fname[-16:])
             f = open(fname, "r")
             file = f.read()
             f.close()
-            anns.append((fname[-12:], file))
+            anns.append((fname[-16:], xmltodict.parse(file)))
 
         return anns
+
+    @staticmethod
+    def load_adu(file, fileid):
+        """
+
+        adapted from: https://github.com/negedng/argument_BERT/blob/master/preprocessing/data_loader.py
+        :param file:
+        :param fileid:
+        :return:
+        """
+        # relations in the form of a matrix
+        relations = {}
+
+        # argumentation id
+        argId = fileid
+
+        # parse the xml data to dictionary
+        xmlData = xmltodict.parse(file)
+
+        # get length of one matrix
+        matrixLen = len(xmlData['Annotation']['Proposition'])
+        relationCount = 0
+
+        # total number of possibe relations
+        totalRelation = matrixLen * matrixLen
+
+        # define the matrix
+        relationMatrix = np.zeros((matrixLen,matrixLen))
+
+        # original text for file after \n removed and token
+        original_txt = ""
+        sent_tokenize_list = None
+        len_sent_token_list = None
+
+        if 'OriginalText' in xmlData['Annotation']:
+            original_text = xmlData['Annotation']['OriginalText']
+            original_txt = original_text.replace('\n', ' ')
+            sent_tokenize_list = sent_tokenize(original_text)
+
 
 
 if __name__ == "__main__":
