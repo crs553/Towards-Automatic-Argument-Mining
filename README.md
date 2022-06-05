@@ -3,10 +3,15 @@
 ## Things to note:
 - Code only tested on Pop_OS 21.10 (Ubuntu)
 - Linux kernel 5.17.5-76051705-generic
+- Only tested with Python 3.10
 
 ## Dataset link:
 
 ## Code references:
+
+## Prerequisites befores running:
+- Install requirements in requirements.txt
+- run setup.py
 
 ## Setting up PyCharm on Linux:
 - Download Pycharm
