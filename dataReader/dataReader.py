@@ -7,14 +7,14 @@ import xmltodict
 from nltk.tokenize import sent_tokenize, word_tokenize
 
 
-class Reader():
-    def __init__(self, path: str) -> None:
+class Reader:
+    def __init__(self, __path: str) -> None:
         """
         Initialisation of the reader
-        :param path: the path to the folder containing the unzipped files
+        :param __path: the path to the folder containing the unzipped files
         """
 
-        self.__path = path
+        self.__path = __path
         print("Loading files")
         self.filenames = [i for i in glob(self.__path + "/brat-project-final/*.xml")]
         self.directory = self.filenames[0][:-16]
@@ -22,8 +22,8 @@ class Reader():
         print(self.filenames[0])
         self.filenames.sort()
         for num, i in enumerate(self.filenames):
-            t = "\n" if num % 10 == 0 else ""
-            print(f"{i[-16:]}\t", end=t)
+            _end = "\n" if num % 10 == 0 else ""
+            print(f"{i[-16:]}\t", end=_end)
         print()
 
     @property
@@ -51,7 +51,7 @@ class Reader():
 
         return splits
 
-    def load_from_directory(self, rst_files=False, ADU=False):
+    def load_from_directory(self, rst_files=False, adu=False):
         """Load all files in the directory, creates relation matrix for them
         Input:
             directory: directory with annotation files
@@ -65,21 +65,21 @@ class Reader():
         for (e, annotation_file) in enumerate(self.filenames):
             if annotation_file[-7:] not in ['ann.xml']:
                 continue
-            if not ADU:
+            if not adu:
                 file_data = self.load_single_file(e, rst_files)
             else:
-                file_data = self.load_for_ADU_types(e)
+                file_data = self.load_for_adu_types(e)
             data_list = data_list + file_data
         dataFrame = pd.DataFrame.from_dict(data_list, orient='columns')
         print('Loaded data length: ' + str(len(dataFrame)))
         return dataFrame
 
-    def load_single_file(self, fileID, rst=False) -> dict:
+    def load_single_file(self, file_id, rst=False) -> list:
         """
         Load a single file, creates relation matrix
-        :param fileID: index file
+        :param file_id: index file
         :param rst: True if RST files are stored and used
-        :return file_data: dictionary with following features:
+        :return file_data: list containing dictionary with following features:
                 arg1, arg2, argumentationID, label,
                 originalArg1, originalArg2, fullText1,
                 rstCon, rstConParent - only if RST active,
@@ -88,21 +88,14 @@ class Reader():
         """
 
         file_data = []
-        relations = {}
 
-        data = self.__get_single_data(fileID)
+        data = self.__get_single_data(file_id)
 
         xmlData = xmltodict.parse(data)
 
-        # if rst_files:
-        #     (recovered_string, prop_edu_dict) = load_merge(file_path)
-        #     edges = load_brackets(file_path)
-
-        argID = fileID
+        argID = file_id
 
         matrixLength = len(xmlData['Annotation']['Proposition'])
-        relationCount = 0
-        totalRelation = matrixLength * matrixLength
         relationMatrix = (matrixLength, matrixLength)
         relationMatrix = np.zeros(relationMatrix)
         sent_tokenize_list = None
@@ -151,6 +144,8 @@ class Reader():
                             else:
                                 relationMatrix[prop_id][prop_id2] = -3
 
+        sen1 = None
+        sen2 = None
         for i in range(len(relationMatrix)):
             for j in range(len(relationMatrix[i])):
                 if i != j and relationMatrix[i][j] > -3:
@@ -164,12 +159,10 @@ class Reader():
                     originalSentenceArg2 = propositions[j]['text']
 
                     if 'TextPosition' in propositions[i].keys():
-                        if propositions[i]['TextPosition']['@start'] \
-                                != '-1' or propositions[j]['TextPosition'
-                        ]['@start'] != '-1':
+                        if propositions[i]['TextPosition']['@start'] != '-1' \
+                                or propositions[j]['TextPosition']['@start'] != '-1':
 
-                            if propositions[i]['TextPosition']['@start'] \
-                                    != '-1':
+                            if propositions[i]['TextPosition']['@start'] != '-1':
                                 for sentence in sent_tokenize_list:
 
                                     if propositions[i]['text'] in sentence:
@@ -232,7 +225,7 @@ class Reader():
                     file_data.append(line_data)
         return file_data
 
-    def load_for_ADU_types(self, fileID):
+    def load_for_adu_types(self, __file_id):
         """Loads ADU type features.
         Input:
             fileID - index for the processed files
@@ -243,9 +236,9 @@ class Reader():
         """
         file_data = list()
         relationMatrix = {}
-        data = self.__get_single_data(fileID)
+        data = self.__get_single_data(__file_id)
 
-        argID = fileID
+        argID = __file_id
         xmlData = xmltodict.parse(data)
 
         matrixLength = len(xmlData['Annotation']['Proposition'])
@@ -258,6 +251,7 @@ class Reader():
         xmlData = xmltodict.parse(data)
 
         propositions = xmlData['Annotation']['Proposition']
+        sent_tokenize_list = None
         if 'OriginalText' in xmlData['Annotation']:
             original_text = xmlData['Annotation']['OriginalText']
             original_text2 = original_text.replace('\n', ' ')
@@ -300,7 +294,8 @@ class Reader():
             file_data.append(line_data)
         return file_data
 
-    def fit_tokenize_length_threshold(self,proposition, min_len=1, max_len=30):
+    @staticmethod
+    def fit_tokenize_length_threshold(proposition, min_len=1, max_len=30):
         """Drop out too long tokens"""
 
         if len(sent_tokenize(proposition)) > min_len:
@@ -310,8 +305,8 @@ class Reader():
         else:
             return False
 
-    def __get_single_data(self, fileID):
-        with open(self.filenames[fileID], 'r') as file:
+    def __get_single_data(self, __file_id):
+        with open(self.filenames[__file_id], 'r') as file:
             data = file.read()
 
         return data
@@ -340,7 +335,7 @@ class Reader():
         matrix_len = len(xml_data['Annotation']['Proposition'])
         relation_count = 0
 
-        # total number of possibe relations
+        # total number of possible relations
         total_relation = matrix_len * matrix_len
 
         # define the matrix
@@ -406,9 +401,3 @@ if __name__ == "__main__":
     t = reader.load_from_directory()
     print()
     print(t)
-
-
-    # for a,b in splits:
-    #     print(f"{a},{b}")
-    # print(splits[401])
-    # print(len(splits))
