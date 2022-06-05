@@ -1,0 +1,30 @@
+{
+  "support": [
+    "because",
+    "threfore",
+    "after",
+    "for",
+    "since",
+    "when",
+    "assuming",
+    "so",
+    "accordingly",
+    "thus",
+    "hence",
+    "then",
+    "consequently"
+  ],
+  "conflict": [
+    "however",
+    "but",
+    "though",
+    "execept",
+    "not",
+    "never",
+    "no",
+    "whereas",
+    "nonetheless",
+    "yet",
+    "despite"
+  ]
+}
