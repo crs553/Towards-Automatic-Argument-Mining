@@ -7,8 +7,8 @@ import json
 
 
 class disInd():
-    def __init__(self, texts=None):
-        self.__indicators = self.open_indicators()
+    def __init__(self, texts=None, indicators="premise_indicators"):
+        self.__indicators = self.open_indicators(indicators)
         self.__texts = texts
 
     def set_text(self, text):
@@ -25,13 +25,16 @@ class disInd():
         return self.__texts
 
     @staticmethod
-    def open_indicators() -> list:
+    def open_indicators(text_file) -> list:
         """
         Opens the discourse indicators folder and returns those indicators
+        :param self:
         :return file: list organised into support and conflict indicators they are indicated by 0 and 1 respectively
         """
         cwd = getcwd()
-        f = open(cwd + "/Models/combined_indicators.txt", "r")
+        print(f"Loading indicators file: {text_file}.txt")
+        f = open(cwd + f"/Models/{text_file}.txt", "r")
+
         file = f.read()
         f.close()
         file = file.split("\n")
@@ -59,19 +62,11 @@ class disInd():
         arg2 = arg2.lower()
         arg1 = arg1.translate(translator)
         arg2 = arg2.translate(translator)
-        # print(arg1 + "\n" + arg2)
         for indicator in self.__indicators:
             len_ind = len(indicator)
-            # print("indicator: "+indicator)
-            # print(arg1[-len_ind:])
-            # print(arg2[:len_ind])
             if arg2[:len_ind] == indicator or arg1[-len_ind:] == indicator:
                 return True
         return False
-        # words += str(i) for (i,_) in self.__indicators
-        # for (word, ind_type) in self.__indicators:
-        #     print(word)
-        #     text = text.split(word)
 
     def compare_identifications(self, identifications):
         correct = 0
@@ -85,13 +80,14 @@ class disInd():
         return correct
 
 
-def main():
+def run():
     path = "/home/charlie/Documents/Project/ArgumentAnnotatedEssays-2.0/"
     reader = Reader(path)
 
     # t = reader.load_from_directory()
     total = 0
-    v = disInd()
+    indicators = "combined_indicators" # change this to change the text file used
+    v = disInd(None, indicators)
 
     # case ran over full text
     total_identified = 0
@@ -112,9 +108,14 @@ def main():
 
         precision_numerator += v.compare_identifications(currid)
 
-    print(f"Precision: {precision_numerator/total_identified}")
-    print(f"Recall over full text {total_identified / total}")
+    precision = precision_numerator/total_identified
+    recall = total_identified/total
+    f1 = (precision*recall)/(precision+recall)
+    print(f"Values over while dataset")
+    print(f"Precision\t{precision}")
+    print(f"Recall\t{recall}")
+    print(f"f1\t{f1}")
 
 
 if __name__ == "__main__":
-    main()
+    run()

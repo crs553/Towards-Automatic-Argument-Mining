@@ -19,7 +19,7 @@ def main(path: str) -> None:
     # load in the data
 
     if method_type == "di":
-        discourseIndicators.main()
+        discourseIndicators.run()
     elif method_type == "svm":
         pass
     elif method_type == "tbd":

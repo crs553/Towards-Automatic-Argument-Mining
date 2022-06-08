@@ -1,5 +1,4 @@
 from glob import glob
-from os import getcwd
 
 import numpy as np
 import pandas as pd
@@ -51,7 +50,7 @@ class Reader:
 
         return splits
 
-    def load_from_directory(self, rst_files=False, adu=False):
+    def load_from_directory(self, adu=False):
         """Load all files in the directory, creates relation matrix for them
         Input:
             directory: directory with annotation files
@@ -66,7 +65,7 @@ class Reader:
             if annotation_file[-7:] not in ['ann.xml']:
                 continue
             if not adu:
-                file_data = self.load_single_file(e, rst_files)
+                file_data = self.load_single_file(e)
             else:
                 file_data = self.load_for_adu_types(e)
             data_list = data_list + file_data
@@ -74,11 +73,10 @@ class Reader:
         print('Loaded data length: ' + str(len(dataFrame)))
         return dataFrame
 
-    def load_single_file(self, file_id, rst=False) -> list:
+    def load_single_file(self, file_id) -> list:
         """
         Load a single file, creates relation matrix
         :param file_id: index file
-        :param rst: True if RST files are stored and used
         :return file_data: list containing dictionary with following features:
                 arg1, arg2, argumentationID, label,
                 originalArg1, originalArg2, fullText1,
@@ -392,12 +390,14 @@ class Reader:
         return file_data
 
 
-if __name__ == "__main__":
-    path = getcwd()[:-11] + "/ArgumentAnnotatedEssays-2.0"
-    # path = "/home/charlie/Documents/Project/ArgumentAnnotatedEssays-2.0/"
-    reader = Reader(path)
-
-    print()
-    t = reader.load_from_directory()
-    print()
-    print(t)
+# if __name__ == "__main__":
+#     path = getcwd()[:-11] + "/ArgumentAnnotatedEssays-2.0"
+#     # path = "/home/charlie/Documents/Project/ArgumentAnnotatedEssays-2.0/"
+#     reader = Reader(path)
+#
+#     print()
+#     t = reader.load_from_directory()
+#     print()
+#     print(t)
+#     print(list(t.columns.values))
+#     print(t.iloc[0])
