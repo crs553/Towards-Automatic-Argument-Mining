@@ -181,7 +181,9 @@ class Reader:
                         'arg2': propositions[j]['text'],
                         'originalArg2': originalSentenceArg2,
                         'label': relationMatrix[i][j],
+                        'originalLabel': relationMatrix[i][j],
                         'fullText1': original_text2,
+                        'fileid': file_id,
                     }
 
                     # if rst_files:
@@ -288,6 +290,7 @@ class Reader:
                 'label': aduType,
                 'fullText1': original_text2,
                 'positArg1': positArg1 / len(original_text2),
+                'fileid': __file_id
             }
             file_data.append(line_data)
         return file_data
@@ -404,6 +407,7 @@ def get_train_test_split(path: str) -> list:
         format_file.append((x[1:9],label))
 
     return format_file
+
 # if __name__ == "__main__":
 #     path = getcwd()[:-11] + "/ArgumentAnnotatedEssays-2.0"
 #     # path = "/home/charlie/Documents/Project/ArgumentAnnotatedEssays-2.0/"
