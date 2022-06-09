@@ -7,11 +7,17 @@ import json
 
 
 class disInd():
-    def __init__(self, texts=None, indicators="premise_indicators"):
+    def __init__(self, texts=None, indicators="discourse_indicators"):
+        """
+        Intialises Discourse indicators
+        :param texts: text to be ran on (can be set later using set_text method)
+        :param indicators: name of .txt file to use for indicators
+        """
         self.__indicators = self.open_indicators(indicators)
         self.__texts = texts
 
     def set_text(self, text):
+        """Sets texts for use in discoruse indicators"""
         self.__texts = text
 
     @property
@@ -28,7 +34,7 @@ class disInd():
     def open_indicators(text_file) -> list:
         """
         Opens the discourse indicators folder and returns those indicators
-        :param self:
+        :param text_file:
         :return file: list organised into support and conflict indicators they are indicated by 0 and 1 respectively
         """
         cwd = getcwd()
@@ -42,11 +48,15 @@ class disInd():
         return file
 
     def run(self) -> (int, [str, str]):
+        """
+        Runs the discourse indicator method at a sentence level
+        :return: the number of correct instances followed by a list of tuples of the sentences with the correct identifications
+        """
         correct = 0
-        text = self.__texts[0]['fullText1']
+        text = self.texts[0]['fullText1']
         sent_text = sent_tokenize(text)
         identified_tuples = []
-        for i in range(len(sent_text) - 1):
+        for i in range(len(sent_text)-1):
             arg1 = sent_text[i]
             arg2 = sent_text[i + 1]
             if self.compare_args(arg1, arg2):
@@ -54,21 +64,35 @@ class disInd():
                 # appends arg1, arg2 and the location of the first argument
                 # in terms of the number of sentences
                 identified_tuples.append((arg1, arg2))
+
         return correct, identified_tuples
 
     def compare_args(self, arg1, arg2):
-        translator = str.maketrans('', '', string.punctuation)
-        arg1 = arg1.lower()
-        arg2 = arg2.lower()
-        arg1 = arg1.translate(translator)
-        arg2 = arg2.translate(translator)
+        """
+        Compares arguments determining if the first argument ends with an indicator or the second starts with one
+        :param arg1: The first sentence
+        :param arg2: The second sentence
+        :return bool: True if indicator is contained False if not
+        """
+        arg1 = self.format(arg1)
+        arg2 = self.format(arg2)
+
         for indicator in self.__indicators:
             len_ind = len(indicator)
             if arg2[:len_ind] == indicator or arg1[-len_ind:] == indicator:
                 return True
         return False
 
+    @staticmethod
+    def format(arg):
+        """Removes punctuations and uppercase from passed string"""
+        translator = str.maketrans('', '', string.punctuation)
+        arg = arg.lower()
+        arg = arg.translate(translator)
+        return arg
+
     def compare_identifications(self, identifications):
+        """Compares tuples of identified arguments with the arguments presented in text"""
         correct = 0
         for id1, id2 in identifications:
             for x in self.__texts:
@@ -81,26 +105,25 @@ class disInd():
 
 
 def run():
+    """Runs the discourse indicators model"""
     path = "/home/charlie/Documents/Project/ArgumentAnnotatedEssays-2.0/"
     reader = Reader(path)
 
     # t = reader.load_from_directory()
     total = 0
-    indicators = "combined_indicators" # change this to change the text file used
+    indicators = "combined_indicators"  # change this to change the text file used
     v = disInd(None, indicators)
 
     # case ran over full text
     total_identified = 0
-    identifications = []
 
     precision_numerator = 0
 
     # For case argument it already split
+    print("Running argument discourse")
     for i in range(402):
         t = reader.load_single_file(i)
-        # print(t[0])
         v.set_text(t)
-        # print(t[0]['fullText1'])
 
         total += len(t)
         currc, currid = v.run()
@@ -108,9 +131,9 @@ def run():
 
         precision_numerator += v.compare_identifications(currid)
 
-    precision = precision_numerator/total_identified
-    recall = total_identified/total
-    f1 = (precision*recall)/(precision+recall)
+    precision = precision_numerator / total_identified
+    recall = total_identified / total
+    f1 = (precision * recall) / (precision + recall)
     print(f"Values over while dataset")
     print(f"Precision\t{precision}")
     print(f"Recall\t{recall}")
