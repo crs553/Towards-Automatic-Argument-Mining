@@ -390,6 +390,20 @@ class Reader:
         return file_data
 
 
+def get_train_test_split(path: str) -> list:
+    f = open(path + "train-test-split.csv", "r")
+    if f is None:
+        raise FileNotFoundError(f"Could not find file at {path}train-test-split.csv")
+    file = f.read()
+    file = file.split("\n")
+    format_file = []
+    for x in file[1:-1]:
+        label = 0
+        if "test" in x.lower():
+            label = 1
+        format_file.append((x[1:9],label))
+
+    return format_file
 # if __name__ == "__main__":
 #     path = getcwd()[:-11] + "/ArgumentAnnotatedEssays-2.0"
 #     # path = "/home/charlie/Documents/Project/ArgumentAnnotatedEssays-2.0/"

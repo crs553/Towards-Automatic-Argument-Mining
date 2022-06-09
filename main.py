@@ -1,5 +1,5 @@
 from os import getcwd
-from Models import discourseIndicators
+from Models import discourseIndicators,svm
 
 
 # sorting out what method to take
@@ -9,7 +9,8 @@ def main(path: str) -> None:
     :param path_to_file:
     """
     print("Please enter method type:\n> DI - Discourse Indicators\n> SVM\n> TBD\n> CM - Combined Method (uses all above)")
-    method_type = input().lower()
+    # method_type = input().lower()
+    method_type = "svm"
 
     # see if value appropriate
     allowed = {"di", "svm", "tbd", "cm"}
@@ -21,7 +22,7 @@ def main(path: str) -> None:
     if method_type == "di":
         discourseIndicators.run()
     elif method_type == "svm":
-        pass
+        svm.run()
     elif method_type == "tbd":
         pass
     elif method_type == "cm":
