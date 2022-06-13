@@ -18,10 +18,9 @@ class Reader:
         self.filenames = [i for i in glob(self.__path + "/brat-project-final/*.xml")]
         self.directory = self.filenames[0][:-16]
         print(f"Detected {len(self.filenames)} files:")
-        print(self.filenames[0])
         self.filenames.sort()
         for num, i in enumerate(self.filenames):
-            _end = "\n" if num % 10 == 0 else ""
+            _end = "\n" if num % 12 == 0 and num != 0 else ""
             print(f"{i[-16:]}\t", end=_end)
         print()
 
@@ -184,30 +183,6 @@ class Reader:
                         'fullText1': original_text2,
                         'fileid': file_id ,
                     }
-
-                    # if rst_files:
-                    #     arg1_range = get_edus(propositions[i]['text'],
-                    #                           recovered_string, prop_edu_dict)
-                    #     arg2_range = get_edus(propositions[j]['text'],
-                    #                           recovered_string, prop_edu_dict)
-                    #     arg1_rsts = get_rst_stats(arg1_range, edges)
-                    #     arg2_rsts = get_rst_stats(arg2_range, edges)
-                    #     cn1 = arg1_rsts['connected_nodes']
-                    #     cn2 = arg2_rsts['connected_nodes']
-                    #     conn = False
-                    #     conn_parent = any([z in cn1 for z in cn2])
-                    #     for c in cn1:
-                    #         if c in arg2_range:
-                    #             conn = True
-                    #     for c in cn2:
-                    #         if c in arg1_range:
-                    #             conn = True
-                    #     line_data['rstCon'] = (1 if conn else 0)
-                    #     line_data['rstConParent'] = \
-                    #         (1 if conn_parent else 0)
-                    #
-                    # #                    line_data['posEduArg1'] = arg1_range[0]
-                    # #                    line_data['posEduArg2'] = arg2_range[0]
 
                     positArg1 = int(propositions[i]['TextPosition']['@start'])
                     positArg2 = int(propositions[j]['TextPosition']['@start'])
@@ -387,6 +362,7 @@ class Reader:
                 'label': adu_type,
                 'fullText1': original_txt,
                 'positArg1': positArg1 / len(original_txt),
+                'fileid':fileid
             }
             file_data.append(line_data)
         return file_data
