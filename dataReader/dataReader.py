@@ -60,7 +60,6 @@ class Reader:
             dataFrame: pandas DataFrame with samples as rows"""
 
         data_list = list()
-
         for (e, annotation_file) in enumerate(self.filenames):
             if annotation_file[-7:] not in ['ann.xml']:
                 continue
@@ -183,7 +182,7 @@ class Reader:
                         'label': relationMatrix[i][j],
                         'originalLabel': relationMatrix[i][j],
                         'fullText1': original_text2,
-                        'fileid': file_id,
+                        'fileid': file_id ,
                     }
 
                     # if rst_files:
@@ -400,12 +399,11 @@ def get_train_test_split(path: str) -> list:
     file = f.read()
     file = file.split("\n")
     format_file = []
-    for x in file[1:-1]:
+    for x in file[1:]:
         label = 0
         if "test" in x.lower():
             label = 1
         format_file.append((x[1:9],label))
-
     return format_file
 
 # if __name__ == "__main__":
