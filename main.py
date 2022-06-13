@@ -8,7 +8,8 @@ def main(path: str) -> None:
     Start of Implementation of methods
     :param path_to_file:
     """
-    print("Please enter method type:\n> DI - Discourse Indicators\n> SVM\n> TBD\n> CM - Combined Method (uses all above)")
+    print("Please enter method type:\n> DI - Discourse Indicators\n> SVM\n> TBD\n> CM - Combined Method (uses all "
+          "above)")
     # method_type = input().lower()
     method_type = "svm"
 
@@ -18,7 +19,6 @@ def main(path: str) -> None:
         raise ValueError(f"{method_type} is not a correct value",
                          "Please restart the program and enter a correct value")
     # load in the data
-
     if method_type == "di":
         discourseIndicators.run()
     elif method_type == "svm":
