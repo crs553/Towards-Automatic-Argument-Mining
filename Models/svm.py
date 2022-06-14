@@ -3,7 +3,7 @@ import string
 import nltk
 
 from dataReader.dataReader import Reader, get_train_test_split
-from nltk.tokenize import RegexpTokenizer
+from nltk.tokenize import RegexpTokenizer, sent_tokenize
 from sklearn import svm
 import pandas as pd
 import string
@@ -41,84 +41,87 @@ class SVM():
         # train_list = [x-1 for x in train_list]
 
         pd.set_option("display.max_columns", None)
-
         self.train_dataset = data[data['fileid'].isin(train_list)].copy()
         self.test_dataset = data[data['fileid'].isin(test_list)].copy()
         if len(self.test_dataset) + len(self.train_dataset) != len(data):
             raise ValueError("test and training csv does not contain all files")
 
-        x_train = self.__prep_data(self.train_dataset)
+        x_train = self.__prep_data(self.train_dataset,"train")
         y_train = train_list
-        x_test = self.__prep_data(self.test_dataset)
+        x_test = self.__prep_data(self.test_dataset, "test")
         y_test = test_list
         # print(x_train)
         raise ValueError
         return x_train, y_train, x_test, y_test
 
     @staticmethod
-    def __prep_data(dataset):
+    def __prep_data(dataset, typ= "train") -> pd.DataFrame:
         #
-        # print("Prepping Train Dataset")
+        print(f"Prepping {typ} Dataset")
         # print(dataset.columns.values)
         # print(dataset.iloc[0])
         # dataset.drop(['fileid','label'], axis=1, inplace=True)
         # print(dataset.columns.values)
-        tokeniser = RegexpTokenizer(r'\w+')
+        punct_rem_tokeniser = RegexpTokenizer(r'\w+')
         # texts = dataset.loc[:, ["fullText1","fileid"]]
-        print(dataset.shape)
         texts = dataset.fullText1.unique()
         all_texts = []
 
-        for i, text in enumerate(texts):
+        labels = []
+
+        print("Prepping features")
+        for text in texts:
             manip_text = text
             manip_text = manip_text.lower()
 
             # remove full stops
-            sentences_punt = manip_text.split(". ")
-            sentences_punt[-1] = sentences_punt[-1][:-1]
+            sentences_split = sent_tokenize(manip_text)
+            sentences_punt = [x[:-1] for x in sentences_split]
 
             # get number of punctuations marks in each sentence
-            num_of_puncts = []
+            num_puncts_lst = []
 
             for punct in sentences_punt:
                 num_punct = sum([ 1 for char in punct if char in string.punctuation])
-                num_of_puncts.append(num_punct)
-
+                num_puncts_lst.append(num_punct)
 
             # retrieve sentence length in term of only alphabet characters
-            sentences_non_punct = []
+            sent_len_lst = []
+            sent_unpunct = []
             for punct in sentences_punt:
-                non_punct =
-                sentences_non_punct.append()
-                break
-
+                non_punct = punct_rem_tokeniser.tokenize(punct)
+                sent_unpunct.append(non_punct)
+                sent_len = len(non_punct)
+                sent_len_lst.append(sent_len)
 
             # 3 successive words either side
-            before = None
-            after = None
+            prev_words = []
+            after_words = []
+            for j in range(len(sent_unpunct)-1):
+                before = "."
+                after = "."
+                if j != 0:
+                    before = sent_unpunct[j-1][-3:]
+                if j < len(texts) - 1:
+                    after = sent_unpunct[j+1][:3]
+                prev_words.append(before)
+                after_words.append(after)
 
-            #pos tag
-            # nltk.pos_tag_sents()
+            # raise ValueError
+            pos_tagged = nltk.pos_tag_sents(sent_unpunct)
+
             # nltk pos tag_word?
-            overall_sentences = list(zip(sentences_punt,num_of_puncts))
-            all_texts.append((i,overall_sentences))
+            overall_sentences = list(map(list,zip(sentences_punt,num_puncts_lst,sent_len_lst, prev_words, after_words, pos_tagged)))
+            [all_texts.append([x,y,z,a,b,c]) for x,y,z,a,b,c in overall_sentences]
 
-        for _, sent in all_texts:
-            print(sent[-1])
-            break
-        raise ValueError("Hello")
-
-        # # # obtained flattened list from panda columns
-        # # full_texts = texts.values.tolist()
-        # # full_texts = [x for xs in full_texts for x in xs]
-        # print(len(full_texts))
-        # no_dup_texts = list(dict.fromkeys(full_texts))
-        # print(len(no_dup_texts))
-        # # raise ValueError()
-        # new_dataset = pd.unique(dataset[dataset["fileText1"]])
-        # print(len(new_dataset))
-        # raise FileNotFoundError("This is a new test")
-        return dataset
+        print(len(all_texts))
+        print(all_texts[0])
+        columns = ["punct_sentences","number_punct","sentence_length", "prev", "after", "pos_tag"]
+        dataframe = pd.DataFrame(all_texts)
+        dataframe.columns = columns
+        print(dataframe.shape)
+        print(dataframe.head())
+        return dataframe
 
     def __prep_test_data(self, t_list):
         data = "1"
