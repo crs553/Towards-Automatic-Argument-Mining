@@ -1,5 +1,5 @@
 from os import getcwd
-from Models import discourseIndicators,svm
+from Models import discourseIndicators,svm_argumentative
 
 
 # sorting out what method to take
@@ -22,7 +22,7 @@ def main(path: str) -> None:
     if method_type == "di":
         discourseIndicators.run()
     elif method_type == "svm":
-        svm.run()
+        svm_argumentative.run()
     elif method_type == "tbd":
         pass
     elif method_type == "cm":

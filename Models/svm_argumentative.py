@@ -10,7 +10,7 @@ import string
 from os import getcwd
 
 
-class SVM():
+class SVM_Argumentative():
     def __init__(self, path):
         """
         Support Vector Machine initialisation
@@ -20,9 +20,7 @@ class SVM():
 
         self.path = path
 
-        self.train_dataset = pd.DataFrame()
-        self.test_dataset = pd.DataFrame()
-        self.prep_data()
+        self.x_train, self.y_train, self.x_test, self.y_test = self.prep_data()
         # self.target = (0, 1, 2)  # 0 is not a major claim, 1 is a major claim
         self.is_trained = False
 
@@ -31,14 +29,9 @@ class SVM():
         train_test_split = get_train_test_split(self.path)
         data = self.datareader.load_from_directory()
         print("Directory loaded")
-        ### NOTE: difference in number of unique texts vs number of fileid -- dataset error?
-        # print(data['fullText1'].nunique())
-        # print(data['fileid'].nunique())
 
         train_list = [i for i, (_, y) in enumerate(train_test_split) if y == 0]
         test_list = [i for i, (_, y) in enumerate(train_test_split) if y == 1]
-        # test_list = [x-1 for x in test_list]
-        # train_list = [x-1 for x in train_list]
 
         pd.set_option("display.max_columns", None)
         self.train_dataset = data[data['fileid'].isin(train_list)].copy()
@@ -46,30 +39,19 @@ class SVM():
         if len(self.test_dataset) + len(self.train_dataset) != len(data):
             raise ValueError("test and training csv does not contain all files")
 
-        x_train = self.__prep_data(self.train_dataset,"train")
-        y_train = train_list
-        x_test = self.__prep_data(self.test_dataset, "test")
-        y_test = test_list
-        # print(x_train)
-        raise ValueError
+        #prep test and train splits
+        x_train, y_train = self.__prep_data(self.train_dataset, "train")
+        x_test, y_test = self.__prep_data(self.test_dataset, "test")
+        print("Features added")
         return x_train, y_train, x_test, y_test
 
     @staticmethod
-    def __prep_data(dataset, typ= "train") -> pd.DataFrame:
+    def __prep_data(dataset, typ="train") -> pd.DataFrame:
         #
         print(f"Prepping {typ} Dataset")
-        # print(dataset.columns.values)
-        # print(dataset.iloc[0])
-        # dataset.drop(['fileid','label'], axis=1, inplace=True)
-        # print(dataset.columns.values)
         punct_rem_tokeniser = RegexpTokenizer(r'\w+')
-        # texts = dataset.loc[:, ["fullText1","fileid"]]
         texts = dataset.fullText1.unique()
         all_texts = []
-
-        labels = []
-
-        print("Prepping features")
         for text in texts:
             manip_text = text
             manip_text = manip_text.lower()
@@ -82,53 +64,63 @@ class SVM():
             num_puncts_lst = []
 
             for punct in sentences_punt:
-                num_punct = sum([ 1 for char in punct if char in string.punctuation])
+                num_punct = sum([1 for char in punct if char in string.punctuation])
                 num_puncts_lst.append(num_punct)
 
             # retrieve sentence length in term of only alphabet characters
-            sent_len_lst = []
-            sent_unpunct = []
-            for punct in sentences_punt:
-                non_punct = punct_rem_tokeniser.tokenize(punct)
-                sent_unpunct.append(non_punct)
-                sent_len = len(non_punct)
-                sent_len_lst.append(sent_len)
+            sent_unpunct = [punct_rem_tokeniser.tokenize(x) for x in sentences_punt]
+            sent_len_lst = [len(x) for x in sent_unpunct]
 
             # 3 successive words either side
-            prev_words = []
-            after_words = []
-            for j in range(len(sent_unpunct)-1):
-                before = "."
-                after = "."
-                if j != 0:
-                    before = sent_unpunct[j-1][-3:]
-                if j < len(texts) - 1:
-                    after = sent_unpunct[j+1][:3]
-                prev_words.append(before)
-                after_words.append(after)
+            prev_words = [x[-3:] for x in sent_unpunct]
+            prev_words.insert(0, ["."])
+            prev_words = prev_words[:-1]
+            after_words = [x[:3] for x in sent_unpunct]
+            after_words.insert(-1, ["."])
+            after_words = after_words[1:]
+
+            # for
 
             # raise ValueError
             pos_tagged = nltk.pos_tag_sents(sent_unpunct)
 
             # nltk pos tag_word?
-            overall_sentences = list(map(list,zip(sentences_punt,num_puncts_lst,sent_len_lst, prev_words, after_words, pos_tagged)))
-            [all_texts.append([x,y,z,a,b,c]) for x,y,z,a,b,c in overall_sentences]
+            overall_sentences = list(map(list,
+                                         zip(sentences_split, sentences_punt, num_puncts_lst, sent_len_lst, prev_words,
+                                             after_words, pos_tagged)))
+            [all_texts.append(list(x)) for x in overall_sentences]
 
-        print(len(all_texts))
-        print(all_texts[0])
-        columns = ["punct_sentences","number_punct","sentence_length", "prev", "after", "pos_tag"]
+        # print(len(all_texts))
+        # print(all_texts[0])
+        columns = ["unformat_sentence", "punct_sentences", "number_punct", "sentence_length", "prev", "after",
+                   "pos_tag"]
         dataframe = pd.DataFrame(all_texts)
         dataframe.columns = columns
-        print(dataframe.shape)
-        print(dataframe.head())
-        return dataframe
+        print(f"{typ} dataset shape: {dataframe.shape}")
 
-    def __prep_test_data(self, t_list):
-        data = "1"
-        return data
+        # label creation
+        arg_sentences = set()
+        [arg_sentences.add(sent.lower()) for sent in dataset.originalArg1.unique()]
+        [arg_sentences.add(sent.lower()) for sent in dataset.originalArg2.unique()]
+
+        all_sent = dataframe['unformat_sentence'].to_list()
+        labels = []
+        for sent in all_sent:
+            if sent.lower() in arg_sentences:
+                labels.append(1)
+            else:
+                labels.append(0)
+        # labels = [y for x in dataset['unformat_sentence'].to_list() if x in arg_sentences]
+        # print(len(labels))
+
+        print(f"argumentative sentence amount: {len(arg_sentences)}")
+        print(f"label total: {len(labels)}")
+        # print(dataset.columns.values)
+        return dataframe, labels
 
     def train(self):
-        prepped_trainset = self.change_labels(dataset=self.train_dataset)
+        # prepped_trainset =
+        print("t")
         return None
         # for x in prepped_trainset:
         #     print(x['label'], end= " ")
@@ -152,7 +144,7 @@ def run():
     path = getcwd()
     path += "/ArgumentAnnotatedEssays-2.0/"
 
-    ml_model = SVM(path)
+    ml_model = SVM_Argumentative(path)
 
     # ml_model.train()
 
