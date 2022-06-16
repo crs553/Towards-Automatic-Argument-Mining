@@ -19,3 +19,8 @@
   - `export PATH=$PATH:/path_to_pycharm/PyCharm/bin/`
 - run `source ~/.bashrc`
 - run Pycharm in Project directory using terminal `./pycharm.sh`
+
+## Getting GoogleNews-vectors
+1. `python -m gensim.downloader -d word2vec-google-news-300`
+2. Move word2vec-google-news-300.gz to Project/ directory 
+3. gzip -d ./word2vec-google-news-300.gz
