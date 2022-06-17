@@ -24,3 +24,4 @@
 1. `python -m gensim.downloader -d word2vec-google-news-300`
 2. Move word2vec-google-news-300.gz to Project/ directory 
 3. gzip -d ./word2vec-google-news-300.gz
+4. https://code.google.com/archive/p/word2vec/
