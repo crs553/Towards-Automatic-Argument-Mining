@@ -90,12 +90,6 @@ class disInd():
         translator = str.maketrans('', '', string.punctuation)
         arg = arg.lower()
         arg = arg.translate(translator)
-        # stop_words = set(stopwords.words('english'))
-        # arg = arg.split(" ")
-        # arg = [x for x in arg if x not in stop_words]
-        # # print(arg)
-        # new_str = " ".join(arg)
-        # print(new_str)
         return arg
 
     def compare_identifications(self, identifications):
@@ -118,7 +112,7 @@ def run():
 
     # t = reader.load_from_directory()
     total = 0
-    indicators = "combined_indicators"  # change this to change the text file used
+    indicators = "premise_indicators"  # change this to change the text file used
     v = disInd(None, indicators)
 
     # case ran over full text
@@ -128,7 +122,7 @@ def run():
 
     # For case argument it already split
     print("Running argument discourse")
-    for i in range(1):
+    for i in range(402):
         t = reader.load_single_file(i)
         v.set_text(t)
 

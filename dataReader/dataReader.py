@@ -33,29 +33,31 @@ class Reader:
     def len_dataset(self) -> int:
         return len(self.filenames)
 
-    def setup_train_test(self) -> list:
-        """
-        Finds train and test type for each file splits and returns them as list
-        :return:
-        """
-        f = open(self.__path + "/train-test-split.csv", "r")
-        file = f.read()
-        f.close()
-        clean_file = file.split("\n")
-        clean_file = clean_file[1:-1]
-        splits = []
-        for f_and_t in clean_file:
-            a = f_and_t[1:-1].split(";")
-            splits.append((a[0][:-1], a[1][1:]))
-
-        split_new = []
-        for i, j in splits:
-            z = 1
-            if j == "TRAIN":
-                z = 0
-            split_new.append((i, z))
-
-        return splits
+    # def setup_train_test(self) -> list:
+    #     """
+    #     Finds train and test type for each file splits and returns them as list
+    #     :return:
+    #     """
+    #     f = open(self.__path + "/train-test-split.csv", "r")
+    #     file = f.read()
+    #     f.close()
+    #     clean_file = file.split("\n")
+    #     clean_file = clean_file[1:-1]
+    #     splits = []
+    #     for f_and_t in clean_file:
+    #         a = f_and_t[1:-1].split(";")
+    #         splits.append((a[0][:-1], a[1][1:]))
+    #
+    #     split_new = []
+    #     for i, j in splits:
+    #         z = 1
+    #         if j == "TRAIN":
+    #             z = 0
+    #
+    #         pos = int(i[-3:])
+    #         split_new.append((pos, z))
+    #
+    #     return split_new
 
     def load_from_directory(self, adu=False):
         """Load all files in the directory, creates relation matrix for them
@@ -389,6 +391,6 @@ def get_train_test_split(path: str) -> list:
         label = 0
         if "test" in x.lower():
             label = 1
-        format_file.append((x[1:9], label))
+        format_file.append((int(x[6:9]), label))
     return format_file
 

@@ -25,3 +25,6 @@
 2. Move word2vec-google-news-300.gz to Project/ directory 
 3. gzip -d ./word2vec-google-news-300.gz
 4. https://code.google.com/archive/p/word2vec/
+
+## Spacy Download
+1. python -m spacy download en_core_web_lg
