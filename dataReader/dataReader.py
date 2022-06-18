@@ -2,6 +2,7 @@ from glob import glob
 
 import numpy as np
 import pandas as pd
+import tqdm
 import xmltodict
 from nltk.tokenize import sent_tokenize, word_tokenize
 
@@ -19,10 +20,10 @@ class Reader:
         self.directory = self.filenames[0][:-16]
         print(f"Detected {len(self.filenames)} files:")
         self.filenames.sort()
-        for num, i in enumerate(self.filenames):
-            _end = "\n" if num % 12 == 0 and num != 0 else ""
-            print(f"{i[-16:]}\t", end=_end)
-        print()
+        # for num, i in enumerate(self.filenames):
+        #     _end = "\n" if num % 12 == 0 and num != 0 else ""
+        #     print(f"{i[-16:]}\t", end=_end)
+        # print()
 
     @property
     def path(self) -> str:
@@ -47,6 +48,13 @@ class Reader:
             a = f_and_t[1:-1].split(";")
             splits.append((a[0][:-1], a[1][1:]))
 
+        split_new = []
+        for i, j in splits:
+            z = 1
+            if j == "TRAIN":
+                z = 0
+            split_new.append((i, z))
+
         return splits
 
     def load_from_directory(self, adu=False):
@@ -59,6 +67,7 @@ class Reader:
             dataFrame: pandas DataFrame with samples as rows"""
 
         data_list = list()
+        pdbar = tqdm.tqdm(total=len(self.filenames))
         for (e, annotation_file) in enumerate(self.filenames):
             if annotation_file[-7:] not in ['ann.xml']:
                 continue
@@ -67,6 +76,7 @@ class Reader:
             else:
                 file_data = self.load_for_adu_types(e)
             data_list = data_list + file_data
+            pdbar.update(1)
         dataFrame = pd.DataFrame.from_dict(data_list, orient='columns')
         print('Loaded data length: ' + str(len(dataFrame)))
         return dataFrame
@@ -181,7 +191,7 @@ class Reader:
                         'label': relationMatrix[i][j],
                         'originalLabel': relationMatrix[i][j],
                         'fullText1': original_text2,
-                        'fileid': file_id ,
+                        'fileid': file_id,
                     }
 
                     positArg1 = int(propositions[i]['TextPosition']['@start'])
@@ -362,7 +372,7 @@ class Reader:
                 'label': adu_type,
                 'fullText1': original_txt,
                 'positArg1': positArg1 / len(original_txt),
-                'fileid':fileid
+                'fileid': fileid
             }
             file_data.append(line_data)
         return file_data
@@ -379,17 +389,6 @@ def get_train_test_split(path: str) -> list:
         label = 0
         if "test" in x.lower():
             label = 1
-        format_file.append((x[1:9],label))
+        format_file.append((x[1:9], label))
     return format_file
 
-# if __name__ == "__main__":
-#     path = getcwd()[:-11] + "/ArgumentAnnotatedEssays-2.0"
-#     # path = "/home/charlie/Documents/Project/ArgumentAnnotatedEssays-2.0/"
-#     reader = Reader(path)
-#
-#     print()
-#     t = reader.load_from_directory()
-#     print()
-#     print(t)
-#     print(list(t.columns.values))
-#     print(t.iloc[0])
