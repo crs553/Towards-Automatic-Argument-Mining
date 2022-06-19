@@ -10,10 +10,10 @@ def main() -> None:
     """
     Start of Implementation of methods
     """
-    print("Please enter method type:\n> DI - Discourse Indicators\n> SVM\n> TBD\n> CM - Combined Method (uses all "
+    print("Please enter method type:\n> DI - Discourse Indicators\n> SVM\n> CM - Combined Method (uses all "
           "above)")
     # method_type = input().lower()
-    method_type = "svm"
+    method_type = "cm"
 
     # see if value appropriate
     allowed = {"di", "svm", "cm"}
@@ -27,7 +27,10 @@ def main() -> None:
     elif method_type == "svm":
         SVM_pipeline.run()
     elif method_type == "cm":
-        pass
+        print("Combined Method")
+        SVM_pipeline.run_combined()
+    else:
+        print("Option not selcted please restart the program")
 
 
 # Start script

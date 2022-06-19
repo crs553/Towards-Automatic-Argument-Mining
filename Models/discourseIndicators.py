@@ -8,14 +8,16 @@ from nltk.corpus import stopwords
 
 
 class disInd():
-    def __init__(self, texts=None, indicators="discourse_indicators"):
+    def __init__(self, texts=None, indicators="discourse_indicators", combined =False):
         """
         Intialises Discourse indicators
         :param texts: text to be ran on (can be set later using set_text method)
         :param indicators: name of .txt file to use for indicators
         """
         self.__indicators = self.open_indicators(indicators)
-        self.__texts = texts
+        if not combined:
+            self.__texts = texts
+
 
     def set_text(self, text):
         """Sets texts for use in discoruse indicators"""
@@ -67,6 +69,20 @@ class disInd():
                 identified_tuples.append((arg1, arg2))
 
         return correct, identified_tuples
+
+    def run_combined(self, x_test):
+        x_test.reset_index(drop=True, inplace=True)
+        index = x_test.index
+        pos = []
+        sents1 = x_test['sent1'].tolist()
+        sents2 = x_test['sent2'].tolist()
+
+        for i in index:
+            pos.append(1) if self.compare_args(sents1[i],sents2[i]) else pos.append(0)
+
+        return pos
+
+
 
     def compare_args(self, arg1, arg2):
         """
@@ -139,6 +155,11 @@ def run():
     print(f"Precision\t{precision}")
     print(f"Recall\t{recall}")
     print(f"f1\t{f1}")
+
+def run_combined(x_test):
+    v = disInd(combined=True)
+    return v.run_combined(x_test)
+
 
 
 if __name__ == "__main__":
