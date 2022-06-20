@@ -8,9 +8,9 @@ from nltk.corpus import stopwords
 
 
 class disInd():
-    def __init__(self, texts=None, indicators="discourse_indicators", combined =False):
+    def __init__(self, texts=None, indicators="discourse_indicators", combined=False):
         """
-        Intialises Discourse indicators
+        Initialises Discourse indicators
         :param texts: text to be ran on (can be set later using set_text method)
         :param indicators: name of .txt file to use for indicators
         """
@@ -18,9 +18,8 @@ class disInd():
         if not combined:
             self.__texts = texts
 
-
     def set_text(self, text):
-        """Sets texts for use in discoruse indicators"""
+        """Sets texts for use in discourse indicators"""
         self.__texts = text
 
     @property
@@ -59,7 +58,7 @@ class disInd():
         text = self.texts[0]['fullText1']
         sent_text = sent_tokenize(text)
         identified_tuples = []
-        for i in range(len(sent_text)-1):
+        for i in range(len(sent_text) - 1):
             arg1 = sent_text[i]
             arg2 = sent_text[i + 1]
             if self.compare_args(arg1, arg2):
@@ -71,6 +70,11 @@ class disInd():
         return correct, identified_tuples
 
     def run_combined(self, x_test):
+        """
+
+        :param x_test:
+        :return:
+        """
         x_test.reset_index(drop=True, inplace=True)
         index = x_test.index
         pos = []
@@ -78,11 +82,9 @@ class disInd():
         sents2 = x_test['sent2'].tolist()
 
         for i in index:
-            pos.append(1) if self.compare_args(sents1[i],sents2[i]) else pos.append(0)
+            pos.append(1) if self.compare_args(sents1[i], sents2[i]) else pos.append(0)
 
         return pos
-
-
 
     def compare_args(self, arg1, arg2):
         """
@@ -128,8 +130,8 @@ def run():
 
     # t = reader.load_from_directory()
     total = 0
-    indicators = "premise_indicators"  # change this to change the text file used
-    v = disInd(None, indicators)
+    # indicators = "combined_indicators"  # change this to change the text file used
+    v = disInd(None)
 
     # case ran over full text
     total_identified = 0
@@ -150,16 +152,22 @@ def run():
 
     precision = precision_numerator / total_identified
     recall = total_identified / total
-    f1 = (precision * recall) / (precision + recall)
+    # f1 = 2*(precision * recall) / (precision + recall)
+    f1 = 2 / ((1/recall) + (1/precision))
     print(f"Values over while dataset")
     print(f"Precision\t{precision}")
     print(f"Recall\t{recall}")
     print(f"f1\t{f1}")
 
+
 def run_combined(x_test):
+    """
+
+    :param x_test:
+    :return:
+    """
     v = disInd(combined=True)
     return v.run_combined(x_test)
-
 
 
 if __name__ == "__main__":

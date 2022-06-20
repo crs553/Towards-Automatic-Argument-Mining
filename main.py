@@ -5,6 +5,7 @@ from dataReader.dataReader import Reader
 from Models import discourseIndicators, SVM_pipeline
 
 
+
 # sorting out what method to take
 def main() -> None:
     """
@@ -12,8 +13,7 @@ def main() -> None:
     """
     print("Please enter method type:\n> DI - Discourse Indicators\n> SVM\n> CM - Combined Method (uses all "
           "above)")
-    # method_type = input().lower()
-    method_type = "cm"
+    method_type = input("Enter: ").lower()
 
     # see if value appropriate
     allowed = {"di", "svm", "cm"}

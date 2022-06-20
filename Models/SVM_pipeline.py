@@ -10,7 +10,7 @@ from nltk.tokenize import RegexpTokenizer, sent_tokenize, word_tokenize
 from sklearn import svm
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import classification_report, accuracy_score, precision_recall_fscore_support, recall_score, \
-    f1_score
+    f1_score, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler, LabelEncoder
@@ -18,8 +18,6 @@ from sklearn_pandas import DataFrameMapper
 from tqdm import tqdm
 from dataReader.dataReader import Reader
 import Models.discourseIndicators as discourseIndicators
-
-# from sklearn.
 
 
 class SVM_argClassification():
@@ -49,7 +47,7 @@ class SVM_argClassification():
         self.is_trained = False
         self.y_pred = None
 
-    def prep_data_arg(self):
+    def prep_data_arg(self) -> tuple[list, list, list, list]:
         """PReps the training a test data"""
 
         data = self.datareader.load_from_directory()
@@ -192,6 +190,14 @@ class SVM_argClassification():
 
 class SvmRelationship():
     def __init__(self, data, build=True, combined=False, x_train=None, x_test=None):
+        """
+
+        :param data:
+        :param build:
+        :param combined:
+        :param x_train:
+        :param x_test:
+        """
 
         self.data = data
         self.combined = combined
@@ -228,7 +234,11 @@ class SvmRelationship():
                                        ])
         self.clf = make_pipeline(StandardScaler(with_mean=False), svm.SVC(gamma='auto'))
 
-    def build_relations(self):
+    def build_relations(self) -> None:
+        """
+
+        :return:
+        """
         print("building relations database for all values")
 
         fullTexts = self.data.fullText1.unique()
@@ -296,7 +306,7 @@ class SvmRelationship():
             self.relations = pd.read_pickle('relational_dataset.pkl')
             print("Relational_dataset loaded")
 
-    def build_relations_combined(self):
+    def build_relations_combined(self) -> None:
         # train_sents = self.x_train[self.x_train['sent_vectors']].to_list()
         # test_sents = self.x_test.copy()
         train_sents = self.x_train.copy()
@@ -344,10 +354,11 @@ class SvmRelationship():
         for i in index:
             s = sents1[i].lower()
             s2 = sents2[i].lower()
-            if s in sent_lst_test or s2 in sent_lst_test:
-                keep_pos[i] = 1
-            elif s in sent_lst_train or s2 in sent_lst_train:
+            if s in sent_lst_train or s2 in sent_lst_train:
                 keep_pos[i] = 0
+
+            elif s in sent_lst_test or s2 in sent_lst_test:
+                keep_pos[i] = 1
 
         df['test_train_split'] = keep_pos
 
@@ -355,21 +366,21 @@ class SvmRelationship():
 
         self.relations = data
 
-    def get_split_combined(self):
+    def get_split_combined(self) -> tuple[list, list]:
 
         self.x_train = self.relations[self.relations['test_train_split'] == 0]
         self.x_test = self.relations[self.relations['test_train_split'] == 1]
 
         return self.x_train, self.x_test
 
-    def get_features(self):
+    def get_features(self) -> object:
         if self.combined:
             self.mapper.fit_transform(self.relations)
             return self.mapper.transform(self.x_train), self.mapper.transform(self.x_test)
         features = self.mapper.fit_transform(self.relations)
         return features
 
-    def get_labels(self):
+    def get_labels(self) -> tuple[list, list]:
         if self.combined:
             self.y_train = self.x_train['labels'].tolist()
             self.y_test = self.x_test['labels'].tolist()
@@ -379,7 +390,12 @@ class SvmRelationship():
         labels = self.relations['labels'].tolist()
         return self.__get_labels(labels)
 
-    def __get_labels(self,labels):
+    def __get_labels(self, labels) -> list:
+        """
+
+        :param labels:
+        :return:
+        """
         vals = []
         for x in labels:
             if type(x) == float:
@@ -390,7 +406,14 @@ class SvmRelationship():
         vals = self.labelenc.transform(vals)
         return vals
 
-    def run_model(self, x = None, y = None, train=True):
+    def run_model(self, x=None, y=None, train=True):
+        """
+
+        :param x:
+        :param y:
+        :param train:
+        :return:
+        """
         under_sampler = RandomUnderSampler(random_state=42)
 
         if self.combined:
@@ -399,7 +422,7 @@ class SvmRelationship():
             y_train = self.y_train
             y_test = self.y_test
         else:
-              x_train, x_test, y_train, y_test = train_test_split(x, y)
+            x_train, x_test, y_train, y_test = train_test_split(x, y)
         x_trnew, y_trnew = under_sampler.fit_resample(x_train, y_train)
         print(f"Train\nx: {len(x_trnew)}\ty: {len(y_trnew)}")
         if train:
@@ -411,20 +434,37 @@ class SvmRelationship():
 
 
 def clean_str(txt):
+    """
+
+    :param txt:
+    :return:
+    """
     text = ''.join([w for w in txt if w not in string.punctuation])
     text = text.lower()
     return text
 
 
 def score(y_test, y_pred):
+    """
+
+    :param y_test:
+    :param y_pred:
+    :return:
+    """
     print(f"Accuracy: {round(accuracy_score(y_test, y_pred), 3)}\t"
           f"Recall: {round(recall_score(y_test, y_pred), 3)}\tF1 {round(f1_score(y_test, y_pred), 3)}")
     print(f"Micro report: {precision_recall_fscore_support(y_test, y_pred, average='micro')}")
     print("Report")
     print(classification_report(y_test, y_pred))
+    print("Confusion Matrix")
+    print(confusion_matrix(y_test, y_pred))
 
 
 def run():
+    """
+
+    :return:
+    """
     # if input("save or load or arg").lower() == "save":
     #     saveTloadF = True
     path = getcwd()
@@ -457,6 +497,10 @@ def run():
 
 
 def run_combined():
+    """
+
+    :return:
+    """
     path = getcwd()
     path += "/ArgumentAnnotatedEssays-2.0/"
     reader = Reader(path)
@@ -480,7 +524,7 @@ def run_combined():
     # SVM Relationship Classifier
     print("SVM Relationship Classifier")
 
-    #Data Prep
+    # Data Prep
     pred = ml_model.pred()
     data = ml_model.data
     dataframe = ml_model.overall_data
@@ -506,26 +550,21 @@ def run_combined():
     svm_relation.x_train, svm_relation.x_test = svm_relation.get_features()
     y_pred = svm_relation.run_model()
 
+    print("Link Classification Scoring")
+    score(svm_relation.y_test, y_pred)
+
     print("Link and Discourse Combined Classification")
     overall_pred = []
-    for i,x in enumerate(y_pred):
-        if y_pred_disc[i] == 1:
-            overall_pred.append(y_pred_disc[i])
+    print()
+    for i, x in enumerate(y_pred):
+        if y_pred_disc[i] == 1 or y_pred[i] == 1:
+            overall_pred.append(1)
         else:
-            overall_pred.append(y_pred[i])
+            overall_pred.append(0)
 
     score(svm_relation.y_test, overall_pred)
 
     print("Finished")
-
-
-
-
-
-    # svm_relation.build_relations()
-    # x = svm_relation.get_features()
-    # y = svm_relation.get_labels()
-    # svm_relation.run_model(x=, y=y, train=True)
 
 
 def prep_rel_dataset(y, x, df, data, features, test=True):
