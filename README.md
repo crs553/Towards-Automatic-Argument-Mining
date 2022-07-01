@@ -6,12 +6,16 @@
 - Only tested with Python 3.10
 
 ## Dataset link:
+- [Student Essay Corpus v2](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2422)
 
 ## Code references:
+- [ArgumentBert](https://github.com/negedng/argument_BERT/)
+- [MilzParser](https://github.com/Milzi/arguEParser)
 
 ## Prerequisites befores running:
 - Install requirements in requirements.txt
 - run setup.py
+- Run Spacy download command (at bottom of readme)
 
 ## Setting up PyCharm on Linux:
 - Download Pycharm
@@ -20,11 +24,6 @@
 - run `source ~/.bashrc`
 - run Pycharm in Project directory using terminal `./pycharm.sh`
 
-## Getting GoogleNews-vectors
-1. `python -m gensim.downloader -d word2vec-google-news-300`
-2. Move word2vec-google-news-300.gz to Project/ directory 
-3. gzip -d ./word2vec-google-news-300.gz
-4. https://code.google.com/archive/p/word2vec/
 
 ## Spacy Download
 1. python -m spacy download en_core_web_lg

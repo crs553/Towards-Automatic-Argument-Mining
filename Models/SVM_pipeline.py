@@ -21,10 +21,15 @@ import Models.discourseIndicators as discourseIndicators
 
 
 class SVM_argClassification():
-    def __init__(self, path, datareader=None, vec=None, clf=None, build=True, combined=False):
+    def __init__(self, path, datareader=None, vec=None, clf=None, build=True, combined=False) -> None:
         """
-        Support Vector Machine initialisation
-        :param path:
+        SVM for argumentative identification
+        :param path: path to project directory
+        :param datareader: datareader class for loading the intial argument maps for the class
+        :param vec: cetoriser class
+        :param clf: clf class for passing in pipeline
+        :param build: option to load dataset prebuilt from class
+        :param combined: turn on combined method
         """
         self.combined = combined
         self.features = None
@@ -48,7 +53,10 @@ class SVM_argClassification():
         self.y_pred = None
 
     def prep_data_arg(self) -> tuple[list, list, list, list]:
-        """PReps the training a test data"""
+        """
+        Preps the test and training data for non-combined metho
+        :return: tuple of list of the split up x y of the train and test set with their respective xs and ys
+        """
 
         data = self.datareader.load_from_directory()
 
@@ -170,6 +178,7 @@ class SVM_argClassification():
         return x_train, x_test, y_train, y_test
 
     def train_arg(self):
+        """Training dta"""
         x_tr = self.x_train
         y_tr = self.y_train
         self.clf.fit(x_tr, y_tr)
@@ -177,29 +186,35 @@ class SVM_argClassification():
         print("Training Complete")
 
     def test_arg(self):
+        """Run testing on pipeline"""
         x_te = self.x_test
         self.y_pred = self.clf.predict(x_te)
         return self.y_pred
 
     def score(self, y_pred):
+        """Score inputted prediction against the test set"""
         score(self.y_test, y_pred)
 
     def pred(self):
+        """Return the predictions"""
         return self.y_pred
 
 
 class SvmRelationship():
     def __init__(self, data, build=True, combined=False, x_train=None, x_test=None):
         """
-
-        :param data:
-        :param build:
-        :param combined:
-        :param x_train:
-        :param x_test:
+        Initialisations of the relationships between sentence pairs
+        :param data: input data from datareader
+        :param build: if true build model else load from pkl file
+        :param combined: create combined variables
+        :param x_train: dataframe for train-set
+        :param x_test: datagrame for test-set
         """
 
+        #overall dataframe
         self.data = data
+
+        #used in combined method
         self.combined = combined
         if combined:
             self.x_train = x_train.copy()
@@ -208,19 +223,20 @@ class SvmRelationship():
             self.y_test = None
             self.sentence_pairs = None
 
+        #get unique labels
         labels = self.data.label.unique()
         labels = [abs(x) for x in labels.tolist()]
         # labels.extend([3.0])
         labels = list(set(labels))
-        # print(labels)
+
+        #fitting to encode labels
         self.labelenc = LabelEncoder()
         self.labelenc.fit([1.0, 0.0])
-        self.datamapper = None
-        self.vectoriser_mod = TfidfVectorizer(stop_words="english", max_features=50, decode_error="ignore",
-                                              ngram_range=(1, 2), min_df=1)
 
-        self.build = build
-        self.relations = None
+        #mapper/datamapper
+        self.datamapper = None
+
+        self.vectoriser_mod = TfidfVectorizer(stop_words="english", max_features=50, decode_error="ignore",ngram_range=(1, 2), min_df=1)
         self.mapper = DataFrameMapper([('sent1', self.vectoriser_mod),
                                        ('sent2', self.vectoriser_mod),
                                        ('three1', self.vectoriser_mod),
@@ -232,31 +248,43 @@ class SvmRelationship():
                                        ('pos_b', None),
                                        ('fileid', None)
                                        ])
+
+        #build variable
+        self.build = build
+
+        #rlations
+        self.relations = None
+
+        #svm
         self.clf = make_pipeline(StandardScaler(with_mean=False), svm.SVC(gamma='auto'))
 
     def build_relations(self) -> None:
-        """
-
-        :return:
-        """
+        """Build relations for non-combined dataset"""
         print("building relations database for all values")
 
+        #get unique fullTexts
         fullTexts = self.data.fullText1.unique()
 
-        pairs = []
+        #get all sentences as tokenised values
         all_sentences = [sent_tokenize(x) for x in fullTexts]
 
+        #get all sentence pairs that are in the dataset
+        pairs = []
         for i, unique in enumerate(fullTexts):
             pairs.append((self.data.loc[self.data['fullText1'] == unique, 'fileid'].iloc[0], all_sentences[i]))
 
+        # for the positions of the pairs in the datsaet
         all_pos = [i for (i, _) in pairs]
 
+        # get the file ids for all sentences
         all_sent_fileid = [(i, clean_str(sent)) for i, sents in enumerate(all_sentences) for sent in sents]
-        all_fileid = [i for (i, _) in all_sent_fileid]
 
+        #get the relation in the dataset
         relations = self.data.loc[:, ['originalArg1', 'originalArg2', 'label', 'fileid']]
+
         nlp = spacy.load("en_core_web_lg")
-        if self.build:  # if dataset is not a pickle file
+        if self.build:  # if dataset is not a pickle file create datsaet
+            #create variables for each features in the dataset
             senta, sentb = [], []
             pos_tag_a = []
             pos_tag_b = []
@@ -265,8 +293,11 @@ class SvmRelationship():
             temp_file_pos = []
             labels = []
             three1, three2 = [], []
+
+            # Progress bar
             pbar = tqdm(total=len(all_sentences))
 
+            #for each document get the features of each sentence pair
             for i, doc in enumerate(all_sentences):
                 len_doc = len(doc)
                 pos = [(j / len_doc, x) for j, x in enumerate(doc)]
@@ -277,17 +308,25 @@ class SvmRelationship():
                                                 (self.data['originalArg2'] == sent2)), 'label'].tolist()
                     label_temp = [abs(x) for x in label_temp]
                     label_temp = list(set(label_temp))
+
+                    # if the sentence pair is not contianed within the dataset
                     if len(label_temp) == 0:
                         label_temp = 3.0
+
+                    #sentence similarity
                     nlps1 = nlp(sent1)
                     nlps2 = nlp(sent2)
                     sent_sim = nlps1.similarity(nlps2)
+
+                    # pos tag of sentence
                     tag_a = [x.lower() for (_, x) in nltk.pos_tag(word_tokenize(sent1))]
                     tag_b = [x.lower() for (_, x) in nltk.pos_tag(word_tokenize(sent2))]
                     pos_tag_a.append(' '.join(tag_a))
                     pos_tag_b.append(' '.join(tag_b))
+
                     three1.append(sent1[-3:])
                     three2.append(sent2[:3])
+
                     labels.append(label_temp)
                     senta.append(sent1)
                     pos_a.append([a for (a, x) in pos if x == sent1][0])
@@ -307,6 +346,7 @@ class SvmRelationship():
             print("Relational_dataset loaded")
 
     def build_relations_combined(self) -> None:
+        """Combined relations datsaset builder"""
         # train_sents = self.x_train[self.x_train['sent_vectors']].to_list()
         # test_sents = self.x_test.copy()
         train_sents = self.x_train.copy()
@@ -367,6 +407,7 @@ class SvmRelationship():
         self.relations = data
 
     def get_split_combined(self) -> tuple[list, list]:
+        """split dataset into test and train set for combined dataset"""
 
         self.x_train = self.relations[self.relations['test_train_split'] == 0]
         self.x_test = self.relations[self.relations['test_train_split'] == 1]
@@ -374,6 +415,7 @@ class SvmRelationship():
         return self.x_train, self.x_test
 
     def get_features(self) -> object:
+        """Get the features of a datset and return them"""
         if self.combined:
             self.mapper.fit_transform(self.relations)
             return self.mapper.transform(self.x_train), self.mapper.transform(self.x_test)
@@ -381,6 +423,7 @@ class SvmRelationship():
         return features
 
     def get_labels(self) -> tuple[list, list]:
+        """Get the labels within a dataset"""
         if self.combined:
             self.y_train = self.x_train['labels'].tolist()
             self.y_test = self.x_test['labels'].tolist()
@@ -392,7 +435,7 @@ class SvmRelationship():
 
     def __get_labels(self, labels) -> list:
         """
-
+        convert passed labels list into appropriately encoded list
         :param labels:
         :return:
         """
@@ -408,11 +451,11 @@ class SvmRelationship():
 
     def run_model(self, x=None, y=None, train=True):
         """
-
-        :param x:
-        :param y:
-        :param train:
-        :return:
+        Runs the model
+        :param x: only required if training uncombined
+        :param y: only required if traiing uncombined
+        :param train: True or false value indicating want to train
+        :return: predictions for labels
         """
         under_sampler = RandomUnderSampler(random_state=42)
 
@@ -433,23 +476,22 @@ class SvmRelationship():
         return y_pred
 
 
-def clean_str(txt):
+def clean_str(txt:list) -> str:
     """
-
-    :param txt:
-    :return:
+    Concatenates list to space separate lowercase string
+    :param txt:list of strings
+    :return: space separated lowercase str
     """
     text = ''.join([w for w in txt if w not in string.punctuation])
     text = text.lower()
     return text
 
 
-def score(y_test, y_pred):
+def score(y_test, y_pred) -> None:
     """
-
-    :param y_test:
-    :param y_pred:
-    :return:
+    Prints score to terminal
+    :param y_test: true values
+    :param y_pred:  predicted values
     """
     print(f"Accuracy: {round(accuracy_score(y_test, y_pred), 3)}\t"
           f"Recall: {round(recall_score(y_test, y_pred), 3)}\tF1 {round(f1_score(y_test, y_pred), 3)}")
@@ -462,11 +504,11 @@ def score(y_test, y_pred):
 
 def run():
     """
-
+    Runs the non-combined method
     :return:
     """
-    # if input("save or load or arg").lower() == "save":
-    #     saveTloadF = True
+
+    #get current position of argument annotations dataset
     path = getcwd()
     path += "/ArgumentAnnotatedEssays-2.0/"
     reader = Reader(path)
@@ -498,7 +540,7 @@ def run():
 
 def run_combined():
     """
-
+    Combined method
     :return:
     """
     path = getcwd()
@@ -529,9 +571,9 @@ def run_combined():
     data = ml_model.data
     dataframe = ml_model.overall_data
     features = ml_model.features
-    test_data = prep_rel_dataset(pred, x_test, dataframe, data, features, test=True)
+    test_data = prep_rel_dataset(pred, x_test, dataframe, test=True)
 
-    train_data = prep_rel_dataset(y_train, x_train, dataframe, data, features, test=False)
+    train_data = prep_rel_dataset(y_train, x_train, dataframe, test=False)
     # raise ValueError
     svm_relation = SvmRelationship(data, combined=True, x_train=train_data, x_test=test_data)
     svm_relation.build_relations_combined()
@@ -567,13 +609,16 @@ def run_combined():
     print("Finished")
 
 
-def prep_rel_dataset(y, x, df, data, features, test=True):
-    # df =
-    np.set_printoptions(threshold=np.inf)
+def prep_rel_dataset(y, x, df, test=True):
+    """
+    prepares daaset for transition between argument classification and relation prediction
+    :param y: y variables
+    :param x: x variables
+    :param df: dataframe of filtered data
+    :param test:
+    :return:
+    """
     egs = len(x)
-    new_df = None
-    pd.set_option('display.max_columns', 500)
-    pd.set_option('display.width', 1000)
     if test:
         new_df = df[-egs:].copy()
     else:
@@ -581,7 +626,6 @@ def prep_rel_dataset(y, x, df, data, features, test=True):
 
     # only keep values which are argumentative
     if test:
-        # for x in
         new_df['y_pred'] = y
         new_df = new_df[new_df['y_pred'] == 1].copy()
         new_df.drop('y_pred', axis=1, inplace=True)

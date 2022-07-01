@@ -1,10 +1,9 @@
-from dataReader.dataReader import Reader
-from os import getcwd
-import re
-from nltk import sent_tokenize
 import string
-import json
-from nltk.corpus import stopwords
+from os import getcwd
+
+from nltk import sent_tokenize
+
+from dataReader.dataReader import Reader
 
 
 class disInd():
@@ -71,7 +70,7 @@ class disInd():
 
     def run_combined(self, x_test):
         """
-
+        combined method for discourse indicators
         :param x_test:
         :return:
         """
