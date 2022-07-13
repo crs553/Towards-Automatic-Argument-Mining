@@ -388,10 +388,11 @@ class SvmRelationship():
 
         sents_df = [df['sent1'][i].lower() for i in index]
         # keep_pos = [1 if s in sent_lst_test else 0 if s in sent_lst_train else -1 for s in sents_df]
-
+        print(sent_lst_train)
         sents1 = df['sent1'].to_list()
         sents2 = df['sent2'].to_list()
         for i in index:
+
             s = sents1[i].lower()
             s2 = sents2[i].lower()
             if s in sent_lst_train or s2 in sent_lst_train:
@@ -399,6 +400,8 @@ class SvmRelationship():
 
             elif s in sent_lst_test or s2 in sent_lst_test:
                 keep_pos[i] = 1
+
+
 
         df['test_train_split'] = keep_pos
 
@@ -471,8 +474,6 @@ class SvmRelationship():
         if train:
             self.clf.fit(x_trnew, y_trnew)
         y_pred = self.clf.predict(x_test)
-        print("scoring")
-        score(y_test, y_pred)
         return y_pred
 
 
