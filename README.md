@@ -1,5 +1,11 @@
 # Argument Mining Project
 
+## 3rd Project University of York
+- Supervisor: [Tommy Yuan](https://www-users.cs.york.ac.uk/~tommy/)
+
+## Abstract
+This paper aims to address the labour-intensive nature and expert annotator requirements of manual argument annotation by providing an initial sentence-level pipeline for argument identification and sentence relationship prediction. Before establishing our approach, we review current efforts to produce combined techniques and the abstract pipelines available. We use the methods indicated in this review to produce standalone identification and relationship prediction methods. To produce a combined approach, we use the aforementioned methods in a pipeline manner. We present results for this which show effective sentence identification but shortcomings in relationship detection. Overall, this paper indicates that combined approaches to argumentation are a promising area requiring further research.
+
 ## Things to note:
 - Code only tested on Pop_OS 21.10 (Ubuntu)
 - Linux kernel 5.17.5-76051705-generic
