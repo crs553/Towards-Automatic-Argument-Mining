@@ -211,10 +211,10 @@ class SvmRelationship():
         :param x_test: datagrame for test-set
         """
 
-        #overall dataframe
+        # overall dataframe
         self.data = data
 
-        #used in combined method
+        # used in combined method
         self.combined = combined
         if combined:
             self.x_train = x_train.copy()
@@ -223,20 +223,21 @@ class SvmRelationship():
             self.y_test = None
             self.sentence_pairs = None
 
-        #get unique labels
+        # get unique labels
         labels = self.data.label.unique()
         labels = [abs(x) for x in labels.tolist()]
         # labels.extend([3.0])
         labels = list(set(labels))
 
-        #fitting to encode labels
+        # fitting to encode labels
         self.labelenc = LabelEncoder()
         self.labelenc.fit([1.0, 0.0])
 
-        #mapper/datamapper
+        # mapper/datamapper
         self.datamapper = None
 
-        self.vectoriser_mod = TfidfVectorizer(stop_words="english", max_features=50, decode_error="ignore",ngram_range=(1, 2), min_df=1)
+        self.vectoriser_mod = TfidfVectorizer(stop_words="english", max_features=50, decode_error="ignore",
+                                              ngram_range=(1, 2), min_df=1)
         self.mapper = DataFrameMapper([('sent1', self.vectoriser_mod),
                                        ('sent2', self.vectoriser_mod),
                                        ('three1', self.vectoriser_mod),
@@ -249,26 +250,26 @@ class SvmRelationship():
                                        ('fileid', None)
                                        ])
 
-        #build variable
+        # build variable
         self.build = build
 
-        #rlations
+        # rlations
         self.relations = None
 
-        #svm
+        # svm
         self.clf = make_pipeline(StandardScaler(with_mean=False), svm.SVC(gamma='auto'))
 
     def build_relations(self) -> None:
         """Build relations for non-combined dataset"""
         print("building relations database for all values")
 
-        #get unique fullTexts
+        # get unique fullTexts
         fullTexts = self.data.fullText1.unique()
 
-        #get all sentences as tokenised values
+        # get all sentences as tokenised values
         all_sentences = [sent_tokenize(x) for x in fullTexts]
 
-        #get all sentence pairs that are in the dataset
+        # get all sentence pairs that are in the dataset
         pairs = []
         for i, unique in enumerate(fullTexts):
             pairs.append((self.data.loc[self.data['fullText1'] == unique, 'fileid'].iloc[0], all_sentences[i]))
@@ -279,12 +280,12 @@ class SvmRelationship():
         # get the file ids for all sentences
         all_sent_fileid = [(i, clean_str(sent)) for i, sents in enumerate(all_sentences) for sent in sents]
 
-        #get the relation in the dataset
+        # get the relation in the dataset
         relations = self.data.loc[:, ['originalArg1', 'originalArg2', 'label', 'fileid']]
 
         nlp = spacy.load("en_core_web_lg")
         if self.build:  # if dataset is not a pickle file create datsaet
-            #create variables for each features in the dataset
+            # create variables for each features in the dataset
             senta, sentb = [], []
             pos_tag_a = []
             pos_tag_b = []
@@ -297,7 +298,7 @@ class SvmRelationship():
             # Progress bar
             pbar = tqdm(total=len(all_sentences))
 
-            #for each document get the features of each sentence pair
+            # for each document get the features of each sentence pair
             for i, doc in enumerate(all_sentences):
                 len_doc = len(doc)
                 pos = [(j / len_doc, x) for j, x in enumerate(doc)]
@@ -313,7 +314,7 @@ class SvmRelationship():
                     if len(label_temp) == 0:
                         label_temp = 3.0
 
-                    #sentence similarity
+                    # sentence similarity
                     nlps1 = nlp(sent1)
                     nlps2 = nlp(sent2)
                     sent_sim = nlps1.similarity(nlps2)
@@ -387,21 +388,19 @@ class SvmRelationship():
         keep_pos = [-1] * len(index)
 
         sents_df = [df['sent1'][i].lower() for i in index]
-        # keep_pos = [1 if s in sent_lst_test else 0 if s in sent_lst_train else -1 for s in sents_df]
-        # print(sent_lst_train)
-        sents1 = df['sent1'].to_list()
-        sents2 = df['sent2'].to_list()
+        sents = df[['sent1', 'sent2']].values.tolist()
+        sents = [(x.lower(), y.lower()) for x, y in sents]
+        pdbar = tqdm(total=len(index))
+
         for i in index:
 
-            s = sents1[i].lower()
-            s2 = sents2[i].lower()
+            s, s2 = sents[i]
             if s in sent_lst_train or s2 in sent_lst_train:
                 keep_pos[i] = 0
 
             elif s in sent_lst_test or s2 in sent_lst_test:
                 keep_pos[i] = 1
-
-
+            pdbar.update(1)
 
         df['test_train_split'] = keep_pos
 
@@ -477,7 +476,7 @@ class SvmRelationship():
         return y_pred
 
 
-def clean_str(txt:list) -> str:
+def clean_str(txt: list) -> str:
     """
     Concatenates list to space separate lowercase string
     :param txt:list of strings
@@ -509,7 +508,7 @@ def run():
     :return:
     """
 
-    #get current position of argument annotations dataset
+    # get current position of argument annotations dataset
     path = getcwd()
     path += "/ArgumentAnnotatedEssays-2.0/"
     reader = Reader(path)
@@ -584,7 +583,7 @@ def run_combined():
 
     # Discourse Indicators
     # y_pred_dics = discourseIndicators(discourseIndicators="combined_indicators", combined = True)
-    y_pred_disc = discourseIndicators.run_combined(x_test, typ = "premise_indicators")
+    y_pred_disc = discourseIndicators.run_combined(x_test, typ="premise_indicators")
 
     svm_relation.y_train, svm_relation.y_test = svm_relation.get_labels()
 
