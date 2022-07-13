@@ -7,7 +7,7 @@ from dataReader.dataReader import Reader
 
 
 class disInd():
-    def __init__(self, texts=None, indicators="discourse_indicators", combined=False):
+    def __init__(self, texts=None, indicators="combined_indicators", combined=False):
         """
         Initialises Discourse indicators
         :param texts: text to be ran on (can be set later using set_text method)
@@ -159,13 +159,13 @@ def run():
     print(f"f1\t{f1}")
 
 
-def run_combined(x_test):
+def run_combined(x_test, typ = ""):
     """
 
     :param x_test:
     :return:
     """
-    v = disInd(combined=True)
+    v = disInd(indicators=typ, combined=True)
     return v.run_combined(x_test)
 
 

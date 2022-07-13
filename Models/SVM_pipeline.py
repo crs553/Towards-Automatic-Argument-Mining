@@ -388,7 +388,7 @@ class SvmRelationship():
 
         sents_df = [df['sent1'][i].lower() for i in index]
         # keep_pos = [1 if s in sent_lst_test else 0 if s in sent_lst_train else -1 for s in sents_df]
-        print(sent_lst_train)
+        # print(sent_lst_train)
         sents1 = df['sent1'].to_list()
         sents2 = df['sent2'].to_list()
         for i in index:
@@ -583,7 +583,8 @@ def run_combined():
     x_test = svm_relation.x_test
 
     # Discourse Indicators
-    y_pred_disc = discourseIndicators.run_combined(x_test)
+    # y_pred_dics = discourseIndicators(discourseIndicators="combined_indicators", combined = True)
+    y_pred_disc = discourseIndicators.run_combined(x_test, typ = "premise_indicators")
 
     svm_relation.y_train, svm_relation.y_test = svm_relation.get_labels()
 
@@ -598,8 +599,7 @@ def run_combined():
 
     print("Link and Discourse Combined Classification")
     overall_pred = []
-    print()
-    for i, x in enumerate(y_pred):
+    for i in range(len(svm_relation.y_test)):
         if y_pred_disc[i] == 1 or y_pred[i] == 1:
             overall_pred.append(1)
         else:
