@@ -1,6 +1,6 @@
 # Argument Mining Project
 
-## 3rd Project University of York
+## 3rd Year Project University of York
 - Supervisor: [Tommy Yuan](https://www-users.cs.york.ac.uk/~tommy/)
 
 ## Abstract
