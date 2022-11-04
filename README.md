@@ -1,6 +1,7 @@
 # Argument Mining Project
 
 ## 3rd Year Project University of York
+- Project created by: Charles Stubbs
 - Supervisor: [Tommy Yuan](https://www-users.cs.york.ac.uk/~tommy/)
 
 ## Abstract
