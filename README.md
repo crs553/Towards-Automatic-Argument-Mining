@@ -8,7 +8,7 @@
 This paper addresses the labour-intensive nature and expert annotator requirements of manual argument annotation by providing an initial sentence-level pipeline for argument identification and sentence relationship prediction. Before establishing our approach, we review current efforts to produce combined techniques and the available abstract pipelines. Next, we use the methods indicated in this review to produce standalone identification and relationship prediction methods. Finally, we apply these methods in a pipeline to produce a combined approach. The presented results demonstrate effective sentence identification but shortcomings in relationship detection. Overall, this paper suggests that combined approaches to argumentation are a promising area requiring further research.
 
 ## Things to note:
-- Code only tested on Pop_OS 21.10 (Ubuntu)
+- Code only tested on Pop_OS 21.10 (GNU/Linux)
 - Linux kernel 5.17.5-76051705-generic
 - Only tested with Python 3.10
 
